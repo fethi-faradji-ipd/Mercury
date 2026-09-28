@@ -1,0 +1,4 @@
+﻿2026-09-15 09:12:13Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 09:12:13Z [ERROR] ligne_1 [migration] HTTP 400 (BadRequest), methode GET. Consulter les droits, quotas ou conflits de la ressource.
+2026-09-15 09:12:13Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0.01 min, 1 requetes, 0 retries.
+2026-09-15 09:12:13Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260915_111213_efdca7e7

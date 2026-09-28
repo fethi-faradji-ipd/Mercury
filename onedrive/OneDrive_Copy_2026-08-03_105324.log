@@ -1,0 +1,494 @@
+﻿[2026-08-03 10:53:24] [INFO] ============================================
+[2026-08-03 10:53:24] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-03 10:53:24] [INFO] ============================================
+[2026-08-03 10:53:24] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-03 10:53:24] [INFO] --------------------------------------------
+[2026-08-03 10:53:24] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-03 10:53:24] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-03 10:53:24] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-03 10:53:24] [INFO] --------------------------------------------
+[2026-08-03 10:53:25] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-03 10:53:25] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-03 10:53:25] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-03 10:53:25] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-03 10:53:25] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 10:53:25] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-03 10:53:25] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 10:53:25] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 10:53:25] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 10:53:25] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-03 10:53:26] [DEBUG]    📂 Attachments
+[2026-08-03 10:53:26] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-03 10:53:26] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:53:26] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 10:53:26] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 10:53:26] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-03 10:53:26] [DEBUG]    📂 Meetings
+[2026-08-03 10:53:26] [DEBUG]    📂 mep nameShield
+[2026-08-03 10:53:27] [DEBUG]    📄 mep nameShield/01- create_table_dw.sql (7212 o)
+[2026-08-03 10:53:27] [DEBUG]    📄 mep nameShield/02 - create_foreign_table_dm.sql (7552 o)
+[2026-08-03 10:53:27] [DEBUG]    📄 mep nameShield/03 - create_views_dm.sql (3497 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/cs
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/cs/Microsoft.Data.SqlClient.resources.dll (257656 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/de
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/de/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/es
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/es/Microsoft.Data.SqlClient.resources.dll (259192 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/fr
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/fr/Microsoft.Data.SqlClient.resources.dll (268408 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/it
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/it/Microsoft.Data.SqlClient.resources.dll (260216 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/ja
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/ja/Microsoft.Data.SqlClient.resources.dll (289416 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/ko
+[2026-08-03 10:53:27] [DEBUG]    📄 publish/ko/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:53:27] [DEBUG]    📂 publish/pl
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/pl/Microsoft.Data.SqlClient.resources.dll (266872 o)
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/pt-BR
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/pt-BR/Microsoft.Data.SqlClient.resources.dll (255096 o)
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/ru
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/ru/Microsoft.Data.SqlClient.resources.dll (344696 o)
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/unix
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/unix/lib
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/unix/lib/net8.0
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll (2098824 o)
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll (958744 o)
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/win
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/win/lib
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/win/lib/net8.0
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll (2163320 o)
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll (1027336 o)
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll (172704 o)
+[2026-08-03 10:53:28] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll (319784 o)
+[2026-08-03 10:53:28] [DEBUG]    📂 publish/runtimes/win-arm64
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/runtimes/win-arm64/native
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll (551976 o)
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-arm64/native/sni.dll (174224 o)
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/runtimes/win-x64
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/runtimes/win-x64/native
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll (566832 o)
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-x64/native/sni.dll (160040 o)
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/runtimes/win-x86
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/runtimes/win-x86/native
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll (477736 o)
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/runtimes/win-x86/native/sni.dll (136488 o)
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/tr
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/tr/Microsoft.Data.SqlClient.resources.dll (250488 o)
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/zh-Hans
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll (225928 o)
+[2026-08-03 10:53:29] [DEBUG]    📂 publish/zh-Hant
+[2026-08-03 10:53:29] [DEBUG]    📄 publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll (229496 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/appsettings.Development.json (127 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/appsettings.json (978 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Azure.Core.dll (437304 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Azure.Identity.dll (356912 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.deps.json (33317 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.dll (25600 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.exe (139264 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.pdb (27220 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.runtimeconfig.json (488 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/CreaModifAd-Connect.staticwebassets.endpoints.json (70 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Dapper.dll (245760 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Bcl.AsyncInterfaces.dll (19104 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Bcl.Cryptography.dll (16664 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Data.SqlClient.dll (928888 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Extensions.Caching.Memory.dll (45832 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll (63768 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Extensions.Logging.Abstractions.dll (65288 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Extensions.Options.dll (64776 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Identity.Client.dll (1028656 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.Identity.Client.Extensions.Msal.dll (66616 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.Abstractions.dll (19480 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.JsonWebTokens.dll (137760 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.Logging.dll (36896 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.Protocols.dll (40992 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (128032 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.IdentityModel.Tokens.dll (300064 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.OpenApi.dll (233408 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Microsoft.SqlServer.Server.dll (23976 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.Swagger.dll (17408 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.SwaggerGen.dll (118784 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.SwaggerUI.dll (2270720 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.ClientModel.dll (175664 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Configuration.ConfigurationManager.dll (442544 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Data.SqlClient.dll (171800 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Diagnostics.EventLog.dll (51992 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.IdentityModel.Tokens.Jwt.dll (89016 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Memory.Data.dll (30472 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Security.Cryptography.Pkcs.dll (264864 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/System.Security.Cryptography.ProtectedData.dll (36616 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 publish/web.config (563 o)
+[2026-08-03 10:53:30] [DEBUG]    📂 Recordings
+[2026-08-03 10:53:30] [DEBUG]    📄 41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 batcanard.webp (42752 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 c39209238e019e0ce5df7c537e0c9c5e.jpg (79009 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 test.csv (4769904 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 test.xlsx (728424 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 test1.xlsx (728135 o)
+[2026-08-03 10:53:30] [DEBUG]    📄 test2.xlsx (828193 o)
+[2026-08-03 10:53:30] [SUCCESS] Trouve : 33 dossier(s) / 78 fichier(s)
+[2026-08-03 10:53:30] [INFO] Taille totale : 26.38 MB
+[2026-08-03 10:53:30] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-03 10:53:30] [SUCCESS] 📂 Dossier cree : Attachments
+[2026-08-03 10:53:31] [SUCCESS] 📂 Dossier cree : Fichiers de conversation Microsoft Teams
+[2026-08-03 10:53:31] [SUCCESS] 📂 Dossier cree : Fichiers Microsoft Copilot Chat
+[2026-08-03 10:53:32] [SUCCESS] 📂 Dossier cree : Meetings
+[2026-08-03 10:53:32] [SUCCESS] 📂 Dossier cree : mep nameShield
+[2026-08-03 10:53:33] [SUCCESS] 📂 Dossier cree : publish
+[2026-08-03 10:53:34] [SUCCESS] 📂 Dossier cree : Recordings
+[2026-08-03 10:53:34] [SUCCESS] 📂 Dossier cree : publish/cs
+[2026-08-03 10:53:35] [SUCCESS] 📂 Dossier cree : publish/de
+[2026-08-03 10:53:35] [SUCCESS] 📂 Dossier cree : publish/es
+[2026-08-03 10:53:36] [SUCCESS] 📂 Dossier cree : publish/fr
+[2026-08-03 10:53:36] [SUCCESS] 📂 Dossier cree : publish/it
+[2026-08-03 10:53:37] [SUCCESS] 📂 Dossier cree : publish/ja
+[2026-08-03 10:53:37] [SUCCESS] 📂 Dossier cree : publish/ko
+[2026-08-03 10:53:38] [SUCCESS] 📂 Dossier cree : publish/pl
+[2026-08-03 10:53:38] [SUCCESS] 📂 Dossier cree : publish/pt-BR
+[2026-08-03 10:53:38] [SUCCESS] 📂 Dossier cree : publish/ru
+[2026-08-03 10:53:39] [SUCCESS] 📂 Dossier cree : publish/runtimes
+[2026-08-03 10:53:39] [SUCCESS] 📂 Dossier cree : publish/tr
+[2026-08-03 10:53:40] [SUCCESS] 📂 Dossier cree : publish/zh-Hans
+[2026-08-03 10:53:40] [SUCCESS] 📂 Dossier cree : publish/zh-Hant
+[2026-08-03 10:53:41] [SUCCESS] 📂 Dossier cree : publish/runtimes/unix
+[2026-08-03 10:53:41] [SUCCESS] 📂 Dossier cree : publish/runtimes/win
+[2026-08-03 10:53:42] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-arm64
+[2026-08-03 10:53:42] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-x64
+[2026-08-03 10:53:43] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-x86
+[2026-08-03 10:53:44] [SUCCESS] 📂 Dossier cree : publish/runtimes/unix/lib
+[2026-08-03 10:53:45] [SUCCESS] 📂 Dossier cree : publish/runtimes/win/lib
+[2026-08-03 10:53:45] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-arm64/native
+[2026-08-03 10:53:46] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-x64/native
+[2026-08-03 10:53:47] [SUCCESS] 📂 Dossier cree : publish/runtimes/win-x86/native
+[2026-08-03 10:53:48] [SUCCESS] 📂 Dossier cree : publish/runtimes/unix/lib/net8.0
+[2026-08-03 10:53:48] [SUCCESS] 📂 Dossier cree : publish/runtimes/win/lib/net8.0
+[2026-08-03 10:53:48] [INFO] === COPIE DES FICHIERS ===
+[2026-08-03 10:53:48] [INFO] [1/78] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:53:48] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:53:49] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:53:49] [ERROR] ❌ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:49","request-id":"5b853cf6-e3cf-4ca9-a60d-724d042668e5","client-request-id":"5b853cf6-e3cf-4ca9-a60d-724d042668e5"}}}
+[2026-08-03 10:53:49] [INFO] [2/78] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 10:53:49] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 10:53:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 10:53:50] [ERROR] ❌ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:50","request-id":"82577a3e-1438-4625-9901-ee203cf46c26","client-request-id":"82577a3e-1438-4625-9901-ee203cf46c26"}}}
+[2026-08-03 10:53:50] [INFO] [3/78] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 10:53:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 10:53:51] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 10:53:51] [ERROR] ❌ Fichiers de conversation Microsoft Teams/darkcanard_.jpg : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:51","request-id":"f779b3c3-86ae-4ed6-ad06-557dcc5ce77e","client-request-id":"f779b3c3-86ae-4ed6-ad06-557dcc5ce77e"}}}
+[2026-08-03 10:53:51] [INFO] [4/78] mep nameShield/01- create_table_dw.sql (7212 o)
+[2026-08-03 10:53:51] [INFO]    ⬇  mep nameShield/01- create_table_dw.sql
+[2026-08-03 10:53:51] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/01- create_table_dw.sql
+[2026-08-03 10:53:51] [ERROR] ❌ mep nameShield/01- create_table_dw.sql : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:51","request-id":"1f8599c6-313b-4a48-8e32-51e2acb7e0dc","client-request-id":"1f8599c6-313b-4a48-8e32-51e2acb7e0dc"}}}
+[2026-08-03 10:53:51] [INFO] [5/78] mep nameShield/02 - create_foreign_table_dm.sql (7552 o)
+[2026-08-03 10:53:51] [INFO]    ⬇  mep nameShield/02 - create_foreign_table_dm.sql
+[2026-08-03 10:53:52] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/02 - create_foreign_table_dm.sql
+[2026-08-03 10:53:52] [ERROR] ❌ mep nameShield/02 - create_foreign_table_dm.sql : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:52","request-id":"f8d0cdaf-8aa4-45f3-9b7e-4846c7e34bac","client-request-id":"f8d0cdaf-8aa4-45f3-9b7e-4846c7e34bac"}}}
+[2026-08-03 10:53:52] [INFO] [6/78] mep nameShield/03 - create_views_dm.sql (3497 o)
+[2026-08-03 10:53:52] [INFO]    ⬇  mep nameShield/03 - create_views_dm.sql
+[2026-08-03 10:53:52] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/03 - create_views_dm.sql
+[2026-08-03 10:53:52] [ERROR] ❌ mep nameShield/03 - create_views_dm.sql : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:52","request-id":"5c60f519-614e-4c6b-80a4-f2546510abe3","client-request-id":"5c60f519-614e-4c6b-80a4-f2546510abe3"}}}
+[2026-08-03 10:53:52] [INFO] [7/78] publish/cs/Microsoft.Data.SqlClient.resources.dll (257656 o)
+[2026-08-03 10:53:53] [INFO]    ⬇  publish/cs/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:53] [INFO]    ⬆  Rejeu de 1 version(s) : publish/cs/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:53] [ERROR] ❌ publish/cs/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:53","request-id":"4c005733-a8d4-4f74-8eed-f62957a972e6","client-request-id":"4c005733-a8d4-4f74-8eed-f62957a972e6"}}}
+[2026-08-03 10:53:53] [INFO] [8/78] publish/de/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:53:53] [INFO]    ⬇  publish/de/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:53] [INFO]    ⬆  Rejeu de 1 version(s) : publish/de/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:53] [ERROR] ❌ publish/de/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:53","request-id":"136563a1-258d-4a0d-8c0c-c1b09edbccbe","client-request-id":"136563a1-258d-4a0d-8c0c-c1b09edbccbe"}}}
+[2026-08-03 10:53:53] [INFO] [9/78] publish/es/Microsoft.Data.SqlClient.resources.dll (259192 o)
+[2026-08-03 10:53:54] [INFO]    ⬇  publish/es/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:54] [INFO]    ⬆  Rejeu de 1 version(s) : publish/es/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:54] [ERROR] ❌ publish/es/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:54","request-id":"727df83d-73f4-47c7-9ed1-4800d1c69ce1","client-request-id":"727df83d-73f4-47c7-9ed1-4800d1c69ce1"}}}
+[2026-08-03 10:53:54] [INFO] [10/78] publish/fr/Microsoft.Data.SqlClient.resources.dll (268408 o)
+[2026-08-03 10:53:54] [INFO]    ⬇  publish/fr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:55] [INFO]    ⬆  Rejeu de 1 version(s) : publish/fr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:55] [ERROR] ❌ publish/fr/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:55","request-id":"af460165-758a-48fe-a775-800dc4731b2e","client-request-id":"af460165-758a-48fe-a775-800dc4731b2e"}}}
+[2026-08-03 10:53:55] [INFO] [11/78] publish/it/Microsoft.Data.SqlClient.resources.dll (260216 o)
+[2026-08-03 10:53:55] [INFO]    ⬇  publish/it/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:55] [INFO]    ⬆  Rejeu de 1 version(s) : publish/it/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:55] [ERROR] ❌ publish/it/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:55","request-id":"0984019e-5b88-4f2e-ae4a-d52f9dc22ecc","client-request-id":"0984019e-5b88-4f2e-ae4a-d52f9dc22ecc"}}}
+[2026-08-03 10:53:55] [INFO] [12/78] publish/ja/Microsoft.Data.SqlClient.resources.dll (289416 o)
+[2026-08-03 10:53:56] [INFO]    ⬇  publish/ja/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:56] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ja/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:56] [ERROR] ❌ publish/ja/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:56","request-id":"c1108b7f-f253-4482-8b58-a5b874b1c99c","client-request-id":"c1108b7f-f253-4482-8b58-a5b874b1c99c"}}}
+[2026-08-03 10:53:56] [INFO] [13/78] publish/ko/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:53:56] [INFO]    ⬇  publish/ko/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:57] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ko/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:57] [ERROR] ❌ publish/ko/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:57","request-id":"f849ed7f-b492-4358-bfeb-d5df4c6aacaf","client-request-id":"f849ed7f-b492-4358-bfeb-d5df4c6aacaf"}}}
+[2026-08-03 10:53:57] [INFO] [14/78] publish/pl/Microsoft.Data.SqlClient.resources.dll (266872 o)
+[2026-08-03 10:53:57] [INFO]    ⬇  publish/pl/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:57] [INFO]    ⬆  Rejeu de 1 version(s) : publish/pl/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:57] [ERROR] ❌ publish/pl/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:57","request-id":"69ad354c-0457-4224-a681-cd0986b59ce4","client-request-id":"69ad354c-0457-4224-a681-cd0986b59ce4"}}}
+[2026-08-03 10:53:57] [INFO] [15/78] publish/pt-BR/Microsoft.Data.SqlClient.resources.dll (255096 o)
+[2026-08-03 10:53:58] [INFO]    ⬇  publish/pt-BR/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:58] [INFO]    ⬆  Rejeu de 1 version(s) : publish/pt-BR/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:58] [ERROR] ❌ publish/pt-BR/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:58","request-id":"4d72f7f7-a5ce-4ceb-b44e-2549a450b7d9","client-request-id":"4d72f7f7-a5ce-4ceb-b44e-2549a450b7d9"}}}
+[2026-08-03 10:53:58] [INFO] [16/78] publish/ru/Microsoft.Data.SqlClient.resources.dll (344696 o)
+[2026-08-03 10:53:58] [INFO]    ⬇  publish/ru/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:58] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ru/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:53:59] [ERROR] ❌ publish/ru/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:53:59","request-id":"729c48ae-45f5-4344-b1da-6d40d01840bd","client-request-id":"729c48ae-45f5-4344-b1da-6d40d01840bd"}}}
+[2026-08-03 10:53:59] [INFO] [17/78] publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll (2098824 o)
+[2026-08-03 10:53:59] [INFO]    ⬇  publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:53:59] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:54:00] [ERROR] ❌ publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:00","request-id":"f1e2baed-c50c-4985-a5c2-53ec8561bfd7","client-request-id":"f1e2baed-c50c-4985-a5c2-53ec8561bfd7"}}}
+[2026-08-03 10:54:00] [INFO] [18/78] publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll (958744 o)
+[2026-08-03 10:54:00] [INFO]    ⬇  publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:54:00] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:54:00] [ERROR] ❌ publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:00","request-id":"4c144601-4952-44f7-913a-25f54ee7ed78","client-request-id":"4c144601-4952-44f7-913a-25f54ee7ed78"}}}
+[2026-08-03 10:54:01] [INFO] [19/78] publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll (2163320 o)
+[2026-08-03 10:54:01] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:54:01] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:54:01] [ERROR] ❌ publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:01","request-id":"f340c7cb-2318-412e-b05c-0b854971bbf9","client-request-id":"f340c7cb-2318-412e-b05c-0b854971bbf9"}}}
+[2026-08-03 10:54:01] [INFO] [20/78] publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll (1027336 o)
+[2026-08-03 10:54:02] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:54:02] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:54:02] [ERROR] ❌ publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:02","request-id":"24c0c17a-5101-48b0-b911-97a37f59ae30","client-request-id":"24c0c17a-5101-48b0-b911-97a37f59ae30"}}}
+[2026-08-03 10:54:02] [INFO] [21/78] publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll (172704 o)
+[2026-08-03 10:54:03] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+[2026-08-03 10:54:03] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+[2026-08-03 10:54:03] [ERROR] ❌ publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:03","request-id":"0b89d3ae-c4ac-4528-84eb-ae17c10ada66","client-request-id":"0b89d3ae-c4ac-4528-84eb-ae17c10ada66"}}}
+[2026-08-03 10:54:03] [INFO] [22/78] publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll (319784 o)
+[2026-08-03 10:54:04] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:54:04] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:54:04] [ERROR] ❌ publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:04","request-id":"2f10bab7-a4fe-47e5-ac4b-7d2b3f77fdf1","client-request-id":"2f10bab7-a4fe-47e5-ac4b-7d2b3f77fdf1"}}}
+[2026-08-03 10:54:04] [INFO] [23/78] publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll (551976 o)
+[2026-08-03 10:54:05] [INFO]    ⬇  publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:05] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:05] [ERROR] ❌ publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:05","request-id":"5f7704a4-68fa-4a05-884e-b52fde7c9421","client-request-id":"5f7704a4-68fa-4a05-884e-b52fde7c9421"}}}
+[2026-08-03 10:54:05] [INFO] [24/78] publish/runtimes/win-arm64/native/sni.dll (174224 o)
+[2026-08-03 10:54:06] [INFO]    ⬇  publish/runtimes/win-arm64/native/sni.dll
+[2026-08-03 10:54:06] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-arm64/native/sni.dll
+[2026-08-03 10:54:06] [ERROR] ❌ publish/runtimes/win-arm64/native/sni.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:06","request-id":"9885fc28-23ac-4ff0-bba6-965ce80d6e05","client-request-id":"9885fc28-23ac-4ff0-bba6-965ce80d6e05"}}}
+[2026-08-03 10:54:06] [INFO] [25/78] publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll (566832 o)
+[2026-08-03 10:54:07] [INFO]    ⬇  publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:07] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:07] [ERROR] ❌ publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:07","request-id":"2f05e52a-6686-4183-aaf5-ab9014a9702b","client-request-id":"2f05e52a-6686-4183-aaf5-ab9014a9702b"}}}
+[2026-08-03 10:54:07] [INFO] [26/78] publish/runtimes/win-x64/native/sni.dll (160040 o)
+[2026-08-03 10:54:08] [INFO]    ⬇  publish/runtimes/win-x64/native/sni.dll
+[2026-08-03 10:54:08] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x64/native/sni.dll
+[2026-08-03 10:54:08] [ERROR] ❌ publish/runtimes/win-x64/native/sni.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:08","request-id":"40254c50-13eb-42b8-bb95-55f76b77b07a","client-request-id":"40254c50-13eb-42b8-bb95-55f76b77b07a"}}}
+[2026-08-03 10:54:08] [INFO] [27/78] publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll (477736 o)
+[2026-08-03 10:54:09] [INFO]    ⬇  publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:09] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:54:09] [ERROR] ❌ publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:09","request-id":"275164e0-970d-449b-849b-528eac7feaff","client-request-id":"275164e0-970d-449b-849b-528eac7feaff"}}}
+[2026-08-03 10:54:09] [INFO] [28/78] publish/runtimes/win-x86/native/sni.dll (136488 o)
+[2026-08-03 10:54:09] [INFO]    ⬇  publish/runtimes/win-x86/native/sni.dll
+[2026-08-03 10:54:10] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x86/native/sni.dll
+[2026-08-03 10:54:10] [ERROR] ❌ publish/runtimes/win-x86/native/sni.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:10","request-id":"b696aeea-998c-419f-a9a0-42d9eafc224a","client-request-id":"b696aeea-998c-419f-a9a0-42d9eafc224a"}}}
+[2026-08-03 10:54:10] [INFO] [29/78] publish/tr/Microsoft.Data.SqlClient.resources.dll (250488 o)
+[2026-08-03 10:54:10] [INFO]    ⬇  publish/tr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:10] [INFO]    ⬆  Rejeu de 1 version(s) : publish/tr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:10] [ERROR] ❌ publish/tr/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:10","request-id":"325a3874-5ac4-4338-895c-cacfcb4c2d71","client-request-id":"325a3874-5ac4-4338-895c-cacfcb4c2d71"}}}
+[2026-08-03 10:54:10] [INFO] [30/78] publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll (225928 o)
+[2026-08-03 10:54:11] [INFO]    ⬇  publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:11] [INFO]    ⬆  Rejeu de 1 version(s) : publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:11] [ERROR] ❌ publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:11","request-id":"a1fae1f8-d038-4056-8cc5-678dbd7e7d24","client-request-id":"a1fae1f8-d038-4056-8cc5-678dbd7e7d24"}}}
+[2026-08-03 10:54:11] [INFO] [31/78] publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll (229496 o)
+[2026-08-03 10:54:11] [INFO]    ⬇  publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:11] [INFO]    ⬆  Rejeu de 1 version(s) : publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:54:11] [ERROR] ❌ publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:11","request-id":"d3a15764-475c-47a6-9719-a314b85f7278","client-request-id":"d3a15764-475c-47a6-9719-a314b85f7278"}}}
+[2026-08-03 10:54:11] [INFO] [32/78] publish/appsettings.Development.json (127 o)
+[2026-08-03 10:54:12] [INFO]    ⬇  publish/appsettings.Development.json
+[2026-08-03 10:54:12] [INFO]    ⬆  Rejeu de 1 version(s) : publish/appsettings.Development.json
+[2026-08-03 10:54:12] [ERROR] ❌ publish/appsettings.Development.json : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:12","request-id":"82b8ce8f-111a-406a-858c-65fc81d4dafa","client-request-id":"82b8ce8f-111a-406a-858c-65fc81d4dafa"}}}
+[2026-08-03 10:54:12] [INFO] [33/78] publish/appsettings.json (978 o)
+[2026-08-03 10:54:12] [INFO]    ⬇  publish/appsettings.json
+[2026-08-03 10:54:12] [INFO]    ⬆  Rejeu de 1 version(s) : publish/appsettings.json
+[2026-08-03 10:54:12] [ERROR] ❌ publish/appsettings.json : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:12","request-id":"37241599-4bbd-4346-8f90-dffd74572a60","client-request-id":"37241599-4bbd-4346-8f90-dffd74572a60"}}}
+[2026-08-03 10:54:12] [INFO] [34/78] publish/Azure.Core.dll (437304 o)
+[2026-08-03 10:54:13] [INFO]    ⬇  publish/Azure.Core.dll
+[2026-08-03 10:54:13] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Azure.Core.dll
+[2026-08-03 10:54:13] [ERROR] ❌ publish/Azure.Core.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:13","request-id":"3b29499d-93ee-4dbc-92f4-ca83e881e360","client-request-id":"3b29499d-93ee-4dbc-92f4-ca83e881e360"}}}
+[2026-08-03 10:54:13] [INFO] [35/78] publish/Azure.Identity.dll (356912 o)
+[2026-08-03 10:54:13] [INFO]    ⬇  publish/Azure.Identity.dll
+[2026-08-03 10:54:14] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Azure.Identity.dll
+[2026-08-03 10:54:14] [ERROR] ❌ publish/Azure.Identity.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:14","request-id":"83a90bed-bc0c-48ee-b53b-a769d19fa088","client-request-id":"83a90bed-bc0c-48ee-b53b-a769d19fa088"}}}
+[2026-08-03 10:54:14] [INFO] [36/78] publish/CreaModifAd-Connect.deps.json (33317 o)
+[2026-08-03 10:54:14] [INFO]    ⬇  publish/CreaModifAd-Connect.deps.json
+[2026-08-03 10:54:14] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.deps.json
+[2026-08-03 10:54:15] [ERROR] ❌ publish/CreaModifAd-Connect.deps.json : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:15","request-id":"05dc42b3-2c5e-417d-92e3-95657e3ec6c8","client-request-id":"05dc42b3-2c5e-417d-92e3-95657e3ec6c8"}}}
+[2026-08-03 10:54:15] [INFO] [37/78] publish/CreaModifAd-Connect.dll (25600 o)
+[2026-08-03 10:54:15] [INFO]    ⬇  publish/CreaModifAd-Connect.dll
+[2026-08-03 10:54:15] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.dll
+[2026-08-03 10:54:15] [ERROR] ❌ publish/CreaModifAd-Connect.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:15","request-id":"f0bb8df6-44a8-4fa1-b32f-acee00db4e91","client-request-id":"f0bb8df6-44a8-4fa1-b32f-acee00db4e91"}}}
+[2026-08-03 10:54:15] [INFO] [38/78] publish/CreaModifAd-Connect.exe (139264 o)
+[2026-08-03 10:54:15] [INFO]    ⬇  publish/CreaModifAd-Connect.exe
+[2026-08-03 10:54:15] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.exe
+[2026-08-03 10:54:15] [ERROR] ❌ publish/CreaModifAd-Connect.exe : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:15","request-id":"4a9024ca-6731-48d8-a2e0-3b5c39852951","client-request-id":"4a9024ca-6731-48d8-a2e0-3b5c39852951"}}}
+[2026-08-03 10:54:15] [INFO] [39/78] publish/CreaModifAd-Connect.pdb (27220 o)
+[2026-08-03 10:54:16] [INFO]    ⬇  publish/CreaModifAd-Connect.pdb
+[2026-08-03 10:54:16] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.pdb
+[2026-08-03 10:54:16] [ERROR] ❌ publish/CreaModifAd-Connect.pdb : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:16","request-id":"b735cfcf-ea9d-4175-a460-c13300e4adac","client-request-id":"b735cfcf-ea9d-4175-a460-c13300e4adac"}}}
+[2026-08-03 10:54:16] [INFO] [40/78] publish/CreaModifAd-Connect.runtimeconfig.json (488 o)
+[2026-08-03 10:54:16] [INFO]    ⬇  publish/CreaModifAd-Connect.runtimeconfig.json
+[2026-08-03 10:54:16] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.runtimeconfig.json
+[2026-08-03 10:54:16] [ERROR] ❌ publish/CreaModifAd-Connect.runtimeconfig.json : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:16","request-id":"efa05e75-fd7c-47af-b025-207892639bd3","client-request-id":"efa05e75-fd7c-47af-b025-207892639bd3"}}}
+[2026-08-03 10:54:16] [INFO] [41/78] publish/CreaModifAd-Connect.staticwebassets.endpoints.json (70 o)
+[2026-08-03 10:54:16] [INFO]    ⬇  publish/CreaModifAd-Connect.staticwebassets.endpoints.json
+[2026-08-03 10:54:17] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.staticwebassets.endpoints.json
+[2026-08-03 10:54:17] [ERROR] ❌ publish/CreaModifAd-Connect.staticwebassets.endpoints.json : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:17","request-id":"9a1ff064-b779-4abe-90f6-e833ffb49857","client-request-id":"9a1ff064-b779-4abe-90f6-e833ffb49857"}}}
+[2026-08-03 10:54:17] [INFO] [42/78] publish/Dapper.dll (245760 o)
+[2026-08-03 10:54:17] [INFO]    ⬇  publish/Dapper.dll
+[2026-08-03 10:54:18] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Dapper.dll
+[2026-08-03 10:54:18] [ERROR] ❌ publish/Dapper.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:18","request-id":"7f2e86c2-acfe-45ea-8c00-30bfc643105f","client-request-id":"7f2e86c2-acfe-45ea-8c00-30bfc643105f"}}}
+[2026-08-03 10:54:18] [INFO] [43/78] publish/Microsoft.Bcl.AsyncInterfaces.dll (19104 o)
+[2026-08-03 10:54:18] [INFO]    ⬇  publish/Microsoft.Bcl.AsyncInterfaces.dll
+[2026-08-03 10:54:18] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Bcl.AsyncInterfaces.dll
+[2026-08-03 10:54:18] [ERROR] ❌ publish/Microsoft.Bcl.AsyncInterfaces.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:18","request-id":"462421f0-b6c1-437a-aef6-eb1e0c3ca5eb","client-request-id":"462421f0-b6c1-437a-aef6-eb1e0c3ca5eb"}}}
+[2026-08-03 10:54:18] [INFO] [44/78] publish/Microsoft.Bcl.Cryptography.dll (16664 o)
+[2026-08-03 10:54:18] [INFO]    ⬇  publish/Microsoft.Bcl.Cryptography.dll
+[2026-08-03 10:54:18] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Bcl.Cryptography.dll
+[2026-08-03 10:54:19] [ERROR] ❌ publish/Microsoft.Bcl.Cryptography.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:19","request-id":"3ed0496a-f9f5-4a4c-8504-612ba73e1616","client-request-id":"3ed0496a-f9f5-4a4c-8504-612ba73e1616"}}}
+[2026-08-03 10:54:19] [INFO] [45/78] publish/Microsoft.Data.SqlClient.dll (928888 o)
+[2026-08-03 10:54:19] [INFO]    ⬇  publish/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:54:19] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:54:19] [ERROR] ❌ publish/Microsoft.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:19","request-id":"f31ac17a-bfcf-475e-88ac-5766c41b492b","client-request-id":"f31ac17a-bfcf-475e-88ac-5766c41b492b"}}}
+[2026-08-03 10:54:19] [INFO] [46/78] publish/Microsoft.Extensions.Caching.Memory.dll (45832 o)
+[2026-08-03 10:54:19] [INFO]    ⬇  publish/Microsoft.Extensions.Caching.Memory.dll
+[2026-08-03 10:54:19] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Caching.Memory.dll
+[2026-08-03 10:54:19] [ERROR] ❌ publish/Microsoft.Extensions.Caching.Memory.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:19","request-id":"2f1ac059-be79-4761-b5f9-159d2f57b431","client-request-id":"2f1ac059-be79-4761-b5f9-159d2f57b431"}}}
+[2026-08-03 10:54:19] [INFO] [47/78] publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll (63768 o)
+[2026-08-03 10:54:20] [INFO]    ⬇  publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+[2026-08-03 10:54:20] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+[2026-08-03 10:54:20] [ERROR] ❌ publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:20","request-id":"ce855fd2-cf14-452d-9aa4-113fcf450124","client-request-id":"ce855fd2-cf14-452d-9aa4-113fcf450124"}}}
+[2026-08-03 10:54:20] [INFO] [48/78] publish/Microsoft.Extensions.Logging.Abstractions.dll (65288 o)
+[2026-08-03 10:54:20] [INFO]    ⬇  publish/Microsoft.Extensions.Logging.Abstractions.dll
+[2026-08-03 10:54:20] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Logging.Abstractions.dll
+[2026-08-03 10:54:20] [ERROR] ❌ publish/Microsoft.Extensions.Logging.Abstractions.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:20","request-id":"6a8b67c0-9f89-4d41-81bd-785fca0ecb68","client-request-id":"6a8b67c0-9f89-4d41-81bd-785fca0ecb68"}}}
+[2026-08-03 10:54:20] [INFO] [49/78] publish/Microsoft.Extensions.Options.dll (64776 o)
+[2026-08-03 10:54:21] [INFO]    ⬇  publish/Microsoft.Extensions.Options.dll
+[2026-08-03 10:54:21] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Options.dll
+[2026-08-03 10:54:21] [ERROR] ❌ publish/Microsoft.Extensions.Options.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:21","request-id":"3699189a-2cd4-4c87-acfd-984739a4e6e1","client-request-id":"3699189a-2cd4-4c87-acfd-984739a4e6e1"}}}
+[2026-08-03 10:54:21] [INFO] [50/78] publish/Microsoft.Identity.Client.dll (1028656 o)
+[2026-08-03 10:54:21] [INFO]    ⬇  publish/Microsoft.Identity.Client.dll
+[2026-08-03 10:54:21] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Identity.Client.dll
+[2026-08-03 10:54:21] [ERROR] ❌ publish/Microsoft.Identity.Client.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:21","request-id":"0072caf7-7ad2-48be-85f4-f9c90fb17e35","client-request-id":"0072caf7-7ad2-48be-85f4-f9c90fb17e35"}}}
+[2026-08-03 10:54:21] [INFO] [51/78] publish/Microsoft.Identity.Client.Extensions.Msal.dll (66616 o)
+[2026-08-03 10:54:21] [INFO]    ⬇  publish/Microsoft.Identity.Client.Extensions.Msal.dll
+[2026-08-03 10:54:22] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Identity.Client.Extensions.Msal.dll
+[2026-08-03 10:54:22] [ERROR] ❌ publish/Microsoft.Identity.Client.Extensions.Msal.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:22","request-id":"f94abed9-1567-4cbf-baa2-c7dab2568a89","client-request-id":"f94abed9-1567-4cbf-baa2-c7dab2568a89"}}}
+[2026-08-03 10:54:22] [INFO] [52/78] publish/Microsoft.IdentityModel.Abstractions.dll (19480 o)
+[2026-08-03 10:54:22] [INFO]    ⬇  publish/Microsoft.IdentityModel.Abstractions.dll
+[2026-08-03 10:54:22] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Abstractions.dll
+[2026-08-03 10:54:22] [ERROR] ❌ publish/Microsoft.IdentityModel.Abstractions.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:22","request-id":"dd0b7b94-17db-4658-ab13-3cf01639f3bd","client-request-id":"dd0b7b94-17db-4658-ab13-3cf01639f3bd"}}}
+[2026-08-03 10:54:22] [INFO] [53/78] publish/Microsoft.IdentityModel.JsonWebTokens.dll (137760 o)
+[2026-08-03 10:54:22] [INFO]    ⬇  publish/Microsoft.IdentityModel.JsonWebTokens.dll
+[2026-08-03 10:54:22] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.JsonWebTokens.dll
+[2026-08-03 10:54:23] [ERROR] ❌ publish/Microsoft.IdentityModel.JsonWebTokens.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:23","request-id":"a72c60f2-7be3-48e7-bdc6-40b618e49fa8","client-request-id":"a72c60f2-7be3-48e7-bdc6-40b618e49fa8"}}}
+[2026-08-03 10:54:23] [INFO] [54/78] publish/Microsoft.IdentityModel.Logging.dll (36896 o)
+[2026-08-03 10:54:23] [INFO]    ⬇  publish/Microsoft.IdentityModel.Logging.dll
+[2026-08-03 10:54:23] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Logging.dll
+[2026-08-03 10:54:23] [ERROR] ❌ publish/Microsoft.IdentityModel.Logging.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:23","request-id":"832fe304-2953-4ba8-8b71-6dd46cf0587e","client-request-id":"832fe304-2953-4ba8-8b71-6dd46cf0587e"}}}
+[2026-08-03 10:54:23] [INFO] [55/78] publish/Microsoft.IdentityModel.Protocols.dll (40992 o)
+[2026-08-03 10:54:23] [INFO]    ⬇  publish/Microsoft.IdentityModel.Protocols.dll
+[2026-08-03 10:54:23] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Protocols.dll
+[2026-08-03 10:54:23] [ERROR] ❌ publish/Microsoft.IdentityModel.Protocols.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:23","request-id":"20535508-70ba-43b9-928a-048fdf3484fe","client-request-id":"20535508-70ba-43b9-928a-048fdf3484fe"}}}
+[2026-08-03 10:54:23] [INFO] [56/78] publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (128032 o)
+[2026-08-03 10:54:24] [INFO]    ⬇  publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+[2026-08-03 10:54:24] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+[2026-08-03 10:54:24] [ERROR] ❌ publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:24","request-id":"1433c0ae-a19f-4647-b5d5-104dc5e0f747","client-request-id":"1433c0ae-a19f-4647-b5d5-104dc5e0f747"}}}
+[2026-08-03 10:54:24] [INFO] [57/78] publish/Microsoft.IdentityModel.Tokens.dll (300064 o)
+[2026-08-03 10:54:24] [INFO]    ⬇  publish/Microsoft.IdentityModel.Tokens.dll
+[2026-08-03 10:54:24] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Tokens.dll
+[2026-08-03 10:54:24] [ERROR] ❌ publish/Microsoft.IdentityModel.Tokens.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:24","request-id":"92477b3a-3b7f-4438-90b6-2d2058a1ccbd","client-request-id":"92477b3a-3b7f-4438-90b6-2d2058a1ccbd"}}}
+[2026-08-03 10:54:24] [INFO] [58/78] publish/Microsoft.OpenApi.dll (233408 o)
+[2026-08-03 10:54:24] [INFO]    ⬇  publish/Microsoft.OpenApi.dll
+[2026-08-03 10:54:25] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.OpenApi.dll
+[2026-08-03 10:54:25] [ERROR] ❌ publish/Microsoft.OpenApi.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:25","request-id":"f6c411d7-e521-4adc-b235-c5df8cffa16a","client-request-id":"f6c411d7-e521-4adc-b235-c5df8cffa16a"}}}
+[2026-08-03 10:54:25] [INFO] [59/78] publish/Microsoft.SqlServer.Server.dll (23976 o)
+[2026-08-03 10:54:25] [INFO]    ⬇  publish/Microsoft.SqlServer.Server.dll
+[2026-08-03 10:54:25] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.SqlServer.Server.dll
+[2026-08-03 10:54:25] [ERROR] ❌ publish/Microsoft.SqlServer.Server.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:25","request-id":"54002324-4b42-482b-acff-933427253c16","client-request-id":"54002324-4b42-482b-acff-933427253c16"}}}
+[2026-08-03 10:54:25] [INFO] [60/78] publish/Swashbuckle.AspNetCore.Swagger.dll (17408 o)
+[2026-08-03 10:54:25] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.Swagger.dll
+[2026-08-03 10:54:26] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.Swagger.dll
+[2026-08-03 10:54:26] [ERROR] ❌ publish/Swashbuckle.AspNetCore.Swagger.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:26","request-id":"1d709610-200a-4d5a-a1c1-69568b8bccf2","client-request-id":"1d709610-200a-4d5a-a1c1-69568b8bccf2"}}}
+[2026-08-03 10:54:26] [INFO] [61/78] publish/Swashbuckle.AspNetCore.SwaggerGen.dll (118784 o)
+[2026-08-03 10:54:26] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+[2026-08-03 10:54:26] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+[2026-08-03 10:54:26] [ERROR] ❌ publish/Swashbuckle.AspNetCore.SwaggerGen.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:26","request-id":"22d43e71-efb3-446a-bbd3-cc1193160dbe","client-request-id":"22d43e71-efb3-446a-bbd3-cc1193160dbe"}}}
+[2026-08-03 10:54:26] [INFO] [62/78] publish/Swashbuckle.AspNetCore.SwaggerUI.dll (2270720 o)
+[2026-08-03 10:54:26] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+[2026-08-03 10:54:26] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+[2026-08-03 10:54:26] [ERROR] ❌ publish/Swashbuckle.AspNetCore.SwaggerUI.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:26","request-id":"be40f8bf-d867-46c8-986a-e7d8e9e2d9a7","client-request-id":"be40f8bf-d867-46c8-986a-e7d8e9e2d9a7"}}}
+[2026-08-03 10:54:26] [INFO] [63/78] publish/System.ClientModel.dll (175664 o)
+[2026-08-03 10:54:27] [INFO]    ⬇  publish/System.ClientModel.dll
+[2026-08-03 10:54:27] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.ClientModel.dll
+[2026-08-03 10:54:27] [ERROR] ❌ publish/System.ClientModel.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:27","request-id":"51cb6623-15a5-454e-8e3c-ccf568ef1d78","client-request-id":"51cb6623-15a5-454e-8e3c-ccf568ef1d78"}}}
+[2026-08-03 10:54:27] [INFO] [64/78] publish/System.Configuration.ConfigurationManager.dll (442544 o)
+[2026-08-03 10:54:27] [INFO]    ⬇  publish/System.Configuration.ConfigurationManager.dll
+[2026-08-03 10:54:27] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Configuration.ConfigurationManager.dll
+[2026-08-03 10:54:27] [ERROR] ❌ publish/System.Configuration.ConfigurationManager.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:27","request-id":"a5d854c3-400b-427d-8c99-4b01a003d897","client-request-id":"a5d854c3-400b-427d-8c99-4b01a003d897"}}}
+[2026-08-03 10:54:27] [INFO] [65/78] publish/System.Data.SqlClient.dll (171800 o)
+[2026-08-03 10:54:27] [INFO]    ⬇  publish/System.Data.SqlClient.dll
+[2026-08-03 10:54:28] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Data.SqlClient.dll
+[2026-08-03 10:54:28] [ERROR] ❌ publish/System.Data.SqlClient.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:28","request-id":"d8cd922f-7d84-4b18-9019-3050ebf4d854","client-request-id":"d8cd922f-7d84-4b18-9019-3050ebf4d854"}}}
+[2026-08-03 10:54:28] [INFO] [66/78] publish/System.Diagnostics.EventLog.dll (51992 o)
+[2026-08-03 10:54:28] [INFO]    ⬇  publish/System.Diagnostics.EventLog.dll
+[2026-08-03 10:54:28] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Diagnostics.EventLog.dll
+[2026-08-03 10:54:28] [ERROR] ❌ publish/System.Diagnostics.EventLog.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:28","request-id":"c2927f45-cbd1-4b28-b1b3-7b97c237ce6a","client-request-id":"c2927f45-cbd1-4b28-b1b3-7b97c237ce6a"}}}
+[2026-08-03 10:54:28] [INFO] [67/78] publish/System.IdentityModel.Tokens.Jwt.dll (89016 o)
+[2026-08-03 10:54:28] [INFO]    ⬇  publish/System.IdentityModel.Tokens.Jwt.dll
+[2026-08-03 10:54:28] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.IdentityModel.Tokens.Jwt.dll
+[2026-08-03 10:54:29] [ERROR] ❌ publish/System.IdentityModel.Tokens.Jwt.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:29","request-id":"5f2a0f08-5aa2-46c2-93aa-162548babcd6","client-request-id":"5f2a0f08-5aa2-46c2-93aa-162548babcd6"}}}
+[2026-08-03 10:54:29] [INFO] [68/78] publish/System.Memory.Data.dll (30472 o)
+[2026-08-03 10:54:29] [INFO]    ⬇  publish/System.Memory.Data.dll
+[2026-08-03 10:54:29] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Memory.Data.dll
+[2026-08-03 10:54:29] [ERROR] ❌ publish/System.Memory.Data.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:29","request-id":"8d6a2947-599f-424c-8b66-57490ac55b79","client-request-id":"8d6a2947-599f-424c-8b66-57490ac55b79"}}}
+[2026-08-03 10:54:29] [INFO] [69/78] publish/System.Security.Cryptography.Pkcs.dll (264864 o)
+[2026-08-03 10:54:29] [INFO]    ⬇  publish/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:54:29] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:54:30] [ERROR] ❌ publish/System.Security.Cryptography.Pkcs.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:30","request-id":"ed62e8e3-b373-4fc8-9e92-095fd48f8efb","client-request-id":"ed62e8e3-b373-4fc8-9e92-095fd48f8efb"}}}
+[2026-08-03 10:54:30] [INFO] [70/78] publish/System.Security.Cryptography.ProtectedData.dll (36616 o)
+[2026-08-03 10:54:30] [INFO]    ⬇  publish/System.Security.Cryptography.ProtectedData.dll
+[2026-08-03 10:54:30] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Security.Cryptography.ProtectedData.dll
+[2026-08-03 10:54:30] [ERROR] ❌ publish/System.Security.Cryptography.ProtectedData.dll : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:30","request-id":"a5f0291d-55d9-44bc-8400-751e218af045","client-request-id":"a5f0291d-55d9-44bc-8400-751e218af045"}}}
+[2026-08-03 10:54:30] [INFO] [71/78] publish/web.config (563 o)
+[2026-08-03 10:54:30] [INFO]    ⬇  publish/web.config
+[2026-08-03 10:54:31] [INFO]    ⬆  Rejeu de 1 version(s) : publish/web.config
+[2026-08-03 10:54:31] [ERROR] ❌ publish/web.config : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:31","request-id":"c85e81d2-ab89-4f35-b419-8b5c0ef90834","client-request-id":"c85e81d2-ab89-4f35-b419-8b5c0ef90834"}}}
+[2026-08-03 10:54:31] [INFO] [72/78] 41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:54:31] [INFO]    ⬇  41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:54:31] [INFO]    ⬆  Rejeu de 2 version(s) : 41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:54:32] [DEBUG]       Version 1/2 rejouee (id=1.0, 6988 o)
+[2026-08-03 10:54:32] [ERROR] ❌ 41G1ohnr8wL._SY300_QL70_.jpg : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:32","request-id":"76ef77d7-574e-4693-be71-e677c8124692","client-request-id":"76ef77d7-574e-4693-be71-e677c8124692"}}}
+[2026-08-03 10:54:32] [INFO] [73/78] batcanard.webp (42752 o)
+[2026-08-03 10:54:32] [INFO]    ⬇  batcanard.webp
+[2026-08-03 10:54:32] [INFO]    ⬆  Rejeu de 1 version(s) : batcanard.webp
+[2026-08-03 10:54:32] [ERROR] ❌ batcanard.webp : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:32","request-id":"6c19b754-d9f7-414e-9ec2-d6e826ee5cd9","client-request-id":"6c19b754-d9f7-414e-9ec2-d6e826ee5cd9"}}}
+[2026-08-03 10:54:32] [INFO] [74/78] c39209238e019e0ce5df7c537e0c9c5e.jpg (79009 o)
+[2026-08-03 10:54:32] [INFO]    ⬇  c39209238e019e0ce5df7c537e0c9c5e.jpg
+[2026-08-03 10:54:33] [INFO]    ⬆  Rejeu de 1 version(s) : c39209238e019e0ce5df7c537e0c9c5e.jpg
+[2026-08-03 10:54:33] [ERROR] ❌ c39209238e019e0ce5df7c537e0c9c5e.jpg : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:33","request-id":"b28ec681-a56d-4f47-bc8b-851316e8f303","client-request-id":"b28ec681-a56d-4f47-bc8b-851316e8f303"}}}
+[2026-08-03 10:54:33] [INFO] [75/78] test.csv (4769904 o)
+[2026-08-03 10:54:33] [INFO]    ⬇  test.csv
+[2026-08-03 10:54:33] [INFO]    ⬆  Rejeu de 1 version(s) : test.csv
+[2026-08-03 10:54:33] [ERROR] ❌ test.csv : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:33","request-id":"8f9e5cfd-babc-4d09-a6bd-bd96bb06fc99","client-request-id":"8f9e5cfd-babc-4d09-a6bd-bd96bb06fc99"}}}
+[2026-08-03 10:54:33] [INFO] [76/78] test.xlsx (728424 o)
+[2026-08-03 10:54:33] [INFO]    ⬇  test.xlsx
+[2026-08-03 10:54:33] [INFO]    ⬆  Rejeu de 1 version(s) : test.xlsx
+[2026-08-03 10:54:33] [ERROR] ❌ test.xlsx : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:33","request-id":"f1e6ccfc-1dc0-435f-a66c-438ea871cbd3","client-request-id":"f1e6ccfc-1dc0-435f-a66c-438ea871cbd3"}}}
+[2026-08-03 10:54:33] [INFO] [77/78] test1.xlsx (728135 o)
+[2026-08-03 10:54:33] [INFO]    ⬇  test1.xlsx
+[2026-08-03 10:54:34] [INFO]    ⬆  Rejeu de 2 version(s) : test1.xlsx
+[2026-08-03 10:54:34] [DEBUG]       Version 1/2 rejouee (id=1.0, 728422 o)
+[2026-08-03 10:54:34] [ERROR] ❌ test1.xlsx : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:34","request-id":"4aea8bdd-a4af-441c-b2cb-6354fe30cfa0","client-request-id":"4aea8bdd-a4af-441c-b2cb-6354fe30cfa0"}}}
+[2026-08-03 10:54:34] [INFO] [78/78] test2.xlsx (828193 o)
+[2026-08-03 10:54:34] [INFO]    ⬇  test2.xlsx
+[2026-08-03 10:54:35] [INFO]    ⬆  Rejeu de 2 version(s) : test2.xlsx
+[2026-08-03 10:54:36] [DEBUG]       Version 1/2 rejouee (id=1.0, 728422 o)
+[2026-08-03 10:54:36] [ERROR] ❌ test2.xlsx : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"You cannot get the content of the current version.","innerError":{"date":"2026-08-03T08:54:36","request-id":"e8365762-b4b2-4aac-b810-ed03dcb74e65","client-request-id":"e8365762-b4b2-4aac-b810-ed03dcb74e65"}}}
+[2026-08-03 10:54:36] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-03 10:54:36] [INFO] Total   : 78 fichier(s)
+[2026-08-03 10:54:36] [INFO] Erreurs : 78
+[2026-08-03 10:54:36] [SUCCESS] ============================================
+[2026-08-03 10:54:36] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-03 10:54:36] [INFO] Total lignes  : 1
+[2026-08-03 10:54:36] [INFO] Succes        : 1
+[2026-08-03 10:54:36] [INFO] Echecs        : 0
+[2026-08-03 10:54:36] [SUCCESS] ============================================
+[2026-08-03 10:54:36] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-03_105324.csv
+[2026-08-03 10:54:36] [WARN] 78 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-08-03_105324.csv
+[2026-08-03 10:54:36] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-03_105324.log

@@ -1,0 +1,1596 @@
+﻿[2026-07-08 16:39:37] [INFO] =========================================
+[2026-07-08 16:39:37] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS ===
+[2026-07-08 16:39:37] [INFO] Version: 8.2
+[2026-07-08 16:39:37] [INFO] Log: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-08_163937.log
+[2026-07-08 16:39:37] [INFO] Erreurs: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_163937.csv
+[2026-07-08 16:39:37] [SUCCESS] Traductions chargées: 2
+[2026-07-08 16:39:37] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-08 16:39:37] [INFO] === AUTHENTIFICATION ===
+[2026-07-08 16:39:37] [INFO] === RÉSOLUTION SITES/DRIVES ===
+[2026-07-08 16:39:38] [SUCCESS] Source: https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-07-08 16:39:38] [SUCCESS] Drive source: Documents (b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-07-08 16:39:38] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/Notisum
+[2026-07-08 16:39:38] [SUCCESS] Drive destination: Dokument (b!0z6sqSw4wkKUBSEZsaLleFBcHn8_IVFNo3VteQoV3ZuvDB11OkfdTI0ydXY5E-Yg)
+[2026-07-08 16:39:38] [INFO] Librairies source: Documents
+[2026-07-08 16:39:38] [INFO] === LECTURE CSV ===
+[2026-07-08 16:39:38] [SUCCESS] Lignes CSV: 1938
+[2026-07-08 16:39:38] [SUCCESS] Chemins uniques: 333
+[2026-07-08 16:39:38] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-07-08 16:39:38] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-07-08 16:39:39] [SUCCESS] Fichier copié: Audit_user_gmail.xlsx (id=01ZUFXZGL5S7EBTTJRVNAZLYINQDQILAHF)
+[2026-07-08 16:39:40] [SUCCESS] Permission Entra: User test 02 [write] -> Audit_user_gmail.xlsx
+[2026-07-08 16:39:40] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-07-08 16:39:40] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-07-08 16:39:41] [SUCCESS] Fichier copié: Capture d’écran 2026-01-27 172058.jpg (id=01ZUFXZGNZ3ELH7VM2NBE3N3JOMTWGQ5BW)
+[2026-07-08 16:39:41] [SUCCESS] Permission Entra: User test 02 [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-07-08 16:39:41] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-07-08 16:39:41] [INFO] === COPIE REELLE: Drive ECHOLINE ===
+[2026-07-08 16:39:42] [SUCCESS] Dossier créé: Drive ECHOLINE
+[2026-07-08 16:39:42] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE
+[2026-07-08 16:39:43] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE
+[2026-07-08 16:39:43] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-07-08 16:39:43] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops ===
+[2026-07-08 16:39:43] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:39:44] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:39:44] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:39:44] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-07-08 16:39:44] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement ===
+[2026-07-08 16:39:45] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:39:45] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:39:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:39:45] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-07-08 16:39:45] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-07-08 16:39:46] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:39:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:39:47] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:39:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/ (6 permission(s))
+[2026-07-08 16:39:47] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne ===
+[2026-07-08 16:39:48] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:39:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:39:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:39:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/ (6 permission(s))
+[2026-07-08 16:39:48] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie ===
+[2026-07-08 16:39:49] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:39:49] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:39:49] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:39:49] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/ (6 permission(s))
+[2026-07-08 16:39:49] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique ===
+[2026-07-08 16:39:50] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:39:51] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:39:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:39:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/ (6 permission(s))
+[2026-07-08 16:39:51] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil ===
+[2026-07-08 16:39:52] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:39:59] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:39:59] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/ (6 permission(s))
+[2026-07-08 16:39:59] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada ===
+[2026-07-08 16:40:00] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:40:00] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:40:01] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:40:01] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/ (6 permission(s))
+[2026-07-08 16:40:01] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud ===
+[2026-07-08 16:40:02] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:40:08] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:40:08] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/ (6 permission(s))
+[2026-07-08 16:40:08] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne ===
+[2026-07-08 16:40:09] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:40:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:40:10] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:40:10] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/ (6 permission(s))
+[2026-07-08 16:40:10] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie ===
+[2026-07-08 16:40:11] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:40:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:40:11] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:40:11] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/ (6 permission(s))
+[2026-07-08 16:40:11] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe ===
+[2026-07-08 16:40:12] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:40:12] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:40:12] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:40:13] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/ (6 permission(s))
+[2026-07-08 16:40:13] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande ===
+[2026-07-08 16:40:14] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:40:14] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:40:14] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:40:14] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/ (6 permission(s))
+[2026-07-08 16:40:14] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France ===
+[2026-07-08 16:40:15] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:40:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:40:16] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:40:16] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/ (6 permission(s))
+[2026-07-08 16:40:16] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde ===
+[2026-07-08 16:40:17] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:40:17] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:40:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:40:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/ (6 permission(s))
+[2026-07-08 16:40:17] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande ===
+[2026-07-08 16:40:18] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:40:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:40:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:40:19] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/ (6 permission(s))
+[2026-07-08 16:40:19] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie ===
+[2026-07-08 16:40:20] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:40:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:40:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:40:20] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/ (6 permission(s))
+[2026-07-08 16:40:20] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg ===
+[2026-07-08 16:40:21] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:40:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:40:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:40:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/ (6 permission(s))
+[2026-07-08 16:40:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie ===
+[2026-07-08 16:40:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:40:23] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:40:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:40:23] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/ (6 permission(s))
+[2026-07-08 16:40:23] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc ===
+[2026-07-08 16:40:24] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:40:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:40:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:40:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/ (6 permission(s))
+[2026-07-08 16:40:25] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne ===
+[2026-07-08 16:40:26] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:40:26] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:40:26] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:40:26] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/ (6 permission(s))
+[2026-07-08 16:40:26] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal ===
+[2026-07-08 16:40:27] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:40:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:40:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:40:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/ (6 permission(s))
+[2026-07-08 16:40:27] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni ===
+[2026-07-08 16:40:28] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:40:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:40:29] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:40:29] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/ (6 permission(s))
+[2026-07-08 16:40:29] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour ===
+[2026-07-08 16:40:30] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:40:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:40:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:40:30] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède/ (6 permission(s))
+[2026-07-08 16:40:30] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède ===
+[2026-07-08 16:40:32] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:40:38] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:40:38] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/ (6 permission(s))
+[2026-07-08 16:40:38] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse ===
+[2026-07-08 16:40:39] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:40:39] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:40:40] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:40:40] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/ (6 permission(s))
+[2026-07-08 16:40:40] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie ===
+[2026-07-08 16:40:41] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:40:41] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:40:41] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:40:41] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/ (6 permission(s))
+[2026-07-08 16:40:41] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA ===
+[2026-07-08 16:40:42] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:40:42] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:40:43] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:40:43] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ (6 permission(s))
+[2026-07-08 16:40:43] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._ ===
+[2026-07-08 16:40:43] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:40:44] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:40:44] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:40:44] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/ (6 permission(s))
+[2026-07-08 16:40:44] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik ===
+[2026-07-08 16:40:45] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:40:45] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:40:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:40:45] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/ (6 permission(s))
+[2026-07-08 16:40:45] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum ===
+[2026-07-08 16:40:46] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:40:47] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:40:47] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:40:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:40:47] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives ===
+[2026-07-08 16:40:48] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:40:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:40:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:40:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/ (6 permission(s))
+[2026-07-08 16:40:49] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets ===
+[2026-07-08 16:40:49] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:40:50] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:40:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:40:50] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/ (6 permission(s))
+[2026-07-08 16:40:50] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques ===
+[2026-07-08 16:40:51] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:40:51] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/
+[2026-07-08 16:40:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/ (6 permission(s))
+[2026-07-08 16:40:51] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes ===
+[2026-07-08 16:40:52] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:40:52] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:40:53] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:40:53] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/ (6 permission(s))
+[2026-07-08 16:40:53] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille ===
+[2026-07-08 16:40:54] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:40:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:40:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:40:54] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/ (6 permission(s))
+[2026-07-08 16:40:54] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs ===
+[2026-07-08 16:40:55] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:40:55] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:40:56] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:40:56] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/ (6 permission(s))
+[2026-07-08 16:40:56] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques ===
+[2026-07-08 16:40:57] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:40:57] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:40:57] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:40:57] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/ (6 permission(s))
+[2026-07-08 16:40:57] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement ===
+[2026-07-08 16:40:58] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:40:58] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:40:59] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:40:59] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/ (6 permission(s))
+[2026-07-08 16:40:59] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail ===
+[2026-07-08 16:41:00] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:41:00] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/
+[2026-07-08 16:41:00] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:00] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives ===
+[2026-07-08 16:41:01] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-08 16:41:01] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-08 16:41:01] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-08 16:41:01] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/ (6 permission(s))
+[2026-07-08 16:41:01] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement ===
+[2026-07-08 16:41:02] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-08 16:41:03] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-08 16:41:03] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-08 16:41:03] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures/ (6 permission(s))
+[2026-07-08 16:41:03] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures ===
+[2026-07-08 16:41:04] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:41:04] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures/
+[2026-07-08 16:41:04] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/ (6 permission(s))
+[2026-07-08 16:41:04] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires ===
+[2026-07-08 16:41:06] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-08 16:41:06] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-08 16:41:06] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-08 16:41:06] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques/ (6 permission(s))
+[2026-07-08 16:41:06] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques ===
+[2026-07-08 16:41:07] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:41:07] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques/
+[2026-07-08 16:41:07] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/ (6 permission(s))
+[2026-07-08 16:41:07] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops ===
+[2026-07-08 16:41:08] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops
+[2026-07-08 16:41:08] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops
+[2026-07-08 16:41:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops
+[2026-07-08 16:41:09] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/A-Suivi prod/ (6 permission(s))
+[2026-07-08 16:41:09] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/A-Suivi prod ===
+[2026-07-08 16:41:10] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-08 16:41:10] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-08 16:41:10] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-08 16:41:10] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/B-Clients/ (6 permission(s))
+[2026-07-08 16:41:10] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/B-Clients ===
+[2026-07-08 16:41:11] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-08 16:41:12] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-08 16:41:12] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-08 16:41:12] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/C-Services/ (6 permission(s))
+[2026-07-08 16:41:12] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/C-Services ===
+[2026-07-08 16:41:13] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-08 16:41:13] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-08 16:41:14] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-08 16:41:14] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/D-Projets/ (6 permission(s))
+[2026-07-08 16:41:14] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/D-Projets ===
+[2026-07-08 16:41:15] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-08 16:41:15] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-08 16:41:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-08 16:41:16] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:16] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/ZZ-Archives ===
+[2026-07-08 16:41:17] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-08 16:41:17] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-08 16:41:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-08 16:41:17] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/ (6 permission(s))
+[2026-07-08 16:41:17] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care ===
+[2026-07-08 16:41:18] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care
+[2026-07-08 16:41:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care
+[2026-07-08 16:41:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care
+[2026-07-08 16:41:19] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/ (6 permission(s))
+[2026-07-08 16:41:19] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline ===
+[2026-07-08 16:41:20] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-08 16:41:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-08 16:41:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-08 16:41:20] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone/ (6 permission(s))
+[2026-07-08 16:41:20] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone ===
+[2026-07-08 16:41:21] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:41:21] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone/
+[2026-07-08 16:41:21] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:21] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives ===
+[2026-07-08 16:41:23] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-08 16:41:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-08 16:41:23] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-08 16:41:23] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/ (6 permission(s))
+[2026-07-08 16:41:23] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/B-NPS ===
+[2026-07-08 16:41:24] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-08 16:41:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-08 16:41:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-08 16:41:25] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:25] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives ===
+[2026-07-08 16:41:26] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-08 16:41:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-08 16:41:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-08 16:41:27] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ (6 permission(s))
+[2026-07-08 16:41:27] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/C-Satisfaction score ===
+[2026-07-08 16:41:28] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-08 16:41:29] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-08 16:41:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-08 16:41:29] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:29] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives ===
+[2026-07-08 16:41:30] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-08 16:41:31] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-08 16:41:31] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-08 16:41:31] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/ (6 permission(s))
+[2026-07-08 16:41:31] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/D-Reporting ===
+[2026-07-08 16:41:32] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-08 16:41:32] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-08 16:41:32] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-08 16:41:32] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:32] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives ===
+[2026-07-08 16:41:34] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-08 16:41:34] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-08 16:41:34] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-08 16:41:34] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ (6 permission(s))
+[2026-07-08 16:41:34] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management ===
+[2026-07-08 16:41:35] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management
+[2026-07-08 16:41:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management
+[2026-07-08 16:41:36] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management
+[2026-07-08 16:41:36] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/ (6 permission(s))
+[2026-07-08 16:41:36] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/A-Newsletter ===
+[2026-07-08 16:41:37] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-08 16:41:37] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-08 16:41:38] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-08 16:41:38] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:38] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives ===
+[2026-07-08 16:41:39] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-08 16:41:39] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-08 16:41:40] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-08 16:41:40] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/ (6 permission(s))
+[2026-07-08 16:41:40] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar ===
+[2026-07-08 16:41:41] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-08 16:41:41] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-08 16:41:41] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-08 16:41:41] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/ (6 permission(s))
+[2026-07-08 16:41:41] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI ===
+[2026-07-08 16:41:42] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-08 16:41:43] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-08 16:41:43] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-08 16:41:43] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:43] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives ===
+[2026-07-08 16:41:44] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-08 16:41:44] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-08 16:41:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-08 16:41:45] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/ (6 permission(s))
+[2026-07-08 16:41:45] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb ===
+[2026-07-08 16:41:46] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-08 16:41:46] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-08 16:41:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-08 16:41:46] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/ (6 permission(s))
+[2026-07-08 16:41:46] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes ===
+[2026-07-08 16:41:47] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-08 16:41:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-08 16:41:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-08 16:41:48] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:41:48] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives ===
+[2026-07-08 16:41:49] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-08 16:41:49] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-08 16:41:50] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-08 16:41:50] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/ (6 permission(s))
+[2026-07-08 16:41:50] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication ===
+[2026-07-08 16:41:51] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-08 16:41:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-08 16:41:51] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-08 16:41:51] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/ (6 permission(s))
+[2026-07-08 16:41:51] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers ===
+[2026-07-08 16:41:52] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-08 16:41:53] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-08 16:41:53] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-08 16:41:53] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/ (6 permission(s))
+[2026-07-08 16:41:53] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations ===
+[2026-07-08 16:41:54] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-08 16:41:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-08 16:41:55] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-08 16:41:55] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT/ (6 permission(s))
+[2026-07-08 16:41:55] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT ===
+[2026-07-08 16:41:56] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-08 16:42:02] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-08 16:42:02] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/ (6 permission(s))
+[2026-07-08 16:42:02] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients ===
+[2026-07-08 16:42:04] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-08 16:42:04] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-08 16:42:04] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-08 16:42:04] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/ (6 permission(s))
+[2026-07-08 16:42:04] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE ===
+[2026-07-08 16:42:05] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-08 16:42:06] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-08 16:42:06] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-08 16:42:06] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Photos/ (6 permission(s))
+[2026-07-08 16:42:06] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Photos ===
+[2026-07-08 16:42:07] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-08 16:42:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-08 16:42:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-08 16:42:07] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:42:07] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives ===
+[2026-07-08 16:42:09] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-08 16:42:09] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-08 16:42:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-08 16:42:09] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/ (6 permission(s))
+[2026-07-08 16:42:09] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/E- Linkedin ===
+[2026-07-08 16:42:10] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-08 16:42:10] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-08 16:42:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-08 16:42:11] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires/ (6 permission(s))
+[2026-07-08 16:42:11] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires ===
+[2026-07-08 16:42:12] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-08 16:42:19] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-08 16:42:19] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:42:19] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/ZZ-Archives ===
+[2026-07-08 16:42:20] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-08 16:42:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-08 16:42:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-08 16:42:20] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/ (6 permission(s))
+[2026-07-08 16:42:20] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales ===
+[2026-07-08 16:42:22] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-08 16:42:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-08 16:42:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-08 16:42:22] [INFO] Traitement: /Drive ECHOLINE/05-Sales/ (6 permission(s))
+[2026-07-08 16:42:22] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales ===
+[2026-07-08 16:42:23] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales
+[2026-07-08 16:42:23] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales
+[2026-07-08 16:42:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales
+[2026-07-08 16:42:24] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ (6 permission(s))
+[2026-07-08 16:42:24] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects ===
+[2026-07-08 16:42:25] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-08 16:42:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-08 16:42:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-08 16:42:25] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/ (6 permission(s))
+[2026-07-08 16:42:25] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL ===
+[2026-07-08 16:42:27] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-08 16:42:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-08 16:42:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-08 16:42:27] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/ (6 permission(s))
+[2026-07-08 16:42:27] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES ===
+[2026-07-08 16:42:28] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-08 16:42:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-08 16:42:29] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-08 16:42:29] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/APAG/ (6 permission(s))
+[2026-07-08 16:42:29] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/APAG ===
+[2026-07-08 16:42:30] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-08 16:42:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-08 16:42:31] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-08 16:42:31] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/ (6 permission(s))
+[2026-07-08 16:42:31] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE ===
+[2026-07-08 16:42:32] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-08 16:42:32] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-08 16:42:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-08 16:42:33] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/ (6 permission(s))
+[2026-07-08 16:42:33] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH ===
+[2026-07-08 16:42:34] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-08 16:42:34] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-08 16:42:34] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-08 16:42:34] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/ (6 permission(s))
+[2026-07-08 16:42:34] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE ===
+[2026-07-08 16:42:35] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-08 16:42:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-08 16:42:36] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-08 16:42:36] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/ (6 permission(s))
+[2026-07-08 16:42:36] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM ===
+[2026-07-08 16:42:37] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-08 16:42:37] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-08 16:42:37] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-08 16:42:38] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/ (6 permission(s))
+[2026-07-08 16:42:38] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS ===
+[2026-07-08 16:42:39] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-08 16:42:39] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-08 16:42:39] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-08 16:42:39] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/ (6 permission(s))
+[2026-07-08 16:42:39] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY ===
+[2026-07-08 16:42:41] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-08 16:42:41] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-08 16:42:41] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-08 16:42:41] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/ (6 permission(s))
+[2026-07-08 16:42:41] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC ===
+[2026-07-08 16:42:42] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-08 16:42:43] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-08 16:42:43] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-08 16:42:43] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/ (6 permission(s))
+[2026-07-08 16:42:43] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY ===
+[2026-07-08 16:42:44] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-08 16:42:44] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-08 16:42:45] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-08 16:42:45] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CPCU/ (6 permission(s))
+[2026-07-08 16:42:45] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CPCU ===
+[2026-07-08 16:42:46] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-08 16:42:46] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-08 16:42:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-08 16:42:46] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/ (6 permission(s))
+[2026-07-08 16:42:46] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH ===
+[2026-07-08 16:42:48] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-08 16:42:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-08 16:42:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-08 16:42:48] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/ (6 permission(s))
+[2026-07-08 16:42:48] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES ===
+[2026-07-08 16:42:50] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-08 16:42:50] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-08 16:42:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-08 16:42:50] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIS/ (6 permission(s))
+[2026-07-08 16:42:50] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ELIS ===
+[2026-07-08 16:42:52] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-08 16:42:52] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-08 16:42:52] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-08 16:42:52] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/ (6 permission(s))
+[2026-07-08 16:42:52] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA ===
+[2026-07-08 16:42:54] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-08 16:42:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-08 16:42:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-08 16:42:54] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/ (6 permission(s))
+[2026-07-08 16:42:54] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS ===
+[2026-07-08 16:42:55] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-08 16:42:56] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-08 16:42:56] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-08 16:42:56] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/ (6 permission(s))
+[2026-07-08 16:42:56] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING ===
+[2026-07-08 16:42:57] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-08 16:42:57] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-08 16:42:58] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-08 16:42:58] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC/ (6 permission(s))
+[2026-07-08 16:42:58] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC ===
+[2026-07-08 16:42:58] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:42:58] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC/
+[2026-07-08 16:42:58] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/ (6 permission(s))
+[2026-07-08 16:42:58] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC ===
+[2026-07-08 16:43:00] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-08 16:43:00] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-08 16:43:00] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-08 16:43:00] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/ (6 permission(s))
+[2026-07-08 16:43:00] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP ===
+[2026-07-08 16:43:01] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-08 16:43:01] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-08 16:43:02] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-08 16:43:02] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/ (6 permission(s))
+[2026-07-08 16:43:02] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU ===
+[2026-07-08 16:43:03] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-08 16:43:03] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-08 16:43:03] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-08 16:43:03] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/ (6 permission(s))
+[2026-07-08 16:43:03] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES ===
+[2026-07-08 16:43:05] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-08 16:43:05] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-08 16:43:05] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-08 16:43:05] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/ (6 permission(s))
+[2026-07-08 16:43:05] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE ===
+[2026-07-08 16:43:06] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-08 16:43:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-08 16:43:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-08 16:43:07] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/ (6 permission(s))
+[2026-07-08 16:43:07] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER ===
+[2026-07-08 16:43:08] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-08 16:43:08] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-08 16:43:08] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-08 16:43:09] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/ (6 permission(s))
+[2026-07-08 16:43:09] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF ===
+[2026-07-08 16:43:10] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-08 16:43:10] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-08 16:43:10] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-08 16:43:10] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/ (6 permission(s))
+[2026-07-08 16:43:10] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE ===
+[2026-07-08 16:43:11] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-08 16:43:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-08 16:43:12] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-08 16:43:12] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LDMI/ (6 permission(s))
+[2026-07-08 16:43:12] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/LDMI ===
+[2026-07-08 16:43:13] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-08 16:43:13] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-08 16:43:13] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-08 16:43:13] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/ (6 permission(s))
+[2026-07-08 16:43:13] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS ===
+[2026-07-08 16:43:15] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-08 16:43:15] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-08 16:43:15] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-08 16:43:15] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/ (6 permission(s))
+[2026-07-08 16:43:15] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP ===
+[2026-07-08 16:43:16] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-08 16:43:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-08 16:43:17] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-08 16:43:17] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/ (6 permission(s))
+[2026-07-08 16:43:17] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME ===
+[2026-07-08 16:43:18] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-08 16:43:18] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-08 16:43:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-08 16:43:19] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/ (6 permission(s))
+[2026-07-08 16:43:19] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND ===
+[2026-07-08 16:43:20] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-08 16:43:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-08 16:43:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-08 16:43:20] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/ (6 permission(s))
+[2026-07-08 16:43:20] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL ===
+[2026-07-08 16:43:22] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-08 16:43:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-08 16:43:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-08 16:43:22] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/ (6 permission(s))
+[2026-07-08 16:43:22] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF ===
+[2026-07-08 16:43:23] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-08 16:43:24] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-08 16:43:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-08 16:43:24] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ/ (6 permission(s))
+[2026-07-08 16:43:24] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ ===
+[2026-07-08 16:43:25] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:43:25] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ/
+[2026-07-08 16:43:25] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/ (6 permission(s))
+[2026-07-08 16:43:25] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG ===
+[2026-07-08 16:43:26] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-08 16:43:26] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-08 16:43:26] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-08 16:43:26] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/ (6 permission(s))
+[2026-07-08 16:43:26] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH ===
+[2026-07-08 16:43:28] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-08 16:43:28] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-08 16:43:28] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-08 16:43:28] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/ (6 permission(s))
+[2026-07-08 16:43:28] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS ===
+[2026-07-08 16:43:29] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-08 16:43:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-08 16:43:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-08 16:43:30] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/ (6 permission(s))
+[2026-07-08 16:43:30] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD ===
+[2026-07-08 16:43:31] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-08 16:43:31] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-08 16:43:31] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-08 16:43:31] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/ (6 permission(s))
+[2026-07-08 16:43:31] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS ===
+[2026-07-08 16:43:33] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-08 16:43:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-08 16:43:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-08 16:43:33] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/ (6 permission(s))
+[2026-07-08 16:43:33] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM ===
+[2026-07-08 16:43:34] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-08 16:43:35] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-08 16:43:35] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-08 16:43:35] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M/ (6 permission(s))
+[2026-07-08 16:43:35] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M ===
+[2026-07-08 16:43:36] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:43:36] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M/
+[2026-07-08 16:43:36] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ/ (6 permission(s))
+[2026-07-08 16:43:36] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ ===
+[2026-07-08 16:43:37] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:43:37] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ/
+[2026-07-08 16:43:37] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SKF/ (6 permission(s))
+[2026-07-08 16:43:37] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SKF ===
+[2026-07-08 16:43:38] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-08 16:43:39] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-08 16:43:39] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-08 16:43:39] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/ (6 permission(s))
+[2026-07-08 16:43:39] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA ===
+[2026-07-08 16:43:40] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-08 16:43:40] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-08 16:43:40] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-08 16:43:40] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/ (6 permission(s))
+[2026-07-08 16:43:40] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS ===
+[2026-07-08 16:43:42] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-08 16:43:42] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-08 16:43:42] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-08 16:43:42] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/ (6 permission(s))
+[2026-07-08 16:43:42] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ ===
+[2026-07-08 16:43:43] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-08 16:43:44] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-08 16:43:44] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-08 16:43:44] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/ (6 permission(s))
+[2026-07-08 16:43:44] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP ===
+[2026-07-08 16:43:45] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-08 16:43:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-08 16:43:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-08 16:43:46] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/ (6 permission(s))
+[2026-07-08 16:43:46] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN ===
+[2026-07-08 16:43:47] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-08 16:43:47] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-08 16:43:47] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-08 16:43:47] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/ (6 permission(s))
+[2026-07-08 16:43:47] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT ===
+[2026-07-08 16:43:49] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-08 16:43:49] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-08 16:43:49] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-08 16:43:49] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/ (6 permission(s))
+[2026-07-08 16:43:49] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO ===
+[2026-07-08 16:43:50] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-08 16:43:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-08 16:43:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-08 16:43:51] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/URBYN/ (6 permission(s))
+[2026-07-08 16:43:51] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/URBYN ===
+[2026-07-08 16:43:52] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-08 16:43:52] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-08 16:43:52] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-08 16:43:52] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/ (6 permission(s))
+[2026-07-08 16:43:52] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY ===
+[2026-07-08 16:43:53] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-08 16:43:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-08 16:43:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-08 16:43:54] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/ (6 permission(s))
+[2026-07-08 16:43:54] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING ===
+[2026-07-08 16:43:55] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-08 16:43:56] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-08 16:43:56] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-08 16:43:56] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/ (6 permission(s))
+[2026-07-08 16:43:56] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES ===
+[2026-07-08 16:43:57] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-08 16:43:58] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-08 16:43:58] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-08 16:43:58] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/YZEE/ (6 permission(s))
+[2026-07-08 16:43:58] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/YZEE ===
+[2026-07-08 16:43:59] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-08 16:43:59] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-08 16:44:00] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-08 16:44:00] [INFO] Traitement: /Drive ECHOLINE/05-Sales/B-Templates/ (6 permission(s))
+[2026-07-08 16:44:00] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/B-Templates ===
+[2026-07-08 16:44:01] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-08 16:44:01] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-08 16:44:01] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-08 16:44:01] [INFO] Traitement: /Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/ (6 permission(s))
+[2026-07-08 16:44:01] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation ===
+[2026-07-08 16:44:02] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-08 16:44:02] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-08 16:44:03] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-08 16:44:03] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/ (6 permission(s))
+[2026-07-08 16:44:03] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package ===
+[2026-07-08 16:44:04] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-08 16:44:04] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-08 16:44:04] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-08 16:44:04] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/ (6 permission(s))
+[2026-07-08 16:44:04] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/ARTHUR ===
+[2026-07-08 16:44:05] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-08 16:44:06] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-08 16:44:06] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-08 16:44:06] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/ (6 permission(s))
+[2026-07-08 16:44:06] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/AURELIEN ===
+[2026-07-08 16:44:07] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-08 16:44:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-08 16:44:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-08 16:44:07] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/CELIA/ (6 permission(s))
+[2026-07-08 16:44:07] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/CELIA ===
+[2026-07-08 16:44:09] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-08 16:44:09] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-08 16:44:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-08 16:44:09] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/ (6 permission(s))
+[2026-07-08 16:44:09] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE ===
+[2026-07-08 16:44:10] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-08 16:44:11] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-08 16:44:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-08 16:44:11] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/ (6 permission(s))
+[2026-07-08 16:44:11] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/GAYLORD ===
+[2026-07-08 16:44:13] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-08 16:44:14] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-08 16:44:14] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-08 16:44:14] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/JEREMY/ (6 permission(s))
+[2026-07-08 16:44:14] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/JEREMY ===
+[2026-07-08 16:44:15] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-08 16:44:15] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-08 16:44:15] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-08 16:44:15] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/LAURA/ (6 permission(s))
+[2026-07-08 16:44:15] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/LAURA ===
+[2026-07-08 16:44:17] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-08 16:44:17] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-08 16:44:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-08 16:44:17] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/ (6 permission(s))
+[2026-07-08 16:44:17] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/SOPHIE ===
+[2026-07-08 16:44:18] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-08 16:44:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-08 16:44:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-08 16:44:19] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/YANN/ (6 permission(s))
+[2026-07-08 16:44:19] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/Communication Package/YANN ===
+[2026-07-08 16:44:20] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-08 16:44:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-08 16:44:21] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-08 16:44:21] [INFO] Traitement: /Drive ECHOLINE/05-Sales/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:44:21] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/ZZ-Archives ===
+[2026-07-08 16:44:22] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-08 16:44:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-08 16:44:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-08 16:44:22] [INFO] Traitement: /Drive ECHOLINE/06-Community/ (6 permission(s))
+[2026-07-08 16:44:22] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community ===
+[2026-07-08 16:44:23] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community
+[2026-07-08 16:44:23] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community
+[2026-07-08 16:44:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community
+[2026-07-08 16:44:24] [INFO] Traitement: /Drive ECHOLINE/06-Community/ADRAR FORMATION/ (6 permission(s))
+[2026-07-08 16:44:24] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/ADRAR FORMATION ===
+[2026-07-08 16:44:25] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-08 16:44:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-08 16:44:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-08 16:44:25] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/ (6 permission(s))
+[2026-07-08 16:44:25] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/CAE CONSEILS ===
+[2026-07-08 16:44:26] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-08 16:44:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-08 16:44:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-08 16:44:27] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/ (6 permission(s))
+[2026-07-08 16:44:27] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/CAE CONSEILS/Devis ===
+[2026-07-08 16:44:28] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-08 16:44:28] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-08 16:44:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-08 16:44:29] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/ (6 permission(s))
+[2026-07-08 16:44:29] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat ===
+[2026-07-08 16:44:30] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-08 16:44:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-08 16:44:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-08 16:44:30] [INFO] Traitement: /Drive ECHOLINE/06-Community/FRANCE SI/ (6 permission(s))
+[2026-07-08 16:44:30] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/FRANCE SI ===
+[2026-07-08 16:44:31] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-08 16:44:32] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-08 16:44:32] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-08 16:44:32] [INFO] Traitement: /Drive ECHOLINE/06-Community/GAMMA SOFTWARE/ (6 permission(s))
+[2026-07-08 16:44:32] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/GAMMA SOFTWARE ===
+[2026-07-08 16:44:33] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-08 16:44:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-08 16:44:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-08 16:44:33] [INFO] Traitement: /Drive ECHOLINE/06-Community/KNOWLLENCE/ (6 permission(s))
+[2026-07-08 16:44:33] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/KNOWLLENCE ===
+[2026-07-08 16:44:34] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-08 16:44:35] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-08 16:44:35] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-08 16:44:35] [INFO] Traitement: /Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/ (6 permission(s))
+[2026-07-08 16:44:35] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat ===
+[2026-07-08 16:44:36] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-08 16:44:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-08 16:44:37] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-08 16:44:37] [INFO] Traitement: /Drive ECHOLINE/06-Community/LOOTIBOX/ (6 permission(s))
+[2026-07-08 16:44:37] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/LOOTIBOX ===
+[2026-07-08 16:44:38] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-08 16:44:38] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-08 16:44:38] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-08 16:44:38] [INFO] Traitement: /Drive ECHOLINE/06-Community/QUALIPRO/ (6 permission(s))
+[2026-07-08 16:44:38] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/QUALIPRO ===
+[2026-07-08 16:44:39] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-08 16:44:40] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-08 16:44:40] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-08 16:44:40] [INFO] Traitement: /Drive ECHOLINE/06-Community/QUALIPRO/Contrat/ (6 permission(s))
+[2026-07-08 16:44:40] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/QUALIPRO/Contrat ===
+[2026-07-08 16:44:41] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-08 16:44:41] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-08 16:44:42] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-08 16:44:42] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/ (6 permission(s))
+[2026-07-08 16:44:42] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/TEEO ===
+[2026-07-08 16:44:43] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO
+[2026-07-08 16:44:43] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/TEEO
+[2026-07-08 16:44:43] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/TEEO
+[2026-07-08 16:44:43] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/Archive/ (6 permission(s))
+[2026-07-08 16:44:43] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/TEEO/Archive ===
+[2026-07-08 16:44:45] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-08 16:44:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-08 16:44:45] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-08 16:44:45] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/Partenariat/ (6 permission(s))
+[2026-07-08 16:44:45] [INFO] === COPIE REELLE: Drive ECHOLINE/06-Community/TEEO/Partenariat ===
+[2026-07-08 16:44:46] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-08 16:44:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-08 16:44:47] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-08 16:44:47] [INFO] Traitement: /Drive ECHOLINE/07-Tech/ (6 permission(s))
+[2026-07-08 16:44:47] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech ===
+[2026-07-08 16:44:48] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech
+[2026-07-08 16:44:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech
+[2026-07-08 16:44:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech
+[2026-07-08 16:44:48] [INFO] Traitement: /Drive ECHOLINE/07-Tech/A-Product management/ (6 permission(s))
+[2026-07-08 16:44:48] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/A-Product management ===
+[2026-07-08 16:44:50] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-08 16:44:50] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-08 16:44:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-08 16:44:50] [INFO] Traitement: /Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:44:50] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives ===
+[2026-07-08 16:44:51] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-08 16:44:52] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-08 16:44:52] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-08 16:44:52] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/ (6 permission(s))
+[2026-07-08 16:44:52] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup ===
+[2026-07-08 16:44:53] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-08 16:44:53] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-08 16:44:53] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-08 16:44:53] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Alexandria/ (6 permission(s))
+[2026-07-08 16:44:53] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/Alexandria ===
+[2026-07-08 16:44:55] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-08 16:44:55] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-08 16:44:55] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-08 16:44:55] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/ (6 permission(s))
+[2026-07-08 16:44:55] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab ===
+[2026-07-08 16:44:56] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-08 16:44:57] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-08 16:44:57] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-08 16:44:57] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/BDD/ (6 permission(s))
+[2026-07-08 16:44:57] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/BDD ===
+[2026-07-08 16:44:58] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-08 16:44:58] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-08 16:44:59] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-08 16:44:59] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Infra/ (6 permission(s))
+[2026-07-08 16:44:59] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/Infra ===
+[2026-07-08 16:45:00] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-08 16:45:00] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-08 16:45:00] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-08 16:45:00] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Maquettes/ (6 permission(s))
+[2026-07-08 16:45:00] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/Maquettes ===
+[2026-07-08 16:45:02] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-08 16:45:02] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-08 16:45:02] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-08 16:45:02] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/ (6 permission(s))
+[2026-07-08 16:45:02] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022 ===
+[2026-07-08 16:45:04] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-08 16:45:04] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-08 16:45:04] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-08 16:45:04] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/QSE/ (6 permission(s))
+[2026-07-08 16:45:04] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/QSE ===
+[2026-07-08 16:45:05] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-08 16:45:06] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-08 16:45:06] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-08 16:45:06] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/RFP/ (6 permission(s))
+[2026-07-08 16:45:06] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/B-Backup/RFP ===
+[2026-07-08 16:45:07] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-08 16:45:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-08 16:45:08] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-08 16:45:08] [INFO] Traitement: /Drive ECHOLINE/07-Tech/C-Cybersécurité/ (6 permission(s))
+[2026-07-08 16:45:08] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/C-Cybersécurité ===
+[2026-07-08 16:45:08] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:45:08] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/07-Tech/C-Cybersécurité/
+[2026-07-08 16:45:08] [INFO] Traitement: /Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/ (6 permission(s))
+[2026-07-08 16:45:08] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/C-Cybersécurité/2022 ===
+[2026-07-08 16:45:09] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:45:09] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/
+[2026-07-08 16:45:09] [INFO] Traitement: /Drive ECHOLINE/07-Tech/OpenAI/ (6 permission(s))
+[2026-07-08 16:45:09] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/OpenAI ===
+[2026-07-08 16:45:10] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-08 16:45:11] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-08 16:45:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-08 16:45:11] [INFO] Traitement: /Drive ECHOLINE/07-Tech/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:45:11] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/ZZ-Archives ===
+[2026-07-08 16:45:12] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-08 16:45:12] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-08 16:45:12] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-08 16:45:12] [INFO] Traitement: /Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/ (6 permission(s))
+[2026-07-08 16:45:12] [INFO] === COPIE REELLE: Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA ===
+[2026-07-08 16:45:14] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-08 16:45:14] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-08 16:45:14] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-08 16:45:14] [INFO] Traitement: /Drive ECHOLINE/08-Design/ (6 permission(s))
+[2026-07-08 16:45:14] [INFO] === COPIE REELLE: Drive ECHOLINE/08-Design ===
+[2026-07-08 16:45:15] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design
+[2026-07-08 16:45:15] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/08-Design
+[2026-07-08 16:45:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/08-Design
+[2026-07-08 16:45:16] [INFO] Traitement: /Drive ECHOLINE/08-Design/App ECHOLINE/ (6 permission(s))
+[2026-07-08 16:45:16] [INFO] === COPIE REELLE: Drive ECHOLINE/08-Design/App ECHOLINE ===
+[2026-07-08 16:45:17] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-08 16:45:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-08 16:45:17] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-08 16:45:17] [INFO] Traitement: /Drive ECHOLINE/08-Design/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:45:17] [INFO] === COPIE REELLE: Drive ECHOLINE/08-Design/ZZ-Archives ===
+[2026-07-08 16:45:18] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-08 16:45:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-08 16:45:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-08 16:45:19] [INFO] Traitement: /Drive ECHOLINE/09-QSE/ (6 permission(s))
+[2026-07-08 16:45:19] [INFO] === COPIE REELLE: Drive ECHOLINE/09-QSE ===
+[2026-07-08 16:45:20] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE
+[2026-07-08 16:45:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/09-QSE
+[2026-07-08 16:45:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/09-QSE
+[2026-07-08 16:45:20] [INFO] Traitement: /Drive ECHOLINE/09-QSE/A-Analyse environnementale/ (6 permission(s))
+[2026-07-08 16:45:20] [INFO] === COPIE REELLE: Drive ECHOLINE/09-QSE/A-Analyse environnementale ===
+[2026-07-08 16:45:21] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-08 16:45:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-08 16:45:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-08 16:45:22] [INFO] Traitement: /Drive ECHOLINE/09-QSE/B-Bilan carbone/ (6 permission(s))
+[2026-07-08 16:45:22] [INFO] === COPIE REELLE: Drive ECHOLINE/09-QSE/B-Bilan carbone ===
+[2026-07-08 16:45:23] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-08 16:45:23] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-08 16:45:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-08 16:45:23] [INFO] Traitement: /Drive ECHOLINE/09-QSE/C-Document unique/ (6 permission(s))
+[2026-07-08 16:45:23] [INFO] === COPIE REELLE: Drive ECHOLINE/09-QSE/C-Document unique ===
+[2026-07-08 16:45:25] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-08 16:45:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-08 16:45:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-08 16:45:25] [INFO] Traitement: /Drive ECHOLINE/09-QSE/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:45:25] [INFO] === COPIE REELLE: Drive ECHOLINE/09-QSE/ZZ-Archives ===
+[2026-07-08 16:45:26] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-08 16:45:26] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-08 16:45:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-08 16:45:27] [INFO] Traitement: /Drive ECHOLINE/10-Pilotage/ (6 permission(s))
+[2026-07-08 16:45:27] [INFO] === COPIE REELLE: Drive ECHOLINE/10-Pilotage ===
+[2026-07-08 16:45:28] [SUCCESS] Dossier créé: Drive ECHOLINE/10-Pilotage
+[2026-07-08 16:45:28] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/10-Pilotage
+[2026-07-08 16:45:28] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/10-Pilotage
+[2026-07-08 16:45:28] [INFO] Traitement: /Drive ECHOLINE/10-Pilotage/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:45:28] [INFO] === COPIE REELLE: Drive ECHOLINE/10-Pilotage/ZZ-Archives ===
+[2026-07-08 16:45:29] [SUCCESS] Dossier créé: Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-08 16:45:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-08 16:45:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-08 16:45:30] [INFO] Traitement: /Drive ECHOLINE/11-Admin/ (6 permission(s))
+[2026-07-08 16:45:30] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin ===
+[2026-07-08 16:45:31] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin
+[2026-07-08 16:45:31] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin
+[2026-07-08 16:45:31] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin
+[2026-07-08 16:45:32] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Assurance/ (6 permission(s))
+[2026-07-08 16:45:32] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Assurance ===
+[2026-07-08 16:45:33] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Assurance
+[2026-07-08 16:45:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Assurance
+[2026-07-08 16:45:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Assurance
+[2026-07-08 16:45:33] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Banque/ (6 permission(s))
+[2026-07-08 16:45:33] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Banque ===
+[2026-07-08 16:45:34] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Banque
+[2026-07-08 16:45:34] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Banque
+[2026-07-08 16:45:35] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Banque
+[2026-07-08 16:45:35] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Comptabilité/ (6 permission(s))
+[2026-07-08 16:45:35] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Comptabilité ===
+[2026-07-08 16:45:35] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:45:35] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/11-Admin/Comptabilité/
+[2026-07-08 16:45:35] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Domiciliation/ (6 permission(s))
+[2026-07-08 16:45:35] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Domiciliation ===
+[2026-07-08 16:45:37] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-08 16:45:37] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-08 16:45:37] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-08 16:45:37] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Kbis et statuts/ (6 permission(s))
+[2026-07-08 16:45:37] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Kbis et statuts ===
+[2026-07-08 16:45:38] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-08 16:45:38] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-08 16:45:39] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-08 16:45:39] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Marque/ (6 permission(s))
+[2026-07-08 16:45:39] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Marque ===
+[2026-07-08 16:45:40] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Marque
+[2026-07-08 16:45:40] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Marque
+[2026-07-08 16:45:40] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Marque
+[2026-07-08 16:45:40] [INFO] Traitement: /Drive ECHOLINE/11-Admin/RGPD/ (6 permission(s))
+[2026-07-08 16:45:40] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/RGPD ===
+[2026-07-08 16:45:41] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/RGPD
+[2026-07-08 16:45:42] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/RGPD
+[2026-07-08 16:45:42] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/RGPD
+[2026-07-08 16:45:42] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Taxe d_apprentissage/ (6 permission(s))
+[2026-07-08 16:45:42] [INFO] === COPIE REELLE: Drive ECHOLINE/11-Admin/Taxe d_apprentissage ===
+[2026-07-08 16:45:43] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-08 16:45:43] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-08 16:45:43] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-08 16:45:43] [INFO] Traitement: /Drive ECHOLINE/12-HR/ (6 permission(s))
+[2026-07-08 16:45:43] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR ===
+[2026-07-08 16:45:44] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR
+[2026-07-08 16:45:44] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR
+[2026-07-08 16:45:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR
+[2026-07-08 16:45:45] [INFO] Traitement: /Drive ECHOLINE/12-HR/Cabinet de paie/ (6 permission(s))
+[2026-07-08 16:45:45] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Cabinet de paie ===
+[2026-07-08 16:45:46] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-08 16:45:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-08 16:45:46] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-08 16:45:46] [INFO] Traitement: /Drive ECHOLINE/12-HR/Cabinets de recrutement/ (6 permission(s))
+[2026-07-08 16:45:46] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Cabinets de recrutement ===
+[2026-07-08 16:45:47] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-08 16:45:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-08 16:45:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-08 16:45:48] [INFO] Traitement: /Drive ECHOLINE/12-HR/États mensuels/ (6 permission(s))
+[2026-07-08 16:45:48] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/États mensuels ===
+[2026-07-08 16:45:49] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/États mensuels
+[2026-07-08 16:45:55] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/12-HR/États mensuels
+[2026-07-08 16:45:55] [INFO] Traitement: /Drive ECHOLINE/12-HR/Gestion des congés/ (6 permission(s))
+[2026-07-08 16:45:55] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Gestion des congés ===
+[2026-07-08 16:45:56] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:45:56] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/12-HR/Gestion des congés/
+[2026-07-08 16:45:56] [INFO] Traitement: /Drive ECHOLINE/12-HR/Modèles/ (6 permission(s))
+[2026-07-08 16:45:56] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Modèles ===
+[2026-07-08 16:45:57] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Modèles
+[2026-07-08 16:46:04] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/12-HR/Modèles
+[2026-07-08 16:46:04] [INFO] Traitement: /Drive ECHOLINE/12-HR/Mutuelle/ (6 permission(s))
+[2026-07-08 16:46:04] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Mutuelle ===
+[2026-07-08 16:46:05] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-08 16:46:05] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-08 16:46:05] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-08 16:46:05] [INFO] Traitement: /Drive ECHOLINE/12-HR/OPCO/ (6 permission(s))
+[2026-07-08 16:46:05] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/OPCO ===
+[2026-07-08 16:46:06] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/OPCO
+[2026-07-08 16:46:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/OPCO
+[2026-07-08 16:46:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/OPCO
+[2026-07-08 16:46:07] [INFO] Traitement: /Drive ECHOLINE/12-HR/Salariés/ (6 permission(s))
+[2026-07-08 16:46:07] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Salariés ===
+[2026-07-08 16:46:08] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Salariés
+[2026-07-08 16:46:15] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/12-HR/Salariés
+[2026-07-08 16:46:15] [INFO] Traitement: /Drive ECHOLINE/12-HR/Test technique/ (6 permission(s))
+[2026-07-08 16:46:15] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/Test technique ===
+[2026-07-08 16:46:16] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Test technique
+[2026-07-08 16:46:16] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/Test technique
+[2026-07-08 16:46:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/Test technique
+[2026-07-08 16:46:16] [INFO] Traitement: /Drive ECHOLINE/12-HR/URSSAF/ (6 permission(s))
+[2026-07-08 16:46:16] [INFO] === COPIE REELLE: Drive ECHOLINE/12-HR/URSSAF ===
+[2026-07-08 16:46:18] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/URSSAF
+[2026-07-08 16:46:18] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/12-HR/URSSAF
+[2026-07-08 16:46:18] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/12-HR/URSSAF
+[2026-07-08 16:46:18] [INFO] Traitement: /Drive ECHOLINE/13-Karnov Group/ (6 permission(s))
+[2026-07-08 16:46:18] [INFO] === COPIE REELLE: Drive ECHOLINE/13-Karnov Group ===
+[2026-07-08 16:46:19] [SUCCESS] Dossier créé: Drive ECHOLINE/13-Karnov Group
+[2026-07-08 16:46:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/13-Karnov Group
+[2026-07-08 16:46:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/13-Karnov Group
+[2026-07-08 16:46:20] [INFO] Traitement: /Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/ (6 permission(s))
+[2026-07-08 16:46:20] [INFO] === COPIE REELLE: Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia ===
+[2026-07-08 16:46:21] [SUCCESS] Dossier créé: Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-08 16:46:21] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-08 16:46:21] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-08 16:46:21] [INFO] Traitement: /Drive ECHOLINE/14-Strategic Partners/ (6 permission(s))
+[2026-07-08 16:46:21] [INFO] === COPIE REELLE: Drive ECHOLINE/14-Strategic Partners ===
+[2026-07-08 16:46:22] [SUCCESS] Dossier créé: Drive ECHOLINE/14-Strategic Partners
+[2026-07-08 16:46:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/14-Strategic Partners
+[2026-07-08 16:46:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/14-Strategic Partners
+[2026-07-08 16:46:23] [INFO] Traitement: /Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/ (6 permission(s))
+[2026-07-08 16:46:23] [INFO] === COPIE REELLE: Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners) ===
+[2026-07-08 16:46:24] [SUCCESS] Dossier créé: Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-08 16:46:24] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-08 16:46:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-08 16:46:24] [INFO] Traitement: /Drive ECHOLINE/PB drive/ (6 permission(s))
+[2026-07-08 16:46:24] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive ===
+[2026-07-08 16:46:25] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive
+[2026-07-08 16:46:26] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive
+[2026-07-08 16:46:26] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive
+[2026-07-08 16:46:26] [INFO] Traitement: /Drive ECHOLINE/PB drive/00 - Archives/ (6 permission(s))
+[2026-07-08 16:46:26] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/00 - Archives ===
+[2026-07-08 16:46:27] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-08 16:46:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-08 16:46:28] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-08 16:46:28] [INFO] Traitement: /Drive ECHOLINE/PB drive/01 - Contrats/ (6 permission(s))
+[2026-07-08 16:46:28] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/01 - Contrats ===
+[2026-07-08 16:46:29] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-08 16:46:29] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-08 16:46:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-08 16:46:29] [INFO] Traitement: /Drive ECHOLINE/PB drive/01-Contrats & devis/ (6 permission(s))
+[2026-07-08 16:46:29] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/01-Contrats & devis ===
+[2026-07-08 16:46:30] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-08 16:46:31] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-08 16:46:31] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-08 16:46:31] [INFO] Traitement: /Drive ECHOLINE/PB drive/02 - Procédures et modèles/ (6 permission(s))
+[2026-07-08 16:46:31] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/02 - Procédures et modèles ===
+[2026-07-08 16:46:32] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:46:32] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/PB drive/02 - Procédures et modèles/
+[2026-07-08 16:46:32] [INFO] Traitement: /Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille/ (6 permission(s))
+[2026-07-08 16:46:32] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille ===
+[2026-07-08 16:46:33] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-08 16:46:39] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-08 16:46:39] [INFO] Traitement: /Drive ECHOLINE/PB drive/04 - Administratif/ (6 permission(s))
+[2026-07-08 16:46:39] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/04 - Administratif ===
+[2026-07-08 16:46:40] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-08 16:46:40] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-08 16:46:41] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-08 16:46:41] [INFO] Traitement: /Drive ECHOLINE/PB drive/06-Check-List contrôle/ (6 permission(s))
+[2026-07-08 16:46:41] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/06-Check-List contrôle ===
+[2026-07-08 16:46:42] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-08 16:46:48] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-08 16:46:48] [INFO] Traitement: /Drive ECHOLINE/PB drive/1- Tableaux de veille/ (6 permission(s))
+[2026-07-08 16:46:48] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/1- Tableaux de veille ===
+[2026-07-08 16:46:49] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-08 16:46:49] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-08 16:46:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-08 16:46:50] [INFO] Traitement: /Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/ (6 permission(s))
+[2026-07-08 16:46:50] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/3 - Archives Lettre d'information ===
+[2026-07-08 16:46:51] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-08 16:46:51] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-08 16:46:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-08 16:46:51] [INFO] Traitement: /Drive ECHOLINE/PB drive/4- Documentation juridique/ (6 permission(s))
+[2026-07-08 16:46:51] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/4- Documentation juridique ===
+[2026-07-08 16:46:52] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-08 16:46:53] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-08 16:46:53] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-08 16:46:53] [INFO] Traitement: /Drive ECHOLINE/PB drive/5- Manuel utilisateurs/ (6 permission(s))
+[2026-07-08 16:46:53] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/5- Manuel utilisateurs ===
+[2026-07-08 16:46:54] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-08 16:46:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-08 16:46:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-08 16:46:54] [INFO] Traitement: /Drive ECHOLINE/PB drive/6- Fiches thématiques/ (6 permission(s))
+[2026-07-08 16:46:54] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/6- Fiches thématiques ===
+[2026-07-08 16:46:56] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-08 16:47:02] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-08 16:47:02] [INFO] Traitement: /Drive ECHOLINE/PB drive/ARCHIVES/ (6 permission(s))
+[2026-07-08 16:47:02] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/ARCHIVES ===
+[2026-07-08 16:47:03] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-08 16:47:04] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-08 16:47:04] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-08 16:47:04] [INFO] Traitement: /Drive ECHOLINE/PB drive/ARTE/ (6 permission(s))
+[2026-07-08 16:47:04] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/ARTE ===
+[2026-07-08 16:47:05] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ARTE
+[2026-07-08 16:47:05] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/ARTE
+[2026-07-08 16:47:05] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/ARTE
+[2026-07-08 16:47:05] [INFO] Traitement: /Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/ (6 permission(s))
+[2026-07-08 16:47:05] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH) ===
+[2026-07-08 16:47:06] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-08 16:47:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-08 16:47:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-08 16:47:07] [INFO] Traitement: /Drive ECHOLINE/PB drive/BIOCOOP/ (6 permission(s))
+[2026-07-08 16:47:07] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/BIOCOOP ===
+[2026-07-08 16:47:08] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-08 16:47:08] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-08 16:47:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-08 16:47:09] [INFO] Traitement: /Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme/ (6 permission(s))
+[2026-07-08 16:47:09] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme ===
+[2026-07-08 16:47:10] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-08 16:47:16] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-08 16:47:16] [INFO] Traitement: /Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/ (6 permission(s))
+[2026-07-08 16:47:16] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL ===
+[2026-07-08 16:47:17] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-08 16:47:17] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-08 16:47:18] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-08 16:47:18] [INFO] Traitement: /Drive ECHOLINE/PB drive/CARTIER/ (6 permission(s))
+[2026-07-08 16:47:18] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CARTIER ===
+[2026-07-08 16:47:19] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CARTIER
+[2026-07-08 16:47:19] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CARTIER
+[2026-07-08 16:47:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CARTIER
+[2026-07-08 16:47:19] [INFO] Traitement: /Drive ECHOLINE/PB drive/CL/ (6 permission(s))
+[2026-07-08 16:47:19] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CL ===
+[2026-07-08 16:47:21] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CL
+[2026-07-08 16:47:21] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CL
+[2026-07-08 16:47:21] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CL
+[2026-07-08 16:47:21] [INFO] Traitement: /Drive ECHOLINE/PB drive/CLAIREFONTAINE/ (6 permission(s))
+[2026-07-08 16:47:21] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CLAIREFONTAINE ===
+[2026-07-08 16:47:22] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-08 16:47:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-08 16:47:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-08 16:47:23] [INFO] Traitement: /Drive ECHOLINE/PB drive/Contrats purement RH/ (6 permission(s))
+[2026-07-08 16:47:23] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Contrats purement RH ===
+[2026-07-08 16:47:24] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-08 16:47:24] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-08 16:47:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-08 16:47:24] [INFO] Traitement: /Drive ECHOLINE/PB drive/CR point initial (1)/ (6 permission(s))
+[2026-07-08 16:47:24] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CR point initial (1) ===
+[2026-07-08 16:47:25] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-08 16:47:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-08 16:47:26] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-08 16:47:26] [INFO] Traitement: /Drive ECHOLINE/PB drive/CR point initial/ (6 permission(s))
+[2026-07-08 16:47:26] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/CR point initial ===
+[2026-07-08 16:47:27] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CR point initial
+[2026-07-08 16:47:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/CR point initial
+[2026-07-08 16:47:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/CR point initial
+[2026-07-08 16:47:27] [INFO] Traitement: /Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/ (6 permission(s))
+[2026-07-08 16:47:27] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/DERICHEBOURG ATIS ===
+[2026-07-08 16:47:28] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-08 16:47:28] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-08 16:47:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-08 16:47:29] [INFO] Traitement: /Drive ECHOLINE/PB drive/DIOR/ (6 permission(s))
+[2026-07-08 16:47:29] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/DIOR ===
+[2026-07-08 16:47:30] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/DIOR
+[2026-07-08 16:47:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/DIOR
+[2026-07-08 16:47:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/DIOR
+[2026-07-08 16:47:30] [INFO] Traitement: /Drive ECHOLINE/PB drive/Doc veille internationale/ (6 permission(s))
+[2026-07-08 16:47:30] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Doc veille internationale ===
+[2026-07-08 16:47:31] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-08 16:47:32] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-08 16:47:32] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-08 16:47:32] [INFO] Traitement: /Drive ECHOLINE/PB drive/ENI FRANCE/ (6 permission(s))
+[2026-07-08 16:47:32] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/ENI FRANCE ===
+[2026-07-08 16:47:33] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-08 16:47:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-08 16:47:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-08 16:47:33] [INFO] Traitement: /Drive ECHOLINE/PB drive/Exemples news extérieures/ (6 permission(s))
+[2026-07-08 16:47:33] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Exemples news extérieures ===
+[2026-07-08 16:47:34] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:47:34] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/PB drive/Exemples news extérieures/
+[2026-07-08 16:47:34] [INFO] Traitement: /Drive ECHOLINE/PB drive/Export txts avant report SONATA/ (6 permission(s))
+[2026-07-08 16:47:34] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Export txts avant report SONATA ===
+[2026-07-08 16:47:35] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-08 16:47:36] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-08 16:47:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-08 16:47:36] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fertiline - Loudéac/ (6 permission(s))
+[2026-07-08 16:47:36] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Fertiline - Loudéac ===
+[2026-07-08 16:47:37] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-08 16:47:43] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-08 16:47:43] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fiche ID (1)/ (6 permission(s))
+[2026-07-08 16:47:43] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Fiche ID (1) ===
+[2026-07-08 16:47:44] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-08 16:47:45] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-08 16:47:45] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-08 16:47:45] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fiche ID/ (6 permission(s))
+[2026-07-08 16:47:45] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Fiche ID ===
+[2026-07-08 16:47:46] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-08 16:47:46] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-08 16:47:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-08 16:47:46] [INFO] Traitement: /Drive ECHOLINE/PB drive/Formulaire utilisateurs/ (6 permission(s))
+[2026-07-08 16:47:47] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Formulaire utilisateurs ===
+[2026-07-08 16:47:48] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-08 16:47:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-08 16:47:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-08 16:47:48] [INFO] Traitement: /Drive ECHOLINE/PB drive/LOUIS VUITTON/ (6 permission(s))
+[2026-07-08 16:47:48] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/LOUIS VUITTON ===
+[2026-07-08 16:47:49] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-08 16:47:50] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-08 16:47:50] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-08 16:47:50] [INFO] Traitement: /Drive ECHOLINE/PB drive/mails - hotline directe/ (6 permission(s))
+[2026-07-08 16:47:50] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/mails - hotline directe ===
+[2026-07-08 16:47:51] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-08 16:47:51] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-08 16:47:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-08 16:47:51] [INFO] Traitement: /Drive ECHOLINE/PB drive/MODELES lettre info/ (6 permission(s))
+[2026-07-08 16:47:51] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/MODELES lettre info ===
+[2026-07-08 16:47:52] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-08 16:47:52] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-08 16:47:53] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-08 16:47:53] [INFO] Traitement: /Drive ECHOLINE/PB drive/NUTRITION ET SANTE/ (6 permission(s))
+[2026-07-08 16:47:53] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/NUTRITION ET SANTE ===
+[2026-07-08 16:47:54] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-08 16:47:54] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-08 16:47:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-08 16:47:54] [INFO] Traitement: /Drive ECHOLINE/PB drive/PIVAUDRAN/ (6 permission(s))
+[2026-07-08 16:47:54] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/PIVAUDRAN ===
+[2026-07-08 16:47:55] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-08 16:47:56] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-08 16:47:56] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-08 16:47:56] [INFO] Traitement: /Drive ECHOLINE/PB drive/Projets/ (6 permission(s))
+[2026-07-08 16:47:56] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Projets ===
+[2026-07-08 16:47:57] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Projets
+[2026-07-08 16:47:57] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Projets
+[2026-07-08 16:47:58] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Projets
+[2026-07-08 16:47:58] [INFO] Traitement: /Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/ (6 permission(s))
+[2026-07-08 16:47:58] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients ===
+[2026-07-08 16:47:59] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-08 16:47:59] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-08 16:47:59] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-08 16:47:59] [INFO] Traitement: /Drive ECHOLINE/PB drive/SIGNAUX GIROD/ (6 permission(s))
+[2026-07-08 16:47:59] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/SIGNAUX GIROD ===
+[2026-07-08 16:48:00] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-08 16:48:00] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-08 16:48:01] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-08 16:48:01] [INFO] Traitement: /Drive ECHOLINE/PB drive/STERIS/ (6 permission(s))
+[2026-07-08 16:48:01] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/STERIS ===
+[2026-07-08 16:48:02] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/STERIS
+[2026-07-08 16:48:02] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/STERIS
+[2026-07-08 16:48:02] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/STERIS
+[2026-07-08 16:48:02] [INFO] Traitement: /Drive ECHOLINE/PB drive/THYSSENKRUPP/ (6 permission(s))
+[2026-07-08 16:48:02] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/THYSSENKRUPP ===
+[2026-07-08 16:48:03] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-08 16:48:04] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-08 16:48:04] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-08 16:48:04] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/ (6 permission(s))
+[2026-07-08 16:48:04] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne ===
+[2026-07-08 16:48:05] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-08 16:48:05] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-08 16:48:06] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-08 16:48:06] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Nantes/ (6 permission(s))
+[2026-07-08 16:48:06] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Union Invivo - Nantes ===
+[2026-07-08 16:48:07] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-08 16:48:07] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-08 16:48:07] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-08 16:48:07] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/ (6 permission(s))
+[2026-07-08 16:48:07] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Union Invivo - Saint-usage ===
+[2026-07-08 16:48:08] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-08 16:48:08] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-08 16:48:09] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-08 16:48:09] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/ (6 permission(s))
+[2026-07-08 16:48:09] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne ===
+[2026-07-08 16:48:10] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-08 16:48:10] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-08 16:48:10] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-08 16:48:10] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo Metz/ (6 permission(s))
+[2026-07-08 16:48:10] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Union Invivo Metz ===
+[2026-07-08 16:48:11] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-08 16:48:11] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-08 16:48:12] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-08 16:48:12] [INFO] Traitement: /Drive ECHOLINE/PB drive/VALOREM/ (6 permission(s))
+[2026-07-08 16:48:12] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/VALOREM ===
+[2026-07-08 16:48:13] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/VALOREM
+[2026-07-08 16:48:13] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/VALOREM
+[2026-07-08 16:48:13] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/VALOREM
+[2026-07-08 16:48:13] [INFO] Traitement: /Drive ECHOLINE/PB drive/VILLEROY ET BOCH/ (6 permission(s))
+[2026-07-08 16:48:13] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/VILLEROY ET BOCH ===
+[2026-07-08 16:48:14] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-08 16:48:15] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-08 16:48:15] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-08 16:48:15] [INFO] Traitement: /Drive ECHOLINE/PB drive/Visites/ (6 permission(s))
+[2026-07-08 16:48:15] [INFO] === COPIE REELLE: Drive ECHOLINE/PB drive/Visites ===
+[2026-07-08 16:48:16] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Visites
+[2026-07-08 16:48:16] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/PB drive/Visites
+[2026-07-08 16:48:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/PB drive/Visites
+[2026-07-08 16:48:16] [INFO] Traitement: /emailaddress.csv (5 permission(s))
+[2026-07-08 16:48:16] [INFO] === COPIE REELLE: emailaddress.csv ===
+[2026-07-08 16:48:17] [SUCCESS] Fichier copié: emailaddress.csv (id=01ZUFXZGL7IDYICAFCJVEZLVHX4NYYZO3R)
+[2026-07-08 16:48:18] [SUCCESS] Permission Entra: User test 02 [write] -> emailaddress.csv
+[2026-07-08 16:48:18] [INFO] Traitement: /Members_.csv (5 permission(s))
+[2026-07-08 16:48:18] [INFO] === COPIE REELLE: Members_.csv ===
+[2026-07-08 16:48:19] [SUCCESS] Fichier copié: Members_.csv (id=01ZUFXZGLJR2PLFHLO6JDJSGUNDALBI3UV)
+[2026-07-08 16:48:19] [SUCCESS] Permission Entra: User test 02 [write] -> Members_.csv
+[2026-07-08 16:48:19] [INFO] Traitement: /Members_support.csv (5 permission(s))
+[2026-07-08 16:48:19] [INFO] === COPIE REELLE: Members_support.csv ===
+[2026-07-08 16:48:20] [SUCCESS] Fichier copié: Members_support.csv (id=01ZUFXZGKCAIZRIQTQWVG3DS6OMWFCFZ3L)
+[2026-07-08 16:48:20] [SUCCESS] Permission Entra: User test 02 [write] -> Members_support.csv
+[2026-07-08 16:48:20] [INFO] Traitement: /SCRIPT/ (5 permission(s))
+[2026-07-08 16:48:20] [INFO] === COPIE REELLE: SCRIPT ===
+[2026-07-08 16:48:21] [SUCCESS] Dossier créé: SCRIPT
+[2026-07-08 16:48:21] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT
+[2026-07-08 16:48:21] [INFO] Traitement: /SCRIPT/ajout_DKIM_PS.txt (5 permission(s))
+[2026-07-08 16:48:21] [INFO] === COPIE REELLE: SCRIPT/ajout_DKIM_PS.txt ===
+[2026-07-08 16:48:22] [SUCCESS] Fichier copié: SCRIPT/ajout_DKIM_PS.txt (id=01ZUFXZGMRPG37HN64YRBJT3YWQNFAVQN2)
+[2026-07-08 16:48:22] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/ajout_DKIM_PS.txt
+[2026-07-08 16:48:22] [INFO] Traitement: /SCRIPT/conf_POSTFIX_Domaine.txt (5 permission(s))
+[2026-07-08 16:48:22] [INFO] === COPIE REELLE: SCRIPT/conf_POSTFIX_Domaine.txt ===
+[2026-07-08 16:48:23] [SUCCESS] Fichier copié: SCRIPT/conf_POSTFIX_Domaine.txt (id=01ZUFXZGICDEJB5IDXZRDJDHOMGBVXOBMN)
+[2026-07-08 16:48:24] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/conf_POSTFIX_Domaine.txt
+[2026-07-08 16:48:24] [INFO] Traitement: /SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt (5 permission(s))
+[2026-07-08 16:48:24] [INFO] === COPIE REELLE: SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt ===
+[2026-07-08 16:48:25] [SUCCESS] Fichier copié: SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt (id=01ZUFXZGJZHTFJVKI3BBC2XYJCEABLHAFU)
+[2026-07-08 16:48:25] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt
+[2026-07-08 16:48:25] [INFO] Traitement: /SCRIPT/Extraction_AD_BAUNETZ.ps1 (5 permission(s))
+[2026-07-08 16:48:25] [INFO] === COPIE REELLE: SCRIPT/Extraction_AD_BAUNETZ.ps1 ===
+[2026-07-08 16:48:26] [SUCCESS] Fichier copié: SCRIPT/Extraction_AD_BAUNETZ.ps1 (id=01ZUFXZGMP6C2FKMDEDZAZCZPQQD6DC53A)
+[2026-07-08 16:48:26] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Extraction_AD_BAUNETZ.ps1
+[2026-07-08 16:48:26] [INFO] Traitement: /SCRIPT/import_onedrive.csv (5 permission(s))
+[2026-07-08 16:48:26] [INFO] === COPIE REELLE: SCRIPT/import_onedrive.csv ===
+[2026-07-08 16:48:27] [SUCCESS] Fichier copié: SCRIPT/import_onedrive.csv (id=01ZUFXZGK4EDR4O36PJNF2ESOJEAPUNPWH)
+[2026-07-08 16:48:27] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/import_onedrive.csv
+[2026-07-08 16:48:27] [INFO] Traitement: /SCRIPT/mail_secondaire.csv (5 permission(s))
+[2026-07-08 16:48:27] [INFO] === COPIE REELLE: SCRIPT/mail_secondaire.csv ===
+[2026-07-08 16:48:28] [SUCCESS] Fichier copié: SCRIPT/mail_secondaire.csv (id=01ZUFXZGIXPD5RCH4EP5CIEWTRDNSIK2ZO)
+[2026-07-08 16:48:29] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/mail_secondaire.csv
+[2026-07-08 16:48:29] [INFO] Traitement: /SCRIPT/migrationwiz_import_email_email (1).csv (5 permission(s))
+[2026-07-08 16:48:29] [INFO] === COPIE REELLE: SCRIPT/migrationwiz_import_email_email (1).csv ===
+[2026-07-08 16:48:30] [SUCCESS] Fichier copié: SCRIPT/migrationwiz_import_email_email (1).csv (id=01ZUFXZGO3YTPIDR7TUFB335W6RTACYZD2)
+[2026-07-08 16:48:30] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/migrationwiz_import_email_email (1).csv
+[2026-07-08 16:48:30] [INFO] Traitement: /SCRIPT/Murge_BAL_Important!!.txt (5 permission(s))
+[2026-07-08 16:48:30] [INFO] === COPIE REELLE: SCRIPT/Murge_BAL_Important!!.txt ===
+[2026-07-08 16:48:31] [SUCCESS] Fichier copié: SCRIPT/Murge_BAL_Important!!.txt (id=01ZUFXZGMTLTRFPO2NTFH27DU7AT3XXYZP)
+[2026-07-08 16:48:31] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Murge_BAL_Important!!.txt
+[2026-07-08 16:48:31] [INFO] Traitement: /SCRIPT/nouveau 10.txt (5 permission(s))
+[2026-07-08 16:48:31] [INFO] === COPIE REELLE: SCRIPT/nouveau 10.txt ===
+[2026-07-08 16:48:32] [SUCCESS] Fichier copié: SCRIPT/nouveau 10.txt (id=01ZUFXZGL2ZUDJ4WVUJBGITFKVPLW5J4NU)
+[2026-07-08 16:48:32] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/nouveau 10.txt
+[2026-07-08 16:48:32] [INFO] Traitement: /SCRIPT/nouveau 12.txt (5 permission(s))
+[2026-07-08 16:48:32] [INFO] === COPIE REELLE: SCRIPT/nouveau 12.txt ===
+[2026-07-08 16:48:33] [SUCCESS] Fichier copié: SCRIPT/nouveau 12.txt (id=01ZUFXZGLW43T6GU3HQVF2YONB6VRNLUNI)
+[2026-07-08 16:48:34] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/nouveau 12.txt
+[2026-07-08 16:48:34] [INFO] Traitement: /SCRIPT/Nouveau Document texte.csv (5 permission(s))
+[2026-07-08 16:48:34] [INFO] === COPIE REELLE: SCRIPT/Nouveau Document texte.csv ===
+[2026-07-08 16:48:35] [SUCCESS] Fichier copié: SCRIPT/Nouveau Document texte.csv (id=01ZUFXZGLEIYSYCWO27REZ7TPK3Q5LS3A2)
+[2026-07-08 16:48:35] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Nouveau Document texte.csv
+[2026-07-08 16:48:35] [INFO] Traitement: /SCRIPT/Post_Fixe.txt (5 permission(s))
+[2026-07-08 16:48:35] [INFO] === COPIE REELLE: SCRIPT/Post_Fixe.txt ===
+[2026-07-08 16:48:36] [SUCCESS] Fichier copié: SCRIPT/Post_Fixe.txt (id=01ZUFXZGOIQ2RQDLFSCVBZ74WYUM2PLHSH)
+[2026-07-08 16:48:36] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Post_Fixe.txt
+[2026-07-08 16:48:36] [INFO] Traitement: /SCRIPT/Postfix.txt (5 permission(s))
+[2026-07-08 16:48:36] [INFO] === COPIE REELLE: SCRIPT/Postfix.txt ===
+[2026-07-08 16:48:37] [SUCCESS] Fichier copié: SCRIPT/Postfix.txt (id=01ZUFXZGMDKALE3PU3PFH3R4L2OI3VPFUS)
+[2026-07-08 16:48:38] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Postfix.txt
+[2026-07-08 16:48:38] [INFO] Traitement: /SCRIPT/script_activation_user_AD.txt (5 permission(s))
+[2026-07-08 16:48:38] [INFO] === COPIE REELLE: SCRIPT/script_activation_user_AD.txt ===
+[2026-07-08 16:48:39] [SUCCESS] Fichier copié: SCRIPT/script_activation_user_AD.txt (id=01ZUFXZGP67R2GB6QKKNEZSU3M242GYW5D)
+[2026-07-08 16:48:39] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_activation_user_AD.txt
+[2026-07-08 16:48:39] [INFO] Traitement: /SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt (5 permission(s))
+[2026-07-08 16:48:39] [INFO] === COPIE REELLE: SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt ===
+[2026-07-08 16:48:40] [SUCCESS] Fichier copié: SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt (id=01ZUFXZGMBMFGY5FC4RFEJEQOOW2HC47FK)
+[2026-07-08 16:48:40] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt
+[2026-07-08 16:48:40] [INFO] Traitement: /SCRIPT/script_ajout_champs_mail_en_masse.txt (5 permission(s))
+[2026-07-08 16:48:40] [INFO] === COPIE REELLE: SCRIPT/script_ajout_champs_mail_en_masse.txt ===
+[2026-07-08 16:48:41] [SUCCESS] Fichier copié: SCRIPT/script_ajout_champs_mail_en_masse.txt (id=01ZUFXZGIF2MSAFEDC6JE3FRR3OTAPNTGZ)
+[2026-07-08 16:48:41] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_ajout_champs_mail_en_masse.txt
+[2026-07-08 16:48:41] [INFO] Traitement: /SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt (5 permission(s))
+[2026-07-08 16:48:41] [INFO] === COPIE REELLE: SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt ===
+[2026-07-08 16:48:42] [SUCCESS] Fichier copié: SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt (id=01ZUFXZGIKDSICC43CONBKYTOA7BVKPEDS)
+[2026-07-08 16:48:42] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt
+[2026-07-08 16:48:42] [INFO] Traitement: /SCRIPT/Script_ajout_délegation_FullAcces_BP.txt (5 permission(s))
+[2026-07-08 16:48:42] [INFO] === COPIE REELLE: SCRIPT/Script_ajout_délegation_FullAcces_BP.txt ===
+[2026-07-08 16:48:43] [SUCCESS] Fichier copié: SCRIPT/Script_ajout_délegation_FullAcces_BP.txt (id=01ZUFXZGOCEHZ5NH3A5FHIXNTX3ODWOTVQ)
+[2026-07-08 16:48:44] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_ajout_délegation_FullAcces_BP.txt
+[2026-07-08 16:48:44] [INFO] Traitement: /SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt (5 permission(s))
+[2026-07-08 16:48:44] [INFO] === COPIE REELLE: SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt ===
+[2026-07-08 16:48:44] [SUCCESS] Fichier copié: SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt (id=01ZUFXZGOVK4DKOYZVV5GY35X75AKQSOD3)
+[2026-07-08 16:48:45] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt
+[2026-07-08 16:48:45] [INFO] Traitement: /SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt (5 permission(s))
+[2026-07-08 16:48:45] [INFO] === COPIE REELLE: SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt ===
+[2026-07-08 16:48:46] [SUCCESS] Fichier copié: SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt (id=01ZUFXZGOSPJVXEE6KDVGJSHGRP3XY5Z3L)
+[2026-07-08 16:48:46] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt
+[2026-07-08 16:48:46] [INFO] Traitement: /SCRIPT/script_délégation_BP.txt (5 permission(s))
+[2026-07-08 16:48:46] [INFO] === COPIE REELLE: SCRIPT/script_délégation_BP.txt ===
+[2026-07-08 16:48:47] [SUCCESS] Fichier copié: SCRIPT/script_délégation_BP.txt (id=01ZUFXZGK65E7GUFUIY5E2SUWFGYYW4OCQ)
+[2026-07-08 16:48:47] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_délégation_BP.txt
+[2026-07-08 16:48:47] [INFO] Traitement: /SCRIPT/script_délégation_bp_mail.txt (5 permission(s))
+[2026-07-08 16:48:47] [INFO] === COPIE REELLE: SCRIPT/script_délégation_bp_mail.txt ===
+[2026-07-08 16:48:48] [SUCCESS] Fichier copié: SCRIPT/script_délégation_bp_mail.txt (id=01ZUFXZGMGHPOZXQCUKRH2IYN3SHZGZ24R)
+[2026-07-08 16:48:48] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_délégation_bp_mail.txt
+[2026-07-08 16:48:48] [INFO] Traitement: /SCRIPT/script_délégation_Fullaccess_BP.txt (5 permission(s))
+[2026-07-08 16:48:48] [INFO] === COPIE REELLE: SCRIPT/script_délégation_Fullaccess_BP.txt ===
+[2026-07-08 16:48:49] [SUCCESS] Fichier copié: SCRIPT/script_délégation_Fullaccess_BP.txt (id=01ZUFXZGNXJHANYSUNKBGLWBBSPN4GGYCG)
+[2026-07-08 16:48:49] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_délégation_Fullaccess_BP.txt
+[2026-07-08 16:48:49] [INFO] Traitement: /SCRIPT/Script_delegation_SendAs_BP.txt (5 permission(s))
+[2026-07-08 16:48:49] [INFO] === COPIE REELLE: SCRIPT/Script_delegation_SendAs_BP.txt ===
+[2026-07-08 16:48:50] [SUCCESS] Fichier copié: SCRIPT/Script_delegation_SendAs_BP.txt (id=01ZUFXZGPNWQX7KYSUUNDJ7W7R3CDCX772)
+[2026-07-08 16:48:50] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_delegation_SendAs_BP.txt
+[2026-07-08 16:48:50] [INFO] Traitement: /SCRIPT/script_délégation_SendAs_BP.txt (5 permission(s))
+[2026-07-08 16:48:50] [INFO] === COPIE REELLE: SCRIPT/script_délégation_SendAs_BP.txt ===
+[2026-07-08 16:48:51] [SUCCESS] Fichier copié: SCRIPT/script_délégation_SendAs_BP.txt (id=01ZUFXZGNMEKWN2H6BD5EL4ASKCWLN5CTB)
+[2026-07-08 16:48:52] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_délégation_SendAs_BP.txt
+[2026-07-08 16:48:52] [INFO] Traitement: /SCRIPT/script_désactivation_user.txt (5 permission(s))
+[2026-07-08 16:48:52] [INFO] === COPIE REELLE: SCRIPT/script_désactivation_user.txt ===
+[2026-07-08 16:48:53] [SUCCESS] Fichier copié: SCRIPT/script_désactivation_user.txt (id=01ZUFXZGNZKKZW6WZ2RNDZJ6OXOLFUF6B7)
+[2026-07-08 16:48:53] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_désactivation_user.txt
+[2026-07-08 16:48:53] [INFO] Traitement: /SCRIPT/Script_droit_BP.txt (5 permission(s))
+[2026-07-08 16:48:53] [INFO] === COPIE REELLE: SCRIPT/Script_droit_BP.txt ===
+[2026-07-08 16:48:54] [SUCCESS] Fichier copié: SCRIPT/Script_droit_BP.txt (id=01ZUFXZGMTD7TIJRU655GYGERHHGBFX2HX)
+[2026-07-08 16:48:54] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_droit_BP.txt
+[2026-07-08 16:48:54] [INFO] Traitement: /SCRIPT/Script_extrac_SMTP_Principale.txt (5 permission(s))
+[2026-07-08 16:48:54] [INFO] === COPIE REELLE: SCRIPT/Script_extrac_SMTP_Principale.txt ===
+[2026-07-08 16:48:55] [SUCCESS] Fichier copié: SCRIPT/Script_extrac_SMTP_Principale.txt (id=01ZUFXZGP7JJODWSZ22FA2S62BCJRSFVIX)
+[2026-07-08 16:48:55] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_extrac_SMTP_Principale.txt
+[2026-07-08 16:48:55] [INFO] Traitement: /SCRIPT/Script_Extract_adressemail_Exchange_Online.txt (5 permission(s))
+[2026-07-08 16:48:55] [INFO] === COPIE REELLE: SCRIPT/Script_Extract_adressemail_Exchange_Online.txt ===
+[2026-07-08 16:48:56] [SUCCESS] Fichier copié: SCRIPT/Script_Extract_adressemail_Exchange_Online.txt (id=01ZUFXZGJZ6VD66JGCJNCYFAOFCQ4NOKOF)
+[2026-07-08 16:48:56] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_Extract_adressemail_Exchange_Online.txt
+[2026-07-08 16:48:56] [INFO] Traitement: /SCRIPT/Script_Extract_délégation_BP.txt (5 permission(s))
+[2026-07-08 16:48:56] [INFO] === COPIE REELLE: SCRIPT/Script_Extract_délégation_BP.txt ===
+[2026-07-08 16:48:57] [SUCCESS] Fichier copié: SCRIPT/Script_Extract_délégation_BP.txt (id=01ZUFXZGP5UEJCPSBOMNALHL3YVN4C7ZDP)
+[2026-07-08 16:48:57] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_Extract_délégation_BP.txt
+[2026-07-08 16:48:57] [INFO] Traitement: /SCRIPT/script_extract_membre_groupe_AD.txt (5 permission(s))
+[2026-07-08 16:48:58] [INFO] === COPIE REELLE: SCRIPT/script_extract_membre_groupe_AD.txt ===
+[2026-07-08 16:48:58] [SUCCESS] Fichier copié: SCRIPT/script_extract_membre_groupe_AD.txt (id=01ZUFXZGMIDFZRELL7EFHK6S54NETGCODC)
+[2026-07-08 16:48:59] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extract_membre_groupe_AD.txt
+[2026-07-08 16:48:59] [INFO] Traitement: /SCRIPT/script_extract_onedrive.txt (5 permission(s))
+[2026-07-08 16:48:59] [INFO] === COPIE REELLE: SCRIPT/script_extract_onedrive.txt ===
+[2026-07-08 16:48:59] [SUCCESS] Fichier copié: SCRIPT/script_extract_onedrive.txt (id=01ZUFXZGLIE5LEZWVC5NH3BTPAV7DXMPA4)
+[2026-07-08 16:49:00] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extract_onedrive.txt
+[2026-07-08 16:49:00] [INFO] Traitement: /SCRIPT/script_extract_proxyaddress.txt (5 permission(s))
+[2026-07-08 16:49:00] [INFO] === COPIE REELLE: SCRIPT/script_extract_proxyaddress.txt ===
+[2026-07-08 16:49:01] [SUCCESS] Fichier copié: SCRIPT/script_extract_proxyaddress.txt (id=01ZUFXZGNLL4WKW43ZJZF2ZUO3NQWDB2BC)
+[2026-07-08 16:49:01] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extract_proxyaddress.txt
+[2026-07-08 16:49:01] [INFO] Traitement: /SCRIPT/script_extract_Proxyadress_format.txt (5 permission(s))
+[2026-07-08 16:49:01] [INFO] === COPIE REELLE: SCRIPT/script_extract_Proxyadress_format.txt ===
+[2026-07-08 16:49:02] [SUCCESS] Fichier copié: SCRIPT/script_extract_Proxyadress_format.txt (id=01ZUFXZGLGQLYEDJU4JZFZPCVBKLEXNW2B)
+[2026-07-08 16:49:02] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extract_Proxyadress_format.txt
+[2026-07-08 16:49:02] [INFO] Traitement: /SCRIPT/script_extract_UPN_AD.txt (5 permission(s))
+[2026-07-08 16:49:02] [INFO] === COPIE REELLE: SCRIPT/script_extract_UPN_AD.txt ===
+[2026-07-08 16:49:03] [SUCCESS] Fichier copié: SCRIPT/script_extract_UPN_AD.txt (id=01ZUFXZGMSYZKME57JAREKUT2TIL3WU6NQ)
+[2026-07-08 16:49:03] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extract_UPN_AD.txt
+[2026-07-08 16:49:03] [INFO] Traitement: /SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt (5 permission(s))
+[2026-07-08 16:49:03] [INFO] === COPIE REELLE: SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt ===
+[2026-07-08 16:49:04] [SUCCESS] Fichier copié: SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt (id=01ZUFXZGN57FT3DXVT5NCJ5IH2DPBXLAH3)
+[2026-07-08 16:49:04] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt
+[2026-07-08 16:49:05] [INFO] Traitement: /SCRIPT/script_Inscription_SSO_Appli_Azure.txt (5 permission(s))
+[2026-07-08 16:49:05] [INFO] === COPIE REELLE: SCRIPT/script_Inscription_SSO_Appli_Azure.txt ===
+[2026-07-08 16:49:06] [SUCCESS] Fichier copié: SCRIPT/script_Inscription_SSO_Appli_Azure.txt (id=01ZUFXZGNPGQ5TLXX66ZHJAM4GFNQT2JJT)
+[2026-07-08 16:49:06] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_Inscription_SSO_Appli_Azure.txt
+[2026-07-08 16:49:06] [INFO] Traitement: /SCRIPT/script_modif_champ_email_docu.ch (5 permission(s))
+[2026-07-08 16:49:06] [INFO] === COPIE REELLE: SCRIPT/script_modif_champ_email_docu.ch ===
+[2026-07-08 16:49:07] [SUCCESS] Fichier copié: SCRIPT/script_modif_champ_email_docu.ch (id=01ZUFXZGM4H3ET4K62CBEJ5CF63Q7QKVH7)
+[2026-07-08 16:49:07] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_modif_champ_email_docu.ch
+[2026-07-08 16:49:07] [INFO] Traitement: /SCRIPT/Script_modif_proxyaddress_Group.txt (5 permission(s))
+[2026-07-08 16:49:07] [INFO] === COPIE REELLE: SCRIPT/Script_modif_proxyaddress_Group.txt ===
+[2026-07-08 16:49:08] [SUCCESS] Fichier copié: SCRIPT/Script_modif_proxyaddress_Group.txt (id=01ZUFXZGJFHX636QX3JRHLHOOITQE4EE6F)
+[2026-07-08 16:49:08] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_modif_proxyaddress_Group.txt
+[2026-07-08 16:49:08] [INFO] Traitement: /SCRIPT/Script_modif_proxyadress_docu.ch.txt (5 permission(s))
+[2026-07-08 16:49:08] [INFO] === COPIE REELLE: SCRIPT/Script_modif_proxyadress_docu.ch.txt ===
+[2026-07-08 16:49:09] [SUCCESS] Fichier copié: SCRIPT/Script_modif_proxyadress_docu.ch.txt (id=01ZUFXZGPLQJPGKOQVBRALMIIPMNEJQYPC)
+[2026-07-08 16:49:10] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_modif_proxyadress_docu.ch.txt
+[2026-07-08 16:49:10] [INFO] Traitement: /SCRIPT/script_modification_UPN_AD_User.txt (5 permission(s))
+[2026-07-08 16:49:10] [INFO] === COPIE REELLE: SCRIPT/script_modification_UPN_AD_User.txt ===
+[2026-07-08 16:49:10] [SUCCESS] Fichier copié: SCRIPT/script_modification_UPN_AD_User.txt (id=01ZUFXZGLQWM5IN3LLVZHJN74MMNV34HIV)
+[2026-07-08 16:49:11] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_modification_UPN_AD_User.txt
+[2026-07-08 16:49:11] [INFO] Traitement: /SCRIPT/script_modifier_le_champ_mail.txt (5 permission(s))
+[2026-07-08 16:49:11] [INFO] === COPIE REELLE: SCRIPT/script_modifier_le_champ_mail.txt ===
+[2026-07-08 16:49:12] [SUCCESS] Fichier copié: SCRIPT/script_modifier_le_champ_mail.txt (id=01ZUFXZGKRVZJIEAM3SZFKN3DF4GSSIQUR)
+[2026-07-08 16:49:12] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_modifier_le_champ_mail.txt
+[2026-07-08 16:49:12] [INFO] Traitement: /SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt (5 permission(s))
+[2026-07-08 16:49:12] [INFO] === COPIE REELLE: SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt ===
+[2026-07-08 16:49:13] [SUCCESS] Fichier copié: SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt (id=01ZUFXZGIIZJK3PQ77GBD2J37V6ROLZ2M7)
+[2026-07-08 16:49:14] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt
+[2026-07-08 16:49:14] [INFO] Traitement: /SCRIPT/Script_modifier_proxyadress.txt (5 permission(s))
+[2026-07-08 16:49:14] [INFO] === COPIE REELLE: SCRIPT/Script_modifier_proxyadress.txt ===
+[2026-07-08 16:49:15] [SUCCESS] Fichier copié: SCRIPT/Script_modifier_proxyadress.txt (id=01ZUFXZGLOJGUL5GSLXNFYW6IRKTGILZ26)
+[2026-07-08 16:49:15] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_modifier_proxyadress.txt
+[2026-07-08 16:49:15] [INFO] Traitement: /SCRIPT/script_provisionning_OneDrive.txt (5 permission(s))
+[2026-07-08 16:49:15] [INFO] === COPIE REELLE: SCRIPT/script_provisionning_OneDrive.txt ===
+[2026-07-08 16:49:16] [SUCCESS] Fichier copié: SCRIPT/script_provisionning_OneDrive.txt (id=01ZUFXZGL2MLS2FTSMLJCYA3D3QC2GQRS2)
+[2026-07-08 16:49:16] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_provisionning_OneDrive.txt
+[2026-07-08 16:49:16] [INFO] Traitement: /SCRIPT/script_remplacer_UPN_AD.txt (5 permission(s))
+[2026-07-08 16:49:16] [INFO] === COPIE REELLE: SCRIPT/script_remplacer_UPN_AD.txt ===
+[2026-07-08 16:49:17] [SUCCESS] Fichier copié: SCRIPT/script_remplacer_UPN_AD.txt (id=01ZUFXZGLVWFNXF5RHRRDK6QJXX54CW3Q7)
+[2026-07-08 16:49:17] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/script_remplacer_UPN_AD.txt
+[2026-07-08 16:49:17] [INFO] Traitement: /SCRIPT/Script_Restauration_SMTP_format.txt (5 permission(s))
+[2026-07-08 16:49:17] [INFO] === COPIE REELLE: SCRIPT/Script_Restauration_SMTP_format.txt ===
+[2026-07-08 16:49:18] [SUCCESS] Fichier copié: SCRIPT/Script_Restauration_SMTP_format.txt (id=01ZUFXZGN6FMVKBNVTZVALK2QYUNLPVO5A)
+[2026-07-08 16:49:18] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_Restauration_SMTP_format.txt
+[2026-07-08 16:49:18] [INFO] Traitement: /SCRIPT/Script_Room_Mailbox.txt (5 permission(s))
+[2026-07-08 16:49:18] [INFO] === COPIE REELLE: SCRIPT/Script_Room_Mailbox.txt ===
+[2026-07-08 16:49:19] [SUCCESS] Fichier copié: SCRIPT/Script_Room_Mailbox.txt (id=01ZUFXZGKIQI3QTHE6UJAIW42OVVRLD6RJ)
+[2026-07-08 16:49:20] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_Room_Mailbox.txt
+[2026-07-08 16:49:20] [INFO] Traitement: /SCRIPT/Script_SGUM_ShareGate.txt (5 permission(s))
+[2026-07-08 16:49:20] [INFO] === COPIE REELLE: SCRIPT/Script_SGUM_ShareGate.txt ===
+[2026-07-08 16:49:21] [SUCCESS] Fichier copié: SCRIPT/Script_SGUM_ShareGate.txt (id=01ZUFXZGI3K7VUNQ2Q7JCK5LKYBXHO4LCS)
+[2026-07-08 16:49:21] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/Script_SGUM_ShareGate.txt
+[2026-07-08 16:49:21] [INFO] Traitement: /SCRIPT/SCRIPT8EXTR.txt (5 permission(s))
+[2026-07-08 16:49:21] [INFO] === COPIE REELLE: SCRIPT/SCRIPT8EXTR.txt ===
+[2026-07-08 16:49:22] [SUCCESS] Fichier copié: SCRIPT/SCRIPT8EXTR.txt (id=01ZUFXZGLXRGAZP62EGZHKU25JSUGJBLYG)
+[2026-07-08 16:49:22] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/SCRIPT8EXTR.txt
+[2026-07-08 16:49:22] [INFO] Traitement: /SCRIPT/SharedMailBox_FEBIS.csv (5 permission(s))
+[2026-07-08 16:49:22] [INFO] === COPIE REELLE: SCRIPT/SharedMailBox_FEBIS.csv ===
+[2026-07-08 16:49:23] [SUCCESS] Fichier copié: SCRIPT/SharedMailBox_FEBIS.csv (id=01ZUFXZGN755QJVR7JNBBKW3OF7D4RO4XA)
+[2026-07-08 16:49:23] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/SharedMailBox_FEBIS.csv
+[2026-07-08 16:49:23] [INFO] Traitement: /SCRIPT/suppression_champ_mail_UO.txt (5 permission(s))
+[2026-07-08 16:49:23] [INFO] === COPIE REELLE: SCRIPT/suppression_champ_mail_UO.txt ===
+[2026-07-08 16:49:25] [SUCCESS] Fichier copié: SCRIPT/suppression_champ_mail_UO.txt (id=01ZUFXZGLODMSI7MGQBFBL6LA7OJ5KLEIZ)
+[2026-07-08 16:49:25] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/suppression_champ_mail_UO.txt
+[2026-07-08 16:49:25] [INFO] Traitement: /SCRIPT/suppression_SMTP_UO.txt (5 permission(s))
+[2026-07-08 16:49:25] [INFO] === COPIE REELLE: SCRIPT/suppression_SMTP_UO.txt ===
+[2026-07-08 16:49:26] [SUCCESS] Fichier copié: SCRIPT/suppression_SMTP_UO.txt (id=01ZUFXZGPRPFDAWAAXTRG3VMDZLBQWCA4Z)
+[2026-07-08 16:49:26] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/suppression_SMTP_UO.txt
+[2026-07-08 16:49:26] [INFO] Traitement: /SCRIPT/User_MailBox_docuat.txt (5 permission(s))
+[2026-07-08 16:49:26] [INFO] === COPIE REELLE: SCRIPT/User_MailBox_docuat.txt ===
+[2026-07-08 16:49:27] [SUCCESS] Fichier copié: SCRIPT/User_MailBox_docuat.txt (id=01ZUFXZGPWLB4TCOTVUVHYEAWPXIO7MBDT)
+[2026-07-08 16:49:27] [SUCCESS] Permission Entra: User test 02 [write] -> SCRIPT/User_MailBox_docuat.txt
+[2026-07-08 16:49:27] [SUCCESS] === COPIE TERMINÉE ===
+[2026-07-08 16:49:27] [WARN] 15 erreur(s) -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_163937.csv

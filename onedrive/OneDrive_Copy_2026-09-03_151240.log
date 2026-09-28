@@ -1,0 +1,209 @@
+﻿[2026-09-03 15:12:40] [INFO] ============================================
+[2026-09-03 15:12:40] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-03 15:12:40] [INFO] ============================================
+[2026-09-03 15:12:41] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-03 15:12:41] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-03 15:12:41] [INFO] --------------------------------------------
+[2026-09-03 15:12:41] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-03 15:12:41] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 15:12:41] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-03 15:12:41] [INFO] --------------------------------------------
+[2026-09-03 15:12:41] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-03 15:12:42] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-03 15:12:42] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-03 15:12:42] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 15:12:42] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 15:12:42] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-03 15:12:43] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 15:12:43] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 15:12:43] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 15:12:43] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-03T13:12:43","request-id":"864de20b-5b30-489d-85ed-7b2aaa373504","client-request-id":"864de20b-5b30-489d-85ed-7b2aaa373504"}}}
+[2026-09-03 15:12:43] [INFO] Permissions racine OneDrive traitees
+[2026-09-03 15:12:44] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-03 15:12:45] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 15:12:45] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-03 15:12:45] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-03 15:22:33] [SUCCESS] Trouve : 3816 dossier(s) / 12905 fichier(s)
+[2026-09-03 15:22:33] [INFO] Taille totale : 20810.79 MB
+[2026-09-03 15:22:33] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-03 15:22:34] [SUCCESS] 📂 Dossier cree : Applications
+[2026-09-03 15:22:38] [SUCCESS] 📂 Dossier cree : Bureau
+[2026-09-03 15:22:40] [SUCCESS] 📂 Dossier cree : Contacts
+[2026-09-03 15:22:42] [SUCCESS] 📂 Dossier cree : corespondance FNS-FNSIMPLE
+[2026-09-03 15:22:44] [SUCCESS] 📂 Dossier cree : D
+[2026-09-03 15:22:46] [SUCCESS] 📂 Dossier cree : Documents
+[2026-09-03 15:22:47] [SUCCESS] 📂 Dossier cree : Enregistrements
+[2026-09-03 15:22:50] [SUCCESS] 📂 Dossier cree : Favorites
+[2026-09-03 15:22:51] [SUCCESS] 📂 Dossier cree : FETHI @ Infopro Digital
+[2026-09-03 15:22:53] [SUCCESS] 📂 Dossier cree : Fethy @ Infopro Digital
+[2026-09-03 15:22:57] [SUCCESS] 📂 Dossier cree : Images
+[2026-09-03 15:22:59] [SUCCESS] 📂 Dossier cree : Links
+[2026-09-03 15:23:01] [SUCCESS] 📂 Dossier cree : Microsoft Teams Chat Files
+[2026-09-03 15:23:02] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups
+[2026-09-03 15:23:05] [SUCCESS] 📂 Dossier cree : Nouveau dossier
+[2026-09-03 15:23:06] [SUCCESS] 📂 Dossier cree : repos
+[2026-09-03 15:23:08] [SUCCESS] 📂 Dossier cree : Réunions
+[2026-09-03 15:23:10] [SUCCESS] 📂 Dossier cree : Sauvegarde PC 1F1N42
+[2026-09-03 15:23:12] [SUCCESS] 📂 Dossier cree : source
+[2026-09-03 15:23:14] [SUCCESS] 📂 Dossier cree : VM XP
+[2026-09-03 15:23:16] [SUCCESS] 📂 Dossier cree : VMV2
+[2026-09-03 15:23:18] [SUCCESS] 📂 Dossier cree : Whiteboards
+[2026-09-03 15:23:20] [SUCCESS] 📂 Dossier cree : Applications/Microsoft Edge
+[2026-09-03 15:23:22] [SUCCESS] 📂 Dossier cree : Bureau/backup
+[2026-09-03 15:23:23] [SUCCESS] 📂 Dossier cree : Bureau/bin
+[2026-09-03 15:23:25] [SUCCESS] 📂 Dossier cree : Bureau/bureau
+[2026-09-03 15:23:27] [SUCCESS] 📂 Dossier cree : Bureau/Debug
+[2026-09-03 15:23:29] [SUCCESS] 📂 Dossier cree : Bureau/droit sharepoint
+[2026-09-03 15:23:31] [SUCCESS] 📂 Dossier cree : Bureau/DWS - applications Azure
+[2026-09-03 15:23:33] [SUCCESS] 📂 Dossier cree : Bureau/DWS - CREAMODIFAD - ENTRA
+[2026-09-03 15:23:35] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410
+[2026-09-03 15:23:36] [SUCCESS] 📂 Dossier cree : Bureau/INFOPRO DIGITAL (Prod)_files
+[2026-09-03 15:23:38] [SUCCESS] 📂 Dossier cree : Bureau/jira 555
+[2026-09-03 15:23:40] [SUCCESS] 📂 Dossier cree : Bureau/Les Contes de la decrypt
+[2026-09-03 15:23:42] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428
+[2026-09-03 15:23:43] [SUCCESS] 📂 Dossier cree : Bureau/mep 20241014
+[2026-09-03 15:23:45] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250113
+[2026-09-03 15:23:47] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129
+[2026-09-03 15:23:49] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814
+[2026-09-03 15:23:51] [SUCCESS] 📂 Dossier cree : Bureau/mep synchro 20241007
+[2026-09-03 15:23:53] [SUCCESS] 📂 Dossier cree : Bureau/mep_sim20250612
+[2026-09-03 15:23:54] [SUCCESS] 📂 Dossier cree : Bureau/mep05022025
+[2026-09-03 15:23:56] [SUCCESS] 📂 Dossier cree : Bureau/mep20250225
+[2026-09-03 15:23:59] [SUCCESS] 📂 Dossier cree : Bureau/mep20250603
+[2026-09-03 15:24:01] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)
+[2026-09-03 15:24:02] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (3)
+[2026-09-03 15:24:04] [SUCCESS] 📂 Dossier cree : Bureau/PowerShell
+[2026-09-03 15:24:06] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU
+[2026-09-03 15:24:08] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD
+[2026-09-03 15:24:09] [SUCCESS] 📂 Dossier cree : Bureau/synchro_pub_new_pub
+[2026-09-03 15:24:11] [SUCCESS] 📂 Dossier cree : Bureau/transport
+[2026-09-03 15:24:13] [SUCCESS] 📂 Dossier cree : Bureau/TS
+[2026-09-03 15:24:15] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments
+[2026-09-03 15:24:16] [SUCCESS] 📂 Dossier cree : Documents/Altova
+[2026-09-03 15:24:19] [SUCCESS] 📂 Dossier cree : Documents/Blocs-notes OneNote
+[2026-09-03 15:24:21] [SUCCESS] 📂 Dossier cree : Documents/Copilot
+[2026-09-03 15:24:23] [SUCCESS] 📂 Dossier cree : Documents/DBATRC
+[2026-09-03 15:24:25] [SUCCESS] 📂 Dossier cree : Documents/DEF_RETOUR_MONIMAIL19092022122353
+[2026-09-03 15:24:27] [SUCCESS] 📂 Dossier cree : Documents/Fichiers Outlook
+[2026-09-03 15:24:29] [SUCCESS] 📂 Dossier cree : Documents/Graphismes
+[2026-09-03 15:24:31] [SUCCESS] 📂 Dossier cree : Documents/IISExpress
+[2026-09-03 15:24:33] [SUCCESS] 📂 Dossier cree : Documents/Modèles Office personnalisés
+[2026-09-03 15:24:36] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites
+[2026-09-03 15:24:38] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier
+[2026-09-03 15:24:40] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier (2)
+[2026-09-03 15:24:42] [SUCCESS] 📂 Dossier cree : Documents/partage
+[2026-09-03 15:24:44] [SUCCESS] 📂 Dossier cree : Documents/PowerShell
+[2026-09-03 15:24:45] [SUCCESS] 📂 Dossier cree : Documents/PowerToys
+[2026-09-03 15:24:47] [SUCCESS] 📂 Dossier cree : Documents/SQL Server Management Studio
+[2026-09-03 15:24:49] [SUCCESS] 📂 Dossier cree : Documents/Virtual Machines
+[2026-09-03 15:24:51] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005
+[2026-09-03 15:24:53] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2013
+[2026-09-03 15:24:55] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017
+[2026-09-03 15:24:57] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019
+[2026-09-03 15:24:58] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022
+[2026-09-03 15:25:00] [SUCCESS] 📂 Dossier cree : Documents/WindowsPowerShell
+[2026-09-03 15:25:01] [SUCCESS] 📂 Dossier cree : Favorites/Links
+[2026-09-03 15:25:04] [SUCCESS] 📂 Dossier cree : Images/Captures d’écran
+[2026-09-03 15:25:05] [SUCCESS] 📂 Dossier cree : Images/PASEO BUG MOL
+[2026-09-03 15:25:07] [SUCCESS] 📂 Dossier cree : Images/Pellicule
+[2026-09-03 15:25:09] [SUCCESS] 📂 Dossier cree : Images/Saved Pictures
+[2026-09-03 15:25:11] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups/backups
+[2026-09-03 15:25:13] [SUCCESS] 📂 Dossier cree : repos/.git
+[2026-09-03 15:25:15] [SUCCESS] 📂 Dossier cree : repos/.vs
+[2026-09-03 15:25:16] [SUCCESS] 📂 Dossier cree : source/repos
+[2026-09-03 15:25:18] [SUCCESS] 📂 Dossier cree : Whiteboards/Annotations
+[2026-09-03 15:25:20] [SUCCESS] 📂 Dossier cree : Applications/Microsoft Edge/Edge Workspaces
+[2026-09-03 15:25:21] [SUCCESS] 📂 Dossier cree : Bureau/bin/fr
+[2026-09-03 15:25:23] [SUCCESS] 📂 Dossier cree : Bureau/bin/roslyn
+[2026-09-03 15:25:25] [SUCCESS] 📂 Dossier cree : Bureau/bureau/WebSite
+[2026-09-03 15:25:26] [SUCCESS] 📂 Dossier cree : Bureau/Debug/app.publish
+[2026-09-03 15:25:28] [SUCCESS] 📂 Dossier cree : Bureau/Debug/PowerShell
+[2026-09-03 15:25:31] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410/rattrapage manuelle
+[2026-09-03 15:25:32] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428/Nouveau dossier
+[2026-09-03 15:25:34] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129/API_SIM_SF
+[2026-09-03 15:25:35] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814/Nouveau dossier
+[2026-09-03 15:25:37] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)/Debug
+[2026-09-03 15:25:40] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/bin
+[2026-09-03 15:25:42] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Content
+[2026-09-03 15:25:44] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Ressources
+[2026-09-03 15:25:46] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Scripts
+[2026-09-03 15:25:48] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Views
+[2026-09-03 15:25:49] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/bin
+[2026-09-03 15:25:53] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Content
+[2026-09-03 15:25:54] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Ressources
+[2026-09-03 15:25:56] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Scripts
+[2026-09-03 15:25:58] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Views
+[2026-09-03 15:26:01] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs0
+[2026-09-03 15:26:03] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs1
+[2026-09-03 15:26:05] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs10
+[2026-09-03 15:26:07] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs11
+[2026-09-03 15:26:08] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs12
+[2026-09-03 15:26:10] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs13
+[2026-09-03 15:26:12] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs14
+[2026-09-03 15:26:14] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs2
+[2026-09-03 15:26:17] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs3
+[2026-09-03 15:26:19] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs4
+[2026-09-03 15:26:20] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs5
+[2026-09-03 15:26:22] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs6
+[2026-09-03 15:26:24] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs7
+[2026-09-03 15:26:26] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs8
+[2026-09-03 15:26:28] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs9
+[2026-09-03 15:26:30] [SUCCESS] 📂 Dossier cree : Documents/Altova/XMLSpy2022
+[2026-09-03 15:26:31] [SUCCESS] 📂 Dossier cree : Documents/Altova/XMLSpyCommon
+[2026-09-03 15:26:34] [SUCCESS] 📂 Dossier cree : Documents/Copilot/Created
+[2026-09-03 15:26:36] [SUCCESS] 📂 Dossier cree : Documents/Graphismes/Filter Library
+[2026-09-03 15:26:38] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/config
+[2026-09-03 15:26:41] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/Logs
+[2026-09-03 15:26:43] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/TraceLogFiles
+[2026-09-03 15:26:45] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites/SetupDWSecurite-Site
+[2026-09-03 15:26:47] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites/WebSite1
+[2026-09-03 15:26:50] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier (2)/srv_listener_folder
+[2026-09-03 15:26:52] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier/app.publish
+[2026-09-03 15:26:55] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier/PowerShell
+[2026-09-03 15:26:57] [SUCCESS] 📂 Dossier cree : Documents/partage/$18A3F523161D4E2C88497069AF80C8C4
+[2026-09-03 15:26:58] [SUCCESS] 📂 Dossier cree : Documents/partage/Commun
+[2026-09-03 15:27:01] [SUCCESS] 📂 Dossier cree : Documents/partage/Monimail
+[2026-09-03 15:27:03] [SUCCESS] 📂 Dossier cree : Documents/partage/test
+[2026-09-03 15:27:05] [SUCCESS] 📂 Dossier cree : Documents/PowerShell/Modules
+[2026-09-03 15:27:07] [SUCCESS] 📂 Dossier cree : Documents/PowerShell/Scripts
+[2026-09-03 15:27:10] [SUCCESS] 📂 Dossier cree : Documents/PowerToys/Backup
+[2026-09-03 15:27:12] [SUCCESS] 📂 Dossier cree : Documents/SQL Server Management Studio/Code Snippets
+[2026-09-03 15:27:14] [SUCCESS] 📂 Dossier cree : Documents/SQL Server Management Studio/Custom Reports
+[2026-09-03 15:27:16] [SUCCESS] 📂 Dossier cree : Documents/Virtual Machines/Windows XP Professional
+[2026-09-03 15:27:18] [SUCCESS] 📂 Dossier cree : Documents/Virtual Machines/Windows XP Professional (2)
+[2026-09-03 15:27:20] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005/Projects
+[2026-09-03 15:27:22] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005/Settings
+[2026-09-03 15:27:24] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005/Templates
+[2026-09-03 15:27:26] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2013/Visualizers
+[2026-09-03 15:27:28] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017/ArchitectureExplorer
+[2026-09-03 15:27:30] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017/Backup Files
+[2026-09-03 15:27:32] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017/Templates
+[2026-09-03 15:27:34] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019/Code Snippets
+[2026-09-03 15:27:37] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019/Templates
+[2026-09-03 15:27:39] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019/Visualizers
+[2026-09-03 15:27:44] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022/Code Snippets
+[2026-09-03 15:27:46] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022/Templates
+[2026-09-03 15:27:48] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022/Visualizers
+[2026-09-03 15:27:50] [SUCCESS] 📂 Dossier cree : Documents/WindowsPowerShell/Modules
+[2026-09-03 15:27:52] [SUCCESS] 📂 Dossier cree : Documents/WindowsPowerShell/Scripts
+[2026-09-03 15:27:54] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups/backups/MicrosoftEdgeBackup20210426
+[2026-09-03 15:27:56] [SUCCESS] 📂 Dossier cree : repos/.git/hooks
+[2026-09-03 15:27:58] [SUCCESS] 📂 Dossier cree : repos/.git/info
+[2026-09-03 15:28:00] [SUCCESS] 📂 Dossier cree : repos/.git/objects
+[2026-09-03 15:28:02] [SUCCESS] 📂 Dossier cree : repos/.git/refs
+[2026-09-03 15:28:04] [SUCCESS] 📂 Dossier cree : repos/.vs/repos
+[2026-09-03 15:28:06] [SUCCESS] 📂 Dossier cree : source/repos/Ali
+[2026-09-03 15:28:08] [SUCCESS] 📂 Dossier cree : source/repos/Api_SIM--SF
+[2026-09-03 15:28:10] [SUCCESS] 📂 Dossier cree : source/repos/BIM.SIM_DW.ImportABO
+[2026-09-03 15:28:13] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SF
+[2026-09-03 15:28:15] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS
+[2026-09-03 15:28:16] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS - Copie
+[2026-09-03 15:28:18] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS - Copie (2)
+[2026-09-03 15:28:20] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS -calligramme
+[2026-09-03 15:28:22] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS test
+[2026-09-03 15:28:24] [SUCCESS] 📂 Dossier cree : source/repos/BIM_SSIS V2
+[2026-09-03 15:28:26] [SUCCESS] 📂 Dossier cree : source/repos/caligramme_prod_poc
+[2026-09-03 15:28:29] [SUCCESS] 📂 Dossier cree : source/repos/ConsoleApp1
+[2026-09-03 15:28:30] [SUCCESS] 📂 Dossier cree : source/repos/fait_avis_ao_am
+[2026-09-03 15:28:32] [SUCCESS] 📂 Dossier cree : source/repos/Mol_Save_DataBase
+[2026-09-03 15:28:33] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-03_151240.log

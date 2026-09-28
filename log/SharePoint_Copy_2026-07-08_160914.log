@@ -1,0 +1,76 @@
+﻿[2026-07-08 16:09:14] [INFO] =========================================
+[2026-07-08 16:09:14] [SUCCESS] === COPIE SHAREPOINT + DROITS SP/ENTRA ===
+[2026-07-08 16:09:14] [INFO] Version: 8.0
+[2026-07-08 16:09:14] [INFO] =========================================
+[2026-07-08 16:09:14] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-08_160914.log
+[2026-07-08 16:09:14] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_160914.csv
+[2026-07-08 16:09:14] [SUCCESS] Traductions chargées: 2
+[2026-07-08 16:09:14] [SUCCESS] Mappages: par ID=3, par nom=3
+[2026-07-08 16:09:14] [INFO] === AUTHENTIFICATION ===
+[2026-07-08 16:09:15] [INFO] === RÉSOLUTION SITES/DRIVES ===
+[2026-07-08 16:09:15] [SUCCESS] Drive résolu par nom 'Documents': b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv
+[2026-07-08 16:09:15] [SUCCESS] Source:      https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-07-08 16:09:15] [SUCCESS] Drive src:   Documents (b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-07-08 16:09:15] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/fethygate
+[2026-07-08 16:09:15] [SUCCESS] Drive dst:   Documents (b!k8jQXFKwk0KwtGsFvJmNhsH5xvG66_JEj-cEjgaHomnZSz8m37iZRJ3SeesLotEx)
+[2026-07-08 16:09:15] [INFO] Librairies source: Documents
+[2026-07-08 16:09:15] [INFO] Librairies cible:  Documents
+[2026-07-08 16:09:15] [INFO] === LECTURE CSV ===
+[2026-07-08 16:09:16] [SUCCESS] Lignes CSV: 1938
+[2026-07-08 16:09:16] [INFO] Aperçu des principals:
+[2026-07-08 16:09:16] [DEBUG]   Propriétaires de SERVICES_GENERAUX | ID:  | Type: User
+[2026-07-08 16:09:16] [DEBUG]   SERVICES_GENERAUX - Membres | ID:  | Type: User
+[2026-07-08 16:09:16] [DEBUG]   Equipe INFRA | ID: 2691be46-01bd-4ca1-b0cb-1ac2b598c119 | Type: User
+[2026-07-08 16:09:16] [DEBUG]   Propriétaires de SERVICES_GENERAUX | ID: 4cfd49cf-edc6-4386-9a67-8bc9524f4c97 | Type: Group
+[2026-07-08 16:09:16] [DEBUG]   SERVICES_GENERAUX - Visiteurs | ID:  | Type: User
+[2026-07-08 16:09:16] [DEBUG]   User 01 | ID: 340f24cb-b50e-4110-9105-f089277008e9 | Type: User
+[2026-07-08 16:09:16] [SUCCESS] Chemins uniques: 333
+[2026-07-08 16:09:16] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-07-08 16:09:16] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-07-08 16:09:17] [SUCCESS] === FICHIER COPIÉ: Audit_user_gmail.xlsx (id=017S6NPCYC2BX5DVNWUBCLMH5GKBJ6O2BD) ===
+[2026-07-08 16:09:17] [WARN] Erreur perm SP grp_test [owner] sur Audit_user_gmail.xlsx: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:17] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:17] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:09:18] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Audit_user_gmail.xlsx
+[2026-07-08 16:09:18] [WARN] Groupe SP introuvable: 'grp_test' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:18] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:09:18] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:18] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:09:18] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-07-08 16:09:18] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-07-08 16:09:19] [SUCCESS] === FICHIER COPIÉ: Capture d’écran 2026-01-27 172058.jpg (id=017S6NPCZFI47YHEZVUFC2FWMQKGNV36VS) ===
+[2026-07-08 16:09:19] [WARN] Erreur perm SP grp_test [owner] sur Capture d’écran 2026-01-27 172058.jpg: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:19] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:09:19] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:09:19] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-07-08 16:09:19] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:09:19] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-07-08 16:09:19] [INFO] === COPIE REELLE: Drive ECHOLINE ===
+[2026-07-08 16:09:20] [SUCCESS] Dossier créé: Drive ECHOLINE
+[2026-07-08 16:09:20] [WARN] Erreur perm SP grp_test [owner] sur Drive ECHOLINE: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:20] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:09:20] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Drive ECHOLINE
+[2026-07-08 16:09:21] [SUCCESS] Permission Entra: User 01 [write] -> Drive ECHOLINE
+[2026-07-08 16:09:21] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:09:21] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:09:21] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-07-08 16:09:21] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops ===
+[2026-07-08 16:09:22] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:09:22] [WARN] Erreur perm SP grp_test [owner] sur Drive ECHOLINE/01-Internal Ops: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:22] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:09:22] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:09:22] [SUCCESS] Permission Entra: User 01 [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:09:22] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:09:22] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:09:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-07-08 16:09:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement ===
+[2026-07-08 16:09:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:09:24] [WARN] Erreur perm SP grp_test [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:09:24] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:09:24] [SUCCESS] Permission Entra: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:09:24] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:09:24] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:09:24] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:09:24] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-07-08 16:09:24] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-07-08 16:09:25] [WARN] 5 erreur(s) -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_160914.csv

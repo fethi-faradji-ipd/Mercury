@@ -1,0 +1,249 @@
+﻿[2026-09-03 15:30:26] [INFO] ============================================
+[2026-09-03 15:30:26] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-03 15:30:27] [INFO] ============================================
+[2026-09-03 15:30:27] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-03 15:30:27] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-03 15:30:27] [INFO] --------------------------------------------
+[2026-09-03 15:30:27] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-03 15:30:27] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 15:30:27] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-03 15:30:27] [INFO] --------------------------------------------
+[2026-09-03 15:30:28] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-03 15:30:28] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-03 15:30:29] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-03 15:30:29] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 15:30:29] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 15:30:29] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-03 15:30:30] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 15:30:30] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 15:30:30] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 15:30:31] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-03T13:30:31","request-id":"fccc4a90-853e-40cf-a049-20b40bb641a0","client-request-id":"fccc4a90-853e-40cf-a049-20b40bb641a0"}}}
+[2026-09-03 15:30:31] [INFO] Permissions racine OneDrive traitees
+[2026-09-03 15:30:31] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-03 15:30:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 15:30:32] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-03 15:30:33] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-03 15:40:23] [SUCCESS] Trouve : 3816 dossier(s) / 12905 fichier(s)
+[2026-09-03 15:40:23] [INFO] Taille totale : 20810.79 MB
+[2026-09-03 15:40:23] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-03 15:40:24] [WARN] Restauration auteur/createur dossier echouee 'Applications' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Applications n'existe pas."}}}
+[2026-09-03 15:40:26] [WARN] Restauration auteur/createur dossier echouee 'Attachments' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Attachments n'existe pas."}}}
+[2026-09-03 15:40:28] [SUCCESS] 📂 Dossier cree : Bureau
+[2026-09-03 15:40:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau n'existe pas."}}}
+[2026-09-03 15:40:30] [SUCCESS] 📂 Dossier cree : Contacts
+[2026-09-03 15:40:30] [WARN] Restauration auteur/createur dossier echouee 'Contacts' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Contacts n'existe pas."}}}
+[2026-09-03 15:40:32] [SUCCESS] 📂 Dossier cree : corespondance FNS-FNSIMPLE
+[2026-09-03 15:40:33] [WARN] Restauration auteur/createur dossier echouee 'corespondance FNS-FNSIMPLE' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/corespondance FNS-FNSIMPLE n'existe pas."}}}
+[2026-09-03 15:40:35] [SUCCESS] 📂 Dossier cree : D
+[2026-09-03 15:40:36] [WARN] Restauration auteur/createur dossier echouee 'D' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/D n'existe pas."}}}
+[2026-09-03 15:40:39] [SUCCESS] 📂 Dossier cree : Documents
+[2026-09-03 15:40:40] [WARN] Restauration auteur/createur dossier echouee 'Documents' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents n'existe pas."}}}
+[2026-09-03 15:40:43] [SUCCESS] 📂 Dossier cree : Enregistrements
+[2026-09-03 15:40:43] [WARN] Restauration auteur/createur dossier echouee 'Enregistrements' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Enregistrements n'existe pas."}}}
+[2026-09-03 15:40:46] [SUCCESS] 📂 Dossier cree : Favorites
+[2026-09-03 15:40:47] [WARN] Restauration auteur/createur dossier echouee 'Favorites' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Favorites n'existe pas."}}}
+[2026-09-03 15:40:48] [SUCCESS] 📂 Dossier cree : FETHI @ Infopro Digital
+[2026-09-03 15:40:49] [WARN] Restauration auteur/createur dossier echouee 'FETHI @ Infopro Digital' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/FETHI @ Infopro Digital n'existe pas."}}}
+[2026-09-03 15:40:51] [SUCCESS] 📂 Dossier cree : Fethy @ Infopro Digital
+[2026-09-03 15:40:51] [WARN] Restauration auteur/createur dossier echouee 'Fethy @ Infopro Digital' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Fethy @ Infopro Digital n'existe pas."}}}
+[2026-09-03 15:40:53] [WARN] Restauration auteur/createur dossier echouee 'Fichiers de conversation Microsoft Teams' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Fichiers de conversation Microsoft Teams n'existe pas."}}}
+[2026-09-03 15:40:55] [WARN] Restauration auteur/createur dossier echouee 'Fichiers Microsoft Copilot Chat' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Fichiers Microsoft Copilot Chat n'existe pas."}}}
+[2026-09-03 15:40:57] [SUCCESS] 📂 Dossier cree : Images
+[2026-09-03 15:40:57] [WARN] Restauration auteur/createur dossier echouee 'Images' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Images n'existe pas."}}}
+[2026-09-03 15:40:59] [SUCCESS] 📂 Dossier cree : Links
+[2026-09-03 15:41:00] [WARN] Restauration auteur/createur dossier echouee 'Links' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Links n'existe pas."}}}
+[2026-09-03 15:41:01] [SUCCESS] 📂 Dossier cree : Microsoft Teams Chat Files
+[2026-09-03 15:41:02] [WARN] Restauration auteur/createur dossier echouee 'Microsoft Teams Chat Files' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Microsoft Teams Chat Files n'existe pas."}}}
+[2026-09-03 15:41:04] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups
+[2026-09-03 15:41:04] [WARN] Restauration auteur/createur dossier echouee 'MicrosoftEdgeBackups' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/MicrosoftEdgeBackups n'existe pas."}}}
+[2026-09-03 15:41:06] [SUCCESS] 📂 Dossier cree : Nouveau dossier
+[2026-09-03 15:41:06] [WARN] Restauration auteur/createur dossier echouee 'Nouveau dossier' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Nouveau dossier n'existe pas."}}}
+[2026-09-03 15:41:08] [SUCCESS] 📂 Dossier cree : repos
+[2026-09-03 15:41:09] [WARN] Restauration auteur/createur dossier echouee 'repos' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/repos n'existe pas."}}}
+[2026-09-03 15:41:10] [SUCCESS] 📂 Dossier cree : Réunions
+[2026-09-03 15:41:11] [WARN] Restauration auteur/createur dossier echouee 'Réunions' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/R\u00e9unions n'existe pas."}}}
+[2026-09-03 15:41:13] [SUCCESS] 📂 Dossier cree : Sauvegarde PC 1F1N42
+[2026-09-03 15:41:13] [WARN] Restauration auteur/createur dossier echouee 'Sauvegarde PC 1F1N42' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Sauvegarde PC 1F1N42 n'existe pas."}}}
+[2026-09-03 15:41:15] [SUCCESS] 📂 Dossier cree : source
+[2026-09-03 15:41:16] [WARN] Restauration auteur/createur dossier echouee 'source' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/source n'existe pas."}}}
+[2026-09-03 15:41:18] [SUCCESS] 📂 Dossier cree : VM XP
+[2026-09-03 15:41:18] [WARN] Restauration auteur/createur dossier echouee 'VM XP' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/VM XP n'existe pas."}}}
+[2026-09-03 15:41:20] [SUCCESS] 📂 Dossier cree : VMV2
+[2026-09-03 15:41:21] [WARN] Restauration auteur/createur dossier echouee 'VMV2' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/VMV2 n'existe pas."}}}
+[2026-09-03 15:41:23] [WARN] Restauration auteur/createur dossier echouee 'Whiteboards' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Whiteboards n'existe pas."}}}
+[2026-09-03 15:41:25] [WARN] Restauration auteur/createur dossier echouee 'Applications/Microsoft Edge' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Applications/Microsoft Edge n'existe pas."}}}
+[2026-09-03 15:41:27] [SUCCESS] 📂 Dossier cree : Bureau/backup
+[2026-09-03 15:41:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/backup' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/backup n'existe pas."}}}
+[2026-09-03 15:41:30] [SUCCESS] 📂 Dossier cree : Bureau/bin
+[2026-09-03 15:41:31] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/bin n'existe pas."}}}
+[2026-09-03 15:41:32] [SUCCESS] 📂 Dossier cree : Bureau/bureau
+[2026-09-03 15:41:33] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bureau' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/bureau n'existe pas."}}}
+[2026-09-03 15:41:35] [SUCCESS] 📂 Dossier cree : Bureau/Debug
+[2026-09-03 15:41:35] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Debug n'existe pas."}}}
+[2026-09-03 15:41:37] [SUCCESS] 📂 Dossier cree : Bureau/droit sharepoint
+[2026-09-03 15:41:38] [WARN] Restauration auteur/createur dossier echouee 'Bureau/droit sharepoint' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/droit sharepoint n'existe pas."}}}
+[2026-09-03 15:41:39] [SUCCESS] 📂 Dossier cree : Bureau/DWS - applications Azure
+[2026-09-03 15:41:40] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - applications Azure' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/DWS - applications Azure n'existe pas."}}}
+[2026-09-03 15:41:42] [SUCCESS] 📂 Dossier cree : Bureau/DWS - CREAMODIFAD - ENTRA
+[2026-09-03 15:41:43] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - CREAMODIFAD - ENTRA' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/DWS - CREAMODIFAD - ENTRA n'existe pas."}}}
+[2026-09-03 15:41:44] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410
+[2026-09-03 15:41:45] [WARN] Restauration auteur/createur dossier echouee 'Bureau/export_synchro_sim_202410' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/export_synchro_sim_202410 n'existe pas."}}}
+[2026-09-03 15:41:47] [SUCCESS] 📂 Dossier cree : Bureau/INFOPRO DIGITAL (Prod)_files
+[2026-09-03 15:41:47] [WARN] Restauration auteur/createur dossier echouee 'Bureau/INFOPRO DIGITAL (Prod)_files' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/INFOPRO DIGITAL (Prod)_files n'existe pas."}}}
+[2026-09-03 15:41:49] [SUCCESS] 📂 Dossier cree : Bureau/jira 555
+[2026-09-03 15:41:49] [WARN] Restauration auteur/createur dossier echouee 'Bureau/jira 555' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/jira 555 n'existe pas."}}}
+[2026-09-03 15:41:51] [SUCCESS] 📂 Dossier cree : Bureau/Les Contes de la decrypt
+[2026-09-03 15:41:52] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Les Contes de la decrypt' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Les Contes de la decrypt n'existe pas."}}}
+[2026-09-03 15:41:53] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428
+[2026-09-03 15:41:54] [WARN] Restauration auteur/createur dossier echouee 'Bureau/livraisonKPI 20250428' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/livraisonKPI 20250428 n'existe pas."}}}
+[2026-09-03 15:41:56] [SUCCESS] 📂 Dossier cree : Bureau/mep 20241014
+[2026-09-03 15:41:56] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20241014' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep 20241014 n'existe pas."}}}
+[2026-09-03 15:41:58] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250113
+[2026-09-03 15:41:59] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250113' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep 20250113 n'existe pas."}}}
+[2026-09-03 15:42:00] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129
+[2026-09-03 15:42:01] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250129' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep 20250129 n'existe pas."}}}
+[2026-09-03 15:42:03] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814
+[2026-09-03 15:42:04] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep DWS20250814' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep DWS20250814 n'existe pas."}}}
+[2026-09-03 15:42:05] [SUCCESS] 📂 Dossier cree : Bureau/mep synchro 20241007
+[2026-09-03 15:42:06] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep synchro 20241007' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep synchro 20241007 n'existe pas."}}}
+[2026-09-03 15:42:08] [SUCCESS] 📂 Dossier cree : Bureau/mep_sim20250612
+[2026-09-03 15:42:08] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep_sim20250612' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep_sim20250612 n'existe pas."}}}
+[2026-09-03 15:42:10] [SUCCESS] 📂 Dossier cree : Bureau/mep05022025
+[2026-09-03 15:42:11] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep05022025' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep05022025 n'existe pas."}}}
+[2026-09-03 15:42:13] [SUCCESS] 📂 Dossier cree : Bureau/mep20250225
+[2026-09-03 15:42:13] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep20250225' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep20250225 n'existe pas."}}}
+[2026-09-03 15:42:15] [SUCCESS] 📂 Dossier cree : Bureau/mep20250603
+[2026-09-03 15:42:16] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep20250603' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep20250603 n'existe pas."}}}
+[2026-09-03 15:42:18] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)
+[2026-09-03 15:42:18] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (2)' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Nouveau dossier (2) n'existe pas."}}}
+[2026-09-03 15:42:20] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (3)
+[2026-09-03 15:42:20] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (3)' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Nouveau dossier (3) n'existe pas."}}}
+[2026-09-03 15:42:22] [SUCCESS] 📂 Dossier cree : Bureau/PowerShell
+[2026-09-03 15:42:23] [WARN] Restauration auteur/createur dossier echouee 'Bureau/PowerShell' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/PowerShell n'existe pas."}}}
+[2026-09-03 15:42:25] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU
+[2026-09-03 15:42:25] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU n'existe pas."}}}
+[2026-09-03 15:42:27] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD
+[2026-09-03 15:42:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD n'existe pas."}}}
+[2026-09-03 15:42:29] [SUCCESS] 📂 Dossier cree : Bureau/synchro_pub_new_pub
+[2026-09-03 15:42:30] [WARN] Restauration auteur/createur dossier echouee 'Bureau/synchro_pub_new_pub' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/synchro_pub_new_pub n'existe pas."}}}
+[2026-09-03 15:42:32] [SUCCESS] 📂 Dossier cree : Bureau/transport
+[2026-09-03 15:42:32] [WARN] Restauration auteur/createur dossier echouee 'Bureau/transport' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/transport n'existe pas."}}}
+[2026-09-03 15:42:35] [SUCCESS] 📂 Dossier cree : Bureau/TS
+[2026-09-03 15:42:36] [WARN] Restauration auteur/createur dossier echouee 'Bureau/TS' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/TS n'existe pas."}}}
+[2026-09-03 15:42:38] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments
+[2026-09-03 15:42:38] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/afterSentDocuments n'existe pas."}}}
+[2026-09-03 15:42:40] [SUCCESS] 📂 Dossier cree : Documents/Altova
+[2026-09-03 15:42:41] [WARN] Restauration auteur/createur dossier echouee 'Documents/Altova' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Altova n'existe pas."}}}
+[2026-09-03 15:42:43] [SUCCESS] 📂 Dossier cree : Documents/Blocs-notes OneNote
+[2026-09-03 15:42:44] [WARN] Restauration auteur/createur dossier echouee 'Documents/Blocs-notes OneNote' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Blocs-notes OneNote n'existe pas."}}}
+[2026-09-03 15:42:46] [SUCCESS] 📂 Dossier cree : Documents/Copilot
+[2026-09-03 15:42:46] [WARN] Restauration auteur/createur dossier echouee 'Documents/Copilot' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Copilot n'existe pas."}}}
+[2026-09-03 15:42:48] [SUCCESS] 📂 Dossier cree : Documents/DBATRC
+[2026-09-03 15:42:49] [WARN] Restauration auteur/createur dossier echouee 'Documents/DBATRC' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/DBATRC n'existe pas."}}}
+[2026-09-03 15:42:51] [SUCCESS] 📂 Dossier cree : Documents/DEF_RETOUR_MONIMAIL19092022122353
+[2026-09-03 15:42:52] [WARN] Restauration auteur/createur dossier echouee 'Documents/DEF_RETOUR_MONIMAIL19092022122353' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/DEF_RETOUR_MONIMAIL19092022122353 n'existe pas."}}}
+[2026-09-03 15:42:54] [SUCCESS] 📂 Dossier cree : Documents/Fichiers Outlook
+[2026-09-03 15:42:54] [WARN] Restauration auteur/createur dossier echouee 'Documents/Fichiers Outlook' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Fichiers Outlook n'existe pas."}}}
+[2026-09-03 15:42:56] [SUCCESS] 📂 Dossier cree : Documents/Graphismes
+[2026-09-03 15:42:57] [WARN] Restauration auteur/createur dossier echouee 'Documents/Graphismes' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Graphismes n'existe pas."}}}
+[2026-09-03 15:42:59] [SUCCESS] 📂 Dossier cree : Documents/IISExpress
+[2026-09-03 15:42:59] [WARN] Restauration auteur/createur dossier echouee 'Documents/IISExpress' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/IISExpress n'existe pas."}}}
+[2026-09-03 15:43:01] [SUCCESS] 📂 Dossier cree : Documents/Modèles Office personnalisés
+[2026-09-03 15:43:02] [WARN] Restauration auteur/createur dossier echouee 'Documents/Modèles Office personnalisés' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Mod\u00e8les Office personnalis\u00e9s n'existe pas."}}}
+[2026-09-03 15:43:03] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites
+[2026-09-03 15:43:04] [WARN] Restauration auteur/createur dossier echouee 'Documents/My Web Sites' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/My Web Sites n'existe pas."}}}
+[2026-09-03 15:43:06] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier
+[2026-09-03 15:43:06] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Nouveau dossier n'existe pas."}}}
+[2026-09-03 15:43:08] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier (2)
+[2026-09-03 15:43:09] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier (2)' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Nouveau dossier (2) n'existe pas."}}}
+[2026-09-03 15:43:10] [SUCCESS] 📂 Dossier cree : Documents/partage
+[2026-09-03 15:43:11] [WARN] Restauration auteur/createur dossier echouee 'Documents/partage' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/partage n'existe pas."}}}
+[2026-09-03 15:43:12] [SUCCESS] 📂 Dossier cree : Documents/PowerShell
+[2026-09-03 15:43:13] [WARN] Restauration auteur/createur dossier echouee 'Documents/PowerShell' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/PowerShell n'existe pas."}}}
+[2026-09-03 15:43:15] [SUCCESS] 📂 Dossier cree : Documents/PowerToys
+[2026-09-03 15:43:15] [WARN] Restauration auteur/createur dossier echouee 'Documents/PowerToys' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/PowerToys n'existe pas."}}}
+[2026-09-03 15:43:17] [SUCCESS] 📂 Dossier cree : Documents/SQL Server Management Studio
+[2026-09-03 15:43:18] [WARN] Restauration auteur/createur dossier echouee 'Documents/SQL Server Management Studio' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/SQL Server Management Studio n'existe pas."}}}
+[2026-09-03 15:43:19] [SUCCESS] 📂 Dossier cree : Documents/Virtual Machines
+[2026-09-03 15:43:20] [WARN] Restauration auteur/createur dossier echouee 'Documents/Virtual Machines' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Virtual Machines n'existe pas."}}}
+[2026-09-03 15:43:22] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005
+[2026-09-03 15:43:23] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2005' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Visual Studio 2005 n'existe pas."}}}
+[2026-09-03 15:43:25] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2013
+[2026-09-03 15:43:25] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2013' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Visual Studio 2013 n'existe pas."}}}
+[2026-09-03 15:43:27] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017
+[2026-09-03 15:43:28] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2017' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Visual Studio 2017 n'existe pas."}}}
+[2026-09-03 15:43:29] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019
+[2026-09-03 15:43:30] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2019' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Visual Studio 2019 n'existe pas."}}}
+[2026-09-03 15:43:32] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022
+[2026-09-03 15:43:33] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2022' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/Visual Studio 2022 n'existe pas."}}}
+[2026-09-03 15:43:35] [SUCCESS] 📂 Dossier cree : Documents/WindowsPowerShell
+[2026-09-03 15:43:36] [WARN] Restauration auteur/createur dossier echouee 'Documents/WindowsPowerShell' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/WindowsPowerShell n'existe pas."}}}
+[2026-09-03 15:43:38] [SUCCESS] 📂 Dossier cree : Favorites/Links
+[2026-09-03 15:43:38] [WARN] Restauration auteur/createur dossier echouee 'Favorites/Links' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Favorites/Links n'existe pas."}}}
+[2026-09-03 15:43:40] [SUCCESS] 📂 Dossier cree : Images/Captures d’écran
+[2026-09-03 15:43:41] [WARN] Restauration auteur/createur dossier echouee 'Images/Captures d’écran' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Images/Captures d\u2019\u00e9cran n'existe pas."}}}
+[2026-09-03 15:43:42] [SUCCESS] 📂 Dossier cree : Images/PASEO BUG MOL
+[2026-09-03 15:43:43] [WARN] Restauration auteur/createur dossier echouee 'Images/PASEO BUG MOL' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Images/PASEO BUG MOL n'existe pas."}}}
+[2026-09-03 15:43:44] [SUCCESS] 📂 Dossier cree : Images/Pellicule
+[2026-09-03 15:43:45] [WARN] Restauration auteur/createur dossier echouee 'Images/Pellicule' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Images/Pellicule n'existe pas."}}}
+[2026-09-03 15:43:46] [SUCCESS] 📂 Dossier cree : Images/Saved Pictures
+[2026-09-03 15:43:47] [WARN] Restauration auteur/createur dossier echouee 'Images/Saved Pictures' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Images/Saved Pictures n'existe pas."}}}
+[2026-09-03 15:43:49] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups/backups
+[2026-09-03 15:43:49] [WARN] Restauration auteur/createur dossier echouee 'MicrosoftEdgeBackups/backups' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/MicrosoftEdgeBackups/backups n'existe pas."}}}
+[2026-09-03 15:43:51] [SUCCESS] 📂 Dossier cree : repos/.git
+[2026-09-03 15:43:52] [WARN] Restauration auteur/createur dossier echouee 'repos/.git' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/repos/.git n'existe pas."}}}
+[2026-09-03 15:43:54] [SUCCESS] 📂 Dossier cree : repos/.vs
+[2026-09-03 15:43:54] [WARN] Restauration auteur/createur dossier echouee 'repos/.vs' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/repos/.vs n'existe pas."}}}
+[2026-09-03 15:43:56] [SUCCESS] 📂 Dossier cree : source/repos
+[2026-09-03 15:43:56] [WARN] Restauration auteur/createur dossier echouee 'source/repos' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/source/repos n'existe pas."}}}
+[2026-09-03 15:43:58] [WARN] Restauration auteur/createur dossier echouee 'Whiteboards/Annotations' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Whiteboards/Annotations n'existe pas."}}}
+[2026-09-03 15:44:00] [WARN] Restauration auteur/createur dossier echouee 'Applications/Microsoft Edge/Edge Workspaces' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Applications/Microsoft Edge/Edge Workspaces n'existe pas."}}}
+[2026-09-03 15:44:03] [SUCCESS] 📂 Dossier cree : Bureau/bin/fr
+[2026-09-03 15:44:03] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin/fr' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/bin/fr n'existe pas."}}}
+[2026-09-03 15:44:05] [SUCCESS] 📂 Dossier cree : Bureau/bin/roslyn
+[2026-09-03 15:44:05] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin/roslyn' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/bin/roslyn n'existe pas."}}}
+[2026-09-03 15:44:07] [SUCCESS] 📂 Dossier cree : Bureau/bureau/WebSite
+[2026-09-03 15:44:08] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bureau/WebSite' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/bureau/WebSite n'existe pas."}}}
+[2026-09-03 15:44:10] [SUCCESS] 📂 Dossier cree : Bureau/Debug/app.publish
+[2026-09-03 15:44:10] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug/app.publish' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Debug/app.publish n'existe pas."}}}
+[2026-09-03 15:44:12] [SUCCESS] 📂 Dossier cree : Bureau/Debug/PowerShell
+[2026-09-03 15:44:13] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug/PowerShell' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Debug/PowerShell n'existe pas."}}}
+[2026-09-03 15:44:15] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410/rattrapage manuelle
+[2026-09-03 15:44:15] [WARN] Restauration auteur/createur dossier echouee 'Bureau/export_synchro_sim_202410/rattrapage manuelle' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/export_synchro_sim_202410/rattrapage manuelle n'existe pas."}}}
+[2026-09-03 15:44:17] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428/Nouveau dossier
+[2026-09-03 15:44:17] [WARN] Restauration auteur/createur dossier echouee 'Bureau/livraisonKPI 20250428/Nouveau dossier' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/livraisonKPI 20250428/Nouveau dossier n'existe pas."}}}
+[2026-09-03 15:44:19] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129/API_SIM_SF
+[2026-09-03 15:44:20] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250129/API_SIM_SF' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep 20250129/API_SIM_SF n'existe pas."}}}
+[2026-09-03 15:44:22] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814/Nouveau dossier
+[2026-09-03 15:44:22] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep DWS20250814/Nouveau dossier' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/mep DWS20250814/Nouveau dossier n'existe pas."}}}
+[2026-09-03 15:44:24] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)/Debug
+[2026-09-03 15:44:25] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (2)/Debug' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Nouveau dossier (2)/Debug n'existe pas."}}}
+[2026-09-03 15:44:27] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/bin
+[2026-09-03 15:44:27] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/bin' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU/bin n'existe pas."}}}
+[2026-09-03 15:44:30] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Content
+[2026-09-03 15:44:30] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Content' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU/Content n'existe pas."}}}
+[2026-09-03 15:44:32] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Ressources
+[2026-09-03 15:44:33] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Ressources' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU/Ressources n'existe pas."}}}
+[2026-09-03 15:44:35] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Scripts
+[2026-09-03 15:44:35] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Scripts' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU/Scripts n'existe pas."}}}
+[2026-09-03 15:44:37] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Views
+[2026-09-03 15:44:38] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Views' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup_KPI_SECU/Views n'existe pas."}}}
+[2026-09-03 15:44:40] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/bin
+[2026-09-03 15:44:40] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/bin' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD/bin n'existe pas."}}}
+[2026-09-03 15:44:43] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Content
+[2026-09-03 15:44:44] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Content' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD/Content n'existe pas."}}}
+[2026-09-03 15:44:46] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Ressources
+[2026-09-03 15:44:46] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Ressources' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD/Ressources n'existe pas."}}}
+[2026-09-03 15:44:48] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Scripts
+[2026-09-03 15:44:49] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Scripts' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD/Scripts n'existe pas."}}}
+[2026-09-03 15:44:51] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Views
+[2026-09-03 15:44:51] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Views' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Bureau/Setup-creamodifAD/Views n'existe pas."}}}
+[2026-09-03 15:44:54] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs0
+[2026-09-03 15:44:54] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs0' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/afterSentDocuments/docs0 n'existe pas."}}}
+[2026-09-03 15:44:56] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs1
+[2026-09-03 15:44:57] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs1' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/afterSentDocuments/docs1 n'existe pas."}}}
+[2026-09-03 15:44:59] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs10
+[2026-09-03 15:45:00] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs10' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/afterSentDocuments/docs10 n'existe pas."}}}
+[2026-09-03 15:45:04] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs11
+[2026-09-03 15:45:04] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs11' : SP REST 404 : {"odata.error":{"code":"-2130575338, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"Le fichier /personal/usermercury_infopro-digital_com/Documents/Documents/afterSentDocuments/docs11 n'existe pas."}}}
+[2026-09-03 15:45:07] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-03_153026.log

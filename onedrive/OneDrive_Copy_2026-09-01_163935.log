@@ -1,0 +1,242 @@
+﻿[2026-09-01 16:39:35] [INFO] ============================================
+[2026-09-01 16:39:35] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-01 16:39:35] [INFO] ============================================
+[2026-09-01 16:39:35] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-01 16:39:35] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-01 16:39:35] [INFO] --------------------------------------------
+[2026-09-01 16:39:35] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-01 16:39:35] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:39:35] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:39:35] [INFO] --------------------------------------------
+[2026-09-01 16:39:36] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-09-01 16:39:36] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-01 16:39:36] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-01 16:39:36] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:39:36] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:39:36] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:39:36] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:39:36] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:39:36] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:39:37] [WARN] Permission non appliquee : / (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-01T14:39:37","request-id":"55d5dfae-92ef-4baa-97bd-24e11f3936f0","client-request-id":"55d5dfae-92ef-4baa-97bd-24e11f3936f0"}}}
+[2026-09-01 16:39:37] [INFO] Permissions racine OneDrive traitees
+[2026-09-01 16:39:37] [DEBUG] Metadonnees racine ignorees (listItem indisponible via Graph)
+[2026-09-01 16:39:37] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-01 16:39:38] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-01 16:39:38] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-01 16:39:38] [DEBUG] SP token roles : Sites.FullControl.All | aud : 00000003-0000-0ff1-ce00-000000000000
+[2026-09-01 16:39:38] [DEBUG] SP REST test GET /_api/web : HTTP 200 - {"Title":"User MERCURY"}
+[2026-09-01 16:39:38] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-01 16:39:38] [DEBUG]    📂 Attachments
+[2026-09-01 16:39:39] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-09-01 16:39:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:39:39] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-09-01 16:39:39] [DEBUG]    📂 Meetings
+[2026-09-01 16:39:39] [DEBUG]    📂 Recordings
+[2026-09-01 16:39:39] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:39:39] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-09-01 16:39:39] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-09-01 16:39:39] [INFO] Taille totale : 2.67 MB
+[2026-09-01 16:39:39] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-01 16:39:40] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / ParentVersionStringLookupId
+[2026-09-01 16:39:40] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / Edit
+[2026-09-01 16:39:40] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / ParentLeafNameLookupId
+[2026-09-01 16:39:41] [DEBUG] Metadonnees appliquees : Attachments (2 champ(s))
+[2026-09-01 16:39:42] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / ParentVersionStringLookupId
+[2026-09-01 16:39:42] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / Edit
+[2026-09-01 16:39:42] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / ParentLeafNameLookupId
+[2026-09-01 16:39:42] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams (2 champ(s))
+[2026-09-01 16:39:48] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / ParentVersionStringLookupId
+[2026-09-01 16:39:49] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / Edit
+[2026-09-01 16:39:49] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / ParentLeafNameLookupId
+[2026-09-01 16:39:50] [DEBUG] Metadonnees appliquees : Fichiers Microsoft Copilot Chat (2 champ(s))
+[2026-09-01 16:39:50] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / ParentVersionStringLookupId
+[2026-09-01 16:39:51] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / Edit
+[2026-09-01 16:39:51] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / ParentLeafNameLookupId
+[2026-09-01 16:39:51] [DEBUG] Metadonnees appliquees : Meetings (2 champ(s))
+[2026-09-01 16:39:52] [DEBUG] Permission read appliquee : Meetings (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:39:52] [DEBUG] Permission sans email exploitable ignoree : Meetings (id=aTowaS50fG1zLnNwLmV4dHw2YmMzYjk1OC02ODliLTQ5ZjUtOTAwNi0zNmQxNjVmMzBlMDBAODVhNWEzNTItMjVkNi00ODk0LWE5N2QtMjIxY2QxNzEyZGQy)
+[2026-09-01 16:39:52] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / ParentVersionStringLookupId
+[2026-09-01 16:39:52] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / Edit
+[2026-09-01 16:39:53] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / ParentLeafNameLookupId
+[2026-09-01 16:39:53] [DEBUG] Metadonnees appliquees : Recordings (2 champ(s))
+[2026-09-01 16:39:53] [DEBUG] Permission read appliquee : Recordings (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:39:53] [DEBUG] Permission sans email exploitable ignoree : Recordings (id=aTowaS50fG1zLnNwLmV4dHw2YmMzYjk1OC02ODliLTQ5ZjUtOTAwNi0zNmQxNjVmMzBlMDBAODVhNWEzNTItMjVkNi00ODk0LWE5N2QtMjIxY2QxNzEyZGQy)
+[2026-09-01 16:39:53] [INFO] === COPIE DES FICHIERS ===
+[2026-09-01 16:39:54] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:39:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:39:54] [WARN]    🔁 Rejeu force des versions (compte identique) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:39:55] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:39:55] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:39:56] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 6988 o)
+[2026-09-01 16:39:57] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:39:57] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:39:57] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:39:58] [DEBUG]       v1 : date via PATCH (2026-07-29T08:18:13Z)
+[2026-09-01 16:39:58] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:39:58] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / ParentLeafNameLookupId
+[2026-09-01 16:39:58] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / ParentVersionStringLookupId
+[2026-09-01 16:39:59] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / Edit
+[2026-09-01 16:39:59] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / FileSizeDisplay
+[2026-09-01 16:39:59] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (2 champ(s))
+[2026-09-01 16:39:59] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg' (permission id=75034b63-5369-4ede-a497-c7161096326b)
+[2026-09-01 16:40:00] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:40:00] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:00] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - historique copie (1 version(s))
+[2026-09-01 16:40:00] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:40:00] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:40:01] [WARN]    🔁 Rejeu force des versions (compte identique) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:40:02] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:40:02] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:40:03] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 15635 o)
+[2026-09-01 16:40:04] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:04] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:04] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:04] [DEBUG]       v1 : date via PATCH (2026-07-29T08:20:51Z)
+[2026-09-01 16:40:04] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:05] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / ParentLeafNameLookupId
+[2026-09-01 16:40:05] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / ParentVersionStringLookupId
+[2026-09-01 16:40:05] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / Edit
+[2026-09-01 16:40:05] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / FileSizeDisplay
+[2026-09-01 16:40:06] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (2 champ(s))
+[2026-09-01 16:40:06] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip' (permission id=9480e70e-c92f-4ecb-bfa8-d56f725350dc)
+[2026-09-01 16:40:06] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:40:06] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:06] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - historique copie (1 version(s))
+[2026-09-01 16:40:06] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:40:07] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:40:07] [WARN]    🔁 Rejeu force des versions (compte identique) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:40:08] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:40:08] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:40:09] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24770 o)
+[2026-09-01 16:40:09] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:09] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:09] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:10] [DEBUG]       v1 : date via PATCH (2026-07-29T08:19:00Z)
+[2026-09-01 16:40:10] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:10] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / ParentLeafNameLookupId
+[2026-09-01 16:40:11] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / ParentVersionStringLookupId
+[2026-09-01 16:40:11] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / Edit
+[2026-09-01 16:40:12] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / FileSizeDisplay
+[2026-09-01 16:40:12] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/darkcanard_.jpg (2 champ(s))
+[2026-09-01 16:40:12] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/darkcanard_.jpg' (permission id=0e60face-08b3-4c3f-9fda-21b6eed3484c)
+[2026-09-01 16:40:13] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/darkcanard_.jpg (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:40:13] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:13] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - historique copie (1 version(s))
+[2026-09-01 16:40:13] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:40:13] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-09-01 16:40:14] [WARN]    🔁 Rejeu force des versions (compte identique) : how-to-eat-healthy.webp
+[2026-09-01 16:40:14] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : how-to-eat-healthy.webp
+[2026-09-01 16:40:14] [INFO]    ⬆  Rejeu de 1 version(s) : how-to-eat-healthy.webp
+[2026-09-01 16:40:17] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2608802 o)
+[2026-09-01 16:40:18] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:18] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:18] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:18] [DEBUG]       v1 : date via PATCH (2026-08-03T12:12:44Z)
+[2026-09-01 16:40:19] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:19] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / ParentLeafNameLookupId
+[2026-09-01 16:40:19] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / ParentVersionStringLookupId
+[2026-09-01 16:40:19] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / Edit
+[2026-09-01 16:40:20] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / FileSizeDisplay
+[2026-09-01 16:40:20] [DEBUG] Metadonnees appliquees : how-to-eat-healthy.webp (2 champ(s))
+[2026-09-01 16:40:21] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:21] [SUCCESS] ✅ how-to-eat-healthy.webp - historique copie (1 version(s))
+[2026-09-01 16:40:21] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-09-01 16:40:22] [INFO]    ⬇  salade-laitue.webp
+[2026-09-01 16:40:22] [WARN]    🔁 Rejeu force des versions (compte identique) : salade-laitue.webp
+[2026-09-01 16:40:22] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : salade-laitue.webp
+[2026-09-01 16:40:23] [INFO]    ⬆  Rejeu de 1 version(s) : salade-laitue.webp
+[2026-09-01 16:40:24] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 102024 o)
+[2026-09-01 16:40:25] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:25] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:25] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:25] [DEBUG]       v1 : date via PATCH (2026-08-03T12:12:42Z)
+[2026-09-01 16:40:25] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:26] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / ParentLeafNameLookupId
+[2026-09-01 16:40:26] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / ParentVersionStringLookupId
+[2026-09-01 16:40:26] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / Edit
+[2026-09-01 16:40:26] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / FileSizeDisplay
+[2026-09-01 16:40:27] [DEBUG] Metadonnees appliquees : salade-laitue.webp (2 champ(s))
+[2026-09-01 16:40:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:27] [SUCCESS] ✅ salade-laitue.webp - historique copie (1 version(s))
+[2026-09-01 16:40:27] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:40:27] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:40:28] [WARN]    🔁 Rejeu force des versions (compte identique) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:40:28] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:40:28] [INFO]    ⬆  Rejeu de 1 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:40:29] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2676 o)
+[2026-09-01 16:40:30] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:30] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:30] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:31] [DEBUG]       v1 : date via PATCH (2026-08-03T12:12:56Z)
+[2026-09-01 16:40:31] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:31] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / ParentLeafNameLookupId
+[2026-09-01 16:40:31] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / ParentVersionStringLookupId
+[2026-09-01 16:40:31] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / Edit
+[2026-09-01 16:40:32] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / FileSizeDisplay
+[2026-09-01 16:40:32] [DEBUG] Metadonnees appliquees : SharePoint_Errors_Notisum_2026-04-10_154411.csv (2 champ(s))
+[2026-09-01 16:40:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:32] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-09-01 16:40:32] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:40:32] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:40:33] [WARN]    🔁 Rejeu force des versions (compte identique) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:40:33] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:40:33] [INFO]    ⬆  Rejeu de 3 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:40:35] [DEBUG]       Version 1/3 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 11145 o)
+[2026-09-01 16:40:35] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:36] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:36] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:36] [DEBUG]       v1 : date via PATCH (2026-08-03T12:13:10Z)
+[2026-09-01 16:40:36] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:37] [DEBUG]       Version 2/3 rejouee (id=2.0, par=UserMercury@ipd-lab.com, 10947 o)
+[2026-09-01 16:40:38] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:38] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:38] [WARN]       v2 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:38] [DEBUG]       v2 : date via PATCH (2026-08-03T12:13:18Z)
+[2026-09-01 16:40:39] [WARN]       v2 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:40] [DEBUG]       Version 3/3 rejouee (id=3.0, par=UserMercury@ipd-lab.com, 10946 o)
+[2026-09-01 16:40:40] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:41] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:41] [WARN]       v3 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:41] [DEBUG]       v3 : date via PATCH (2026-08-03T12:14:09Z)
+[2026-09-01 16:40:41] [WARN]       v3 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:41] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / ParentLeafNameLookupId
+[2026-09-01 16:40:41] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / ParentVersionStringLookupId
+[2026-09-01 16:40:42] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / Edit
+[2026-09-01 16:40:42] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / FileSizeDisplay
+[2026-09-01 16:40:42] [DEBUG] Metadonnees appliquees : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (2 champ(s))
+[2026-09-01 16:40:42] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:42] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - historique copie (3 version(s))
+[2026-09-01 16:40:42] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-09-01 16:40:43] [INFO]    ⬇  shopping.jpg
+[2026-09-01 16:40:43] [WARN]    🔁 Rejeu force des versions (compte identique) : shopping.jpg
+[2026-09-01 16:40:43] [DEBUG]    🗑  Fichier destination supprime (rejeu force) : shopping.jpg
+[2026-09-01 16:40:43] [INFO]    ⬆  Rejeu de 1 version(s) : shopping.jpg
+[2026-09-01 16:40:44] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24600 o)
+[2026-09-01 16:40:45] [DEBUG] VVI reponse : Editor= | Modified=
+[2026-09-01 16:40:45] [DEBUG] VVI verification : Editor= / Modified=
+[2026-09-01 16:40:45] [WARN]       v1 : auteur VVI non verifie (UserMercury@ipd-lab.com -> usermercury@infopro-digital.com ; obtenu='')
+[2026-09-01 16:40:46] [DEBUG]       v1 : date via PATCH (2026-08-03T12:12:41Z)
+[2026-09-01 16:40:46] [WARN]       v1 : auteur non restaure (VVI non valide) pour 'usermercury@infopro-digital.com'
+[2026-09-01 16:40:46] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / ParentLeafNameLookupId
+[2026-09-01 16:40:46] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / ParentVersionStringLookupId
+[2026-09-01 16:40:47] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / Edit
+[2026-09-01 16:40:47] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / FileSizeDisplay
+[2026-09-01 16:40:47] [DEBUG] Metadonnees appliquees : shopping.jpg (2 champ(s))
+[2026-09-01 16:40:47] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-01 16:40:47] [SUCCESS] ✅ shopping.jpg - historique copie (1 version(s))
+[2026-09-01 16:40:47] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-09-01 16:40:47] [INFO] Total   : 8 fichier(s)
+[2026-09-01 16:40:47] [INFO] Erreurs : 0
+[2026-09-01 16:40:47] [SUCCESS] ============================================
+[2026-09-01 16:40:47] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-01 16:40:47] [INFO] Total lignes  : 1
+[2026-09-01 16:40:47] [INFO] Succes        : 1
+[2026-09-01 16:40:47] [INFO] Echecs        : 0
+[2026-09-01 16:40:47] [SUCCESS] ============================================
+[2026-09-01 16:40:47] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-09-01_163935.csv
+[2026-09-01 16:40:47] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-01_163935.log

@@ -1,0 +1,36 @@
+﻿[2026-07-21 16:03:49] [INFO] =========================================
+[2026-07-21 16:03:49] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS ===
+[2026-07-21 16:03:49] [INFO] Version: 9.0
+[2026-07-21 16:03:49] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-07-21 16:03:49] [SUCCESS] Traductions chargées: 1
+[2026-07-21 16:03:49] [SUCCESS] Mappages chargés: ID=0, Name=0
+[2026-07-21 16:03:49] [INFO] Authentification...
+[2026-07-21 16:03:49] [INFO] Résolution sites/drives...
+[2026-07-21 16:03:50] [SUCCESS] Sites/drives résolus
+[2026-07-21 16:03:50] [SUCCESS] Lignes CSV: 1938
+[2026-07-21 16:03:50] [SUCCESS] Chemins uniques: 333
+[2026-07-21 16:03:50] [INFO] Traitement: /Audit_user_gmail.xlsx
+[2026-07-21 16:03:50] [INFO] Copie: Audit_user_gmail.xlsx
+[2026-07-21 16:03:51] [ERROR] Erreur copie: La propriété « Response » est introuvable dans cet objet. Vérifiez qu’elle existe.
+[2026-07-21 16:03:51] [WARN] Droits ignorés (copie échouée): /Audit_user_gmail.xlsx
+[2026-07-21 16:03:51] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg
+[2026-07-21 16:03:51] [INFO] Copie: Capture d’écran 2026-01-27 172058.jpg
+[2026-07-21 16:03:51] [ERROR] Erreur copie: La propriété « Response » est introuvable dans cet objet. Vérifiez qu’elle existe.
+[2026-07-21 16:03:51] [WARN] Droits ignorés (copie échouée): /Capture d’écran 2026-01-27 172058.jpg
+[2026-07-21 16:03:51] [INFO] Traitement: /Drive ECHOLINE/
+[2026-07-21 16:03:51] [INFO] Copie: Drive ECHOLINE
+[2026-07-21 16:03:51] [ERROR] Erreur copie: La propriété « Count » est introuvable dans cet objet. Vérifiez qu’elle existe.
+[2026-07-21 16:03:51] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/
+[2026-07-21 16:03:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/
+[2026-07-21 16:03:51] [INFO] Copie: Drive ECHOLINE/01-Internal Ops
+[2026-07-21 16:03:52] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops
+[2026-07-21 16:03:52] [WARN] Pas de mapping (permission ignorée) -> Drive ECHOLINE/01-Internal Ops
+[2026-07-21 16:03:52] [WARN] Pas de mapping (permission ignorée) -> Drive ECHOLINE/01-Internal Ops
+[2026-07-21 16:03:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/
+[2026-07-21 16:03:52] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-21 16:03:53] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-21 16:03:53] [WARN] Pas de mapping (permission ignorée) -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-21 16:03:53] [WARN] Pas de mapping (permission ignorée) -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-21 16:03:53] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/
+[2026-07-21 16:03:53] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-21 16:03:54] [WARN] Erreurs exportées: C:\Users\ffaradji-op\Desktop\Mercury script powershell\log\SharePoint_Errors_2026-07-21_160349.csv

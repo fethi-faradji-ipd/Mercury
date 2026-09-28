@@ -1,0 +1,30 @@
+﻿[2026-09-11 08:30:59] [INFO] ============================================
+[2026-09-11 08:30:59] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-11 08:30:59] [INFO] ============================================
+[2026-09-11 08:30:59] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-11 08:30:59] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-11 08:30:59] [INFO] --------------------------------------------
+[2026-09-11 08:30:59] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-11 08:30:59] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-11 08:30:59] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-11 08:30:59] [INFO] --------------------------------------------
+[2026-09-11 08:30:59] [INFO] Mode de copie : full
+[2026-09-11 08:30:59] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-11 08:30:59] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-11 08:30:59] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-11 08:31:00] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-11 08:31:00] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-11 08:31:00] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-11 08:31:00] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-11 08:31:00] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-11 08:31:00] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-11 08:31:02] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-11T06:31:02","request-id":"9f6b1d15-f970-47a4-8eda-dac70dada75d","client-request-id":"9f6b1d15-f970-47a4-8eda-dac70dada75d"}}}
+[2026-09-11 08:31:02] [INFO] Permissions racine OneDrive traitees
+[2026-09-11 08:31:02] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-11 08:31:02] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-11 08:31:03] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-11 08:31:03] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-11 08:39:52] [SUCCESS] Trouve : 3816 dossier(s) / 12907 fichier(s)
+[2026-09-11 08:39:52] [INFO] Taille totale : 20825.51 MB
+[2026-09-11 08:39:52] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-11 09:18:56] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-11_083059.log

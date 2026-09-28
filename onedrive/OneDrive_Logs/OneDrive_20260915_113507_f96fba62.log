@@ -1,0 +1,8 @@
+﻿2026-09-15 09:35:07Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 09:35:08Z [WARN] Limitation/retry HTTP : attente 2 s.
+2026-09-15 09:35:10Z [WARN] Limitation/retry HTTP : attente 5 s.
+2026-09-15 09:35:15Z [WARN] Limitation/retry HTTP : attente 10 s.
+2026-09-15 09:35:25Z [WARN] Limitation/retry HTTP : attente 18 s.
+2026-09-15 09:35:44Z [ERROR] ligne_1 [migration] Echec contexte SOURCE (tenant=2eea08b8-1972-447b-ad43-d044d042500a, upn=fethy.faradji@infopro-digital.com) : HTTP 400 (BadRequest), methode GET, endpoint=https://graph.microsoft.com/v1.0/users/fethy.faradji%40infopro-digital.com/drive, detail=A supported MIME type could not be found that matches the acceptable MIME types for the request. The supported type(s) 'application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false, application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compat....
+2026-09-15 09:35:44Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0.61 min, 5 requetes, 4 retries.
+2026-09-15 09:35:44Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260915_113507_f96fba62

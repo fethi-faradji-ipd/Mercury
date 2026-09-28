@@ -1,0 +1,80 @@
+﻿[2026-08-03 16:14:53] [INFO] ============================================
+[2026-08-03 16:14:53] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-03 16:14:53] [INFO] ============================================
+[2026-08-03 16:14:53] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-03 16:14:53] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-03 16:14:53] [INFO] --------------------------------------------
+[2026-08-03 16:14:53] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-03 16:14:53] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-03 16:14:53] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-03 16:14:53] [INFO] --------------------------------------------
+[2026-08-03 16:14:53] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-03 16:14:53] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-03 16:14:53] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-03 16:14:53] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-03 16:14:54] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 16:14:54] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-03 16:14:54] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 16:14:54] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 16:14:54] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 16:14:54] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-08-03 16:14:54] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-03 16:14:54] [DEBUG]    📂 Attachments
+[2026-08-03 16:14:54] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-03 16:14:54] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 16:14:54] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 16:14:54] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 16:14:54] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-03 16:14:54] [DEBUG]    📂 Meetings
+[2026-08-03 16:14:55] [DEBUG]    📂 Recordings
+[2026-08-03 16:14:55] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-08-03 16:14:55] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-08-03 16:14:55] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-03 16:14:55] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-03 16:14:55] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-08-03 16:14:55] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-08-03 16:14:55] [INFO] Taille totale : 2.67 MB
+[2026-08-03 16:14:55] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-03 16:14:55] [INFO] === COPIE DES FICHIERS ===
+[2026-08-03 16:14:55] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 16:14:56] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 16:14:56] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 16:14:56] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-08-03 16:14:56] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 16:14:56] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 16:14:57] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 16:14:57] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-08-03 16:14:57] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 16:14:57] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 16:14:57] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 16:14:57] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-08-03 16:14:57] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-08-03 16:14:57] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-08-03 16:14:58] [INFO]    ⏭  Versions deja copiees (1) : how-to-eat-healthy.webp
+[2026-08-03 16:14:58] [SUCCESS] ✅ how-to-eat-healthy.webp - versions deja presentes
+[2026-08-03 16:14:58] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-08-03 16:14:58] [INFO]    ⬇  salade-laitue.webp
+[2026-08-03 16:14:58] [INFO]    ⏭  Versions deja copiees (1) : salade-laitue.webp
+[2026-08-03 16:14:58] [SUCCESS] ✅ salade-laitue.webp - versions deja presentes
+[2026-08-03 16:14:58] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-03 16:14:58] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-03 16:14:59] [INFO]    ⏭  Versions deja copiees (1) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-03 16:14:59] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - versions deja presentes
+[2026-08-03 16:14:59] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-03 16:14:59] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-03 16:14:59] [INFO]    ⏭  Versions deja copiees (3) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-03 16:14:59] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - versions deja presentes
+[2026-08-03 16:14:59] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-08-03 16:15:00] [INFO]    ⬇  shopping.jpg
+[2026-08-03 16:15:00] [INFO]    ⏭  Versions deja copiees (1) : shopping.jpg
+[2026-08-03 16:15:00] [SUCCESS] ✅ shopping.jpg - versions deja presentes
+[2026-08-03 16:15:00] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-03 16:15:00] [INFO] Total   : 8 fichier(s)
+[2026-08-03 16:15:00] [INFO] Erreurs : 0
+[2026-08-03 16:15:00] [SUCCESS] ============================================
+[2026-08-03 16:15:00] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-03 16:15:00] [INFO] Total lignes  : 1
+[2026-08-03 16:15:00] [INFO] Succes        : 1
+[2026-08-03 16:15:00] [INFO] Echecs        : 0
+[2026-08-03 16:15:00] [SUCCESS] ============================================
+[2026-08-03 16:15:00] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-03_161453.log

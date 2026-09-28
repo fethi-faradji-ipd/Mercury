@@ -1,0 +1,113 @@
+﻿[2026-09-01 16:15:35] [INFO] ============================================
+[2026-09-01 16:15:35] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-01 16:15:35] [INFO] ============================================
+[2026-09-01 16:15:35] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-01 16:15:35] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-01 16:15:35] [INFO] --------------------------------------------
+[2026-09-01 16:15:35] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-01 16:15:35] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:15:35] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:15:35] [INFO] --------------------------------------------
+[2026-09-01 16:15:36] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-09-01 16:15:36] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-01 16:15:36] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-01 16:15:36] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:15:37] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:15:37] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:15:37] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:15:37] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:15:37] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:15:38] [WARN] Lecture des permissions source impossible pour '/' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:38] [INFO] Permissions racine OneDrive traitees
+[2026-09-01 16:15:38] [WARN] Metadonnees non appliquees pour '/' : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"Item not found","innerError":{"date":"2026-09-01T14:15:38","request-id":"b41ac9c3-7456-405f-b7ec-f985a3195e3b","client-request-id":"b41ac9c3-7456-405f-b7ec-f985a3195e3b"}}}
+[2026-09-01 16:15:38] [INFO] Metadonnees racine OneDrive traitees
+[2026-09-01 16:15:38] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-01 16:15:38] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-01 16:15:38] [DEBUG] SP token roles : Sites.FullControl.All | aud : 00000003-0000-0ff1-ce00-000000000000
+[2026-09-01 16:15:39] [DEBUG] SP REST test GET /_api/web : HTTP 200 - {"Title":"User MERCURY"}
+[2026-09-01 16:15:39] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-01 16:15:39] [DEBUG]    📂 Attachments
+[2026-09-01 16:15:39] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-09-01 16:15:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:15:39] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-09-01 16:15:39] [DEBUG]    📂 Meetings
+[2026-09-01 16:15:39] [DEBUG]    📂 Recordings
+[2026-09-01 16:15:39] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:15:39] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-09-01 16:15:39] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-09-01 16:15:39] [INFO] Taille totale : 2.67 MB
+[2026-09-01 16:15:39] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-01 16:15:41] [WARN] Metadonnees non appliquees pour 'Attachments' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'AppAuthorLookupId' is read-only","innerError":{"date":"2026-09-01T14:15:40","request-id":"87091f8e-c6d7-4c3e-b021-35b67f0a2f33","client-request-id":"87091f8e-c6d7-4c3e-b021-35b67f0a2f33"}}}
+[2026-09-01 16:15:41] [WARN] Lecture des permissions source impossible pour 'Attachments' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:41] [WARN] Metadonnees non appliquees pour 'Fichiers de conversation Microsoft Teams' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'AppAuthorLookupId' is read-only","innerError":{"date":"2026-09-01T14:15:41","request-id":"edae76ee-54a1-425b-b705-65175d392345","client-request-id":"edae76ee-54a1-425b-b705-65175d392345"}}}
+[2026-09-01 16:15:42] [WARN] Lecture des permissions source impossible pour 'Fichiers de conversation Microsoft Teams' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:42] [WARN] Metadonnees non appliquees pour 'Fichiers Microsoft Copilot Chat' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'AppAuthorLookupId' is read-only","innerError":{"date":"2026-09-01T14:15:42","request-id":"efae29bd-f04b-43b2-ac8b-1b28c70f3415","client-request-id":"efae29bd-f04b-43b2-ac8b-1b28c70f3415"}}}
+[2026-09-01 16:15:43] [WARN] Lecture des permissions source impossible pour 'Fichiers Microsoft Copilot Chat' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:43] [WARN] Metadonnees non appliquees pour 'Meetings' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'AppAuthorLookupId' is read-only","innerError":{"date":"2026-09-01T14:15:43","request-id":"f2e7de4a-7a8a-47ea-b725-26858e989a0d","client-request-id":"f2e7de4a-7a8a-47ea-b725-26858e989a0d"}}}
+[2026-09-01 16:15:44] [WARN] Lecture des permissions source impossible pour 'Meetings' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:44] [WARN] Metadonnees non appliquees pour 'Recordings' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'AppAuthorLookupId' is read-only","innerError":{"date":"2026-09-01T14:15:44","request-id":"d86a725d-48b0-4aca-8915-6dbc3154765c","client-request-id":"d86a725d-48b0-4aca-8915-6dbc3154765c"}}}
+[2026-09-01 16:15:45] [WARN] Lecture des permissions source impossible pour 'Recordings' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:45] [INFO] === COPIE DES FICHIERS ===
+[2026-09-01 16:15:45] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:15:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:15:47] [WARN] Metadonnees non appliquees pour 'Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:47","request-id":"b0bf48ac-c16d-4d98-a7b3-53a967b13a9a","client-request-id":"b0bf48ac-c16d-4d98-a7b3-53a967b13a9a"}}}
+[2026-09-01 16:15:47] [WARN] Lecture des permissions source impossible pour 'Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:47] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:15:47] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-09-01 16:15:47] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:15:47] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:15:48] [WARN] Metadonnees non appliquees pour 'Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:48","request-id":"b63cec87-1d7a-41a4-820e-b17d75be84ee","client-request-id":"b63cec87-1d7a-41a4-820e-b17d75be84ee"}}}
+[2026-09-01 16:15:48] [WARN] Lecture des permissions source impossible pour 'Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:48] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:15:48] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-09-01 16:15:48] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:15:49] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:15:50] [WARN] Metadonnees non appliquees pour 'Fichiers de conversation Microsoft Teams/darkcanard_.jpg' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:50","request-id":"98012490-92ff-489e-bdec-a996b4d30f6f","client-request-id":"98012490-92ff-489e-bdec-a996b4d30f6f"}}}
+[2026-09-01 16:15:50] [WARN] Lecture des permissions source impossible pour 'Fichiers de conversation Microsoft Teams/darkcanard_.jpg' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:50] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:15:50] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-09-01 16:15:50] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:15:50] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-09-01 16:15:51] [WARN] Metadonnees non appliquees pour 'how-to-eat-healthy.webp' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:51","request-id":"d7f2c7f8-5630-4c9a-a00c-9905ab9e9a83","client-request-id":"d7f2c7f8-5630-4c9a-a00c-9905ab9e9a83"}}}
+[2026-09-01 16:15:53] [WARN] Lecture des permissions source impossible pour 'how-to-eat-healthy.webp' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:53] [INFO]    ⏭  Versions deja copiees (1) : how-to-eat-healthy.webp
+[2026-09-01 16:15:53] [SUCCESS] ✅ how-to-eat-healthy.webp - versions deja presentes
+[2026-09-01 16:15:53] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-09-01 16:15:53] [INFO]    ⬇  salade-laitue.webp
+[2026-09-01 16:15:54] [WARN] Metadonnees non appliquees pour 'salade-laitue.webp' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:54","request-id":"47d81775-0366-4035-b94a-e2f70e496e20","client-request-id":"47d81775-0366-4035-b94a-e2f70e496e20"}}}
+[2026-09-01 16:15:54] [WARN] Lecture des permissions source impossible pour 'salade-laitue.webp' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:54] [INFO]    ⏭  Versions deja copiees (1) : salade-laitue.webp
+[2026-09-01 16:15:54] [SUCCESS] ✅ salade-laitue.webp - versions deja presentes
+[2026-09-01 16:15:54] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:15:54] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:15:55] [WARN] Metadonnees non appliquees pour 'SharePoint_Errors_Notisum_2026-04-10_154411.csv' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:55","request-id":"b5b35a7f-f0b7-4a71-974b-211bbaee5e95","client-request-id":"b5b35a7f-f0b7-4a71-974b-211bbaee5e95"}}}
+[2026-09-01 16:15:55] [WARN] Lecture des permissions source impossible pour 'SharePoint_Errors_Notisum_2026-04-10_154411.csv' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:55] [INFO]    ⏭  Versions deja copiees (1) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:15:55] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - versions deja presentes
+[2026-09-01 16:15:55] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:15:55] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:15:56] [WARN] Metadonnees non appliquees pour 'SharePoint_Errors_Notisum_2026-04-10_154411.xlsx' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:56","request-id":"f7129f8f-e7c2-45eb-9878-bc36981e6141","client-request-id":"f7129f8f-e7c2-45eb-9878-bc36981e6141"}}}
+[2026-09-01 16:15:57] [WARN] Lecture des permissions source impossible pour 'SharePoint_Errors_Notisum_2026-04-10_154411.xlsx' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:57] [INFO]    ⏭  Versions deja copiees (3) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:15:57] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - versions deja presentes
+[2026-09-01 16:15:57] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-09-01 16:15:57] [INFO]    ⬇  shopping.jpg
+[2026-09-01 16:15:58] [WARN] Metadonnees non appliquees pour 'shopping.jpg' : Graph HTTP 403 : {"error":{"code":"accessDenied","message":"Field 'DocIcon' is read-only","innerError":{"date":"2026-09-01T14:15:58","request-id":"5457fb04-3273-4903-a7c4-8c6f12aa3125","client-request-id":"5457fb04-3273-4903-a7c4-8c6f12aa3125"}}}
+[2026-09-01 16:15:58] [WARN] Lecture des permissions source impossible pour 'shopping.jpg' : Les types des arguments ne correspondent pas.
+[2026-09-01 16:15:58] [INFO]    ⏭  Versions deja copiees (1) : shopping.jpg
+[2026-09-01 16:15:58] [SUCCESS] ✅ shopping.jpg - versions deja presentes
+[2026-09-01 16:15:58] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-09-01 16:15:58] [INFO] Total   : 8 fichier(s)
+[2026-09-01 16:15:58] [INFO] Erreurs : 0
+[2026-09-01 16:15:58] [SUCCESS] ============================================
+[2026-09-01 16:15:58] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-01 16:15:58] [INFO] Total lignes  : 1
+[2026-09-01 16:15:58] [INFO] Succes        : 1
+[2026-09-01 16:15:58] [INFO] Echecs        : 0
+[2026-09-01 16:15:58] [SUCCESS] ============================================
+[2026-09-01 16:15:58] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-01_161535.log

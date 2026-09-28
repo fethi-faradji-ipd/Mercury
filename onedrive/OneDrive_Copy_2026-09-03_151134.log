@@ -1,0 +1,20 @@
+﻿[2026-09-03 15:11:34] [INFO] ============================================
+[2026-09-03 15:11:34] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-03 15:11:34] [INFO] ============================================
+[2026-09-03 15:11:34] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-03 15:11:34] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-03 15:11:34] [INFO] --------------------------------------------
+[2026-09-03 15:11:34] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-03 15:11:34] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 15:11:34] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-03 15:11:35] [INFO] --------------------------------------------
+[2026-09-03 15:11:35] [ERROR] Echec token Graph pour 85a5a352-25d6-4894-a97d-221cd1712dd2 : Token vide. Reponse : {"error":"unauthorized_client","error_description":"AADSTS700016: Application with identifier '28d46b2c-b527-4abb-9fb8-013656682b19' was not found in the directory '85a5a352-25d6-4894-a97d-221cd1712dd2'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant. Trace ID: c384ce19-e62a-44b1-a1de-db325afb2d00 Correlation ID: 2030fe43-c566-4faa-80fa-6c12d5694411 Timestamp: 2026-09-03 13:11:35Z","error_codes":[700016],"timestamp":"2026-09-03 13:11:35Z","trace_id":"c384ce19-e62a-44b1-a1de-db325afb2d00","correlation_id":"2030fe43-c566-4faa-80fa-6c12d5694411","error_uri":"https://login.microsoftonline.com/error?code=700016"}
+[2026-09-03 15:11:35] [ERROR] Ligne 1 ECHOUEE : Token vide. Reponse : {"error":"unauthorized_client","error_description":"AADSTS700016: Application with identifier '28d46b2c-b527-4abb-9fb8-013656682b19' was not found in the directory '85a5a352-25d6-4894-a97d-221cd1712dd2'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant. Trace ID: c384ce19-e62a-44b1-a1de-db325afb2d00 Correlation ID: 2030fe43-c566-4faa-80fa-6c12d5694411 Timestamp: 2026-09-03 13:11:35Z","error_codes":[700016],"timestamp":"2026-09-03 13:11:35Z","trace_id":"c384ce19-e62a-44b1-a1de-db325afb2d00","correlation_id":"2030fe43-c566-4faa-80fa-6c12d5694411","error_uri":"https://login.microsoftonline.com/error?code=700016"}
+[2026-09-03 15:11:35] [SUCCESS] ============================================
+[2026-09-03 15:11:35] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-03 15:11:35] [INFO] Total lignes  : 1
+[2026-09-03 15:11:35] [INFO] Succes        : 0
+[2026-09-03 15:11:35] [INFO] Echecs        : 1
+[2026-09-03 15:11:35] [SUCCESS] ============================================
+[2026-09-03 15:11:35] [WARN] 1 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-09-03_151134.csv
+[2026-09-03 15:11:35] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-03_151134.log

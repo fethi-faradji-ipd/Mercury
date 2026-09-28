@@ -1,0 +1,20 @@
+﻿[2026-07-15 10:38:27] [INFO] =========================================
+[2026-07-15 10:38:28] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS + VERSIONS ===
+[2026-07-15 10:38:28] [INFO] Version: 9.3
+[2026-07-15 10:38:28] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\log\SharePoint_Copy_2026-07-15_103827.log
+[2026-07-15 10:38:28] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\log\SharePoint_Errors_2026-07-15_103827.csv
+[2026-07-15 10:38:28] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-07-15 10:38:28] [SUCCESS] Traductions chargées: 0
+[2026-07-15 10:38:28] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-15 10:38:28] [INFO] Authentification...
+[2026-07-15 10:38:28] [INFO] Résolution sites/drives...
+[2026-07-15 10:38:28] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/ipdlab.sharepoint.com:/sites/SERVICES_GENERAUX?$select=id,webUrl,displayName
+[2026-07-15 10:38:29] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/infoprodigital365.sharepoint.com:/sites/WH_GPA-test?$select=id,webUrl,displayName
+[2026-07-15 10:38:29] [SUCCESS] Sites/drives résolus
+[2026-07-15 10:38:29] [SUCCESS] Lignes CSV: 1938
+[2026-07-15 10:38:29] [SUCCESS] Chemins uniques: 333
+[2026-07-15 10:38:29] [INFO] Traitement: /Audit_user_gmail.xlsx
+[2026-07-15 10:38:29] [INFO] Copie: Audit_user_gmail.xlsx
+[2026-07-15 10:38:30] [INFO] Versions source trouvées: 2
+[2026-07-15 10:38:30] [INFO] Copie version 1.0
+[2026-07-15 10:38:32] [SUCCESS] Copié avec versions: Audit_user_gmail.xlsx

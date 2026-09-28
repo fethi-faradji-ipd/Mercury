@@ -1,0 +1,21 @@
+﻿[2026-09-02 10:34:58] [INFO] ============================================
+[2026-09-02 10:34:58] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-02 10:34:58] [INFO] ============================================
+[2026-09-02 10:34:58] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-02 10:34:58] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-02 10:34:58] [INFO] --------------------------------------------
+[2026-09-02 10:34:58] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-02 10:34:58] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-02 10:34:58] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-02 10:34:58] [INFO] --------------------------------------------
+[2026-09-02 10:34:58] [DEBUG] Mapping auto UPN ajoute : fethy.faradji@infopro-digital.com -> usermercury@infopro-digital.com
+[2026-09-02 10:34:58] [ERROR] Echec token Graph pour 2eea08b8-1972-447b-ad43-d044d042500a : Token vide. Reponse : {"error":"invalid_client","error_description":"AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '821109a4-6e0e-48e8-b477-8f9b70aa32a4'. Trace ID: e2422789-b15d-4888-a8d2-29085fca1d01 Correlation ID: fe541de0-f63d-4968-ac5e-2a3d649bc0ec Timestamp: 2026-09-02 08:34:58Z","error_codes":[7000215],"timestamp":"2026-09-02 08:34:58Z","trace_id":"e2422789-b15d-4888-a8d2-29085fca1d01","correlation_id":"fe541de0-f63d-4968-ac5e-2a3d649bc0ec","error_uri":"https://login.microsoftonline.com/error?code=7000215"}
+[2026-09-02 10:34:58] [ERROR] Ligne 1 ECHOUEE : Token vide. Reponse : {"error":"invalid_client","error_description":"AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '821109a4-6e0e-48e8-b477-8f9b70aa32a4'. Trace ID: e2422789-b15d-4888-a8d2-29085fca1d01 Correlation ID: fe541de0-f63d-4968-ac5e-2a3d649bc0ec Timestamp: 2026-09-02 08:34:58Z","error_codes":[7000215],"timestamp":"2026-09-02 08:34:58Z","trace_id":"e2422789-b15d-4888-a8d2-29085fca1d01","correlation_id":"fe541de0-f63d-4968-ac5e-2a3d649bc0ec","error_uri":"https://login.microsoftonline.com/error?code=7000215"}
+[2026-09-02 10:34:58] [SUCCESS] ============================================
+[2026-09-02 10:34:58] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-02 10:34:58] [INFO] Total lignes  : 1
+[2026-09-02 10:34:58] [INFO] Succes        : 0
+[2026-09-02 10:34:58] [INFO] Echecs        : 1
+[2026-09-02 10:34:58] [SUCCESS] ============================================
+[2026-09-02 10:34:58] [WARN] 1 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-09-02_103458.csv
+[2026-09-02 10:34:58] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-02_103458.log

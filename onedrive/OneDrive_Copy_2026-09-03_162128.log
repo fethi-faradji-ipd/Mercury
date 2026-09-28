@@ -1,0 +1,551 @@
+﻿[2026-09-03 16:21:28] [INFO] ============================================
+[2026-09-03 16:21:28] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-03 16:21:28] [INFO] ============================================
+[2026-09-03 16:21:28] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-03 16:21:28] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-03 16:21:28] [INFO] --------------------------------------------
+[2026-09-03 16:21:28] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-03 16:21:28] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 16:21:28] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-03 16:21:28] [INFO] --------------------------------------------
+[2026-09-03 16:21:29] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-03 16:21:29] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-03 16:21:29] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-03 16:21:29] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 16:21:30] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 16:21:30] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-03 16:21:30] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 16:21:30] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 16:21:30] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 16:21:31] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-03T14:21:31","request-id":"5078e5a5-b0f4-4daf-9d48-aabc7157a6e0","client-request-id":"5078e5a5-b0f4-4daf-9d48-aabc7157a6e0"}}}
+[2026-09-03 16:21:31] [INFO] Permissions racine OneDrive traitees
+[2026-09-03 16:21:31] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-03 16:21:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:21:32] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-03 16:21:33] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-03 16:29:20] [SUCCESS] Trouve : 3816 dossier(s) / 12905 fichier(s)
+[2026-09-03 16:29:20] [INFO] Taille totale : 20810.79 MB
+[2026-09-03 16:29:20] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-03 16:29:21] [SUCCESS] 📂 Dossier cree : Applications
+[2026-09-03 16:29:21] [WARN] Restauration auteur/createur dossier echouee 'Applications' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:24] [SUCCESS] 📂 Dossier cree : Attachments
+[2026-09-03 16:29:25] [WARN] Restauration auteur/createur dossier echouee 'Attachments' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:26] [SUCCESS] 📂 Dossier cree : Bureau
+[2026-09-03 16:29:27] [WARN] Restauration auteur/createur dossier echouee 'Bureau' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Bureau')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Bureau')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:29:29] [SUCCESS] 📂 Dossier cree : Contacts
+[2026-09-03 16:29:29] [WARN] Restauration auteur/createur dossier echouee 'Contacts' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:31] [SUCCESS] 📂 Dossier cree : corespondance FNS-FNSIMPLE
+[2026-09-03 16:29:32] [WARN] Restauration auteur/createur dossier echouee 'corespondance FNS-FNSIMPLE' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:34] [SUCCESS] 📂 Dossier cree : D
+[2026-09-03 16:29:34] [WARN] Restauration auteur/createur dossier echouee 'D' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/D')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/D')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:29:37] [SUCCESS] 📂 Dossier cree : Documents
+[2026-09-03 16:29:37] [WARN] Restauration auteur/createur dossier echouee 'Documents' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:29:39] [SUCCESS] 📂 Dossier cree : Enregistrements
+[2026-09-03 16:29:40] [WARN] Restauration auteur/createur dossier echouee 'Enregistrements' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:42] [SUCCESS] 📂 Dossier cree : Favorites
+[2026-09-03 16:29:43] [WARN] Restauration auteur/createur dossier echouee 'Favorites' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:45] [SUCCESS] 📂 Dossier cree : FETHI @ Infopro Digital
+[2026-09-03 16:29:45] [WARN] Restauration auteur/createur dossier echouee 'FETHI @ Infopro Digital' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:47] [SUCCESS] 📂 Dossier cree : Fethy @ Infopro Digital
+[2026-09-03 16:29:48] [WARN] Restauration auteur/createur dossier echouee 'Fethy @ Infopro Digital' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:50] [SUCCESS] 📂 Dossier cree : Fichiers de conversation Microsoft Teams
+[2026-09-03 16:29:50] [WARN] Restauration auteur/createur dossier echouee 'Fichiers de conversation Microsoft Teams' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:52] [SUCCESS] 📂 Dossier cree : Fichiers Microsoft Copilot Chat
+[2026-09-03 16:29:52] [WARN] Restauration auteur/createur dossier echouee 'Fichiers Microsoft Copilot Chat' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:29:54] [SUCCESS] 📂 Dossier cree : Images
+[2026-09-03 16:29:55] [WARN] Restauration auteur/createur dossier echouee 'Images' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Images')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Images')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:29:56] [SUCCESS] 📂 Dossier cree : Links
+[2026-09-03 16:29:57] [WARN] Restauration auteur/createur dossier echouee 'Links' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Links')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Links')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:29:59] [SUCCESS] 📂 Dossier cree : Microsoft Teams Chat Files
+[2026-09-03 16:29:59] [WARN] Restauration auteur/createur dossier echouee 'Microsoft Teams Chat Files' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:01] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups
+[2026-09-03 16:30:02] [WARN] Restauration auteur/createur dossier echouee 'MicrosoftEdgeBackups' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:03] [SUCCESS] 📂 Dossier cree : Nouveau dossier
+[2026-09-03 16:30:04] [WARN] Restauration auteur/createur dossier echouee 'Nouveau dossier' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:06] [SUCCESS] 📂 Dossier cree : repos
+[2026-09-03 16:30:06] [WARN] Restauration auteur/createur dossier echouee 'repos' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/repos')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/repos')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:30:07] [SUCCESS] 📂 Dossier cree : Réunions
+[2026-09-03 16:30:08] [WARN] Restauration auteur/createur dossier echouee 'Réunions' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:10] [SUCCESS] 📂 Dossier cree : Sauvegarde PC 1F1N42
+[2026-09-03 16:30:10] [WARN] Restauration auteur/createur dossier echouee 'Sauvegarde PC 1F1N42' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:12] [SUCCESS] 📂 Dossier cree : source
+[2026-09-03 16:30:13] [WARN] Restauration auteur/createur dossier echouee 'source' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/source')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/source')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:30:15] [SUCCESS] 📂 Dossier cree : VM XP
+[2026-09-03 16:30:15] [WARN] Restauration auteur/createur dossier echouee 'VM XP' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/VM XP')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/VM XP')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:30:18] [SUCCESS] 📂 Dossier cree : VMV2
+[2026-09-03 16:30:18] [WARN] Restauration auteur/createur dossier echouee 'VMV2' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/VMV2')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/VMV2')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:30:21] [SUCCESS] 📂 Dossier cree : Whiteboards
+[2026-09-03 16:30:21] [WARN] Restauration auteur/createur dossier echouee 'Whiteboards' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:23] [SUCCESS] 📂 Dossier cree : Applications/Microsoft Edge
+[2026-09-03 16:30:24] [WARN] Restauration auteur/createur dossier echouee 'Applications/Microsoft Edge' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:26] [SUCCESS] 📂 Dossier cree : Bureau/backup
+[2026-09-03 16:30:26] [WARN] Restauration auteur/createur dossier echouee 'Bureau/backup' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:28] [SUCCESS] 📂 Dossier cree : Bureau/bin
+[2026-09-03 16:30:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:31] [SUCCESS] 📂 Dossier cree : Bureau/bureau
+[2026-09-03 16:30:31] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bureau' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:33] [SUCCESS] 📂 Dossier cree : Bureau/Debug
+[2026-09-03 16:30:33] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:35] [SUCCESS] 📂 Dossier cree : Bureau/droit sharepoint
+[2026-09-03 16:30:36] [WARN] Restauration auteur/createur dossier echouee 'Bureau/droit sharepoint' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:39] [SUCCESS] 📂 Dossier cree : Bureau/DWS - applications Azure
+[2026-09-03 16:30:39] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - applications Azure' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:41] [SUCCESS] 📂 Dossier cree : Bureau/DWS - CREAMODIFAD - ENTRA
+[2026-09-03 16:30:42] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - CREAMODIFAD - ENTRA' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:43] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410
+[2026-09-03 16:30:44] [WARN] Restauration auteur/createur dossier echouee 'Bureau/export_synchro_sim_202410' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:46] [SUCCESS] 📂 Dossier cree : Bureau/INFOPRO DIGITAL (Prod)_files
+[2026-09-03 16:30:46] [WARN] Restauration auteur/createur dossier echouee 'Bureau/INFOPRO DIGITAL (Prod)_files' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:48] [SUCCESS] 📂 Dossier cree : Bureau/jira 555
+[2026-09-03 16:30:48] [WARN] Restauration auteur/createur dossier echouee 'Bureau/jira 555' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:50] [SUCCESS] 📂 Dossier cree : Bureau/Les Contes de la decrypt
+[2026-09-03 16:30:51] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Les Contes de la decrypt' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:53] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428
+[2026-09-03 16:30:53] [WARN] Restauration auteur/createur dossier echouee 'Bureau/livraisonKPI 20250428' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:55] [SUCCESS] 📂 Dossier cree : Bureau/mep 20241014
+[2026-09-03 16:30:56] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20241014' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:30:58] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250113
+[2026-09-03 16:30:59] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250113' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:02] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129
+[2026-09-03 16:31:02] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250129' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:04] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814
+[2026-09-03 16:31:05] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep DWS20250814' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:06] [SUCCESS] 📂 Dossier cree : Bureau/mep synchro 20241007
+[2026-09-03 16:31:07] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep synchro 20241007' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:09] [SUCCESS] 📂 Dossier cree : Bureau/mep_sim20250612
+[2026-09-03 16:31:10] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep_sim20250612' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:12] [SUCCESS] 📂 Dossier cree : Bureau/mep05022025
+[2026-09-03 16:31:12] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep05022025' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:14] [SUCCESS] 📂 Dossier cree : Bureau/mep20250225
+[2026-09-03 16:31:15] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep20250225' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:17] [SUCCESS] 📂 Dossier cree : Bureau/mep20250603
+[2026-09-03 16:31:17] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep20250603' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:19] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)
+[2026-09-03 16:31:19] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (2)' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:21] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (3)
+[2026-09-03 16:31:22] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (3)' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:23] [SUCCESS] 📂 Dossier cree : Bureau/PowerShell
+[2026-09-03 16:31:24] [WARN] Restauration auteur/createur dossier echouee 'Bureau/PowerShell' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:25] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU
+[2026-09-03 16:31:26] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:27] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD
+[2026-09-03 16:31:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:29] [SUCCESS] 📂 Dossier cree : Bureau/synchro_pub_new_pub
+[2026-09-03 16:31:29] [WARN] Restauration auteur/createur dossier echouee 'Bureau/synchro_pub_new_pub' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:31] [SUCCESS] 📂 Dossier cree : Bureau/transport
+[2026-09-03 16:31:32] [WARN] Restauration auteur/createur dossier echouee 'Bureau/transport' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:33] [SUCCESS] 📂 Dossier cree : Bureau/TS
+[2026-09-03 16:31:34] [WARN] Restauration auteur/createur dossier echouee 'Bureau/TS' : SP REST 401 : <!DOCTYPE html>
+<html>
+    <head>
+        <title>Runtime Error</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Runtime Error</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An application error occurred on the server. The current custom error settings for this application prevent the details of the application error from being viewed remotely (for security reasons). It could, however, be viewed by browsers running on the local server machine.
+            <br><br>
+
+            <b>Details:</b> To enable the details of this specific error message to be viewable on remote machines, please create a &lt;customErrors&gt; tag within a &quot;web.config&quot; configuration file located in the root directory of the current web application. This &lt;customErrors&gt; tag should then have its &quot;mode&quot; attribute set to &quot;Off&quot;.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;Off&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Notes:</b> The current error page you are seeing can be replaced by a custom error page by modifying the &quot;defaultRedirect&quot; attribute of the application&#39;s &lt;customErrors&gt; configuration tag to point to a custom error page URL.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;RemoteOnly&quot; defaultRedirect=&quot;mycustompage.htm&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            </font>
+
+    </body>
+</html>
+
+[2026-09-03 16:31:36] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments
+[2026-09-03 16:31:36] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:38] [SUCCESS] 📂 Dossier cree : Documents/Altova
+[2026-09-03 16:31:38] [WARN] Restauration auteur/createur dossier echouee 'Documents/Altova' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Altova')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Altova')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:31:40] [SUCCESS] 📂 Dossier cree : Documents/Blocs-notes OneNote
+[2026-09-03 16:31:40] [WARN] Restauration auteur/createur dossier echouee 'Documents/Blocs-notes OneNote' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:42] [SUCCESS] 📂 Dossier cree : Documents/Copilot
+[2026-09-03 16:31:42] [WARN] Restauration auteur/createur dossier echouee 'Documents/Copilot' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Copilot')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Copilot')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:31:44] [SUCCESS] 📂 Dossier cree : Documents/DBATRC
+[2026-09-03 16:31:44] [WARN] Restauration auteur/createur dossier echouee 'Documents/DBATRC' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/DBATRC')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/DBATRC')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:31:46] [SUCCESS] 📂 Dossier cree : Documents/DEF_RETOUR_MONIMAIL19092022122353
+[2026-09-03 16:31:46] [WARN] Restauration auteur/createur dossier echouee 'Documents/DEF_RETOUR_MONIMAIL19092022122353' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:48] [SUCCESS] 📂 Dossier cree : Documents/Fichiers Outlook
+[2026-09-03 16:31:48] [WARN] Restauration auteur/createur dossier echouee 'Documents/Fichiers Outlook' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:50] [SUCCESS] 📂 Dossier cree : Documents/Graphismes
+[2026-09-03 16:31:51] [WARN] Restauration auteur/createur dossier echouee 'Documents/Graphismes' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:52] [SUCCESS] 📂 Dossier cree : Documents/IISExpress
+[2026-09-03 16:31:53] [WARN] Restauration auteur/createur dossier echouee 'Documents/IISExpress' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:56] [SUCCESS] 📂 Dossier cree : Documents/Modèles Office personnalisés
+[2026-09-03 16:31:56] [WARN] Restauration auteur/createur dossier echouee 'Documents/Modèles Office personnalisés' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:31:58] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites
+[2026-09-03 16:31:59] [WARN] Restauration auteur/createur dossier echouee 'Documents/My Web Sites' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:00] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier
+[2026-09-03 16:32:00] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier' : SP REST 401 : <!DOCTYPE html>
+<html>
+    <head>
+        <title>Runtime Error</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Runtime Error</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An application error occurred on the server. The current custom error settings for this application prevent the details of the application error from being viewed remotely (for security reasons). It could, however, be viewed by browsers running on the local server machine.
+            <br><br>
+
+            <b>Details:</b> To enable the details of this specific error message to be viewable on remote machines, please create a &lt;customErrors&gt; tag within a &quot;web.config&quot; configuration file located in the root directory of the current web application. This &lt;customErrors&gt; tag should then have its &quot;mode&quot; attribute set to &quot;Off&quot;.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;Off&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Notes:</b> The current error page you are seeing can be replaced by a custom error page by modifying the &quot;defaultRedirect&quot; attribute of the application&#39;s &lt;customErrors&gt; configuration tag to point to a custom error page URL.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;RemoteOnly&quot; defaultRedirect=&quot;mycustompage.htm&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            </font>
+
+    </body>
+</html>
+
+[2026-09-03 16:32:02] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier (2)
+[2026-09-03 16:32:03] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier (2)' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:04] [SUCCESS] 📂 Dossier cree : Documents/partage
+[2026-09-03 16:32:05] [WARN] Restauration auteur/createur dossier echouee 'Documents/partage' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/partage')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/partage')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:32:06] [SUCCESS] 📂 Dossier cree : Documents/PowerShell
+[2026-09-03 16:32:07] [WARN] Restauration auteur/createur dossier echouee 'Documents/PowerShell' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:08] [SUCCESS] 📂 Dossier cree : Documents/PowerToys
+[2026-09-03 16:32:09] [WARN] Restauration auteur/createur dossier echouee 'Documents/PowerToys' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:10] [SUCCESS] 📂 Dossier cree : Documents/SQL Server Management Studio
+[2026-09-03 16:32:10] [WARN] Restauration auteur/createur dossier echouee 'Documents/SQL Server Management Studio' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:12] [SUCCESS] 📂 Dossier cree : Documents/Virtual Machines
+[2026-09-03 16:32:12] [WARN] Restauration auteur/createur dossier echouee 'Documents/Virtual Machines' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:14] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2005
+[2026-09-03 16:32:14] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2005' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:16] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2013
+[2026-09-03 16:32:16] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2013' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:18] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2017
+[2026-09-03 16:32:18] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2017' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:21] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2019
+[2026-09-03 16:32:21] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2019' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:23] [SUCCESS] 📂 Dossier cree : Documents/Visual Studio 2022
+[2026-09-03 16:32:23] [WARN] Restauration auteur/createur dossier echouee 'Documents/Visual Studio 2022' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:25] [SUCCESS] 📂 Dossier cree : Documents/WindowsPowerShell
+[2026-09-03 16:32:25] [WARN] Restauration auteur/createur dossier echouee 'Documents/WindowsPowerShell' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:27] [SUCCESS] 📂 Dossier cree : Favorites/Links
+[2026-09-03 16:32:28] [WARN] Restauration auteur/createur dossier echouee 'Favorites/Links' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:29] [SUCCESS] 📂 Dossier cree : Images/Captures d’écran
+[2026-09-03 16:32:30] [WARN] Restauration auteur/createur dossier echouee 'Images/Captures d’écran' : SP REST 401 : <!DOCTYPE html>
+<html>
+    <head>
+        <title>Runtime Error</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Runtime Error</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An application error occurred on the server. The current custom error settings for this application prevent the details of the application error from being viewed remotely (for security reasons). It could, however, be viewed by browsers running on the local server machine.
+            <br><br>
+
+            <b>Details:</b> To enable the details of this specific error message to be viewable on remote machines, please create a &lt;customErrors&gt; tag within a &quot;web.config&quot; configuration file located in the root directory of the current web application. This &lt;customErrors&gt; tag should then have its &quot;mode&quot; attribute set to &quot;Off&quot;.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;Off&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Notes:</b> The current error page you are seeing can be replaced by a custom error page by modifying the &quot;defaultRedirect&quot; attribute of the application&#39;s &lt;customErrors&gt; configuration tag to point to a custom error page URL.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;RemoteOnly&quot; defaultRedirect=&quot;mycustompage.htm&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            </font>
+
+    </body>
+</html>
+
+[2026-09-03 16:32:31] [SUCCESS] 📂 Dossier cree : Images/PASEO BUG MOL
+[2026-09-03 16:32:32] [WARN] Restauration auteur/createur dossier echouee 'Images/PASEO BUG MOL' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:33] [SUCCESS] 📂 Dossier cree : Images/Pellicule
+[2026-09-03 16:32:34] [WARN] Restauration auteur/createur dossier echouee 'Images/Pellicule' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:36] [SUCCESS] 📂 Dossier cree : Images/Saved Pictures
+[2026-09-03 16:32:37] [WARN] Restauration auteur/createur dossier echouee 'Images/Saved Pictures' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:39] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups/backups
+[2026-09-03 16:32:40] [WARN] Restauration auteur/createur dossier echouee 'MicrosoftEdgeBackups/backups' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:41] [SUCCESS] 📂 Dossier cree : repos/.git
+[2026-09-03 16:32:42] [WARN] Restauration auteur/createur dossier echouee 'repos/.git' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:43] [SUCCESS] 📂 Dossier cree : repos/.vs
+[2026-09-03 16:32:44] [WARN] Restauration auteur/createur dossier echouee 'repos/.vs' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:46] [SUCCESS] 📂 Dossier cree : source/repos
+[2026-09-03 16:32:46] [WARN] Restauration auteur/createur dossier echouee 'source/repos' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:47] [SUCCESS] 📂 Dossier cree : Whiteboards/Annotations
+[2026-09-03 16:32:48] [WARN] Restauration auteur/createur dossier echouee 'Whiteboards/Annotations' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:49] [SUCCESS] 📂 Dossier cree : Applications/Microsoft Edge/Edge Workspaces
+[2026-09-03 16:32:50] [WARN] Restauration auteur/createur dossier echouee 'Applications/Microsoft Edge/Edge Workspaces' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:51] [SUCCESS] 📂 Dossier cree : Bureau/bin/fr
+[2026-09-03 16:32:52] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin/fr' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:53] [SUCCESS] 📂 Dossier cree : Bureau/bin/roslyn
+[2026-09-03 16:32:53] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin/roslyn' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:55] [SUCCESS] 📂 Dossier cree : Bureau/bureau/WebSite
+[2026-09-03 16:32:56] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bureau/WebSite' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:32:57] [SUCCESS] 📂 Dossier cree : Bureau/Debug/app.publish
+[2026-09-03 16:32:58] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug/app.publish' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:00] [SUCCESS] 📂 Dossier cree : Bureau/Debug/PowerShell
+[2026-09-03 16:33:01] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug/PowerShell' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:02] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410/rattrapage manuelle
+[2026-09-03 16:33:03] [WARN] Restauration auteur/createur dossier echouee 'Bureau/export_synchro_sim_202410/rattrapage manuelle' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:04] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428/Nouveau dossier
+[2026-09-03 16:33:05] [WARN] Restauration auteur/createur dossier echouee 'Bureau/livraisonKPI 20250428/Nouveau dossier' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:06] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129/API_SIM_SF
+[2026-09-03 16:33:07] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250129/API_SIM_SF' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:08] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814/Nouveau dossier
+[2026-09-03 16:33:08] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep DWS20250814/Nouveau dossier' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:10] [SUCCESS] 📂 Dossier cree : Bureau/Nouveau dossier (2)/Debug
+[2026-09-03 16:33:10] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Nouveau dossier (2)/Debug' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:12] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/bin
+[2026-09-03 16:33:12] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/bin' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:14] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Content
+[2026-09-03 16:33:14] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Content' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:16] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Ressources
+[2026-09-03 16:33:16] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Ressources' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:18] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Scripts
+[2026-09-03 16:33:19] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Scripts' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:20] [SUCCESS] 📂 Dossier cree : Bureau/Setup_KPI_SECU/Views
+[2026-09-03 16:33:21] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup_KPI_SECU/Views' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:22] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/bin
+[2026-09-03 16:33:22] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/bin' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:24] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Content
+[2026-09-03 16:33:24] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Content' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:26] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Ressources
+[2026-09-03 16:33:26] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Ressources' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:28] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Scripts
+[2026-09-03 16:33:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Scripts' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:30] [SUCCESS] 📂 Dossier cree : Bureau/Setup-creamodifAD/Views
+[2026-09-03 16:33:30] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Setup-creamodifAD/Views' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:32] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs0
+[2026-09-03 16:33:32] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs0' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:34] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs1
+[2026-09-03 16:33:34] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs1' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:36] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs10
+[2026-09-03 16:33:36] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs10' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:37] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs11
+[2026-09-03 16:33:38] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs11' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:39] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs12
+[2026-09-03 16:33:40] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs12' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:41] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs13
+[2026-09-03 16:33:42] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs13' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:43] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs14
+[2026-09-03 16:33:44] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs14' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:45] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs2
+[2026-09-03 16:33:46] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs2' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:47] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs3
+[2026-09-03 16:33:48] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs3' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:50] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs4
+[2026-09-03 16:33:50] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs4' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:52] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs5
+[2026-09-03 16:33:52] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs5' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:54] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs6
+[2026-09-03 16:33:54] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs6' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:56] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs7
+[2026-09-03 16:33:57] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs7' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:33:58] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs8
+[2026-09-03 16:33:59] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs8' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:00] [SUCCESS] 📂 Dossier cree : Documents/afterSentDocuments/docs9
+[2026-09-03 16:34:01] [WARN] Restauration auteur/createur dossier echouee 'Documents/afterSentDocuments/docs9' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:02] [SUCCESS] 📂 Dossier cree : Documents/Altova/XMLSpy2022
+[2026-09-03 16:34:03] [WARN] Restauration auteur/createur dossier echouee 'Documents/Altova/XMLSpy2022' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:04] [SUCCESS] 📂 Dossier cree : Documents/Altova/XMLSpyCommon
+[2026-09-03 16:34:04] [WARN] Restauration auteur/createur dossier echouee 'Documents/Altova/XMLSpyCommon' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:06] [SUCCESS] 📂 Dossier cree : Documents/Copilot/Created
+[2026-09-03 16:34:06] [WARN] Restauration auteur/createur dossier echouee 'Documents/Copilot/Created' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:08] [SUCCESS] 📂 Dossier cree : Documents/Graphismes/Filter Library
+[2026-09-03 16:34:08] [WARN] Restauration auteur/createur dossier echouee 'Documents/Graphismes/Filter Library' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:10] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/config
+[2026-09-03 16:34:10] [WARN] Restauration auteur/createur dossier echouee 'Documents/IISExpress/config' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:12] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/Logs
+[2026-09-03 16:34:12] [WARN] Restauration auteur/createur dossier echouee 'Documents/IISExpress/Logs' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:14] [SUCCESS] 📂 Dossier cree : Documents/IISExpress/TraceLogFiles
+[2026-09-03 16:34:15] [WARN] Restauration auteur/createur dossier echouee 'Documents/IISExpress/TraceLogFiles' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:16] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites/SetupDWSecurite-Site
+[2026-09-03 16:34:17] [WARN] Restauration auteur/createur dossier echouee 'Documents/My Web Sites/SetupDWSecurite-Site' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:19] [SUCCESS] 📂 Dossier cree : Documents/My Web Sites/WebSite1
+[2026-09-03 16:34:19] [WARN] Restauration auteur/createur dossier echouee 'Documents/My Web Sites/WebSite1' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:20] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier (2)/srv_listener_folder
+[2026-09-03 16:34:21] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier (2)/srv_listener_folder' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:22] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier/app.publish
+[2026-09-03 16:34:23] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier/app.publish' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:24] [SUCCESS] 📂 Dossier cree : Documents/Nouveau dossier/PowerShell
+[2026-09-03 16:34:24] [WARN] Restauration auteur/createur dossier echouee 'Documents/Nouveau dossier/PowerShell' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:26] [SUCCESS] 📂 Dossier cree : Documents/partage/$18A3F523161D4E2C88497069AF80C8C4
+[2026-09-03 16:34:26] [WARN] Restauration auteur/createur dossier echouee 'Documents/partage/$18A3F523161D4E2C88497069AF80C8C4' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:34:27] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-03_162128.log

@@ -1,0 +1,695 @@
+﻿[2026-08-03 10:57:33] [INFO] ============================================
+[2026-08-03 10:57:33] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-03 10:57:33] [INFO] ============================================
+[2026-08-03 10:57:33] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-03 10:57:33] [INFO] --------------------------------------------
+[2026-08-03 10:57:33] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-03 10:57:33] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-03 10:57:33] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-03 10:57:33] [INFO] --------------------------------------------
+[2026-08-03 10:57:33] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-03 10:57:34] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-03 10:57:34] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-03 10:57:34] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-03 10:57:34] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 10:57:34] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-03 10:57:35] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 10:57:35] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 10:57:35] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 10:57:35] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-03 10:57:35] [DEBUG]    📂 Attachments
+[2026-08-03 10:57:35] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-03 10:57:35] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:57:35] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 10:57:35] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 10:57:35] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-03 10:57:35] [DEBUG]    📂 Meetings
+[2026-08-03 10:57:35] [DEBUG]    📂 mep nameShield
+[2026-08-03 10:57:36] [DEBUG]    📄 mep nameShield/01- create_table_dw.sql (7212 o)
+[2026-08-03 10:57:36] [DEBUG]    📄 mep nameShield/02 - create_foreign_table_dm.sql (7552 o)
+[2026-08-03 10:57:36] [DEBUG]    📄 mep nameShield/03 - create_views_dm.sql (3497 o)
+[2026-08-03 10:57:36] [DEBUG]    📂 publish
+[2026-08-03 10:57:36] [DEBUG]    📂 publish/cs
+[2026-08-03 10:57:36] [DEBUG]    📄 publish/cs/Microsoft.Data.SqlClient.resources.dll (257656 o)
+[2026-08-03 10:57:36] [DEBUG]    📂 publish/de
+[2026-08-03 10:57:36] [DEBUG]    📄 publish/de/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:57:36] [DEBUG]    📂 publish/es
+[2026-08-03 10:57:36] [DEBUG]    📄 publish/es/Microsoft.Data.SqlClient.resources.dll (259192 o)
+[2026-08-03 10:57:36] [DEBUG]    📂 publish/fr
+[2026-08-03 10:57:36] [DEBUG]    📄 publish/fr/Microsoft.Data.SqlClient.resources.dll (268408 o)
+[2026-08-03 10:57:36] [DEBUG]    📂 publish/it
+[2026-08-03 10:57:36] [DEBUG]    📄 publish/it/Microsoft.Data.SqlClient.resources.dll (260216 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/ja
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/ja/Microsoft.Data.SqlClient.resources.dll (289416 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/ko
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/ko/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/pl
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/pl/Microsoft.Data.SqlClient.resources.dll (266872 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/pt-BR
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/pt-BR/Microsoft.Data.SqlClient.resources.dll (255096 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/ru
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/ru/Microsoft.Data.SqlClient.resources.dll (344696 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/runtimes
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/runtimes/unix
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/runtimes/unix/lib
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/runtimes/unix/lib/net8.0
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll (2098824 o)
+[2026-08-03 10:57:37] [DEBUG]    📄 publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll (958744 o)
+[2026-08-03 10:57:37] [DEBUG]    📂 publish/runtimes/win
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win/lib
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win/lib/net8.0
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll (2163320 o)
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll (1027336 o)
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll (172704 o)
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll (319784 o)
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win-arm64
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win-arm64/native
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll (551976 o)
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win-arm64/native/sni.dll (174224 o)
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win-x64
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win-x64/native
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll (566832 o)
+[2026-08-03 10:57:38] [DEBUG]    📄 publish/runtimes/win-x64/native/sni.dll (160040 o)
+[2026-08-03 10:57:38] [DEBUG]    📂 publish/runtimes/win-x86
+[2026-08-03 10:57:39] [DEBUG]    📂 publish/runtimes/win-x86/native
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll (477736 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/runtimes/win-x86/native/sni.dll (136488 o)
+[2026-08-03 10:57:39] [DEBUG]    📂 publish/tr
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/tr/Microsoft.Data.SqlClient.resources.dll (250488 o)
+[2026-08-03 10:57:39] [DEBUG]    📂 publish/zh-Hans
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll (225928 o)
+[2026-08-03 10:57:39] [DEBUG]    📂 publish/zh-Hant
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll (229496 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/appsettings.Development.json (127 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/appsettings.json (978 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Azure.Core.dll (437304 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Azure.Identity.dll (356912 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.deps.json (33317 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.dll (25600 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.exe (139264 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.pdb (27220 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.runtimeconfig.json (488 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/CreaModifAd-Connect.staticwebassets.endpoints.json (70 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Dapper.dll (245760 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Bcl.AsyncInterfaces.dll (19104 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Bcl.Cryptography.dll (16664 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Data.SqlClient.dll (928888 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Extensions.Caching.Memory.dll (45832 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll (63768 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Extensions.Logging.Abstractions.dll (65288 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Extensions.Options.dll (64776 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Identity.Client.dll (1028656 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.Identity.Client.Extensions.Msal.dll (66616 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.Abstractions.dll (19480 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.JsonWebTokens.dll (137760 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.Logging.dll (36896 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.Protocols.dll (40992 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (128032 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.IdentityModel.Tokens.dll (300064 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.OpenApi.dll (233408 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Microsoft.SqlServer.Server.dll (23976 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.Swagger.dll (17408 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.SwaggerGen.dll (118784 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/Swashbuckle.AspNetCore.SwaggerUI.dll (2270720 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.ClientModel.dll (175664 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Configuration.ConfigurationManager.dll (442544 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Data.SqlClient.dll (171800 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Diagnostics.EventLog.dll (51992 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.IdentityModel.Tokens.Jwt.dll (89016 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Memory.Data.dll (30472 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Security.Cryptography.Pkcs.dll (264864 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/System.Security.Cryptography.ProtectedData.dll (36616 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 publish/web.config (563 o)
+[2026-08-03 10:57:39] [DEBUG]    📂 Recordings
+[2026-08-03 10:57:39] [DEBUG]    📄 41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 batcanard.webp (42752 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 c39209238e019e0ce5df7c537e0c9c5e.jpg (79009 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 test.csv (4769904 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 test.xlsx (728424 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 test1.xlsx (728135 o)
+[2026-08-03 10:57:39] [DEBUG]    📄 test2.xlsx (828193 o)
+[2026-08-03 10:57:39] [SUCCESS] Trouve : 33 dossier(s) / 78 fichier(s)
+[2026-08-03 10:57:39] [INFO] Taille totale : 26.38 MB
+[2026-08-03 10:57:39] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-03 10:57:49] [INFO] === COPIE DES FICHIERS ===
+[2026-08-03 10:57:49] [INFO] [1/78] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:57:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:57:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:57:51] [DEBUG]       Version 1/1 rejouee (id=1.0, 6988 o)
+[2026-08-03 10:57:51] [DEBUG] Horodatages reappliques : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:57:51] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:51] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - historique copie (1 version(s))
+[2026-08-03 10:57:51] [INFO] [2/78] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 10:57:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 10:57:52] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 10:57:52] [DEBUG]       Version 1/1 rejouee (id=1.0, 15635 o)
+[2026-08-03 10:57:53] [DEBUG] Horodatages reappliques : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 10:57:53] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - historique copie (1 version(s))
+[2026-08-03 10:57:53] [INFO] [3/78] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 10:57:53] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 10:57:53] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 10:57:54] [DEBUG]       Version 1/1 rejouee (id=1.0, 24770 o)
+[2026-08-03 10:57:54] [DEBUG] Horodatages reappliques : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 10:57:54] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - historique copie (1 version(s))
+[2026-08-03 10:57:54] [INFO] [4/78] mep nameShield/01- create_table_dw.sql (7212 o)
+[2026-08-03 10:57:54] [INFO]    ⬇  mep nameShield/01- create_table_dw.sql
+[2026-08-03 10:57:54] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/01- create_table_dw.sql
+[2026-08-03 10:57:55] [DEBUG]       Version 1/1 rejouee (id=1.0, 7212 o)
+[2026-08-03 10:57:55] [DEBUG] Horodatages reappliques : mep nameShield/01- create_table_dw.sql
+[2026-08-03 10:57:55] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:55] [SUCCESS] ✅ mep nameShield/01- create_table_dw.sql - historique copie (1 version(s))
+[2026-08-03 10:57:55] [INFO] [5/78] mep nameShield/02 - create_foreign_table_dm.sql (7552 o)
+[2026-08-03 10:57:56] [INFO]    ⬇  mep nameShield/02 - create_foreign_table_dm.sql
+[2026-08-03 10:57:56] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/02 - create_foreign_table_dm.sql
+[2026-08-03 10:57:57] [DEBUG]       Version 1/1 rejouee (id=1.0, 7552 o)
+[2026-08-03 10:57:57] [DEBUG] Horodatages reappliques : mep nameShield/02 - create_foreign_table_dm.sql
+[2026-08-03 10:57:57] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:57] [SUCCESS] ✅ mep nameShield/02 - create_foreign_table_dm.sql - historique copie (1 version(s))
+[2026-08-03 10:57:57] [INFO] [6/78] mep nameShield/03 - create_views_dm.sql (3497 o)
+[2026-08-03 10:57:57] [INFO]    ⬇  mep nameShield/03 - create_views_dm.sql
+[2026-08-03 10:57:57] [INFO]    ⬆  Rejeu de 1 version(s) : mep nameShield/03 - create_views_dm.sql
+[2026-08-03 10:57:58] [DEBUG]       Version 1/1 rejouee (id=1.0, 3497 o)
+[2026-08-03 10:57:58] [DEBUG] Horodatages reappliques : mep nameShield/03 - create_views_dm.sql
+[2026-08-03 10:57:58] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:57:58] [SUCCESS] ✅ mep nameShield/03 - create_views_dm.sql - historique copie (1 version(s))
+[2026-08-03 10:57:58] [INFO] [7/78] publish/cs/Microsoft.Data.SqlClient.resources.dll (257656 o)
+[2026-08-03 10:57:59] [INFO]    ⬇  publish/cs/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:57:59] [INFO]    ⬆  Rejeu de 1 version(s) : publish/cs/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:00] [DEBUG]       Version 1/1 rejouee (id=1.0, 257656 o)
+[2026-08-03 10:58:00] [DEBUG] Horodatages reappliques : publish/cs/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:00] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:00] [SUCCESS] ✅ publish/cs/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:00] [INFO] [8/78] publish/de/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:58:00] [INFO]    ⬇  publish/de/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:01] [INFO]    ⬆  Rejeu de 1 version(s) : publish/de/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:01] [DEBUG]       Version 1/1 rejouee (id=1.0, 267384 o)
+[2026-08-03 10:58:02] [DEBUG] Horodatages reappliques : publish/de/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:02] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:02] [SUCCESS] ✅ publish/de/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:02] [INFO] [9/78] publish/es/Microsoft.Data.SqlClient.resources.dll (259192 o)
+[2026-08-03 10:58:02] [INFO]    ⬇  publish/es/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:02] [INFO]    ⬆  Rejeu de 1 version(s) : publish/es/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:03] [DEBUG]       Version 1/1 rejouee (id=1.0, 259192 o)
+[2026-08-03 10:58:03] [DEBUG] Horodatages reappliques : publish/es/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:03] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:03] [SUCCESS] ✅ publish/es/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:03] [INFO] [10/78] publish/fr/Microsoft.Data.SqlClient.resources.dll (268408 o)
+[2026-08-03 10:58:03] [INFO]    ⬇  publish/fr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:04] [INFO]    ⬆  Rejeu de 1 version(s) : publish/fr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:04] [DEBUG]       Version 1/1 rejouee (id=1.0, 268408 o)
+[2026-08-03 10:58:05] [DEBUG] Horodatages reappliques : publish/fr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:05] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:05] [SUCCESS] ✅ publish/fr/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:05] [INFO] [11/78] publish/it/Microsoft.Data.SqlClient.resources.dll (260216 o)
+[2026-08-03 10:58:05] [INFO]    ⬇  publish/it/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:06] [INFO]    ⬆  Rejeu de 1 version(s) : publish/it/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:06] [DEBUG]       Version 1/1 rejouee (id=1.0, 260216 o)
+[2026-08-03 10:58:07] [DEBUG] Horodatages reappliques : publish/it/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:07] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:07] [SUCCESS] ✅ publish/it/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:07] [INFO] [12/78] publish/ja/Microsoft.Data.SqlClient.resources.dll (289416 o)
+[2026-08-03 10:58:07] [INFO]    ⬇  publish/ja/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:07] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ja/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:08] [DEBUG]       Version 1/1 rejouee (id=1.0, 289416 o)
+[2026-08-03 10:58:08] [DEBUG] Horodatages reappliques : publish/ja/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:09] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:09] [SUCCESS] ✅ publish/ja/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:09] [INFO] [13/78] publish/ko/Microsoft.Data.SqlClient.resources.dll (267384 o)
+[2026-08-03 10:58:09] [INFO]    ⬇  publish/ko/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:09] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ko/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:10] [DEBUG]       Version 1/1 rejouee (id=1.0, 267384 o)
+[2026-08-03 10:58:10] [DEBUG] Horodatages reappliques : publish/ko/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:10] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:10] [SUCCESS] ✅ publish/ko/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:10] [INFO] [14/78] publish/pl/Microsoft.Data.SqlClient.resources.dll (266872 o)
+[2026-08-03 10:58:10] [INFO]    ⬇  publish/pl/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:11] [INFO]    ⬆  Rejeu de 1 version(s) : publish/pl/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:11] [DEBUG]       Version 1/1 rejouee (id=1.0, 266872 o)
+[2026-08-03 10:58:12] [DEBUG] Horodatages reappliques : publish/pl/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:12] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:12] [SUCCESS] ✅ publish/pl/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:12] [INFO] [15/78] publish/pt-BR/Microsoft.Data.SqlClient.resources.dll (255096 o)
+[2026-08-03 10:58:12] [INFO]    ⬇  publish/pt-BR/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:12] [INFO]    ⬆  Rejeu de 1 version(s) : publish/pt-BR/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:13] [DEBUG]       Version 1/1 rejouee (id=1.0, 255096 o)
+[2026-08-03 10:58:13] [DEBUG] Horodatages reappliques : publish/pt-BR/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:13] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:13] [SUCCESS] ✅ publish/pt-BR/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:13] [INFO] [16/78] publish/ru/Microsoft.Data.SqlClient.resources.dll (344696 o)
+[2026-08-03 10:58:14] [INFO]    ⬇  publish/ru/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:14] [INFO]    ⬆  Rejeu de 1 version(s) : publish/ru/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:14] [DEBUG]       Version 1/1 rejouee (id=1.0, 344696 o)
+[2026-08-03 10:58:15] [DEBUG] Horodatages reappliques : publish/ru/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:15] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:15] [SUCCESS] ✅ publish/ru/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:15] [INFO] [17/78] publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll (2098824 o)
+[2026-08-03 10:58:16] [INFO]    ⬇  publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:16] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:17] [DEBUG]       Version 1/1 rejouee (id=1.0, 2098824 o)
+[2026-08-03 10:58:18] [DEBUG] Horodatages reappliques : publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:18] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:18] [SUCCESS] ✅ publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:58:18] [INFO] [18/78] publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll (958744 o)
+[2026-08-03 10:58:18] [INFO]    ⬇  publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:19] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:20] [DEBUG]       Version 1/1 rejouee (id=1.0, 958744 o)
+[2026-08-03 10:58:20] [DEBUG] Horodatages reappliques : publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:20] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:20] [SUCCESS] ✅ publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:58:20] [INFO] [19/78] publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll (2163320 o)
+[2026-08-03 10:58:21] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:21] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:22] [DEBUG]       Version 1/1 rejouee (id=1.0, 2163320 o)
+[2026-08-03 10:58:22] [DEBUG] Horodatages reappliques : publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:58:22] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:23] [SUCCESS] ✅ publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:58:23] [INFO] [20/78] publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll (1027336 o)
+[2026-08-03 10:58:23] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:23] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:24] [DEBUG]       Version 1/1 rejouee (id=1.0, 1027336 o)
+[2026-08-03 10:58:25] [DEBUG] Horodatages reappliques : publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+[2026-08-03 10:58:25] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:25] [SUCCESS] ✅ publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:58:25] [INFO] [21/78] publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll (172704 o)
+[2026-08-03 10:58:25] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+[2026-08-03 10:58:25] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+[2026-08-03 10:58:26] [DEBUG]       Version 1/1 rejouee (id=1.0, 172704 o)
+[2026-08-03 10:58:26] [DEBUG] Horodatages reappliques : publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+[2026-08-03 10:58:26] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:26] [SUCCESS] ✅ publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll - historique copie (1 version(s))
+[2026-08-03 10:58:26] [INFO] [22/78] publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll (319784 o)
+[2026-08-03 10:58:27] [INFO]    ⬇  publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:58:27] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:58:28] [DEBUG]       Version 1/1 rejouee (id=1.0, 319784 o)
+[2026-08-03 10:58:28] [DEBUG] Horodatages reappliques : publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:58:28] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:28] [SUCCESS] ✅ publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll - historique copie (1 version(s))
+[2026-08-03 10:58:28] [INFO] [23/78] publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll (551976 o)
+[2026-08-03 10:58:29] [INFO]    ⬇  publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:29] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:30] [DEBUG]       Version 1/1 rejouee (id=1.0, 551976 o)
+[2026-08-03 10:58:30] [DEBUG] Horodatages reappliques : publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:30] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:30] [SUCCESS] ✅ publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll - historique copie (1 version(s))
+[2026-08-03 10:58:30] [INFO] [24/78] publish/runtimes/win-arm64/native/sni.dll (174224 o)
+[2026-08-03 10:58:31] [INFO]    ⬇  publish/runtimes/win-arm64/native/sni.dll
+[2026-08-03 10:58:31] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-arm64/native/sni.dll
+[2026-08-03 10:58:32] [DEBUG]       Version 1/1 rejouee (id=1.0, 174224 o)
+[2026-08-03 10:58:32] [DEBUG] Horodatages reappliques : publish/runtimes/win-arm64/native/sni.dll
+[2026-08-03 10:58:32] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:32] [SUCCESS] ✅ publish/runtimes/win-arm64/native/sni.dll - historique copie (1 version(s))
+[2026-08-03 10:58:32] [INFO] [25/78] publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll (566832 o)
+[2026-08-03 10:58:33] [INFO]    ⬇  publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:33] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:34] [DEBUG]       Version 1/1 rejouee (id=1.0, 566832 o)
+[2026-08-03 10:58:34] [DEBUG] Horodatages reappliques : publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:34] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:34] [SUCCESS] ✅ publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll - historique copie (1 version(s))
+[2026-08-03 10:58:34] [INFO] [26/78] publish/runtimes/win-x64/native/sni.dll (160040 o)
+[2026-08-03 10:58:35] [INFO]    ⬇  publish/runtimes/win-x64/native/sni.dll
+[2026-08-03 10:58:35] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x64/native/sni.dll
+[2026-08-03 10:58:36] [DEBUG]       Version 1/1 rejouee (id=1.0, 160040 o)
+[2026-08-03 10:58:36] [DEBUG] Horodatages reappliques : publish/runtimes/win-x64/native/sni.dll
+[2026-08-03 10:58:36] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:36] [SUCCESS] ✅ publish/runtimes/win-x64/native/sni.dll - historique copie (1 version(s))
+[2026-08-03 10:58:36] [INFO] [27/78] publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll (477736 o)
+[2026-08-03 10:58:37] [INFO]    ⬇  publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:37] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:38] [DEBUG]       Version 1/1 rejouee (id=1.0, 477736 o)
+[2026-08-03 10:58:38] [DEBUG] Horodatages reappliques : publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+[2026-08-03 10:58:38] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:38] [SUCCESS] ✅ publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll - historique copie (1 version(s))
+[2026-08-03 10:58:38] [INFO] [28/78] publish/runtimes/win-x86/native/sni.dll (136488 o)
+[2026-08-03 10:58:38] [INFO]    ⬇  publish/runtimes/win-x86/native/sni.dll
+[2026-08-03 10:58:39] [INFO]    ⬆  Rejeu de 1 version(s) : publish/runtimes/win-x86/native/sni.dll
+[2026-08-03 10:58:39] [DEBUG]       Version 1/1 rejouee (id=1.0, 136488 o)
+[2026-08-03 10:58:40] [DEBUG] Horodatages reappliques : publish/runtimes/win-x86/native/sni.dll
+[2026-08-03 10:58:40] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:40] [SUCCESS] ✅ publish/runtimes/win-x86/native/sni.dll - historique copie (1 version(s))
+[2026-08-03 10:58:40] [INFO] [29/78] publish/tr/Microsoft.Data.SqlClient.resources.dll (250488 o)
+[2026-08-03 10:58:40] [INFO]    ⬇  publish/tr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:40] [INFO]    ⬆  Rejeu de 1 version(s) : publish/tr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:41] [DEBUG]       Version 1/1 rejouee (id=1.0, 250488 o)
+[2026-08-03 10:58:41] [DEBUG] Horodatages reappliques : publish/tr/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:41] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:41] [SUCCESS] ✅ publish/tr/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:41] [INFO] [30/78] publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll (225928 o)
+[2026-08-03 10:58:41] [INFO]    ⬇  publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:42] [INFO]    ⬆  Rejeu de 1 version(s) : publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:42] [DEBUG]       Version 1/1 rejouee (id=1.0, 225928 o)
+[2026-08-03 10:58:43] [DEBUG] Horodatages reappliques : publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:43] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:43] [SUCCESS] ✅ publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:43] [INFO] [31/78] publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll (229496 o)
+[2026-08-03 10:58:43] [INFO]    ⬇  publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:43] [INFO]    ⬆  Rejeu de 1 version(s) : publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:44] [DEBUG]       Version 1/1 rejouee (id=1.0, 229496 o)
+[2026-08-03 10:58:44] [DEBUG] Horodatages reappliques : publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+[2026-08-03 10:58:44] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:44] [SUCCESS] ✅ publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll - historique copie (1 version(s))
+[2026-08-03 10:58:44] [INFO] [32/78] publish/appsettings.Development.json (127 o)
+[2026-08-03 10:58:44] [INFO]    ⬇  publish/appsettings.Development.json
+[2026-08-03 10:58:44] [INFO]    ⬆  Rejeu de 1 version(s) : publish/appsettings.Development.json
+[2026-08-03 10:58:45] [DEBUG]       Version 1/1 rejouee (id=1.0, 127 o)
+[2026-08-03 10:58:45] [DEBUG] Horodatages reappliques : publish/appsettings.Development.json
+[2026-08-03 10:58:45] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:45] [SUCCESS] ✅ publish/appsettings.Development.json - historique copie (1 version(s))
+[2026-08-03 10:58:45] [INFO] [33/78] publish/appsettings.json (978 o)
+[2026-08-03 10:58:46] [INFO]    ⬇  publish/appsettings.json
+[2026-08-03 10:58:46] [INFO]    ⬆  Rejeu de 1 version(s) : publish/appsettings.json
+[2026-08-03 10:58:46] [DEBUG]       Version 1/1 rejouee (id=1.0, 978 o)
+[2026-08-03 10:58:47] [DEBUG] Horodatages reappliques : publish/appsettings.json
+[2026-08-03 10:58:47] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:47] [SUCCESS] ✅ publish/appsettings.json - historique copie (1 version(s))
+[2026-08-03 10:58:47] [INFO] [34/78] publish/Azure.Core.dll (437304 o)
+[2026-08-03 10:58:47] [INFO]    ⬇  publish/Azure.Core.dll
+[2026-08-03 10:58:47] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Azure.Core.dll
+[2026-08-03 10:58:48] [DEBUG]       Version 1/1 rejouee (id=1.0, 437304 o)
+[2026-08-03 10:58:48] [DEBUG] Horodatages reappliques : publish/Azure.Core.dll
+[2026-08-03 10:58:48] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:48] [SUCCESS] ✅ publish/Azure.Core.dll - historique copie (1 version(s))
+[2026-08-03 10:58:48] [INFO] [35/78] publish/Azure.Identity.dll (356912 o)
+[2026-08-03 10:58:49] [INFO]    ⬇  publish/Azure.Identity.dll
+[2026-08-03 10:58:49] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Azure.Identity.dll
+[2026-08-03 10:58:50] [DEBUG]       Version 1/1 rejouee (id=1.0, 356912 o)
+[2026-08-03 10:58:50] [DEBUG] Horodatages reappliques : publish/Azure.Identity.dll
+[2026-08-03 10:58:50] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:50] [SUCCESS] ✅ publish/Azure.Identity.dll - historique copie (1 version(s))
+[2026-08-03 10:58:50] [INFO] [36/78] publish/CreaModifAd-Connect.deps.json (33317 o)
+[2026-08-03 10:58:50] [INFO]    ⬇  publish/CreaModifAd-Connect.deps.json
+[2026-08-03 10:58:50] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.deps.json
+[2026-08-03 10:58:51] [DEBUG]       Version 1/1 rejouee (id=1.0, 33317 o)
+[2026-08-03 10:58:51] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.deps.json
+[2026-08-03 10:58:51] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:51] [SUCCESS] ✅ publish/CreaModifAd-Connect.deps.json - historique copie (1 version(s))
+[2026-08-03 10:58:51] [INFO] [37/78] publish/CreaModifAd-Connect.dll (25600 o)
+[2026-08-03 10:58:51] [INFO]    ⬇  publish/CreaModifAd-Connect.dll
+[2026-08-03 10:58:52] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.dll
+[2026-08-03 10:58:52] [DEBUG]       Version 1/1 rejouee (id=1.0, 25600 o)
+[2026-08-03 10:58:53] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.dll
+[2026-08-03 10:58:53] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:53] [SUCCESS] ✅ publish/CreaModifAd-Connect.dll - historique copie (1 version(s))
+[2026-08-03 10:58:53] [INFO] [38/78] publish/CreaModifAd-Connect.exe (139264 o)
+[2026-08-03 10:58:53] [INFO]    ⬇  publish/CreaModifAd-Connect.exe
+[2026-08-03 10:58:53] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.exe
+[2026-08-03 10:58:54] [DEBUG]       Version 1/1 rejouee (id=1.0, 139264 o)
+[2026-08-03 10:58:54] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.exe
+[2026-08-03 10:58:54] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:54] [SUCCESS] ✅ publish/CreaModifAd-Connect.exe - historique copie (1 version(s))
+[2026-08-03 10:58:54] [INFO] [39/78] publish/CreaModifAd-Connect.pdb (27220 o)
+[2026-08-03 10:58:54] [INFO]    ⬇  publish/CreaModifAd-Connect.pdb
+[2026-08-03 10:58:54] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.pdb
+[2026-08-03 10:58:55] [DEBUG]       Version 1/1 rejouee (id=1.0, 27220 o)
+[2026-08-03 10:58:55] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.pdb
+[2026-08-03 10:58:55] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:55] [SUCCESS] ✅ publish/CreaModifAd-Connect.pdb - historique copie (1 version(s))
+[2026-08-03 10:58:55] [INFO] [40/78] publish/CreaModifAd-Connect.runtimeconfig.json (488 o)
+[2026-08-03 10:58:55] [INFO]    ⬇  publish/CreaModifAd-Connect.runtimeconfig.json
+[2026-08-03 10:58:56] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.runtimeconfig.json
+[2026-08-03 10:58:56] [DEBUG]       Version 1/1 rejouee (id=1.0, 488 o)
+[2026-08-03 10:58:56] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.runtimeconfig.json
+[2026-08-03 10:58:56] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:57] [SUCCESS] ✅ publish/CreaModifAd-Connect.runtimeconfig.json - historique copie (1 version(s))
+[2026-08-03 10:58:57] [INFO] [41/78] publish/CreaModifAd-Connect.staticwebassets.endpoints.json (70 o)
+[2026-08-03 10:58:57] [INFO]    ⬇  publish/CreaModifAd-Connect.staticwebassets.endpoints.json
+[2026-08-03 10:58:57] [INFO]    ⬆  Rejeu de 1 version(s) : publish/CreaModifAd-Connect.staticwebassets.endpoints.json
+[2026-08-03 10:58:58] [DEBUG]       Version 1/1 rejouee (id=1.0, 70 o)
+[2026-08-03 10:58:58] [DEBUG] Horodatages reappliques : publish/CreaModifAd-Connect.staticwebassets.endpoints.json
+[2026-08-03 10:58:58] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:58] [SUCCESS] ✅ publish/CreaModifAd-Connect.staticwebassets.endpoints.json - historique copie (1 version(s))
+[2026-08-03 10:58:58] [INFO] [42/78] publish/Dapper.dll (245760 o)
+[2026-08-03 10:58:58] [INFO]    ⬇  publish/Dapper.dll
+[2026-08-03 10:58:58] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Dapper.dll
+[2026-08-03 10:58:59] [DEBUG]       Version 1/1 rejouee (id=1.0, 245760 o)
+[2026-08-03 10:58:59] [DEBUG] Horodatages reappliques : publish/Dapper.dll
+[2026-08-03 10:58:59] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:58:59] [SUCCESS] ✅ publish/Dapper.dll - historique copie (1 version(s))
+[2026-08-03 10:58:59] [INFO] [43/78] publish/Microsoft.Bcl.AsyncInterfaces.dll (19104 o)
+[2026-08-03 10:58:59] [INFO]    ⬇  publish/Microsoft.Bcl.AsyncInterfaces.dll
+[2026-08-03 10:59:00] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Bcl.AsyncInterfaces.dll
+[2026-08-03 10:59:00] [DEBUG]       Version 1/1 rejouee (id=1.0, 19104 o)
+[2026-08-03 10:59:01] [DEBUG] Horodatages reappliques : publish/Microsoft.Bcl.AsyncInterfaces.dll
+[2026-08-03 10:59:01] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:01] [SUCCESS] ✅ publish/Microsoft.Bcl.AsyncInterfaces.dll - historique copie (1 version(s))
+[2026-08-03 10:59:01] [INFO] [44/78] publish/Microsoft.Bcl.Cryptography.dll (16664 o)
+[2026-08-03 10:59:01] [INFO]    ⬇  publish/Microsoft.Bcl.Cryptography.dll
+[2026-08-03 10:59:01] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Bcl.Cryptography.dll
+[2026-08-03 10:59:02] [DEBUG]       Version 1/1 rejouee (id=1.0, 16664 o)
+[2026-08-03 10:59:02] [DEBUG] Horodatages reappliques : publish/Microsoft.Bcl.Cryptography.dll
+[2026-08-03 10:59:02] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:02] [SUCCESS] ✅ publish/Microsoft.Bcl.Cryptography.dll - historique copie (1 version(s))
+[2026-08-03 10:59:02] [INFO] [45/78] publish/Microsoft.Data.SqlClient.dll (928888 o)
+[2026-08-03 10:59:02] [INFO]    ⬇  publish/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:59:02] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:59:03] [DEBUG]       Version 1/1 rejouee (id=1.0, 928888 o)
+[2026-08-03 10:59:03] [DEBUG] Horodatages reappliques : publish/Microsoft.Data.SqlClient.dll
+[2026-08-03 10:59:03] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:04] [SUCCESS] ✅ publish/Microsoft.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:59:04] [INFO] [46/78] publish/Microsoft.Extensions.Caching.Memory.dll (45832 o)
+[2026-08-03 10:59:04] [INFO]    ⬇  publish/Microsoft.Extensions.Caching.Memory.dll
+[2026-08-03 10:59:04] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Caching.Memory.dll
+[2026-08-03 10:59:05] [DEBUG]       Version 1/1 rejouee (id=1.0, 45832 o)
+[2026-08-03 10:59:05] [DEBUG] Horodatages reappliques : publish/Microsoft.Extensions.Caching.Memory.dll
+[2026-08-03 10:59:05] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:05] [SUCCESS] ✅ publish/Microsoft.Extensions.Caching.Memory.dll - historique copie (1 version(s))
+[2026-08-03 10:59:05] [INFO] [47/78] publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll (63768 o)
+[2026-08-03 10:59:05] [INFO]    ⬇  publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+[2026-08-03 10:59:05] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+[2026-08-03 10:59:06] [DEBUG]       Version 1/1 rejouee (id=1.0, 63768 o)
+[2026-08-03 10:59:06] [DEBUG] Horodatages reappliques : publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+[2026-08-03 10:59:06] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:06] [SUCCESS] ✅ publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll - historique copie (1 version(s))
+[2026-08-03 10:59:06] [INFO] [48/78] publish/Microsoft.Extensions.Logging.Abstractions.dll (65288 o)
+[2026-08-03 10:59:06] [INFO]    ⬇  publish/Microsoft.Extensions.Logging.Abstractions.dll
+[2026-08-03 10:59:07] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Logging.Abstractions.dll
+[2026-08-03 10:59:07] [DEBUG]       Version 1/1 rejouee (id=1.0, 65288 o)
+[2026-08-03 10:59:08] [DEBUG] Horodatages reappliques : publish/Microsoft.Extensions.Logging.Abstractions.dll
+[2026-08-03 10:59:08] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:08] [SUCCESS] ✅ publish/Microsoft.Extensions.Logging.Abstractions.dll - historique copie (1 version(s))
+[2026-08-03 10:59:08] [INFO] [49/78] publish/Microsoft.Extensions.Options.dll (64776 o)
+[2026-08-03 10:59:08] [INFO]    ⬇  publish/Microsoft.Extensions.Options.dll
+[2026-08-03 10:59:08] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Extensions.Options.dll
+[2026-08-03 10:59:09] [DEBUG]       Version 1/1 rejouee (id=1.0, 64776 o)
+[2026-08-03 10:59:09] [DEBUG] Horodatages reappliques : publish/Microsoft.Extensions.Options.dll
+[2026-08-03 10:59:09] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:09] [SUCCESS] ✅ publish/Microsoft.Extensions.Options.dll - historique copie (1 version(s))
+[2026-08-03 10:59:09] [INFO] [50/78] publish/Microsoft.Identity.Client.dll (1028656 o)
+[2026-08-03 10:59:10] [INFO]    ⬇  publish/Microsoft.Identity.Client.dll
+[2026-08-03 10:59:10] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Identity.Client.dll
+[2026-08-03 10:59:11] [DEBUG]       Version 1/1 rejouee (id=1.0, 1028656 o)
+[2026-08-03 10:59:11] [DEBUG] Horodatages reappliques : publish/Microsoft.Identity.Client.dll
+[2026-08-03 10:59:11] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:11] [SUCCESS] ✅ publish/Microsoft.Identity.Client.dll - historique copie (1 version(s))
+[2026-08-03 10:59:11] [INFO] [51/78] publish/Microsoft.Identity.Client.Extensions.Msal.dll (66616 o)
+[2026-08-03 10:59:11] [INFO]    ⬇  publish/Microsoft.Identity.Client.Extensions.Msal.dll
+[2026-08-03 10:59:11] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.Identity.Client.Extensions.Msal.dll
+[2026-08-03 10:59:12] [DEBUG]       Version 1/1 rejouee (id=1.0, 66616 o)
+[2026-08-03 10:59:12] [DEBUG] Horodatages reappliques : publish/Microsoft.Identity.Client.Extensions.Msal.dll
+[2026-08-03 10:59:12] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:12] [SUCCESS] ✅ publish/Microsoft.Identity.Client.Extensions.Msal.dll - historique copie (1 version(s))
+[2026-08-03 10:59:12] [INFO] [52/78] publish/Microsoft.IdentityModel.Abstractions.dll (19480 o)
+[2026-08-03 10:59:13] [INFO]    ⬇  publish/Microsoft.IdentityModel.Abstractions.dll
+[2026-08-03 10:59:13] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Abstractions.dll
+[2026-08-03 10:59:13] [DEBUG]       Version 1/1 rejouee (id=1.0, 19480 o)
+[2026-08-03 10:59:14] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.Abstractions.dll
+[2026-08-03 10:59:14] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:14] [SUCCESS] ✅ publish/Microsoft.IdentityModel.Abstractions.dll - historique copie (1 version(s))
+[2026-08-03 10:59:14] [INFO] [53/78] publish/Microsoft.IdentityModel.JsonWebTokens.dll (137760 o)
+[2026-08-03 10:59:14] [INFO]    ⬇  publish/Microsoft.IdentityModel.JsonWebTokens.dll
+[2026-08-03 10:59:14] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.JsonWebTokens.dll
+[2026-08-03 10:59:15] [DEBUG]       Version 1/1 rejouee (id=1.0, 137760 o)
+[2026-08-03 10:59:15] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.JsonWebTokens.dll
+[2026-08-03 10:59:15] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:15] [SUCCESS] ✅ publish/Microsoft.IdentityModel.JsonWebTokens.dll - historique copie (1 version(s))
+[2026-08-03 10:59:15] [INFO] [54/78] publish/Microsoft.IdentityModel.Logging.dll (36896 o)
+[2026-08-03 10:59:15] [INFO]    ⬇  publish/Microsoft.IdentityModel.Logging.dll
+[2026-08-03 10:59:16] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Logging.dll
+[2026-08-03 10:59:16] [DEBUG]       Version 1/1 rejouee (id=1.0, 36896 o)
+[2026-08-03 10:59:17] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.Logging.dll
+[2026-08-03 10:59:17] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:17] [SUCCESS] ✅ publish/Microsoft.IdentityModel.Logging.dll - historique copie (1 version(s))
+[2026-08-03 10:59:17] [INFO] [55/78] publish/Microsoft.IdentityModel.Protocols.dll (40992 o)
+[2026-08-03 10:59:17] [INFO]    ⬇  publish/Microsoft.IdentityModel.Protocols.dll
+[2026-08-03 10:59:17] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Protocols.dll
+[2026-08-03 10:59:18] [DEBUG]       Version 1/1 rejouee (id=1.0, 40992 o)
+[2026-08-03 10:59:18] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.Protocols.dll
+[2026-08-03 10:59:18] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:18] [SUCCESS] ✅ publish/Microsoft.IdentityModel.Protocols.dll - historique copie (1 version(s))
+[2026-08-03 10:59:18] [INFO] [56/78] publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (128032 o)
+[2026-08-03 10:59:18] [INFO]    ⬇  publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+[2026-08-03 10:59:18] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+[2026-08-03 10:59:19] [DEBUG]       Version 1/1 rejouee (id=1.0, 128032 o)
+[2026-08-03 10:59:19] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+[2026-08-03 10:59:19] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:19] [SUCCESS] ✅ publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll - historique copie (1 version(s))
+[2026-08-03 10:59:19] [INFO] [57/78] publish/Microsoft.IdentityModel.Tokens.dll (300064 o)
+[2026-08-03 10:59:19] [INFO]    ⬇  publish/Microsoft.IdentityModel.Tokens.dll
+[2026-08-03 10:59:20] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.IdentityModel.Tokens.dll
+[2026-08-03 10:59:20] [DEBUG]       Version 1/1 rejouee (id=1.0, 300064 o)
+[2026-08-03 10:59:21] [DEBUG] Horodatages reappliques : publish/Microsoft.IdentityModel.Tokens.dll
+[2026-08-03 10:59:21] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:21] [SUCCESS] ✅ publish/Microsoft.IdentityModel.Tokens.dll - historique copie (1 version(s))
+[2026-08-03 10:59:21] [INFO] [58/78] publish/Microsoft.OpenApi.dll (233408 o)
+[2026-08-03 10:59:21] [INFO]    ⬇  publish/Microsoft.OpenApi.dll
+[2026-08-03 10:59:21] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.OpenApi.dll
+[2026-08-03 10:59:22] [DEBUG]       Version 1/1 rejouee (id=1.0, 233408 o)
+[2026-08-03 10:59:22] [DEBUG] Horodatages reappliques : publish/Microsoft.OpenApi.dll
+[2026-08-03 10:59:22] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:22] [SUCCESS] ✅ publish/Microsoft.OpenApi.dll - historique copie (1 version(s))
+[2026-08-03 10:59:22] [INFO] [59/78] publish/Microsoft.SqlServer.Server.dll (23976 o)
+[2026-08-03 10:59:22] [INFO]    ⬇  publish/Microsoft.SqlServer.Server.dll
+[2026-08-03 10:59:23] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Microsoft.SqlServer.Server.dll
+[2026-08-03 10:59:23] [DEBUG]       Version 1/1 rejouee (id=1.0, 23976 o)
+[2026-08-03 10:59:23] [DEBUG] Horodatages reappliques : publish/Microsoft.SqlServer.Server.dll
+[2026-08-03 10:59:23] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:23] [SUCCESS] ✅ publish/Microsoft.SqlServer.Server.dll - historique copie (1 version(s))
+[2026-08-03 10:59:23] [INFO] [60/78] publish/Swashbuckle.AspNetCore.Swagger.dll (17408 o)
+[2026-08-03 10:59:24] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.Swagger.dll
+[2026-08-03 10:59:24] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.Swagger.dll
+[2026-08-03 10:59:24] [DEBUG]       Version 1/1 rejouee (id=1.0, 17408 o)
+[2026-08-03 10:59:25] [DEBUG] Horodatages reappliques : publish/Swashbuckle.AspNetCore.Swagger.dll
+[2026-08-03 10:59:25] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:25] [SUCCESS] ✅ publish/Swashbuckle.AspNetCore.Swagger.dll - historique copie (1 version(s))
+[2026-08-03 10:59:25] [INFO] [61/78] publish/Swashbuckle.AspNetCore.SwaggerGen.dll (118784 o)
+[2026-08-03 10:59:25] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+[2026-08-03 10:59:25] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+[2026-08-03 10:59:26] [DEBUG]       Version 1/1 rejouee (id=1.0, 118784 o)
+[2026-08-03 10:59:26] [DEBUG] Horodatages reappliques : publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+[2026-08-03 10:59:26] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:26] [SUCCESS] ✅ publish/Swashbuckle.AspNetCore.SwaggerGen.dll - historique copie (1 version(s))
+[2026-08-03 10:59:26] [INFO] [62/78] publish/Swashbuckle.AspNetCore.SwaggerUI.dll (2270720 o)
+[2026-08-03 10:59:26] [INFO]    ⬇  publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+[2026-08-03 10:59:27] [INFO]    ⬆  Rejeu de 1 version(s) : publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+[2026-08-03 10:59:28] [DEBUG]       Version 1/1 rejouee (id=1.0, 2270720 o)
+[2026-08-03 10:59:28] [DEBUG] Horodatages reappliques : publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+[2026-08-03 10:59:28] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:28] [SUCCESS] ✅ publish/Swashbuckle.AspNetCore.SwaggerUI.dll - historique copie (1 version(s))
+[2026-08-03 10:59:28] [INFO] [63/78] publish/System.ClientModel.dll (175664 o)
+[2026-08-03 10:59:28] [INFO]    ⬇  publish/System.ClientModel.dll
+[2026-08-03 10:59:29] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.ClientModel.dll
+[2026-08-03 10:59:29] [DEBUG]       Version 1/1 rejouee (id=1.0, 175664 o)
+[2026-08-03 10:59:30] [DEBUG] Horodatages reappliques : publish/System.ClientModel.dll
+[2026-08-03 10:59:30] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:30] [SUCCESS] ✅ publish/System.ClientModel.dll - historique copie (1 version(s))
+[2026-08-03 10:59:30] [INFO] [64/78] publish/System.Configuration.ConfigurationManager.dll (442544 o)
+[2026-08-03 10:59:30] [INFO]    ⬇  publish/System.Configuration.ConfigurationManager.dll
+[2026-08-03 10:59:30] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Configuration.ConfigurationManager.dll
+[2026-08-03 10:59:31] [DEBUG]       Version 1/1 rejouee (id=1.0, 442544 o)
+[2026-08-03 10:59:31] [DEBUG] Horodatages reappliques : publish/System.Configuration.ConfigurationManager.dll
+[2026-08-03 10:59:31] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:31] [SUCCESS] ✅ publish/System.Configuration.ConfigurationManager.dll - historique copie (1 version(s))
+[2026-08-03 10:59:31] [INFO] [65/78] publish/System.Data.SqlClient.dll (171800 o)
+[2026-08-03 10:59:31] [INFO]    ⬇  publish/System.Data.SqlClient.dll
+[2026-08-03 10:59:32] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Data.SqlClient.dll
+[2026-08-03 10:59:32] [DEBUG]       Version 1/1 rejouee (id=1.0, 171800 o)
+[2026-08-03 10:59:33] [DEBUG] Horodatages reappliques : publish/System.Data.SqlClient.dll
+[2026-08-03 10:59:33] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:33] [SUCCESS] ✅ publish/System.Data.SqlClient.dll - historique copie (1 version(s))
+[2026-08-03 10:59:33] [INFO] [66/78] publish/System.Diagnostics.EventLog.dll (51992 o)
+[2026-08-03 10:59:33] [INFO]    ⬇  publish/System.Diagnostics.EventLog.dll
+[2026-08-03 10:59:33] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Diagnostics.EventLog.dll
+[2026-08-03 10:59:33] [DEBUG]       Version 1/1 rejouee (id=1.0, 51992 o)
+[2026-08-03 10:59:34] [DEBUG] Horodatages reappliques : publish/System.Diagnostics.EventLog.dll
+[2026-08-03 10:59:34] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:34] [SUCCESS] ✅ publish/System.Diagnostics.EventLog.dll - historique copie (1 version(s))
+[2026-08-03 10:59:34] [INFO] [67/78] publish/System.IdentityModel.Tokens.Jwt.dll (89016 o)
+[2026-08-03 10:59:34] [INFO]    ⬇  publish/System.IdentityModel.Tokens.Jwt.dll
+[2026-08-03 10:59:34] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.IdentityModel.Tokens.Jwt.dll
+[2026-08-03 10:59:35] [DEBUG]       Version 1/1 rejouee (id=1.0, 89016 o)
+[2026-08-03 10:59:35] [DEBUG] Horodatages reappliques : publish/System.IdentityModel.Tokens.Jwt.dll
+[2026-08-03 10:59:35] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:35] [SUCCESS] ✅ publish/System.IdentityModel.Tokens.Jwt.dll - historique copie (1 version(s))
+[2026-08-03 10:59:35] [INFO] [68/78] publish/System.Memory.Data.dll (30472 o)
+[2026-08-03 10:59:36] [INFO]    ⬇  publish/System.Memory.Data.dll
+[2026-08-03 10:59:36] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Memory.Data.dll
+[2026-08-03 10:59:36] [DEBUG]       Version 1/1 rejouee (id=1.0, 30472 o)
+[2026-08-03 10:59:37] [DEBUG] Horodatages reappliques : publish/System.Memory.Data.dll
+[2026-08-03 10:59:37] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:37] [SUCCESS] ✅ publish/System.Memory.Data.dll - historique copie (1 version(s))
+[2026-08-03 10:59:37] [INFO] [69/78] publish/System.Security.Cryptography.Pkcs.dll (264864 o)
+[2026-08-03 10:59:37] [INFO]    ⬇  publish/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:59:37] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:59:38] [DEBUG]       Version 1/1 rejouee (id=1.0, 264864 o)
+[2026-08-03 10:59:38] [DEBUG] Horodatages reappliques : publish/System.Security.Cryptography.Pkcs.dll
+[2026-08-03 10:59:38] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:38] [SUCCESS] ✅ publish/System.Security.Cryptography.Pkcs.dll - historique copie (1 version(s))
+[2026-08-03 10:59:38] [INFO] [70/78] publish/System.Security.Cryptography.ProtectedData.dll (36616 o)
+[2026-08-03 10:59:38] [INFO]    ⬇  publish/System.Security.Cryptography.ProtectedData.dll
+[2026-08-03 10:59:39] [INFO]    ⬆  Rejeu de 1 version(s) : publish/System.Security.Cryptography.ProtectedData.dll
+[2026-08-03 10:59:39] [DEBUG]       Version 1/1 rejouee (id=1.0, 36616 o)
+[2026-08-03 10:59:39] [DEBUG] Horodatages reappliques : publish/System.Security.Cryptography.ProtectedData.dll
+[2026-08-03 10:59:39] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:40] [SUCCESS] ✅ publish/System.Security.Cryptography.ProtectedData.dll - historique copie (1 version(s))
+[2026-08-03 10:59:40] [INFO] [71/78] publish/web.config (563 o)
+[2026-08-03 10:59:40] [INFO]    ⬇  publish/web.config
+[2026-08-03 10:59:40] [INFO]    ⬆  Rejeu de 1 version(s) : publish/web.config
+[2026-08-03 10:59:40] [DEBUG]       Version 1/1 rejouee (id=1.0, 563 o)
+[2026-08-03 10:59:41] [DEBUG] Horodatages reappliques : publish/web.config
+[2026-08-03 10:59:41] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:41] [SUCCESS] ✅ publish/web.config - historique copie (1 version(s))
+[2026-08-03 10:59:41] [INFO] [72/78] 41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 10:59:41] [INFO]    ⬇  41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:59:41] [INFO]    ⬆  Rejeu de 2 version(s) : 41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:59:42] [DEBUG]       Version 1/2 rejouee (id=1.0, 6988 o)
+[2026-08-03 10:59:42] [DEBUG]       Version 2/2 rejouee (id=2.0, 6988 o)
+[2026-08-03 10:59:43] [DEBUG] Horodatages reappliques : 41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 10:59:43] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:43] [SUCCESS] ✅ 41G1ohnr8wL._SY300_QL70_.jpg - historique copie (2 version(s))
+[2026-08-03 10:59:43] [INFO] [73/78] batcanard.webp (42752 o)
+[2026-08-03 10:59:43] [INFO]    ⬇  batcanard.webp
+[2026-08-03 10:59:43] [INFO]    ⬆  Rejeu de 1 version(s) : batcanard.webp
+[2026-08-03 10:59:43] [DEBUG]       Version 1/1 rejouee (id=1.0, 42752 o)
+[2026-08-03 10:59:44] [DEBUG] Horodatages reappliques : batcanard.webp
+[2026-08-03 10:59:44] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:44] [SUCCESS] ✅ batcanard.webp - historique copie (1 version(s))
+[2026-08-03 10:59:44] [INFO] [74/78] c39209238e019e0ce5df7c537e0c9c5e.jpg (79009 o)
+[2026-08-03 10:59:44] [INFO]    ⬇  c39209238e019e0ce5df7c537e0c9c5e.jpg
+[2026-08-03 10:59:44] [INFO]    ⬆  Rejeu de 1 version(s) : c39209238e019e0ce5df7c537e0c9c5e.jpg
+[2026-08-03 10:59:44] [DEBUG]       Version 1/1 rejouee (id=1.0, 79009 o)
+[2026-08-03 10:59:45] [DEBUG] Horodatages reappliques : c39209238e019e0ce5df7c537e0c9c5e.jpg
+[2026-08-03 10:59:45] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:45] [SUCCESS] ✅ c39209238e019e0ce5df7c537e0c9c5e.jpg - historique copie (1 version(s))
+[2026-08-03 10:59:45] [INFO] [75/78] test.csv (4769904 o)
+[2026-08-03 10:59:45] [INFO]    ⬇  test.csv
+[2026-08-03 10:59:45] [INFO]    ⬆  Rejeu de 1 version(s) : test.csv
+[2026-08-03 10:59:48] [DEBUG]    Chunk : 4769904 / 4769904
+[2026-08-03 10:59:48] [DEBUG]       Version 1/1 rejouee (id=1.0, 4769904 o)
+[2026-08-03 10:59:49] [DEBUG] Horodatages reappliques : test.csv
+[2026-08-03 10:59:49] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:49] [SUCCESS] ✅ test.csv - historique copie (1 version(s))
+[2026-08-03 10:59:49] [INFO] [76/78] test.xlsx (728424 o)
+[2026-08-03 10:59:49] [INFO]    ⬇  test.xlsx
+[2026-08-03 10:59:49] [INFO]    ⬆  Rejeu de 1 version(s) : test.xlsx
+[2026-08-03 10:59:50] [DEBUG]       Version 1/1 rejouee (id=1.0, 728424 o)
+[2026-08-03 10:59:51] [DEBUG] Horodatages reappliques : test.xlsx
+[2026-08-03 10:59:51] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:51] [SUCCESS] ✅ test.xlsx - historique copie (1 version(s))
+[2026-08-03 10:59:51] [INFO] [77/78] test1.xlsx (728135 o)
+[2026-08-03 10:59:51] [INFO]    ⬇  test1.xlsx
+[2026-08-03 10:59:51] [INFO]    ⬆  Rejeu de 2 version(s) : test1.xlsx
+[2026-08-03 10:59:52] [DEBUG]       Version 1/2 rejouee (id=1.0, 728422 o)
+[2026-08-03 10:59:52] [DEBUG]       Version 2/2 rejouee (id=2.0, 728135 o)
+[2026-08-03 10:59:53] [DEBUG] Horodatages reappliques : test1.xlsx
+[2026-08-03 10:59:53] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:53] [SUCCESS] ✅ test1.xlsx - historique copie (2 version(s))
+[2026-08-03 10:59:53] [INFO] [78/78] test2.xlsx (828193 o)
+[2026-08-03 10:59:53] [INFO]    ⬇  test2.xlsx
+[2026-08-03 10:59:53] [INFO]    ⬆  Rejeu de 2 version(s) : test2.xlsx
+[2026-08-03 10:59:54] [DEBUG]       Version 1/2 rejouee (id=1.0, 728422 o)
+[2026-08-03 10:59:55] [DEBUG]       Version 2/2 rejouee (id=2.0, 828193 o)
+[2026-08-03 10:59:55] [DEBUG] Horodatages reappliques : test2.xlsx
+[2026-08-03 10:59:55] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 10:59:55] [SUCCESS] ✅ test2.xlsx - historique copie (2 version(s))
+[2026-08-03 10:59:55] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-03 10:59:55] [INFO] Total   : 78 fichier(s)
+[2026-08-03 10:59:55] [INFO] Erreurs : 0
+[2026-08-03 10:59:55] [SUCCESS] ============================================
+[2026-08-03 10:59:55] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-03 10:59:55] [INFO] Total lignes  : 1
+[2026-08-03 10:59:55] [INFO] Succes        : 1
+[2026-08-03 10:59:55] [INFO] Echecs        : 0
+[2026-08-03 10:59:55] [SUCCESS] ============================================
+[2026-08-03 10:59:55] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-03_105733.csv
+[2026-08-03 10:59:55] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-03_105733.log

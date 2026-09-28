@@ -1,0 +1,250 @@
+﻿[2026-07-08 16:25:38] [INFO] =========================================
+[2026-07-08 16:25:38] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS ===
+[2026-07-08 16:25:38] [INFO] Version: 8.1
+[2026-07-08 16:25:38] [INFO] Log: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-08_162538.log
+[2026-07-08 16:25:38] [INFO] Erreurs: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_162538.csv
+[2026-07-08 16:25:38] [SUCCESS] Traductions chargées: 2
+[2026-07-08 16:25:38] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-08 16:25:38] [INFO] === AUTHENTIFICATION ===
+[2026-07-08 16:25:39] [INFO] === RÉSOLUTION SITES/DRIVES ===
+[2026-07-08 16:25:39] [SUCCESS] Source: https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-07-08 16:25:39] [SUCCESS] Drive source: Documents (b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-07-08 16:25:39] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/Notisum
+[2026-07-08 16:25:39] [SUCCESS] Drive destination: Dokument (b!0z6sqSw4wkKUBSEZsaLleFBcHn8_IVFNo3VteQoV3ZuvDB11OkfdTI0ydXY5E-Yg)
+[2026-07-08 16:25:39] [INFO] Librairies source: Documents
+[2026-07-08 16:25:39] [INFO] Librairies cible:  Dokument
+[2026-07-08 16:25:39] [INFO] === LECTURE CSV ===
+[2026-07-08 16:25:40] [SUCCESS] Lignes CSV: 1938
+[2026-07-08 16:25:40] [SUCCESS] Chemins uniques: 333
+[2026-07-08 16:25:40] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-07-08 16:25:40] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-07-08 16:25:41] [SUCCESS] Fichier copié: Audit_user_gmail.xlsx (id=01ZUFXZGL5S7EBTTJRVNAZLYINQDQILAHF)
+[2026-07-08 16:25:42] [SUCCESS] Permission Entra: User test 02 [write] -> Audit_user_gmail.xlsx
+[2026-07-08 16:25:42] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-07-08 16:25:42] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-07-08 16:25:44] [SUCCESS] Fichier copié: Capture d’écran 2026-01-27 172058.jpg (id=01ZUFXZGNZ3ELH7VM2NBE3N3JOMTWGQ5BW)
+[2026-07-08 16:25:44] [SUCCESS] Permission Entra: User test 02 [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-07-08 16:25:44] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-07-08 16:25:44] [INFO] === COPIE REELLE: Drive ECHOLINE ===
+[2026-07-08 16:25:46] [SUCCESS] Dossier créé: Drive ECHOLINE
+[2026-07-08 16:25:46] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE
+[2026-07-08 16:25:46] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE
+[2026-07-08 16:25:46] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-07-08 16:25:46] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops ===
+[2026-07-08 16:25:48] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:25:48] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:25:48] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-08 16:25:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-07-08 16:25:48] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement ===
+[2026-07-08 16:25:49] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:25:49] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:25:49] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:25:49] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-07-08 16:25:50] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-07-08 16:25:51] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:25:51] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:25:51] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:25:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/ (6 permission(s))
+[2026-07-08 16:25:51] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne ===
+[2026-07-08 16:25:52] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:25:53] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:25:53] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:25:53] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/ (6 permission(s))
+[2026-07-08 16:25:53] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie ===
+[2026-07-08 16:25:54] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:25:54] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:25:55] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:25:55] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/ (6 permission(s))
+[2026-07-08 16:25:55] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique ===
+[2026-07-08 16:25:56] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:25:56] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:25:56] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:25:56] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/ (6 permission(s))
+[2026-07-08 16:25:56] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil ===
+[2026-07-08 16:25:58] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:25:58] [DEBUG] [404] retry 1/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:03] [DEBUG] [404] retry 2/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:08] [DEBUG] [404] retry 3/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:13] [DEBUG] [404] retry 4/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:18] [DEBUG] [404] retry 5/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:24] [DEBUG] [404] retry 6/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:29] [DEBUG] [404] retry 7/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:34] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:26:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/ (6 permission(s))
+[2026-07-08 16:26:34] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada ===
+[2026-07-08 16:26:35] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:26:35] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:26:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:26:36] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/ (6 permission(s))
+[2026-07-08 16:26:36] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud ===
+[2026-07-08 16:26:37] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:26:37] [DEBUG] [404] retry 1/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:26:42] [DEBUG] [404] retry 2/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:26:47] [DEBUG] [404] retry 3/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:26:52] [DEBUG] [404] retry 4/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:26:57] [DEBUG] [404] retry 5/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:27:03] [DEBUG] [404] retry 6/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:27:08] [DEBUG] [404] retry 7/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:27:13] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:27:13] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/ (6 permission(s))
+[2026-07-08 16:27:13] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne ===
+[2026-07-08 16:27:14] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:27:14] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:27:14] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:27:14] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/ (6 permission(s))
+[2026-07-08 16:27:14] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie ===
+[2026-07-08 16:27:16] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:27:16] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:27:16] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:27:16] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/ (6 permission(s))
+[2026-07-08 16:27:16] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe ===
+[2026-07-08 16:27:17] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:27:18] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:27:18] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:27:18] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/ (6 permission(s))
+[2026-07-08 16:27:18] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande ===
+[2026-07-08 16:27:19] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:27:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:27:21] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:27:21] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/ (6 permission(s))
+[2026-07-08 16:27:21] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France ===
+[2026-07-08 16:27:22] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:27:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:27:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:27:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/ (6 permission(s))
+[2026-07-08 16:27:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde ===
+[2026-07-08 16:27:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:27:23] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:27:24] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:27:24] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/ (6 permission(s))
+[2026-07-08 16:27:24] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande ===
+[2026-07-08 16:27:25] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:27:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:27:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-08 16:27:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/ (6 permission(s))
+[2026-07-08 16:27:25] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie ===
+[2026-07-08 16:27:26] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:27:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:27:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-08 16:27:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/ (6 permission(s))
+[2026-07-08 16:27:27] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg ===
+[2026-07-08 16:27:28] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:27:28] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:27:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-08 16:27:29] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/ (6 permission(s))
+[2026-07-08 16:27:29] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie ===
+[2026-07-08 16:27:30] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:27:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:27:30] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-08 16:27:30] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/ (6 permission(s))
+[2026-07-08 16:27:30] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc ===
+[2026-07-08 16:27:31] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:27:32] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:27:32] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-08 16:27:32] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/ (6 permission(s))
+[2026-07-08 16:27:32] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne ===
+[2026-07-08 16:27:33] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:27:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:27:34] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-08 16:27:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/ (6 permission(s))
+[2026-07-08 16:27:34] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal ===
+[2026-07-08 16:27:35] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:27:35] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:27:35] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-08 16:27:35] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/ (6 permission(s))
+[2026-07-08 16:27:35] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni ===
+[2026-07-08 16:27:36] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:27:36] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:27:37] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-08 16:27:37] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/ (6 permission(s))
+[2026-07-08 16:27:37] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour ===
+[2026-07-08 16:27:38] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:27:38] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:27:38] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-08 16:27:38] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède/ (6 permission(s))
+[2026-07-08 16:27:38] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède ===
+[2026-07-08 16:27:40] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:27:40] [DEBUG] [404] retry 1/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:27:46] [DEBUG] [404] retry 2/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:27:51] [DEBUG] [404] retry 3/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:27:56] [DEBUG] [404] retry 4/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:28:01] [DEBUG] [404] retry 5/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:28:06] [DEBUG] [404] retry 6/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:28:11] [DEBUG] [404] retry 7/7 dans 5s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:28:17] [WARN] Impossible de récupérer item pour droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-08 16:28:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/ (6 permission(s))
+[2026-07-08 16:28:17] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse ===
+[2026-07-08 16:28:18] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:28:18] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:28:19] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-08 16:28:19] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/ (6 permission(s))
+[2026-07-08 16:28:19] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie ===
+[2026-07-08 16:28:20] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:28:20] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:28:20] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-08 16:28:20] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/ (6 permission(s))
+[2026-07-08 16:28:20] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA ===
+[2026-07-08 16:28:22] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:28:22] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:28:22] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-08 16:28:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ (6 permission(s))
+[2026-07-08 16:28:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._ ===
+[2026-07-08 16:28:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:28:24] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:28:24] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-08 16:28:24] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/ (6 permission(s))
+[2026-07-08 16:28:24] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik ===
+[2026-07-08 16:28:25] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:28:25] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:28:25] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-08 16:28:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/ (6 permission(s))
+[2026-07-08 16:28:25] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum ===
+[2026-07-08 16:28:27] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:28:27] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:28:27] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-08 16:28:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:28:27] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives ===
+[2026-07-08 16:28:29] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:28:29] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:28:29] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-08 16:28:29] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/ (6 permission(s))
+[2026-07-08 16:28:29] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets ===
+[2026-07-08 16:28:30] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:28:30] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:28:31] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-08 16:28:31] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/ (6 permission(s))
+[2026-07-08 16:28:31] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques ===
+[2026-07-08 16:28:31] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:28:31] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/
+[2026-07-08 16:28:31] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/ (6 permission(s))
+[2026-07-08 16:28:31] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes ===
+[2026-07-08 16:28:32] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:28:33] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:28:33] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-08 16:28:33] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/ (6 permission(s))
+[2026-07-08 16:28:33] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille ===
+[2026-07-08 16:28:34] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:28:34] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:28:34] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-08 16:28:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/ (6 permission(s))
+[2026-07-08 16:28:34] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs ===
+[2026-07-08 16:28:35] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:28:36] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:28:36] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-08 16:28:36] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/ (6 permission(s))
+[2026-07-08 16:28:36] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques ===
+[2026-07-08 16:28:37] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:28:37] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:28:37] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-08 16:28:37] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/ (6 permission(s))
+[2026-07-08 16:28:37] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement ===
+[2026-07-08 16:28:38] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:28:39] [SUCCESS] Permission Entra: User test 02 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:28:39] [SUCCESS] Permission Entra: FARADJI, Fethi [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-08 16:28:39] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/ (6 permission(s))
+[2026-07-08 16:28:39] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail ===
+[2026-07-08 16:28:40] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-07-08 16:28:40] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/
+[2026-07-08 16:28:40] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/ (6 permission(s))
+[2026-07-08 16:28:40] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives ===
+[2026-07-08 16:28:41] [WARN] 5 erreur(s) -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_162538.csv

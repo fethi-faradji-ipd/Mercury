@@ -1,0 +1,4 @@
+﻿2026-09-11 14:13:26Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-11 14:13:26Z [ERROR] ligne_1 [migration] Certificat requis sur SOURCE et CIBLE pour SharePoint REST (ACL et metadonnees).
+2026-09-11 14:13:26Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0 min, 0 requetes, 0 retries.
+2026-09-11 14:13:26Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260911_161326_040d2cbe

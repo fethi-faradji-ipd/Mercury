@@ -1,0 +1,14 @@
+﻿[2026-07-09 17:26:51] [INFO] =========================================
+[2026-07-09 17:26:51] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS + VERSIONS ===
+[2026-07-09 17:26:51] [INFO] Version: 9.3
+[2026-07-09 17:26:51] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-09_172651.log
+[2026-07-09 17:26:51] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-09_172651.csv
+[2026-07-09 17:26:51] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-07-09 17:26:51] [SUCCESS] Traductions chargées: 0
+[2026-07-09 17:26:51] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-09 17:26:51] [INFO] Authentification...
+[2026-07-09 17:26:51] [INFO] Résolution sites/drives...
+[2026-07-09 17:26:51] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/ipdlab.sharepoint.com:/sites/SERVICES_GENERAUX?$select=id,webUrl,displayName
+[2026-07-09 17:26:52] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/infoprodigital365.sharepoint.com:/sites/WH_GPA-test?$select=id,webUrl,displayName
+[2026-07-09 17:26:52] [SUCCESS] Sites/drives résolus
+[2026-07-09 17:26:52] [ERROR] Erreur fatale: Le fichier 'E:\SharePoint_Permissions_Export_src9.csv' est introuvable.

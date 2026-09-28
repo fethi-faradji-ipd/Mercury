@@ -1,0 +1,111 @@
+﻿[2026-07-08 16:08:41] [INFO] =========================================
+[2026-07-08 16:08:41] [SUCCESS] === COPIE SHAREPOINT + DROITS SP/ENTRA ===
+[2026-07-08 16:08:41] [INFO] Version: 8.0
+[2026-07-08 16:08:41] [INFO] =========================================
+[2026-07-08 16:08:41] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-08_160841.log
+[2026-07-08 16:08:41] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_160841.csv
+[2026-07-08 16:08:41] [SUCCESS] Traductions chargées: 2
+[2026-07-08 16:08:41] [SUCCESS] Mappages: par ID=3, par nom=3
+[2026-07-08 16:08:41] [INFO] === AUTHENTIFICATION ===
+[2026-07-08 16:08:41] [INFO] === RÉSOLUTION SITES/DRIVES ===
+[2026-07-08 16:08:42] [SUCCESS] Source:      https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-07-08 16:08:42] [SUCCESS] Drive src:   Documents (b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-07-08 16:08:42] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/fethygate
+[2026-07-08 16:08:42] [SUCCESS] Drive dst:   Documents (b!k8jQXFKwk0KwtGsFvJmNhsH5xvG66_JEj-cEjgaHomnZSz8m37iZRJ3SeesLotEx)
+[2026-07-08 16:08:42] [INFO] Librairies source: Documents
+[2026-07-08 16:08:42] [INFO] Librairies cible:  Documents
+[2026-07-08 16:08:42] [INFO] === LECTURE CSV ===
+[2026-07-08 16:08:42] [SUCCESS] Lignes CSV: 1938
+[2026-07-08 16:08:42] [INFO] Aperçu des principals:
+[2026-07-08 16:08:42] [DEBUG]   Propriétaires de SERVICES_GENERAUX | ID:  | Type: User
+[2026-07-08 16:08:42] [DEBUG]   SERVICES_GENERAUX - Membres | ID:  | Type: User
+[2026-07-08 16:08:42] [DEBUG]   Equipe INFRA | ID: 2691be46-01bd-4ca1-b0cb-1ac2b598c119 | Type: User
+[2026-07-08 16:08:42] [DEBUG]   Propriétaires de SERVICES_GENERAUX | ID: 4cfd49cf-edc6-4386-9a67-8bc9524f4c97 | Type: Group
+[2026-07-08 16:08:42] [DEBUG]   SERVICES_GENERAUX - Visiteurs | ID:  | Type: User
+[2026-07-08 16:08:42] [DEBUG]   User 01 | ID: 340f24cb-b50e-4110-9105-f089277008e9 | Type: User
+[2026-07-08 16:08:42] [SUCCESS] Chemins uniques: 333
+[2026-07-08 16:08:42] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-07-08 16:08:42] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-07-08 16:08:44] [SUCCESS] === FICHIER COPIÉ: Audit_user_gmail.xlsx (id=017S6NPCYC2BX5DVNWUBCLMH5GKBJ6O2BD) ===
+[2026-07-08 16:08:44] [WARN] Erreur perm SP grp_test [owner] sur Audit_user_gmail.xlsx: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:08:44] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:08:44] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:08:45] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Audit_user_gmail.xlsx
+[2026-07-08 16:08:45] [WARN] Groupe SP introuvable: 'grp_test' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:08:45] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:08:45] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs' - Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:08:45] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:08:45] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-07-08 16:08:45] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-07-08 16:08:46] [SUCCESS] === FICHIER COPIÉ: Capture d’écran 2026-01-27 172058.jpg (id=017S6NPCZFI47YHEZVUFC2FWMQKGNV36VS) ===
+[2026-07-08 16:08:46] [WARN] Erreur perm SP grp_test [owner] sur Capture d’écran 2026-01-27 172058.jpg: Le serveur distant a retourné une erreur : (401) Non autorisé.
+[2026-07-08 16:08:46] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Visiteurs'
+[2026-07-08 16:08:46] [WARN] Groupe SP introuvable: 'SERVICES_GENERAUX - Membres'
+[2026-07-08 16:08:47] [SUCCESS] Permission Entra: Equipe INFRA [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-07-08 16:08:47] [WARN] Groupe SP introuvable: 'grp_test'
+[2026-07-08 16:08:47] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-07-08 16:08:47] [DEBUG] Chemin vide après normalisation/strip: /Drive ECHOLINE/
+[2026-07-08 16:08:47] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/
+[2026-07-08 16:08:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-07-08 16:08:47] [INFO] === COPIE REELLE: 01-Internal Ops ===
+[2026-07-08 16:08:47] [ERROR] Source introuvable: 01-Internal Ops
+[2026-07-08 16:08:47] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/
+[2026-07-08 16:08:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-07-08 16:08:47] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement ===
+[2026-07-08 16:08:47] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement
+[2026-07-08 16:08:47] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/
+[2026-07-08 16:08:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-07-08 16:08:47] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-07-08 16:08:48] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-08 16:08:48] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/
+[2026-07-08 16:08:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/ (6 permission(s))
+[2026-07-08 16:08:48] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne ===
+[2026-07-08 16:08:48] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-08 16:08:48] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/
+[2026-07-08 16:08:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/ (6 permission(s))
+[2026-07-08 16:08:48] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Australie ===
+[2026-07-08 16:08:48] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-08 16:08:48] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/
+[2026-07-08 16:08:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/ (6 permission(s))
+[2026-07-08 16:08:48] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique ===
+[2026-07-08 16:08:48] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-08 16:08:48] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/
+[2026-07-08 16:08:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/ (6 permission(s))
+[2026-07-08 16:08:48] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil ===
+[2026-07-08 16:08:49] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-08 16:08:49] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/
+[2026-07-08 16:08:49] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/ (6 permission(s))
+[2026-07-08 16:08:49] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Canada ===
+[2026-07-08 16:08:49] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-08 16:08:49] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/
+[2026-07-08 16:08:49] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/ (6 permission(s))
+[2026-07-08 16:08:49] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud ===
+[2026-07-08 16:08:50] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-08 16:08:50] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/
+[2026-07-08 16:08:50] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/ (6 permission(s))
+[2026-07-08 16:08:50] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne ===
+[2026-07-08 16:08:51] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-08 16:08:51] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/
+[2026-07-08 16:08:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/ (6 permission(s))
+[2026-07-08 16:08:51] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie ===
+[2026-07-08 16:08:51] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-08 16:08:51] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/
+[2026-07-08 16:08:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/ (6 permission(s))
+[2026-07-08 16:08:51] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Europe ===
+[2026-07-08 16:08:51] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-08 16:08:51] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/
+[2026-07-08 16:08:51] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/ (6 permission(s))
+[2026-07-08 16:08:51] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande ===
+[2026-07-08 16:08:51] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-08 16:08:52] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/
+[2026-07-08 16:08:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/ (6 permission(s))
+[2026-07-08 16:08:52] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. France ===
+[2026-07-08 16:08:52] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-08 16:08:52] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/
+[2026-07-08 16:08:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/ (6 permission(s))
+[2026-07-08 16:08:52] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Inde ===
+[2026-07-08 16:08:52] [ERROR] Source introuvable: 01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-08 16:08:52] [WARN] Droits ignorés (copie échouée): /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/
+[2026-07-08 16:08:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/ (6 permission(s))
+[2026-07-08 16:08:52] [INFO] === COPIE REELLE: 01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande ===
+[2026-07-08 16:08:52] [WARN] 17 erreur(s) -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_160841.csv

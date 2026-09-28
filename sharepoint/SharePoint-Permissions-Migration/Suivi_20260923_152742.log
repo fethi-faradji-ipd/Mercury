@@ -1,0 +1,31 @@
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    MIGRATION DES DROITS SHAREPOINT NON NATIFS (CROSS-TENANT)
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    PowerShell 7.5.0 - PnP.PowerShell 3.4.1 - hote : ConsoleHost
+15:27:42 [+00:00:00] INFO    Script    : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\droitscustome.ps1
+15:27:42 [+00:00:00] INFO    Rapports  : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration
+15:27:42 [+00:00:00] INFO    Suivi     : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\Suivi_20260923_152742.log
+15:27:42 [+00:00:00] INFO    Mode      : SIMULATION (aucune modification)
+15:27:42 [+00:00:00] INFO    Options   : ReplaceUniquePermissions=False, IncludeHiddenLists=False, SkipItemPermissions=False, InviteMissingUsers=False, IncludeAssociatedGroupAssignments=True, MigrateEveryoneClaims=False, LogLevel=Detail
+15:27:42 [+00:00:00] INFO    Domaines  : (aucune correspondance)
+15:27:42 [+00:00:00] STEP    
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    ETAPE 1/5 : Verification de la configuration et connexion au site source
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    Source : https://infoprodigital365.sharepoint.com/sites/fethygate (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+15:27:42 [+00:00:00] INFO    Cible  : https://infoprodigital365.sharepoint.com/sites/fethiMercury (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+15:27:42 [+00:00:00] ERROR   [General][Error] Execution interrompue : SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] ERROR   ==================== ERREUR ====================
+15:27:42 [+00:00:00] ERROR   SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] ERROR   Ligne 1708 : throw 'SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.'
+15:27:42 [+00:00:00] ERROR   ================================================
+15:27:42 [+00:00:00] SUCCESS Fin de l'etape 'Verification de la configuration et connexion au site source' en 00:00:00
+15:27:42 [+00:00:00] STEP    
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    RESUME - duree totale 00:00:00 - mode SIMULATION
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    General, Error                                1
+15:27:42 [+00:00:00] ERROR   Erreurs : 1
+15:27:42 [+00:00:00] ERROR     - [General] Execution interrompue -  : SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] SUCCESS Principaux non resolus : 0 (voir UnresolvedPrincipals.csv)
+15:27:42 [+00:00:00] INFO    Journal de suivi : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\Suivi_20260923_152742.log

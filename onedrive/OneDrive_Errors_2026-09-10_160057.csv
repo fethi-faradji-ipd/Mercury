@@ -1,0 +1,7 @@
+﻿"horodatage","fichier","phase","erreur"
+"10/09/2026 20:11:26","Documents/PowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.Core.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"10/09/2026 20:11:28","Documents/PowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"10/09/2026 20:15:13","Documents/Virtual Machines/Windows XP Professional/564dc8be-9773-bbd8-c7b2-c23524a75290.vmem","copy","Reponse HTTP nulle lors du telechargement Graph"
+"10/09/2026 21:19:06","Documents/WindowsPowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.Core.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"10/09/2026 21:19:08","Documents/WindowsPowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"11/09/2026 08:26:19","VMV2/Windows XP Mode D.zip","copy","Reponse HTTP nulle lors du telechargement Graph"

@@ -1,0 +1,21 @@
+﻿[2026-08-04 16:33:09] [INFO] ============================================
+[2026-08-04 16:33:09] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-04 16:33:09] [INFO] ============================================
+[2026-08-04 16:33:09] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-04 16:33:09] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-04 16:33:09] [INFO] --------------------------------------------
+[2026-08-04 16:33:09] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-04 16:33:09] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-04 16:33:09] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-04 16:33:09] [INFO] --------------------------------------------
+[2026-08-04 16:33:09] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-04 16:33:09] [ERROR] Ligne 1 ECHOUEE : Exception lors de l'appel de « SignHash » avec « 2 » argument(s) : « Algorithme spécifié non valide.
+ »
+[2026-08-04 16:33:09] [SUCCESS] ============================================
+[2026-08-04 16:33:09] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-04 16:33:09] [INFO] Total lignes  : 1
+[2026-08-04 16:33:09] [INFO] Succes        : 0
+[2026-08-04 16:33:09] [INFO] Echecs        : 1
+[2026-08-04 16:33:09] [SUCCESS] ============================================
+[2026-08-04 16:33:09] [WARN] 1 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-08-04_163309.csv
+[2026-08-04 16:33:09] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-04_163309.log

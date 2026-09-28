@@ -1,0 +1,1739 @@
+﻿[2026-07-09 17:27:03] [INFO] =========================================
+[2026-07-09 17:27:03] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS + VERSIONS ===
+[2026-07-09 17:27:03] [INFO] Version: 9.3
+[2026-07-09 17:27:03] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-09_172703.log
+[2026-07-09 17:27:03] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-09_172703.csv
+[2026-07-09 17:27:03] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-07-09 17:27:03] [SUCCESS] Traductions chargées: 0
+[2026-07-09 17:27:03] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-09 17:27:03] [INFO] Authentification...
+[2026-07-09 17:27:04] [INFO] Résolution sites/drives...
+[2026-07-09 17:27:04] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/ipdlab.sharepoint.com:/sites/SERVICES_GENERAUX?$select=id,webUrl,displayName
+[2026-07-09 17:27:04] [DEBUG] Resolve site URI: https://graph.microsoft.com/v1.0/sites/infoprodigital365.sharepoint.com:/sites/WH_GPA-test?$select=id,webUrl,displayName
+[2026-07-09 17:27:04] [SUCCESS] Sites/drives résolus
+[2026-07-09 17:27:04] [SUCCESS] Lignes CSV: 1938
+[2026-07-09 17:27:04] [SUCCESS] Chemins uniques: 333
+[2026-07-09 17:27:04] [INFO] Traitement: /Audit_user_gmail.xlsx
+[2026-07-09 17:27:04] [INFO] Copie: Audit_user_gmail.xlsx
+[2026-07-09 17:27:05] [INFO] Versions source trouvées: 2
+[2026-07-09 17:27:05] [INFO] Copie version 1.0
+[2026-07-09 17:27:06] [SUCCESS] Copié avec versions: Audit_user_gmail.xlsx
+[2026-07-09 17:27:07] [SUCCESS] Permission Entra appliquée [write] -> Audit_user_gmail.xlsx
+[2026-07-09 17:27:07] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg
+[2026-07-09 17:27:07] [INFO] Copie: Capture d’écran 2026-01-27 172058.jpg
+[2026-07-09 17:27:08] [INFO] Versions source trouvées: 1
+[2026-07-09 17:27:08] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:27:09] [SUCCESS] Copié avec versions: Capture d’écran 2026-01-27 172058.jpg
+[2026-07-09 17:27:09] [SUCCESS] Permission Entra appliquée [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-07-09 17:27:09] [INFO] Traitement: /Drive ECHOLINE/
+[2026-07-09 17:27:09] [INFO] Copie: Drive ECHOLINE
+[2026-07-09 17:27:10] [SUCCESS] Dossier créé: Drive ECHOLINE
+[2026-07-09 17:27:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE
+[2026-07-09 17:27:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE
+[2026-07-09 17:27:10] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/
+[2026-07-09 17:27:10] [INFO] Copie: Drive ECHOLINE/01-Internal Ops
+[2026-07-09 17:27:11] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops
+[2026-07-09 17:27:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-09 17:27:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-07-09 17:27:12] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/
+[2026-07-09 17:27:12] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-09 17:27:13] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-09 17:27:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-09 17:27:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-07-09 17:27:15] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/
+[2026-07-09 17:27:15] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-09 17:27:17] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-09 17:27:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-09 17:27:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-07-09 17:27:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/
+[2026-07-09 17:27:17] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-09 17:27:18] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-09 17:27:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-09 17:27:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-07-09 17:27:19] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/
+[2026-07-09 17:27:19] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-09 17:27:20] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-09 17:27:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-09 17:27:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-07-09 17:27:20] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/
+[2026-07-09 17:27:20] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-09 17:27:21] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-09 17:27:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-09 17:27:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-07-09 17:27:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/
+[2026-07-09 17:27:22] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-09 17:27:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-09 17:27:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-09 17:27:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-07-09 17:27:23] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/
+[2026-07-09 17:27:23] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-09 17:27:24] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-09 17:27:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-09 17:27:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-07-09 17:27:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/
+[2026-07-09 17:27:25] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-09 17:27:26] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-09 17:27:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-09 17:27:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-07-09 17:27:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/
+[2026-07-09 17:27:27] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-09 17:27:28] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-09 17:27:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-09 17:27:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-07-09 17:27:29] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/
+[2026-07-09 17:27:29] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-09 17:27:30] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-09 17:27:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-09 17:27:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-07-09 17:27:31] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/
+[2026-07-09 17:27:31] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-09 17:27:32] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-09 17:27:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-09 17:27:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-07-09 17:27:32] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/
+[2026-07-09 17:27:32] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-09 17:27:34] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-09 17:27:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-09 17:27:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-07-09 17:27:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/
+[2026-07-09 17:27:34] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-09 17:27:35] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-09 17:27:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-09 17:27:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-07-09 17:27:36] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/
+[2026-07-09 17:27:36] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-09 17:27:37] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-09 17:27:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-09 17:27:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-07-09 17:27:38] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/
+[2026-07-09 17:27:38] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-09 17:27:39] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-09 17:27:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-09 17:27:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-07-09 17:27:39] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/
+[2026-07-09 17:27:39] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-09 17:27:40] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-09 17:27:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-09 17:27:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-07-09 17:27:41] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/
+[2026-07-09 17:27:41] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-09 17:27:42] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-09 17:27:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-09 17:27:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-07-09 17:27:43] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/
+[2026-07-09 17:27:43] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-09 17:27:44] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-09 17:27:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-09 17:27:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-07-09 17:27:44] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/
+[2026-07-09 17:27:44] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-09 17:27:46] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-09 17:27:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-09 17:27:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-07-09 17:27:46] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/
+[2026-07-09 17:27:46] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-09 17:27:47] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-09 17:27:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-09 17:27:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-07-09 17:27:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/
+[2026-07-09 17:27:48] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-09 17:27:50] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-09 17:27:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-09 17:27:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-07-09 17:27:50] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/
+[2026-07-09 17:27:50] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-09 17:27:51] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-09 17:27:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-09 17:27:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-07-09 17:27:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/
+[2026-07-09 17:27:52] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-09 17:27:53] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-09 17:27:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-09 17:27:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-07-09 17:27:54] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède/
+[2026-07-09 17:27:54] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-09 17:27:55] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-09 17:27:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-09 17:27:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-07-09 17:27:55] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/
+[2026-07-09 17:27:55] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-09 17:27:56] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-09 17:27:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-09 17:27:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-07-09 17:27:57] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/
+[2026-07-09 17:27:57] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-09 17:27:58] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-09 17:27:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-09 17:27:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-07-09 17:27:59] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/
+[2026-07-09 17:27:59] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-09 17:28:00] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-09 17:28:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-09 17:28:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-07-09 17:28:00] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/
+[2026-07-09 17:28:00] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-09 17:28:01] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-09 17:28:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-09 17:28:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-07-09 17:28:02] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/
+[2026-07-09 17:28:02] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-09 17:28:03] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-09 17:28:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-09 17:28:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-07-09 17:28:03] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/
+[2026-07-09 17:28:03] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-09 17:28:04] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-09 17:28:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-09 17:28:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-07-09 17:28:05] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/
+[2026-07-09 17:28:05] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-09 17:28:06] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-09 17:28:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-09 17:28:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-07-09 17:28:07] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/
+[2026-07-09 17:28:07] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-09 17:28:08] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-09 17:28:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-09 17:28:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-07-09 17:28:08] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/
+[2026-07-09 17:28:08] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-07-09 17:28:09] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-07-09 17:28:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-07-09 17:28:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-07-09 17:28:10] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/
+[2026-07-09 17:28:10] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-09 17:28:11] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-09 17:28:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-09 17:28:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-07-09 17:28:12] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/
+[2026-07-09 17:28:12] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-09 17:28:13] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-09 17:28:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-09 17:28:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-07-09 17:28:13] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/
+[2026-07-09 17:28:13] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-09 17:28:14] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-09 17:28:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-09 17:28:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-07-09 17:28:15] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/
+[2026-07-09 17:28:15] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-09 17:28:16] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-09 17:28:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-09 17:28:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-07-09 17:28:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/
+[2026-07-09 17:28:17] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-09 17:28:18] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-09 17:28:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-09 17:28:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-07-09 17:28:18] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/
+[2026-07-09 17:28:18] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-07-09 17:28:19] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-07-09 17:28:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-07-09 17:28:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-07-09 17:28:20] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/
+[2026-07-09 17:28:20] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-09 17:28:21] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-09 17:28:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-09 17:28:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-07-09 17:28:21] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/
+[2026-07-09 17:28:21] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-09 17:28:23] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-09 17:28:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-09 17:28:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-07-09 17:28:23] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures/
+[2026-07-09 17:28:23] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-07-09 17:28:25] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-07-09 17:28:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-07-09 17:28:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-07-09 17:28:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/
+[2026-07-09 17:28:25] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-09 17:28:26] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-09 17:28:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-09 17:28:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-07-09 17:28:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques/
+[2026-07-09 17:28:27] [INFO] Copie: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-07-09 17:28:28] [SUCCESS] Dossier créé: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-07-09 17:28:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-07-09 17:28:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-07-09 17:28:28] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/
+[2026-07-09 17:28:28] [INFO] Copie: Drive ECHOLINE/02-External Ops
+[2026-07-09 17:28:29] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops
+[2026-07-09 17:28:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops
+[2026-07-09 17:28:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops
+[2026-07-09 17:28:30] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/A-Suivi prod/
+[2026-07-09 17:28:30] [INFO] Copie: Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-09 17:28:30] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-09 17:28:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-09 17:28:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-07-09 17:28:31] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/B-Clients/
+[2026-07-09 17:28:31] [INFO] Copie: Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-09 17:28:32] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-09 17:28:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-09 17:28:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-07-09 17:28:32] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/C-Services/
+[2026-07-09 17:28:32] [INFO] Copie: Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-09 17:28:33] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-09 17:28:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-09 17:28:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-07-09 17:28:34] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/D-Projets/
+[2026-07-09 17:28:34] [INFO] Copie: Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-09 17:28:35] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-09 17:28:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-09 17:28:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-07-09 17:28:35] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/ZZ-Archives/
+[2026-07-09 17:28:35] [INFO] Copie: Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-09 17:28:36] [SUCCESS] Dossier créé: Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-09 17:28:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-09 17:28:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-07-09 17:28:37] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/
+[2026-07-09 17:28:37] [INFO] Copie: Drive ECHOLINE/03-Customer Care
+[2026-07-09 17:28:38] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care
+[2026-07-09 17:28:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care
+[2026-07-09 17:28:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care
+[2026-07-09 17:28:38] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/
+[2026-07-09 17:28:38] [INFO] Copie: Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-09 17:28:39] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-09 17:28:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-09 17:28:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-07-09 17:28:40] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone/
+[2026-07-09 17:28:40] [INFO] Copie: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-07-09 17:28:41] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-07-09 17:28:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-07-09 17:28:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-07-09 17:28:42] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/
+[2026-07-09 17:28:42] [INFO] Copie: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-09 17:28:43] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-09 17:28:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-09 17:28:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-07-09 17:28:43] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/
+[2026-07-09 17:28:43] [INFO] Copie: Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-09 17:28:44] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-09 17:28:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-09 17:28:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-07-09 17:28:45] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/
+[2026-07-09 17:28:45] [INFO] Copie: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-09 17:28:46] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-09 17:28:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-09 17:28:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-07-09 17:28:46] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/
+[2026-07-09 17:28:46] [INFO] Copie: Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-09 17:28:48] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-09 17:28:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-09 17:28:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-07-09 17:28:48] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/
+[2026-07-09 17:28:48] [INFO] Copie: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-09 17:28:49] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-09 17:28:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-09 17:28:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-07-09 17:28:50] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/
+[2026-07-09 17:28:50] [INFO] Copie: Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-09 17:28:51] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-09 17:28:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-09 17:28:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-07-09 17:28:51] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/
+[2026-07-09 17:28:51] [INFO] Copie: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-09 17:28:53] [SUCCESS] Dossier créé: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-09 17:28:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-09 17:28:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-07-09 17:28:53] [INFO] Traitement: /Drive ECHOLINE/04-Community management/
+[2026-07-09 17:28:53] [INFO] Copie: Drive ECHOLINE/04-Community management
+[2026-07-09 17:28:55] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management
+[2026-07-09 17:28:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management
+[2026-07-09 17:28:56] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management
+[2026-07-09 17:28:56] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/
+[2026-07-09 17:28:56] [INFO] Copie: Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-09 17:28:57] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-09 17:28:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-09 17:28:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-07-09 17:28:57] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/
+[2026-07-09 17:28:57] [INFO] Copie: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-09 17:28:58] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-09 17:28:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-09 17:28:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-07-09 17:28:59] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/
+[2026-07-09 17:28:59] [INFO] Copie: Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-09 17:29:00] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-09 17:29:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-09 17:29:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-07-09 17:29:01] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/
+[2026-07-09 17:29:01] [INFO] Copie: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-09 17:29:02] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-09 17:29:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-09 17:29:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-07-09 17:29:03] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/
+[2026-07-09 17:29:03] [INFO] Copie: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-09 17:29:04] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-09 17:29:04] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-09 17:29:04] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-07-09 17:29:04] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/
+[2026-07-09 17:29:04] [INFO] Copie: Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-09 17:29:05] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-09 17:29:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-09 17:29:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-07-09 17:29:06] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/
+[2026-07-09 17:29:06] [INFO] Copie: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-09 17:29:07] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-09 17:29:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-09 17:29:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-07-09 17:29:07] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/
+[2026-07-09 17:29:07] [INFO] Copie: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-09 17:29:08] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-09 17:29:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-09 17:29:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-07-09 17:29:09] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/
+[2026-07-09 17:29:09] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-09 17:29:10] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-09 17:29:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-09 17:29:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-07-09 17:29:11] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/
+[2026-07-09 17:29:11] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-09 17:29:12] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-09 17:29:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-09 17:29:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-07-09 17:29:12] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/
+[2026-07-09 17:29:12] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-09 17:29:14] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-09 17:29:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-09 17:29:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-07-09 17:29:14] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT/
+[2026-07-09 17:29:14] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-09 17:29:15] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-09 17:29:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-09 17:29:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-07-09 17:29:16] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/
+[2026-07-09 17:29:16] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-09 17:29:17] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-09 17:29:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-09 17:29:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-07-09 17:29:18] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/
+[2026-07-09 17:29:18] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-09 17:29:19] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-09 17:29:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-09 17:29:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-07-09 17:29:19] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Photos/
+[2026-07-09 17:29:19] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-09 17:29:20] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-09 17:29:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-09 17:29:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-07-09 17:29:21] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/
+[2026-07-09 17:29:21] [INFO] Copie: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-09 17:29:22] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-09 17:29:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-09 17:29:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-07-09 17:29:23] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/
+[2026-07-09 17:29:23] [INFO] Copie: Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-09 17:29:24] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-09 17:29:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-09 17:29:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-07-09 17:29:24] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires/
+[2026-07-09 17:29:24] [INFO] Copie: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-09 17:29:25] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-09 17:29:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-09 17:29:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-07-09 17:29:26] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/
+[2026-07-09 17:29:26] [INFO] Copie: Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-09 17:29:27] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-09 17:29:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-09 17:29:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-07-09 17:29:27] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/
+[2026-07-09 17:29:27] [INFO] Copie: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-09 17:29:28] [SUCCESS] Dossier créé: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-09 17:29:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-09 17:29:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-07-09 17:29:29] [INFO] Traitement: /Drive ECHOLINE/05-Sales/
+[2026-07-09 17:29:29] [INFO] Copie: Drive ECHOLINE/05-Sales
+[2026-07-09 17:29:30] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales
+[2026-07-09 17:29:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales
+[2026-07-09 17:29:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales
+[2026-07-09 17:29:30] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/
+[2026-07-09 17:29:30] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-09 17:29:31] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-09 17:29:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-09 17:29:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-07-09 17:29:32] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/
+[2026-07-09 17:29:32] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-09 17:29:33] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-09 17:29:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-09 17:29:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-07-09 17:29:34] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/
+[2026-07-09 17:29:34] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-09 17:29:35] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-09 17:29:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-09 17:29:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-07-09 17:29:35] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/APAG/
+[2026-07-09 17:29:35] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-09 17:29:36] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-09 17:29:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-09 17:29:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-07-09 17:29:37] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/
+[2026-07-09 17:29:37] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-09 17:29:38] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-09 17:29:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-09 17:29:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-07-09 17:29:38] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/
+[2026-07-09 17:29:38] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-09 17:29:39] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-09 17:29:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-09 17:29:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-07-09 17:29:40] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/
+[2026-07-09 17:29:40] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-09 17:29:41] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-09 17:29:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-09 17:29:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-07-09 17:29:42] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/
+[2026-07-09 17:29:42] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-09 17:29:43] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-09 17:29:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-09 17:29:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-07-09 17:29:43] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/
+[2026-07-09 17:29:43] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-09 17:29:44] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-09 17:29:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-09 17:29:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-07-09 17:29:45] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/
+[2026-07-09 17:29:45] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-09 17:29:46] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-09 17:29:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-09 17:29:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-07-09 17:29:47] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/
+[2026-07-09 17:29:47] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-09 17:29:48] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-09 17:29:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-09 17:29:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-07-09 17:29:48] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/
+[2026-07-09 17:29:48] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-09 17:29:49] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-09 17:29:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-09 17:29:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-07-09 17:29:50] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CPCU/
+[2026-07-09 17:29:50] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-09 17:29:51] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-09 17:29:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-09 17:29:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-07-09 17:29:52] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/
+[2026-07-09 17:29:52] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-09 17:29:53] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-09 17:29:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-09 17:29:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-07-09 17:29:53] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/
+[2026-07-09 17:29:53] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-09 17:29:54] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-09 17:29:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-09 17:29:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-07-09 17:29:55] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIS/
+[2026-07-09 17:29:55] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-09 17:29:56] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-09 17:29:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-09 17:29:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-07-09 17:29:57] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/
+[2026-07-09 17:29:57] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-09 17:29:58] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-09 17:29:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-09 17:29:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-07-09 17:29:58] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/
+[2026-07-09 17:29:58] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-09 17:29:59] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-09 17:30:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-09 17:30:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-07-09 17:30:00] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/
+[2026-07-09 17:30:00] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-09 17:30:01] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-09 17:30:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-09 17:30:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-07-09 17:30:02] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC/
+[2026-07-09 17:30:02] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-07-09 17:30:03] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-07-09 17:30:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-07-09 17:30:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-07-09 17:30:03] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/
+[2026-07-09 17:30:03] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-09 17:30:04] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-09 17:30:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-09 17:30:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-07-09 17:30:05] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/
+[2026-07-09 17:30:05] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-09 17:30:06] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-09 17:30:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-09 17:30:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-07-09 17:30:08] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/
+[2026-07-09 17:30:08] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-09 17:30:09] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-09 17:30:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-09 17:30:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-07-09 17:30:09] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/
+[2026-07-09 17:30:09] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-09 17:30:10] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-09 17:30:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-09 17:30:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-07-09 17:30:11] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/
+[2026-07-09 17:30:11] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-09 17:30:12] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-09 17:30:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-09 17:30:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-07-09 17:30:12] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/
+[2026-07-09 17:30:12] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-09 17:30:14] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-09 17:30:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-09 17:30:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-07-09 17:30:14] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/
+[2026-07-09 17:30:14] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-09 17:30:15] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-09 17:30:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-09 17:30:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-07-09 17:30:16] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/
+[2026-07-09 17:30:16] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-09 17:30:17] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-09 17:30:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-09 17:30:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-07-09 17:30:17] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LDMI/
+[2026-07-09 17:30:17] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-09 17:30:19] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-09 17:30:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-09 17:30:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-07-09 17:30:20] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/
+[2026-07-09 17:30:20] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-09 17:30:21] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-09 17:30:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-09 17:30:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-07-09 17:30:22] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/
+[2026-07-09 17:30:22] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-09 17:30:23] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-09 17:30:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-09 17:30:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-07-09 17:30:23] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/
+[2026-07-09 17:30:23] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-09 17:30:25] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-09 17:30:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-09 17:30:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-07-09 17:30:25] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/
+[2026-07-09 17:30:25] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-09 17:30:26] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-09 17:30:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-09 17:30:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-07-09 17:30:27] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/
+[2026-07-09 17:30:27] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-09 17:30:28] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-09 17:30:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-09 17:30:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-07-09 17:30:28] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/
+[2026-07-09 17:30:29] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-09 17:30:30] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-09 17:30:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-09 17:30:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-07-09 17:30:30] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ/
+[2026-07-09 17:30:30] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-07-09 17:30:32] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-07-09 17:30:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-07-09 17:30:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-07-09 17:30:32] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/
+[2026-07-09 17:30:32] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-09 17:30:33] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-09 17:30:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-09 17:30:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-07-09 17:30:34] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/
+[2026-07-09 17:30:34] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-09 17:30:35] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-09 17:30:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-09 17:30:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-07-09 17:30:36] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/
+[2026-07-09 17:30:36] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-09 17:30:37] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-09 17:30:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-09 17:30:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-07-09 17:30:37] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/
+[2026-07-09 17:30:37] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-09 17:30:39] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-09 17:30:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-09 17:30:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-07-09 17:30:39] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/
+[2026-07-09 17:30:39] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-09 17:30:40] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-09 17:30:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-09 17:30:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-07-09 17:30:41] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/
+[2026-07-09 17:30:41] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-09 17:30:42] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-09 17:30:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-09 17:30:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-07-09 17:30:42] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M/
+[2026-07-09 17:30:42] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-07-09 17:30:43] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-07-09 17:30:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-07-09 17:30:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-07-09 17:30:44] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ/
+[2026-07-09 17:30:44] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-07-09 17:30:45] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-07-09 17:30:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-07-09 17:30:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-07-09 17:30:46] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SKF/
+[2026-07-09 17:30:46] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-09 17:30:47] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-09 17:30:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-09 17:30:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-07-09 17:30:47] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/
+[2026-07-09 17:30:47] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-09 17:30:49] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-09 17:30:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-09 17:30:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-07-09 17:30:49] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/
+[2026-07-09 17:30:49] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-09 17:30:50] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-09 17:30:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-09 17:30:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-07-09 17:30:51] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/
+[2026-07-09 17:30:51] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-09 17:30:52] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-09 17:30:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-09 17:30:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-07-09 17:30:53] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/
+[2026-07-09 17:30:53] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-09 17:30:54] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-09 17:30:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-09 17:30:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-07-09 17:30:54] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/
+[2026-07-09 17:30:54] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-09 17:30:55] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-09 17:30:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-09 17:30:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN
+[2026-07-09 17:30:58] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/
+[2026-07-09 17:30:58] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-09 17:30:59] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-09 17:30:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-09 17:30:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT
+[2026-07-09 17:30:59] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/
+[2026-07-09 17:31:00] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-09 17:31:01] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-09 17:31:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-09 17:31:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO
+[2026-07-09 17:31:01] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/URBYN/
+[2026-07-09 17:31:01] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-09 17:31:03] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-09 17:31:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-09 17:31:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/URBYN
+[2026-07-09 17:31:03] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/
+[2026-07-09 17:31:03] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-09 17:31:04] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-09 17:31:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-09 17:31:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY
+[2026-07-09 17:31:05] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/
+[2026-07-09 17:31:05] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-09 17:31:06] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-09 17:31:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-09 17:31:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING
+[2026-07-09 17:31:07] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/
+[2026-07-09 17:31:07] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-09 17:31:08] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-09 17:31:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-09 17:31:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES
+[2026-07-09 17:31:08] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/YZEE/
+[2026-07-09 17:31:08] [INFO] Copie: Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-09 17:31:10] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-09 17:31:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-09 17:31:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/A-Prospects/YZEE
+[2026-07-09 17:31:10] [INFO] Traitement: /Drive ECHOLINE/05-Sales/B-Templates/
+[2026-07-09 17:31:10] [INFO] Copie: Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-09 17:31:11] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-09 17:31:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-09 17:31:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/B-Templates
+[2026-07-09 17:31:12] [INFO] Traitement: /Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/
+[2026-07-09 17:31:12] [INFO] Copie: Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-09 17:31:13] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-09 17:31:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-09 17:31:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation
+[2026-07-09 17:31:13] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/
+[2026-07-09 17:31:13] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-09 17:31:14] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-09 17:31:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-09 17:31:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package
+[2026-07-09 17:31:14] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/
+[2026-07-09 17:31:14] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-09 17:31:16] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-09 17:31:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-09 17:31:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/ARTHUR
+[2026-07-09 17:31:16] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/
+[2026-07-09 17:31:16] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-09 17:31:18] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-09 17:31:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-09 17:31:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/AURELIEN
+[2026-07-09 17:31:18] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/CELIA/
+[2026-07-09 17:31:18] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-09 17:31:19] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-09 17:31:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-09 17:31:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/CELIA
+[2026-07-09 17:31:20] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/
+[2026-07-09 17:31:20] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-09 17:31:21] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-09 17:31:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-09 17:31:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE
+[2026-07-09 17:31:21] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/
+[2026-07-09 17:31:21] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-09 17:31:23] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-09 17:31:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-09 17:31:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/GAYLORD
+[2026-07-09 17:31:23] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/JEREMY/
+[2026-07-09 17:31:23] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-09 17:31:24] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-09 17:31:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-09 17:31:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/JEREMY
+[2026-07-09 17:31:25] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/LAURA/
+[2026-07-09 17:31:25] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-09 17:31:26] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-09 17:31:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-09 17:31:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/LAURA
+[2026-07-09 17:31:27] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/
+[2026-07-09 17:31:27] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-09 17:31:28] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-09 17:31:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-09 17:31:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/SOPHIE
+[2026-07-09 17:31:29] [INFO] Traitement: /Drive ECHOLINE/05-Sales/Communication Package/YANN/
+[2026-07-09 17:31:29] [INFO] Copie: Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-09 17:31:30] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-09 17:31:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-09 17:31:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/Communication Package/YANN
+[2026-07-09 17:31:30] [INFO] Traitement: /Drive ECHOLINE/05-Sales/ZZ-Archives/
+[2026-07-09 17:31:30] [INFO] Copie: Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-09 17:31:31] [SUCCESS] Dossier créé: Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-09 17:31:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-09 17:31:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/05-Sales/ZZ-Archives
+[2026-07-09 17:31:32] [INFO] Traitement: /Drive ECHOLINE/06-Community/
+[2026-07-09 17:31:32] [INFO] Copie: Drive ECHOLINE/06-Community
+[2026-07-09 17:31:33] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community
+[2026-07-09 17:31:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community
+[2026-07-09 17:31:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community
+[2026-07-09 17:31:33] [INFO] Traitement: /Drive ECHOLINE/06-Community/ADRAR FORMATION/
+[2026-07-09 17:31:33] [INFO] Copie: Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-09 17:31:34] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-09 17:31:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-09 17:31:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/ADRAR FORMATION
+[2026-07-09 17:31:35] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/
+[2026-07-09 17:31:35] [INFO] Copie: Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-09 17:31:36] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-09 17:31:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-09 17:31:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS
+[2026-07-09 17:31:36] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/
+[2026-07-09 17:31:36] [INFO] Copie: Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-09 17:31:37] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-09 17:31:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-09 17:31:38] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Devis
+[2026-07-09 17:31:38] [INFO] Traitement: /Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/
+[2026-07-09 17:31:38] [INFO] Copie: Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-09 17:31:39] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-09 17:31:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-09 17:31:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat
+[2026-07-09 17:31:39] [INFO] Traitement: /Drive ECHOLINE/06-Community/FRANCE SI/
+[2026-07-09 17:31:39] [INFO] Copie: Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-09 17:31:40] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-09 17:31:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-09 17:31:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/FRANCE SI
+[2026-07-09 17:31:41] [INFO] Traitement: /Drive ECHOLINE/06-Community/GAMMA SOFTWARE/
+[2026-07-09 17:31:41] [INFO] Copie: Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-09 17:31:42] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-09 17:31:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-09 17:31:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/GAMMA SOFTWARE
+[2026-07-09 17:31:42] [INFO] Traitement: /Drive ECHOLINE/06-Community/KNOWLLENCE/
+[2026-07-09 17:31:42] [INFO] Copie: Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-09 17:31:43] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-09 17:31:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-09 17:31:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE
+[2026-07-09 17:31:44] [INFO] Traitement: /Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/
+[2026-07-09 17:31:44] [INFO] Copie: Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-09 17:31:45] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-09 17:31:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-09 17:31:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat
+[2026-07-09 17:31:46] [INFO] Traitement: /Drive ECHOLINE/06-Community/LOOTIBOX/
+[2026-07-09 17:31:46] [INFO] Copie: Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-09 17:31:47] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-09 17:31:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-09 17:31:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/LOOTIBOX
+[2026-07-09 17:31:47] [INFO] Traitement: /Drive ECHOLINE/06-Community/QUALIPRO/
+[2026-07-09 17:31:47] [INFO] Copie: Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-09 17:31:48] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-09 17:31:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-09 17:31:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/QUALIPRO
+[2026-07-09 17:31:49] [INFO] Traitement: /Drive ECHOLINE/06-Community/QUALIPRO/Contrat/
+[2026-07-09 17:31:49] [INFO] Copie: Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-09 17:31:50] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-09 17:31:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-09 17:31:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/QUALIPRO/Contrat
+[2026-07-09 17:31:51] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/
+[2026-07-09 17:31:51] [INFO] Copie: Drive ECHOLINE/06-Community/TEEO
+[2026-07-09 17:31:52] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO
+[2026-07-09 17:31:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO
+[2026-07-09 17:31:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO
+[2026-07-09 17:31:52] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/Archive/
+[2026-07-09 17:31:52] [INFO] Copie: Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-09 17:31:53] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-09 17:31:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-09 17:31:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO/Archive
+[2026-07-09 17:31:54] [INFO] Traitement: /Drive ECHOLINE/06-Community/TEEO/Partenariat/
+[2026-07-09 17:31:54] [INFO] Copie: Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-09 17:31:55] [SUCCESS] Dossier créé: Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-09 17:31:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-09 17:31:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/06-Community/TEEO/Partenariat
+[2026-07-09 17:31:55] [INFO] Traitement: /Drive ECHOLINE/07-Tech/
+[2026-07-09 17:31:55] [INFO] Copie: Drive ECHOLINE/07-Tech
+[2026-07-09 17:31:56] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech
+[2026-07-09 17:31:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech
+[2026-07-09 17:31:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech
+[2026-07-09 17:31:57] [INFO] Traitement: /Drive ECHOLINE/07-Tech/A-Product management/
+[2026-07-09 17:31:57] [INFO] Copie: Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-09 17:31:58] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-09 17:31:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-09 17:31:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/A-Product management
+[2026-07-09 17:31:58] [INFO] Traitement: /Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/
+[2026-07-09 17:31:58] [INFO] Copie: Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-09 17:31:59] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-09 17:32:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-09 17:32:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives
+[2026-07-09 17:32:00] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/
+[2026-07-09 17:32:00] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-09 17:32:01] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-09 17:32:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-09 17:32:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup
+[2026-07-09 17:32:01] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Alexandria/
+[2026-07-09 17:32:01] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-09 17:32:03] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-09 17:32:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-09 17:32:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Alexandria
+[2026-07-09 17:32:03] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/
+[2026-07-09 17:32:03] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-09 17:32:04] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-09 17:32:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-09 17:32:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab
+[2026-07-09 17:32:05] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/BDD/
+[2026-07-09 17:32:05] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-09 17:32:06] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-09 17:32:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-09 17:32:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/BDD
+[2026-07-09 17:32:06] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Infra/
+[2026-07-09 17:32:06] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-09 17:32:07] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-09 17:32:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-09 17:32:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Infra
+[2026-07-09 17:32:08] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Maquettes/
+[2026-07-09 17:32:08] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-09 17:32:09] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-09 17:32:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-09 17:32:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Maquettes
+[2026-07-09 17:32:10] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/
+[2026-07-09 17:32:10] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-09 17:32:11] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-09 17:32:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-09 17:32:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022
+[2026-07-09 17:32:11] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/QSE/
+[2026-07-09 17:32:11] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-09 17:32:12] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-09 17:32:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-09 17:32:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/QSE
+[2026-07-09 17:32:13] [INFO] Traitement: /Drive ECHOLINE/07-Tech/B-Backup/RFP/
+[2026-07-09 17:32:13] [INFO] Copie: Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-09 17:32:14] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-09 17:32:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-09 17:32:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/B-Backup/RFP
+[2026-07-09 17:32:14] [INFO] Traitement: /Drive ECHOLINE/07-Tech/C-Cybersécurité/
+[2026-07-09 17:32:14] [INFO] Copie: Drive ECHOLINE/07-Tech/C-Cybersécurité
+[2026-07-09 17:32:15] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/C-Cybersécurité
+[2026-07-09 17:32:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/C-Cybersécurité
+[2026-07-09 17:32:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/C-Cybersécurité
+[2026-07-09 17:32:16] [INFO] Traitement: /Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/
+[2026-07-09 17:32:16] [INFO] Copie: Drive ECHOLINE/07-Tech/C-Cybersécurité/2022
+[2026-07-09 17:32:17] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/C-Cybersécurité/2022
+[2026-07-09 17:32:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/C-Cybersécurité/2022
+[2026-07-09 17:32:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/C-Cybersécurité/2022
+[2026-07-09 17:32:18] [INFO] Traitement: /Drive ECHOLINE/07-Tech/OpenAI/
+[2026-07-09 17:32:18] [INFO] Copie: Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-09 17:32:19] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-09 17:32:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-09 17:32:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/OpenAI
+[2026-07-09 17:32:19] [INFO] Traitement: /Drive ECHOLINE/07-Tech/ZZ-Archives/
+[2026-07-09 17:32:19] [INFO] Copie: Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-09 17:32:20] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-09 17:32:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-09 17:32:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives
+[2026-07-09 17:32:21] [INFO] Traitement: /Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/
+[2026-07-09 17:32:21] [INFO] Copie: Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-09 17:32:22] [SUCCESS] Dossier créé: Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-09 17:32:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-09 17:32:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA
+[2026-07-09 17:32:23] [INFO] Traitement: /Drive ECHOLINE/08-Design/
+[2026-07-09 17:32:23] [INFO] Copie: Drive ECHOLINE/08-Design
+[2026-07-09 17:32:23] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design
+[2026-07-09 17:32:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design
+[2026-07-09 17:32:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design
+[2026-07-09 17:32:24] [INFO] Traitement: /Drive ECHOLINE/08-Design/App ECHOLINE/
+[2026-07-09 17:32:24] [INFO] Copie: Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-09 17:32:25] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-09 17:32:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-09 17:32:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design/App ECHOLINE
+[2026-07-09 17:32:25] [INFO] Traitement: /Drive ECHOLINE/08-Design/ZZ-Archives/
+[2026-07-09 17:32:25] [INFO] Copie: Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-09 17:32:26] [SUCCESS] Dossier créé: Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-09 17:32:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-09 17:32:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/08-Design/ZZ-Archives
+[2026-07-09 17:32:27] [INFO] Traitement: /Drive ECHOLINE/09-QSE/
+[2026-07-09 17:32:27] [INFO] Copie: Drive ECHOLINE/09-QSE
+[2026-07-09 17:32:28] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE
+[2026-07-09 17:32:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE
+[2026-07-09 17:32:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE
+[2026-07-09 17:32:28] [INFO] Traitement: /Drive ECHOLINE/09-QSE/A-Analyse environnementale/
+[2026-07-09 17:32:28] [INFO] Copie: Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-09 17:32:29] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-09 17:32:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-09 17:32:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/A-Analyse environnementale
+[2026-07-09 17:32:30] [INFO] Traitement: /Drive ECHOLINE/09-QSE/B-Bilan carbone/
+[2026-07-09 17:32:30] [INFO] Copie: Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-09 17:32:31] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-09 17:32:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-09 17:32:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/B-Bilan carbone
+[2026-07-09 17:32:32] [INFO] Traitement: /Drive ECHOLINE/09-QSE/C-Document unique/
+[2026-07-09 17:32:32] [INFO] Copie: Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-09 17:32:33] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-09 17:32:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-09 17:32:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/C-Document unique
+[2026-07-09 17:32:33] [INFO] Traitement: /Drive ECHOLINE/09-QSE/ZZ-Archives/
+[2026-07-09 17:32:33] [INFO] Copie: Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-09 17:32:34] [SUCCESS] Dossier créé: Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-09 17:32:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-09 17:32:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/09-QSE/ZZ-Archives
+[2026-07-09 17:32:35] [INFO] Traitement: /Drive ECHOLINE/10-Pilotage/
+[2026-07-09 17:32:35] [INFO] Copie: Drive ECHOLINE/10-Pilotage
+[2026-07-09 17:32:36] [SUCCESS] Dossier créé: Drive ECHOLINE/10-Pilotage
+[2026-07-09 17:32:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/10-Pilotage
+[2026-07-09 17:32:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/10-Pilotage
+[2026-07-09 17:32:36] [INFO] Traitement: /Drive ECHOLINE/10-Pilotage/ZZ-Archives/
+[2026-07-09 17:32:36] [INFO] Copie: Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-09 17:32:37] [SUCCESS] Dossier créé: Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-09 17:32:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-09 17:32:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/10-Pilotage/ZZ-Archives
+[2026-07-09 17:32:37] [INFO] Traitement: /Drive ECHOLINE/11-Admin/
+[2026-07-09 17:32:37] [INFO] Copie: Drive ECHOLINE/11-Admin
+[2026-07-09 17:32:38] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin
+[2026-07-09 17:32:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin
+[2026-07-09 17:32:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin
+[2026-07-09 17:32:39] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Assurance/
+[2026-07-09 17:32:39] [INFO] Copie: Drive ECHOLINE/11-Admin/Assurance
+[2026-07-09 17:32:40] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Assurance
+[2026-07-09 17:32:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Assurance
+[2026-07-09 17:32:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Assurance
+[2026-07-09 17:32:40] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Banque/
+[2026-07-09 17:32:40] [INFO] Copie: Drive ECHOLINE/11-Admin/Banque
+[2026-07-09 17:32:41] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Banque
+[2026-07-09 17:32:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Banque
+[2026-07-09 17:32:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Banque
+[2026-07-09 17:32:42] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Comptabilité/
+[2026-07-09 17:32:42] [INFO] Copie: Drive ECHOLINE/11-Admin/Comptabilité
+[2026-07-09 17:32:43] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Comptabilité
+[2026-07-09 17:32:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Comptabilité
+[2026-07-09 17:32:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Comptabilité
+[2026-07-09 17:32:43] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Domiciliation/
+[2026-07-09 17:32:43] [INFO] Copie: Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-09 17:32:44] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-09 17:32:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-09 17:32:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Domiciliation
+[2026-07-09 17:32:45] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Kbis et statuts/
+[2026-07-09 17:32:45] [INFO] Copie: Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-09 17:32:46] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-09 17:32:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-09 17:32:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Kbis et statuts
+[2026-07-09 17:32:46] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Marque/
+[2026-07-09 17:32:46] [INFO] Copie: Drive ECHOLINE/11-Admin/Marque
+[2026-07-09 17:32:47] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Marque
+[2026-07-09 17:32:47] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Marque
+[2026-07-09 17:32:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Marque
+[2026-07-09 17:32:48] [INFO] Traitement: /Drive ECHOLINE/11-Admin/RGPD/
+[2026-07-09 17:32:48] [INFO] Copie: Drive ECHOLINE/11-Admin/RGPD
+[2026-07-09 17:32:49] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/RGPD
+[2026-07-09 17:32:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/RGPD
+[2026-07-09 17:32:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/RGPD
+[2026-07-09 17:32:49] [INFO] Traitement: /Drive ECHOLINE/11-Admin/Taxe d_apprentissage/
+[2026-07-09 17:32:49] [INFO] Copie: Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-09 17:32:50] [SUCCESS] Dossier créé: Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-09 17:32:50] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-09 17:32:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/11-Admin/Taxe d_apprentissage
+[2026-07-09 17:32:51] [INFO] Traitement: /Drive ECHOLINE/12-HR/
+[2026-07-09 17:32:51] [INFO] Copie: Drive ECHOLINE/12-HR
+[2026-07-09 17:32:51] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR
+[2026-07-09 17:32:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR
+[2026-07-09 17:32:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR
+[2026-07-09 17:32:52] [INFO] Traitement: /Drive ECHOLINE/12-HR/Cabinet de paie/
+[2026-07-09 17:32:52] [INFO] Copie: Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-09 17:32:53] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-09 17:32:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-09 17:32:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Cabinet de paie
+[2026-07-09 17:32:54] [INFO] Traitement: /Drive ECHOLINE/12-HR/Cabinets de recrutement/
+[2026-07-09 17:32:54] [INFO] Copie: Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-09 17:32:55] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-09 17:32:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-09 17:32:55] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Cabinets de recrutement
+[2026-07-09 17:32:55] [INFO] Traitement: /Drive ECHOLINE/12-HR/États mensuels/
+[2026-07-09 17:32:55] [INFO] Copie: Drive ECHOLINE/12-HR/États mensuels
+[2026-07-09 17:32:56] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/États mensuels
+[2026-07-09 17:32:56] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/États mensuels
+[2026-07-09 17:32:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/États mensuels
+[2026-07-09 17:32:57] [INFO] Traitement: /Drive ECHOLINE/12-HR/Gestion des congés/
+[2026-07-09 17:32:57] [INFO] Copie: Drive ECHOLINE/12-HR/Gestion des congés
+[2026-07-09 17:32:58] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Gestion des congés
+[2026-07-09 17:32:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Gestion des congés
+[2026-07-09 17:32:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Gestion des congés
+[2026-07-09 17:32:58] [INFO] Traitement: /Drive ECHOLINE/12-HR/Modèles/
+[2026-07-09 17:32:58] [INFO] Copie: Drive ECHOLINE/12-HR/Modèles
+[2026-07-09 17:32:59] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Modèles
+[2026-07-09 17:32:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Modèles
+[2026-07-09 17:33:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Modèles
+[2026-07-09 17:33:00] [INFO] Traitement: /Drive ECHOLINE/12-HR/Mutuelle/
+[2026-07-09 17:33:00] [INFO] Copie: Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-09 17:33:01] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-09 17:33:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-09 17:33:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Mutuelle
+[2026-07-09 17:33:01] [INFO] Traitement: /Drive ECHOLINE/12-HR/OPCO/
+[2026-07-09 17:33:01] [INFO] Copie: Drive ECHOLINE/12-HR/OPCO
+[2026-07-09 17:33:02] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/OPCO
+[2026-07-09 17:33:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/OPCO
+[2026-07-09 17:33:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/OPCO
+[2026-07-09 17:33:03] [INFO] Traitement: /Drive ECHOLINE/12-HR/Salariés/
+[2026-07-09 17:33:03] [INFO] Copie: Drive ECHOLINE/12-HR/Salariés
+[2026-07-09 17:33:04] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Salariés
+[2026-07-09 17:33:04] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Salariés
+[2026-07-09 17:33:04] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Salariés
+[2026-07-09 17:33:04] [INFO] Traitement: /Drive ECHOLINE/12-HR/Test technique/
+[2026-07-09 17:33:04] [INFO] Copie: Drive ECHOLINE/12-HR/Test technique
+[2026-07-09 17:33:05] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/Test technique
+[2026-07-09 17:33:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Test technique
+[2026-07-09 17:33:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/Test technique
+[2026-07-09 17:33:06] [INFO] Traitement: /Drive ECHOLINE/12-HR/URSSAF/
+[2026-07-09 17:33:06] [INFO] Copie: Drive ECHOLINE/12-HR/URSSAF
+[2026-07-09 17:33:07] [SUCCESS] Dossier créé: Drive ECHOLINE/12-HR/URSSAF
+[2026-07-09 17:33:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/URSSAF
+[2026-07-09 17:33:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/12-HR/URSSAF
+[2026-07-09 17:33:07] [INFO] Traitement: /Drive ECHOLINE/13-Karnov Group/
+[2026-07-09 17:33:07] [INFO] Copie: Drive ECHOLINE/13-Karnov Group
+[2026-07-09 17:33:08] [SUCCESS] Dossier créé: Drive ECHOLINE/13-Karnov Group
+[2026-07-09 17:33:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/13-Karnov Group
+[2026-07-09 17:33:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/13-Karnov Group
+[2026-07-09 17:33:09] [INFO] Traitement: /Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/
+[2026-07-09 17:33:09] [INFO] Copie: Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-09 17:33:10] [SUCCESS] Dossier créé: Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-09 17:33:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-09 17:33:10] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia
+[2026-07-09 17:33:10] [INFO] Traitement: /Drive ECHOLINE/14-Strategic Partners/
+[2026-07-09 17:33:10] [INFO] Copie: Drive ECHOLINE/14-Strategic Partners
+[2026-07-09 17:33:11] [SUCCESS] Dossier créé: Drive ECHOLINE/14-Strategic Partners
+[2026-07-09 17:33:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/14-Strategic Partners
+[2026-07-09 17:33:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/14-Strategic Partners
+[2026-07-09 17:33:12] [INFO] Traitement: /Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/
+[2026-07-09 17:33:12] [INFO] Copie: Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-09 17:33:13] [SUCCESS] Dossier créé: Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-09 17:33:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-09 17:33:13] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)
+[2026-07-09 17:33:13] [INFO] Traitement: /Drive ECHOLINE/PB drive/
+[2026-07-09 17:33:13] [INFO] Copie: Drive ECHOLINE/PB drive
+[2026-07-09 17:33:14] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive
+[2026-07-09 17:33:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive
+[2026-07-09 17:33:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive
+[2026-07-09 17:33:14] [INFO] Traitement: /Drive ECHOLINE/PB drive/00 - Archives/
+[2026-07-09 17:33:14] [INFO] Copie: Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-09 17:33:15] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-09 17:33:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-09 17:33:16] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/00 - Archives
+[2026-07-09 17:33:16] [INFO] Traitement: /Drive ECHOLINE/PB drive/01 - Contrats/
+[2026-07-09 17:33:16] [INFO] Copie: Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-09 17:33:17] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-09 17:33:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-09 17:33:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/01 - Contrats
+[2026-07-09 17:33:17] [INFO] Traitement: /Drive ECHOLINE/PB drive/01-Contrats & devis/
+[2026-07-09 17:33:17] [INFO] Copie: Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-09 17:33:18] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-09 17:33:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-09 17:33:19] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/01-Contrats & devis
+[2026-07-09 17:33:19] [INFO] Traitement: /Drive ECHOLINE/PB drive/02 - Procédures et modèles/
+[2026-07-09 17:33:19] [INFO] Copie: Drive ECHOLINE/PB drive/02 - Procédures et modèles
+[2026-07-09 17:33:20] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/02 - Procédures et modèles
+[2026-07-09 17:33:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/02 - Procédures et modèles
+[2026-07-09 17:33:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/02 - Procédures et modèles
+[2026-07-09 17:33:21] [INFO] Traitement: /Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille/
+[2026-07-09 17:33:21] [INFO] Copie: Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-09 17:33:22] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-09 17:33:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-09 17:33:22] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/03 - Doc. opérationnelle - Veille
+[2026-07-09 17:33:22] [INFO] Traitement: /Drive ECHOLINE/PB drive/04 - Administratif/
+[2026-07-09 17:33:22] [INFO] Copie: Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-09 17:33:23] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-09 17:33:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-09 17:33:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/04 - Administratif
+[2026-07-09 17:33:24] [INFO] Traitement: /Drive ECHOLINE/PB drive/06-Check-List contrôle/
+[2026-07-09 17:33:24] [INFO] Copie: Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-09 17:33:25] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-09 17:33:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-09 17:33:27] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/06-Check-List contrôle
+[2026-07-09 17:33:27] [INFO] Traitement: /Drive ECHOLINE/PB drive/1- Tableaux de veille/
+[2026-07-09 17:33:27] [INFO] Copie: Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-09 17:33:28] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-09 17:33:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-09 17:33:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/1- Tableaux de veille
+[2026-07-09 17:33:28] [INFO] Traitement: /Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/
+[2026-07-09 17:33:28] [INFO] Copie: Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-09 17:33:29] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-09 17:33:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-09 17:33:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/3 - Archives Lettre d'information
+[2026-07-09 17:33:30] [INFO] Traitement: /Drive ECHOLINE/PB drive/4- Documentation juridique/
+[2026-07-09 17:33:30] [INFO] Copie: Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-09 17:33:31] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-09 17:33:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-09 17:33:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/4- Documentation juridique
+[2026-07-09 17:33:31] [INFO] Traitement: /Drive ECHOLINE/PB drive/5- Manuel utilisateurs/
+[2026-07-09 17:33:31] [INFO] Copie: Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-09 17:33:32] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-09 17:33:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-09 17:33:33] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/5- Manuel utilisateurs
+[2026-07-09 17:33:33] [INFO] Traitement: /Drive ECHOLINE/PB drive/6- Fiches thématiques/
+[2026-07-09 17:33:33] [INFO] Copie: Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-09 17:33:34] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-09 17:33:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-09 17:33:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/6- Fiches thématiques
+[2026-07-09 17:33:34] [INFO] Traitement: /Drive ECHOLINE/PB drive/ARCHIVES/
+[2026-07-09 17:33:34] [INFO] Copie: Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-09 17:33:35] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-09 17:33:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-09 17:33:36] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ARCHIVES
+[2026-07-09 17:33:36] [INFO] Traitement: /Drive ECHOLINE/PB drive/ARTE/
+[2026-07-09 17:33:36] [INFO] Copie: Drive ECHOLINE/PB drive/ARTE
+[2026-07-09 17:33:37] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ARTE
+[2026-07-09 17:33:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ARTE
+[2026-07-09 17:33:37] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ARTE
+[2026-07-09 17:33:37] [INFO] Traitement: /Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/
+[2026-07-09 17:33:37] [INFO] Copie: Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-09 17:33:38] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-09 17:33:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-09 17:33:39] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)
+[2026-07-09 17:33:39] [INFO] Traitement: /Drive ECHOLINE/PB drive/BIOCOOP/
+[2026-07-09 17:33:39] [INFO] Copie: Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-09 17:33:40] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-09 17:33:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-09 17:33:40] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/BIOCOOP
+[2026-07-09 17:33:40] [INFO] Traitement: /Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme/
+[2026-07-09 17:33:40] [INFO] Copie: Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-09 17:33:41] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-09 17:33:41] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-09 17:33:42] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Bioline - Livron sur Drôme
+[2026-07-09 17:33:42] [INFO] Traitement: /Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/
+[2026-07-09 17:33:42] [INFO] Copie: Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-09 17:33:43] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-09 17:33:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-09 17:33:43] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL
+[2026-07-09 17:33:43] [INFO] Traitement: /Drive ECHOLINE/PB drive/CARTIER/
+[2026-07-09 17:33:43] [INFO] Copie: Drive ECHOLINE/PB drive/CARTIER
+[2026-07-09 17:33:44] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CARTIER
+[2026-07-09 17:33:44] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CARTIER
+[2026-07-09 17:33:45] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CARTIER
+[2026-07-09 17:33:45] [INFO] Traitement: /Drive ECHOLINE/PB drive/CL/
+[2026-07-09 17:33:45] [INFO] Copie: Drive ECHOLINE/PB drive/CL
+[2026-07-09 17:33:46] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CL
+[2026-07-09 17:33:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CL
+[2026-07-09 17:33:46] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CL
+[2026-07-09 17:33:46] [INFO] Traitement: /Drive ECHOLINE/PB drive/CLAIREFONTAINE/
+[2026-07-09 17:33:46] [INFO] Copie: Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-09 17:33:47] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-09 17:33:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-09 17:33:48] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CLAIREFONTAINE
+[2026-07-09 17:33:48] [INFO] Traitement: /Drive ECHOLINE/PB drive/Contrats purement RH/
+[2026-07-09 17:33:48] [INFO] Copie: Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-09 17:33:49] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-09 17:33:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-09 17:33:49] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Contrats purement RH
+[2026-07-09 17:33:49] [INFO] Traitement: /Drive ECHOLINE/PB drive/CR point initial (1)/
+[2026-07-09 17:33:49] [INFO] Copie: Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-09 17:33:51] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-09 17:33:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-09 17:33:51] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CR point initial (1)
+[2026-07-09 17:33:51] [INFO] Traitement: /Drive ECHOLINE/PB drive/CR point initial/
+[2026-07-09 17:33:51] [INFO] Copie: Drive ECHOLINE/PB drive/CR point initial
+[2026-07-09 17:33:52] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/CR point initial
+[2026-07-09 17:33:52] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CR point initial
+[2026-07-09 17:33:53] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/CR point initial
+[2026-07-09 17:33:53] [INFO] Traitement: /Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/
+[2026-07-09 17:33:53] [INFO] Copie: Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-09 17:33:54] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-09 17:33:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-09 17:33:54] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/DERICHEBOURG ATIS
+[2026-07-09 17:33:54] [INFO] Traitement: /Drive ECHOLINE/PB drive/DIOR/
+[2026-07-09 17:33:54] [INFO] Copie: Drive ECHOLINE/PB drive/DIOR
+[2026-07-09 17:33:56] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/DIOR
+[2026-07-09 17:33:56] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/DIOR
+[2026-07-09 17:33:56] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/DIOR
+[2026-07-09 17:33:56] [INFO] Traitement: /Drive ECHOLINE/PB drive/Doc veille internationale/
+[2026-07-09 17:33:56] [INFO] Copie: Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-09 17:33:57] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-09 17:33:57] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-09 17:33:58] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Doc veille internationale
+[2026-07-09 17:33:58] [INFO] Traitement: /Drive ECHOLINE/PB drive/ENI FRANCE/
+[2026-07-09 17:33:58] [INFO] Copie: Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-09 17:33:59] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-09 17:33:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-09 17:33:59] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/ENI FRANCE
+[2026-07-09 17:33:59] [INFO] Traitement: /Drive ECHOLINE/PB drive/Exemples news extérieures/
+[2026-07-09 17:33:59] [INFO] Copie: Drive ECHOLINE/PB drive/Exemples news extérieures
+[2026-07-09 17:34:00] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Exemples news extérieures
+[2026-07-09 17:34:00] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Exemples news extérieures
+[2026-07-09 17:34:01] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Exemples news extérieures
+[2026-07-09 17:34:01] [INFO] Traitement: /Drive ECHOLINE/PB drive/Export txts avant report SONATA/
+[2026-07-09 17:34:01] [INFO] Copie: Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-09 17:34:02] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-09 17:34:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-09 17:34:02] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Export txts avant report SONATA
+[2026-07-09 17:34:02] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fertiline - Loudéac/
+[2026-07-09 17:34:02] [INFO] Copie: Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-09 17:34:03] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-09 17:34:03] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-09 17:34:04] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fertiline - Loudéac
+[2026-07-09 17:34:04] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fiche ID (1)/
+[2026-07-09 17:34:04] [INFO] Copie: Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-09 17:34:05] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-09 17:34:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-09 17:34:05] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fiche ID (1)
+[2026-07-09 17:34:05] [INFO] Traitement: /Drive ECHOLINE/PB drive/Fiche ID/
+[2026-07-09 17:34:05] [INFO] Copie: Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-09 17:34:06] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-09 17:34:06] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-09 17:34:07] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Fiche ID
+[2026-07-09 17:34:07] [INFO] Traitement: /Drive ECHOLINE/PB drive/Formulaire utilisateurs/
+[2026-07-09 17:34:07] [INFO] Copie: Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-09 17:34:08] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-09 17:34:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-09 17:34:08] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Formulaire utilisateurs
+[2026-07-09 17:34:08] [INFO] Traitement: /Drive ECHOLINE/PB drive/LOUIS VUITTON/
+[2026-07-09 17:34:08] [INFO] Copie: Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-09 17:34:09] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-09 17:34:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-09 17:34:09] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/LOUIS VUITTON
+[2026-07-09 17:34:09] [INFO] Traitement: /Drive ECHOLINE/PB drive/mails - hotline directe/
+[2026-07-09 17:34:09] [INFO] Copie: Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-09 17:34:10] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-09 17:34:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-09 17:34:11] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/mails - hotline directe
+[2026-07-09 17:34:11] [INFO] Traitement: /Drive ECHOLINE/PB drive/MODELES lettre info/
+[2026-07-09 17:34:11] [INFO] Copie: Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-09 17:34:12] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-09 17:34:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-09 17:34:12] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/MODELES lettre info
+[2026-07-09 17:34:12] [INFO] Traitement: /Drive ECHOLINE/PB drive/NUTRITION ET SANTE/
+[2026-07-09 17:34:12] [INFO] Copie: Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-09 17:34:13] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-09 17:34:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-09 17:34:14] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/NUTRITION ET SANTE
+[2026-07-09 17:34:14] [INFO] Traitement: /Drive ECHOLINE/PB drive/PIVAUDRAN/
+[2026-07-09 17:34:14] [INFO] Copie: Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-09 17:34:15] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-09 17:34:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-09 17:34:15] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/PIVAUDRAN
+[2026-07-09 17:34:15] [INFO] Traitement: /Drive ECHOLINE/PB drive/Projets/
+[2026-07-09 17:34:15] [INFO] Copie: Drive ECHOLINE/PB drive/Projets
+[2026-07-09 17:34:16] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Projets
+[2026-07-09 17:34:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Projets
+[2026-07-09 17:34:17] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Projets
+[2026-07-09 17:34:17] [INFO] Traitement: /Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/
+[2026-07-09 17:34:17] [INFO] Copie: Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-09 17:34:18] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-09 17:34:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-09 17:34:18] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients
+[2026-07-09 17:34:18] [INFO] Traitement: /Drive ECHOLINE/PB drive/SIGNAUX GIROD/
+[2026-07-09 17:34:18] [INFO] Copie: Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-09 17:34:19] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-09 17:34:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-09 17:34:20] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/SIGNAUX GIROD
+[2026-07-09 17:34:20] [INFO] Traitement: /Drive ECHOLINE/PB drive/STERIS/
+[2026-07-09 17:34:20] [INFO] Copie: Drive ECHOLINE/PB drive/STERIS
+[2026-07-09 17:34:21] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/STERIS
+[2026-07-09 17:34:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/STERIS
+[2026-07-09 17:34:21] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/STERIS
+[2026-07-09 17:34:21] [INFO] Traitement: /Drive ECHOLINE/PB drive/THYSSENKRUPP/
+[2026-07-09 17:34:21] [INFO] Copie: Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-09 17:34:22] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-09 17:34:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-09 17:34:23] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/THYSSENKRUPP
+[2026-07-09 17:34:23] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/
+[2026-07-09 17:34:23] [INFO] Copie: Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-09 17:34:24] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-09 17:34:24] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-09 17:34:25] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne
+[2026-07-09 17:34:25] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Nantes/
+[2026-07-09 17:34:25] [INFO] Copie: Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-09 17:34:26] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-09 17:34:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-09 17:34:26] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Nantes
+[2026-07-09 17:34:26] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/
+[2026-07-09 17:34:26] [INFO] Copie: Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-09 17:34:27] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-09 17:34:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-09 17:34:28] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo - Saint-usage
+[2026-07-09 17:34:28] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/
+[2026-07-09 17:34:28] [INFO] Copie: Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-09 17:34:29] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-09 17:34:29] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-09 17:34:30] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne
+[2026-07-09 17:34:30] [INFO] Traitement: /Drive ECHOLINE/PB drive/Union Invivo Metz/
+[2026-07-09 17:34:30] [INFO] Copie: Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-09 17:34:31] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-09 17:34:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-09 17:34:31] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Union Invivo Metz
+[2026-07-09 17:34:31] [INFO] Traitement: /Drive ECHOLINE/PB drive/VALOREM/
+[2026-07-09 17:34:31] [INFO] Copie: Drive ECHOLINE/PB drive/VALOREM
+[2026-07-09 17:34:32] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/VALOREM
+[2026-07-09 17:34:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/VALOREM
+[2026-07-09 17:34:32] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/VALOREM
+[2026-07-09 17:34:33] [INFO] Traitement: /Drive ECHOLINE/PB drive/VILLEROY ET BOCH/
+[2026-07-09 17:34:33] [INFO] Copie: Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-09 17:34:34] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-09 17:34:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-09 17:34:34] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/VILLEROY ET BOCH
+[2026-07-09 17:34:34] [INFO] Traitement: /Drive ECHOLINE/PB drive/Visites/
+[2026-07-09 17:34:34] [INFO] Copie: Drive ECHOLINE/PB drive/Visites
+[2026-07-09 17:34:35] [SUCCESS] Dossier créé: Drive ECHOLINE/PB drive/Visites
+[2026-07-09 17:34:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Visites
+[2026-07-09 17:34:35] [SUCCESS] Permission Entra appliquée [write] -> Drive ECHOLINE/PB drive/Visites
+[2026-07-09 17:34:35] [INFO] Traitement: /emailaddress.csv
+[2026-07-09 17:34:36] [INFO] Copie: emailaddress.csv
+[2026-07-09 17:34:36] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:36] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:37] [SUCCESS] Copié avec versions: emailaddress.csv
+[2026-07-09 17:34:37] [SUCCESS] Permission Entra appliquée [write] -> emailaddress.csv
+[2026-07-09 17:34:37] [INFO] Traitement: /Members_.csv
+[2026-07-09 17:34:37] [INFO] Copie: Members_.csv
+[2026-07-09 17:34:38] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:38] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:38] [SUCCESS] Copié avec versions: Members_.csv
+[2026-07-09 17:34:39] [SUCCESS] Permission Entra appliquée [write] -> Members_.csv
+[2026-07-09 17:34:39] [INFO] Traitement: /Members_support.csv
+[2026-07-09 17:34:39] [INFO] Copie: Members_support.csv
+[2026-07-09 17:34:39] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:39] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:40] [SUCCESS] Copié avec versions: Members_support.csv
+[2026-07-09 17:34:40] [SUCCESS] Permission Entra appliquée [write] -> Members_support.csv
+[2026-07-09 17:34:40] [INFO] Traitement: /SCRIPT/
+[2026-07-09 17:34:40] [INFO] Copie: SCRIPT
+[2026-07-09 17:34:41] [SUCCESS] Dossier créé: SCRIPT
+[2026-07-09 17:34:41] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT
+[2026-07-09 17:34:41] [INFO] Traitement: /SCRIPT/ajout_DKIM_PS.txt
+[2026-07-09 17:34:41] [INFO] Copie: SCRIPT/ajout_DKIM_PS.txt
+[2026-07-09 17:34:41] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:41] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:42] [SUCCESS] Copié avec versions: SCRIPT/ajout_DKIM_PS.txt
+[2026-07-09 17:34:42] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/ajout_DKIM_PS.txt
+[2026-07-09 17:34:42] [INFO] Traitement: /SCRIPT/conf_POSTFIX_Domaine.txt
+[2026-07-09 17:34:42] [INFO] Copie: SCRIPT/conf_POSTFIX_Domaine.txt
+[2026-07-09 17:34:43] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:43] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:43] [SUCCESS] Copié avec versions: SCRIPT/conf_POSTFIX_Domaine.txt
+[2026-07-09 17:34:44] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/conf_POSTFIX_Domaine.txt
+[2026-07-09 17:34:44] [INFO] Traitement: /SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt
+[2026-07-09 17:34:44] [INFO] Copie: SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt
+[2026-07-09 17:34:44] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:44] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:45] [SUCCESS] Copié avec versions: SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt
+[2026-07-09 17:34:45] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt
+[2026-07-09 17:34:45] [INFO] Traitement: /SCRIPT/Extraction_AD_BAUNETZ.ps1
+[2026-07-09 17:34:45] [INFO] Copie: SCRIPT/Extraction_AD_BAUNETZ.ps1
+[2026-07-09 17:34:46] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:46] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:46] [SUCCESS] Copié avec versions: SCRIPT/Extraction_AD_BAUNETZ.ps1
+[2026-07-09 17:34:47] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Extraction_AD_BAUNETZ.ps1
+[2026-07-09 17:34:47] [INFO] Traitement: /SCRIPT/import_onedrive.csv
+[2026-07-09 17:34:47] [INFO] Copie: SCRIPT/import_onedrive.csv
+[2026-07-09 17:34:47] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:47] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:48] [SUCCESS] Copié avec versions: SCRIPT/import_onedrive.csv
+[2026-07-09 17:34:48] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/import_onedrive.csv
+[2026-07-09 17:34:48] [INFO] Traitement: /SCRIPT/mail_secondaire.csv
+[2026-07-09 17:34:48] [INFO] Copie: SCRIPT/mail_secondaire.csv
+[2026-07-09 17:34:49] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:49] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:50] [SUCCESS] Copié avec versions: SCRIPT/mail_secondaire.csv
+[2026-07-09 17:34:50] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/mail_secondaire.csv
+[2026-07-09 17:34:50] [INFO] Traitement: /SCRIPT/migrationwiz_import_email_email (1).csv
+[2026-07-09 17:34:50] [INFO] Copie: SCRIPT/migrationwiz_import_email_email (1).csv
+[2026-07-09 17:34:50] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:50] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:51] [SUCCESS] Copié avec versions: SCRIPT/migrationwiz_import_email_email (1).csv
+[2026-07-09 17:34:51] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/migrationwiz_import_email_email (1).csv
+[2026-07-09 17:34:52] [INFO] Traitement: /SCRIPT/Murge_BAL_Important!!.txt
+[2026-07-09 17:34:52] [INFO] Copie: SCRIPT/Murge_BAL_Important!!.txt
+[2026-07-09 17:34:52] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:52] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:53] [SUCCESS] Copié avec versions: SCRIPT/Murge_BAL_Important!!.txt
+[2026-07-09 17:34:53] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Murge_BAL_Important!!.txt
+[2026-07-09 17:34:53] [INFO] Traitement: /SCRIPT/nouveau 10.txt
+[2026-07-09 17:34:53] [INFO] Copie: SCRIPT/nouveau 10.txt
+[2026-07-09 17:34:53] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:53] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:54] [SUCCESS] Copié avec versions: SCRIPT/nouveau 10.txt
+[2026-07-09 17:34:54] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/nouveau 10.txt
+[2026-07-09 17:34:54] [INFO] Traitement: /SCRIPT/nouveau 12.txt
+[2026-07-09 17:34:54] [INFO] Copie: SCRIPT/nouveau 12.txt
+[2026-07-09 17:34:55] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:55] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:55] [SUCCESS] Copié avec versions: SCRIPT/nouveau 12.txt
+[2026-07-09 17:34:56] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/nouveau 12.txt
+[2026-07-09 17:34:56] [INFO] Traitement: /SCRIPT/Nouveau Document texte.csv
+[2026-07-09 17:34:56] [INFO] Copie: SCRIPT/Nouveau Document texte.csv
+[2026-07-09 17:34:56] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:56] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:57] [SUCCESS] Copié avec versions: SCRIPT/Nouveau Document texte.csv
+[2026-07-09 17:34:57] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Nouveau Document texte.csv
+[2026-07-09 17:34:57] [INFO] Traitement: /SCRIPT/Post_Fixe.txt
+[2026-07-09 17:34:57] [INFO] Copie: SCRIPT/Post_Fixe.txt
+[2026-07-09 17:34:58] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:58] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:34:59] [SUCCESS] Copié avec versions: SCRIPT/Post_Fixe.txt
+[2026-07-09 17:34:59] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Post_Fixe.txt
+[2026-07-09 17:34:59] [INFO] Traitement: /SCRIPT/Postfix.txt
+[2026-07-09 17:34:59] [INFO] Copie: SCRIPT/Postfix.txt
+[2026-07-09 17:34:59] [INFO] Versions source trouvées: 1
+[2026-07-09 17:34:59] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:00] [SUCCESS] Copié avec versions: SCRIPT/Postfix.txt
+[2026-07-09 17:35:00] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Postfix.txt
+[2026-07-09 17:35:00] [INFO] Traitement: /SCRIPT/script_activation_user_AD.txt
+[2026-07-09 17:35:00] [INFO] Copie: SCRIPT/script_activation_user_AD.txt
+[2026-07-09 17:35:01] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:01] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:02] [SUCCESS] Copié avec versions: SCRIPT/script_activation_user_AD.txt
+[2026-07-09 17:35:02] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_activation_user_AD.txt
+[2026-07-09 17:35:02] [INFO] Traitement: /SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt
+[2026-07-09 17:35:02] [INFO] Copie: SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt
+[2026-07-09 17:35:03] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:03] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:03] [SUCCESS] Copié avec versions: SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt
+[2026-07-09 17:35:04] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt
+[2026-07-09 17:35:04] [INFO] Traitement: /SCRIPT/script_ajout_champs_mail_en_masse.txt
+[2026-07-09 17:35:04] [INFO] Copie: SCRIPT/script_ajout_champs_mail_en_masse.txt
+[2026-07-09 17:35:04] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:04] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:05] [SUCCESS] Copié avec versions: SCRIPT/script_ajout_champs_mail_en_masse.txt
+[2026-07-09 17:35:05] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_ajout_champs_mail_en_masse.txt
+[2026-07-09 17:35:05] [INFO] Traitement: /SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt
+[2026-07-09 17:35:05] [INFO] Copie: SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt
+[2026-07-09 17:35:06] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:06] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:07] [SUCCESS] Copié avec versions: SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt
+[2026-07-09 17:35:07] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt
+[2026-07-09 17:35:07] [INFO] Traitement: /SCRIPT/Script_ajout_délegation_FullAcces_BP.txt
+[2026-07-09 17:35:07] [INFO] Copie: SCRIPT/Script_ajout_délegation_FullAcces_BP.txt
+[2026-07-09 17:35:07] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:07] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:08] [SUCCESS] Copié avec versions: SCRIPT/Script_ajout_délegation_FullAcces_BP.txt
+[2026-07-09 17:35:08] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_ajout_délegation_FullAcces_BP.txt
+[2026-07-09 17:35:08] [INFO] Traitement: /SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt
+[2026-07-09 17:35:08] [INFO] Copie: SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt
+[2026-07-09 17:35:09] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:09] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:09] [SUCCESS] Copié avec versions: SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt
+[2026-07-09 17:35:10] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt
+[2026-07-09 17:35:10] [INFO] Traitement: /SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt
+[2026-07-09 17:35:10] [INFO] Copie: SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt
+[2026-07-09 17:35:10] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:10] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:11] [SUCCESS] Copié avec versions: SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt
+[2026-07-09 17:35:11] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt
+[2026-07-09 17:35:11] [INFO] Traitement: /SCRIPT/script_délégation_BP.txt
+[2026-07-09 17:35:11] [INFO] Copie: SCRIPT/script_délégation_BP.txt
+[2026-07-09 17:35:12] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:12] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:12] [SUCCESS] Copié avec versions: SCRIPT/script_délégation_BP.txt
+[2026-07-09 17:35:13] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_délégation_BP.txt
+[2026-07-09 17:35:13] [INFO] Traitement: /SCRIPT/script_délégation_bp_mail.txt
+[2026-07-09 17:35:13] [INFO] Copie: SCRIPT/script_délégation_bp_mail.txt
+[2026-07-09 17:35:13] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:13] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:15] [SUCCESS] Copié avec versions: SCRIPT/script_délégation_bp_mail.txt
+[2026-07-09 17:35:15] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_délégation_bp_mail.txt
+[2026-07-09 17:35:15] [INFO] Traitement: /SCRIPT/script_délégation_Fullaccess_BP.txt
+[2026-07-09 17:35:15] [INFO] Copie: SCRIPT/script_délégation_Fullaccess_BP.txt
+[2026-07-09 17:35:15] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:15] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:16] [SUCCESS] Copié avec versions: SCRIPT/script_délégation_Fullaccess_BP.txt
+[2026-07-09 17:35:16] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_délégation_Fullaccess_BP.txt
+[2026-07-09 17:35:17] [INFO] Traitement: /SCRIPT/Script_delegation_SendAs_BP.txt
+[2026-07-09 17:35:17] [INFO] Copie: SCRIPT/Script_delegation_SendAs_BP.txt
+[2026-07-09 17:35:17] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:17] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:18] [SUCCESS] Copié avec versions: SCRIPT/Script_delegation_SendAs_BP.txt
+[2026-07-09 17:35:18] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_delegation_SendAs_BP.txt
+[2026-07-09 17:35:18] [INFO] Traitement: /SCRIPT/script_délégation_SendAs_BP.txt
+[2026-07-09 17:35:18] [INFO] Copie: SCRIPT/script_délégation_SendAs_BP.txt
+[2026-07-09 17:35:19] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:19] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:19] [SUCCESS] Copié avec versions: SCRIPT/script_délégation_SendAs_BP.txt
+[2026-07-09 17:35:19] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_délégation_SendAs_BP.txt
+[2026-07-09 17:35:20] [INFO] Traitement: /SCRIPT/script_désactivation_user.txt
+[2026-07-09 17:35:20] [INFO] Copie: SCRIPT/script_désactivation_user.txt
+[2026-07-09 17:35:20] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:20] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:21] [SUCCESS] Copié avec versions: SCRIPT/script_désactivation_user.txt
+[2026-07-09 17:35:21] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_désactivation_user.txt
+[2026-07-09 17:35:21] [INFO] Traitement: /SCRIPT/Script_droit_BP.txt
+[2026-07-09 17:35:21] [INFO] Copie: SCRIPT/Script_droit_BP.txt
+[2026-07-09 17:35:21] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:21] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:22] [SUCCESS] Copié avec versions: SCRIPT/Script_droit_BP.txt
+[2026-07-09 17:35:22] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_droit_BP.txt
+[2026-07-09 17:35:22] [INFO] Traitement: /SCRIPT/Script_extrac_SMTP_Principale.txt
+[2026-07-09 17:35:22] [INFO] Copie: SCRIPT/Script_extrac_SMTP_Principale.txt
+[2026-07-09 17:35:23] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:23] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:24] [SUCCESS] Copié avec versions: SCRIPT/Script_extrac_SMTP_Principale.txt
+[2026-07-09 17:35:24] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_extrac_SMTP_Principale.txt
+[2026-07-09 17:35:24] [INFO] Traitement: /SCRIPT/Script_Extract_adressemail_Exchange_Online.txt
+[2026-07-09 17:35:24] [INFO] Copie: SCRIPT/Script_Extract_adressemail_Exchange_Online.txt
+[2026-07-09 17:35:24] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:24] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:25] [SUCCESS] Copié avec versions: SCRIPT/Script_Extract_adressemail_Exchange_Online.txt
+[2026-07-09 17:35:25] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_Extract_adressemail_Exchange_Online.txt
+[2026-07-09 17:35:25] [INFO] Traitement: /SCRIPT/Script_Extract_délégation_BP.txt
+[2026-07-09 17:35:25] [INFO] Copie: SCRIPT/Script_Extract_délégation_BP.txt
+[2026-07-09 17:35:26] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:26] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:26] [SUCCESS] Copié avec versions: SCRIPT/Script_Extract_délégation_BP.txt
+[2026-07-09 17:35:27] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_Extract_délégation_BP.txt
+[2026-07-09 17:35:27] [INFO] Traitement: /SCRIPT/script_extract_membre_groupe_AD.txt
+[2026-07-09 17:35:27] [INFO] Copie: SCRIPT/script_extract_membre_groupe_AD.txt
+[2026-07-09 17:35:27] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:27] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:28] [SUCCESS] Copié avec versions: SCRIPT/script_extract_membre_groupe_AD.txt
+[2026-07-09 17:35:28] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extract_membre_groupe_AD.txt
+[2026-07-09 17:35:28] [INFO] Traitement: /SCRIPT/script_extract_onedrive.txt
+[2026-07-09 17:35:28] [INFO] Copie: SCRIPT/script_extract_onedrive.txt
+[2026-07-09 17:35:29] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:29] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:29] [SUCCESS] Copié avec versions: SCRIPT/script_extract_onedrive.txt
+[2026-07-09 17:35:30] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extract_onedrive.txt
+[2026-07-09 17:35:30] [INFO] Traitement: /SCRIPT/script_extract_proxyaddress.txt
+[2026-07-09 17:35:30] [INFO] Copie: SCRIPT/script_extract_proxyaddress.txt
+[2026-07-09 17:35:30] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:30] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:31] [SUCCESS] Copié avec versions: SCRIPT/script_extract_proxyaddress.txt
+[2026-07-09 17:35:31] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extract_proxyaddress.txt
+[2026-07-09 17:35:31] [INFO] Traitement: /SCRIPT/script_extract_Proxyadress_format.txt
+[2026-07-09 17:35:31] [INFO] Copie: SCRIPT/script_extract_Proxyadress_format.txt
+[2026-07-09 17:35:31] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:31] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:32] [SUCCESS] Copié avec versions: SCRIPT/script_extract_Proxyadress_format.txt
+[2026-07-09 17:35:32] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extract_Proxyadress_format.txt
+[2026-07-09 17:35:32] [INFO] Traitement: /SCRIPT/script_extract_UPN_AD.txt
+[2026-07-09 17:35:32] [INFO] Copie: SCRIPT/script_extract_UPN_AD.txt
+[2026-07-09 17:35:33] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:33] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:34] [SUCCESS] Copié avec versions: SCRIPT/script_extract_UPN_AD.txt
+[2026-07-09 17:35:34] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extract_UPN_AD.txt
+[2026-07-09 17:35:34] [INFO] Traitement: /SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt
+[2026-07-09 17:35:34] [INFO] Copie: SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt
+[2026-07-09 17:35:34] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:34] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:35] [SUCCESS] Copié avec versions: SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt
+[2026-07-09 17:35:35] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt
+[2026-07-09 17:35:35] [INFO] Traitement: /SCRIPT/script_Inscription_SSO_Appli_Azure.txt
+[2026-07-09 17:35:35] [INFO] Copie: SCRIPT/script_Inscription_SSO_Appli_Azure.txt
+[2026-07-09 17:35:36] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:36] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:36] [SUCCESS] Copié avec versions: SCRIPT/script_Inscription_SSO_Appli_Azure.txt
+[2026-07-09 17:35:37] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_Inscription_SSO_Appli_Azure.txt
+[2026-07-09 17:35:37] [INFO] Traitement: /SCRIPT/script_modif_champ_email_docu.ch
+[2026-07-09 17:35:37] [INFO] Copie: SCRIPT/script_modif_champ_email_docu.ch
+[2026-07-09 17:35:37] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:37] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:38] [SUCCESS] Copié avec versions: SCRIPT/script_modif_champ_email_docu.ch
+[2026-07-09 17:35:38] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_modif_champ_email_docu.ch
+[2026-07-09 17:35:38] [INFO] Traitement: /SCRIPT/Script_modif_proxyaddress_Group.txt
+[2026-07-09 17:35:38] [INFO] Copie: SCRIPT/Script_modif_proxyaddress_Group.txt
+[2026-07-09 17:35:39] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:39] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:39] [SUCCESS] Copié avec versions: SCRIPT/Script_modif_proxyaddress_Group.txt
+[2026-07-09 17:35:40] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_modif_proxyaddress_Group.txt
+[2026-07-09 17:35:40] [INFO] Traitement: /SCRIPT/Script_modif_proxyadress_docu.ch.txt
+[2026-07-09 17:35:40] [INFO] Copie: SCRIPT/Script_modif_proxyadress_docu.ch.txt
+[2026-07-09 17:35:40] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:40] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:41] [SUCCESS] Copié avec versions: SCRIPT/Script_modif_proxyadress_docu.ch.txt
+[2026-07-09 17:35:41] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_modif_proxyadress_docu.ch.txt
+[2026-07-09 17:35:41] [INFO] Traitement: /SCRIPT/script_modification_UPN_AD_User.txt
+[2026-07-09 17:35:41] [INFO] Copie: SCRIPT/script_modification_UPN_AD_User.txt
+[2026-07-09 17:35:41] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:42] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:42] [SUCCESS] Copié avec versions: SCRIPT/script_modification_UPN_AD_User.txt
+[2026-07-09 17:35:42] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_modification_UPN_AD_User.txt
+[2026-07-09 17:35:42] [INFO] Traitement: /SCRIPT/script_modifier_le_champ_mail.txt
+[2026-07-09 17:35:42] [INFO] Copie: SCRIPT/script_modifier_le_champ_mail.txt
+[2026-07-09 17:35:43] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:43] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:44] [SUCCESS] Copié avec versions: SCRIPT/script_modifier_le_champ_mail.txt
+[2026-07-09 17:35:44] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_modifier_le_champ_mail.txt
+[2026-07-09 17:35:44] [INFO] Traitement: /SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt
+[2026-07-09 17:35:44] [INFO] Copie: SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt
+[2026-07-09 17:35:44] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:45] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:45] [SUCCESS] Copié avec versions: SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt
+[2026-07-09 17:35:45] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt
+[2026-07-09 17:35:45] [INFO] Traitement: /SCRIPT/Script_modifier_proxyadress.txt
+[2026-07-09 17:35:45] [INFO] Copie: SCRIPT/Script_modifier_proxyadress.txt
+[2026-07-09 17:35:46] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:46] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:46] [SUCCESS] Copié avec versions: SCRIPT/Script_modifier_proxyadress.txt
+[2026-07-09 17:35:47] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_modifier_proxyadress.txt
+[2026-07-09 17:35:47] [INFO] Traitement: /SCRIPT/script_provisionning_OneDrive.txt
+[2026-07-09 17:35:47] [INFO] Copie: SCRIPT/script_provisionning_OneDrive.txt
+[2026-07-09 17:35:47] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:47] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:48] [SUCCESS] Copié avec versions: SCRIPT/script_provisionning_OneDrive.txt
+[2026-07-09 17:35:48] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_provisionning_OneDrive.txt
+[2026-07-09 17:35:48] [INFO] Traitement: /SCRIPT/script_remplacer_UPN_AD.txt
+[2026-07-09 17:35:48] [INFO] Copie: SCRIPT/script_remplacer_UPN_AD.txt
+[2026-07-09 17:35:49] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:49] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:49] [SUCCESS] Copié avec versions: SCRIPT/script_remplacer_UPN_AD.txt
+[2026-07-09 17:35:50] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/script_remplacer_UPN_AD.txt
+[2026-07-09 17:35:50] [INFO] Traitement: /SCRIPT/Script_Restauration_SMTP_format.txt
+[2026-07-09 17:35:50] [INFO] Copie: SCRIPT/Script_Restauration_SMTP_format.txt
+[2026-07-09 17:35:50] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:50] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:51] [SUCCESS] Copié avec versions: SCRIPT/Script_Restauration_SMTP_format.txt
+[2026-07-09 17:35:51] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_Restauration_SMTP_format.txt
+[2026-07-09 17:35:51] [INFO] Traitement: /SCRIPT/Script_Room_Mailbox.txt
+[2026-07-09 17:35:51] [INFO] Copie: SCRIPT/Script_Room_Mailbox.txt
+[2026-07-09 17:35:52] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:52] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:52] [SUCCESS] Copié avec versions: SCRIPT/Script_Room_Mailbox.txt
+[2026-07-09 17:35:52] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_Room_Mailbox.txt
+[2026-07-09 17:35:53] [INFO] Traitement: /SCRIPT/Script_SGUM_ShareGate.txt
+[2026-07-09 17:35:53] [INFO] Copie: SCRIPT/Script_SGUM_ShareGate.txt
+[2026-07-09 17:35:53] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:53] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:54] [SUCCESS] Copié avec versions: SCRIPT/Script_SGUM_ShareGate.txt
+[2026-07-09 17:35:54] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/Script_SGUM_ShareGate.txt
+[2026-07-09 17:35:54] [INFO] Traitement: /SCRIPT/SCRIPT8EXTR.txt
+[2026-07-09 17:35:54] [INFO] Copie: SCRIPT/SCRIPT8EXTR.txt
+[2026-07-09 17:35:54] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:54] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:55] [SUCCESS] Copié avec versions: SCRIPT/SCRIPT8EXTR.txt
+[2026-07-09 17:35:55] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/SCRIPT8EXTR.txt
+[2026-07-09 17:35:55] [INFO] Traitement: /SCRIPT/SharedMailBox_FEBIS.csv
+[2026-07-09 17:35:55] [INFO] Copie: SCRIPT/SharedMailBox_FEBIS.csv
+[2026-07-09 17:35:56] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:56] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:57] [SUCCESS] Copié avec versions: SCRIPT/SharedMailBox_FEBIS.csv
+[2026-07-09 17:35:57] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/SharedMailBox_FEBIS.csv
+[2026-07-09 17:35:57] [INFO] Traitement: /SCRIPT/suppression_champ_mail_UO.txt
+[2026-07-09 17:35:57] [INFO] Copie: SCRIPT/suppression_champ_mail_UO.txt
+[2026-07-09 17:35:57] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:57] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:58] [SUCCESS] Copié avec versions: SCRIPT/suppression_champ_mail_UO.txt
+[2026-07-09 17:35:58] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/suppression_champ_mail_UO.txt
+[2026-07-09 17:35:58] [INFO] Traitement: /SCRIPT/suppression_SMTP_UO.txt
+[2026-07-09 17:35:58] [INFO] Copie: SCRIPT/suppression_SMTP_UO.txt
+[2026-07-09 17:35:59] [INFO] Versions source trouvées: 1
+[2026-07-09 17:35:59] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:35:59] [SUCCESS] Copié avec versions: SCRIPT/suppression_SMTP_UO.txt
+[2026-07-09 17:36:00] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/suppression_SMTP_UO.txt
+[2026-07-09 17:36:00] [INFO] Traitement: /SCRIPT/User_MailBox_docuat.txt
+[2026-07-09 17:36:00] [INFO] Copie: SCRIPT/User_MailBox_docuat.txt
+[2026-07-09 17:36:00] [INFO] Versions source trouvées: 1
+[2026-07-09 17:36:00] [INFO] Une seule version détectée (1.0 probable) : upload courant uniquement.
+[2026-07-09 17:36:01] [SUCCESS] Copié avec versions: SCRIPT/User_MailBox_docuat.txt
+[2026-07-09 17:36:01] [SUCCESS] Permission Entra appliquée [write] -> SCRIPT/User_MailBox_docuat.txt
+[2026-07-09 17:36:01] [SUCCESS] === TERMINÉ ===

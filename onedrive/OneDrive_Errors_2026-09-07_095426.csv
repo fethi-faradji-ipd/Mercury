@@ -1,0 +1,1235 @@
+﻿"horodatage","fichier","phase","erreur"
+"07/09/2026 12:11:21","Bureau/droit sharepoint/SharePoint_Permissions_Export_source.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 12:14:55","Bureau/export_synchro_sim_202410/avis__c.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 12:21:04","Bureau/export_synchro_sim_202410/referentiel.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 12:22:22","Bureau/export_synchro_sim_202410/reférentielle_last.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 12:24:20","Bureau/INFOPRO DIGITAL (Prod)_files/customer_optimized.css","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 14:41:35","Documents/partage/Monimail/OM Client/SIMMonimailC.vbw","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 14:45:41","Documents/PowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.Core.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"07/09/2026 14:45:48","Documents/PowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"07/09/2026 14:51:32","Documents/Virtual Machines/Windows XP Professional/564dc8be-9773-bbd8-c7b2-c23524a75290.vmem","copy","Impossible d’appeler une méthode dans une expression Null."
+"07/09/2026 14:52:00","Documents/Virtual Machines/Windows XP Professional/Windows XP Professional.vmsd","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 14:52:30","Documents/Virtual Machines/Windows XP Professional (2)/Windows XP Professional (2).vmsd","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:18","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs2713.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:19","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs2A4.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:20","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs2D3A.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:28","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs392D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:33","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs5ED0.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:36","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs6309.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:37","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs6440.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:38","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs6941.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:40","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs78B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:41","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs83F2.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:45","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs8521.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:50","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vs9F4F.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:51","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsA7A5.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:53","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsA817.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:54","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsBD32.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:10:56","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsC87A.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:11:05","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsE840.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:11:06","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.~vsF28C.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:12:06","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-02-2022-1102.DataUpdate_BIM_DM_1.sql","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 15:13:51","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs1722.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:13:53","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs1CB8.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:13:55","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs2183.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:01","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs3B97.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:02","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs4DE0.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:03","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs7C61.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:04","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vs8E18.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:06","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsB3AD.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:07","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsB561.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:08","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsC893.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:10","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsC99B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:11","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsEE73.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:17","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-03-2022-1045.~vsF948.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:18","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-22-2022-0520.~vs5E8D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:25","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-26-2022-0956.~vs666D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:31","Documents/Visual Studio 2017/Backup Files/Solution1/Original-août-26-2022-0956.~vsDCED.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:38","Documents/Visual Studio 2017/Backup Files/Solution1/Original-avr.-26-2024-0905.~vsC000.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:40","Documents/Visual Studio 2017/Backup Files/Solution1/Original-avr.-26-2024-0905.~vsF36B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:52","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-01-2022-1133.~vs6143.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:14:57","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-01-2022-1133.~vs6C0D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:10","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-07-2022-1035.~vsEFB0.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:28","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-14-2022-0943.~vs87C3.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:40","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-15-2022-0227.~vs380B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:42","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-15-2022-1007.~vs88B3.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:43","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-21-2022-0336.~vs91CA.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:45","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-21-2022-0336.~vs9A5D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:51","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-21-2022-1224.~vs41BC.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:15:57","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-21-2022-1224.~vs8C49.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:06","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-22-2022-1122.~vs8944.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:07","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-24-2022-1151.~vs30C1.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:12","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-24-2022-1151.~vs6B1A.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:13","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-24-2022-1151.~vs7D43.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:15","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-24-2022-1151.~vs88F0.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:20","Documents/Visual Studio 2017/Backup Files/Solution1/Original-févr.-25-2022-1159.~vs17C7.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:30","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-13-2022-1033.~vs209B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:31","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-13-2022-1033.~vs4B3D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:32","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-13-2022-1033.~vsC741.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:34","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-14-2022-0222.~vsFB6B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:36","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-19-2023-1230.~vs6335.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:37","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-28-2022-1036.~vs282E.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:48","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-28-2025-1159.~vsCEBE.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:16:58","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-31-2022-1040.~vs67EA.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:03","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-31-2022-1040.~vsE429.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:04","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-31-2024-0339.~vs559B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:05","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-31-2024-0339.~vs595A.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:07","Documents/Visual Studio 2017/Backup Files/Solution1/Original-janv.-31-2024-0339.~vs8917.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:15","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-15-2023-1129.~vsE826.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:42","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vs2C5B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:43","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vs3B7D.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:48","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vsBF3.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:54","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vsCFCF.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:55","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vsE482.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:17:56","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-20-2022-0412.~vsE6F.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:11","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-21-2022-1116.~vs91D1.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:16","Documents/Visual Studio 2017/Backup Files/Solution1/Original-juin-29-2022-1205.~vs3E01.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:18","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-03-2022-1158.~vs22A6.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:19","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vs1541.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:21","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vs5D99.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:22","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vs6622.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:24","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vs883B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:25","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vsDEF9.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:26","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vsE642.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:27","Documents/Visual Studio 2017/Backup Files/Solution1/Original-mars-13-2025-1110.~vsEA23.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:44","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vs19A0.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:45","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vs2ADF.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:46","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vs4DE5.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:48","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vs63D6.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:49","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vs8438.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:51","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsA8CD.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:52","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsB3DA.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:53","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsC0C6.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:54","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsC0E9.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:55","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsCA51.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:56","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsE271.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:18:59","Documents/Visual Studio 2017/Backup Files/Solution1/Original-oct.-07-2022-1047.~vsF733.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:19:00","Documents/Visual Studio 2017/Backup Files/Solution1/Original-sept.-27-2022-1125.~vs537C.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:39:15","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-déc.-14-2023-1000.~vsBA56.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:45:41","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-févr.-14-2023-1109.~vs7607.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:45:43","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-févr.-14-2023-1109.~vs7ED5.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:46:20","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-févr.-14-2023-1109.~vsAE2A.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 15:57:06","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-janv.-31-2022-1040.~vs67EA.sql","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T13:57:06"",""request-id"":""3d509bcf-cdda-4ee4-86ee-31cfc88796cc"",""client-request-id"":""3d509bcf-cdda-4ee4-86ee-31cfc88796cc""}}}"
+"07/09/2026 16:07:13","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-mai-31-2024-0900.~vs1BA1.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:10:18","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-mars-10-2023-0948.~vs6743.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:22:11","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-oct.-08-2024-1133.~vs12DC.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:22:12","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-oct.-11-2024-1101.~vs9A10.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:31:12","Documents/Visual Studio 2017/Backup Files/Solution1/Recovered-sept.-21-2023-0250.~vsF383.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:33:20","Documents/Visual Studio 2017/Backup Files/Solution2/Recovered-nov.-21-2023-1228.~vs214B.sql","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 16:39:20","Documents/WindowsPowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.Core.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"07/09/2026 16:39:27","Documents/WindowsPowerShell/Modules/PnP.PowerShell/3.1.0/Core/Microsoft.Graph.dll","copy","Graph HTTP 404 : {""error"":{""code"":""itemNotFound"",""message"":""The resource could not be found.""}}"
+"07/09/2026 16:44:42","Documents/3901448_AVIS APPEL OFFRES CULATTES  ATMO.PDF","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T14:44:42"",""request-id"":""4e91160f-2b41-457e-9284-acd505a91e9d"",""client-request-id"":""4e91160f-2b41-457e-9284-acd505a91e9d""}}}"
+"07/09/2026 17:06:54","Enregistrements/Atelier évolution Monimail-20240503_143412-Enregistrement de la réunion.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:08:25","Enregistrements/creaModif Ad part2-20260423_110043-Enregistrement de la réunion.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:09:26","Enregistrements/creamodif AD-20260421_112522-Enregistrement de la réunion.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:13:03","Enregistrements/ivanti vs adobe-20260702_143306-Enregistrement de la réunion.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:28:05","Fichiers de conversation Microsoft Teams/avis_sauv20240628.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:30:09","Fichiers de conversation Microsoft Teams/AVIS_SF_07.xlsx","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T15:30:09"",""request-id"":""0c200728-06d6-44fe-9cce-a92eabf11926"",""client-request-id"":""0c200728-06d6-44fe-9cce-a92eabf11926""}}}"
+"07/09/2026 17:33:59","Fichiers de conversation Microsoft Teams/BIM_SSIS - Microsoft Visual Studio (Administrateur) 2022-06-28 14-11-52.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 17:36:41","Fichiers de conversation Microsoft Teams/BIM_SSIS - Microsoft Visual Studio (Administrateur) 2022-06-28 14-20-21.mp4","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 18:25:33","Fichiers de conversation Microsoft Teams/publications_sauv20240628.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 18:39:19","Fichiers de conversation Microsoft Teams/Sources 1.zip","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 18:42:22","Fichiers de conversation Microsoft Teams/Sources.zip","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 18:45:19","Fichiers de conversation Microsoft Teams/Sources_Integration0607_20210707.zip","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"07/09/2026 19:10:45","Microsoft Teams Chat Files/Paragraphe Loop 1.loop","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T17:10:45"",""request-id"":""f8de2b3c-9449-4ba6-905f-ea9e206388b8"",""client-request-id"":""f8de2b3c-9449-4ba6-905f-ea9e206388b8""}}}"
+"07/09/2026 19:11:30","MicrosoftEdgeBackups/backups/MicrosoftEdgeBackup20210426/DatastoreBackup/spartan.pat","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:12:30","repos/.git/FETCH_HEAD","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:20:32","Réunions/Daily Infra 2026-05-07.loop","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T17:20:32"",""request-id"":""99376a81-af04-4721-b22c-1fcf7e60525d"",""client-request-id"":""99376a81-af04-4721-b22c-1fcf7e60525d""}}}"
+"07/09/2026 19:22:31","Sauvegarde PC 1F1N42/Evolutions Monimail.doc","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T17:22:31"",""request-id"":""dd5b63f5-50ff-43d4-8623-60e69c08218a"",""client-request-id"":""dd5b63f5-50ff-43d4-8623-60e69c08218a""}}}"
+"07/09/2026 19:29:11","source/repos/Api_SIM--SF/ApiSIM--SF/.vs/WebApplicationTest__07-10/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:32:24","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/staticwebassets/Api_BIM--SF.StaticWebAssets.Manifest.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:32:24","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/staticwebassets/Api_BIM--SF.StaticWebAssets.Pack.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:32:29","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/staticwebassets/Api_Bim--SF_Test__07-10.StaticWebAssets.Manifest.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:32:30","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/staticwebassets/WebApplicationTest__07-10.StaticWebAssets.Manifest.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:33:08","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/Api_Bim--SF.csproj.BuildWithSkipAnalyzers","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:33:09","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/Api_BIM--SF.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:33:32","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/Api_BIM--SF.MvcApplicationPartsAssemblyInfo.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:34:07","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/Api_Bim--SF_Test__07-10.MvcApplicationPartsAssemblyInfo.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:34:28","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/WebApplicationTest__07-10.csproj.BuildWithSkipAnalyzers","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:34:29","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/WebApplicationTest__07-10.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:34:46","source/repos/Api_SIM--SF/ApiSIM--SF/obj/Debug/netcoreapp3.1/WebApplicationTest__07-10.MvcApplicationPartsAssemblyInfo.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 19:55:47","source/repos/BIM_SSIS/.vs/BIM_SSIS/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 20:08:54","source/repos/BIM_SSIS/BIM_SSIS/BIM.CLG.dtsx.old","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-07T18:08:54"",""request-id"":""6b07abc6-6a9d-4a39-b863-ba75df18536f"",""client-request-id"":""6b07abc6-6a9d-4a39-b863-ba75df18536f""}}}"
+"07/09/2026 20:20:06","source/repos/BIM_SSIS - Copie/.vs/BIM_SSIS/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 20:48:19","source/repos/BIM_SSIS -calligramme/.git/FETCH_HEAD","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:05:35","source/repos/BIM_SSIS V2/.vs/BIM_SSIS_V2/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:21:59","source/repos/Mol_Save_DataBase/.vs/Mol_Save_DataBase/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:23:18","source/repos/Mol_Save_DataBase/Mol_Save_Common/obj/Debug/Mol_Save_Common.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:24:39","source/repos/Mol_Save_DataBase/Mol_Save_DB/obj/Debug/Mol_Save_DB.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:27:20","source/repos/Mol_Save_DataBase/Mol_Save_DBC/obj/Debug/Mol_Save_DBC.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:28:53","source/repos/Mol_Save_DataBase/packages/System.Configuration.ConfigurationManager.5.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:28:58","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:28:59","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:14","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:15","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:16","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:17","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:18","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:29:19","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:31:23","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:31:26","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:31:27","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:31:29","source/repos/Mol_Save_DataBase/packages/System.Data.Common.4.3.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:32:33","source/repos/Mol_Save_DataBase/packages/System.Security.AccessControl.5.0.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:34:02","source/repos/Mol_Save_DataBase/packages/System.Security.AccessControl.5.0.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:34:34","source/repos/Mol_Save_DataBase/packages/System.Security.AccessControl.5.0.0/runtimes/win/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:34:55","source/repos/Mol_Save_DataBase/packages/System.Security.AccessControl.5.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:36:42","source/repos/Mol_Save_DataBase/packages/System.Security.Permissions.5.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:37:21","source/repos/Mol_Save_DataBase/packages/System.Security.Principal.Windows.5.0.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:39:02","source/repos/Mol_Save_DataBase/packages/System.Security.Principal.Windows.5.0.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:40:10","source/repos/Mol_Save_DataBase/packages/System.Security.Principal.Windows.5.0.0/runtimes/win/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:40:34","source/repos/Mol_Save_DataBase/packages/System.Security.Principal.Windows.5.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:41:49","source/repos/poc_hack_site/.vs/poc_hack_site/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 21:43:50","source/repos/poc_hack_site/obj/Debug/poc_hack_site.csproj.SuggestedBindingRedirects.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:27:33","source/repos/pokemonDiamant/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:45:08","source/repos/pokemonDiamant/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:45:29","source/repos/pokemonDiamant/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:45:40","source/repos/pokemonDiamant/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:02","source/repos/pokemonDiamant/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:20","source/repos/pokemonDiamant/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:25","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:26","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:31","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:32","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:33","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:34","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:35","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:46:36","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:34","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:35","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:36","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:37","source/repos/pokemonDiamant/packages/System.IO.FileSystem.4.3.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:53","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:47:54","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:04","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:05","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:06","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:07","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:08","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:48:09","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:05","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:06","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:08","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:10","source/repos/pokemonDiamant/packages/System.IO.FileSystem.Primitives.4.3.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:34","source/repos/pokemonDiamant/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:49:54","source/repos/pokemonDiamant/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:10","source/repos/pokemonDiamant/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:14","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:15","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:26","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:55","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:56","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:57","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:58","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:50:59","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:00","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:01","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:20","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:39","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:40","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:41","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:42","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:44","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:51:59","source/repos/pokemonDiamant/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:52:07","source/repos/pokemonDiamant/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:53:02","source/repos/pokemonDiamant/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:53:07","source/repos/pokemonDiamant/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:54:11","source/repos/pokemonDiamant/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:56:28","source/repos/pokemonDiamant/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:57:25","source/repos/pokemonDiamant/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:57:26","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:57:27","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:57:37","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:05","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:05","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:06","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:07","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:08","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:09","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:10","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:11","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:12","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:13","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:14","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:29","source/repos/pokemonDiamant/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:34","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:35","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:58:54","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:04","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:14","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:15","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:16","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:17","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:18","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:19","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:20","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:30","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:31","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:36","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:37","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:38","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:39","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:40","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"07/09/2026 22:59:55","source/repos/pokemonDiamant/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:04:34","source/repos/pokemonDiamant/pokemonDiamant/Temp/4958097_pub_CMPLT.xml","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:33:57","source/repos/pouky/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:50:15","source/repos/pouky/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:50:35","source/repos/pouky/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:50:46","source/repos/pouky/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:51:05","source/repos/pouky/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:51:21","source/repos/pouky/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:51:35","source/repos/pouky/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:51:54","source/repos/pouky/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:09","source/repos/pouky/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:13","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:14","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:25","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:52","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:53","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:54","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:55","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:56","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:57","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:52:58","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:17","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:36","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:37","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:38","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:39","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:40","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:53:55","source/repos/pouky/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:54:04","source/repos/pouky/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:54:57","source/repos/pouky/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:55:03","source/repos/pouky/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:56:07","source/repos/pouky/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:58:27","source/repos/pouky/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:59:31","source/repos/pouky/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:59:32","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:59:33","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 00:59:43","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:12","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:12","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:13","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:14","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:15","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:16","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:17","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:18","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:19","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:20","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:21","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:36","source/repos/pouky/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:40","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:00:41","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:00","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:10","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:20","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:21","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:22","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:23","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:24","source/repos/pouky/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:25","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:26","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:37","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:38","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:44","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:45","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:46","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:47","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:01:48","source/repos/pouky/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:02:06","source/repos/pouky/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:11:56","source/repos/pouky/pouky/obj/Debug/pouky.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:14:48","source/repos/poukymon/.vs/poukymon/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:31:43","source/repos/poukymon/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:48:43","source/repos/poukymon/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:49:01","source/repos/poukymon/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:49:11","source/repos/poukymon/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:49:29","source/repos/poukymon/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:49:44","source/repos/poukymon/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:49:57","source/repos/poukymon/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:50:16","source/repos/poukymon/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:50:32","source/repos/poukymon/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:50:37","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:50:39","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:50:49","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:20","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:21","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:22","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:23","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:24","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:25","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:26","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:51:47","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:07","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:08","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:09","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:10","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:11","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:27","source/repos/poukymon/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:52:37","source/repos/poukymon/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:53:36","source/repos/poukymon/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:53:42","source/repos/poukymon/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:54:48","source/repos/poukymon/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:54:58","source/repos/poukymon/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:55:55","source/repos/poukymon/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:55:56","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:55:57","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:07","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:35","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:36","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:37","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:38","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:38","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:39","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:40","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:42","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:43","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:43","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:44","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:56:59","source/repos/poukymon/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:04","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:05","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:24","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:34","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:43","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:44","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:45","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:46","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:47","source/repos/poukymon/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:48","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:49","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:57:59","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:00","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:05","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:06","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:07","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:08","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:09","source/repos/poukymon/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 01:58:24","source/repos/poukymon/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:17:33","source/repos/poukymon/poukymon/obj/Debug/poukymon.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:34:52","source/repos/SF_VIEWER_AO_SIM/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:46:13","source/repos/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:46:33","source/repos/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:46:43","source/repos/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:47:03","source/repos/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:47:18","source/repos/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:47:33","source/repos/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:47:52","source/repos/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:08","source/repos/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:13","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:14","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:25","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:54","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:55","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:56","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:57","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:58","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:48:59","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:00","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:21","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:39","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:40","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:41","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:42","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:43","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:49:57","source/repos/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:50:06","source/repos/SF_VIEWER_AO_SIM/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:50:57","source/repos/SF_VIEWER_AO_SIM/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:51:02","source/repos/SF_VIEWER_AO_SIM/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:52:03","source/repos/SF_VIEWER_AO_SIM/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:54:12","source/repos/SF_VIEWER_AO_SIM/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:07","source/repos/SF_VIEWER_AO_SIM/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:08","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:09","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:19","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:46","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:47","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:48","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:49","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:50","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:51","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:52","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:53","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:54","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:55","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:55:56","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:10","source/repos/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:14","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:15","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:34","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:43","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:53","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:54","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:54","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:55","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:56","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:57","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:56:58","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:08","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:09","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:14","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:15","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:16","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:17","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:18","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 02:57:32","source/repos/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:03:09","source/repos/SF_VIEWER_AO_SIM/SF_VIEWER_AO_SIM/obj/Debug/SF_VIEWER_AO_SIM.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:21:04","source/repos/srv_listener_folder/ConsoleApp2/obj/Debug/ConsoleApp2.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:21:10","source/repos/srv_listener_folder/ConsoleApp2/obj/Debug/ConsoleApp2.csproj.SuggestedBindingRedirects.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:21:43","source/repos/srv_listener_folder/ConsoleApp2/obj/Debug/gestionStatutIntegrateur.csproj.SuggestedBindingRedirects.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:24:19","source/repos/srv_listener_folder/createXMLFromDoc/obj/Debug/createXMLFromDoc.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:24:27","source/repos/srv_listener_folder/createXMLFromDoc/obj/Debug/createXMLFromDoc.csproj.SuggestedBindingRedirects.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:27:50","source/repos/srv_listener_folder/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:34:17","source/repos/srv_listener_folder/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:34:35","source/repos/srv_listener_folder/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:34:45","source/repos/srv_listener_folder/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:35:03","source/repos/srv_listener_folder/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:35:18","source/repos/srv_listener_folder/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:35:27","source/repos/srv_listener_folder/packages/System.Configuration.ConfigurationManager.7.0.0/buildTransitive/net462/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:35:27","source/repos/srv_listener_folder/packages/System.Configuration.ConfigurationManager.7.0.0/buildTransitive/net6.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:36:26","source/repos/srv_listener_folder/packages/System.Configuration.ConfigurationManager.7.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:36:35","source/repos/srv_listener_folder/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:36:53","source/repos/srv_listener_folder/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:07","source/repos/srv_listener_folder/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:11","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:12","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:22","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:49","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:50","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:51","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:52","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:52","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:54","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:37:54","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:13","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:31","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:32","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:33","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:34","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:35","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:50","source/repos/srv_listener_folder/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:38:58","source/repos/srv_listener_folder/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:39:51","source/repos/srv_listener_folder/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:39:56","source/repos/srv_listener_folder/packages/System.Security.AccessControl.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:41:08","source/repos/srv_listener_folder/packages/System.Security.AccessControl.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:41:13","source/repos/srv_listener_folder/packages/System.Security.Permissions.7.0.0/buildTransitive/net462/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:41:14","source/repos/srv_listener_folder/packages/System.Security.Permissions.7.0.0/buildTransitive/net6.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:42:10","source/repos/srv_listener_folder/packages/System.Security.Permissions.7.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:42:38","source/repos/srv_listener_folder/packages/System.Security.Principal.Windows.5.0.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:44:04","source/repos/srv_listener_folder/packages/System.Security.Principal.Windows.5.0.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:44:58","source/repos/srv_listener_folder/packages/System.Security.Principal.Windows.5.0.0/runtimes/win/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:45:16","source/repos/srv_listener_folder/packages/System.Security.Principal.Windows.5.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:45:25","source/repos/srv_listener_folder/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:46:27","source/repos/srv_listener_folder/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:48:46","source/repos/srv_listener_folder/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:49:42","source/repos/srv_listener_folder/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:49:43","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:49:44","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:49:53","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:20","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:21","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:22","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:23","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:23","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:24","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:25","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:26","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:27","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:28","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:29","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:43","source/repos/srv_listener_folder/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:48","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:50:49","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:07","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:17","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:27","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:28","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:29","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:30","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:31","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:32","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:33","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:42","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:43","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:49","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:50","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:51","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:52","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:51:53","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:52:08","source/repos/srv_listener_folder/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 03:57:41","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/.vs/SF_VIEWER_AO_SIM/FileContentIndex/read.lock","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:08:53","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/Microsoft.Bcl.AsyncInterfaces.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:20:21","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:20:39","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:20:49","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:21:07","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:21:26","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:21:40","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:21:59","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:22:17","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Memory.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:22:22","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:22:24","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:22:33","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:01","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:02","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:03","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:04","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:05","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:06","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:07","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:27","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:47","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:48","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:49","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:50","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:23:52","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:24:12","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:24:22","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:25:24","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:25:30","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Text.Encodings.Web.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:26:43","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Text.Encodings.Web.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:28:56","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Text.Json.6.0.0/buildTransitive/netcoreapp3.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:29:56","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Text.Json.6.0.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:29:57","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:29:58","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:08","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:35","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:35","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:37","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:38","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:39","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:40","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:41","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:42","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:43","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:43","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:30:44","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:02","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:07","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:08","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:27","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:37","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:47","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:47","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:48","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:49","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:50","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:51","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:31:52","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:02","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:03","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:08","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:09","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:10","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:11","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:12","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:32:29","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:38:44","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/SF_VIEWER_AO_SIM/obj/Debug/SF_VIEWER_AO_SIM.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:49:48","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/SF_VIEWER_AO_SIM/Web.Debug.config","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-08T02:49:48"",""request-id"":""9308f0c5-1718-4ef1-b67a-f5f08ac89870"",""client-request-id"":""9308f0c5-1718-4ef1-b67a-f5f08ac89870""}}}"
+"08/09/2026 04:49:48","source/repos/srv_listener_folder/SF_VIEWER_AO_SIM/SF_VIEWER_AO_SIM/Web.Release.config","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-08T02:49:49"",""request-id"":""021cf155-f7e9-4846-a32b-ea4ace6ce509"",""client-request-id"":""021cf155-f7e9-4846-a32b-ea4ace6ce509""}}}"
+"08/09/2026 04:52:59","source/repos/srv_listener_folder/srv_listener_folder/obj/Debug/srv_listener_folder.csproj.CopyComplete","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 04:53:15","source/repos/srv_listener_folder/srv_listener_folder/obj/Debug/srv_listener_folder.csproj.SuggestedBindingRedirects.cache","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"
+"08/09/2026 05:13:15","VMV2/Windows XP Mode base.vhd","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"08/09/2026 05:13:33","VMV2/Windows XP Mode D.zip","copy","Impossible d’appeler une méthode dans une expression Null."
+"08/09/2026 05:15:27","D100124.doc","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-08T03:15:28"",""request-id"":""91e2555f-863e-4714-8aee-f6c494dbf7ba"",""client-request-id"":""91e2555f-863e-4714-8aee-f6c494dbf7ba""}}}"
+"08/09/2026 05:16:49","LISTE_OBJETS_TMP.xlsx","copy","Graph HTTP 400 : {""error"":{""code"":""invalidRequest"",""message"":""You cannot get the content of the current version."",""innerError"":{""date"":""2026-09-08T03:16:49"",""request-id"":""504ae483-ce6f-403b-91e2-982f56ba6819"",""client-request-id"":""504ae483-ce6f-403b-91e2-982f56ba6819""}}}"

@@ -1,0 +1,21 @@
+﻿[2026-08-04 11:45:45] [INFO] ============================================
+[2026-08-04 11:45:45] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-04 11:45:45] [INFO] ============================================
+[2026-08-04 11:45:45] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-04 11:45:45] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-04 11:45:45] [INFO] --------------------------------------------
+[2026-08-04 11:45:45] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-04 11:45:45] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-04 11:45:45] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-04 11:45:45] [INFO] --------------------------------------------
+[2026-08-04 11:45:46] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-04 11:45:46] [ERROR] Echec token Graph pour 2eea08b8-1972-447b-ad43-d044d042500a : Token vide. Reponse : {"error":"invalid_client","error_description":"AADSTS7000216: 'client_assertion', 'client_secret' or 'request' is required for the 'client_credentials' grant type. Trace ID: 25030397-0edd-4563-9acf-93a04cd10700 Correlation ID: 21c93ac3-0e73-4397-99d9-b8b64879d62e Timestamp: 2026-08-04 09:45:46Z","error_codes":[7000216],"timestamp":"2026-08-04 09:45:46Z","trace_id":"25030397-0edd-4563-9acf-93a04cd10700","correlation_id":"21c93ac3-0e73-4397-99d9-b8b64879d62e","error_uri":"https://login.microsoftonline.com/error?code=7000216"}
+[2026-08-04 11:45:46] [ERROR] Ligne 1 ECHOUEE : Token vide. Reponse : {"error":"invalid_client","error_description":"AADSTS7000216: 'client_assertion', 'client_secret' or 'request' is required for the 'client_credentials' grant type. Trace ID: 25030397-0edd-4563-9acf-93a04cd10700 Correlation ID: 21c93ac3-0e73-4397-99d9-b8b64879d62e Timestamp: 2026-08-04 09:45:46Z","error_codes":[7000216],"timestamp":"2026-08-04 09:45:46Z","trace_id":"25030397-0edd-4563-9acf-93a04cd10700","correlation_id":"21c93ac3-0e73-4397-99d9-b8b64879d62e","error_uri":"https://login.microsoftonline.com/error?code=7000216"}
+[2026-08-04 11:45:46] [SUCCESS] ============================================
+[2026-08-04 11:45:46] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-04 11:45:46] [INFO] Total lignes  : 1
+[2026-08-04 11:45:46] [INFO] Succes        : 0
+[2026-08-04 11:45:46] [INFO] Echecs        : 1
+[2026-08-04 11:45:46] [SUCCESS] ============================================
+[2026-08-04 11:45:46] [WARN] 1 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-08-04_114545.csv
+[2026-08-04 11:45:46] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-04_114545.log

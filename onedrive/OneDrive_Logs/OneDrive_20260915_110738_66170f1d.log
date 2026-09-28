@@ -1,0 +1,4 @@
+﻿2026-09-15 09:07:38Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 09:07:38Z [WARN] Limitation/retry HTTP : attente 3 s.
+2026-09-15 09:07:41Z [WARN] Limitation/retry HTTP : attente 4 s.
+2026-09-15 09:07:45Z [WARN] Limitation/retry HTTP : attente 9 s.

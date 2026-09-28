@@ -1,0 +1,7 @@
+﻿"horodatage","fichier","phase","erreur"
+"03/09/2026 13:46:33","Bureau/droit sharepoint/SharePoint_Permissions_Export_source.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"03/09/2026 13:50:58","Bureau/export_synchro_sim_202410/avis__c.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"03/09/2026 13:57:40","Bureau/export_synchro_sim_202410/referentiel.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"03/09/2026 13:58:57","Bureau/export_synchro_sim_202410/reférentielle_last.csv","copy","Les dimensions du tableau dépassent la plage prise en charge."
+"03/09/2026 14:01:29","Bureau/INFOPRO DIGITAL (Prod)_files/customer_optimized.css","copy","Exception lors de l'appel de « .ctor » avec « 1 » argument(s) : « La valeur ne peut pas être null.
+Nom du paramètre : content »"

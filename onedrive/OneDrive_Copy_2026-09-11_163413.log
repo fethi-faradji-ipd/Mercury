@@ -1,0 +1,1200 @@
+﻿[2026-09-11 16:34:13] [INFO] ============================================
+[2026-09-11 16:34:13] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-11 16:34:13] [INFO] ============================================
+[2026-09-11 16:34:13] [INFO] === VALIDATION CONFIGURATION AUTHENTIFICATION ===
+[2026-09-11 16:34:13] [SUCCESS] Certificat cible OK : Subject='CN=MSGraphExchangeOnlineAuth20260717_2', Thumbprint=7DF9F9E37A879A4C043058E849F037173EFF3D54, expire=2028-08-04
+[2026-09-11 16:34:13] [SUCCESS] Configuration d'authentification validee localement.
+[2026-09-11 16:34:13] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-11 16:34:13] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-11 16:34:13] [INFO] --------------------------------------------
+[2026-09-11 16:34:13] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-11 16:34:13] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-11 16:34:13] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-11 16:34:13] [INFO] --------------------------------------------
+[2026-09-11 16:34:13] [INFO] Mode de copie : full
+[2026-09-11 16:34:13] [SUCCESS] Token Graph source obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-11 16:34:14] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-11 16:34:14] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-11 16:34:14] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-11 16:34:14] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-11 16:34:14] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-11 16:34:14] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-11 16:34:14] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-11 16:34:14] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-11 16:34:15] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-11T14:34:15","request-id":"a0e9188f-131f-44d5-b2e3-e3c3d4c54dbf","client-request-id":"a0e9188f-131f-44d5-b2e3-e3c3d4c54dbf"}}}
+[2026-09-11 16:34:15] [INFO] Permissions racine OneDrive traitees
+[2026-09-11 16:34:16] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-11 16:34:16] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-11 16:34:16] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-11 16:34:16] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-11 16:43:08] [SUCCESS] Trouve : 3816 dossier(s) / 12908 fichier(s)
+[2026-09-11 16:43:08] [INFO] Taille totale : 20825.61 MB
+[2026-09-11 16:43:08] [WARN] Reprise active : dossiers=3816, fichiers=3650
+[2026-09-11 16:43:08] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-11 16:43:09] [INFO] === COPIE DES FICHIERS ===
+[2026-09-11 16:43:09] [INFO] [3651/12908] Fichiers de conversation Microsoft Teams/Liste_transformation_AO_PUB.xlsb.xlsx (29007 o)
+[2026-09-11 16:43:09] [SUCCESS] 📂 Dossier cree : Fichiers de conversation Microsoft Teams
+[2026-09-11 16:43:09] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Liste_transformation_AO_PUB.xlsb.xlsx
+[2026-09-11 16:43:10] [INFO]    ⬆  Rejeu de 9 version(s) : Fichiers de conversation Microsoft Teams/Liste_transformation_AO_PUB.xlsb.xlsx
+[2026-09-11 16:43:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:27] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Liste_transformation_AO_PUB.xlsb.xlsx - historique copie (9 version(s))
+[2026-09-11 16:43:27] [INFO] [3652/12908] Fichiers de conversation Microsoft Teams/log_erreur_update_pub.xlsx (17398 o)
+[2026-09-11 16:43:28] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/log_erreur_update_pub.xlsx
+[2026-09-11 16:43:28] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/log_erreur_update_pub.xlsx
+[2026-09-11 16:43:35] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:35] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/log_erreur_update_pub.xlsx - historique copie (3 version(s))
+[2026-09-11 16:43:35] [INFO] [3653/12908] Fichiers de conversation Microsoft Teams/logo_DWS_claire.png (2563857 o)
+[2026-09-11 16:43:35] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_DWS_claire.png
+[2026-09-11 16:43:35] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_DWS_claire.png
+[2026-09-11 16:43:40] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:40] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_DWS_claire.png - historique copie (1 version(s))
+[2026-09-11 16:43:40] [INFO] [3654/12908] Fichiers de conversation Microsoft Teams/logo_DWS_foncé.png (3241429 o)
+[2026-09-11 16:43:40] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_DWS_foncé.png
+[2026-09-11 16:43:40] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_DWS_foncé.png
+[2026-09-11 16:43:45] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:45] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_DWS_foncé.png - historique copie (1 version(s))
+[2026-09-11 16:43:45] [INFO] [3655/12908] Fichiers de conversation Microsoft Teams/logo_infopro.png (190216 o)
+[2026-09-11 16:43:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_infopro.png
+[2026-09-11 16:43:45] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_infopro.png
+[2026-09-11 16:43:50] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:50] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_infopro.png - historique copie (1 version(s))
+[2026-09-11 16:43:50] [INFO] [3656/12908] Fichiers de conversation Microsoft Teams/logo_infopro2 1.png (212525 o)
+[2026-09-11 16:43:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_infopro2 1.png
+[2026-09-11 16:43:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_infopro2 1.png
+[2026-09-11 16:43:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_infopro2 1.png - historique copie (1 version(s))
+[2026-09-11 16:43:54] [INFO] [3657/12908] Fichiers de conversation Microsoft Teams/logo_infopro2.png (194197 o)
+[2026-09-11 16:43:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_infopro2.png
+[2026-09-11 16:43:55] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_infopro2.png
+[2026-09-11 16:43:59] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:43:59] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_infopro2.png - historique copie (1 version(s))
+[2026-09-11 16:43:59] [INFO] [3658/12908] Fichiers de conversation Microsoft Teams/logo_mail_petit.png (345550 o)
+[2026-09-11 16:43:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_mail_petit.png
+[2026-09-11 16:44:00] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_mail_petit.png
+[2026-09-11 16:44:03] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:03] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_mail_petit.png - historique copie (1 version(s))
+[2026-09-11 16:44:03] [INFO] [3659/12908] Fichiers de conversation Microsoft Teams/logo_mail_petit3.png (252052 o)
+[2026-09-11 16:44:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_mail_petit3.png
+[2026-09-11 16:44:04] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_mail_petit3.png
+[2026-09-11 16:44:08] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:08] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_mail_petit3.png - historique copie (1 version(s))
+[2026-09-11 16:44:08] [INFO] [3660/12908] Fichiers de conversation Microsoft Teams/logo_mail2 1.png (820540 o)
+[2026-09-11 16:44:08] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_mail2 1.png
+[2026-09-11 16:44:09] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_mail2 1.png
+[2026-09-11 16:44:13] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:13] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_mail2 1.png - historique copie (1 version(s))
+[2026-09-11 16:44:13] [INFO] [3661/12908] Fichiers de conversation Microsoft Teams/logo_mail2.png (820540 o)
+[2026-09-11 16:44:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_mail2.png
+[2026-09-11 16:44:13] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_mail2.png
+[2026-09-11 16:44:18] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:18] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_mail2.png - historique copie (1 version(s))
+[2026-09-11 16:44:18] [INFO] [3662/12908] Fichiers de conversation Microsoft Teams/logo_mercury.png (2035080 o)
+[2026-09-11 16:44:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/logo_mercury.png
+[2026-09-11 16:44:18] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/logo_mercury.png
+[2026-09-11 16:44:23] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:23] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/logo_mercury.png - historique copie (1 version(s))
+[2026-09-11 16:44:23] [INFO] [3663/12908] Fichiers de conversation Microsoft Teams/Logo_Mysupport_V1.png (23213 o)
+[2026-09-11 16:44:23] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Logo_Mysupport_V1.png
+[2026-09-11 16:44:23] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Logo_Mysupport_V1.png
+[2026-09-11 16:44:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:27] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Logo_Mysupport_V1.png - historique copie (1 version(s))
+[2026-09-11 16:44:27] [INFO] [3664/12908] Fichiers de conversation Microsoft Teams/Logo_Mysupport_V5.png (17553 o)
+[2026-09-11 16:44:27] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Logo_Mysupport_V5.png
+[2026-09-11 16:44:28] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Logo_Mysupport_V5.png
+[2026-09-11 16:44:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Logo_Mysupport_V5.png - historique copie (1 version(s))
+[2026-09-11 16:44:32] [INFO] [3665/12908] Fichiers de conversation Microsoft Teams/Logs---SIM_SF.zip (57851410 o)
+[2026-09-11 16:44:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Logs---SIM_SF.zip
+[2026-09-11 16:44:32] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Logs---SIM_SF.zip
+[2026-09-11 16:44:41] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:41] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Logs---SIM_SF.zip - historique copie (1 version(s))
+[2026-09-11 16:44:41] [INFO] [3666/12908] Fichiers de conversation Microsoft Teams/M.ico (766 o)
+[2026-09-11 16:44:41] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/M.ico
+[2026-09-11 16:44:42] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/M.ico
+[2026-09-11 16:44:47] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:47] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/M.ico - historique copie (1 version(s))
+[2026-09-11 16:44:47] [INFO] [3667/12908] Fichiers de conversation Microsoft Teams/M3928458.docx (45203 o)
+[2026-09-11 16:44:47] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/M3928458.docx
+[2026-09-11 16:44:47] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/M3928458.docx
+[2026-09-11 16:44:51] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:51] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/M3928458.docx - historique copie (1 version(s))
+[2026-09-11 16:44:51] [INFO] [3668/12908] Fichiers de conversation Microsoft Teams/M4047699.doc (26112 o)
+[2026-09-11 16:44:51] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/M4047699.doc
+[2026-09-11 16:44:52] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/M4047699.doc
+[2026-09-11 16:44:56] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:44:56] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/M4047699.doc - historique copie (1 version(s))
+[2026-09-11 16:44:56] [INFO] [3669/12908] Fichiers de conversation Microsoft Teams/M4047699.xml (2614 o)
+[2026-09-11 16:44:56] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/M4047699.xml
+[2026-09-11 16:44:56] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/M4047699.xml
+[2026-09-11 16:45:01] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:01] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/M4047699.xml - historique copie (1 version(s))
+[2026-09-11 16:45:01] [INFO] [3670/12908] Fichiers de conversation Microsoft Teams/M4055407.doc (30208 o)
+[2026-09-11 16:45:01] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/M4055407.doc
+[2026-09-11 16:45:01] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/M4055407.doc
+[2026-09-11 16:45:05] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:05] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/M4055407.doc - historique copie (1 version(s))
+[2026-09-11 16:45:05] [INFO] [3671/12908] Fichiers de conversation Microsoft Teams/manquant_avis_sans_publications.csv (1691454 o)
+[2026-09-11 16:45:05] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/manquant_avis_sans_publications.csv
+[2026-09-11 16:45:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/manquant_avis_sans_publications.csv
+[2026-09-11 16:45:10] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/manquant_avis_sans_publications.csv - historique copie (1 version(s))
+[2026-09-11 16:45:10] [INFO] [3672/12908] Fichiers de conversation Microsoft Teams/mdp yann (18 o)
+[2026-09-11 16:45:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mdp yann
+[2026-09-11 16:45:11] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mdp yann
+[2026-09-11 16:45:15] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mdp yann - historique copie (1 version(s))
+[2026-09-11 16:45:15] [INFO] [3673/12908] Fichiers de conversation Microsoft Teams/mdp.txt (16 o)
+[2026-09-11 16:45:15] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mdp.txt
+[2026-09-11 16:45:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mdp.txt
+[2026-09-11 16:45:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mdp.txt - historique copie (1 version(s))
+[2026-09-11 16:45:19] [INFO] [3674/12908] Fichiers de conversation Microsoft Teams/mep20250225.zip (18184 o)
+[2026-09-11 16:45:19] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mep20250225.zip
+[2026-09-11 16:45:20] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mep20250225.zip
+[2026-09-11 16:45:24] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:24] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mep20250225.zip - historique copie (1 version(s))
+[2026-09-11 16:45:24] [INFO] [3675/12908] Fichiers de conversation Microsoft Teams/mep20250603.zip (36831 o)
+[2026-09-11 16:45:24] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mep20250603.zip
+[2026-09-11 16:45:24] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mep20250603.zip
+[2026-09-11 16:45:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:28] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mep20250603.zip - historique copie (1 version(s))
+[2026-09-11 16:45:28] [INFO] [3676/12908] Fichiers de conversation Microsoft Teams/MFA.txt (80 o)
+[2026-09-11 16:45:28] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MFA.txt
+[2026-09-11 16:45:29] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MFA.txt
+[2026-09-11 16:45:32] [WARN] Permission non appliquee : Fichiers de conversation Microsoft Teams/MFA.txt (olivier.guillon@infopro-digital.com -> olivier.guillon@infopro-digital.com, role=write) : Graph HTTP 400 : {"error":{"code":"noResolvedUsers","message":"Exception of type 'Microsoft.Vroom.Exceptions.NoResolvedUsersVroomException' was thrown.","innerError":{"date":"2026-09-11T14:45:32","request-id":"3be7184c-0474-4124-a117-ee7e8e4ad09b","client-request-id":"3be7184c-0474-4124-a117-ee7e8e4ad09b"}}}
+[2026-09-11 16:45:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MFA.txt - historique copie (1 version(s))
+[2026-09-11 16:45:34] [INFO] [3677/12908] Fichiers de conversation Microsoft Teams/MicrosoftSSISOracleConnectorX64.msi (17596416 o)
+[2026-09-11 16:45:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MicrosoftSSISOracleConnectorX64.msi
+[2026-09-11 16:45:35] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MicrosoftSSISOracleConnectorX64.msi
+[2026-09-11 16:45:40] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:40] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MicrosoftSSISOracleConnectorX64.msi - historique copie (1 version(s))
+[2026-09-11 16:45:40] [INFO] [3678/12908] Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (1).png (674622 o)
+[2026-09-11 16:45:40] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (1).png
+[2026-09-11 16:45:41] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (1).png
+[2026-09-11 16:45:46] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:46] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (1).png - historique copie (1 version(s))
+[2026-09-11 16:45:46] [INFO] [3679/12908] Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (2).png (389474 o)
+[2026-09-11 16:45:47] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (2).png
+[2026-09-11 16:45:47] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (2).png
+[2026-09-11 16:45:51] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:51] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MicrosoftTeams-image (2).png - historique copie (1 version(s))
+[2026-09-11 16:45:51] [INFO] [3680/12908] Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse.xlsx (1019741 o)
+[2026-09-11 16:45:51] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse.xlsx
+[2026-09-11 16:45:52] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse.xlsx
+[2026-09-11 16:45:57] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:45:57] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse.xlsx - historique copie (2 version(s))
+[2026-09-11 16:45:57] [INFO] [3681/12908] Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse_siret.xlsx (26233 o)
+[2026-09-11 16:45:58] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse_siret.xlsx
+[2026-09-11 16:45:58] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse_siret.xlsx
+[2026-09-11 16:46:06] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:06] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mise a jour de compte_adresse_siret.xlsx - historique copie (3 version(s))
+[2026-09-11 16:46:06] [INFO] [3682/12908] Fichiers de conversation Microsoft Teams/mise a jour semaine BIM 1.zip (4863 o)
+[2026-09-11 16:46:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mise a jour semaine BIM 1.zip
+[2026-09-11 16:46:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mise a jour semaine BIM 1.zip
+[2026-09-11 16:46:12] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:12] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mise a jour semaine BIM 1.zip - historique copie (1 version(s))
+[2026-09-11 16:46:12] [INFO] [3683/12908] Fichiers de conversation Microsoft Teams/mise a jour semaine BIM.zip (4125 o)
+[2026-09-11 16:46:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mise a jour semaine BIM.zip
+[2026-09-11 16:46:13] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mise a jour semaine BIM.zip
+[2026-09-11 16:46:18] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:18] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mise a jour semaine BIM.zip - historique copie (1 version(s))
+[2026-09-11 16:46:18] [INFO] [3684/12908] Fichiers de conversation Microsoft Teams/MN-DMS_FA_AM_pub_flux-3948901.zip (273636 o)
+[2026-09-11 16:46:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MN-DMS_FA_AM_pub_flux-3948901.zip
+[2026-09-11 16:46:19] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MN-DMS_FA_AM_pub_flux-3948901.zip
+[2026-09-11 16:46:23] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:23] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MN-DMS_FA_AM_pub_flux-3948901.zip - historique copie (1 version(s))
+[2026-09-11 16:46:23] [INFO] [3685/12908] Fichiers de conversation Microsoft Teams/Modele_CRA_Avril_2021 (1).xlsx (52930 o)
+[2026-09-11 16:46:23] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Modele_CRA_Avril_2021 (1).xlsx
+[2026-09-11 16:46:23] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Modele_CRA_Avril_2021 (1).xlsx
+[2026-09-11 16:46:27] [WARN] Permission non appliquee : Fichiers de conversation Microsoft Teams/Modele_CRA_Avril_2021 (1).xlsx (olivier.guillon@infopro-digital.com -> olivier.guillon@infopro-digital.com, role=write) : Graph HTTP 400 : {"error":{"code":"noResolvedUsers","message":"Exception of type 'Microsoft.Vroom.Exceptions.NoResolvedUsersVroomException' was thrown.","innerError":{"date":"2026-09-11T14:46:27","request-id":"136952e2-6ecc-43a7-b95a-43c61daf7fc9","client-request-id":"136952e2-6ecc-43a7-b95a-43c61daf7fc9"}}}
+[2026-09-11 16:46:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:28] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Modele_CRA_Avril_2021 (1).xlsx - historique copie (1 version(s))
+[2026-09-11 16:46:28] [INFO] [3686/12908] Fichiers de conversation Microsoft Teams/Mol_Save_DataBase.zip (8208832 o)
+[2026-09-11 16:46:29] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Mol_Save_DataBase.zip
+[2026-09-11 16:46:29] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Mol_Save_DataBase.zip
+[2026-09-11 16:46:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Mol_Save_DataBase.zip - historique copie (1 version(s))
+[2026-09-11 16:46:34] [INFO] [3687/12908] Fichiers de conversation Microsoft Teams/Monimail_V2-doc_technique.docx (3179350 o)
+[2026-09-11 16:46:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Monimail_V2-doc_technique.docx
+[2026-09-11 16:46:34] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Monimail_V2-doc_technique.docx
+[2026-09-11 16:46:39] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:39] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Monimail_V2-doc_technique.docx - historique copie (1 version(s))
+[2026-09-11 16:46:39] [INFO] [3688/12908] Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 – Copie.docx (3430552 o)
+[2026-09-11 16:46:39] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 – Copie.docx
+[2026-09-11 16:46:39] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 – Copie.docx
+[2026-09-11 16:46:44] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:44] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 – Copie.docx - historique copie (1 version(s))
+[2026-09-11 16:46:44] [INFO] [3689/12908] Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 1.docx (3432684 o)
+[2026-09-11 16:46:44] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 1.docx
+[2026-09-11 16:46:45] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 1.docx
+[2026-09-11 16:46:53] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1 1.docx - historique copie (3 version(s))
+[2026-09-11 16:46:53] [INFO] [3690/12908] Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1.docx (3430552 o)
+[2026-09-11 16:46:53] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1.docx
+[2026-09-11 16:46:53] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1.docx
+[2026-09-11 16:46:58] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:46:58] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Monimail_V2-doc_techniqueV1.0.1.docx - historique copie (1 version(s))
+[2026-09-11 16:46:58] [INFO] [3691/12908] Fichiers de conversation Microsoft Teams/mREMONTENG.xml (657691 o)
+[2026-09-11 16:46:58] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/mREMONTENG.xml
+[2026-09-11 16:46:58] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/mREMONTENG.xml
+[2026-09-11 16:47:02] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:02] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/mREMONTENG.xml - historique copie (1 version(s))
+[2026-09-11 16:47:02] [INFO] [3692/12908] Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.cer (826 o)
+[2026-09-11 16:47:02] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.cer
+[2026-09-11 16:47:03] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.cer
+[2026-09-11 16:47:07] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:07] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.cer - historique copie (1 version(s))
+[2026-09-11 16:47:07] [INFO] [3693/12908] Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.pfx (2699 o)
+[2026-09-11 16:47:07] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.pfx
+[2026-09-11 16:47:08] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.pfx
+[2026-09-11 16:47:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2 1.pfx - historique copie (1 version(s))
+[2026-09-11 16:47:11] [INFO] [3694/12908] Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.cer (826 o)
+[2026-09-11 16:47:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.cer
+[2026-09-11 16:47:12] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.cer
+[2026-09-11 16:47:16] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:16] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.cer - historique copie (1 version(s))
+[2026-09-11 16:47:16] [INFO] [3695/12908] Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.pfx (2707 o)
+[2026-09-11 16:47:16] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.pfx
+[2026-09-11 16:47:17] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.pfx
+[2026-09-11 16:47:20] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:20] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/MSGraphExchangeOnlineAuth20260717_2.pfx - historique copie (1 version(s))
+[2026-09-11 16:47:20] [INFO] [3696/12908] Fichiers de conversation Microsoft Teams/my support.png (17831 o)
+[2026-09-11 16:47:21] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/my support.png
+[2026-09-11 16:47:21] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/my support.png
+[2026-09-11 16:47:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/my support.png - historique copie (1 version(s))
+[2026-09-11 16:47:25] [INFO] [3697/12908] Fichiers de conversation Microsoft Teams/nameshields_Extract_DWS.xlsx (7440766 o)
+[2026-09-11 16:47:25] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nameshields_Extract_DWS.xlsx
+[2026-09-11 16:47:25] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nameshields_Extract_DWS.xlsx
+[2026-09-11 16:47:30] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:30] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nameshields_Extract_DWS.xlsx - historique copie (1 version(s))
+[2026-09-11 16:47:30] [INFO] [3698/12908] Fichiers de conversation Microsoft Teams/netoyage order.xlsx (368028 o)
+[2026-09-11 16:47:30] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/netoyage order.xlsx
+[2026-09-11 16:47:31] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/netoyage order.xlsx
+[2026-09-11 16:47:37] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:37] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/netoyage order.xlsx - historique copie (2 version(s))
+[2026-09-11 16:47:37] [INFO] [3699/12908] Fichiers de conversation Microsoft Teams/Netoyage_SF_Edit (007).sql (5148 o)
+[2026-09-11 16:47:37] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Netoyage_SF_Edit (007).sql
+[2026-09-11 16:47:38] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Netoyage_SF_Edit (007).sql
+[2026-09-11 16:47:42] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:42] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Netoyage_SF_Edit (007).sql - historique copie (1 version(s))
+[2026-09-11 16:47:42] [INFO] [3700/12908] Fichiers de conversation Microsoft Teams/netoyage_sif.sql (3060 o)
+[2026-09-11 16:47:42] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/netoyage_sif.sql
+[2026-09-11 16:47:42] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/netoyage_sif.sql
+[2026-09-11 16:47:47] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:47] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/netoyage_sif.sql - historique copie (1 version(s))
+[2026-09-11 16:47:47] [INFO] [3701/12908] Fichiers de conversation Microsoft Teams/nouveau 1.txt (894 o)
+[2026-09-11 16:47:47] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau 1.txt
+[2026-09-11 16:47:47] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nouveau 1.txt
+[2026-09-11 16:47:52] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:52] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau 1.txt - historique copie (1 version(s))
+[2026-09-11 16:47:52] [INFO] [3702/12908] Fichiers de conversation Microsoft Teams/nouveau 2.txt (122 o)
+[2026-09-11 16:47:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau 2.txt
+[2026-09-11 16:47:52] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nouveau 2.txt
+[2026-09-11 16:47:57] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:47:57] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau 2.txt - historique copie (1 version(s))
+[2026-09-11 16:47:57] [INFO] [3703/12908] Fichiers de conversation Microsoft Teams/nouveau 3.txt (4611 o)
+[2026-09-11 16:47:57] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau 3.txt
+[2026-09-11 16:47:58] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nouveau 3.txt
+[2026-09-11 16:48:02] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:02] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau 3.txt - historique copie (1 version(s))
+[2026-09-11 16:48:02] [INFO] [3704/12908] Fichiers de conversation Microsoft Teams/nouveau 5.txt (1588 o)
+[2026-09-11 16:48:02] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau 5.txt
+[2026-09-11 16:48:03] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nouveau 5.txt
+[2026-09-11 16:48:07] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:07] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau 5.txt - historique copie (1 version(s))
+[2026-09-11 16:48:07] [INFO] [3705/12908] Fichiers de conversation Microsoft Teams/nouveau 52.txt (18219 o)
+[2026-09-11 16:48:07] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau 52.txt
+[2026-09-11 16:48:08] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nouveau 52.txt
+[2026-09-11 16:48:12] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:12] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau 52.txt - historique copie (1 version(s))
+[2026-09-11 16:48:12] [INFO] [3706/12908] Fichiers de conversation Microsoft Teams/Nouveau dossier (2).zip (155776 o)
+[2026-09-11 16:48:12] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Nouveau dossier (2).zip
+[2026-09-11 16:48:13] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Nouveau dossier (2).zip
+[2026-09-11 16:48:17] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:17] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Nouveau dossier (2).zip - historique copie (1 version(s))
+[2026-09-11 16:48:17] [INFO] [3707/12908] Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2 .xlsx (12236 o)
+[2026-09-11 16:48:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2 .xlsx
+[2026-09-11 16:48:18] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2 .xlsx
+[2026-09-11 16:48:24] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:24] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2 .xlsx - historique copie (2 version(s))
+[2026-09-11 16:48:24] [INFO] [3708/12908] Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2.xlsx (12789 o)
+[2026-09-11 16:48:24] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2.xlsx
+[2026-09-11 16:48:24] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2.xlsx
+[2026-09-11 16:48:31] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:31] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau droit bdd- V2.xlsx - historique copie (3 version(s))
+[2026-09-11 16:48:31] [INFO] [3709/12908] Fichiers de conversation Microsoft Teams/nouveau droit bdd.xlsx (12194 o)
+[2026-09-11 16:48:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nouveau droit bdd.xlsx
+[2026-09-11 16:48:32] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/nouveau droit bdd.xlsx
+[2026-09-11 16:48:39] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:39] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nouveau droit bdd.xlsx - historique copie (3 version(s))
+[2026-09-11 16:48:39] [INFO] [3710/12908] Fichiers de conversation Microsoft Teams/npatunnel.pcap (10353 o)
+[2026-09-11 16:48:39] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/npatunnel.pcap
+[2026-09-11 16:48:39] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/npatunnel.pcap
+[2026-09-11 16:48:43] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:43] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/npatunnel.pcap - historique copie (1 version(s))
+[2026-09-11 16:48:43] [INFO] [3711/12908] Fichiers de conversation Microsoft Teams/nspktdump.pcap (9788 o)
+[2026-09-11 16:48:44] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/nspktdump.pcap
+[2026-09-11 16:48:44] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/nspktdump.pcap
+[2026-09-11 16:48:48] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:49] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/nspktdump.pcap - historique copie (1 version(s))
+[2026-09-11 16:48:49] [INFO] [3712/12908] Fichiers de conversation Microsoft Teams/NUTS.xsd (76589 o)
+[2026-09-11 16:48:49] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/NUTS.xsd
+[2026-09-11 16:48:49] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/NUTS.xsd
+[2026-09-11 16:48:53] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/NUTS.xsd - historique copie (1 version(s))
+[2026-09-11 16:48:53] [INFO] [3713/12908] Fichiers de conversation Microsoft Teams/OneDrive_1_07-04-2022.zip (5436365 o)
+[2026-09-11 16:48:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/OneDrive_1_07-04-2022.zip
+[2026-09-11 16:48:54] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/OneDrive_1_07-04-2022.zip
+[2026-09-11 16:48:59] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:48:59] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/OneDrive_1_07-04-2022.zip - historique copie (1 version(s))
+[2026-09-11 16:48:59] [INFO] [3714/12908] Fichiers de conversation Microsoft Teams/OneDrive_Copy_2026-08-04_145929.log (12771 o)
+[2026-09-11 16:48:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/OneDrive_Copy_2026-08-04_145929.log
+[2026-09-11 16:49:00] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/OneDrive_Copy_2026-08-04_145929.log
+[2026-09-11 16:49:04] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/OneDrive_Copy_2026-08-04_145929.log - historique copie (1 version(s))
+[2026-09-11 16:49:04] [INFO] [3715/12908] Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542 - Copie.csv (24810 o)
+[2026-09-11 16:49:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542 - Copie.csv
+[2026-09-11 16:49:05] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542 - Copie.csv
+[2026-09-11 16:49:09] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:09] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542 - Copie.csv - historique copie (1 version(s))
+[2026-09-11 16:49:09] [INFO] [3716/12908] Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542.csv (2976 o)
+[2026-09-11 16:49:09] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542.csv
+[2026-09-11 16:49:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542.csv
+[2026-09-11 16:49:14] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/OneDrive_Errors_2026-04-14_174542.csv - historique copie (1 version(s))
+[2026-09-11 16:49:14] [INFO] [3717/12908] Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy 1.zip (5823 o)
+[2026-09-11 16:49:14] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy 1.zip
+[2026-09-11 16:49:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy 1.zip
+[2026-09-11 16:49:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy 1.zip - historique copie (1 version(s))
+[2026-09-11 16:49:19] [INFO] [3718/12908] Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy.zip (5824 o)
+[2026-09-11 16:49:20] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy.zip
+[2026-09-11 16:49:20] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy.zip
+[2026-09-11 16:49:24] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:24] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/oracle_monitoring_with spy.zip - historique copie (1 version(s))
+[2026-09-11 16:49:24] [INFO] [3719/12908] Fichiers de conversation Microsoft Teams/Order_2.csv (33871 o)
+[2026-09-11 16:49:24] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Order_2.csv
+[2026-09-11 16:49:25] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Order_2.csv
+[2026-09-11 16:49:29] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:29] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Order_2.csv - historique copie (1 version(s))
+[2026-09-11 16:49:29] [INFO] [3720/12908] Fichiers de conversation Microsoft Teams/order_a_delete.xls (29696 o)
+[2026-09-11 16:49:29] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/order_a_delete.xls
+[2026-09-11 16:49:29] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/order_a_delete.xls
+[2026-09-11 16:49:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/order_a_delete.xls - historique copie (1 version(s))
+[2026-09-11 16:49:34] [INFO] [3721/12908] Fichiers de conversation Microsoft Teams/Order_last.csv (1421 o)
+[2026-09-11 16:49:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Order_last.csv
+[2026-09-11 16:49:34] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/Order_last.csv
+[2026-09-11 16:49:40] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:40] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Order_last.csv - historique copie (2 version(s))
+[2026-09-11 16:49:40] [INFO] [3722/12908] Fichiers de conversation Microsoft Teams/order_sans_publications.xlsx (55796 o)
+[2026-09-11 16:49:40] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/order_sans_publications.xlsx
+[2026-09-11 16:49:40] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/order_sans_publications.xlsx
+[2026-09-11 16:49:48] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:48] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/order_sans_publications.xlsx - historique copie (3 version(s))
+[2026-09-11 16:49:48] [INFO] [3723/12908] Fichiers de conversation Microsoft Teams/PAC-BasculeEtPurge_SIM.xlsx (22380 o)
+[2026-09-11 16:49:48] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PAC-BasculeEtPurge_SIM.xlsx
+[2026-09-11 16:49:48] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/PAC-BasculeEtPurge_SIM.xlsx
+[2026-09-11 16:49:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:49:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PAC-BasculeEtPurge_SIM.xlsx - historique copie (2 version(s))
+[2026-09-11 16:49:54] [INFO] [3724/12908] Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V1.xlsx (85912 o)
+[2026-09-11 16:49:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V1.xlsx
+[2026-09-11 16:49:55] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V1.xlsx
+[2026-09-11 16:50:00] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:00] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V1.xlsx - historique copie (2 version(s))
+[2026-09-11 16:50:00] [INFO] [3725/12908] Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V2.xlsx (150344 o)
+[2026-09-11 16:50:00] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V2.xlsx
+[2026-09-11 16:50:01] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V2.xlsx
+[2026-09-11 16:50:06] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:06] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_ss_siret_V2.xlsx - historique copie (2 version(s))
+[2026-09-11 16:50:06] [INFO] [3726/12908] Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_V3.xlsx (190722 o)
+[2026-09-11 16:50:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_V3.xlsx
+[2026-09-11 16:50:07] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_V3.xlsx
+[2026-09-11 16:50:13] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:13] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PARENT_Account_PROD_V3.xlsx - historique copie (2 version(s))
+[2026-09-11 16:50:13] [INFO] [3727/12908] Fichiers de conversation Microsoft Teams/parent_enfant_patenariats.xlsx (82109 o)
+[2026-09-11 16:50:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/parent_enfant_patenariats.xlsx
+[2026-09-11 16:50:13] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/parent_enfant_patenariats.xlsx
+[2026-09-11 16:50:17] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:17] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/parent_enfant_patenariats.xlsx - historique copie (1 version(s))
+[2026-09-11 16:50:17] [INFO] [3728/12908] Fichiers de conversation Microsoft Teams/partenariat_SF 1.xlsx (52733 o)
+[2026-09-11 16:50:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/partenariat_SF 1.xlsx
+[2026-09-11 16:50:18] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/partenariat_SF 1.xlsx
+[2026-09-11 16:50:22] [WARN]       v3 EnsureUser echoue (fanny.prost@infopro-digital.com) : SP REST 400 : {"odata.error":{"code":"-2146232832, Microsoft.SharePoint.SPException","message":{"lang":"fr-FR","value":"L'utilisateur sp\u00e9cifi\u00e9 i:0#.f|membership|fanny.prost@infopro-digital.com est introuvable."}}}
+[2026-09-11 16:50:23] [WARN]       v3 : auteur/date VVI non verifies (fanny.prost@infopro-digital.com -> fanny.prost@infopro-digital.com ; obtenu='' / modifie='2026-09-11T14:50:22Z')
+[2026-09-11 16:50:23] [WARN]       v3 : auteur non restaure (VVI non valide) pour 'fanny.prost@infopro-digital.com'
+[2026-09-11 16:50:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/partenariat_SF 1.xlsx - historique copie (3 version(s))
+[2026-09-11 16:50:25] [INFO] [3729/12908] Fichiers de conversation Microsoft Teams/partenariat_SF.xlsx (52028 o)
+[2026-09-11 16:50:26] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/partenariat_SF.xlsx
+[2026-09-11 16:50:26] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/partenariat_SF.xlsx
+[2026-09-11 16:50:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/partenariat_SF.xlsx - historique copie (2 version(s))
+[2026-09-11 16:50:32] [INFO] [3730/12908] Fichiers de conversation Microsoft Teams/PC10031.cer (1514 o)
+[2026-09-11 16:50:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PC10031.cer
+[2026-09-11 16:50:33] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PC10031.cer
+[2026-09-11 16:50:38] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:38] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PC10031.cer - historique copie (1 version(s))
+[2026-09-11 16:50:38] [INFO] [3731/12908] Fichiers de conversation Microsoft Teams/PC10031_info_lcal.csr (1021 o)
+[2026-09-11 16:50:38] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PC10031_info_lcal.csr
+[2026-09-11 16:50:38] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PC10031_info_lcal.csr
+[2026-09-11 16:50:43] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:43] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PC10031_info_lcal.csr - historique copie (1 version(s))
+[2026-09-11 16:50:43] [INFO] [3732/12908] Fichiers de conversation Microsoft Teams/PC10031_info_local.cer (1996 o)
+[2026-09-11 16:50:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PC10031_info_local.cer
+[2026-09-11 16:50:44] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PC10031_info_local.cer
+[2026-09-11 16:50:48] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:48] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PC10031_info_local.cer - historique copie (1 version(s))
+[2026-09-11 16:50:48] [INFO] [3733/12908] Fichiers de conversation Microsoft Teams/PC10031_info_local.csr (1025 o)
+[2026-09-11 16:50:48] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PC10031_info_local.csr
+[2026-09-11 16:50:49] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PC10031_info_local.csr
+[2026-09-11 16:50:53] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PC10031_info_local.csr - historique copie (1 version(s))
+[2026-09-11 16:50:53] [INFO] [3734/12908] Fichiers de conversation Microsoft Teams/PC10031_info_local.pfx (3013 o)
+[2026-09-11 16:50:53] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PC10031_info_local.pfx
+[2026-09-11 16:50:53] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PC10031_info_local.pfx
+[2026-09-11 16:50:58] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:50:58] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PC10031_info_local.pfx - historique copie (1 version(s))
+[2026-09-11 16:50:58] [INFO] [3735/12908] Fichiers de conversation Microsoft Teams/périmetre RRIM-CSIM - SIM.xlsx (3113969 o)
+[2026-09-11 16:50:58] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/périmetre RRIM-CSIM - SIM.xlsx
+[2026-09-11 16:50:58] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/périmetre RRIM-CSIM - SIM.xlsx
+[2026-09-11 16:51:05] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:05] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/périmetre RRIM-CSIM - SIM.xlsx - historique copie (2 version(s))
+[2026-09-11 16:51:05] [INFO] [3736/12908] Fichiers de conversation Microsoft Teams/piedPage_GISI.eps (1603319 o)
+[2026-09-11 16:51:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/piedPage_GISI.eps
+[2026-09-11 16:51:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/piedPage_GISI.eps
+[2026-09-11 16:51:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/piedPage_GISI.eps - historique copie (1 version(s))
+[2026-09-11 16:51:11] [INFO] [3737/12908] Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur.eps (454406 o)
+[2026-09-11 16:51:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur.eps
+[2026-09-11 16:51:11] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur.eps
+[2026-09-11 16:51:15] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur.eps - historique copie (1 version(s))
+[2026-09-11 16:51:15] [INFO] [3738/12908] Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur_old.eps (446950 o)
+[2026-09-11 16:51:16] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur_old.eps
+[2026-09-11 16:51:16] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur_old.eps
+[2026-09-11 16:51:20] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:20] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/piedPage_GroupeMoniteur_old.eps - historique copie (1 version(s))
+[2026-09-11 16:51:20] [INFO] [3739/12908] Fichiers de conversation Microsoft Teams/plan B - contre lotus.png (35840 o)
+[2026-09-11 16:51:20] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/plan B - contre lotus.png
+[2026-09-11 16:51:21] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/plan B - contre lotus.png
+[2026-09-11 16:51:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/plan B - contre lotus.png - historique copie (1 version(s))
+[2026-09-11 16:51:25] [INFO] [3740/12908] Fichiers de conversation Microsoft Teams/pokemonDiamant.zip (90125451 o)
+[2026-09-11 16:51:26] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pokemonDiamant.zip
+[2026-09-11 16:51:26] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/pokemonDiamant.zip
+[2026-09-11 16:51:44] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:51:44] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pokemonDiamant.zip - historique copie (2 version(s))
+[2026-09-11 16:51:44] [INFO] [3741/12908] Fichiers de conversation Microsoft Teams/pouky.zip (133106405 o)
+[2026-09-11 16:51:44] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pouky.zip
+[2026-09-11 16:51:45] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pouky.zip
+[2026-09-11 16:52:00] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:00] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pouky.zip - historique copie (1 version(s))
+[2026-09-11 16:52:00] [INFO] [3742/12908] Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS - Copie.docx (76743 o)
+[2026-09-11 16:52:00] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS - Copie.docx
+[2026-09-11 16:52:00] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS - Copie.docx
+[2026-09-11 16:52:04] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS - Copie.docx - historique copie (1 version(s))
+[2026-09-11 16:52:04] [INFO] [3743/12908] Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS.docx (76743 o)
+[2026-09-11 16:52:05] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS.docx
+[2026-09-11 16:52:05] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS.docx
+[2026-09-11 16:52:09] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:09] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/PRC-DeploiementProjetSSIS.docx - historique copie (1 version(s))
+[2026-09-11 16:52:10] [INFO] [3744/12908] Fichiers de conversation Microsoft Teams/previewCdtAutres.html (4711 o)
+[2026-09-11 16:52:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/previewCdtAutres.html
+[2026-09-11 16:52:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/previewCdtAutres.html
+[2026-09-11 16:52:14] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/previewCdtAutres.html - historique copie (1 version(s))
+[2026-09-11 16:52:14] [INFO] [3745/12908] Fichiers de conversation Microsoft Teams/Prise_en_main_Monimail2.pdf (758796 o)
+[2026-09-11 16:52:15] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Prise_en_main_Monimail2.pdf
+[2026-09-11 16:52:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Prise_en_main_Monimail2.pdf
+[2026-09-11 16:52:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Prise_en_main_Monimail2.pdf - historique copie (1 version(s))
+[2026-09-11 16:52:19] [INFO] [3746/12908] Fichiers de conversation Microsoft Teams/problème_adresse.xlsx (16736501 o)
+[2026-09-11 16:52:19] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/problème_adresse.xlsx
+[2026-09-11 16:52:20] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/problème_adresse.xlsx
+[2026-09-11 16:52:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/problème_adresse.xlsx - historique copie (1 version(s))
+[2026-09-11 16:52:25] [INFO] [3747/12908] Fichiers de conversation Microsoft Teams/procédure.xlsx (11163 o)
+[2026-09-11 16:52:25] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/procédure.xlsx
+[2026-09-11 16:52:26] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/procédure.xlsx
+[2026-09-11 16:52:31] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:31] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/procédure.xlsx - historique copie (2 version(s))
+[2026-09-11 16:52:31] [INFO] [3748/12908] Fichiers de conversation Microsoft Teams/Process_compatibilité_SIMNET_Windows10.pdf (685785 o)
+[2026-09-11 16:52:31] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Process_compatibilité_SIMNET_Windows10.pdf
+[2026-09-11 16:52:32] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Process_compatibilité_SIMNET_Windows10.pdf
+[2026-09-11 16:52:36] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:36] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Process_compatibilité_SIMNET_Windows10.pdf - historique copie (1 version(s))
+[2026-09-11 16:52:36] [INFO] [3749/12908] Fichiers de conversation Microsoft Teams/process_synchro_sim_sf.jpg (64349 o)
+[2026-09-11 16:52:37] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/process_synchro_sim_sf.jpg
+[2026-09-11 16:52:37] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/process_synchro_sim_sf.jpg
+[2026-09-11 16:52:41] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:41] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/process_synchro_sim_sf.jpg - historique copie (1 version(s))
+[2026-09-11 16:52:41] [INFO] [3750/12908] Fichiers de conversation Microsoft Teams/Production_MOL_20211203.zip (6608756 o)
+[2026-09-11 16:52:41] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Production_MOL_20211203.zip
+[2026-09-11 16:52:42] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/Production_MOL_20211203.zip
+[2026-09-11 16:52:49] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:49] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Production_MOL_20211203.zip - historique copie (2 version(s))
+[2026-09-11 16:52:49] [INFO] [3751/12908] Fichiers de conversation Microsoft Teams/Production_MOL_20221016.zip (3562051 o)
+[2026-09-11 16:52:49] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Production_MOL_20221016.zip
+[2026-09-11 16:52:49] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Production_MOL_20221016.zip
+[2026-09-11 16:52:56] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:52:56] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Production_MOL_20221016.zip - historique copie (1 version(s))
+[2026-09-11 16:52:56] [INFO] [3752/12908] Fichiers de conversation Microsoft Teams/Production_MOL_20230712-2.zip (5698233 o)
+[2026-09-11 16:52:56] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Production_MOL_20230712-2.zip
+[2026-09-11 16:52:56] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Production_MOL_20230712-2.zip
+[2026-09-11 16:53:01] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:01] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Production_MOL_20230712-2.zip - historique copie (1 version(s))
+[2026-09-11 16:53:01] [INFO] [3753/12908] Fichiers de conversation Microsoft Teams/profile-dk-crankykong.7bf2a8f2.aead314d58b63e27.png (173850 o)
+[2026-09-11 16:53:01] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/profile-dk-crankykong.7bf2a8f2.aead314d58b63e27.png
+[2026-09-11 16:53:02] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/profile-dk-crankykong.7bf2a8f2.aead314d58b63e27.png
+[2026-09-11 16:53:06] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:06] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/profile-dk-crankykong.7bf2a8f2.aead314d58b63e27.png - historique copie (1 version(s))
+[2026-09-11 16:53:06] [INFO] [3754/12908] Fichiers de conversation Microsoft Teams/Program.cs (3555 o)
+[2026-09-11 16:53:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Program.cs
+[2026-09-11 16:53:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Program.cs
+[2026-09-11 16:53:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Program.cs - historique copie (1 version(s))
+[2026-09-11 16:53:11] [INFO] [3755/12908] Fichiers de conversation Microsoft Teams/propriétaire de compte.xlsx (1419598 o)
+[2026-09-11 16:53:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/propriétaire de compte.xlsx
+[2026-09-11 16:53:11] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/propriétaire de compte.xlsx
+[2026-09-11 16:53:15] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/propriétaire de compte.xlsx - historique copie (1 version(s))
+[2026-09-11 16:53:16] [INFO] [3756/12908] Fichiers de conversation Microsoft Teams/provenance_monimail.xlsx (11675 o)
+[2026-09-11 16:53:16] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/provenance_monimail.xlsx
+[2026-09-11 16:53:16] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/provenance_monimail.xlsx
+[2026-09-11 16:53:22] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:22] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/provenance_monimail.xlsx - historique copie (2 version(s))
+[2026-09-11 16:53:22] [INFO] [3757/12908] Fichiers de conversation Microsoft Teams/pub.csv (184364 o)
+[2026-09-11 16:53:22] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub.csv
+[2026-09-11 16:53:23] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub.csv
+[2026-09-11 16:53:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:27] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub.csv - historique copie (1 version(s))
+[2026-09-11 16:53:27] [INFO] [3758/12908] Fichiers de conversation Microsoft Teams/pub_a_sup.csv (9106742 o)
+[2026-09-11 16:53:27] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_a_sup.csv
+[2026-09-11 16:53:27] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_a_sup.csv
+[2026-09-11 16:53:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_a_sup.csv - historique copie (1 version(s))
+[2026-09-11 16:53:32] [INFO] [3759/12908] Fichiers de conversation Microsoft Teams/pub_ABO-1733132.xml (867 o)
+[2026-09-11 16:53:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_ABO-1733132.xml
+[2026-09-11 16:53:33] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_ABO-1733132.xml
+[2026-09-11 16:53:37] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:37] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_ABO-1733132.xml - historique copie (1 version(s))
+[2026-09-11 16:53:37] [INFO] [3760/12908] Fichiers de conversation Microsoft Teams/pub_APC-4083036.xml (5557 o)
+[2026-09-11 16:53:37] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_APC-4083036.xml
+[2026-09-11 16:53:37] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_APC-4083036.xml
+[2026-09-11 16:53:41] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:42] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_APC-4083036.xml - historique copie (1 version(s))
+[2026-09-11 16:53:42] [INFO] [3761/12908] Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT_txt-4083036.txt (618 o)
+[2026-09-11 16:53:42] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT_txt-4083036.txt
+[2026-09-11 16:53:42] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT_txt-4083036.txt
+[2026-09-11 16:53:47] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:47] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT_txt-4083036.txt - historique copie (1 version(s))
+[2026-09-11 16:53:47] [INFO] [3762/12908] Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT-4083036.xml (1180 o)
+[2026-09-11 16:53:47] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT-4083036.xml
+[2026-09-11 16:53:48] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT-4083036.xml
+[2026-09-11 16:53:52] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:52] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_CMPLT_RECT-4083036.xml - historique copie (1 version(s))
+[2026-09-11 16:53:52] [INFO] [3763/12908] Fichiers de conversation Microsoft Teams/pub_flux-4083036.xml (922 o)
+[2026-09-11 16:53:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_flux-4083036.xml
+[2026-09-11 16:53:53] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_flux-4083036.xml
+[2026-09-11 16:53:56] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:53:56] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_flux-4083036.xml - historique copie (1 version(s))
+[2026-09-11 16:53:56] [INFO] [3764/12908] Fichiers de conversation Microsoft Teams/pub_insert_correction.csv (710 o)
+[2026-09-11 16:53:56] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_insert_correction.csv
+[2026-09-11 16:53:57] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_insert_correction.csv
+[2026-09-11 16:54:01] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:01] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_insert_correction.csv - historique copie (1 version(s))
+[2026-09-11 16:54:01] [INFO] [3765/12908] Fichiers de conversation Microsoft Teams/pub_insert_oki.csv (710 o)
+[2026-09-11 16:54:01] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_insert_oki.csv
+[2026-09-11 16:54:02] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_insert_oki.csv
+[2026-09-11 16:54:05] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:05] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_insert_oki.csv - historique copie (1 version(s))
+[2026-09-11 16:54:06] [INFO] [3766/12908] Fichiers de conversation Microsoft Teams/pub_RECT-3837634.xml (1630 o)
+[2026-09-11 16:54:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_RECT-3837634.xml
+[2026-09-11 16:54:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_RECT-3837634.xml
+[2026-09-11 16:54:10] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_RECT-3837634.xml - historique copie (1 version(s))
+[2026-09-11 16:54:10] [INFO] [3767/12908] Fichiers de conversation Microsoft Teams/pub_RECT-4083036.xml (1944 o)
+[2026-09-11 16:54:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_RECT-4083036.xml
+[2026-09-11 16:54:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_RECT-4083036.xml
+[2026-09-11 16:54:14] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_RECT-4083036.xml - historique copie (1 version(s))
+[2026-09-11 16:54:14] [INFO] [3768/12908] Fichiers de conversation Microsoft Teams/pub_test.csv (788 o)
+[2026-09-11 16:54:14] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/pub_test.csv
+[2026-09-11 16:54:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/pub_test.csv
+[2026-09-11 16:54:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/pub_test.csv - historique copie (1 version(s))
+[2026-09-11 16:54:19] [INFO] [3769/12908] Fichiers de conversation Microsoft Teams/publication 2021-2022.xlsx (7629249 o)
+[2026-09-11 16:54:19] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication 2021-2022.xlsx
+[2026-09-11 16:54:19] [INFO]    ⬆  Rejeu de 4 version(s) : Fichiers de conversation Microsoft Teams/publication 2021-2022.xlsx
+[2026-09-11 16:54:30] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:30] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication 2021-2022.xlsx - historique copie (4 version(s))
+[2026-09-11 16:54:30] [INFO] [3770/12908] Fichiers de conversation Microsoft Teams/publication 2022-2023.xlsx (8161122 o)
+[2026-09-11 16:54:30] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication 2022-2023.xlsx
+[2026-09-11 16:54:30] [INFO]    ⬆  Rejeu de 5 version(s) : Fichiers de conversation Microsoft Teams/publication 2022-2023.xlsx
+[2026-09-11 16:54:43] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:43] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication 2022-2023.xlsx - historique copie (5 version(s))
+[2026-09-11 16:54:43] [INFO] [3771/12908] Fichiers de conversation Microsoft Teams/publication inf 2021.xlsx (7146932 o)
+[2026-09-11 16:54:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication inf 2021.xlsx
+[2026-09-11 16:54:43] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publication inf 2021.xlsx
+[2026-09-11 16:54:48] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:48] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication inf 2021.xlsx - historique copie (1 version(s))
+[2026-09-11 16:54:48] [INFO] [3772/12908] Fichiers de conversation Microsoft Teams/publication sup 2023.xlsx (27419 o)
+[2026-09-11 16:54:48] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication sup 2023.xlsx
+[2026-09-11 16:54:48] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/publication sup 2023.xlsx
+[2026-09-11 16:54:53] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication sup 2023.xlsx - historique copie (2 version(s))
+[2026-09-11 16:54:53] [INFO] [3773/12908] Fichiers de conversation Microsoft Teams/publication__c_R (2706420 o)
+[2026-09-11 16:54:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication__c_R
+[2026-09-11 16:54:54] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publication__c_R
+[2026-09-11 16:54:59] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:54:59] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication__c_R - historique copie (1 version(s))
+[2026-09-11 16:54:59] [INFO] [3774/12908] Fichiers de conversation Microsoft Teams/publication__c_R.csv (2706420 o)
+[2026-09-11 16:54:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication__c_R.csv
+[2026-09-11 16:55:01] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publication__c_R.csv
+[2026-09-11 16:55:05] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:05] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication__c_R.csv - historique copie (1 version(s))
+[2026-09-11 16:55:05] [INFO] [3775/12908] Fichiers de conversation Microsoft Teams/publication_avec_filtre_sur_le_support.xlsx (724013 o)
+[2026-09-11 16:55:05] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication_avec_filtre_sur_le_support.xlsx
+[2026-09-11 16:55:06] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publication_avec_filtre_sur_le_support.xlsx
+[2026-09-11 16:55:10] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication_avec_filtre_sur_le_support.xlsx - historique copie (1 version(s))
+[2026-09-11 16:55:10] [INFO] [3776/12908] Fichiers de conversation Microsoft Teams/publication_et_etat.xlsx (14155 o)
+[2026-09-11 16:55:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication_et_etat.xlsx
+[2026-09-11 16:55:10] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/publication_et_etat.xlsx
+[2026-09-11 16:55:16] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:16] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication_et_etat.xlsx - historique copie (3 version(s))
+[2026-09-11 16:55:16] [INFO] [3777/12908] Fichiers de conversation Microsoft Teams/publication_sans_filtre_sur_le_support.xlsx (719200 o)
+[2026-09-11 16:55:16] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publication_sans_filtre_sur_le_support.xlsx
+[2026-09-11 16:55:17] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/publication_sans_filtre_sur_le_support.xlsx
+[2026-09-11 16:55:22] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:22] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publication_sans_filtre_sur_le_support.xlsx - historique copie (2 version(s))
+[2026-09-11 16:55:22] [INFO] [3778/12908] Fichiers de conversation Microsoft Teams/publications 1.xlsx (2479025 o)
+[2026-09-11 16:55:22] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications 1.xlsx
+[2026-09-11 16:55:23] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications 1.xlsx
+[2026-09-11 16:55:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:27] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications 1.xlsx - historique copie (1 version(s))
+[2026-09-11 16:55:27] [INFO] [3779/12908] Fichiers de conversation Microsoft Teams/publications.xlsx (592576 o)
+[2026-09-11 16:55:27] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications.xlsx
+[2026-09-11 16:55:27] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/publications.xlsx
+[2026-09-11 16:55:33] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:33] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications.xlsx - historique copie (2 version(s))
+[2026-09-11 16:55:33] [INFO] [3780/12908] Fichiers de conversation Microsoft Teams/publications__c 1.csv (62090196 o)
+[2026-09-11 16:55:33] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications__c 1.csv
+[2026-09-11 16:55:34] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications__c 1.csv
+[2026-09-11 16:55:42] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:42] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications__c 1.csv - historique copie (1 version(s))
+[2026-09-11 16:55:42] [INFO] [3781/12908] Fichiers de conversation Microsoft Teams/publications__c.csv (62424299 o)
+[2026-09-11 16:55:42] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications__c.csv
+[2026-09-11 16:55:43] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications__c.csv
+[2026-09-11 16:55:51] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:55:51] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications__c.csv - historique copie (1 version(s))
+[2026-09-11 16:55:51] [INFO] [3782/12908] Fichiers de conversation Microsoft Teams/Publications__c_mep_20230920.xlsx (3500382 o)
+[2026-09-11 16:55:51] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications__c_mep_20230920.xlsx
+[2026-09-11 16:55:51] [INFO]    ⬆  Rejeu de 6 version(s) : Fichiers de conversation Microsoft Teams/Publications__c_mep_20230920.xlsx
+[2026-09-11 16:56:06] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:06] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications__c_mep_20230920.xlsx - historique copie (6 version(s))
+[2026-09-11 16:56:06] [INFO] [3783/12908] Fichiers de conversation Microsoft Teams/publications__c_rattrapage.csv (396875 o)
+[2026-09-11 16:56:06] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications__c_rattrapage.csv
+[2026-09-11 16:56:07] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications__c_rattrapage.csv
+[2026-09-11 16:56:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications__c_rattrapage.csv - historique copie (1 version(s))
+[2026-09-11 16:56:11] [INFO] [3784/12908] Fichiers de conversation Microsoft Teams/Publications_a_supprimé.csv (12509979 o)
+[2026-09-11 16:56:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications_a_supprimé.csv
+[2026-09-11 16:56:11] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Publications_a_supprimé.csv
+[2026-09-11 16:56:16] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:16] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications_a_supprimé.csv - historique copie (1 version(s))
+[2026-09-11 16:56:16] [INFO] [3785/12908] Fichiers de conversation Microsoft Teams/Publications_a_supprimé.xlsx (6337420 o)
+[2026-09-11 16:56:16] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications_a_supprimé.xlsx
+[2026-09-11 16:56:16] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Publications_a_supprimé.xlsx
+[2026-09-11 16:56:20] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:20] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications_a_supprimé.xlsx - historique copie (1 version(s))
+[2026-09-11 16:56:20] [INFO] [3786/12908] Fichiers de conversation Microsoft Teams/publications_brutesV2.xlsx (9953182 o)
+[2026-09-11 16:56:20] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_brutesV2.xlsx
+[2026-09-11 16:56:21] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_brutesV2.xlsx
+[2026-09-11 16:56:26] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:26] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_brutesV2.xlsx - historique copie (1 version(s))
+[2026-09-11 16:56:26] [INFO] [3787/12908] Fichiers de conversation Microsoft Teams/publications_lot2.csv (52459415 o)
+[2026-09-11 16:56:26] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_lot2.csv
+[2026-09-11 16:56:26] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_lot2.csv
+[2026-09-11 16:56:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_lot2.csv - historique copie (1 version(s))
+[2026-09-11 16:56:34] [INFO] [3788/12908] Fichiers de conversation Microsoft Teams/publications_lot3.csv (52506128 o)
+[2026-09-11 16:56:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_lot3.csv
+[2026-09-11 16:56:35] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_lot3.csv
+[2026-09-11 16:56:42] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:42] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_lot3.csv - historique copie (1 version(s))
+[2026-09-11 16:56:42] [INFO] [3789/12908] Fichiers de conversation Microsoft Teams/publications_lot4.csv (38392360 o)
+[2026-09-11 16:56:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_lot4.csv
+[2026-09-11 16:56:43] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_lot4.csv
+[2026-09-11 16:56:49] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:49] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_lot4.csv - historique copie (1 version(s))
+[2026-09-11 16:56:49] [INFO] [3790/12908] Fichiers de conversation Microsoft Teams/Publications_manquante 1.xlsx (97735 o)
+[2026-09-11 16:56:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications_manquante 1.xlsx
+[2026-09-11 16:56:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Publications_manquante 1.xlsx
+[2026-09-11 16:56:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications_manquante 1.xlsx - historique copie (1 version(s))
+[2026-09-11 16:56:54] [INFO] [3791/12908] Fichiers de conversation Microsoft Teams/Publications_manquante 2.xlsx (97735 o)
+[2026-09-11 16:56:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications_manquante 2.xlsx
+[2026-09-11 16:56:54] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Publications_manquante 2.xlsx
+[2026-09-11 16:56:58] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:56:58] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications_manquante 2.xlsx - historique copie (1 version(s))
+[2026-09-11 16:56:58] [INFO] [3792/12908] Fichiers de conversation Microsoft Teams/Publications_manquante.xlsx (365643 o)
+[2026-09-11 16:56:58] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Publications_manquante.xlsx
+[2026-09-11 16:56:59] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Publications_manquante.xlsx
+[2026-09-11 16:57:03] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:03] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Publications_manquante.xlsx - historique copie (1 version(s))
+[2026-09-11 16:57:03] [INFO] [3793/12908] Fichiers de conversation Microsoft Teams/publications_non_dispo.csv (1874726 o)
+[2026-09-11 16:57:03] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_non_dispo.csv
+[2026-09-11 16:57:03] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_non_dispo.csv
+[2026-09-11 16:57:07] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:07] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_non_dispo.csv - historique copie (1 version(s))
+[2026-09-11 16:57:07] [INFO] [3794/12908] Fichiers de conversation Microsoft Teams/publications_sauv20240628.csv (411051959 o)
+[2026-09-11 16:57:07] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_sauv20240628.csv
+[2026-09-11 16:57:08] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_sauv20240628.csv
+[2026-09-11 16:57:35] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:35] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_sauv20240628.csv - historique copie (1 version(s))
+[2026-09-11 16:57:35] [INFO] [3795/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424.xlsx (7625750 o)
+[2026-09-11 16:57:35] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424.xlsx
+[2026-09-11 16:57:36] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424.xlsx
+[2026-09-11 16:57:44] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:44] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424.xlsx - historique copie (3 version(s))
+[2026-09-11 16:57:44] [INFO] [3796/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_2.xlsx (7708351 o)
+[2026-09-11 16:57:44] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_2.xlsx
+[2026-09-11 16:57:45] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_2.xlsx
+[2026-09-11 16:57:53] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_2.xlsx - historique copie (3 version(s))
+[2026-09-11 16:57:53] [INFO] [3797/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_3.xlsx (8217177 o)
+[2026-09-11 16:57:53] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_3.xlsx
+[2026-09-11 16:57:54] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_3.xlsx
+[2026-09-11 16:57:59] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:57:59] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_3.xlsx - historique copie (1 version(s))
+[2026-09-11 16:57:59] [INFO] [3798/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V4.xlsx (7321205 o)
+[2026-09-11 16:57:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V4.xlsx
+[2026-09-11 16:58:00] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V4.xlsx
+[2026-09-11 16:58:04] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V4.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:04] [INFO] [3799/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V5.xlsx (7266428 o)
+[2026-09-11 16:58:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V5.xlsx
+[2026-09-11 16:58:05] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V5.xlsx
+[2026-09-11 16:58:09] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:09] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V5.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:09] [INFO] [3800/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V6.xlsx (7839305 o)
+[2026-09-11 16:58:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V6.xlsx
+[2026-09-11 16:58:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V6.xlsx
+[2026-09-11 16:58:15] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_V6.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:15] [INFO] [3801/12908] Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_VFinal.xlsx (7810793 o)
+[2026-09-11 16:58:15] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_VFinal.xlsx
+[2026-09-11 16:58:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_VFinal.xlsx
+[2026-09-11 16:58:20] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:20] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchro_20240401_au_20240424_VFinal.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:20] [INFO] [3802/12908] Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409 1.xlsx (1528200 o)
+[2026-09-11 16:58:20] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409 1.xlsx
+[2026-09-11 16:58:20] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409 1.xlsx
+[2026-09-11 16:58:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409 1.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:25] [INFO] [3803/12908] Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409.xlsx (622802 o)
+[2026-09-11 16:58:25] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409.xlsx
+[2026-09-11 16:58:25] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409.xlsx
+[2026-09-11 16:58:29] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:29] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_synchroV2_20240409.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:29] [INFO] [3804/12908] Fichiers de conversation Microsoft Teams/publications_v23.xlsx (7604377 o)
+[2026-09-11 16:58:29] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_v23.xlsx
+[2026-09-11 16:58:30] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_v23.xlsx
+[2026-09-11 16:58:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_v23.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:34] [INFO] [3805/12908] Fichiers de conversation Microsoft Teams/publications_V24.xlsx (7627097 o)
+[2026-09-11 16:58:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_V24.xlsx
+[2026-09-11 16:58:35] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_V24.xlsx
+[2026-09-11 16:58:39] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:39] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_V24.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:39] [INFO] [3806/12908] Fichiers de conversation Microsoft Teams/publications_V7.xlsx (7791112 o)
+[2026-09-11 16:58:40] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_V7.xlsx
+[2026-09-11 16:58:40] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_V7.xlsx
+[2026-09-11 16:58:45] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:45] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_V7.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:45] [INFO] [3807/12908] Fichiers de conversation Microsoft Teams/publications_V8.xlsx (7939326 o)
+[2026-09-11 16:58:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications_V8.xlsx
+[2026-09-11 16:58:45] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications_V8.xlsx
+[2026-09-11 16:58:50] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:50] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications_V8.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:50] [INFO] [3808/12908] Fichiers de conversation Microsoft Teams/publications2.xlsx (4068572 o)
+[2026-09-11 16:58:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publications2.xlsx
+[2026-09-11 16:58:51] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publications2.xlsx
+[2026-09-11 16:58:55] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:58:55] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publications2.xlsx - historique copie (1 version(s))
+[2026-09-11 16:58:55] [INFO] [3809/12908] Fichiers de conversation Microsoft Teams/publicationsV20.xlsx (7678663 o)
+[2026-09-11 16:58:55] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publicationsV20.xlsx
+[2026-09-11 16:58:55] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/publicationsV20.xlsx
+[2026-09-11 16:59:02] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:02] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publicationsV20.xlsx - historique copie (2 version(s))
+[2026-09-11 16:59:02] [INFO] [3810/12908] Fichiers de conversation Microsoft Teams/publicationsV21.xlsx (7900398 o)
+[2026-09-11 16:59:02] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publicationsV21.xlsx
+[2026-09-11 16:59:03] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/publicationsV21.xlsx
+[2026-09-11 16:59:10] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publicationsV21.xlsx - historique copie (2 version(s))
+[2026-09-11 16:59:10] [INFO] [3811/12908] Fichiers de conversation Microsoft Teams/publicationsV22.xlsx (7179812 o)
+[2026-09-11 16:59:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publicationsV22.xlsx
+[2026-09-11 16:59:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publicationsV22.xlsx
+[2026-09-11 16:59:15] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publicationsV22.xlsx - historique copie (1 version(s))
+[2026-09-11 16:59:15] [INFO] [3812/12908] Fichiers de conversation Microsoft Teams/publictions_lot1.csv (52557148 o)
+[2026-09-11 16:59:15] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/publictions_lot1.csv
+[2026-09-11 16:59:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/publictions_lot1.csv
+[2026-09-11 16:59:23] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:23] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/publictions_lot1.csv - historique copie (1 version(s))
+[2026-09-11 16:59:23] [INFO] [3813/12908] Fichiers de conversation Microsoft Teams/Rapport-PowerBI-Consolide-90J7.csv (458124 o)
+[2026-09-11 16:59:23] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Rapport-PowerBI-Consolide-90J7.csv
+[2026-09-11 16:59:24] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Rapport-PowerBI-Consolide-90J7.csv
+[2026-09-11 16:59:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:28] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Rapport-PowerBI-Consolide-90J7.csv - historique copie (1 version(s))
+[2026-09-11 16:59:28] [INFO] [3814/12908] Fichiers de conversation Microsoft Teams/rattrapage calligramme_20230119.sql (29826 o)
+[2026-09-11 16:59:28] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/rattrapage calligramme_20230119.sql
+[2026-09-11 16:59:28] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/rattrapage calligramme_20230119.sql
+[2026-09-11 16:59:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/rattrapage calligramme_20230119.sql - historique copie (1 version(s))
+[2026-09-11 16:59:32] [INFO] [3815/12908] Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101.sql (6320 o)
+[2026-09-11 16:59:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101.sql
+[2026-09-11 16:59:32] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101.sql
+[2026-09-11 16:59:36] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:36] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101.sql - historique copie (1 version(s))
+[2026-09-11 16:59:36] [INFO] [3816/12908] Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101_2.sql (6492 o)
+[2026-09-11 16:59:36] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101_2.sql
+[2026-09-11 16:59:37] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101_2.sql
+[2026-09-11 16:59:40] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:40] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/rattrapage_synchro_sim_sf_20200101_20241101_2.sql - historique copie (1 version(s))
+[2026-09-11 16:59:41] [INFO] [3817/12908] Fichiers de conversation Microsoft Teams/recette 1.xlsx (10283 o)
+[2026-09-11 16:59:41] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/recette 1.xlsx
+[2026-09-11 16:59:41] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/recette 1.xlsx
+[2026-09-11 16:59:45] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:45] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/recette 1.xlsx - historique copie (1 version(s))
+[2026-09-11 16:59:45] [INFO] [3818/12908] Fichiers de conversation Microsoft Teams/Recette problème de support AO.docx (13908 o)
+[2026-09-11 16:59:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Recette problème de support AO.docx
+[2026-09-11 16:59:46] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Recette problème de support AO.docx
+[2026-09-11 16:59:51] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:51] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Recette problème de support AO.docx - historique copie (1 version(s))
+[2026-09-11 16:59:51] [INFO] [3819/12908] Fichiers de conversation Microsoft Teams/recette.xlsx (9113 o)
+[2026-09-11 16:59:51] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/recette.xlsx
+[2026-09-11 16:59:51] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/recette.xlsx
+[2026-09-11 16:59:55] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 16:59:55] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/recette.xlsx - historique copie (1 version(s))
+[2026-09-11 16:59:55] [INFO] [3820/12908] Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 1.docx (128910 o)
+[2026-09-11 16:59:55] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 1.docx
+[2026-09-11 16:59:56] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 1.docx
+[2026-09-11 17:00:03] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:03] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 1.docx - historique copie (3 version(s))
+[2026-09-11 17:00:03] [INFO] [3821/12908] Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 2.docx (128910 o)
+[2026-09-11 17:00:03] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 2.docx
+[2026-09-11 17:00:03] [INFO]    ⬆  Rejeu de 3 version(s) : Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 2.docx
+[2026-09-11 17:00:10] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO 2.docx - historique copie (3 version(s))
+[2026-09-11 17:00:10] [INFO] [3822/12908] Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO.docx (127852 o)
+[2026-09-11 17:00:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO.docx
+[2026-09-11 17:00:10] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO.docx
+[2026-09-11 17:00:14] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Redemarrer le serveur PASEO.docx - historique copie (1 version(s))
+[2026-09-11 17:00:14] [INFO] [3823/12908] Fichiers de conversation Microsoft Teams/référentiel_creamodif-AD.xlsx (19210 o)
+[2026-09-11 17:00:14] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/référentiel_creamodif-AD.xlsx
+[2026-09-11 17:00:15] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/référentiel_creamodif-AD.xlsx
+[2026-09-11 17:00:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/référentiel_creamodif-AD.xlsx - historique copie (1 version(s))
+[2026-09-11 17:00:19] [INFO] [3824/12908] Fichiers de conversation Microsoft Teams/référentiel_intranet.xlsx (17624 o)
+[2026-09-11 17:00:19] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/référentiel_intranet.xlsx
+[2026-09-11 17:00:20] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/référentiel_intranet.xlsx
+[2026-09-11 17:00:25] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:25] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/référentiel_intranet.xlsx - historique copie (2 version(s))
+[2026-09-11 17:00:25] [INFO] [3825/12908] Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM (1).kdbx (32494 o)
+[2026-09-11 17:00:25] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM (1).kdbx
+[2026-09-11 17:00:26] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM (1).kdbx
+[2026-09-11 17:00:29] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:29] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM (1).kdbx - historique copie (1 version(s))
+[2026-09-11 17:00:30] [INFO] [3826/12908] Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM 1.kdbx (35230 o)
+[2026-09-11 17:00:30] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM 1.kdbx
+[2026-09-11 17:00:30] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM 1.kdbx
+[2026-09-11 17:00:34] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:34] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM 1.kdbx - historique copie (1 version(s))
+[2026-09-11 17:00:34] [INFO] [3827/12908] Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM.kdbx (32494 o)
+[2026-09-11 17:00:34] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM.kdbx
+[2026-09-11 17:00:35] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM.kdbx
+[2026-09-11 17:00:39] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:39] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Referentiel-SIM_BIM.kdbx - historique copie (1 version(s))
+[2026-09-11 17:00:39] [INFO] [3828/12908] Fichiers de conversation Microsoft Teams/rejet avis 02-08-2024.xlsx (22415 o)
+[2026-09-11 17:00:39] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/rejet avis 02-08-2024.xlsx
+[2026-09-11 17:00:39] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/rejet avis 02-08-2024.xlsx
+[2026-09-11 17:00:43] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:43] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/rejet avis 02-08-2024.xlsx - historique copie (1 version(s))
+[2026-09-11 17:00:43] [INFO] [3829/12908] Fichiers de conversation Microsoft Teams/rejet_sf.xlsx (13900 o)
+[2026-09-11 17:00:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/rejet_sf.xlsx
+[2026-09-11 17:00:43] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/rejet_sf.xlsx
+[2026-09-11 17:00:49] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:49] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/rejet_sf.xlsx - historique copie (2 version(s))
+[2026-09-11 17:00:49] [INFO] [3830/12908] Fichiers de conversation Microsoft Teams/repos.zip (1190132 o)
+[2026-09-11 17:00:49] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/repos.zip
+[2026-09-11 17:00:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/repos.zip
+[2026-09-11 17:00:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:00:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/repos.zip - historique copie (1 version(s))
+[2026-09-11 17:00:54] [INFO] [3831/12908] Fichiers de conversation Microsoft Teams/req_ao.sql (2542 o)
+[2026-09-11 17:00:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/req_ao.sql
+[2026-09-11 17:00:55] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/req_ao.sql
+[2026-09-11 17:01:00] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:00] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/req_ao.sql - historique copie (2 version(s))
+[2026-09-11 17:01:00] [INFO] [3832/12908] Fichiers de conversation Microsoft Teams/requete clean support web.sql (4525 o)
+[2026-09-11 17:01:01] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/requete clean support web.sql
+[2026-09-11 17:01:01] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/requete clean support web.sql
+[2026-09-11 17:01:05] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:05] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/requete clean support web.sql - historique copie (1 version(s))
+[2026-09-11 17:01:05] [INFO] [3833/12908] Fichiers de conversation Microsoft Teams/requete des AM.txt (833 o)
+[2026-09-11 17:01:05] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/requete des AM.txt
+[2026-09-11 17:01:06] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/requete des AM.txt
+[2026-09-11 17:01:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/requete des AM.txt - historique copie (2 version(s))
+[2026-09-11 17:01:11] [INFO] [3834/12908] Fichiers de conversation Microsoft Teams/requete des AM2.txt (1620 o)
+[2026-09-11 17:01:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/requete des AM2.txt
+[2026-09-11 17:01:12] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/requete des AM2.txt
+[2026-09-11 17:01:17] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:17] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/requete des AM2.txt - historique copie (2 version(s))
+[2026-09-11 17:01:17] [INFO] [3835/12908] Fichiers de conversation Microsoft Teams/requete interv_mou manquant ou pas dans dim_interv.sql (3349 o)
+[2026-09-11 17:01:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/requete interv_mou manquant ou pas dans dim_interv.sql
+[2026-09-11 17:01:18] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/requete interv_mou manquant ou pas dans dim_interv.sql
+[2026-09-11 17:01:22] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:22] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/requete interv_mou manquant ou pas dans dim_interv.sql - historique copie (1 version(s))
+[2026-09-11 17:01:22] [INFO] [3836/12908] Fichiers de conversation Microsoft Teams/requete_update.sql (519 o)
+[2026-09-11 17:01:22] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/requete_update.sql
+[2026-09-11 17:01:23] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/requete_update.sql
+[2026-09-11 17:01:27] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:27] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/requete_update.sql - historique copie (1 version(s))
+[2026-09-11 17:01:27] [INFO] [3837/12908] Fichiers de conversation Microsoft Teams/result.csv (25954 o)
+[2026-09-11 17:01:27] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/result.csv
+[2026-09-11 17:01:27] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/result.csv
+[2026-09-11 17:01:31] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:31] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/result.csv - historique copie (1 version(s))
+[2026-09-11 17:01:31] [INFO] [3838/12908] Fichiers de conversation Microsoft Teams/resultat_synchro.sql (410 o)
+[2026-09-11 17:01:31] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/resultat_synchro.sql
+[2026-09-11 17:01:32] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/resultat_synchro.sql
+[2026-09-11 17:01:35] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:35] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/resultat_synchro.sql - historique copie (1 version(s))
+[2026-09-11 17:01:35] [INFO] [3839/12908] Fichiers de conversation Microsoft Teams/resultat_synchro2.sql (453 o)
+[2026-09-11 17:01:36] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/resultat_synchro2.sql
+[2026-09-11 17:01:36] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/resultat_synchro2.sql
+[2026-09-11 17:01:39] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:39] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/resultat_synchro2.sql - historique copie (1 version(s))
+[2026-09-11 17:01:39] [INFO] [3840/12908] Fichiers de conversation Microsoft Teams/RESULTAT-0_valeur_sans_traitement.log (2371 o)
+[2026-09-11 17:01:39] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/RESULTAT-0_valeur_sans_traitement.log
+[2026-09-11 17:01:40] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/RESULTAT-0_valeur_sans_traitement.log
+[2026-09-11 17:01:44] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:44] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/RESULTAT-0_valeur_sans_traitement.log - historique copie (1 version(s))
+[2026-09-11 17:01:44] [INFO] [3841/12908] Fichiers de conversation Microsoft Teams/RESULTAT-1_initial.log (2353 o)
+[2026-09-11 17:01:44] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/RESULTAT-1_initial.log
+[2026-09-11 17:01:44] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/RESULTAT-1_initial.log
+[2026-09-11 17:01:48] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:48] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/RESULTAT-1_initial.log - historique copie (1 version(s))
+[2026-09-11 17:01:48] [INFO] [3842/12908] Fichiers de conversation Microsoft Teams/RESULTAT-2_corrige_optim.log (1860 o)
+[2026-09-11 17:01:48] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/RESULTAT-2_corrige_optim.log
+[2026-09-11 17:01:48] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/RESULTAT-2_corrige_optim.log
+[2026-09-11 17:01:52] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:52] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/RESULTAT-2_corrige_optim.log - historique copie (1 version(s))
+[2026-09-11 17:01:52] [INFO] [3843/12908] Fichiers de conversation Microsoft Teams/retour intégration.docx (113437 o)
+[2026-09-11 17:01:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/retour intégration.docx
+[2026-09-11 17:01:53] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/retour intégration.docx
+[2026-09-11 17:01:56] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:01:56] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/retour intégration.docx - historique copie (1 version(s))
+[2026-09-11 17:01:56] [INFO] [3844/12908] Fichiers de conversation Microsoft Teams/Retour_analyse_Facture 1.xlsx (21777 o)
+[2026-09-11 17:01:57] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Retour_analyse_Facture 1.xlsx
+[2026-09-11 17:01:57] [INFO]    ⬆  Rejeu de 2 version(s) : Fichiers de conversation Microsoft Teams/Retour_analyse_Facture 1.xlsx
+[2026-09-11 17:02:02] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:02] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Retour_analyse_Facture 1.xlsx - historique copie (2 version(s))
+[2026-09-11 17:02:02] [INFO] [3845/12908] Fichiers de conversation Microsoft Teams/Retour_analyse_Facture.xlsx (22539 o)
+[2026-09-11 17:02:02] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Retour_analyse_Facture.xlsx
+[2026-09-11 17:02:03] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Retour_analyse_Facture.xlsx
+[2026-09-11 17:02:07] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:07] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Retour_analyse_Facture.xlsx - historique copie (1 version(s))
+[2026-09-11 17:02:07] [INFO] [3846/12908] Fichiers de conversation Microsoft Teams/S25251.xml (20913 o)
+[2026-09-11 17:02:07] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/S25251.xml
+[2026-09-11 17:02:07] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/S25251.xml
+[2026-09-11 17:02:11] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:11] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/S25251.xml - historique copie (1 version(s))
+[2026-09-11 17:02:11] [INFO] [3847/12908] Fichiers de conversation Microsoft Teams/S2S.zip (21608970 o)
+[2026-09-11 17:02:11] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/S2S.zip
+[2026-09-11 17:02:12] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/S2S.zip
+[2026-09-11 17:02:18] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:18] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/S2S.zip - historique copie (1 version(s))
+[2026-09-11 17:02:18] [INFO] [3848/12908] Fichiers de conversation Microsoft Teams/SAFA.xlsx (1080480 o)
+[2026-09-11 17:02:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SAFA.xlsx
+[2026-09-11 17:02:19] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SAFA.xlsx
+[2026-09-11 17:02:23] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:23] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SAFA.xlsx - historique copie (1 version(s))
+[2026-09-11 17:02:23] [INFO] [3849/12908] Fichiers de conversation Microsoft Teams/Sans titre2.ps1 (11006 o)
+[2026-09-11 17:02:23] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Sans titre2.ps1
+[2026-09-11 17:02:24] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Sans titre2.ps1
+[2026-09-11 17:02:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:28] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Sans titre2.ps1 - historique copie (1 version(s))
+[2026-09-11 17:02:28] [INFO] [3850/12908] Fichiers de conversation Microsoft Teams/sarepointCopyScrypt-last-one.ps1 (9176 o)
+[2026-09-11 17:02:28] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/sarepointCopyScrypt-last-one.ps1
+[2026-09-11 17:02:28] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/sarepointCopyScrypt-last-one.ps1
+[2026-09-11 17:02:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/sarepointCopyScrypt-last-one.ps1 - historique copie (1 version(s))
+[2026-09-11 17:02:32] [INFO] [3851/12908] Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_SIMOWN_20240712.sql (3187450 o)
+[2026-09-11 17:02:33] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_SIMOWN_20240712.sql
+[2026-09-11 17:02:33] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_SIMOWN_20240712.sql
+[2026-09-11 17:02:37] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:37] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_SIMOWN_20240712.sql - historique copie (1 version(s))
+[2026-09-11 17:02:37] [INFO] [3852/12908] Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_svc_sim_sf_20240712.sql (1194678 o)
+[2026-09-11 17:02:37] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_svc_sim_sf_20240712.sql
+[2026-09-11 17:02:38] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_svc_sim_sf_20240712.sql
+[2026-09-11 17:02:42] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:42] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/sauvegarde_bdd_recette_svc_sim_sf_20240712.sql - historique copie (1 version(s))
+[2026-09-11 17:02:42] [INFO] [3853/12908] Fichiers de conversation Microsoft Teams/script_Copie_Sharepoint.zip (12576 o)
+[2026-09-11 17:02:42] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_Copie_Sharepoint.zip
+[2026-09-11 17:02:42] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_Copie_Sharepoint.zip
+[2026-09-11 17:02:46] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:46] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_Copie_Sharepoint.zip - historique copie (1 version(s))
+[2026-09-11 17:02:46] [INFO] [3854/12908] Fichiers de conversation Microsoft Teams/script_de_la_murte.txt (14051 o)
+[2026-09-11 17:02:46] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_de_la_murte.txt
+[2026-09-11 17:02:47] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_de_la_murte.txt
+[2026-09-11 17:02:50] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:50] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_de_la_murte.txt - historique copie (1 version(s))
+[2026-09-11 17:02:50] [INFO] [3855/12908] Fichiers de conversation Microsoft Teams/script_update.zip (1038834 o)
+[2026-09-11 17:02:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update.zip
+[2026-09-11 17:02:51] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update.zip
+[2026-09-11 17:02:55] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:02:55] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update.zip - historique copie (1 version(s))
+[2026-09-11 17:02:55] [INFO] [3856/12908] Fichiers de conversation Microsoft Teams/script_update_oracle.sql (3387587 o)
+[2026-09-11 17:02:55] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update_oracle.sql
+[2026-09-11 17:02:55] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update_oracle.sql
+[2026-09-11 17:03:00] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:00] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update_oracle.sql - historique copie (1 version(s))
+[2026-09-11 17:03:00] [INFO] [3857/12908] Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01 (1).sql (4494401 o)
+[2026-09-11 17:03:00] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01 (1).sql
+[2026-09-11 17:03:00] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01 (1).sql
+[2026-09-11 17:03:04] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01 (1).sql - historique copie (1 version(s))
+[2026-09-11 17:03:04] [INFO] [3858/12908] Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01.sql (4494401 o)
+[2026-09-11 17:03:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01.sql
+[2026-09-11 17:03:05] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01.sql
+[2026-09-11 17:03:09] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:09] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_01.sql - historique copie (1 version(s))
+[2026-09-11 17:03:09] [INFO] [3859/12908] Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02 (1).sql (3318257 o)
+[2026-09-11 17:03:09] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02 (1).sql
+[2026-09-11 17:03:09] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02 (1).sql
+[2026-09-11 17:03:14] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02 (1).sql - historique copie (1 version(s))
+[2026-09-11 17:03:14] [INFO] [3860/12908] Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02.sql (3318257 o)
+[2026-09-11 17:03:14] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02.sql
+[2026-09-11 17:03:14] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02.sql
+[2026-09-11 17:03:19] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:19] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/script_update_SQL_SERVER_02.sql - historique copie (1 version(s))
+[2026-09-11 17:03:19] [INFO] [3861/12908] Fichiers de conversation Microsoft Teams/SELECT-1_initial.sql (3182 o)
+[2026-09-11 17:03:19] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SELECT-1_initial.sql
+[2026-09-11 17:03:20] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SELECT-1_initial.sql
+[2026-09-11 17:03:24] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:24] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SELECT-1_initial.sql - historique copie (1 version(s))
+[2026-09-11 17:03:24] [INFO] [3862/12908] Fichiers de conversation Microsoft Teams/SELECT-2_corrige.sql (2843 o)
+[2026-09-11 17:03:24] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SELECT-2_corrige.sql
+[2026-09-11 17:03:24] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SELECT-2_corrige.sql
+[2026-09-11 17:03:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:28] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SELECT-2_corrige.sql - historique copie (1 version(s))
+[2026-09-11 17:03:28] [INFO] [3863/12908] Fichiers de conversation Microsoft Teams/SELECT-3_optimise.sql (1227 o)
+[2026-09-11 17:03:28] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SELECT-3_optimise.sql
+[2026-09-11 17:03:28] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SELECT-3_optimise.sql
+[2026-09-11 17:03:32] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SELECT-3_optimise.sql - historique copie (1 version(s))
+[2026-09-11 17:03:32] [INFO] [3864/12908] Fichiers de conversation Microsoft Teams/Service dans sim-saleforce.xlsx (394357 o)
+[2026-09-11 17:03:33] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/Service dans sim-saleforce.xlsx
+[2026-09-11 17:03:33] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/Service dans sim-saleforce.xlsx
+[2026-09-11 17:03:37] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:37] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/Service dans sim-saleforce.xlsx - historique copie (1 version(s))
+[2026-09-11 17:03:37] [INFO] [3865/12908] Fichiers de conversation Microsoft Teams/SF_AM_PUB.xlsx (23762 o)
+[2026-09-11 17:03:37] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SF_AM_PUB.xlsx
+[2026-09-11 17:03:37] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SF_AM_PUB.xlsx
+[2026-09-11 17:03:41] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:41] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SF_AM_PUB.xlsx - historique copie (1 version(s))
+[2026-09-11 17:03:41] [INFO] [3866/12908] Fichiers de conversation Microsoft Teams/SF_AO_PUB.xlsx (503042 o)
+[2026-09-11 17:03:41] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SF_AO_PUB.xlsx
+[2026-09-11 17:03:41] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SF_AO_PUB.xlsx
+[2026-09-11 17:03:45] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:45] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SF_AO_PUB.xlsx - historique copie (1 version(s))
+[2026-09-11 17:03:45] [INFO] [3867/12908] Fichiers de conversation Microsoft Teams/shared image (1).jpg (96171 o)
+[2026-09-11 17:03:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/shared image (1).jpg
+[2026-09-11 17:03:46] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/shared image (1).jpg
+[2026-09-11 17:03:50] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:50] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/shared image (1).jpg - historique copie (1 version(s))
+[2026-09-11 17:03:50] [INFO] [3868/12908] Fichiers de conversation Microsoft Teams/shared image.jpg (33983 o)
+[2026-09-11 17:03:50] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/shared image.jpg
+[2026-09-11 17:03:50] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/shared image.jpg
+[2026-09-11 17:03:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/shared image.jpg - historique copie (1 version(s))
+[2026-09-11 17:03:54] [INFO] [3869/12908] Fichiers de conversation Microsoft Teams/SharePoint_Errors_2026-04-15.zip (9818 o)
+[2026-09-11 17:03:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_Errors_2026-04-15.zip
+[2026-09-11 17:03:54] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_Errors_2026-04-15.zip
+[2026-09-11 17:03:58] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:03:58] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_Errors_2026-04-15.zip - historique copie (1 version(s))
+[2026-09-11 17:03:58] [INFO] [3870/12908] Fichiers de conversation Microsoft Teams/SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-11 17:03:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-11 17:03:59] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-11 17:04:03] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_Errors_Notisum_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-09-11 17:04:04] [INFO] [3871/12908] Fichiers de conversation Microsoft Teams/SharePoint_Errors_notisum526_2026-04-10_154411.csv (2676 o)
+[2026-09-11 17:04:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_Errors_notisum526_2026-04-10_154411.csv
+[2026-09-11 17:04:04] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_Errors_notisum526_2026-04-10_154411.csv
+[2026-09-11 17:04:08] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:08] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_Errors_notisum526_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-09-11 17:04:08] [INFO] [3872/12908] Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS_2026-04-09_173515.csv (55294 o)
+[2026-09-11 17:04:09] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS_2026-04-09_173515.csv
+[2026-09-11 17:04:09] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS_2026-04-09_173515.csv
+[2026-09-11 17:04:13] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:13] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS_2026-04-09_173515.csv - historique copie (1 version(s))
+[2026-09-11 17:04:13] [INFO] [3873/12908] Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS-Direktion_2026-04-10_140952.csv (507 o)
+[2026-09-11 17:04:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS-Direktion_2026-04-10_140952.csv
+[2026-09-11 17:04:14] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS-Direktion_2026-04-10_140952.csv
+[2026-09-11 17:04:18] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:18] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_Errors_NotisumAPS-Direktion_2026-04-10_140952.csv - historique copie (1 version(s))
+[2026-09-11 17:04:18] [INFO] [3874/12908] Fichiers de conversation Microsoft Teams/SharePoint_source_202508081126.csv (2126984 o)
+[2026-09-11 17:04:18] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePoint_source_202508081126.csv
+[2026-09-11 17:04:19] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePoint_source_202508081126.csv
+[2026-09-11 17:04:23] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:23] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePoint_source_202508081126.csv - historique copie (1 version(s))
+[2026-09-11 17:04:23] [INFO] [3875/12908] Fichiers de conversation Microsoft Teams/SharePointCopyScript.ps1 (14647 o)
+[2026-09-11 17:04:24] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SharePointCopyScript.ps1
+[2026-09-11 17:04:24] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SharePointCopyScript.ps1
+[2026-09-11 17:04:28] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:29] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SharePointCopyScript.ps1 - historique copie (1 version(s))
+[2026-09-11 17:04:29] [INFO] [3876/12908] Fichiers de conversation Microsoft Teams/shutterstock_1333741808 1.jpg (1069184 o)
+[2026-09-11 17:04:29] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/shutterstock_1333741808 1.jpg
+[2026-09-11 17:04:29] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/shutterstock_1333741808 1.jpg
+[2026-09-11 17:04:33] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:33] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/shutterstock_1333741808 1.jpg - historique copie (1 version(s))
+[2026-09-11 17:04:33] [INFO] [3877/12908] Fichiers de conversation Microsoft Teams/shutterstock_1333741808.jpg (1069184 o)
+[2026-09-11 17:04:33] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/shutterstock_1333741808.jpg
+[2026-09-11 17:04:34] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/shutterstock_1333741808.jpg
+[2026-09-11 17:04:38] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:38] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/shutterstock_1333741808.jpg - historique copie (1 version(s))
+[2026-09-11 17:04:38] [INFO] [3878/12908] Fichiers de conversation Microsoft Teams/SIM_PA_FACTURATION.pkb (308762 o)
+[2026-09-11 17:04:38] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SIM_PA_FACTURATION.pkb
+[2026-09-11 17:04:39] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SIM_PA_FACTURATION.pkb
+[2026-09-11 17:04:43] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:43] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SIM_PA_FACTURATION.pkb - historique copie (1 version(s))
+[2026-09-11 17:04:43] [INFO] [3879/12908] Fichiers de conversation Microsoft Teams/SIM2021.zip (64832955 o)
+[2026-09-11 17:04:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SIM2021.zip
+[2026-09-11 17:04:44] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SIM2021.zip
+[2026-09-11 17:04:54] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SIM2021.zip - historique copie (1 version(s))
+[2026-09-11 17:04:54] [INFO] [3880/12908] Fichiers de conversation Microsoft Teams/SIMOWN.SIM_PR_netoyage_2017.sql (119351 o)
+[2026-09-11 17:04:54] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/SIMOWN.SIM_PR_netoyage_2017.sql
+[2026-09-11 17:04:55] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/SIMOWN.SIM_PR_netoyage_2017.sql
+[2026-09-11 17:04:59] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:04:59] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/SIMOWN.SIM_PR_netoyage_2017.sql - historique copie (1 version(s))
+[2026-09-11 17:04:59] [INFO] [3881/12908] Fichiers de conversation Microsoft Teams/simx_ao_index.txt (5957 o)
+[2026-09-11 17:04:59] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/simx_ao_index.txt
+[2026-09-11 17:04:59] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/simx_ao_index.txt
+[2026-09-11 17:05:04] [INFO] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-11 17:05:04] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/simx_ao_index.txt - historique copie (1 version(s))
+[2026-09-11 17:05:04] [INFO] [3882/12908] Fichiers de conversation Microsoft Teams/simx_ao_pub.sql (7001 o)
+[2026-09-11 17:05:04] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/simx_ao_pub.sql
+[2026-09-11 17:05:04] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/simx_ao_pub.sql
+[2026-09-11 17:05:08] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-09-11_163413.csv
+[2026-09-11 17:05:08] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-11_163413.log

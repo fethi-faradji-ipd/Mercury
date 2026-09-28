@@ -1,0 +1,1214 @@
+﻿[2026-06-08 16:33:01] [INFO] =========================================
+[2026-06-08 16:33:01] [SUCCESS] === COPIE SHAREPOINT - GESTION DES TOKENS ===
+[2026-06-08 16:33:01] [INFO] Version: 5.7
+[2026-06-08 16:33:01] [INFO] =========================================
+[2026-06-08 16:33:01] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-06-08 16:33:01] [SUCCESS] source:Source destination: Destination
+[2026-06-08 16:33:01] [SUCCESS] source:/ destination: /
+[2026-06-08 16:33:01] [SUCCESS] Traductions chargées: 2
+[2026-06-08 16:33:01] [INFO] Mappings: 2
+[2026-06-08 16:33:01] [SUCCESS] Mappages utilisateurs chargés: 3
+[2026-06-08 16:33:01] [INFO] === AUTHENTIFICATION ===
+[2026-06-08 16:33:01] [SUCCESS] Nouveau token pour 85a5a352-25d6-4894-a97d-221cd1712dd2|684f670e-6931-4120-b053-f8c9538744f6. Expire à 06/08/2026 17:33:00
+[2026-06-08 16:33:02] [SUCCESS] Nouveau token pour 2eea08b8-1972-447b-ad43-d044d042500a|821109a4-6e0e-48e8-b477-8f9b70aa32a4. Expire à 06/08/2026 17:33:01
+[2026-06-08 16:33:02] [INFO] === RESOLUTION DES SITES ===
+[2026-06-08 16:33:02] [SUCCESS] Source: https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-06-08 16:33:02] [SUCCESS] Drive source: Documents (ID: b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-06-08 16:33:02] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/fethygate
+[2026-06-08 16:33:02] [SUCCESS] Drive destination: Documents (ID: b!k8jQXFKwk0KwtGsFvJmNhsH5xvG66_JEj-cEjgaHomnZSz8m37iZRJ3SeesLotEx)
+[2026-06-08 16:33:03] [INFO] Librairies source: Documents
+[2026-06-08 16:33:03] [INFO] Librairies dest:   Documents
+[2026-06-08 16:33:03] [INFO] === LECTURE DU FICHIER CSV ===
+[2026-06-08 16:33:03] [SUCCESS] Lignes de permissions chargées: 1938
+[2026-06-08 16:33:03] [SUCCESS] Chemins uniques à traiter: 333
+[2026-06-08 16:33:03] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-06-08 16:33:03] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-06-08 16:33:04] [SUCCESS] === FICHIER COPIE AVEC SUCCES: Audit_user_gmail.xlsx ===
+[2026-06-08 16:33:05] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 16:33:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 16:33:05] [SUCCESS] Résolution: 'User test 02' (User) -> 9545ef82-e8d3-44ae-9c1f-aebebbb474c9
+[2026-06-08 16:33:05] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Audit_user_gmail.xlsx
+[2026-06-08 16:33:05] [WARN] [403] Permissions insuffisantes pour résoudre 'grp_test'. Vérifiez que l'app destination a User.Read.All ou GroupMember.Read.All.
+[2026-06-08 16:33:05] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 16:33:05] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-06-08 16:33:05] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-06-08 16:33:07] [SUCCESS] === FICHIER COPIE AVEC SUCCES: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-06-08 16:33:07] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 16:33:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 16:33:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 16:33:08] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 16:33:08] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:08] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-06-08 16:33:08] [INFO] === COPIE REELLE: Drive ECHOLINE ===
+[2026-06-08 16:33:08] [SUCCESS] Dossier cree: Drive ECHOLINE
+[2026-06-08 16:33:08] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 16:33:08] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:08] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE
+[2026-06-08 16:33:09] [SUCCESS] Résolution: 'FARADJI, Fethi' (User) -> 517e236b-5425-4efb-b7fe-cea82021362a
+[2026-06-08 16:33:09] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE
+[2026-06-08 16:33:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 16:33:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 16:33:09] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-06-08 16:33:09] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops ===
+[2026-06-08 16:33:09] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 16:33:10] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-06-08 16:33:10] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement ===
+[2026-06-08 16:33:11] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:11] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:11] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:12] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:12] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 16:33:12] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-06-08 16:33:12] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-06-08 16:33:13] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 16:33:13] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:13] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/ (6 permission(s))
+[2026-06-08 16:33:13] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne ===
+[2026-06-08 16:33:14] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:14] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:15] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:15] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:15] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 16:33:15] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/ (6 permission(s))
+[2026-06-08 16:33:15] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie ===
+[2026-06-08 16:33:16] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:16] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:16] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:16] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:16] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:16] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:17] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 16:33:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/ (6 permission(s))
+[2026-06-08 16:33:17] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique ===
+[2026-06-08 16:33:18] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:18] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 16:33:18] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/ (6 permission(s))
+[2026-06-08 16:33:18] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil ===
+[2026-06-08 16:33:20] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-06-08 16:33:20] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-06-08 16:33:22] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-06-08 16:33:24] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-06-08 16:33:26] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:33:26] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/ (6 permission(s))
+[2026-06-08 16:33:26] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada ===
+[2026-06-08 16:33:28] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:28] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:28] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:28] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:29] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 16:33:29] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud/ (6 permission(s))
+[2026-06-08 16:33:29] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud ===
+[2026-06-08 16:33:30] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-06-08 16:33:31] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-06-08 16:33:33] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-06-08 16:33:35] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud
+[2026-06-08 16:33:37] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Corée du Sud - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:33:37] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/ (6 permission(s))
+[2026-06-08 16:33:37] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne ===
+[2026-06-08 16:33:38] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:38] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:38] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:39] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne
+[2026-06-08 16:33:39] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:39] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/ (6 permission(s))
+[2026-06-08 16:33:39] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie ===
+[2026-06-08 16:33:40] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:40] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:40] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:40] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:41] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie
+[2026-06-08 16:33:41] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/ (6 permission(s))
+[2026-06-08 16:33:41] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe ===
+[2026-06-08 16:33:42] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe
+[2026-06-08 16:33:42] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:42] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/ (6 permission(s))
+[2026-06-08 16:33:42] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande ===
+[2026-06-08 16:33:43] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:44] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande
+[2026-06-08 16:33:44] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/ (6 permission(s))
+[2026-06-08 16:33:44] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France ===
+[2026-06-08 16:33:45] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:45] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:45] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:45] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:46] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France
+[2026-06-08 16:33:46] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/ (6 permission(s))
+[2026-06-08 16:33:46] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde ===
+[2026-06-08 16:33:47] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:47] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde
+[2026-06-08 16:33:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/ (6 permission(s))
+[2026-06-08 16:33:47] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande ===
+[2026-06-08 16:33:48] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:48] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:49] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:49] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande
+[2026-06-08 16:33:49] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:49] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/ (6 permission(s))
+[2026-06-08 16:33:49] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie ===
+[2026-06-08 16:33:50] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:50] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie
+[2026-06-08 16:33:50] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/ (6 permission(s))
+[2026-06-08 16:33:50] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg ===
+[2026-06-08 16:33:51] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:51] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:51] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:52] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:52] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:52] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:52] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg
+[2026-06-08 16:33:52] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/ (6 permission(s))
+[2026-06-08 16:33:52] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie ===
+[2026-06-08 16:33:53] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:53] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie
+[2026-06-08 16:33:53] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/ (6 permission(s))
+[2026-06-08 16:33:53] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc ===
+[2026-06-08 16:33:54] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc
+[2026-06-08 16:33:55] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:55] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/ (6 permission(s))
+[2026-06-08 16:33:55] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne ===
+[2026-06-08 16:33:56] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:56] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne
+[2026-06-08 16:33:56] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/ (6 permission(s))
+[2026-06-08 16:33:56] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal ===
+[2026-06-08 16:33:57] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:33:58] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal
+[2026-06-08 16:33:58] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/ (6 permission(s))
+[2026-06-08 16:33:58] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni ===
+[2026-06-08 16:33:59] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni
+[2026-06-08 16:34:00] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:00] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/ (6 permission(s))
+[2026-06-08 16:34:00] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour ===
+[2026-06-08 16:34:01] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:01] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:01] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:01] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:01] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:01] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:01] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour
+[2026-06-08 16:34:02] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède/ (6 permission(s))
+[2026-06-08 16:34:02] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède ===
+[2026-06-08 16:34:03] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-06-08 16:34:03] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-06-08 16:34:05] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-06-08 16:34:07] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède
+[2026-06-08 16:34:09] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suède - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:34:09] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/ (6 permission(s))
+[2026-06-08 16:34:09] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse ===
+[2026-06-08 16:34:10] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:11] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:11] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:11] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:11] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse
+[2026-06-08 16:34:11] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:11] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/ (6 permission(s))
+[2026-06-08 16:34:11] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie ===
+[2026-06-08 16:34:12] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie
+[2026-06-08 16:34:12] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:12] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/ (6 permission(s))
+[2026-06-08 16:34:12] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA ===
+[2026-06-08 16:34:13] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:13] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:13] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:13] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:14] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA
+[2026-06-08 16:34:14] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ (6 permission(s))
+[2026-06-08 16:34:14] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._ ===
+[2026-06-08 16:34:15] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:15] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._
+[2026-06-08 16:34:15] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/ (6 permission(s))
+[2026-06-08 16:34:15] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik ===
+[2026-06-08 16:34:16] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:16] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:16] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:17] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:17] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:17] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:17] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik
+[2026-06-08 16:34:17] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/ (6 permission(s))
+[2026-06-08 16:34:17] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum ===
+[2026-06-08 16:34:18] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:18] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:18] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:18] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:18] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:19] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum
+[2026-06-08 16:34:19] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:19] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:34:19] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives ===
+[2026-06-08 16:34:20] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:20] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives
+[2026-06-08 16:34:20] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/ (6 permission(s))
+[2026-06-08 16:34:20] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets ===
+[2026-06-08 16:34:21] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:21] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:21] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:22] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:22] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets
+[2026-06-08 16:34:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques/ (6 permission(s))
+[2026-06-08 16:34:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques ===
+[2026-06-08 16:34:23] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:34:23] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-06-08 16:34:25] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-06-08 16:34:27] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques
+[2026-06-08 16:34:30] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches thématiques - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:34:30] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/ (6 permission(s))
+[2026-06-08 16:34:30] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes ===
+[2026-06-08 16:34:31] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Normes
+[2026-06-08 16:34:31] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/ (6 permission(s))
+[2026-06-08 16:34:31] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille ===
+[2026-06-08 16:34:32] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:32] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:32] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:33] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:33] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille
+[2026-06-08 16:34:33] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/ (6 permission(s))
+[2026-06-08 16:34:33] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs ===
+[2026-06-08 16:34:34] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:34] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs
+[2026-06-08 16:34:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/ (6 permission(s))
+[2026-06-08 16:34:34] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques ===
+[2026-06-08 16:34:35] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:36] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques
+[2026-06-08 16:34:36] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/ (6 permission(s))
+[2026-06-08 16:34:36] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement ===
+[2026-06-08 16:34:37] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:37] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:37] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:37] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:37] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:38] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement
+[2026-06-08 16:34:38] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:38] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail/ (6 permission(s))
+[2026-06-08 16:34:38] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail ===
+[2026-06-08 16:34:39] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:34:39] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-06-08 16:34:41] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-06-08 16:34:43] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail
+[2026-06-08 16:34:45] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Sécurité au travail - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:34:45] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:34:45] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives ===
+[2026-06-08 16:34:46] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:46] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:47] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:47] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:47] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives
+[2026-06-08 16:34:47] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/ (6 permission(s))
+[2026-06-08 16:34:47] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement ===
+[2026-06-08 16:34:48] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement
+[2026-06-08 16:34:48] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:48] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures/ (6 permission(s))
+[2026-06-08 16:34:48] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures ===
+[2026-06-08 16:34:49] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:34:50] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-06-08 16:34:52] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-06-08 16:34:54] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures
+[2026-06-08 16:34:56] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et procédures - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:34:56] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/ (6 permission(s))
+[2026-06-08 16:34:56] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires ===
+[2026-06-08 16:34:57] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:57] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:34:57] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:58] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:58] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:58] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:58] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires
+[2026-06-08 16:34:58] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques/ (6 permission(s))
+[2026-06-08 16:34:58] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques ===
+[2026-06-08 16:34:59] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:34:59] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-06-08 16:35:01] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-06-08 16:35:03] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques
+[2026-06-08 16:35:05] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Thématiques - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:35:05] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/ (6 permission(s))
+[2026-06-08 16:35:05] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops ===
+[2026-06-08 16:35:06] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops
+[2026-06-08 16:35:07] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:07] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/A-Suivi prod/ (6 permission(s))
+[2026-06-08 16:35:07] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/A-Suivi prod ===
+[2026-06-08 16:35:08] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:08] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops/A-Suivi prod
+[2026-06-08 16:35:08] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/B-Clients/ (6 permission(s))
+[2026-06-08 16:35:08] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/B-Clients ===
+[2026-06-08 16:35:09] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:09] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:10] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:10] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops/B-Clients
+[2026-06-08 16:35:10] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/C-Services/ (6 permission(s))
+[2026-06-08 16:35:10] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/C-Services ===
+[2026-06-08 16:35:11] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:11] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops/C-Services
+[2026-06-08 16:35:11] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/D-Projets/ (6 permission(s))
+[2026-06-08 16:35:11] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/D-Projets ===
+[2026-06-08 16:35:12] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:12] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:12] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:13] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:13] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops/D-Projets
+[2026-06-08 16:35:13] [INFO] Traitement: /Drive ECHOLINE/02-External Ops/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:13] [INFO] === COPIE REELLE: Drive ECHOLINE/02-External Ops/ZZ-Archives ===
+[2026-06-08 16:35:14] [SUCCESS] Dossier cree: Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:14] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/02-External Ops/ZZ-Archives
+[2026-06-08 16:35:14] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/ (6 permission(s))
+[2026-06-08 16:35:14] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care ===
+[2026-06-08 16:35:15] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:15] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:15] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:15] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:16] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care
+[2026-06-08 16:35:16] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/ (6 permission(s))
+[2026-06-08 16:35:16] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline ===
+[2026-06-08 16:35:16] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline
+[2026-06-08 16:35:17] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:17] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone/ (6 permission(s))
+[2026-06-08 16:35:17] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone ===
+[2026-06-08 16:35:18] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:35:18] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-06-08 16:35:20] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-06-08 16:35:23] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone
+[2026-06-08 16:35:25] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/03-Customer Care/A-Hotline/Téléphone - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:35:25] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:25] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives ===
+[2026-06-08 16:35:26] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:26] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:26] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:27] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives
+[2026-06-08 16:35:27] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:27] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/ (6 permission(s))
+[2026-06-08 16:35:27] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/B-NPS ===
+[2026-06-08 16:35:27] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS
+[2026-06-08 16:35:28] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:28] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives ===
+[2026-06-08 16:35:29] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:29] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:29] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:29] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:30] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:30] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:30] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives
+[2026-06-08 16:35:30] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ (6 permission(s))
+[2026-06-08 16:35:30] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/C-Satisfaction score ===
+[2026-06-08 16:35:31] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score
+[2026-06-08 16:35:31] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:31] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives ===
+[2026-06-08 16:35:32] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:33] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives
+[2026-06-08 16:35:33] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/ (6 permission(s))
+[2026-06-08 16:35:33] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/D-Reporting ===
+[2026-06-08 16:35:34] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:34] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:34] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:34] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:34] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:35] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting
+[2026-06-08 16:35:35] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:35] [INFO] Traitement: /Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:35] [INFO] === COPIE REELLE: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives ===
+[2026-06-08 16:35:36] [SUCCESS] Dossier cree: Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:36] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives
+[2026-06-08 16:35:36] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ (6 permission(s))
+[2026-06-08 16:35:36] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management ===
+[2026-06-08 16:35:37] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:37] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management
+[2026-06-08 16:35:37] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/ (6 permission(s))
+[2026-06-08 16:35:37] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/A-Newsletter ===
+[2026-06-08 16:35:38] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:38] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:39] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:39] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/A-Newsletter
+[2026-06-08 16:35:39] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:39] [INFO] Traitement: /Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:39] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives ===
+[2026-06-08 16:35:40] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives
+[2026-06-08 16:35:40] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/ (6 permission(s))
+[2026-06-08 16:35:40] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar ===
+[2026-06-08 16:35:41] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:41] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:42] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:42] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:42] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:42] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:42] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar
+[2026-06-08 16:35:42] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/ (6 permission(s))
+[2026-06-08 16:35:42] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI ===
+[2026-06-08 16:35:43] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:43] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:43] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:44] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI
+[2026-06-08 16:35:44] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:44] [INFO] Traitement: /Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:44] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives ===
+[2026-06-08 16:35:45] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:45] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives
+[2026-06-08 16:35:45] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/ (6 permission(s))
+[2026-06-08 16:35:45] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb ===
+[2026-06-08 16:35:46] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:46] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:46] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:47] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:47] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:47] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb
+[2026-06-08 16:35:47] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/ (6 permission(s))
+[2026-06-08 16:35:47] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes ===
+[2026-06-08 16:35:48] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes
+[2026-06-08 16:35:49] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:49] [INFO] Traitement: /Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:35:49] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives ===
+[2026-06-08 16:35:50] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives
+[2026-06-08 16:35:50] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:50] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/ (6 permission(s))
+[2026-06-08 16:35:50] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication ===
+[2026-06-08 16:35:51] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:51] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:51] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:52] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:52] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:52] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:52] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication
+[2026-06-08 16:35:52] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/ (6 permission(s))
+[2026-06-08 16:35:52] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers ===
+[2026-06-08 16:35:53] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:53] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:53] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:54] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:54] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:54] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:54] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Flyers
+[2026-06-08 16:35:54] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/ (6 permission(s))
+[2026-06-08 16:35:54] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations ===
+[2026-06-08 16:35:55] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations
+[2026-06-08 16:35:55] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:35:55] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT/ (6 permission(s))
+[2026-06-08 16:35:55] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT ===
+[2026-06-08 16:35:56] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-06-08 16:35:57] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-06-08 16:35:59] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-06-08 16:36:01] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT
+[2026-06-08 16:36:03] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/04-Community management/D-Kit communication/Images générées par Chat GPT - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:36:03] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/ (6 permission(s))
+[2026-06-08 16:36:03] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients ===
+[2026-06-08 16:36:04] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:04] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:04] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:05] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:05] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients
+[2026-06-08 16:36:05] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/ (6 permission(s))
+[2026-06-08 16:36:05] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE ===
+[2026-06-08 16:36:06] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:06] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:06] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:07] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:07] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:07] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE
+[2026-06-08 16:36:07] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/Photos/ (6 permission(s))
+[2026-06-08 16:36:07] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/Photos ===
+[2026-06-08 16:36:08] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:08] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:08] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:09] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:09] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/Photos
+[2026-06-08 16:36:09] [INFO] Traitement: /Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:36:09] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives ===
+[2026-06-08 16:36:10] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives
+[2026-06-08 16:36:10] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:10] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/ (6 permission(s))
+[2026-06-08 16:36:10] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/E- Linkedin ===
+[2026-06-08 16:36:11] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:12] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/E- Linkedin
+[2026-06-08 16:36:12] [INFO] Traitement: /Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires/ (6 permission(s))
+[2026-06-08 16:36:12] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires ===
+[2026-06-08 16:36:13] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-06-08 16:36:13] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-06-08 16:36:16] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-06-08 16:36:18] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires
+[2026-06-08 16:36:20] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel réglementaires - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:36:20] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/ (6 permission(s))
+[2026-06-08 16:36:20] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/ZZ-Archives ===
+[2026-06-08 16:36:21] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives
+[2026-06-08 16:36:21] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:21] [INFO] Traitement: /Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/ (6 permission(s))
+[2026-06-08 16:36:21] [INFO] === COPIE REELLE: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales ===
+[2026-06-08 16:36:22] [SUCCESS] Dossier cree: Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:23] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales
+[2026-06-08 16:36:23] [INFO] Traitement: /Drive ECHOLINE/05-Sales/ (6 permission(s))
+[2026-06-08 16:36:23] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales ===
+[2026-06-08 16:36:24] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:24] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales
+[2026-06-08 16:36:24] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ (6 permission(s))
+[2026-06-08 16:36:24] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects ===
+[2026-06-08 16:36:25] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects
+[2026-06-08 16:36:26] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:26] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/ (6 permission(s))
+[2026-06-08 16:36:26] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL ===
+[2026-06-08 16:36:27] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:27] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:28] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:28] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:28] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/AES SARL
+[2026-06-08 16:36:28] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:28] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/ (6 permission(s))
+[2026-06-08 16:36:28] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES ===
+[2026-06-08 16:36:29] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:29] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES
+[2026-06-08 16:36:29] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/APAG/ (6 permission(s))
+[2026-06-08 16:36:29] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/APAG ===
+[2026-06-08 16:36:31] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:31] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/APAG
+[2026-06-08 16:36:31] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/ (6 permission(s))
+[2026-06-08 16:36:31] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE ===
+[2026-06-08 16:36:32] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:33] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE
+[2026-06-08 16:36:33] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/ (6 permission(s))
+[2026-06-08 16:36:33] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH ===
+[2026-06-08 16:36:34] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:35] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH
+[2026-06-08 16:36:35] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/ (6 permission(s))
+[2026-06-08 16:36:35] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE ===
+[2026-06-08 16:36:36] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:36] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:36] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:36] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:36] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:37] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:37] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE
+[2026-06-08 16:36:37] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/ (6 permission(s))
+[2026-06-08 16:36:37] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM ===
+[2026-06-08 16:36:38] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM
+[2026-06-08 16:36:38] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:38] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/ (6 permission(s))
+[2026-06-08 16:36:38] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS ===
+[2026-06-08 16:36:39] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:39] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:39] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:39] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:39] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:40] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:40] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS
+[2026-06-08 16:36:40] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/ (6 permission(s))
+[2026-06-08 16:36:40] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY ===
+[2026-06-08 16:36:41] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:41] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:41] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:41] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:41] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:42] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY
+[2026-06-08 16:36:42] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:42] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/ (6 permission(s))
+[2026-06-08 16:36:42] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC ===
+[2026-06-08 16:36:43] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:43] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC
+[2026-06-08 16:36:43] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/ (6 permission(s))
+[2026-06-08 16:36:43] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY ===
+[2026-06-08 16:36:44] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/COLOREY
+[2026-06-08 16:36:45] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CPCU/ (6 permission(s))
+[2026-06-08 16:36:45] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CPCU ===
+[2026-06-08 16:36:46] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:46] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:46] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:46] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:46] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:46] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:47] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CPCU
+[2026-06-08 16:36:47] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/ (6 permission(s))
+[2026-06-08 16:36:47] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH ===
+[2026-06-08 16:36:48] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH
+[2026-06-08 16:36:48] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:48] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/ (6 permission(s))
+[2026-06-08 16:36:48] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES ===
+[2026-06-08 16:36:49] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:50] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES
+[2026-06-08 16:36:50] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ELIS/ (6 permission(s))
+[2026-06-08 16:36:50] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ELIS ===
+[2026-06-08 16:36:51] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:51] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:51] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:52] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:52] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:52] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:52] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ELIS
+[2026-06-08 16:36:52] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/ (6 permission(s))
+[2026-06-08 16:36:52] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA ===
+[2026-06-08 16:36:53] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:53] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA
+[2026-06-08 16:36:53] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/ (6 permission(s))
+[2026-06-08 16:36:53] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS ===
+[2026-06-08 16:36:54] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS
+[2026-06-08 16:36:55] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:55] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/ (6 permission(s))
+[2026-06-08 16:36:55] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING ===
+[2026-06-08 16:36:56] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:56] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:36:56] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:56] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:56] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:56] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:57] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING
+[2026-06-08 16:36:57] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC/ (6 permission(s))
+[2026-06-08 16:36:57] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC ===
+[2026-06-08 16:36:58] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:36:58] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-06-08 16:37:00] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-06-08 16:37:02] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC
+[2026-06-08 16:37:04] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/05-Sales/A-Prospects/FOURÉ LAGADEC - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:37:04] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/ (6 permission(s))
+[2026-06-08 16:37:04] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC ===
+[2026-06-08 16:37:05] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:05] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:06] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:06] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GETRAC
+[2026-06-08 16:37:06] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:06] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/ (6 permission(s))
+[2026-06-08 16:37:06] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP ===
+[2026-06-08 16:37:07] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP
+[2026-06-08 16:37:07] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/ (6 permission(s))
+[2026-06-08 16:37:07] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU ===
+[2026-06-08 16:37:09] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:09] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU
+[2026-06-08 16:37:09] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/ (6 permission(s))
+[2026-06-08 16:37:09] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES ===
+[2026-06-08 16:37:10] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:10] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:11] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES
+[2026-06-08 16:37:11] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:11] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/ (6 permission(s))
+[2026-06-08 16:37:11] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE ===
+[2026-06-08 16:37:11] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:12] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE
+[2026-06-08 16:37:12] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/ (6 permission(s))
+[2026-06-08 16:37:12] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER ===
+[2026-06-08 16:37:13] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:13] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:13] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:13] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:14] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:14] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:14] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/ISOVER
+[2026-06-08 16:37:14] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/ (6 permission(s))
+[2026-06-08 16:37:14] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF ===
+[2026-06-08 16:37:15] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF
+[2026-06-08 16:37:15] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:15] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/ (6 permission(s))
+[2026-06-08 16:37:15] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE ===
+[2026-06-08 16:37:16] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE
+[2026-06-08 16:37:17] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:17] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LDMI/ (6 permission(s))
+[2026-06-08 16:37:17] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/LDMI ===
+[2026-06-08 16:37:18] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:18] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:18] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:18] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:18] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:19] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:19] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LDMI
+[2026-06-08 16:37:19] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/ (6 permission(s))
+[2026-06-08 16:37:19] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS ===
+[2026-06-08 16:37:20] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:20] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS
+[2026-06-08 16:37:20] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/ (6 permission(s))
+[2026-06-08 16:37:20] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP ===
+[2026-06-08 16:37:21] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP
+[2026-06-08 16:37:22] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:22] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/ (6 permission(s))
+[2026-06-08 16:37:22] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME ===
+[2026-06-08 16:37:23] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:23] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME
+[2026-06-08 16:37:23] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/ (6 permission(s))
+[2026-06-08 16:37:23] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND ===
+[2026-06-08 16:37:24] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:25] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MATMOND
+[2026-06-08 16:37:25] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/ (6 permission(s))
+[2026-06-08 16:37:25] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL ===
+[2026-06-08 16:37:26] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:26] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:27] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:27] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:27] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:27] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL
+[2026-06-08 16:37:27] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/ (6 permission(s))
+[2026-06-08 16:37:27] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF ===
+[2026-06-08 16:37:28] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:28] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:29] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:29] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:29] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:29] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:29] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF
+[2026-06-08 16:37:29] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ/ (6 permission(s))
+[2026-06-08 16:37:29] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ ===
+[2026-06-08 16:37:30] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:37:30] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-06-08 16:37:32] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-06-08 16:37:34] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ
+[2026-06-08 16:37:37] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/05-Sales/A-Prospects/NOCIBÉ - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:37:37] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/ (6 permission(s))
+[2026-06-08 16:37:37] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG ===
+[2026-06-08 16:37:37] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:38] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG
+[2026-06-08 16:37:38] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/ (6 permission(s))
+[2026-06-08 16:37:38] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH ===
+[2026-06-08 16:37:39] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:39] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:39] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:40] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:40] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:40] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH
+[2026-06-08 16:37:40] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/ (6 permission(s))
+[2026-06-08 16:37:40] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS ===
+[2026-06-08 16:37:41] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS
+[2026-06-08 16:37:41] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:41] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/ (6 permission(s))
+[2026-06-08 16:37:41] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD ===
+[2026-06-08 16:37:42] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:43] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD
+[2026-06-08 16:37:43] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/ (6 permission(s))
+[2026-06-08 16:37:43] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS ===
+[2026-06-08 16:37:44] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:44] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:44] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:45] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:45] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:45] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS
+[2026-06-08 16:37:45] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/ (6 permission(s))
+[2026-06-08 16:37:45] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM ===
+[2026-06-08 16:37:46] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM
+[2026-06-08 16:37:47] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:37:47] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M/ (6 permission(s))
+[2026-06-08 16:37:47] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M ===
+[2026-06-08 16:37:48] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:37:48] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-06-08 16:37:50] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-06-08 16:37:53] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M
+[2026-06-08 16:37:55] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/05-Sales/A-Prospects/RÉGIE DES EAUX 3M - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:37:55] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ/ (6 permission(s))
+[2026-06-08 16:37:55] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ ===
+[2026-06-08 16:37:56] [ERROR] Erreur copie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 16:37:56] [DEBUG] [404] Item pas encore disponible, retry 1/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-06-08 16:37:58] [DEBUG] [404] Item pas encore disponible, retry 2/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-06-08 16:38:00] [DEBUG] [404] Item pas encore disponible, retry 3/3 dans 2s: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ
+[2026-06-08 16:38:02] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTLÉ - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 16:38:02] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SKF/ (6 permission(s))
+[2026-06-08 16:38:02] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SKF ===
+[2026-06-08 16:38:03] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:38:04] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SKF
+[2026-06-08 16:38:04] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/ (6 permission(s))
+[2026-06-08 16:38:04] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA ===
+[2026-06-08 16:38:05] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:05] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:05] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:05] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:38:06] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:06] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA
+[2026-06-08 16:38:06] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/ (6 permission(s))
+[2026-06-08 16:38:06] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS ===
+[2026-06-08 16:38:07] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:38:07] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS
+[2026-06-08 16:38:07] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/ (6 permission(s))
+[2026-06-08 16:38:07] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ ===
+[2026-06-08 16:38:08] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:08] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:09] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:09] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:09] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:38:09] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:09] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUEZ
+[2026-06-08 16:38:09] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/ (6 permission(s))
+[2026-06-08 16:38:09] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP ===
+[2026-06-08 16:38:10] [SUCCESS] Dossier cree: Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:10] [WARN] Impossible de résoudre 'grp_test' dans le tenant destination - permission ignorée
+[2026-06-08 16:38:10] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:10] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:10] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:10] [SUCCESS] Permission appliquée: Equipe INFRA [write] -> Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP
+[2026-06-08 16:38:11] [INFO] Traitement: /Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/ (6 permission(s))
+[2026-06-08 16:38:11] [INFO] === COPIE REELLE: Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN ===
+[2026-06-08 16:38:11] [WARN] Erreurs consignées: 9 -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-06-08_163301.csv

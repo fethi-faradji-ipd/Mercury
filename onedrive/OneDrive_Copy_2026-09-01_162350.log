@@ -1,0 +1,157 @@
+﻿[2026-09-01 16:23:50] [INFO] ============================================
+[2026-09-01 16:23:50] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-01 16:23:50] [INFO] ============================================
+[2026-09-01 16:23:50] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-01 16:23:50] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-01 16:23:50] [INFO] --------------------------------------------
+[2026-09-01 16:23:50] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-01 16:23:50] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:23:50] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:23:50] [INFO] --------------------------------------------
+[2026-09-01 16:23:50] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-09-01 16:23:51] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-01 16:23:51] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-01 16:23:51] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-09-01 16:23:51] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:23:51] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-01 16:23:51] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:23:51] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-09-01 16:23:51] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-01 16:23:52] [WARN] Permission non appliquee : / (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-01T14:23:52","request-id":"6c53334f-aeaf-4558-a326-9c233966ba52","client-request-id":"6c53334f-aeaf-4558-a326-9c233966ba52"}}}
+[2026-09-01 16:23:52] [INFO] Permissions racine OneDrive traitees
+[2026-09-01 16:23:52] [DEBUG] Metadonnees racine ignorees (listItem indisponible via Graph)
+[2026-09-01 16:23:52] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-01 16:23:52] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-01 16:23:52] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-01 16:23:52] [DEBUG] SP token roles : Sites.FullControl.All | aud : 00000003-0000-0ff1-ce00-000000000000
+[2026-09-01 16:23:53] [DEBUG] SP REST test GET /_api/web : HTTP 200 - {"Title":"User MERCURY"}
+[2026-09-01 16:23:53] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-01 16:23:53] [DEBUG]    📂 Attachments
+[2026-09-01 16:23:53] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-09-01 16:23:53] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:23:53] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-09-01 16:23:53] [DEBUG]    📂 Meetings
+[2026-09-01 16:23:53] [DEBUG]    📂 Recordings
+[2026-09-01 16:23:53] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:23:53] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-09-01 16:23:53] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-09-01 16:23:53] [INFO] Taille totale : 2.67 MB
+[2026-09-01 16:23:53] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-01 16:23:54] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / ParentVersionStringLookupId
+[2026-09-01 16:23:54] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / Edit
+[2026-09-01 16:23:54] [DEBUG] Champ metadonnee ignore (read-only) : Attachments / ParentLeafNameLookupId
+[2026-09-01 16:23:54] [DEBUG] Metadonnees appliquees : Attachments (2 champ(s))
+[2026-09-01 16:23:55] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / ParentVersionStringLookupId
+[2026-09-01 16:23:56] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / Edit
+[2026-09-01 16:23:56] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams / ParentLeafNameLookupId
+[2026-09-01 16:23:56] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams (2 champ(s))
+[2026-09-01 16:23:57] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / ParentVersionStringLookupId
+[2026-09-01 16:23:57] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / Edit
+[2026-09-01 16:23:57] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers Microsoft Copilot Chat / ParentLeafNameLookupId
+[2026-09-01 16:23:57] [DEBUG] Metadonnees appliquees : Fichiers Microsoft Copilot Chat (2 champ(s))
+[2026-09-01 16:23:58] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / ParentVersionStringLookupId
+[2026-09-01 16:23:58] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / Edit
+[2026-09-01 16:23:59] [DEBUG] Champ metadonnee ignore (read-only) : Meetings / ParentLeafNameLookupId
+[2026-09-01 16:23:59] [DEBUG] Metadonnees appliquees : Meetings (2 champ(s))
+[2026-09-01 16:24:00] [DEBUG] Permission read appliquee : Meetings (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:24:00] [DEBUG] Permission sans email exploitable ignoree : Meetings (id=aTowaS50fG1zLnNwLmV4dHw2YmMzYjk1OC02ODliLTQ5ZjUtOTAwNi0zNmQxNjVmMzBlMDBAODVhNWEzNTItMjVkNi00ODk0LWE5N2QtMjIxY2QxNzEyZGQy)
+[2026-09-01 16:24:01] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / ParentVersionStringLookupId
+[2026-09-01 16:24:01] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / Edit
+[2026-09-01 16:24:01] [DEBUG] Champ metadonnee ignore (read-only) : Recordings / ParentLeafNameLookupId
+[2026-09-01 16:24:01] [DEBUG] Metadonnees appliquees : Recordings (2 champ(s))
+[2026-09-01 16:24:02] [DEBUG] Permission read appliquee : Recordings (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:24:02] [DEBUG] Permission sans email exploitable ignoree : Recordings (id=aTowaS50fG1zLnNwLmV4dHw2YmMzYjk1OC02ODliLTQ5ZjUtOTAwNi0zNmQxNjVmMzBlMDBAODVhNWEzNTItMjVkNi00ODk0LWE5N2QtMjIxY2QxNzEyZGQy)
+[2026-09-01 16:24:02] [INFO] === COPIE DES FICHIERS ===
+[2026-09-01 16:24:02] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-09-01 16:24:02] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:24:08] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / ParentLeafNameLookupId
+[2026-09-01 16:24:08] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / ParentVersionStringLookupId
+[2026-09-01 16:24:09] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / Edit
+[2026-09-01 16:24:09] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg / FileSizeDisplay
+[2026-09-01 16:24:09] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (2 champ(s))
+[2026-09-01 16:24:09] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg' (permission id=75034b63-5369-4ede-a497-c7161096326b)
+[2026-09-01 16:24:09] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:24:10] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-09-01 16:24:10] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-09-01 16:24:10] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-09-01 16:24:10] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:24:11] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / ParentLeafNameLookupId
+[2026-09-01 16:24:11] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / ParentVersionStringLookupId
+[2026-09-01 16:24:11] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / Edit
+[2026-09-01 16:24:12] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip / FileSizeDisplay
+[2026-09-01 16:24:12] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (2 champ(s))
+[2026-09-01 16:24:12] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip' (permission id=9480e70e-c92f-4ecb-bfa8-d56f725350dc)
+[2026-09-01 16:24:12] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:24:12] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-09-01 16:24:12] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-09-01 16:24:12] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-09-01 16:24:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:24:14] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / ParentLeafNameLookupId
+[2026-09-01 16:24:14] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / ParentVersionStringLookupId
+[2026-09-01 16:24:14] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / Edit
+[2026-09-01 16:24:14] [DEBUG] Champ metadonnee ignore (read-only) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg / FileSizeDisplay
+[2026-09-01 16:24:14] [DEBUG] Metadonnees appliquees : Fichiers de conversation Microsoft Teams/darkcanard_.jpg (2 champ(s))
+[2026-09-01 16:24:14] [DEBUG] Lien de partage ignore pour 'Fichiers de conversation Microsoft Teams/darkcanard_.jpg' (permission id=0e60face-08b3-4c3f-9fda-21b6eed3484c)
+[2026-09-01 16:24:15] [DEBUG] Permission read appliquee : Fichiers de conversation Microsoft Teams/darkcanard_.jpg (usermercury@ipd-lab.com -> UserMercury@infopro-digital.com)
+[2026-09-01 16:24:15] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-09-01 16:24:15] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-09-01 16:24:15] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-09-01 16:24:15] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-09-01 16:24:16] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / ParentLeafNameLookupId
+[2026-09-01 16:24:16] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / ParentVersionStringLookupId
+[2026-09-01 16:24:16] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / Edit
+[2026-09-01 16:24:16] [DEBUG] Champ metadonnee ignore (read-only) : how-to-eat-healthy.webp / FileSizeDisplay
+[2026-09-01 16:24:16] [DEBUG] Metadonnees appliquees : how-to-eat-healthy.webp (2 champ(s))
+[2026-09-01 16:24:17] [INFO]    ⏭  Versions deja copiees (1) : how-to-eat-healthy.webp
+[2026-09-01 16:24:17] [SUCCESS] ✅ how-to-eat-healthy.webp - versions deja presentes
+[2026-09-01 16:24:17] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-09-01 16:24:17] [INFO]    ⬇  salade-laitue.webp
+[2026-09-01 16:24:18] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / ParentLeafNameLookupId
+[2026-09-01 16:24:18] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / ParentVersionStringLookupId
+[2026-09-01 16:24:18] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / Edit
+[2026-09-01 16:24:18] [DEBUG] Champ metadonnee ignore (read-only) : salade-laitue.webp / FileSizeDisplay
+[2026-09-01 16:24:18] [DEBUG] Metadonnees appliquees : salade-laitue.webp (2 champ(s))
+[2026-09-01 16:24:18] [INFO]    ⏭  Versions deja copiees (1) : salade-laitue.webp
+[2026-09-01 16:24:18] [SUCCESS] ✅ salade-laitue.webp - versions deja presentes
+[2026-09-01 16:24:18] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-09-01 16:24:19] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:24:20] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / ParentLeafNameLookupId
+[2026-09-01 16:24:20] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / ParentVersionStringLookupId
+[2026-09-01 16:24:20] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / Edit
+[2026-09-01 16:24:20] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.csv / FileSizeDisplay
+[2026-09-01 16:24:24] [DEBUG] Metadonnees appliquees : SharePoint_Errors_Notisum_2026-04-10_154411.csv (2 champ(s))
+[2026-09-01 16:24:24] [INFO]    ⏭  Versions deja copiees (1) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-09-01 16:24:24] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - versions deja presentes
+[2026-09-01 16:24:24] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-09-01 16:24:24] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:24:25] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / ParentLeafNameLookupId
+[2026-09-01 16:24:25] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / ParentVersionStringLookupId
+[2026-09-01 16:24:25] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / Edit
+[2026-09-01 16:24:26] [DEBUG] Champ metadonnee ignore (read-only) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx / FileSizeDisplay
+[2026-09-01 16:24:26] [DEBUG] Metadonnees appliquees : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (2 champ(s))
+[2026-09-01 16:24:26] [INFO]    ⏭  Versions deja copiees (3) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-09-01 16:24:26] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - versions deja presentes
+[2026-09-01 16:24:26] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-09-01 16:24:26] [INFO]    ⬇  shopping.jpg
+[2026-09-01 16:24:27] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / ParentLeafNameLookupId
+[2026-09-01 16:24:27] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / ParentVersionStringLookupId
+[2026-09-01 16:24:27] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / Edit
+[2026-09-01 16:24:28] [DEBUG] Champ metadonnee ignore (read-only) : shopping.jpg / FileSizeDisplay
+[2026-09-01 16:24:28] [DEBUG] Metadonnees appliquees : shopping.jpg (2 champ(s))
+[2026-09-01 16:24:28] [INFO]    ⏭  Versions deja copiees (1) : shopping.jpg
+[2026-09-01 16:24:28] [SUCCESS] ✅ shopping.jpg - versions deja presentes
+[2026-09-01 16:24:28] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-09-01 16:24:28] [INFO] Total   : 8 fichier(s)
+[2026-09-01 16:24:28] [INFO] Erreurs : 0
+[2026-09-01 16:24:28] [SUCCESS] ============================================
+[2026-09-01 16:24:28] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-01 16:24:28] [INFO] Total lignes  : 1
+[2026-09-01 16:24:28] [INFO] Succes        : 1
+[2026-09-01 16:24:28] [INFO] Echecs        : 0
+[2026-09-01 16:24:28] [SUCCESS] ============================================
+[2026-09-01 16:24:28] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-01_162350.log

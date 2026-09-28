@@ -1,0 +1,8 @@
+﻿2026-09-15 09:08:29Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 09:08:29Z [WARN] Limitation/retry HTTP : attente 2 s.
+2026-09-15 09:08:31Z [WARN] Limitation/retry HTTP : attente 4 s.
+2026-09-15 09:08:35Z [WARN] Limitation/retry HTTP : attente 8 s.
+2026-09-15 09:08:43Z [WARN] Limitation/retry HTTP : attente 16 s.
+2026-09-15 09:08:59Z [ERROR] ligne_1 [migration] Authentification refusee (HTTP 401), verifier certificat et consentement administrateur.
+2026-09-15 09:08:59Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0.51 min, 0 requetes, 4 retries.
+2026-09-15 09:08:59Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260915_110829_1d06d39e

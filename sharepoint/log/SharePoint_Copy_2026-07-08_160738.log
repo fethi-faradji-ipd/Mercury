@@ -1,0 +1,11 @@
+﻿[2026-07-08 16:07:38] [INFO] =========================================
+[2026-07-08 16:07:38] [SUCCESS] === COPIE SHAREPOINT + DROITS SP/ENTRA ===
+[2026-07-08 16:07:38] [INFO] Version: 8.0
+[2026-07-08 16:07:38] [INFO] =========================================
+[2026-07-08 16:07:38] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-08_160738.log
+[2026-07-08 16:07:38] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-08_160738.csv
+[2026-07-08 16:07:38] [SUCCESS] Traductions chargées: 2
+[2026-07-08 16:07:38] [SUCCESS] Mappages: par ID=3, par nom=3
+[2026-07-08 16:07:38] [INFO] === AUTHENTIFICATION ===
+[2026-07-08 16:07:38] [ERROR] Échec token [f19dc0fb-6cc9-45e6-8fd0-ded4c07203de|cb407652-5321-4b0b-9981-23bc71cd9e67|https://graph.microsoft.com]: {"error":"unauthorized_client","error_description":"AADSTS700016: Application with identifier 'cb407652-5321-4b0b-9981-23bc71cd9e67' was not found in the directory 'Karnov Group AB'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant. Trace ID: 45dea04b-04db-4025-a1d7-3cfd20add000 Correlation ID: 46370522-f71d-4ef2-acf6-83b4a1822128 Timestamp: 2026-07-08 14:07:38Z","error_codes":[700016],"timestamp":"2026-07-08 14:07:38Z","trace_id":"45dea04b-04db-4025-a1d7-3cfd20add000","correlation_id":"46370522-f71d-4ef2-acf6-83b4a1822128","error_uri":"https://login.microsoftonline.com/error?code=700016"}
+[2026-07-08 16:07:38] [ERROR] Erreur fatale: Le serveur distant a retourné une erreur : (400) Demande incorrecte.

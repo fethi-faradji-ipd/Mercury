@@ -1,0 +1,121 @@
+﻿[2026-08-03 16:35:49] [INFO] ============================================
+[2026-08-03 16:35:49] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-03 16:35:49] [INFO] ============================================
+[2026-08-03 16:35:49] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-03 16:35:49] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-03 16:35:49] [INFO] --------------------------------------------
+[2026-08-03 16:35:49] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-03 16:35:49] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-03 16:35:49] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-03 16:35:49] [INFO] --------------------------------------------
+[2026-08-03 16:35:49] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-03 16:35:49] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-03 16:35:49] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-03 16:35:49] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-03 16:35:49] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 16:35:49] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-03 16:35:49] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 16:35:49] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 16:35:49] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 16:35:50] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-08-03 16:35:50] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-03 16:35:50] [DEBUG]    📂 Attachments
+[2026-08-03 16:35:50] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-03 16:35:50] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 16:35:50] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 16:35:50] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 16:35:50] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-03 16:35:50] [DEBUG]    📂 Meetings
+[2026-08-03 16:35:50] [DEBUG]    📂 Recordings
+[2026-08-03 16:35:51] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-08-03 16:35:51] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-08-03 16:35:51] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-03 16:35:51] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-03 16:35:51] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-08-03 16:35:51] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-08-03 16:35:51] [INFO] Taille totale : 2.67 MB
+[2026-08-03 16:35:51] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-03 16:35:51] [INFO] === COPIE DES FICHIERS ===
+[2026-08-03 16:35:51] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 16:35:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 16:35:52] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 16:35:52] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-08-03 16:35:52] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 16:35:52] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 16:35:53] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 16:35:53] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-08-03 16:35:53] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 16:35:53] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 16:35:54] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 16:35:54] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-08-03 16:35:54] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-08-03 16:35:54] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-08-03 16:35:55] [INFO]    ⬆  Rejeu de 1 version(s) : how-to-eat-healthy.webp
+[2026-08-03 16:35:57] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2608802 o)
+[2026-08-03 16:35:58] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:44Z), doublon 1.0 supprime
+[2026-08-03 16:35:58] [DEBUG]       Auteur v1 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:35:58","request-id":"a45e392a-b3e2-4491-9bbd-a77dfcc92d4a","client-request-id":"a45e392a-b3e2-4491-9bbd-a77dfcc92d4a"}}}
+[2026-08-03 16:35:58] [DEBUG]       Auteur v1 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:35:58] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:35:58] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 16:35:58] [SUCCESS] ✅ how-to-eat-healthy.webp - historique copie (1 version(s))
+[2026-08-03 16:35:58] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-08-03 16:35:58] [INFO]    ⬇  salade-laitue.webp
+[2026-08-03 16:35:59] [INFO]    ⬆  Rejeu de 1 version(s) : salade-laitue.webp
+[2026-08-03 16:36:00] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 102024 o)
+[2026-08-03 16:36:01] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:42Z), doublon 1.0 supprime
+[2026-08-03 16:36:01] [DEBUG]       Auteur v1 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:01","request-id":"4d8f4bc7-c0c6-4d73-a4e8-53ad2968e6b6","client-request-id":"4d8f4bc7-c0c6-4d73-a4e8-53ad2968e6b6"}}}
+[2026-08-03 16:36:01] [DEBUG]       Auteur v1 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:01] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:01] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 16:36:01] [SUCCESS] ✅ salade-laitue.webp - historique copie (1 version(s))
+[2026-08-03 16:36:01] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-03 16:36:01] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-03 16:36:01] [INFO]    ⬆  Rejeu de 1 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-03 16:36:02] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2676 o)
+[2026-08-03 16:36:03] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:56Z), doublon 1.0 supprime
+[2026-08-03 16:36:03] [DEBUG]       Auteur v1 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:03","request-id":"95c71e38-412e-4c19-9ce9-8c144222a8dc","client-request-id":"95c71e38-412e-4c19-9ce9-8c144222a8dc"}}}
+[2026-08-03 16:36:03] [DEBUG]       Auteur v1 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:03] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:03] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 16:36:03] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-08-03 16:36:03] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-03 16:36:03] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-03 16:36:04] [INFO]    ⬆  Rejeu de 3 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-03 16:36:04] [DEBUG]       Version 1/3 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 11145 o)
+[2026-08-03 16:36:05] [DEBUG]       Horodatage v1 ok (2026-08-03T12:13:10Z), doublon 1.0 supprime
+[2026-08-03 16:36:05] [DEBUG]       Auteur v1 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:05","request-id":"26ddbbea-e237-4df6-9f68-b7294feabbfe","client-request-id":"26ddbbea-e237-4df6-9f68-b7294feabbfe"}}}
+[2026-08-03 16:36:05] [DEBUG]       Auteur v1 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:05] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:06] [DEBUG]       Version 2/3 rejouee (id=2.0, par=UserMercury@ipd-lab.com, 10947 o)
+[2026-08-03 16:36:07] [DEBUG]       Horodatage v2 ok (2026-08-03T12:13:18Z), doublon 3.0 supprime
+[2026-08-03 16:36:07] [DEBUG]       Auteur v2 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:07","request-id":"16bae6d5-9c00-417a-b59f-1633888b2c71","client-request-id":"16bae6d5-9c00-417a-b59f-1633888b2c71"}}}
+[2026-08-03 16:36:07] [DEBUG]       Auteur v2 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:07] [WARN]       Auteur v2 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:07] [DEBUG]       Version 3/3 rejouee (id=3.0, par=UserMercury@ipd-lab.com, 10946 o)
+[2026-08-03 16:36:08] [DEBUG]       Horodatage v3 ok (2026-08-03T12:14:09Z), doublon 5.0 supprime
+[2026-08-03 16:36:09] [DEBUG]       Auteur v3 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:09","request-id":"b4c1cdb2-0da4-4701-94b5-ae664a2fd2be","client-request-id":"b4c1cdb2-0da4-4701-94b5-ae664a2fd2be"}}}
+[2026-08-03 16:36:09] [DEBUG]       Auteur v3 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:09] [WARN]       Auteur v3 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:09] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 16:36:09] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - historique copie (3 version(s))
+[2026-08-03 16:36:09] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-08-03 16:36:09] [INFO]    ⬇  shopping.jpg
+[2026-08-03 16:36:09] [INFO]    ⬆  Rejeu de 1 version(s) : shopping.jpg
+[2026-08-03 16:36:10] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24600 o)
+[2026-08-03 16:36:11] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:41Z), doublon 1.0 supprime
+[2026-08-03 16:36:11] [DEBUG]       Auteur v1 Graph echoue : Graph HTTP 404 : {"error":{"code":"itemNotFound","message":"The specified list was not found","innerError":{"date":"2026-08-03T14:36:11","request-id":"70dd396d-162d-485d-9bff-571622a0923a","client-request-id":"70dd396d-162d-485d-9bff-571622a0923a"}}}
+[2026-08-03 16:36:11] [DEBUG]       Auteur v1 SP REST echoue : SP REST 401 : {}
+[2026-08-03 16:36:11] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com) : accordez Sites.ReadWrite.All (Microsoft Graph) a l'app destination puis relancez
+[2026-08-03 16:36:11] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 16:36:11] [SUCCESS] ✅ shopping.jpg - historique copie (1 version(s))
+[2026-08-03 16:36:11] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-03 16:36:11] [INFO] Total   : 8 fichier(s)
+[2026-08-03 16:36:11] [INFO] Erreurs : 0
+[2026-08-03 16:36:11] [SUCCESS] ============================================
+[2026-08-03 16:36:11] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-03 16:36:11] [INFO] Total lignes  : 1
+[2026-08-03 16:36:11] [INFO] Succes        : 1
+[2026-08-03 16:36:11] [INFO] Echecs        : 0
+[2026-08-03 16:36:11] [SUCCESS] ============================================
+[2026-08-03 16:36:11] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-03_163549.csv
+[2026-08-03 16:36:11] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-03_163549.log

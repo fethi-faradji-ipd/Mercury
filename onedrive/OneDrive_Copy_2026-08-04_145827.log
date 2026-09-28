@@ -1,0 +1,130 @@
+﻿[2026-08-04 14:58:27] [INFO] ============================================
+[2026-08-04 14:58:27] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-04 14:58:27] [INFO] ============================================
+[2026-08-04 14:58:27] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-04 14:58:27] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-04 14:58:27] [INFO] --------------------------------------------
+[2026-08-04 14:58:27] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-04 14:58:27] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-04 14:58:27] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-04 14:58:27] [INFO] --------------------------------------------
+[2026-08-04 14:58:27] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-04 14:58:27] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-04 14:58:27] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-04 14:58:27] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-04 14:58:27] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-04 14:58:27] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-04 14:58:28] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-04 14:58:28] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-04 14:58:28] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-04 14:58:28] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-08-04 14:58:28] [DEBUG] SP token roles : Sites.FullControl.All | aud : 00000003-0000-0ff1-ce00-000000000000
+[2026-08-04 14:58:28] [DEBUG] SP REST test GET /_api/web : HTTP 401 - Unsupported app only token.
+[2026-08-04 14:58:28] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-04 14:58:28] [DEBUG]    📂 Attachments
+[2026-08-04 14:58:29] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-04 14:58:29] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-04 14:58:29] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-04 14:58:29] [DEBUG]    📂 Meetings
+[2026-08-04 14:58:29] [DEBUG]    📂 Recordings
+[2026-08-04 14:58:29] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-04 14:58:29] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-08-04 14:58:29] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-08-04 14:58:29] [INFO] Taille totale : 2.67 MB
+[2026-08-04 14:58:29] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-04 14:58:30] [INFO] === COPIE DES FICHIERS ===
+[2026-08-04 14:58:30] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-04 14:58:30] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-04 14:58:30] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-04 14:58:31] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-08-04 14:58:31] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-04 14:58:31] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-04 14:58:31] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-04 14:58:31] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-08-04 14:58:31] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-04 14:58:32] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-04 14:58:32] [INFO]    ⏭  Versions deja copiees (2) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-04 14:58:32] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-08-04 14:58:32] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-08-04 14:58:32] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-08-04 14:58:32] [INFO]    ⬆  Rejeu de 1 version(s) : how-to-eat-healthy.webp
+[2026-08-04 14:58:34] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2608802 o)
+[2026-08-04 14:58:35] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:44Z), doublon 1.0 supprime
+[2026-08-04 14:58:35] [WARN]       Auteur v1 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:35] [WARN]       Auteur v1 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:35] [WARN]       Auteur v1 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:35] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:35] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-04 14:58:35] [SUCCESS] ✅ how-to-eat-healthy.webp - historique copie (1 version(s))
+[2026-08-04 14:58:35] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-08-04 14:58:35] [INFO]    ⬇  salade-laitue.webp
+[2026-08-04 14:58:36] [INFO]    ⬆  Rejeu de 1 version(s) : salade-laitue.webp
+[2026-08-04 14:58:37] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 102024 o)
+[2026-08-04 14:58:37] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:42Z), doublon 1.0 supprime
+[2026-08-04 14:58:37] [WARN]       Auteur v1 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:38] [WARN]       Auteur v1 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:38] [WARN]       Auteur v1 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:38] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:38] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-04 14:58:38] [SUCCESS] ✅ salade-laitue.webp - historique copie (1 version(s))
+[2026-08-04 14:58:38] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-04 14:58:38] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-04 14:58:38] [INFO]    ⬆  Rejeu de 1 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-04 14:58:39] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2676 o)
+[2026-08-04 14:58:40] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:56Z), doublon 1.0 supprime
+[2026-08-04 14:58:40] [WARN]       Auteur v1 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:40] [WARN]       Auteur v1 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:40] [WARN]       Auteur v1 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:40] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:40] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-04 14:58:40] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-08-04 14:58:40] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-04 14:58:40] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-04 14:58:40] [INFO]    ⬆  Rejeu de 3 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-04 14:58:41] [DEBUG]       Version 1/3 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 11145 o)
+[2026-08-04 14:58:42] [DEBUG]       Horodatage v1 ok (2026-08-03T12:13:10Z), doublon 1.0 supprime
+[2026-08-04 14:58:42] [WARN]       Auteur v1 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:42] [WARN]       Auteur v1 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:42] [WARN]       Auteur v1 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:42] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:43] [DEBUG]       Version 2/3 rejouee (id=2.0, par=UserMercury@ipd-lab.com, 10947 o)
+[2026-08-04 14:58:43] [DEBUG]       Horodatage v2 ok (2026-08-03T12:13:18Z), doublon 3.0 supprime
+[2026-08-04 14:58:44] [WARN]       Auteur v2 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:44] [WARN]       Auteur v2 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:44] [WARN]       Auteur v2 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:44] [WARN]       Auteur v2 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:45] [DEBUG]       Version 3/3 rejouee (id=3.0, par=UserMercury@ipd-lab.com, 10946 o)
+[2026-08-04 14:58:45] [DEBUG]       Horodatage v3 ok (2026-08-03T12:14:09Z), doublon 5.0 supprime
+[2026-08-04 14:58:45] [WARN]       Auteur v3 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:45] [WARN]       Auteur v3 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:45] [WARN]       Auteur v3 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:45] [WARN]       Auteur v3 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:45] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-04 14:58:45] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - historique copie (3 version(s))
+[2026-08-04 14:58:45] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-08-04 14:58:46] [INFO]    ⬇  shopping.jpg
+[2026-08-04 14:58:46] [INFO]    ⬆  Rejeu de 1 version(s) : shopping.jpg
+[2026-08-04 14:58:47] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24600 o)
+[2026-08-04 14:58:47] [DEBUG]       Horodatage v1 ok (2026-08-03T12:12:41Z), doublon 1.0 supprime
+[2026-08-04 14:58:47] [WARN]       Auteur v1 EnsureUser echoue : EnsureUser 401 : Unsupported app only token.
+[2026-08-04 14:58:48] [WARN]       Auteur v1 : 'UserMercury@infopro-digital.com' introuvable dans UserInfo (site non visite par cet utilisateur ?)
+[2026-08-04 14:58:48] [WARN]       Auteur v1 SP REST echoue : SP REST 401 : Unsupported app only token.
+[2026-08-04 14:58:48] [WARN]       Auteur v1 non restaure (UserMercury@infopro-digital.com)
+[2026-08-04 14:58:48] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-04 14:58:48] [SUCCESS] ✅ shopping.jpg - historique copie (1 version(s))
+[2026-08-04 14:58:48] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-04 14:58:48] [INFO] Total   : 8 fichier(s)
+[2026-08-04 14:58:48] [INFO] Erreurs : 0
+[2026-08-04 14:58:48] [SUCCESS] ============================================
+[2026-08-04 14:58:48] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-04 14:58:48] [INFO] Total lignes  : 1
+[2026-08-04 14:58:48] [INFO] Succes        : 1
+[2026-08-04 14:58:48] [INFO] Echecs        : 0
+[2026-08-04 14:58:48] [SUCCESS] ============================================
+[2026-08-04 14:58:48] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-04_145827.csv
+[2026-08-04 14:58:48] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-04_145827.log

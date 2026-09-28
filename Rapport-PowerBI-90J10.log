@@ -1,0 +1,1482 @@
+﻿
+[26/08/2026 15:31:36] [INFO] Demarrage de Rapport-PowerBI-90J-AppSecret-ISE-V10.ps1
+[26/08/2026 15:31:36] [INFO] Periode Audit Power BI : du 28/05/2026 15:31:36 +02:00 au 26/08/2026 15:31:36 +02:00.
+[26/08/2026 15:31:36] [INFO] Periode Connexions Entra : du 27/07/2026 15:31:36 +02:00 au 26/08/2026 15:31:36 +02:00.
+[26/08/2026 15:31:36] [INFO] Connexion a Microsoft Graph avec l'application Azure et son secret.
+[26/08/2026 15:31:36] [INFO] Obtention ou renouvellement du jeton Microsoft Graph.
+[26/08/2026 15:31:37] [INFO] Jeton Graph valide jusqu'au 26/08/2026 16:26:36.
+[26/08/2026 15:31:37] [INFO] Connexion applicative reussie.
+[26/08/2026 15:31:37] [INFO] Lecture des abonnements et plans de service du tenant.
+[26/08/2026 15:31:37] [INFO] Page 1 recue, total : 43 element(s).
+[26/08/2026 15:31:37] [INFO] Lecture de tous les utilisateurs et de leurs licences.
+[26/08/2026 15:31:40] [INFO] Page 1 recue, total : 999 element(s).
+[26/08/2026 15:31:43] [INFO] Page 2 recue, total : 1998 element(s).
+[26/08/2026 15:31:46] [INFO] Page 3 recue, total : 2997 element(s).
+[26/08/2026 15:31:50] [INFO] Page 4 recue, total : 3996 element(s).
+[26/08/2026 15:31:53] [INFO] Page 5 recue, total : 4995 element(s).
+[26/08/2026 15:31:56] [INFO] Page 6 recue, total : 5994 element(s).
+[26/08/2026 15:31:58] [INFO] Page 7 recue, total : 6993 element(s).
+[26/08/2026 15:32:00] [INFO] Page 8 recue, total : 7992 element(s).
+[26/08/2026 15:32:03] [INFO] Page 9 recue, total : 8991 element(s).
+[26/08/2026 15:32:05] [INFO] Page 10 recue, total : 9990 element(s).
+[26/08/2026 15:32:08] [INFO] Page 11 recue, total : 10989 element(s).
+[26/08/2026 15:32:10] [INFO] Page 12 recue, total : 11988 element(s).
+[26/08/2026 15:32:13] [INFO] Page 13 recue, total : 12987 element(s).
+[26/08/2026 15:32:16] [INFO] Page 14 recue, total : 13986 element(s).
+[26/08/2026 15:32:19] [INFO] Page 15 recue, total : 14985 element(s).
+[26/08/2026 15:32:21] [INFO] Page 16 recue, total : 15984 element(s).
+[26/08/2026 15:32:23] [INFO] Page 17 recue, total : 16983 element(s).
+[26/08/2026 15:32:26] [INFO] Page 18 recue, total : 17982 element(s).
+[26/08/2026 15:32:29] [INFO] Page 19 recue, total : 18981 element(s).
+[26/08/2026 15:32:32] [INFO] Page 20 recue, total : 19980 element(s).
+[26/08/2026 15:32:34] [INFO] Page 21 recue, total : 20979 element(s).
+[26/08/2026 15:32:37] [INFO] Page 22 recue, total : 21978 element(s).
+[26/08/2026 15:32:37] [INFO] Page 23 recue, total : 22027 element(s).
+[26/08/2026 15:34:08] [INFO] 710 utilisateur(s) avec Power BI payant trouve(s).
+[26/08/2026 15:34:12] [INFO] Creation de la recherche Microsoft Purview Audit Power BI sur 90 jours.
+[26/08/2026 15:34:13] [INFO] Recherche Purview creee. Identifiant : be6d87ad-cdd9-41c6-9fe3-d059e716d60b
+[26/08/2026 15:34:13] [ATTENTE] Recherche Purview en cours. Statut : notStarted. Attente : 0 minute(s).
+[26/08/2026 15:34:45] [ATTENTE] Recherche Purview en cours. Statut : notStarted. Attente : 0.5 minute(s).
+[26/08/2026 15:35:16] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 1 minute(s).
+[26/08/2026 15:35:46] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 1.6 minute(s).
+[26/08/2026 15:36:17] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 2.1 minute(s).
+[26/08/2026 15:36:49] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 2.6 minute(s).
+[26/08/2026 15:37:19] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 3.1 minute(s).
+[26/08/2026 15:37:50] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 3.6 minute(s).
+[26/08/2026 15:38:22] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 4.1 minute(s).
+[26/08/2026 15:38:52] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 4.6 minute(s).
+[26/08/2026 15:39:23] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 5.2 minute(s).
+[26/08/2026 15:39:54] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 5.7 minute(s).
+[26/08/2026 15:40:24] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 6.2 minute(s).
+[26/08/2026 15:40:56] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 6.7 minute(s).
+[26/08/2026 15:41:27] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 7.2 minute(s).
+[26/08/2026 15:41:57] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 7.7 minute(s).
+[26/08/2026 15:42:27] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 8.2 minute(s).
+[26/08/2026 15:42:58] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 8.8 minute(s).
+[26/08/2026 15:43:30] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 9.3 minute(s).
+[26/08/2026 15:44:01] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 9.8 minute(s).
+[26/08/2026 15:44:31] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 10.3 minute(s).
+[26/08/2026 15:45:02] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 10.8 minute(s).
+[26/08/2026 15:45:32] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 11.3 minute(s).
+[26/08/2026 15:46:02] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 11.8 minute(s).
+[26/08/2026 15:46:33] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 12.3 minute(s).
+[26/08/2026 15:47:05] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 12.9 minute(s).
+[26/08/2026 15:47:36] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 13.4 minute(s).
+[26/08/2026 15:48:06] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 13.9 minute(s).
+[26/08/2026 15:48:37] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 14.4 minute(s).
+[26/08/2026 15:49:07] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 14.9 minute(s).
+[26/08/2026 15:49:38] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 15.4 minute(s).
+[26/08/2026 15:50:12] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 16 minute(s).
+[26/08/2026 15:50:47] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 16.6 minute(s).
+[26/08/2026 15:51:17] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 17.1 minute(s).
+[26/08/2026 15:51:47] [ATTENTE] Recherche Purview en cours. Statut : running. Attente : 17.6 minute(s).
+[26/08/2026 15:52:19] [INFO] Recherche Purview terminee. Traitement des enregistrements page par page.
+[26/08/2026 15:52:23] [INFO] Audit Purview - page 1 traitee, total lu : 250, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:24] [INFO] Audit Purview - page 2 traitee, total lu : 500, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:27] [INFO] Audit Purview - page 3 traitee, total lu : 750, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:32] [INFO] Audit Purview - page 4 traitee, total lu : 1000, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:52:33] [INFO] Audit Purview - page 5 traitee, total lu : 1250, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:35] [INFO] Audit Purview - page 6 traitee, total lu : 1500, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:39] [INFO] Audit Purview - page 7 traitee, total lu : 1750, memoire PowerShell : 4851 Mo.
+[26/08/2026 15:52:41] [INFO] Audit Purview - page 8 traitee, total lu : 2000, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:44] [INFO] Audit Purview - page 9 traitee, total lu : 2250, memoire PowerShell : 4853 Mo.
+[26/08/2026 15:52:47] [INFO] Audit Purview - page 10 traitee, total lu : 2500, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:49] [INFO] Audit Purview - page 11 traitee, total lu : 2750, memoire PowerShell : 4853 Mo.
+[26/08/2026 15:52:52] [INFO] Audit Purview - page 12 traitee, total lu : 3000, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:54] [INFO] Audit Purview - page 13 traitee, total lu : 3250, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:55] [INFO] Audit Purview - page 14 traitee, total lu : 3500, memoire PowerShell : 4853 Mo.
+[26/08/2026 15:52:56] [INFO] Audit Purview - page 15 traitee, total lu : 3750, memoire PowerShell : 4851 Mo.
+[26/08/2026 15:52:57] [INFO] Audit Purview - page 16 traitee, total lu : 4000, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:52:58] [INFO] Audit Purview - page 17 traitee, total lu : 4250, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:53:00] [INFO] Audit Purview - page 18 traitee, total lu : 4500, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:53:01] [INFO] Audit Purview - page 19 traitee, total lu : 4750, memoire PowerShell : 4853 Mo.
+[26/08/2026 15:53:03] [INFO] Audit Purview - page 20 traitee, total lu : 5000, memoire PowerShell : 4848 Mo.
+[26/08/2026 15:53:08] [INFO] Audit Purview - page 21 traitee, total lu : 5250, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:10] [INFO] Audit Purview - page 22 traitee, total lu : 5500, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:53:14] [INFO] Audit Purview - page 23 traitee, total lu : 5750, memoire PowerShell : 4852 Mo.
+[26/08/2026 15:53:16] [INFO] Audit Purview - page 24 traitee, total lu : 6000, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:17] [INFO] Audit Purview - page 25 traitee, total lu : 6250, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:53:18] [INFO] Audit Purview - page 26 traitee, total lu : 6500, memoire PowerShell : 4852 Mo.
+[26/08/2026 15:53:19] [INFO] Audit Purview - page 27 traitee, total lu : 6750, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:22] [INFO] Audit Purview - page 28 traitee, total lu : 7000, memoire PowerShell : 4852 Mo.
+[26/08/2026 15:53:26] [INFO] Audit Purview - page 29 traitee, total lu : 7250, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:27] [INFO] Audit Purview - page 30 traitee, total lu : 7500, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:53:30] [INFO] Audit Purview - page 31 traitee, total lu : 7750, memoire PowerShell : 4852 Mo.
+[26/08/2026 15:53:32] [INFO] Audit Purview - page 32 traitee, total lu : 8000, memoire PowerShell : 4850 Mo.
+[26/08/2026 15:53:33] [INFO] Audit Purview - page 33 traitee, total lu : 8250, memoire PowerShell : 4855 Mo.
+[26/08/2026 15:53:34] [INFO] Audit Purview - page 34 traitee, total lu : 8500, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:37] [INFO] Audit Purview - page 35 traitee, total lu : 8750, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:53:39] [INFO] Audit Purview - page 36 traitee, total lu : 9000, memoire PowerShell : 4849 Mo.
+[26/08/2026 15:53:40] [INFO] Audit Purview - page 37 traitee, total lu : 9250, memoire PowerShell : 4854 Mo.
+[26/08/2026 15:53:41] [INFO] Audit Purview - page 38 traitee, total lu : 9500, memoire PowerShell : 4853 Mo.
+[26/08/2026 15:53:47] [INFO] Audit Purview - page 39 traitee, total lu : 9750, memoire PowerShell : 4859 Mo.
+[26/08/2026 15:53:48] [INFO] Audit Purview - page 40 traitee, total lu : 10000, memoire PowerShell : 4866 Mo.
+[26/08/2026 15:53:53] [INFO] Audit Purview - page 41 traitee, total lu : 10250, memoire PowerShell : 4870 Mo.
+[26/08/2026 15:53:57] [INFO] Audit Purview - page 42 traitee, total lu : 10500, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:53:58] [INFO] Audit Purview - page 43 traitee, total lu : 10750, memoire PowerShell : 4872 Mo.
+[26/08/2026 15:54:01] [INFO] Audit Purview - page 44 traitee, total lu : 11000, memoire PowerShell : 4870 Mo.
+[26/08/2026 15:54:03] [INFO] Audit Purview - page 45 traitee, total lu : 11250, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:04] [INFO] Audit Purview - page 46 traitee, total lu : 11500, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:07] [INFO] Audit Purview - page 47 traitee, total lu : 11750, memoire PowerShell : 4872 Mo.
+[26/08/2026 15:54:13] [INFO] Audit Purview - page 48 traitee, total lu : 12000, memoire PowerShell : 4870 Mo.
+[26/08/2026 15:54:14] [INFO] Audit Purview - page 49 traitee, total lu : 12250, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:18] [INFO] Audit Purview - page 50 traitee, total lu : 12500, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:20] [INFO] Audit Purview - page 51 traitee, total lu : 12750, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:21] [INFO] Audit Purview - page 52 traitee, total lu : 13000, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:24] [INFO] Audit Purview - page 53 traitee, total lu : 13250, memoire PowerShell : 4872 Mo.
+[26/08/2026 15:54:28] [INFO] Audit Purview - page 54 traitee, total lu : 13500, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:33] [INFO] Audit Purview - page 55 traitee, total lu : 13750, memoire PowerShell : 4870 Mo.
+[26/08/2026 15:54:34] [INFO] Audit Purview - page 56 traitee, total lu : 14000, memoire PowerShell : 4867 Mo.
+[26/08/2026 15:54:36] [INFO] Audit Purview - page 57 traitee, total lu : 14250, memoire PowerShell : 4870 Mo.
+[26/08/2026 15:54:38] [INFO] Audit Purview - page 58 traitee, total lu : 14500, memoire PowerShell : 4872 Mo.
+[26/08/2026 15:54:41] [INFO] Audit Purview - page 59 traitee, total lu : 14750, memoire PowerShell : 4869 Mo.
+[26/08/2026 15:54:45] [INFO] Audit Purview - page 60 traitee, total lu : 15000, memoire PowerShell : 4876 Mo.
+[26/08/2026 15:54:50] [INFO] Audit Purview - page 61 traitee, total lu : 15250, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:54:52] [INFO] Audit Purview - page 62 traitee, total lu : 15500, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:54:53] [INFO] Audit Purview - page 63 traitee, total lu : 15750, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:54:54] [INFO] Audit Purview - page 64 traitee, total lu : 16000, memoire PowerShell : 4876 Mo.
+[26/08/2026 15:54:55] [INFO] Audit Purview - page 65 traitee, total lu : 16250, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:54:57] [INFO] Audit Purview - page 66 traitee, total lu : 16500, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:54:59] [INFO] Audit Purview - page 67 traitee, total lu : 16750, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:55:00] [INFO] Audit Purview - page 68 traitee, total lu : 17000, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:04] [INFO] Audit Purview - page 69 traitee, total lu : 17250, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:05] [INFO] Audit Purview - page 70 traitee, total lu : 17500, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:07] [INFO] Audit Purview - page 71 traitee, total lu : 17750, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:08] [INFO] Audit Purview - page 72 traitee, total lu : 18000, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:55:10] [INFO] Audit Purview - page 73 traitee, total lu : 18250, memoire PowerShell : 4880 Mo.
+[26/08/2026 15:55:12] [INFO] Audit Purview - page 74 traitee, total lu : 18500, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:15] [INFO] Audit Purview - page 75 traitee, total lu : 18750, memoire PowerShell : 4880 Mo.
+[26/08/2026 15:55:17] [INFO] Audit Purview - page 76 traitee, total lu : 19000, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:19] [INFO] Audit Purview - page 77 traitee, total lu : 19250, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:55:22] [INFO] Audit Purview - page 78 traitee, total lu : 19500, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:23] [INFO] Audit Purview - page 79 traitee, total lu : 19750, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:24] [INFO] Audit Purview - page 80 traitee, total lu : 20000, memoire PowerShell : 4877 Mo.
+[26/08/2026 15:55:28] [INFO] Audit Purview - page 81 traitee, total lu : 20250, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:30] [INFO] Audit Purview - page 82 traitee, total lu : 20500, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:31] [INFO] Audit Purview - page 83 traitee, total lu : 20750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:32] [INFO] Audit Purview - page 84 traitee, total lu : 21000, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:33] [INFO] Audit Purview - page 85 traitee, total lu : 21250, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:34] [INFO] Audit Purview - page 86 traitee, total lu : 21500, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:36] [INFO] Audit Purview - page 87 traitee, total lu : 21750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:37] [INFO] Audit Purview - page 88 traitee, total lu : 22000, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:55:38] [INFO] Audit Purview - page 89 traitee, total lu : 22250, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:39] [INFO] Audit Purview - page 90 traitee, total lu : 22500, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:55:41] [INFO] Audit Purview - page 91 traitee, total lu : 22750, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:42] [INFO] Audit Purview - page 92 traitee, total lu : 23000, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:43] [INFO] Audit Purview - page 93 traitee, total lu : 23250, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:45] [INFO] Audit Purview - page 94 traitee, total lu : 23500, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:55:46] [INFO] Audit Purview - page 95 traitee, total lu : 23750, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:47] [INFO] Audit Purview - page 96 traitee, total lu : 24000, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:49] [INFO] Audit Purview - page 97 traitee, total lu : 24250, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:50] [INFO] Audit Purview - page 98 traitee, total lu : 24500, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:51] [INFO] Audit Purview - page 99 traitee, total lu : 24750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:52] [INFO] Audit Purview - page 100 traitee, total lu : 25000, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:56] [INFO] Audit Purview - page 101 traitee, total lu : 25250, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:55:57] [INFO] Audit Purview - page 102 traitee, total lu : 25500, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:55:58] [INFO] Audit Purview - page 103 traitee, total lu : 25750, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:00] [INFO] Audit Purview - page 104 traitee, total lu : 26000, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:56:01] [INFO] Audit Purview - page 105 traitee, total lu : 26250, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:56:02] [INFO] Audit Purview - page 106 traitee, total lu : 26500, memoire PowerShell : 4878 Mo.
+[26/08/2026 15:56:06] [INFO] Audit Purview - page 107 traitee, total lu : 26750, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:56:07] [INFO] Audit Purview - page 108 traitee, total lu : 27000, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:56:09] [INFO] Audit Purview - page 109 traitee, total lu : 27250, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:10] [INFO] Audit Purview - page 110 traitee, total lu : 27500, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:11] [INFO] Audit Purview - page 111 traitee, total lu : 27750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:12] [INFO] Audit Purview - page 112 traitee, total lu : 28000, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:14] [INFO] Audit Purview - page 113 traitee, total lu : 28250, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:15] [INFO] Audit Purview - page 114 traitee, total lu : 28500, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:16] [INFO] Audit Purview - page 115 traitee, total lu : 28750, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:56:17] [INFO] Audit Purview - page 116 traitee, total lu : 29000, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:56:18] [INFO] Audit Purview - page 117 traitee, total lu : 29250, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:19] [INFO] Audit Purview - page 118 traitee, total lu : 29500, memoire PowerShell : 4879 Mo.
+[26/08/2026 15:56:22] [INFO] Audit Purview - page 119 traitee, total lu : 29750, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:56:23] [INFO] Audit Purview - page 120 traitee, total lu : 30000, memoire PowerShell : 4882 Mo.
+[26/08/2026 15:56:27] [INFO] Audit Purview - page 121 traitee, total lu : 30250, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:28] [INFO] Audit Purview - page 122 traitee, total lu : 30500, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:56:30] [INFO] Audit Purview - page 123 traitee, total lu : 30750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:31] [INFO] Audit Purview - page 124 traitee, total lu : 31000, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:32] [INFO] Audit Purview - page 125 traitee, total lu : 31250, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:56:33] [INFO] Audit Purview - page 126 traitee, total lu : 31500, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:35] [INFO] Audit Purview - page 127 traitee, total lu : 31750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:36] [INFO] Audit Purview - page 128 traitee, total lu : 32000, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:37] [INFO] Audit Purview - page 129 traitee, total lu : 32250, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:56:39] [INFO] Audit Purview - page 130 traitee, total lu : 32500, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:41] [INFO] Audit Purview - page 131 traitee, total lu : 32750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:56:42] [INFO] Audit Purview - page 132 traitee, total lu : 33000, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:43] [INFO] Audit Purview - page 133 traitee, total lu : 33250, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:56:47] [INFO] Audit Purview - page 134 traitee, total lu : 33500, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:56:48] [INFO] Audit Purview - page 135 traitee, total lu : 33750, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:49] [INFO] Audit Purview - page 136 traitee, total lu : 34000, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:56:50] [INFO] Audit Purview - page 137 traitee, total lu : 34250, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:51] [INFO] Audit Purview - page 138 traitee, total lu : 34500, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:52] [INFO] Audit Purview - page 139 traitee, total lu : 34750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:56:54] [INFO] Audit Purview - page 140 traitee, total lu : 35000, memoire PowerShell : 4883 Mo.
+[26/08/2026 15:56:58] [INFO] Audit Purview - page 141 traitee, total lu : 35250, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:00] [INFO] Audit Purview - page 142 traitee, total lu : 35500, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:57:01] [INFO] Audit Purview - page 143 traitee, total lu : 35750, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:57:02] [INFO] Audit Purview - page 144 traitee, total lu : 36000, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:03] [INFO] Audit Purview - page 145 traitee, total lu : 36250, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:04] [INFO] Audit Purview - page 146 traitee, total lu : 36500, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:06] [INFO] Audit Purview - page 147 traitee, total lu : 36750, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:09] [INFO] Audit Purview - page 148 traitee, total lu : 37000, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:57:11] [INFO] Audit Purview - page 149 traitee, total lu : 37250, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:57:12] [INFO] Audit Purview - page 150 traitee, total lu : 37500, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:13] [INFO] Audit Purview - page 151 traitee, total lu : 37750, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:15] [INFO] Audit Purview - page 152 traitee, total lu : 38000, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:16] [INFO] Audit Purview - page 153 traitee, total lu : 38250, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:17] [INFO] Audit Purview - page 154 traitee, total lu : 38500, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:57:19] [INFO] Audit Purview - page 155 traitee, total lu : 38750, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:20] [INFO] Audit Purview - page 156 traitee, total lu : 39000, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:57:22] [INFO] Audit Purview - page 157 traitee, total lu : 39250, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:23] [INFO] Audit Purview - page 158 traitee, total lu : 39500, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:25] [INFO] Audit Purview - page 159 traitee, total lu : 39750, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:57:26] [INFO] Audit Purview - page 160 traitee, total lu : 40000, memoire PowerShell : 4884 Mo.
+[26/08/2026 15:57:31] [INFO] Audit Purview - page 161 traitee, total lu : 40250, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:57:32] [INFO] Audit Purview - page 162 traitee, total lu : 40500, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:33] [INFO] Audit Purview - page 163 traitee, total lu : 40750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:57:34] [INFO] Audit Purview - page 164 traitee, total lu : 41000, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:35] [INFO] Audit Purview - page 165 traitee, total lu : 41250, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:36] [INFO] Audit Purview - page 166 traitee, total lu : 41500, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:57:37] [INFO] Audit Purview - page 167 traitee, total lu : 41750, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:38] [INFO] Audit Purview - page 168 traitee, total lu : 42000, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:40] [INFO] Audit Purview - page 169 traitee, total lu : 42250, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:42] [INFO] Audit Purview - page 170 traitee, total lu : 42500, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:43] [INFO] Audit Purview - page 171 traitee, total lu : 42750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:57:44] [INFO] Audit Purview - page 172 traitee, total lu : 43000, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:46] [INFO] Audit Purview - page 173 traitee, total lu : 43250, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:47] [INFO] Audit Purview - page 174 traitee, total lu : 43500, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:48] [INFO] Audit Purview - page 175 traitee, total lu : 43750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:57:49] [INFO] Audit Purview - page 176 traitee, total lu : 44000, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:50] [INFO] Audit Purview - page 177 traitee, total lu : 44250, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:52] [INFO] Audit Purview - page 178 traitee, total lu : 44500, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:53] [INFO] Audit Purview - page 179 traitee, total lu : 44750, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:57:54] [INFO] Audit Purview - page 180 traitee, total lu : 45000, memoire PowerShell : 4885 Mo.
+[26/08/2026 15:57:58] [INFO] Audit Purview - page 181 traitee, total lu : 45250, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:00] [INFO] Audit Purview - page 182 traitee, total lu : 45500, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:01] [INFO] Audit Purview - page 183 traitee, total lu : 45750, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:03] [INFO] Audit Purview - page 184 traitee, total lu : 46000, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:03] [INFO] Audit Purview - page 185 traitee, total lu : 46250, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:05] [INFO] Audit Purview - page 186 traitee, total lu : 46500, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:07] [INFO] Audit Purview - page 187 traitee, total lu : 46750, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:09] [INFO] Audit Purview - page 188 traitee, total lu : 47000, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:11] [INFO] Audit Purview - page 189 traitee, total lu : 47250, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:18] [INFO] Audit Purview - page 190 traitee, total lu : 47500, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:19] [INFO] Audit Purview - page 191 traitee, total lu : 47750, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:20] [INFO] Audit Purview - page 192 traitee, total lu : 48000, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:23] [INFO] Audit Purview - page 193 traitee, total lu : 48250, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:24] [INFO] Audit Purview - page 194 traitee, total lu : 48500, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:27] [INFO] Audit Purview - page 195 traitee, total lu : 48750, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:31] [INFO] Audit Purview - page 196 traitee, total lu : 49000, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:32] [INFO] Audit Purview - page 197 traitee, total lu : 49250, memoire PowerShell : 4889 Mo.
+[26/08/2026 15:58:33] [INFO] Audit Purview - page 198 traitee, total lu : 49500, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:34] [INFO] Audit Purview - page 199 traitee, total lu : 49750, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:37] [INFO] Audit Purview - page 200 traitee, total lu : 50000, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:41] [INFO] Audit Purview - page 201 traitee, total lu : 50250, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:44] [INFO] Audit Purview - page 202 traitee, total lu : 50500, memoire PowerShell : 4892 Mo.
+[26/08/2026 15:58:45] [INFO] Audit Purview - page 203 traitee, total lu : 50750, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:58:46] [INFO] Audit Purview - page 204 traitee, total lu : 51000, memoire PowerShell : 4886 Mo.
+[26/08/2026 15:58:47] [INFO] Audit Purview - page 205 traitee, total lu : 51250, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:58:51] [INFO] Audit Purview - page 206 traitee, total lu : 51500, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:58:53] [INFO] Audit Purview - page 207 traitee, total lu : 51750, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:58:56] [INFO] Audit Purview - page 208 traitee, total lu : 52000, memoire PowerShell : 4892 Mo.
+[26/08/2026 15:58:58] [INFO] Audit Purview - page 209 traitee, total lu : 52250, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:01] [INFO] Audit Purview - page 210 traitee, total lu : 52500, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:03] [INFO] Audit Purview - page 211 traitee, total lu : 52750, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:04] [INFO] Audit Purview - page 212 traitee, total lu : 53000, memoire PowerShell : 4892 Mo.
+[26/08/2026 15:59:06] [INFO] Audit Purview - page 213 traitee, total lu : 53250, memoire PowerShell : 4890 Mo.
+[26/08/2026 15:59:11] [INFO] Audit Purview - page 214 traitee, total lu : 53500, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:12] [INFO] Audit Purview - page 215 traitee, total lu : 53750, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:13] [INFO] Audit Purview - page 216 traitee, total lu : 54000, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:18] [INFO] Audit Purview - page 217 traitee, total lu : 54250, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:19] [INFO] Audit Purview - page 218 traitee, total lu : 54500, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:23] [INFO] Audit Purview - page 219 traitee, total lu : 54750, memoire PowerShell : 4892 Mo.
+[26/08/2026 15:59:26] [INFO] Audit Purview - page 220 traitee, total lu : 55000, memoire PowerShell : 4887 Mo.
+[26/08/2026 15:59:32] [INFO] Audit Purview - page 221 traitee, total lu : 55250, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:59:33] [INFO] Audit Purview - page 222 traitee, total lu : 55500, memoire PowerShell : 4893 Mo.
+[26/08/2026 15:59:36] [INFO] Audit Purview - page 223 traitee, total lu : 55750, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:38] [INFO] Audit Purview - page 224 traitee, total lu : 56000, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:39] [INFO] Audit Purview - page 225 traitee, total lu : 56250, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:59:40] [INFO] Audit Purview - page 226 traitee, total lu : 56500, memoire PowerShell : 4893 Mo.
+[26/08/2026 15:59:42] [INFO] Audit Purview - page 227 traitee, total lu : 56750, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:59:45] [INFO] Audit Purview - page 228 traitee, total lu : 57000, memoire PowerShell : 4893 Mo.
+[26/08/2026 15:59:47] [INFO] Audit Purview - page 229 traitee, total lu : 57250, memoire PowerShell : 4891 Mo.
+[26/08/2026 15:59:49] [INFO] Audit Purview - page 230 traitee, total lu : 57500, memoire PowerShell : 4888 Mo.
+[26/08/2026 15:59:52] [INFO] Audit Purview - page 231 traitee, total lu : 57750, memoire PowerShell : 4881 Mo.
+[26/08/2026 15:59:56] [INFO] Audit Purview - page 232 traitee, total lu : 58000, memoire PowerShell : 4882 Mo.
+[26/08/2026 16:00:00] [INFO] Audit Purview - page 233 traitee, total lu : 58250, memoire PowerShell : 4882 Mo.
+[26/08/2026 16:00:01] [INFO] Audit Purview - page 234 traitee, total lu : 58500, memoire PowerShell : 4882 Mo.
+[26/08/2026 16:00:03] [INFO] Audit Purview - page 235 traitee, total lu : 58750, memoire PowerShell : 4882 Mo.
+[26/08/2026 16:00:05] [INFO] Audit Purview - page 236 traitee, total lu : 59000, memoire PowerShell : 4882 Mo.
+[26/08/2026 16:00:06] [INFO] Audit Purview - page 237 traitee, total lu : 59250, memoire PowerShell : 4885 Mo.
+[26/08/2026 16:00:09] [INFO] Audit Purview - page 238 traitee, total lu : 59500, memoire PowerShell : 4883 Mo.
+[26/08/2026 16:00:11] [INFO] Audit Purview - page 239 traitee, total lu : 59750, memoire PowerShell : 4888 Mo.
+[26/08/2026 16:00:15] [INFO] Audit Purview - page 240 traitee, total lu : 60000, memoire PowerShell : 4886 Mo.
+[26/08/2026 16:00:21] [INFO] Audit Purview - page 241 traitee, total lu : 60250, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:23] [INFO] Audit Purview - page 242 traitee, total lu : 60500, memoire PowerShell : 4886 Mo.
+[26/08/2026 16:00:24] [INFO] Audit Purview - page 243 traitee, total lu : 60750, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:27] [INFO] Audit Purview - page 244 traitee, total lu : 61000, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:30] [INFO] Audit Purview - page 245 traitee, total lu : 61250, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:32] [INFO] Audit Purview - page 246 traitee, total lu : 61500, memoire PowerShell : 4890 Mo.
+[26/08/2026 16:00:40] [INFO] Audit Purview - page 247 traitee, total lu : 61750, memoire PowerShell : 4892 Mo.
+[26/08/2026 16:00:41] [INFO] Audit Purview - page 248 traitee, total lu : 62000, memoire PowerShell : 4890 Mo.
+[26/08/2026 16:00:45] [INFO] Audit Purview - page 249 traitee, total lu : 62250, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:47] [INFO] Audit Purview - page 250 traitee, total lu : 62500, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:49] [INFO] Audit Purview - page 251 traitee, total lu : 62750, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:00:52] [INFO] Audit Purview - page 252 traitee, total lu : 63000, memoire PowerShell : 4890 Mo.
+[26/08/2026 16:00:54] [INFO] Audit Purview - page 253 traitee, total lu : 63250, memoire PowerShell : 4892 Mo.
+[26/08/2026 16:00:56] [INFO] Audit Purview - page 254 traitee, total lu : 63500, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:01:00] [INFO] Audit Purview - page 255 traitee, total lu : 63750, memoire PowerShell : 4892 Mo.
+[26/08/2026 16:01:01] [INFO] Audit Purview - page 256 traitee, total lu : 64000, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:01:03] [INFO] Audit Purview - page 257 traitee, total lu : 64250, memoire PowerShell : 4892 Mo.
+[26/08/2026 16:01:06] [INFO] Audit Purview - page 258 traitee, total lu : 64500, memoire PowerShell : 4887 Mo.
+[26/08/2026 16:01:09] [INFO] Audit Purview - page 259 traitee, total lu : 64750, memoire PowerShell : 4892 Mo.
+[26/08/2026 16:01:12] [INFO] Audit Purview - page 260 traitee, total lu : 65000, memoire PowerShell : 4890 Mo.
+[26/08/2026 16:01:16] [INFO] Audit Purview - page 261 traitee, total lu : 65250, memoire PowerShell : 4814 Mo.
+[26/08/2026 16:01:19] [INFO] Audit Purview - page 262 traitee, total lu : 65500, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:21] [INFO] Audit Purview - page 263 traitee, total lu : 65750, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:25] [INFO] Audit Purview - page 264 traitee, total lu : 66000, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:27] [INFO] Audit Purview - page 265 traitee, total lu : 66250, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:31] [INFO] Audit Purview - page 266 traitee, total lu : 66500, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:32] [INFO] Audit Purview - page 267 traitee, total lu : 66750, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:34] [INFO] Audit Purview - page 268 traitee, total lu : 67000, memoire PowerShell : 4817 Mo.
+[26/08/2026 16:01:35] [INFO] Audit Purview - page 269 traitee, total lu : 67250, memoire PowerShell : 4814 Mo.
+[26/08/2026 16:01:37] [INFO] Audit Purview - page 270 traitee, total lu : 67500, memoire PowerShell : 4814 Mo.
+[26/08/2026 16:01:38] [INFO] Audit Purview - page 271 traitee, total lu : 67750, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:39] [INFO] Audit Purview - page 272 traitee, total lu : 68000, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:40] [INFO] Audit Purview - page 273 traitee, total lu : 68250, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:01:41] [INFO] Audit Purview - page 274 traitee, total lu : 68500, memoire PowerShell : 4814 Mo.
+[26/08/2026 16:01:43] [INFO] Audit Purview - page 275 traitee, total lu : 68750, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:44] [INFO] Audit Purview - page 276 traitee, total lu : 69000, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:46] [INFO] Audit Purview - page 277 traitee, total lu : 69250, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:47] [INFO] Audit Purview - page 278 traitee, total lu : 69500, memoire PowerShell : 4817 Mo.
+[26/08/2026 16:01:48] [INFO] Audit Purview - page 279 traitee, total lu : 69750, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:01:50] [INFO] Audit Purview - page 280 traitee, total lu : 70000, memoire PowerShell : 4814 Mo.
+[26/08/2026 16:01:55] [INFO] Audit Purview - page 281 traitee, total lu : 70250, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:57] [INFO] Audit Purview - page 282 traitee, total lu : 70500, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:01:57] [INFO] Audit Purview - page 283 traitee, total lu : 70750, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:01:59] [INFO] Audit Purview - page 284 traitee, total lu : 71000, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:01] [INFO] Audit Purview - page 285 traitee, total lu : 71250, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:02:04] [INFO] Audit Purview - page 286 traitee, total lu : 71500, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:06] [INFO] Audit Purview - page 287 traitee, total lu : 71750, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:02:07] [INFO] Audit Purview - page 288 traitee, total lu : 72000, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:09] [INFO] Audit Purview - page 289 traitee, total lu : 72250, memoire PowerShell : 4818 Mo.
+[26/08/2026 16:02:10] [INFO] Audit Purview - page 290 traitee, total lu : 72500, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:13] [INFO] Audit Purview - page 291 traitee, total lu : 72750, memoire PowerShell : 4818 Mo.
+[26/08/2026 16:02:15] [INFO] Audit Purview - page 292 traitee, total lu : 73000, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:02:16] [INFO] Audit Purview - page 293 traitee, total lu : 73250, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:17] [INFO] Audit Purview - page 294 traitee, total lu : 73500, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:19] [INFO] Audit Purview - page 295 traitee, total lu : 73750, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:02:21] [INFO] Audit Purview - page 296 traitee, total lu : 74000, memoire PowerShell : 4818 Mo.
+[26/08/2026 16:02:23] [INFO] Audit Purview - page 297 traitee, total lu : 74250, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:25] [INFO] Audit Purview - page 298 traitee, total lu : 74500, memoire PowerShell : 4819 Mo.
+[26/08/2026 16:02:26] [INFO] Audit Purview - page 299 traitee, total lu : 74750, memoire PowerShell : 4815 Mo.
+[26/08/2026 16:02:28] [INFO] Audit Purview - page 300 traitee, total lu : 75000, memoire PowerShell : 4820 Mo.
+[26/08/2026 16:02:33] [INFO] Audit Purview - page 301 traitee, total lu : 75250, memoire PowerShell : 4824 Mo.
+[26/08/2026 16:02:34] [INFO] Audit Purview - page 302 traitee, total lu : 75500, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:36] [INFO] Audit Purview - page 303 traitee, total lu : 75750, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:37] [INFO] Audit Purview - page 304 traitee, total lu : 76000, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:02:39] [INFO] Audit Purview - page 305 traitee, total lu : 76250, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:40] [INFO] Audit Purview - page 306 traitee, total lu : 76500, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:02:41] [INFO] Audit Purview - page 307 traitee, total lu : 76750, memoire PowerShell : 4824 Mo.
+[26/08/2026 16:02:43] [INFO] Audit Purview - page 308 traitee, total lu : 77000, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:44] [INFO] Audit Purview - page 309 traitee, total lu : 77250, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:46] [INFO] Audit Purview - page 310 traitee, total lu : 77500, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:02:47] [INFO] Audit Purview - page 311 traitee, total lu : 77750, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:50] [INFO] Audit Purview - page 312 traitee, total lu : 78000, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:02:51] [INFO] Audit Purview - page 313 traitee, total lu : 78250, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:52] [INFO] Audit Purview - page 314 traitee, total lu : 78500, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:54] [INFO] Audit Purview - page 315 traitee, total lu : 78750, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:02:56] [INFO] Audit Purview - page 316 traitee, total lu : 79000, memoire PowerShell : 4824 Mo.
+[26/08/2026 16:02:57] [INFO] Audit Purview - page 317 traitee, total lu : 79250, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:02:58] [INFO] Audit Purview - page 318 traitee, total lu : 79500, memoire PowerShell : 4824 Mo.
+[26/08/2026 16:02:59] [INFO] Audit Purview - page 319 traitee, total lu : 79750, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:03:03] [INFO] Audit Purview - page 320 traitee, total lu : 80000, memoire PowerShell : 4821 Mo.
+[26/08/2026 16:03:08] [INFO] Audit Purview - page 321 traitee, total lu : 80250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:09] [INFO] Audit Purview - page 322 traitee, total lu : 80500, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:10] [INFO] Audit Purview - page 323 traitee, total lu : 80750, memoire PowerShell : 4825 Mo.
+[26/08/2026 16:03:12] [INFO] Audit Purview - page 324 traitee, total lu : 81000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:15] [INFO] Audit Purview - page 325 traitee, total lu : 81250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:16] [INFO] Audit Purview - page 326 traitee, total lu : 81500, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:03:19] [INFO] Audit Purview - page 327 traitee, total lu : 81750, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:22] [INFO] Audit Purview - page 328 traitee, total lu : 82000, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:23] [INFO] Audit Purview - page 329 traitee, total lu : 82250, memoire PowerShell : 4825 Mo.
+[26/08/2026 16:03:25] [INFO] Audit Purview - page 330 traitee, total lu : 82500, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:26] [INFO] Audit Purview - page 331 traitee, total lu : 82750, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:28] [INFO] Audit Purview - page 332 traitee, total lu : 83000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:29] [INFO] Audit Purview - page 333 traitee, total lu : 83250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:31] [INFO] Audit Purview - page 334 traitee, total lu : 83500, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:33] [INFO] Audit Purview - page 335 traitee, total lu : 83750, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:34] [INFO] Audit Purview - page 336 traitee, total lu : 84000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:36] [INFO] Audit Purview - page 337 traitee, total lu : 84250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:38] [INFO] Audit Purview - page 338 traitee, total lu : 84500, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:40] [INFO] Audit Purview - page 339 traitee, total lu : 84750, memoire PowerShell : 4825 Mo.
+[26/08/2026 16:03:42] [INFO] Audit Purview - page 340 traitee, total lu : 85000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:46] [INFO] Audit Purview - page 341 traitee, total lu : 85250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:49] [INFO] Audit Purview - page 342 traitee, total lu : 85500, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:50] [INFO] Audit Purview - page 343 traitee, total lu : 85750, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:51] [INFO] Audit Purview - page 344 traitee, total lu : 86000, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:03:52] [INFO] Audit Purview - page 345 traitee, total lu : 86250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:54] [INFO] Audit Purview - page 346 traitee, total lu : 86500, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:55] [INFO] Audit Purview - page 347 traitee, total lu : 86750, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:56] [INFO] Audit Purview - page 348 traitee, total lu : 87000, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:03:58] [INFO] Audit Purview - page 349 traitee, total lu : 87250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:03:59] [INFO] Audit Purview - page 350 traitee, total lu : 87500, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:04:00] [INFO] Audit Purview - page 351 traitee, total lu : 87750, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:04:01] [INFO] Audit Purview - page 352 traitee, total lu : 88000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:04:03] [INFO] Audit Purview - page 353 traitee, total lu : 88250, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:04:04] [INFO] Audit Purview - page 354 traitee, total lu : 88500, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:04:05] [INFO] Audit Purview - page 355 traitee, total lu : 88750, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:09] [INFO] Audit Purview - page 356 traitee, total lu : 89000, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:04:10] [INFO] Audit Purview - page 357 traitee, total lu : 89250, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:04:11] [INFO] Audit Purview - page 358 traitee, total lu : 89500, memoire PowerShell : 4827 Mo.
+[26/08/2026 16:04:12] [INFO] Audit Purview - page 359 traitee, total lu : 89750, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:13] [INFO] Audit Purview - page 360 traitee, total lu : 90000, memoire PowerShell : 4822 Mo.
+[26/08/2026 16:04:19] [INFO] Audit Purview - page 361 traitee, total lu : 90250, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:23] [INFO] Audit Purview - page 362 traitee, total lu : 90500, memoire PowerShell : 4824 Mo.
+[26/08/2026 16:04:24] [INFO] Audit Purview - page 363 traitee, total lu : 90750, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:25] [INFO] Audit Purview - page 364 traitee, total lu : 91000, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:27] [INFO] Audit Purview - page 365 traitee, total lu : 91250, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:28] [INFO] Audit Purview - page 366 traitee, total lu : 91500, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:29] [INFO] Audit Purview - page 367 traitee, total lu : 91750, memoire PowerShell : 4828 Mo.
+[26/08/2026 16:04:30] [INFO] Audit Purview - page 368 traitee, total lu : 92000, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:04:32] [INFO] Audit Purview - page 369 traitee, total lu : 92250, memoire PowerShell : 4828 Mo.
+[26/08/2026 16:04:33] [INFO] Audit Purview - page 370 traitee, total lu : 92500, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:35] [INFO] Audit Purview - page 371 traitee, total lu : 92750, memoire PowerShell : 4828 Mo.
+[26/08/2026 16:04:36] [INFO] Audit Purview - page 372 traitee, total lu : 93000, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:39] [INFO] Audit Purview - page 373 traitee, total lu : 93250, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:39] [INFO] Audit Purview - page 374 traitee, total lu : 93500, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:40] [INFO] Audit Purview - page 375 traitee, total lu : 93750, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:44] [INFO] Audit Purview - page 376 traitee, total lu : 94000, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:04:47] [INFO] Audit Purview - page 377 traitee, total lu : 94250, memoire PowerShell : 4826 Mo.
+[26/08/2026 16:04:48] [INFO] Audit Purview - page 378 traitee, total lu : 94500, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:51] [INFO] Audit Purview - page 379 traitee, total lu : 94750, memoire PowerShell : 4823 Mo.
+[26/08/2026 16:04:54] [INFO] Audit Purview - page 380 traitee, total lu : 95000, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:00] [INFO] Audit Purview - page 381 traitee, total lu : 95250, memoire PowerShell : 4832 Mo.
+[26/08/2026 16:05:04] [INFO] Audit Purview - page 382 traitee, total lu : 95500, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:06] [INFO] Audit Purview - page 383 traitee, total lu : 95750, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:09] [INFO] Audit Purview - page 384 traitee, total lu : 96000, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:11] [INFO] Audit Purview - page 385 traitee, total lu : 96250, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:14] [INFO] Audit Purview - page 386 traitee, total lu : 96500, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:17] [INFO] Audit Purview - page 387 traitee, total lu : 96750, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:18] [INFO] Audit Purview - page 388 traitee, total lu : 97000, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:19] [INFO] Audit Purview - page 389 traitee, total lu : 97250, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:20] [INFO] Audit Purview - page 390 traitee, total lu : 97500, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:22] [INFO] Audit Purview - page 391 traitee, total lu : 97750, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:24] [INFO] Audit Purview - page 392 traitee, total lu : 98000, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:27] [INFO] Audit Purview - page 393 traitee, total lu : 98250, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:30] [INFO] Audit Purview - page 394 traitee, total lu : 98500, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:31] [INFO] Audit Purview - page 395 traitee, total lu : 98750, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:33] [INFO] Audit Purview - page 396 traitee, total lu : 99000, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:34] [INFO] Audit Purview - page 397 traitee, total lu : 99250, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:37] [INFO] Audit Purview - page 398 traitee, total lu : 99500, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:39] [INFO] Audit Purview - page 399 traitee, total lu : 99750, memoire PowerShell : 4829 Mo.
+[26/08/2026 16:05:43] [INFO] Audit Purview - page 400 traitee, total lu : 100000, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:47] [INFO] Audit Purview - page 401 traitee, total lu : 100250, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:05:48] [INFO] Audit Purview - page 402 traitee, total lu : 100500, memoire PowerShell : 4839 Mo.
+[26/08/2026 16:05:51] [INFO] Audit Purview - page 403 traitee, total lu : 100750, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:05:54] [INFO] Audit Purview - page 404 traitee, total lu : 101000, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:55] [INFO] Audit Purview - page 405 traitee, total lu : 101250, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:56] [INFO] Audit Purview - page 406 traitee, total lu : 101500, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:05:57] [INFO] Audit Purview - page 407 traitee, total lu : 101750, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:05:58] [INFO] Audit Purview - page 408 traitee, total lu : 102000, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:05:59] [INFO] Audit Purview - page 409 traitee, total lu : 102250, memoire PowerShell : 4839 Mo.
+[26/08/2026 16:06:01] [INFO] Audit Purview - page 410 traitee, total lu : 102500, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:03] [INFO] Audit Purview - page 411 traitee, total lu : 102750, memoire PowerShell : 4839 Mo.
+[26/08/2026 16:06:03] [INFO] Audit Purview - page 412 traitee, total lu : 103000, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:04] [INFO] Audit Purview - page 413 traitee, total lu : 103250, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:06] [INFO] Audit Purview - page 414 traitee, total lu : 103500, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:06:08] [INFO] Audit Purview - page 415 traitee, total lu : 103750, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:06:11] [INFO] Audit Purview - page 416 traitee, total lu : 104000, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:06:12] [INFO] Audit Purview - page 417 traitee, total lu : 104250, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:14] [INFO] Audit Purview - page 418 traitee, total lu : 104500, memoire PowerShell : 4839 Mo.
+[26/08/2026 16:06:16] [INFO] Audit Purview - page 419 traitee, total lu : 104750, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:06:17] [INFO] Audit Purview - page 420 traitee, total lu : 105000, memoire PowerShell : 4834 Mo.
+[26/08/2026 16:06:21] [INFO] Audit Purview - page 421 traitee, total lu : 105250, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:22] [INFO] Audit Purview - page 422 traitee, total lu : 105500, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:06:23] [INFO] Audit Purview - page 423 traitee, total lu : 105750, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:27] [INFO] Audit Purview - page 424 traitee, total lu : 106000, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:28] [INFO] Audit Purview - page 425 traitee, total lu : 106250, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:28] [INFO] Audit Purview - page 426 traitee, total lu : 106500, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:29] [INFO] Audit Purview - page 427 traitee, total lu : 106750, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:06:30] [INFO] Audit Purview - page 428 traitee, total lu : 107000, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:31] [INFO] Audit Purview - page 429 traitee, total lu : 107250, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:32] [INFO] Audit Purview - page 430 traitee, total lu : 107500, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:06:33] [INFO] Audit Purview - page 431 traitee, total lu : 107750, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:06:34] [INFO] Audit Purview - page 432 traitee, total lu : 108000, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:36] [INFO] Audit Purview - page 433 traitee, total lu : 108250, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:06:36] [INFO] Audit Purview - page 434 traitee, total lu : 108500, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:06:39] [INFO] Audit Purview - page 435 traitee, total lu : 108750, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:06:40] [INFO] Audit Purview - page 436 traitee, total lu : 109000, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:41] [INFO] Audit Purview - page 437 traitee, total lu : 109250, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:06:42] [INFO] Audit Purview - page 438 traitee, total lu : 109500, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:43] [INFO] Audit Purview - page 439 traitee, total lu : 109750, memoire PowerShell : 4835 Mo.
+[26/08/2026 16:06:44] [INFO] Audit Purview - page 440 traitee, total lu : 110000, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:06:48] [INFO] Audit Purview - page 441 traitee, total lu : 110250, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:06:49] [INFO] Audit Purview - page 442 traitee, total lu : 110500, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:06:50] [INFO] Audit Purview - page 443 traitee, total lu : 110750, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:06:51] [INFO] Audit Purview - page 444 traitee, total lu : 111000, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:06:52] [INFO] Audit Purview - page 445 traitee, total lu : 111250, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:06:53] [INFO] Audit Purview - page 446 traitee, total lu : 111500, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:06:54] [INFO] Audit Purview - page 447 traitee, total lu : 111750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:06:55] [INFO] Audit Purview - page 448 traitee, total lu : 112000, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:06:55] [INFO] Audit Purview - page 449 traitee, total lu : 112250, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:06:56] [INFO] Audit Purview - page 450 traitee, total lu : 112500, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:06:58] [INFO] Audit Purview - page 451 traitee, total lu : 112750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:06:59] [INFO] Audit Purview - page 452 traitee, total lu : 113000, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:07:00] [INFO] Audit Purview - page 453 traitee, total lu : 113250, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:03] [INFO] Audit Purview - page 454 traitee, total lu : 113500, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:07:04] [INFO] Audit Purview - page 455 traitee, total lu : 113750, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:07:05] [INFO] Audit Purview - page 456 traitee, total lu : 114000, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:07:06] [INFO] Audit Purview - page 457 traitee, total lu : 114250, memoire PowerShell : 4840 Mo.
+[26/08/2026 16:07:07] [INFO] Audit Purview - page 458 traitee, total lu : 114500, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:07:10] [INFO] Audit Purview - page 459 traitee, total lu : 114750, memoire PowerShell : 4836 Mo.
+[26/08/2026 16:07:11] [INFO] Audit Purview - page 460 traitee, total lu : 115000, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:17] [INFO] Audit Purview - page 461 traitee, total lu : 115250, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:07:21] [INFO] Audit Purview - page 462 traitee, total lu : 115500, memoire PowerShell : 4843 Mo.
+[26/08/2026 16:07:23] [INFO] Audit Purview - page 463 traitee, total lu : 115750, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:24] [INFO] Audit Purview - page 464 traitee, total lu : 116000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:25] [INFO] Audit Purview - page 465 traitee, total lu : 116250, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:26] [INFO] Audit Purview - page 466 traitee, total lu : 116500, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:27] [INFO] Audit Purview - page 467 traitee, total lu : 116750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:28] [INFO] Audit Purview - page 468 traitee, total lu : 117000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:29] [INFO] Audit Purview - page 469 traitee, total lu : 117250, memoire PowerShell : 4838 Mo.
+[26/08/2026 16:07:31] [INFO] Audit Purview - page 470 traitee, total lu : 117500, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:34] [INFO] Audit Purview - page 471 traitee, total lu : 117750, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:35] [INFO] Audit Purview - page 472 traitee, total lu : 118000, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:38] [INFO] Audit Purview - page 473 traitee, total lu : 118250, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:39] [INFO] Audit Purview - page 474 traitee, total lu : 118500, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:40] [INFO] Audit Purview - page 475 traitee, total lu : 118750, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:41] [INFO] Audit Purview - page 476 traitee, total lu : 119000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:42] [INFO] Audit Purview - page 477 traitee, total lu : 119250, memoire PowerShell : 4837 Mo.
+[26/08/2026 16:07:43] [INFO] Audit Purview - page 478 traitee, total lu : 119500, memoire PowerShell : 4843 Mo.
+[26/08/2026 16:07:45] [INFO] Audit Purview - page 479 traitee, total lu : 119750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:46] [INFO] Audit Purview - page 480 traitee, total lu : 120000, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:49] [INFO] Audit Purview - page 481 traitee, total lu : 120250, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:51] [INFO] Audit Purview - page 482 traitee, total lu : 120500, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:51] [INFO] Audit Purview - page 483 traitee, total lu : 120750, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:07:52] [INFO] Audit Purview - page 484 traitee, total lu : 121000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:53] [INFO] Audit Purview - page 485 traitee, total lu : 121250, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:07:54] [INFO] Audit Purview - page 486 traitee, total lu : 121500, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:07:57] [INFO] Audit Purview - page 487 traitee, total lu : 121750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:07:58] [INFO] Audit Purview - page 488 traitee, total lu : 122000, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:08:00] [INFO] Audit Purview - page 489 traitee, total lu : 122250, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:08:01] [INFO] Audit Purview - page 490 traitee, total lu : 122500, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:08:02] [INFO] Audit Purview - page 491 traitee, total lu : 122750, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:08:03] [INFO] Audit Purview - page 492 traitee, total lu : 123000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:08:04] [INFO] Audit Purview - page 493 traitee, total lu : 123250, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:08:05] [INFO] Audit Purview - page 494 traitee, total lu : 123500, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:08:06] [INFO] Audit Purview - page 495 traitee, total lu : 123750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:08:07] [INFO] Audit Purview - page 496 traitee, total lu : 124000, memoire PowerShell : 4842 Mo.
+[26/08/2026 16:08:08] [INFO] Audit Purview - page 497 traitee, total lu : 124250, memoire PowerShell : 4845 Mo.
+[26/08/2026 16:08:09] [INFO] Audit Purview - page 498 traitee, total lu : 124500, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:08:11] [INFO] Audit Purview - page 499 traitee, total lu : 124750, memoire PowerShell : 4841 Mo.
+[26/08/2026 16:08:13] [INFO] Audit Purview - page 500 traitee, total lu : 125000, memoire PowerShell : 4846 Mo.
+[26/08/2026 16:08:16] [INFO] Audit Purview - page 501 traitee, total lu : 125250, memoire PowerShell : 4850 Mo.
+[26/08/2026 16:08:17] [INFO] Audit Purview - page 502 traitee, total lu : 125500, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:18] [INFO] Audit Purview - page 503 traitee, total lu : 125750, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:19] [INFO] Audit Purview - page 504 traitee, total lu : 126000, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:21] [INFO] Audit Purview - page 505 traitee, total lu : 126250, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:22] [INFO] Audit Purview - page 506 traitee, total lu : 126500, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:23] [INFO] Audit Purview - page 507 traitee, total lu : 126750, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:24] [INFO] Audit Purview - page 508 traitee, total lu : 127000, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:25] [INFO] Audit Purview - page 509 traitee, total lu : 127250, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:26] [INFO] Audit Purview - page 510 traitee, total lu : 127500, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:27] [INFO] Audit Purview - page 511 traitee, total lu : 127750, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:28] [INFO] Audit Purview - page 512 traitee, total lu : 128000, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:29] [INFO] Audit Purview - page 513 traitee, total lu : 128250, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:30] [INFO] Audit Purview - page 514 traitee, total lu : 128500, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:31] [INFO] Audit Purview - page 515 traitee, total lu : 128750, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:32] [INFO] Audit Purview - page 516 traitee, total lu : 129000, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:33] [INFO] Audit Purview - page 517 traitee, total lu : 129250, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:34] [INFO] Audit Purview - page 518 traitee, total lu : 129500, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:35] [INFO] Audit Purview - page 519 traitee, total lu : 129750, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:37] [INFO] Audit Purview - page 520 traitee, total lu : 130000, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:41] [INFO] Audit Purview - page 521 traitee, total lu : 130250, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:42] [INFO] Audit Purview - page 522 traitee, total lu : 130500, memoire PowerShell : 4847 Mo.
+[26/08/2026 16:08:45] [INFO] Audit Purview - page 523 traitee, total lu : 130750, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:46] [INFO] Audit Purview - page 524 traitee, total lu : 131000, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:47] [INFO] Audit Purview - page 525 traitee, total lu : 131250, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:48] [INFO] Audit Purview - page 526 traitee, total lu : 131500, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:49] [INFO] Audit Purview - page 527 traitee, total lu : 131750, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:50] [INFO] Audit Purview - page 528 traitee, total lu : 132000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:08:51] [INFO] Audit Purview - page 529 traitee, total lu : 132250, memoire PowerShell : 4851 Mo.
+[26/08/2026 16:08:52] [INFO] Audit Purview - page 530 traitee, total lu : 132500, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:53] [INFO] Audit Purview - page 531 traitee, total lu : 132750, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:08:53] [INFO] Audit Purview - page 532 traitee, total lu : 133000, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:56] [INFO] Audit Purview - page 533 traitee, total lu : 133250, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:58] [INFO] Audit Purview - page 534 traitee, total lu : 133500, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:08:59] [INFO] Audit Purview - page 535 traitee, total lu : 133750, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:09:01] [INFO] Audit Purview - page 536 traitee, total lu : 134000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:02] [INFO] Audit Purview - page 537 traitee, total lu : 134250, memoire PowerShell : 4851 Mo.
+[26/08/2026 16:09:03] [INFO] Audit Purview - page 538 traitee, total lu : 134500, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:09:04] [INFO] Audit Purview - page 539 traitee, total lu : 134750, memoire PowerShell : 4848 Mo.
+[26/08/2026 16:09:05] [INFO] Audit Purview - page 540 traitee, total lu : 135000, memoire PowerShell : 4852 Mo.
+[26/08/2026 16:09:09] [INFO] Audit Purview - page 541 traitee, total lu : 135250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:11] [INFO] Audit Purview - page 542 traitee, total lu : 135500, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:13] [INFO] Audit Purview - page 543 traitee, total lu : 135750, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:09:14] [INFO] Audit Purview - page 544 traitee, total lu : 136000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:14] [INFO] Audit Purview - page 545 traitee, total lu : 136250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:16] [INFO] Audit Purview - page 546 traitee, total lu : 136500, memoire PowerShell : 4856 Mo.
+[26/08/2026 16:09:17] [INFO] Audit Purview - page 547 traitee, total lu : 136750, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:18] [INFO] Audit Purview - page 548 traitee, total lu : 137000, memoire PowerShell : 4854 Mo.
+[26/08/2026 16:09:20] [INFO] Audit Purview - page 549 traitee, total lu : 137250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:22] [INFO] Audit Purview - page 550 traitee, total lu : 137500, memoire PowerShell : 4854 Mo.
+[26/08/2026 16:09:23] [INFO] Audit Purview - page 551 traitee, total lu : 137750, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:09:27] [INFO] Audit Purview - page 552 traitee, total lu : 138000, memoire PowerShell : 4856 Mo.
+[26/08/2026 16:09:29] [INFO] Audit Purview - page 553 traitee, total lu : 138250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:31] [INFO] Audit Purview - page 554 traitee, total lu : 138500, memoire PowerShell : 4856 Mo.
+[26/08/2026 16:09:32] [INFO] Audit Purview - page 555 traitee, total lu : 138750, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:37] [INFO] Audit Purview - page 556 traitee, total lu : 139000, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:09:39] [INFO] Audit Purview - page 557 traitee, total lu : 139250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:40] [INFO] Audit Purview - page 558 traitee, total lu : 139500, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:09:41] [INFO] Audit Purview - page 559 traitee, total lu : 139750, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:42] [INFO] Audit Purview - page 560 traitee, total lu : 140000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:46] [INFO] Audit Purview - page 561 traitee, total lu : 140250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:47] [INFO] Audit Purview - page 562 traitee, total lu : 140500, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:48] [INFO] Audit Purview - page 563 traitee, total lu : 140750, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:09:49] [INFO] Audit Purview - page 564 traitee, total lu : 141000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:52] [INFO] Audit Purview - page 565 traitee, total lu : 141250, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:09:54] [INFO] Audit Purview - page 566 traitee, total lu : 141500, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:09:55] [INFO] Audit Purview - page 567 traitee, total lu : 141750, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:56] [INFO] Audit Purview - page 568 traitee, total lu : 142000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:57] [INFO] Audit Purview - page 569 traitee, total lu : 142250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:09:58] [INFO] Audit Purview - page 570 traitee, total lu : 142500, memoire PowerShell : 4854 Mo.
+[26/08/2026 16:09:59] [INFO] Audit Purview - page 571 traitee, total lu : 142750, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:02] [INFO] Audit Purview - page 572 traitee, total lu : 143000, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:10:03] [INFO] Audit Purview - page 573 traitee, total lu : 143250, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:10:05] [INFO] Audit Purview - page 574 traitee, total lu : 143500, memoire PowerShell : 4854 Mo.
+[26/08/2026 16:10:18] [INFO] Audit Purview - page 575 traitee, total lu : 143750, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:10:19] [INFO] Audit Purview - page 576 traitee, total lu : 144000, memoire PowerShell : 4853 Mo.
+[26/08/2026 16:10:22] [INFO] Audit Purview - page 577 traitee, total lu : 144250, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:10:31] [INFO] Audit Purview - page 578 traitee, total lu : 144500, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:10:32] [INFO] Audit Purview - page 579 traitee, total lu : 144750, memoire PowerShell : 4857 Mo.
+[26/08/2026 16:10:33] [INFO] Audit Purview - page 580 traitee, total lu : 145000, memoire PowerShell : 4858 Mo.
+[26/08/2026 16:10:37] [INFO] Audit Purview - page 581 traitee, total lu : 145250, memoire PowerShell : 4862 Mo.
+[26/08/2026 16:10:38] [INFO] Audit Purview - page 582 traitee, total lu : 145500, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:40] [INFO] Audit Purview - page 583 traitee, total lu : 145750, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:41] [INFO] Audit Purview - page 584 traitee, total lu : 146000, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:42] [INFO] Audit Purview - page 585 traitee, total lu : 146250, memoire PowerShell : 4864 Mo.
+[26/08/2026 16:10:43] [INFO] Audit Purview - page 586 traitee, total lu : 146500, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:44] [INFO] Audit Purview - page 587 traitee, total lu : 146750, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:45] [INFO] Audit Purview - page 588 traitee, total lu : 147000, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:46] [INFO] Audit Purview - page 589 traitee, total lu : 147250, memoire PowerShell : 4864 Mo.
+[26/08/2026 16:10:47] [INFO] Audit Purview - page 590 traitee, total lu : 147500, memoire PowerShell : 4862 Mo.
+[26/08/2026 16:10:48] [INFO] Audit Purview - page 591 traitee, total lu : 147750, memoire PowerShell : 4864 Mo.
+[26/08/2026 16:10:49] [INFO] Audit Purview - page 592 traitee, total lu : 148000, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:50] [INFO] Audit Purview - page 593 traitee, total lu : 148250, memoire PowerShell : 4864 Mo.
+[26/08/2026 16:10:51] [INFO] Audit Purview - page 594 traitee, total lu : 148500, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:51] [INFO] Audit Purview - page 595 traitee, total lu : 148750, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:55] [INFO] Audit Purview - page 596 traitee, total lu : 149000, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:56] [INFO] Audit Purview - page 597 traitee, total lu : 149250, memoire PowerShell : 4859 Mo.
+[26/08/2026 16:10:57] [INFO] Audit Purview - page 598 traitee, total lu : 149500, memoire PowerShell : 4862 Mo.
+[26/08/2026 16:10:58] [INFO] Audit Purview - page 599 traitee, total lu : 149750, memoire PowerShell : 4860 Mo.
+[26/08/2026 16:11:01] [INFO] Audit Purview - page 600 traitee, total lu : 150000, memoire PowerShell : 4864 Mo.
+[26/08/2026 16:11:05] [INFO] Audit Purview - page 601 traitee, total lu : 150250, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:07] [INFO] Audit Purview - page 602 traitee, total lu : 150500, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:11:08] [INFO] Audit Purview - page 603 traitee, total lu : 150750, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:08] [INFO] Audit Purview - page 604 traitee, total lu : 151000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:11:10] [INFO] Audit Purview - page 605 traitee, total lu : 151250, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:12] [INFO] Audit Purview - page 606 traitee, total lu : 151500, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:13] [INFO] Audit Purview - page 607 traitee, total lu : 151750, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:14] [INFO] Audit Purview - page 608 traitee, total lu : 152000, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:15] [INFO] Audit Purview - page 609 traitee, total lu : 152250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:11:16] [INFO] Audit Purview - page 610 traitee, total lu : 152500, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:17] [INFO] Audit Purview - page 611 traitee, total lu : 152750, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:18] [INFO] Audit Purview - page 612 traitee, total lu : 153000, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:20] [INFO] Audit Purview - page 613 traitee, total lu : 153250, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:11:21] [INFO] Audit Purview - page 614 traitee, total lu : 153500, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:22] [INFO] Audit Purview - page 615 traitee, total lu : 153750, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:23] [INFO] Audit Purview - page 616 traitee, total lu : 154000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:11:23] [INFO] Audit Purview - page 617 traitee, total lu : 154250, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:25] [INFO] Audit Purview - page 618 traitee, total lu : 154500, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:26] [INFO] Audit Purview - page 619 traitee, total lu : 154750, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:27] [INFO] Audit Purview - page 620 traitee, total lu : 155000, memoire PowerShell : 4865 Mo.
+[26/08/2026 16:11:30] [INFO] Audit Purview - page 621 traitee, total lu : 155250, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:31] [INFO] Audit Purview - page 622 traitee, total lu : 155500, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:11:32] [INFO] Audit Purview - page 623 traitee, total lu : 155750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:34] [INFO] Audit Purview - page 624 traitee, total lu : 156000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:35] [INFO] Audit Purview - page 625 traitee, total lu : 156250, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:36] [INFO] Audit Purview - page 626 traitee, total lu : 156500, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:11:37] [INFO] Audit Purview - page 627 traitee, total lu : 156750, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:38] [INFO] Audit Purview - page 628 traitee, total lu : 157000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:39] [INFO] Audit Purview - page 629 traitee, total lu : 157250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:41] [INFO] Audit Purview - page 630 traitee, total lu : 157500, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:42] [INFO] Audit Purview - page 631 traitee, total lu : 157750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:43] [INFO] Audit Purview - page 632 traitee, total lu : 158000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:44] [INFO] Audit Purview - page 633 traitee, total lu : 158250, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:11:46] [INFO] Audit Purview - page 634 traitee, total lu : 158500, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:11:47] [INFO] Audit Purview - page 635 traitee, total lu : 158750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:48] [INFO] Audit Purview - page 636 traitee, total lu : 159000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:49] [INFO] Audit Purview - page 637 traitee, total lu : 159250, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:50] [INFO] Audit Purview - page 638 traitee, total lu : 159500, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:51] [INFO] Audit Purview - page 639 traitee, total lu : 159750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:52] [INFO] Audit Purview - page 640 traitee, total lu : 160000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:55] [INFO] Audit Purview - page 641 traitee, total lu : 160250, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:11:56] [INFO] Audit Purview - page 642 traitee, total lu : 160500, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:57] [INFO] Audit Purview - page 643 traitee, total lu : 160750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:11:58] [INFO] Audit Purview - page 644 traitee, total lu : 161000, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:11:59] [INFO] Audit Purview - page 645 traitee, total lu : 161250, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:11:59] [INFO] Audit Purview - page 646 traitee, total lu : 161500, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:00] [INFO] Audit Purview - page 647 traitee, total lu : 161750, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:01] [INFO] Audit Purview - page 648 traitee, total lu : 162000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:03] [INFO] Audit Purview - page 649 traitee, total lu : 162250, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:04] [INFO] Audit Purview - page 650 traitee, total lu : 162500, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:12:06] [INFO] Audit Purview - page 651 traitee, total lu : 162750, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:07] [INFO] Audit Purview - page 652 traitee, total lu : 163000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:08] [INFO] Audit Purview - page 653 traitee, total lu : 163250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:12:09] [INFO] Audit Purview - page 654 traitee, total lu : 163500, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:10] [INFO] Audit Purview - page 655 traitee, total lu : 163750, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:12] [INFO] Audit Purview - page 656 traitee, total lu : 164000, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:13] [INFO] Audit Purview - page 657 traitee, total lu : 164250, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:14] [INFO] Audit Purview - page 658 traitee, total lu : 164500, memoire PowerShell : 4866 Mo.
+[26/08/2026 16:12:15] [INFO] Audit Purview - page 659 traitee, total lu : 164750, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:15] [INFO] Audit Purview - page 660 traitee, total lu : 165000, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:20] [INFO] Audit Purview - page 661 traitee, total lu : 165250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:21] [INFO] Audit Purview - page 662 traitee, total lu : 165500, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:21] [INFO] Audit Purview - page 663 traitee, total lu : 165750, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:22] [INFO] Audit Purview - page 664 traitee, total lu : 166000, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:12:23] [INFO] Audit Purview - page 665 traitee, total lu : 166250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:26] [INFO] Audit Purview - page 666 traitee, total lu : 166500, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:12:27] [INFO] Audit Purview - page 667 traitee, total lu : 166750, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:28] [INFO] Audit Purview - page 668 traitee, total lu : 167000, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:29] [INFO] Audit Purview - page 669 traitee, total lu : 167250, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:30] [INFO] Audit Purview - page 670 traitee, total lu : 167500, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:31] [INFO] Audit Purview - page 671 traitee, total lu : 167750, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:12:33] [INFO] Audit Purview - page 672 traitee, total lu : 168000, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:34] [INFO] Audit Purview - page 673 traitee, total lu : 168250, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:12:35] [INFO] Audit Purview - page 674 traitee, total lu : 168500, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:38] [INFO] Audit Purview - page 675 traitee, total lu : 168750, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:39] [INFO] Audit Purview - page 676 traitee, total lu : 169000, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:40] [INFO] Audit Purview - page 677 traitee, total lu : 169250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:45] [INFO] Audit Purview - page 678 traitee, total lu : 169500, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:47] [INFO] Audit Purview - page 679 traitee, total lu : 169750, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:12:48] [INFO] Audit Purview - page 680 traitee, total lu : 170000, memoire PowerShell : 4867 Mo.
+[26/08/2026 16:12:54] [INFO] Audit Purview - page 681 traitee, total lu : 170250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:55] [INFO] Audit Purview - page 682 traitee, total lu : 170500, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:56] [INFO] Audit Purview - page 683 traitee, total lu : 170750, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:12:57] [INFO] Audit Purview - page 684 traitee, total lu : 171000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:58] [INFO] Audit Purview - page 685 traitee, total lu : 171250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:12:59] [INFO] Audit Purview - page 686 traitee, total lu : 171500, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:13:01] [INFO] Audit Purview - page 687 traitee, total lu : 171750, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:02] [INFO] Audit Purview - page 688 traitee, total lu : 172000, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:13:04] [INFO] Audit Purview - page 689 traitee, total lu : 172250, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:13:05] [INFO] Audit Purview - page 690 traitee, total lu : 172500, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:06] [INFO] Audit Purview - page 691 traitee, total lu : 172750, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:07] [INFO] Audit Purview - page 692 traitee, total lu : 173000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:08] [INFO] Audit Purview - page 693 traitee, total lu : 173250, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:09] [INFO] Audit Purview - page 694 traitee, total lu : 173500, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:11] [INFO] Audit Purview - page 695 traitee, total lu : 173750, memoire PowerShell : 4871 Mo.
+[26/08/2026 16:13:12] [INFO] Audit Purview - page 696 traitee, total lu : 174000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:13] [INFO] Audit Purview - page 697 traitee, total lu : 174250, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:13:14] [INFO] Audit Purview - page 698 traitee, total lu : 174500, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:16] [INFO] Audit Purview - page 699 traitee, total lu : 174750, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:13:16] [INFO] Audit Purview - page 700 traitee, total lu : 175000, memoire PowerShell : 4868 Mo.
+[26/08/2026 16:13:21] [INFO] Audit Purview - page 701 traitee, total lu : 175250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:24] [INFO] Audit Purview - page 702 traitee, total lu : 175500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:13:25] [INFO] Audit Purview - page 703 traitee, total lu : 175750, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:13:29] [INFO] Audit Purview - page 704 traitee, total lu : 176000, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:30] [INFO] Audit Purview - page 705 traitee, total lu : 176250, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:13:31] [INFO] Audit Purview - page 706 traitee, total lu : 176500, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:33] [INFO] Audit Purview - page 707 traitee, total lu : 176750, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:13:34] [INFO] Audit Purview - page 708 traitee, total lu : 177000, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:34] [INFO] Audit Purview - page 709 traitee, total lu : 177250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:36] [INFO] Audit Purview - page 710 traitee, total lu : 177500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:13:40] [INFO] Audit Purview - page 711 traitee, total lu : 177750, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:13:41] [INFO] Audit Purview - page 712 traitee, total lu : 178000, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:42] [INFO] Audit Purview - page 713 traitee, total lu : 178250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:46] [INFO] Audit Purview - page 714 traitee, total lu : 178500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:13:47] [INFO] Audit Purview - page 715 traitee, total lu : 178750, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:48] [INFO] Audit Purview - page 716 traitee, total lu : 179000, memoire PowerShell : 4872 Mo.
+[26/08/2026 16:13:49] [INFO] Audit Purview - page 717 traitee, total lu : 179250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:53] [INFO] Audit Purview - page 718 traitee, total lu : 179500, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:13:57] [INFO] Audit Purview - page 719 traitee, total lu : 179750, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:13:59] [INFO] Audit Purview - page 720 traitee, total lu : 180000, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:14:05] [INFO] Audit Purview - page 721 traitee, total lu : 180250, memoire PowerShell : 4869 Mo.
+[26/08/2026 16:14:06] [INFO] Audit Purview - page 722 traitee, total lu : 180500, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:14:08] [INFO] Audit Purview - page 723 traitee, total lu : 180750, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:08] [INFO] Audit Purview - page 724 traitee, total lu : 181000, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:11] [INFO] Audit Purview - page 725 traitee, total lu : 181250, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:12] [INFO] Audit Purview - page 726 traitee, total lu : 181500, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:13] [INFO] Audit Purview - page 727 traitee, total lu : 181750, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:14] [INFO] Audit Purview - page 728 traitee, total lu : 182000, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:16] [INFO] Audit Purview - page 729 traitee, total lu : 182250, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:14:18] [INFO] Audit Purview - page 730 traitee, total lu : 182500, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:18] [INFO] Audit Purview - page 731 traitee, total lu : 182750, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:19] [INFO] Audit Purview - page 732 traitee, total lu : 183000, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:21] [INFO] Audit Purview - page 733 traitee, total lu : 183250, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:22] [INFO] Audit Purview - page 734 traitee, total lu : 183500, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:24] [INFO] Audit Purview - page 735 traitee, total lu : 183750, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:25] [INFO] Audit Purview - page 736 traitee, total lu : 184000, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:27] [INFO] Audit Purview - page 737 traitee, total lu : 184250, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:14:28] [INFO] Audit Purview - page 738 traitee, total lu : 184500, memoire PowerShell : 4870 Mo.
+[26/08/2026 16:14:29] [INFO] Audit Purview - page 739 traitee, total lu : 184750, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:14:30] [INFO] Audit Purview - page 740 traitee, total lu : 185000, memoire PowerShell : 4873 Mo.
+[26/08/2026 16:14:36] [INFO] Audit Purview - page 741 traitee, total lu : 185250, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:37] [INFO] Audit Purview - page 742 traitee, total lu : 185500, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:14:39] [INFO] Audit Purview - page 743 traitee, total lu : 185750, memoire PowerShell : 4877 Mo.
+[26/08/2026 16:14:39] [INFO] Audit Purview - page 744 traitee, total lu : 186000, memoire PowerShell : 4877 Mo.
+[26/08/2026 16:14:40] [INFO] Audit Purview - page 745 traitee, total lu : 186250, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:42] [INFO] Audit Purview - page 746 traitee, total lu : 186500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:45] [INFO] Audit Purview - page 747 traitee, total lu : 186750, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:14:46] [INFO] Audit Purview - page 748 traitee, total lu : 187000, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:47] [INFO] Audit Purview - page 749 traitee, total lu : 187250, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:14:49] [INFO] Audit Purview - page 750 traitee, total lu : 187500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:50] [INFO] Audit Purview - page 751 traitee, total lu : 187750, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:52] [INFO] Audit Purview - page 752 traitee, total lu : 188000, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:53] [INFO] Audit Purview - page 753 traitee, total lu : 188250, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:14:54] [INFO] Audit Purview - page 754 traitee, total lu : 188500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:55] [INFO] Audit Purview - page 755 traitee, total lu : 188750, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:14:57] [INFO] Audit Purview - page 756 traitee, total lu : 189000, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:14:59] [INFO] Audit Purview - page 757 traitee, total lu : 189250, memoire PowerShell : 4879 Mo.
+[26/08/2026 16:15:00] [INFO] Audit Purview - page 758 traitee, total lu : 189500, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:15:02] [INFO] Audit Purview - page 759 traitee, total lu : 189750, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:15:05] [INFO] Audit Purview - page 760 traitee, total lu : 190000, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:15:09] [INFO] Audit Purview - page 761 traitee, total lu : 190250, memoire PowerShell : 4874 Mo.
+[26/08/2026 16:15:16] [INFO] Audit Purview - page 762 traitee, total lu : 190500, memoire PowerShell : 4880 Mo.
+[26/08/2026 16:15:19] [INFO] Audit Purview - page 763 traitee, total lu : 190750, memoire PowerShell : 4878 Mo.
+[26/08/2026 16:15:21] [INFO] Audit Purview - page 764 traitee, total lu : 191000, memoire PowerShell : 4878 Mo.
+[26/08/2026 16:15:23] [INFO] Audit Purview - page 765 traitee, total lu : 191250, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:24] [INFO] Audit Purview - page 766 traitee, total lu : 191500, memoire PowerShell : 4878 Mo.
+[26/08/2026 16:15:25] [INFO] Audit Purview - page 767 traitee, total lu : 191750, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:26] [INFO] Audit Purview - page 768 traitee, total lu : 192000, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:27] [INFO] Audit Purview - page 769 traitee, total lu : 192250, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:28] [INFO] Audit Purview - page 770 traitee, total lu : 192500, memoire PowerShell : 4880 Mo.
+[26/08/2026 16:15:29] [INFO] Audit Purview - page 771 traitee, total lu : 192750, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:31] [INFO] Audit Purview - page 772 traitee, total lu : 193000, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:34] [INFO] Audit Purview - page 773 traitee, total lu : 193250, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:35] [INFO] Audit Purview - page 774 traitee, total lu : 193500, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:37] [INFO] Audit Purview - page 775 traitee, total lu : 193750, memoire PowerShell : 4875 Mo.
+[26/08/2026 16:15:39] [INFO] Audit Purview - page 776 traitee, total lu : 194000, memoire PowerShell : 4880 Mo.
+[26/08/2026 16:15:40] [INFO] Audit Purview - page 777 traitee, total lu : 194190, memoire PowerShell : 4877 Mo.
+[26/08/2026 16:15:40] [INFO] 194190 activite(s) Power BI lue(s) dans Purview sans stockage en memoire.
+[26/08/2026 16:15:40] [INFO] Duree de la phase Audit Purview : 00:41:27.9307502.
+[26/08/2026 16:15:40] [INFO] Lecture des connexions Entra par fenetres de 24 heure(s) pour eviter l'expiration des liens de pagination.
+[26/08/2026 16:15:40] [INFO] Fenetre Entra 1/30 : du 27/07/2026 15:31:36 +02:00 au 28/07/2026 15:31:36 +02:00.
+[26/08/2026 16:15:52] [INFO] Fenetre 1 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 4880 Mo.
+[26/08/2026 16:16:01] [INFO] Fenetre 1 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 4930 Mo.
+[26/08/2026 16:16:08] [INFO] Fenetre 1 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5033 Mo.
+[26/08/2026 16:16:14] [INFO] Fenetre 1 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5132 Mo.
+[26/08/2026 16:16:20] [INFO] Fenetre 1 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5235 Mo.
+[26/08/2026 16:16:28] [INFO] Fenetre 1 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5331 Mo.
+[26/08/2026 16:16:33] [INFO] Fenetre 1 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5433 Mo.
+[26/08/2026 16:16:40] [INFO] Fenetre 1 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5545 Mo.
+[26/08/2026 16:16:43] [INFO] Fenetre 1 - AppId Power BI Service - page 9 traitee, total lu : 8421, memoire PowerShell : 5585 Mo.
+[26/08/2026 16:16:54] [INFO] Fenetre 1 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5354 Mo.
+[26/08/2026 16:16:58] [INFO] Fenetre 1 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5354 Mo.
+[26/08/2026 16:17:04] [INFO] Fenetre 1 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5358 Mo.
+[26/08/2026 16:17:08] [INFO] Fenetre 1 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5360 Mo.
+[26/08/2026 16:17:19] [INFO] Fenetre 1 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5362 Mo.
+[26/08/2026 16:17:24] [INFO] Fenetre 1 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5391 Mo.
+[26/08/2026 16:17:32] [INFO] Fenetre 1 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5427 Mo.
+[26/08/2026 16:17:38] [INFO] Fenetre 1 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5465 Mo.
+[26/08/2026 16:17:43] [INFO] Fenetre 1 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5502 Mo.
+[26/08/2026 16:17:45] [INFO] Fenetre 1 - applications Power BI - page 10 traitee, total lu : 9219, memoire PowerShell : 5508 Mo.
+[26/08/2026 16:17:53] [INFO] Fenetre 1 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5577 Mo.
+[26/08/2026 16:17:59] [INFO] Fenetre 1 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5672 Mo.
+[26/08/2026 16:18:36] [INFO] Fenetre 1 - applications Microsoft Power BI - page 3 traitee, total lu : 2945, memoire PowerShell : 5526 Mo.
+[26/08/2026 16:18:42] [INFO] Fenetre 1 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5523 Mo.
+[26/08/2026 16:18:47] [INFO] Fenetre 1 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5523 Mo.
+[26/08/2026 16:18:52] [INFO] Fenetre 1 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5524 Mo.
+[26/08/2026 16:18:55] [INFO] Fenetre 1 - ressource Power BI Service - page 4 traitee, total lu : 3631, memoire PowerShell : 5524 Mo.
+[26/08/2026 16:18:58] [INFO] Fenetre Entra 2/30 : du 28/07/2026 15:31:36 +02:00 au 29/07/2026 15:31:36 +02:00.
+[26/08/2026 16:19:08] [INFO] Fenetre 2 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5336 Mo.
+[26/08/2026 16:19:15] [INFO] Fenetre 2 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5336 Mo.
+[26/08/2026 16:19:45] [INFO] Fenetre 2 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5377 Mo.
+[26/08/2026 16:19:53] [INFO] Fenetre 2 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5415 Mo.
+[26/08/2026 16:20:03] [INFO] Fenetre 2 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5463 Mo.
+[26/08/2026 16:20:09] [INFO] Fenetre 2 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5504 Mo.
+[26/08/2026 16:20:16] [INFO] Fenetre 2 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5549 Mo.
+[26/08/2026 16:20:22] [INFO] Fenetre 2 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5591 Mo.
+[26/08/2026 16:20:32] [INFO] Fenetre 2 - AppId Power BI Service - page 9 traitee, total lu : 8991, memoire PowerShell : 5637 Mo.
+[26/08/2026 16:20:34] [INFO] Fenetre 2 - AppId Power BI Service - page 10 traitee, total lu : 9239, memoire PowerShell : 5649 Mo.
+[26/08/2026 16:20:45] [INFO] Fenetre 2 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5458 Mo.
+[26/08/2026 16:20:50] [INFO] Fenetre 2 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5458 Mo.
+[26/08/2026 16:20:56] [INFO] Fenetre 2 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5462 Mo.
+[26/08/2026 16:21:02] [INFO] Fenetre 2 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5466 Mo.
+[26/08/2026 16:21:09] [INFO] Fenetre 2 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5472 Mo.
+[26/08/2026 16:21:14] [INFO] Fenetre 2 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5509 Mo.
+[26/08/2026 16:21:19] [INFO] Fenetre 2 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5545 Mo.
+[26/08/2026 16:21:25] [INFO] Fenetre 2 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5582 Mo.
+[26/08/2026 16:21:32] [INFO] Fenetre 2 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5619 Mo.
+[26/08/2026 16:21:37] [INFO] Fenetre 2 - applications Power BI - page 10 traitee, total lu : 9990, memoire PowerShell : 5658 Mo.
+[26/08/2026 16:21:39] [INFO] Fenetre 2 - applications Power BI - page 11 traitee, total lu : 10170, memoire PowerShell : 5668 Mo.
+[26/08/2026 16:21:46] [INFO] Fenetre 2 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5705 Mo.
+[26/08/2026 16:21:52] [INFO] Fenetre 2 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5773 Mo.
+[26/08/2026 16:22:00] [INFO] Fenetre 2 - applications Microsoft Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5865 Mo.
+[26/08/2026 16:22:04] [INFO] Fenetre 2 - applications Microsoft Power BI - page 4 traitee, total lu : 3226, memoire PowerShell : 5884 Mo.
+[26/08/2026 16:22:10] [INFO] Fenetre 2 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5981 Mo.
+[26/08/2026 16:22:17] [INFO] Fenetre 2 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 6071 Mo.
+[26/08/2026 16:22:24] [INFO] Fenetre 2 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5771 Mo.
+[26/08/2026 16:22:28] [INFO] Fenetre 2 - ressource Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5772 Mo.
+[26/08/2026 16:22:30] [INFO] Fenetre 2 - ressource Power BI Service - page 5 traitee, total lu : 4019, memoire PowerShell : 5772 Mo.
+[26/08/2026 16:22:33] [INFO] Fenetre Entra 3/30 : du 29/07/2026 15:31:36 +02:00 au 30/07/2026 15:31:36 +02:00.
+[26/08/2026 16:22:49] [INFO] Fenetre 3 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5572 Mo.
+[26/08/2026 16:22:56] [INFO] Fenetre 3 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5572 Mo.
+[26/08/2026 16:23:02] [INFO] Fenetre 3 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5614 Mo.
+[26/08/2026 16:23:19] [INFO] Fenetre 3 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5652 Mo.
+[26/08/2026 16:23:27] [INFO] Fenetre 3 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5694 Mo.
+[26/08/2026 16:23:33] [INFO] Fenetre 3 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5738 Mo.
+[26/08/2026 16:23:40] [INFO] Fenetre 3 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5784 Mo.
+[26/08/2026 16:23:47] [INFO] Fenetre 3 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5826 Mo.
+[26/08/2026 16:23:59] [INFO] Fenetre 3 - AppId Power BI Service - page 9 traitee, total lu : 8991, memoire PowerShell : 5870 Mo.
+[26/08/2026 16:24:01] [INFO] Fenetre 3 - AppId Power BI Service - page 10 traitee, total lu : 9181, memoire PowerShell : 5878 Mo.
+[26/08/2026 16:24:07] [INFO] Fenetre 3 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5920 Mo.
+[26/08/2026 16:24:15] [INFO] Fenetre 3 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5728 Mo.
+[26/08/2026 16:24:22] [INFO] Fenetre 3 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5728 Mo.
+[26/08/2026 16:24:28] [INFO] Fenetre 3 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5729 Mo.
+[26/08/2026 16:24:34] [INFO] Fenetre 3 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5732 Mo.
+[26/08/2026 16:24:41] [INFO] Fenetre 3 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5736 Mo.
+[26/08/2026 16:24:46] [INFO] Fenetre 3 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5740 Mo.
+[26/08/2026 16:24:52] [INFO] Fenetre 3 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5773 Mo.
+[26/08/2026 16:25:00] [INFO] Fenetre 3 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5806 Mo.
+[26/08/2026 16:25:06] [INFO] Fenetre 3 - applications Power BI - page 10 traitee, total lu : 9990, memoire PowerShell : 5845 Mo.
+[26/08/2026 16:25:09] [INFO] Fenetre 3 - applications Power BI - page 11 traitee, total lu : 10220, memoire PowerShell : 5854 Mo.
+[26/08/2026 16:25:16] [INFO] Fenetre 3 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5897 Mo.
+[26/08/2026 16:25:23] [INFO] Fenetre 3 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5937 Mo.
+[26/08/2026 16:25:32] [INFO] Fenetre 3 - applications Microsoft Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5974 Mo.
+[26/08/2026 16:25:33] [INFO] Fenetre 3 - applications Microsoft Power BI - page 4 traitee, total lu : 3044, memoire PowerShell : 5980 Mo.
+[26/08/2026 16:25:41] [INFO] Fenetre 3 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 6012 Mo.
+[26/08/2026 16:25:48] [INFO] Fenetre 3 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 6048 Mo.
+[26/08/2026 16:25:55] [INFO] Fenetre 3 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5813 Mo.
+[26/08/2026 16:26:02] [INFO] Fenetre 3 - ressource Power BI Service - page 4 traitee, total lu : 3843, memoire PowerShell : 5814 Mo.
+[26/08/2026 16:26:04] [INFO] Fenetre Entra 4/30 : du 30/07/2026 15:31:36 +02:00 au 31/07/2026 15:31:36 +02:00.
+[26/08/2026 16:26:15] [INFO] Fenetre 4 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5580 Mo.
+[26/08/2026 16:26:32] [INFO] Fenetre 4 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5580 Mo.
+[26/08/2026 16:26:50] [INFO] Fenetre 4 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5620 Mo.
+[26/08/2026 16:26:50] [INFO] Obtention ou renouvellement du jeton Microsoft Graph.
+[26/08/2026 16:26:51] [INFO] Jeton Graph valide jusqu'au 26/08/2026 17:21:50.
+[26/08/2026 16:26:57] [INFO] Fenetre 4 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5656 Mo.
+[26/08/2026 16:27:03] [INFO] Fenetre 4 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5702 Mo.
+[26/08/2026 16:27:10] [INFO] Fenetre 4 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5746 Mo.
+[26/08/2026 16:27:19] [INFO] Fenetre 4 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5789 Mo.
+[26/08/2026 16:27:33] [INFO] Fenetre 4 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5834 Mo.
+[26/08/2026 16:27:36] [INFO] Fenetre 4 - AppId Power BI Service - page 9 traitee, total lu : 8031, memoire PowerShell : 5838 Mo.
+[26/08/2026 16:27:45] [INFO] Fenetre 4 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5582 Mo.
+[26/08/2026 16:27:51] [INFO] Fenetre 4 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5582 Mo.
+[26/08/2026 16:27:57] [INFO] Fenetre 4 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5592 Mo.
+[26/08/2026 16:28:05] [INFO] Fenetre 4 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5625 Mo.
+[26/08/2026 16:28:11] [INFO] Fenetre 4 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5664 Mo.
+[26/08/2026 16:28:17] [INFO] Fenetre 4 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5704 Mo.
+[26/08/2026 16:28:23] [INFO] Fenetre 4 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5745 Mo.
+[26/08/2026 16:28:30] [INFO] Fenetre 4 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5787 Mo.
+[26/08/2026 16:28:37] [INFO] Fenetre 4 - applications Power BI - page 9 traitee, total lu : 8808, memoire PowerShell : 5817 Mo.
+[26/08/2026 16:28:45] [INFO] Fenetre 4 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5859 Mo.
+[26/08/2026 16:28:54] [INFO] Fenetre 4 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5900 Mo.
+[26/08/2026 16:28:59] [INFO] Fenetre 4 - applications Microsoft Power BI - page 3 traitee, total lu : 2590, memoire PowerShell : 5924 Mo.
+[26/08/2026 16:29:06] [INFO] Fenetre 4 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5959 Mo.
+[26/08/2026 16:29:13] [INFO] Fenetre 4 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5995 Mo.
+[26/08/2026 16:29:21] [INFO] Fenetre 4 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 6031 Mo.
+[26/08/2026 16:29:27] [INFO] Fenetre 4 - ressource Power BI Service - page 4 traitee, total lu : 3475, memoire PowerShell : 5674 Mo.
+[26/08/2026 16:29:30] [INFO] Fenetre Entra 5/30 : du 31/07/2026 15:31:36 +02:00 au 01/08/2026 15:31:36 +02:00.
+[26/08/2026 16:29:39] [INFO] Fenetre 5 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5591 Mo.
+[26/08/2026 16:29:46] [INFO] Fenetre 5 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5587 Mo.
+[26/08/2026 16:29:52] [INFO] Fenetre 5 - AppId Power BI Service - page 3 traitee, total lu : 2748, memoire PowerShell : 5609 Mo.
+[26/08/2026 16:29:57] [INFO] Fenetre 5 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5648 Mo.
+[26/08/2026 16:30:02] [INFO] Fenetre 5 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5688 Mo.
+[26/08/2026 16:30:13] [INFO] Fenetre 5 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5730 Mo.
+[26/08/2026 16:30:16] [INFO] Fenetre 5 - applications Power BI - page 4 traitee, total lu : 3341, memoire PowerShell : 5743 Mo.
+[26/08/2026 16:30:26] [INFO] Fenetre 5 - applications Microsoft Power BI - page 1 traitee, total lu : 972, memoire PowerShell : 5792 Mo.
+[26/08/2026 16:30:31] [INFO] Fenetre 5 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5823 Mo.
+[26/08/2026 16:30:36] [INFO] Fenetre 5 - ressource Power BI Service - page 2 traitee, total lu : 1622, memoire PowerShell : 5847 Mo.
+[26/08/2026 16:30:39] [INFO] Fenetre Entra 6/30 : du 01/08/2026 15:31:36 +02:00 au 02/08/2026 15:31:36 +02:00.
+[26/08/2026 16:30:47] [INFO] Fenetre 6 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5643 Mo.
+[26/08/2026 16:30:49] [INFO] Fenetre 6 - AppId Power BI Service - page 2 traitee, total lu : 1341, memoire PowerShell : 5639 Mo.
+[26/08/2026 16:30:56] [INFO] Fenetre 6 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5658 Mo.
+[26/08/2026 16:31:01] [INFO] Fenetre 6 - applications Power BI - page 2 traitee, total lu : 1894, memoire PowerShell : 5689 Mo.
+[26/08/2026 16:31:07] [INFO] Fenetre 6 - applications Microsoft Power BI - page 1 traitee, total lu : 378, memoire PowerShell : 5698 Mo.
+[26/08/2026 16:31:12] [INFO] Fenetre 6 - ressource Power BI Service - page 1 traitee, total lu : 948, memoire PowerShell : 5731 Mo.
+[26/08/2026 16:31:14] [INFO] Fenetre Entra 7/30 : du 02/08/2026 15:31:36 +02:00 au 03/08/2026 15:31:36 +02:00.
+[26/08/2026 16:31:21] [INFO] Fenetre 7 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5610 Mo.
+[26/08/2026 16:31:27] [INFO] Fenetre 7 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5611 Mo.
+[26/08/2026 16:31:46] [INFO] Fenetre 7 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5615 Mo.
+[26/08/2026 16:31:57] [INFO] Fenetre 7 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5651 Mo.
+[26/08/2026 16:32:03] [INFO] Fenetre 7 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5694 Mo.
+[26/08/2026 16:32:11] [INFO] Fenetre 7 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5738 Mo.
+[26/08/2026 16:32:19] [INFO] Fenetre 7 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5781 Mo.
+[26/08/2026 16:32:24] [INFO] Fenetre 7 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5825 Mo.
+[26/08/2026 16:32:27] [INFO] Fenetre 7 - AppId Power BI Service - page 9 traitee, total lu : 8267, memoire PowerShell : 5833 Mo.
+[26/08/2026 16:32:34] [INFO] Fenetre 7 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5874 Mo.
+[26/08/2026 16:32:39] [INFO] Fenetre 7 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5916 Mo.
+[26/08/2026 16:32:45] [INFO] Fenetre 7 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5956 Mo.
+[26/08/2026 16:32:51] [INFO] Fenetre 7 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5997 Mo.
+[26/08/2026 16:32:59] [INFO] Fenetre 7 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5729 Mo.
+[26/08/2026 16:33:03] [INFO] Fenetre 7 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5729 Mo.
+[26/08/2026 16:33:09] [INFO] Fenetre 7 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5729 Mo.
+[26/08/2026 16:33:15] [INFO] Fenetre 7 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5733 Mo.
+[26/08/2026 16:33:19] [INFO] Fenetre 7 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5737 Mo.
+[26/08/2026 16:33:21] [INFO] Fenetre 7 - applications Power BI - page 10 traitee, total lu : 9036, memoire PowerShell : 5739 Mo.
+[26/08/2026 16:33:28] [INFO] Fenetre 7 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5740 Mo.
+[26/08/2026 16:33:34] [INFO] Fenetre 7 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5769 Mo.
+[26/08/2026 16:33:38] [INFO] Fenetre 7 - applications Microsoft Power BI - page 3 traitee, total lu : 2243, memoire PowerShell : 5769 Mo.
+[26/08/2026 16:33:43] [INFO] Fenetre 7 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5804 Mo.
+[26/08/2026 16:33:47] [INFO] Fenetre 7 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5844 Mo.
+[26/08/2026 16:33:52] [INFO] Fenetre 7 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5884 Mo.
+[26/08/2026 16:33:56] [INFO] Fenetre 7 - ressource Power BI Service - page 4 traitee, total lu : 3357, memoire PowerShell : 5897 Mo.
+[26/08/2026 16:33:59] [INFO] Fenetre Entra 8/30 : du 03/08/2026 15:31:36 +02:00 au 04/08/2026 15:31:36 +02:00.
+[26/08/2026 16:34:13] [INFO] Fenetre 8 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5613 Mo.
+[26/08/2026 16:34:30] [INFO] Fenetre 8 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5613 Mo.
+[26/08/2026 16:34:37] [INFO] Fenetre 8 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5613 Mo.
+[26/08/2026 16:34:43] [INFO] Fenetre 8 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5653 Mo.
+[26/08/2026 16:34:50] [INFO] Fenetre 8 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5695 Mo.
+[26/08/2026 16:34:58] [INFO] Fenetre 8 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5738 Mo.
+[26/08/2026 16:35:05] [INFO] Fenetre 8 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5783 Mo.
+[26/08/2026 16:35:13] [INFO] Fenetre 8 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5829 Mo.
+[26/08/2026 16:35:20] [INFO] Fenetre 8 - AppId Power BI Service - page 9 traitee, total lu : 8661, memoire PowerShell : 5856 Mo.
+[26/08/2026 16:35:25] [INFO] Fenetre 8 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5895 Mo.
+[26/08/2026 16:35:33] [INFO] Fenetre 8 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5936 Mo.
+[26/08/2026 16:35:42] [INFO] Fenetre 8 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5787 Mo.
+[26/08/2026 16:35:46] [INFO] Fenetre 8 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5787 Mo.
+[26/08/2026 16:35:52] [INFO] Fenetre 8 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5788 Mo.
+[26/08/2026 16:35:59] [INFO] Fenetre 8 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5791 Mo.
+[26/08/2026 16:36:03] [INFO] Fenetre 8 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5793 Mo.
+[26/08/2026 16:36:09] [INFO] Fenetre 8 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5797 Mo.
+[26/08/2026 16:36:14] [INFO] Fenetre 8 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5801 Mo.
+[26/08/2026 16:36:18] [INFO] Fenetre 8 - applications Power BI - page 10 traitee, total lu : 9429, memoire PowerShell : 5801 Mo.
+[26/08/2026 16:36:24] [INFO] Fenetre 8 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5835 Mo.
+[26/08/2026 16:36:32] [INFO] Fenetre 8 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5869 Mo.
+[26/08/2026 16:36:39] [INFO] Fenetre 8 - applications Microsoft Power BI - page 3 traitee, total lu : 2842, memoire PowerShell : 5900 Mo.
+[26/08/2026 16:36:45] [INFO] Fenetre 8 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5936 Mo.
+[26/08/2026 16:36:50] [INFO] Fenetre 8 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5972 Mo.
+[26/08/2026 16:36:54] [INFO] Fenetre 8 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 6008 Mo.
+[26/08/2026 16:36:57] [INFO] Fenetre 8 - ressource Power BI Service - page 4 traitee, total lu : 3577, memoire PowerShell : 6031 Mo.
+[26/08/2026 16:37:01] [INFO] Fenetre Entra 9/30 : du 04/08/2026 15:31:36 +02:00 au 05/08/2026 15:31:36 +02:00.
+[26/08/2026 16:37:12] [INFO] Fenetre 9 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5618 Mo.
+[26/08/2026 16:37:30] [INFO] Fenetre 9 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5618 Mo.
+[26/08/2026 16:37:38] [INFO] Fenetre 9 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5624 Mo.
+[26/08/2026 16:37:44] [INFO] Fenetre 9 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5659 Mo.
+[26/08/2026 16:38:00] [INFO] Fenetre 9 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5702 Mo.
+[26/08/2026 16:38:08] [INFO] Fenetre 9 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5742 Mo.
+[26/08/2026 16:38:14] [INFO] Fenetre 9 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5788 Mo.
+[26/08/2026 16:38:17] [INFO] Fenetre 9 - AppId Power BI Service - page 8 traitee, total lu : 7306, memoire PowerShell : 5803 Mo.
+[26/08/2026 16:38:24] [INFO] Fenetre 9 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5844 Mo.
+[26/08/2026 16:38:30] [INFO] Fenetre 9 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5885 Mo.
+[26/08/2026 16:38:36] [INFO] Fenetre 9 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5926 Mo.
+[26/08/2026 16:38:48] [INFO] Fenetre 9 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5621 Mo.
+[26/08/2026 16:38:56] [INFO] Fenetre 9 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5622 Mo.
+[26/08/2026 16:39:02] [INFO] Fenetre 9 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5622 Mo.
+[26/08/2026 16:39:08] [INFO] Fenetre 9 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5655 Mo.
+[26/08/2026 16:39:13] [INFO] Fenetre 9 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5692 Mo.
+[26/08/2026 16:39:15] [INFO] Fenetre 9 - applications Power BI - page 9 traitee, total lu : 8085, memoire PowerShell : 5692 Mo.
+[26/08/2026 16:39:22] [INFO] Fenetre 9 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5731 Mo.
+[26/08/2026 16:39:30] [INFO] Fenetre 9 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5772 Mo.
+[26/08/2026 16:39:33] [INFO] Fenetre 9 - applications Microsoft Power BI - page 3 traitee, total lu : 2418, memoire PowerShell : 5787 Mo.
+[26/08/2026 16:39:39] [INFO] Fenetre 9 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5822 Mo.
+[26/08/2026 16:39:44] [INFO] Fenetre 9 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5858 Mo.
+[26/08/2026 16:39:49] [INFO] Fenetre 9 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5894 Mo.
+[26/08/2026 16:39:51] [INFO] Fenetre 9 - ressource Power BI Service - page 4 traitee, total lu : 3345, memoire PowerShell : 5907 Mo.
+[26/08/2026 16:39:55] [INFO] Fenetre Entra 10/30 : du 05/08/2026 15:31:36 +02:00 au 06/08/2026 15:31:36 +02:00.
+[26/08/2026 16:40:04] [INFO] Fenetre 10 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5626 Mo.
+[26/08/2026 16:40:22] [INFO] Fenetre 10 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5626 Mo.
+[26/08/2026 16:40:27] [INFO] Fenetre 10 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5630 Mo.
+[26/08/2026 16:40:50] [INFO] Fenetre 10 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5667 Mo.
+[26/08/2026 16:40:58] [INFO] Fenetre 10 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5707 Mo.
+[26/08/2026 16:41:06] [INFO] Fenetre 10 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5753 Mo.
+[26/08/2026 16:41:13] [INFO] Fenetre 10 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5799 Mo.
+[26/08/2026 16:41:19] [INFO] Fenetre 10 - AppId Power BI Service - page 8 traitee, total lu : 7261, memoire PowerShell : 5806 Mo.
+[26/08/2026 16:41:25] [INFO] Fenetre 10 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5847 Mo.
+[26/08/2026 16:41:38] [INFO] Fenetre 10 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5697 Mo.
+[26/08/2026 16:41:45] [INFO] Fenetre 10 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5698 Mo.
+[26/08/2026 16:41:50] [INFO] Fenetre 10 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5698 Mo.
+[26/08/2026 16:41:57] [INFO] Fenetre 10 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5699 Mo.
+[26/08/2026 16:42:02] [INFO] Fenetre 10 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5713 Mo.
+[26/08/2026 16:42:08] [INFO] Fenetre 10 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5745 Mo.
+[26/08/2026 16:42:14] [INFO] Fenetre 10 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5782 Mo.
+[26/08/2026 16:42:27] [INFO] Fenetre 10 - applications Power BI - page 9 traitee, total lu : 8215, memoire PowerShell : 5788 Mo.
+[26/08/2026 16:42:38] [INFO] Fenetre 10 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5830 Mo.
+[26/08/2026 16:42:48] [INFO] Fenetre 10 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5871 Mo.
+[26/08/2026 16:42:52] [INFO] Fenetre 10 - applications Microsoft Power BI - page 3 traitee, total lu : 2314, memoire PowerShell : 5882 Mo.
+[26/08/2026 16:42:57] [INFO] Fenetre 10 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5919 Mo.
+[26/08/2026 16:43:05] [INFO] Fenetre 10 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5955 Mo.
+[26/08/2026 16:43:16] [INFO] Fenetre 10 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5983 Mo.
+[26/08/2026 16:43:18] [INFO] Fenetre 10 - ressource Power BI Service - page 4 traitee, total lu : 3170, memoire PowerShell : 5844 Mo.
+[26/08/2026 16:43:21] [INFO] Fenetre Entra 11/30 : du 06/08/2026 15:31:36 +02:00 au 07/08/2026 15:31:36 +02:00.
+[26/08/2026 16:43:39] [INFO] Fenetre 11 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5629 Mo.
+[26/08/2026 16:43:49] [INFO] Fenetre 11 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5626 Mo.
+[26/08/2026 16:44:02] [INFO] Fenetre 11 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5626 Mo.
+[26/08/2026 16:44:11] [INFO] Fenetre 11 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5662 Mo.
+[26/08/2026 16:44:18] [INFO] Fenetre 11 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5705 Mo.
+[26/08/2026 16:44:27] [INFO] Fenetre 11 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5751 Mo.
+[26/08/2026 16:44:30] [INFO] Fenetre 11 - AppId Power BI Service - page 7 traitee, total lu : 6328, memoire PowerShell : 5761 Mo.
+[26/08/2026 16:44:42] [INFO] Fenetre 11 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5804 Mo.
+[26/08/2026 16:44:49] [INFO] Fenetre 11 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5845 Mo.
+[26/08/2026 16:44:55] [INFO] Fenetre 11 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5886 Mo.
+[26/08/2026 16:45:03] [INFO] Fenetre 11 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5739 Mo.
+[26/08/2026 16:45:10] [INFO] Fenetre 11 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5739 Mo.
+[26/08/2026 16:45:16] [INFO] Fenetre 11 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5739 Mo.
+[26/08/2026 16:45:21] [INFO] Fenetre 11 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5740 Mo.
+[26/08/2026 16:45:25] [INFO] Fenetre 11 - applications Power BI - page 8 traitee, total lu : 7202, memoire PowerShell : 5743 Mo.
+[26/08/2026 16:45:32] [INFO] Fenetre 11 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5748 Mo.
+[26/08/2026 16:45:41] [INFO] Fenetre 11 - applications Microsoft Power BI - page 2 traitee, total lu : 1945, memoire PowerShell : 5752 Mo.
+[26/08/2026 16:45:46] [INFO] Fenetre 11 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5780 Mo.
+[26/08/2026 16:45:53] [INFO] Fenetre 11 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5812 Mo.
+[26/08/2026 16:45:59] [INFO] Fenetre 11 - ressource Power BI Service - page 3 traitee, total lu : 2850, memoire PowerShell : 5842 Mo.
+[26/08/2026 16:46:02] [INFO] Fenetre Entra 12/30 : du 07/08/2026 15:31:36 +02:00 au 08/08/2026 15:31:36 +02:00.
+[26/08/2026 16:46:08] [INFO] Fenetre 12 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5636 Mo.
+[26/08/2026 16:46:17] [INFO] Fenetre 12 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5632 Mo.
+[26/08/2026 16:46:22] [INFO] Fenetre 12 - AppId Power BI Service - page 3 traitee, total lu : 2040, memoire PowerShell : 5635 Mo.
+[26/08/2026 16:46:30] [INFO] Fenetre 12 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5634 Mo.
+[26/08/2026 16:46:37] [INFO] Fenetre 12 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5669 Mo.
+[26/08/2026 16:46:42] [INFO] Fenetre 12 - applications Power BI - page 3 traitee, total lu : 2815, memoire PowerShell : 5696 Mo.
+[26/08/2026 16:46:47] [INFO] Fenetre 12 - applications Microsoft Power BI - page 1 traitee, total lu : 769, memoire PowerShell : 5729 Mo.
+[26/08/2026 16:46:52] [INFO] Fenetre 12 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5761 Mo.
+[26/08/2026 16:46:55] [INFO] Fenetre 12 - ressource Power BI Service - page 2 traitee, total lu : 1392, memoire PowerShell : 5776 Mo.
+[26/08/2026 16:46:58] [INFO] Fenetre Entra 13/30 : du 08/08/2026 15:31:36 +02:00 au 09/08/2026 15:31:36 +02:00.
+[26/08/2026 16:47:09] [INFO] Fenetre 13 - AppId Power BI Service - page 1 traitee, total lu : 998, memoire PowerShell : 5638 Mo.
+[26/08/2026 16:47:20] [INFO] Fenetre 13 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5635 Mo.
+[26/08/2026 16:47:25] [INFO] Fenetre 13 - applications Power BI - page 2 traitee, total lu : 1684, memoire PowerShell : 5635 Mo.
+[26/08/2026 16:47:27] [INFO] Fenetre 13 - applications Microsoft Power BI - page 1 traitee, total lu : 340, memoire PowerShell : 5634 Mo.
+[26/08/2026 16:47:31] [INFO] Fenetre 13 - ressource Power BI Service - page 1 traitee, total lu : 815, memoire PowerShell : 5656 Mo.
+[26/08/2026 16:47:34] [INFO] Fenetre Entra 14/30 : du 09/08/2026 15:31:36 +02:00 au 10/08/2026 15:31:36 +02:00.
+[26/08/2026 16:47:42] [INFO] Fenetre 14 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5634 Mo.
+[26/08/2026 16:47:55] [INFO] Fenetre 14 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5635 Mo.
+[26/08/2026 16:48:08] [INFO] Fenetre 14 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5639 Mo.
+[26/08/2026 16:48:16] [INFO] Fenetre 14 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5676 Mo.
+[26/08/2026 16:48:24] [INFO] Fenetre 14 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5718 Mo.
+[26/08/2026 16:48:28] [INFO] Fenetre 14 - AppId Power BI Service - page 6 traitee, total lu : 5659, memoire PowerShell : 5745 Mo.
+[26/08/2026 16:48:35] [INFO] Fenetre 14 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5784 Mo.
+[26/08/2026 16:48:40] [INFO] Fenetre 14 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5825 Mo.
+[26/08/2026 16:48:45] [INFO] Fenetre 14 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5867 Mo.
+[26/08/2026 16:48:52] [INFO] Fenetre 14 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5908 Mo.
+[26/08/2026 16:48:58] [INFO] Fenetre 14 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5949 Mo.
+[26/08/2026 16:49:03] [INFO] Fenetre 14 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5990 Mo.
+[26/08/2026 16:49:09] [INFO] Fenetre 14 - applications Power BI - page 7 traitee, total lu : 6474, memoire PowerShell : 6008 Mo.
+[26/08/2026 16:49:18] [INFO] Fenetre 14 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5741 Mo.
+[26/08/2026 16:49:23] [INFO] Fenetre 14 - applications Microsoft Power BI - page 2 traitee, total lu : 1757, memoire PowerShell : 5740 Mo.
+[26/08/2026 16:49:28] [INFO] Fenetre 14 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5741 Mo.
+[26/08/2026 16:49:33] [INFO] Fenetre 14 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5742 Mo.
+[26/08/2026 16:49:36] [INFO] Fenetre 14 - ressource Power BI Service - page 3 traitee, total lu : 2576, memoire PowerShell : 5745 Mo.
+[26/08/2026 16:49:39] [INFO] Fenetre Entra 15/30 : du 10/08/2026 15:31:36 +02:00 au 11/08/2026 15:31:36 +02:00.
+[26/08/2026 16:49:52] [INFO] Fenetre 15 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5566 Mo.
+[26/08/2026 16:49:59] [INFO] Fenetre 15 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5566 Mo.
+[26/08/2026 16:50:04] [INFO] Fenetre 15 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5607 Mo.
+[26/08/2026 16:50:09] [INFO] Fenetre 15 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5643 Mo.
+[26/08/2026 16:50:22] [INFO] Fenetre 15 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5691 Mo.
+[26/08/2026 16:50:28] [INFO] Fenetre 15 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5736 Mo.
+[26/08/2026 16:50:35] [INFO] Fenetre 15 - AppId Power BI Service - page 7 traitee, total lu : 6869, memoire PowerShell : 5772 Mo.
+[26/08/2026 16:50:42] [INFO] Fenetre 15 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5810 Mo.
+[26/08/2026 16:51:00] [INFO] Fenetre 15 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5851 Mo.
+[26/08/2026 16:51:08] [INFO] Fenetre 15 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5892 Mo.
+[26/08/2026 16:51:28] [INFO] Fenetre 15 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5583 Mo.
+[26/08/2026 16:51:35] [INFO] Fenetre 15 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5583 Mo.
+[26/08/2026 16:51:40] [INFO] Fenetre 15 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5606 Mo.
+[26/08/2026 16:51:45] [INFO] Fenetre 15 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5639 Mo.
+[26/08/2026 16:51:51] [INFO] Fenetre 15 - applications Power BI - page 8 traitee, total lu : 7831, memoire PowerShell : 5666 Mo.
+[26/08/2026 16:51:57] [INFO] Fenetre 15 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5703 Mo.
+[26/08/2026 16:52:03] [INFO] Fenetre 15 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5745 Mo.
+[26/08/2026 16:52:07] [INFO] Fenetre 15 - applications Microsoft Power BI - page 3 traitee, total lu : 2283, memoire PowerShell : 5754 Mo.
+[26/08/2026 16:52:33] [INFO] Fenetre 15 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5791 Mo.
+[26/08/2026 16:52:43] [INFO] Fenetre 15 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5827 Mo.
+[26/08/2026 16:52:47] [INFO] Fenetre 15 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5863 Mo.
+[26/08/2026 16:52:49] [INFO] Fenetre 15 - ressource Power BI Service - page 4 traitee, total lu : 3050, memoire PowerShell : 5867 Mo.
+[26/08/2026 16:52:52] [INFO] Fenetre Entra 16/30 : du 11/08/2026 15:31:36 +02:00 au 12/08/2026 15:31:36 +02:00.
+[26/08/2026 16:53:02] [INFO] Fenetre 16 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5572 Mo.
+[26/08/2026 16:53:10] [INFO] Fenetre 16 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5572 Mo.
+[26/08/2026 16:53:22] [INFO] Fenetre 16 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5609 Mo.
+[26/08/2026 16:53:29] [INFO] Fenetre 16 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5649 Mo.
+[26/08/2026 16:53:36] [INFO] Fenetre 16 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5697 Mo.
+[26/08/2026 16:53:42] [INFO] Fenetre 16 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5738 Mo.
+[26/08/2026 16:53:49] [INFO] Fenetre 16 - AppId Power BI Service - page 7 traitee, total lu : 6749, memoire PowerShell : 5772 Mo.
+[26/08/2026 16:54:08] [INFO] Fenetre 16 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5812 Mo.
+[26/08/2026 16:54:14] [INFO] Fenetre 16 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5853 Mo.
+[26/08/2026 16:54:18] [INFO] Fenetre 16 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5894 Mo.
+[26/08/2026 16:54:23] [INFO] Fenetre 16 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5935 Mo.
+[26/08/2026 16:54:29] [INFO] Fenetre 16 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5976 Mo.
+[26/08/2026 16:54:36] [INFO] Fenetre 16 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5665 Mo.
+[26/08/2026 16:54:41] [INFO] Fenetre 16 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5665 Mo.
+[26/08/2026 16:54:45] [INFO] Fenetre 16 - applications Power BI - page 8 traitee, total lu : 7636, memoire PowerShell : 5665 Mo.
+[26/08/2026 16:54:51] [INFO] Fenetre 16 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5670 Mo.
+[26/08/2026 16:54:58] [INFO] Fenetre 16 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5676 Mo.
+[26/08/2026 16:55:01] [INFO] Fenetre 16 - applications Microsoft Power BI - page 3 traitee, total lu : 2284, memoire PowerShell : 5673 Mo.
+[26/08/2026 16:55:07] [INFO] Fenetre 16 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5708 Mo.
+[26/08/2026 16:55:12] [INFO] Fenetre 16 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5743 Mo.
+[26/08/2026 16:55:17] [INFO] Fenetre 16 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5779 Mo.
+[26/08/2026 16:55:19] [INFO] Fenetre 16 - ressource Power BI Service - page 4 traitee, total lu : 3021, memoire PowerShell : 5781 Mo.
+[26/08/2026 16:55:22] [INFO] Fenetre Entra 17/30 : du 12/08/2026 15:31:36 +02:00 au 13/08/2026 15:31:36 +02:00.
+[26/08/2026 16:55:33] [INFO] Fenetre 17 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5582 Mo.
+[26/08/2026 16:55:40] [INFO] Fenetre 17 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5578 Mo.
+[26/08/2026 16:55:49] [INFO] Fenetre 17 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5618 Mo.
+[26/08/2026 16:55:55] [INFO] Fenetre 17 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5657 Mo.
+[26/08/2026 16:56:02] [INFO] Fenetre 17 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5699 Mo.
+[26/08/2026 16:56:23] [INFO] Fenetre 17 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5746 Mo.
+[26/08/2026 16:56:26] [INFO] Fenetre 17 - AppId Power BI Service - page 7 traitee, total lu : 6507, memoire PowerShell : 5765 Mo.
+[26/08/2026 16:56:31] [INFO] Fenetre 17 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5806 Mo.
+[26/08/2026 16:56:36] [INFO] Fenetre 17 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5847 Mo.
+[26/08/2026 16:56:42] [INFO] Fenetre 17 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5887 Mo.
+[26/08/2026 16:56:48] [INFO] Fenetre 17 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5929 Mo.
+[26/08/2026 16:56:53] [INFO] Fenetre 17 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5969 Mo.
+[26/08/2026 16:56:58] [INFO] Fenetre 17 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 6011 Mo.
+[26/08/2026 16:57:05] [INFO] Fenetre 17 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5711 Mo.
+[26/08/2026 16:57:07] [INFO] Fenetre 17 - applications Power BI - page 8 traitee, total lu : 7190, memoire PowerShell : 5715 Mo.
+[26/08/2026 16:57:15] [INFO] Fenetre 17 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5711 Mo.
+[26/08/2026 16:57:23] [INFO] Fenetre 17 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5715 Mo.
+[26/08/2026 16:57:26] [INFO] Fenetre 17 - applications Microsoft Power BI - page 3 traitee, total lu : 2246, memoire PowerShell : 5719 Mo.
+[26/08/2026 16:57:30] [INFO] Fenetre 17 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5719 Mo.
+[26/08/2026 16:57:36] [INFO] Fenetre 17 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5723 Mo.
+[26/08/2026 16:57:41] [INFO] Fenetre 17 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5727 Mo.
+[26/08/2026 16:57:43] [INFO] Fenetre 17 - ressource Power BI Service - page 4 traitee, total lu : 3014, memoire PowerShell : 5728 Mo.
+[26/08/2026 16:57:46] [INFO] Fenetre Entra 18/30 : du 13/08/2026 15:31:36 +02:00 au 14/08/2026 15:31:36 +02:00.
+[26/08/2026 16:57:57] [INFO] Fenetre 18 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5585 Mo.
+[26/08/2026 16:58:09] [INFO] Fenetre 18 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5585 Mo.
+[26/08/2026 16:58:16] [INFO] Fenetre 18 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5626 Mo.
+[26/08/2026 16:58:32] [INFO] Fenetre 18 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5664 Mo.
+[26/08/2026 16:58:43] [INFO] Fenetre 18 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5706 Mo.
+[26/08/2026 16:58:46] [INFO] Fenetre 18 - AppId Power BI Service - page 6 traitee, total lu : 5351, memoire PowerShell : 5721 Mo.
+[26/08/2026 16:58:52] [INFO] Fenetre 18 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5763 Mo.
+[26/08/2026 16:58:58] [INFO] Fenetre 18 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5804 Mo.
+[26/08/2026 16:59:03] [INFO] Fenetre 18 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5845 Mo.
+[26/08/2026 16:59:10] [INFO] Fenetre 18 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5886 Mo.
+[26/08/2026 16:59:15] [INFO] Fenetre 18 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5928 Mo.
+[26/08/2026 16:59:27] [INFO] Fenetre 18 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5588 Mo.
+[26/08/2026 16:59:29] [INFO] Fenetre 18 - applications Power BI - page 7 traitee, total lu : 6014, memoire PowerShell : 5588 Mo.
+[26/08/2026 16:59:35] [INFO] Fenetre 18 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5588 Mo.
+[26/08/2026 16:59:40] [INFO] Fenetre 18 - applications Microsoft Power BI - page 2 traitee, total lu : 1782, memoire PowerShell : 5591 Mo.
+[26/08/2026 16:59:47] [INFO] Fenetre 18 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5603 Mo.
+[26/08/2026 16:59:53] [INFO] Fenetre 18 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5631 Mo.
+[26/08/2026 16:59:56] [INFO] Fenetre 18 - ressource Power BI Service - page 3 traitee, total lu : 2562, memoire PowerShell : 5647 Mo.
+[26/08/2026 16:59:59] [INFO] Fenetre Entra 19/30 : du 14/08/2026 15:31:36 +02:00 au 15/08/2026 15:31:36 +02:00.
+[26/08/2026 17:00:08] [INFO] Fenetre 19 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5589 Mo.
+[26/08/2026 17:00:19] [INFO] Fenetre 19 - AppId Power BI Service - page 2 traitee, total lu : 1909, memoire PowerShell : 5589 Mo.
+[26/08/2026 17:00:25] [INFO] Fenetre 19 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5623 Mo.
+[26/08/2026 17:00:34] [INFO] Fenetre 19 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5659 Mo.
+[26/08/2026 17:00:37] [INFO] Fenetre 19 - applications Power BI - page 3 traitee, total lu : 2366, memoire PowerShell : 5670 Mo.
+[26/08/2026 17:00:43] [INFO] Fenetre 19 - applications Microsoft Power BI - page 1 traitee, total lu : 721, memoire PowerShell : 5703 Mo.
+[26/08/2026 17:00:51] [INFO] Fenetre 19 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5736 Mo.
+[26/08/2026 17:00:54] [INFO] Fenetre 19 - ressource Power BI Service - page 2 traitee, total lu : 1306, memoire PowerShell : 5747 Mo.
+[26/08/2026 17:00:57] [INFO] Fenetre Entra 20/30 : du 15/08/2026 15:31:36 +02:00 au 16/08/2026 15:31:36 +02:00.
+[26/08/2026 17:01:10] [INFO] Fenetre 20 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5591 Mo.
+[26/08/2026 17:01:15] [INFO] Fenetre 20 - AppId Power BI Service - page 2 traitee, total lu : 1077, memoire PowerShell : 5593 Mo.
+[26/08/2026 17:01:23] [INFO] Fenetre 20 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5591 Mo.
+[26/08/2026 17:01:27] [INFO] Fenetre 20 - applications Power BI - page 2 traitee, total lu : 1510, memoire PowerShell : 5603 Mo.
+[26/08/2026 17:01:30] [INFO] Fenetre 20 - applications Microsoft Power BI - page 1 traitee, total lu : 358, memoire PowerShell : 5614 Mo.
+[26/08/2026 17:01:37] [INFO] Fenetre 20 - ressource Power BI Service - page 1 traitee, total lu : 840, memoire PowerShell : 5645 Mo.
+[26/08/2026 17:01:40] [INFO] Fenetre Entra 21/30 : du 16/08/2026 15:31:36 +02:00 au 17/08/2026 15:31:36 +02:00.
+[26/08/2026 17:01:52] [INFO] Fenetre 21 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5593 Mo.
+[26/08/2026 17:02:00] [INFO] Fenetre 21 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5593 Mo.
+[26/08/2026 17:02:07] [INFO] Fenetre 21 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5634 Mo.
+[26/08/2026 17:02:14] [INFO] Fenetre 21 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5672 Mo.
+[26/08/2026 17:02:23] [INFO] Fenetre 21 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5716 Mo.
+[26/08/2026 17:02:29] [INFO] Fenetre 21 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5761 Mo.
+[26/08/2026 17:02:40] [INFO] Fenetre 21 - AppId Power BI Service - page 7 traitee, total lu : 6615, memoire PowerShell : 5786 Mo.
+[26/08/2026 17:02:45] [INFO] Fenetre 21 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5826 Mo.
+[26/08/2026 17:02:52] [INFO] Fenetre 21 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5867 Mo.
+[26/08/2026 17:03:04] [INFO] Fenetre 21 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5908 Mo.
+[26/08/2026 17:03:12] [INFO] Fenetre 21 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5949 Mo.
+[26/08/2026 17:03:21] [INFO] Fenetre 21 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5672 Mo.
+[26/08/2026 17:03:30] [INFO] Fenetre 21 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5672 Mo.
+[26/08/2026 17:03:35] [INFO] Fenetre 21 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5677 Mo.
+[26/08/2026 17:03:44] [INFO] Fenetre 21 - applications Power BI - page 8 traitee, total lu : 7265, memoire PowerShell : 5676 Mo.
+[26/08/2026 17:03:52] [INFO] Fenetre 21 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5680 Mo.
+[26/08/2026 17:03:59] [INFO] Fenetre 21 - applications Microsoft Power BI - page 2 traitee, total lu : 1982, memoire PowerShell : 5702 Mo.
+[26/08/2026 17:04:05] [INFO] Fenetre 21 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5736 Mo.
+[26/08/2026 17:04:11] [INFO] Fenetre 21 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5776 Mo.
+[26/08/2026 17:04:15] [INFO] Fenetre 21 - ressource Power BI Service - page 3 traitee, total lu : 2659, memoire PowerShell : 5801 Mo.
+[26/08/2026 17:04:18] [INFO] Fenetre Entra 22/30 : du 17/08/2026 15:31:36 +02:00 au 18/08/2026 15:31:36 +02:00.
+[26/08/2026 17:04:25] [INFO] Fenetre 22 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5598 Mo.
+[26/08/2026 17:04:35] [INFO] Fenetre 22 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5599 Mo.
+[26/08/2026 17:04:41] [INFO] Fenetre 22 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5639 Mo.
+[26/08/2026 17:04:54] [INFO] Fenetre 22 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5676 Mo.
+[26/08/2026 17:05:01] [INFO] Fenetre 22 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5723 Mo.
+[26/08/2026 17:05:07] [INFO] Fenetre 22 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:05:15] [INFO] Fenetre 22 - AppId Power BI Service - page 7 traitee, total lu : 6829, memoire PowerShell : 5802 Mo.
+[26/08/2026 17:05:20] [INFO] Fenetre 22 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5841 Mo.
+[26/08/2026 17:05:26] [INFO] Fenetre 22 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5882 Mo.
+[26/08/2026 17:05:32] [INFO] Fenetre 22 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5924 Mo.
+[26/08/2026 17:05:39] [INFO] Fenetre 22 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5965 Mo.
+[26/08/2026 17:05:46] [INFO] Fenetre 22 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 6006 Mo.
+[26/08/2026 17:05:54] [INFO] Fenetre 22 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 6047 Mo.
+[26/08/2026 17:06:01] [INFO] Fenetre 22 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5719 Mo.
+[26/08/2026 17:06:05] [INFO] Fenetre 22 - applications Power BI - page 8 traitee, total lu : 7645, memoire PowerShell : 5719 Mo.
+[26/08/2026 17:06:12] [INFO] Fenetre 22 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5721 Mo.
+[26/08/2026 17:06:19] [INFO] Fenetre 22 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5723 Mo.
+[26/08/2026 17:06:23] [INFO] Fenetre 22 - applications Microsoft Power BI - page 3 traitee, total lu : 2356, memoire PowerShell : 5728 Mo.
+[26/08/2026 17:06:31] [INFO] Fenetre 22 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5731 Mo.
+[26/08/2026 17:06:39] [INFO] Fenetre 22 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5763 Mo.
+[26/08/2026 17:06:47] [INFO] Fenetre 22 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5791 Mo.
+[26/08/2026 17:06:55] [INFO] Fenetre 22 - ressource Power BI Service - page 4 traitee, total lu : 3296, memoire PowerShell : 5795 Mo.
+[26/08/2026 17:06:57] [INFO] Fenetre Entra 23/30 : du 18/08/2026 15:31:36 +02:00 au 19/08/2026 15:31:36 +02:00.
+[26/08/2026 17:07:06] [INFO] Fenetre 23 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5604 Mo.
+[26/08/2026 17:07:13] [INFO] Fenetre 23 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5604 Mo.
+[26/08/2026 17:07:20] [INFO] Fenetre 23 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5641 Mo.
+[26/08/2026 17:07:36] [INFO] Fenetre 23 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5684 Mo.
+[26/08/2026 17:07:43] [INFO] Fenetre 23 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5724 Mo.
+[26/08/2026 17:07:50] [INFO] Fenetre 23 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5772 Mo.
+[26/08/2026 17:07:57] [INFO] Fenetre 23 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5814 Mo.
+[26/08/2026 17:08:00] [INFO] Fenetre 23 - AppId Power BI Service - page 8 traitee, total lu : 7136, memoire PowerShell : 5820 Mo.
+[26/08/2026 17:08:08] [INFO] Fenetre 23 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5917 Mo.
+[26/08/2026 17:08:19] [INFO] Fenetre 23 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5958 Mo.
+[26/08/2026 17:08:26] [INFO] Fenetre 23 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5999 Mo.
+[26/08/2026 17:08:33] [INFO] Fenetre 23 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 6040 Mo.
+[26/08/2026 17:08:46] [INFO] Fenetre 23 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5679 Mo.
+[26/08/2026 17:08:50] [INFO] Fenetre 23 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5679 Mo.
+[26/08/2026 17:08:57] [INFO] Fenetre 23 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5680 Mo.
+[26/08/2026 17:09:03] [INFO] Fenetre 23 - applications Power BI - page 8 traitee, total lu : 7905, memoire PowerShell : 5680 Mo.
+[26/08/2026 17:09:09] [INFO] Fenetre 23 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5684 Mo.
+[26/08/2026 17:09:16] [INFO] Fenetre 23 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5722 Mo.
+[26/08/2026 17:09:19] [INFO] Fenetre 23 - applications Microsoft Power BI - page 3 traitee, total lu : 2423, memoire PowerShell : 5736 Mo.
+[26/08/2026 17:09:24] [INFO] Fenetre 23 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5775 Mo.
+[26/08/2026 17:09:30] [INFO] Fenetre 23 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5811 Mo.
+[26/08/2026 17:09:34] [INFO] Fenetre 23 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5846 Mo.
+[26/08/2026 17:09:39] [INFO] Fenetre 23 - ressource Power BI Service - page 4 traitee, total lu : 3703, memoire PowerShell : 5873 Mo.
+[26/08/2026 17:09:42] [INFO] Fenetre Entra 24/30 : du 19/08/2026 15:31:36 +02:00 au 20/08/2026 15:31:36 +02:00.
+[26/08/2026 17:09:49] [INFO] Fenetre 24 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5683 Mo.
+[26/08/2026 17:10:03] [INFO] Fenetre 24 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5683 Mo.
+[26/08/2026 17:10:10] [INFO] Fenetre 24 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5689 Mo.
+[26/08/2026 17:10:16] [INFO] Fenetre 24 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5689 Mo.
+[26/08/2026 17:10:29] [INFO] Fenetre 24 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5715 Mo.
+[26/08/2026 17:10:35] [INFO] Fenetre 24 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5758 Mo.
+[26/08/2026 17:10:40] [INFO] Fenetre 24 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5803 Mo.
+[26/08/2026 17:10:46] [INFO] Fenetre 24 - AppId Power BI Service - page 8 traitee, total lu : 7585, memoire PowerShell : 5829 Mo.
+[26/08/2026 17:10:54] [INFO] Fenetre 24 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5871 Mo.
+[26/08/2026 17:11:00] [INFO] Fenetre 24 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5912 Mo.
+[26/08/2026 17:11:05] [INFO] Fenetre 24 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5953 Mo.
+[26/08/2026 17:11:18] [INFO] Fenetre 24 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5993 Mo.
+[26/08/2026 17:11:25] [INFO] Fenetre 24 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:11:30] [INFO] Fenetre 24 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:11:34] [INFO] Fenetre 24 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:11:39] [INFO] Fenetre 24 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:11:42] [INFO] Fenetre 24 - applications Power BI - page 9 traitee, total lu : 8330, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:11:49] [INFO] Fenetre 24 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5782 Mo.
+[26/08/2026 17:12:00] [INFO] Fenetre 24 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5786 Mo.
+[26/08/2026 17:12:07] [INFO] Fenetre 24 - applications Microsoft Power BI - page 3 traitee, total lu : 2747, memoire PowerShell : 5786 Mo.
+[26/08/2026 17:12:13] [INFO] Fenetre 24 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5820 Mo.
+[26/08/2026 17:12:19] [INFO] Fenetre 24 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5859 Mo.
+[26/08/2026 17:12:24] [INFO] Fenetre 24 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5899 Mo.
+[26/08/2026 17:12:29] [INFO] Fenetre 24 - ressource Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5935 Mo.
+[26/08/2026 17:12:33] [INFO] Fenetre 24 - ressource Power BI Service - page 5 traitee, total lu : 4079, memoire PowerShell : 5938 Mo.
+[26/08/2026 17:12:37] [INFO] Fenetre Entra 25/30 : du 20/08/2026 15:31:36 +02:00 au 21/08/2026 15:31:36 +02:00.
+[26/08/2026 17:12:44] [INFO] Fenetre 25 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5720 Mo.
+[26/08/2026 17:12:49] [INFO] Fenetre 25 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5720 Mo.
+[26/08/2026 17:13:01] [INFO] Fenetre 25 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5720 Mo.
+[26/08/2026 17:13:08] [INFO] Fenetre 25 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5720 Mo.
+[26/08/2026 17:13:15] [INFO] Fenetre 25 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5735 Mo.
+[26/08/2026 17:13:22] [INFO] Fenetre 25 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5771 Mo.
+[26/08/2026 17:13:26] [INFO] Fenetre 25 - AppId Power BI Service - page 7 traitee, total lu : 6500, memoire PowerShell : 5788 Mo.
+[26/08/2026 17:13:34] [INFO] Fenetre 25 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5829 Mo.
+[26/08/2026 17:13:44] [INFO] Fenetre 25 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5870 Mo.
+[26/08/2026 17:13:50] [INFO] Fenetre 25 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5911 Mo.
+[26/08/2026 17:13:56] [INFO] Fenetre 25 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5952 Mo.
+[26/08/2026 17:14:01] [INFO] Fenetre 25 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5993 Mo.
+[26/08/2026 17:14:06] [INFO] Fenetre 25 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 6034 Mo.
+[26/08/2026 17:14:13] [INFO] Fenetre 25 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 6076 Mo.
+[26/08/2026 17:14:21] [INFO] Fenetre 25 - applications Power BI - page 8 traitee, total lu : 7203, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:14:28] [INFO] Fenetre 25 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:14:34] [INFO] Fenetre 25 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:14:36] [INFO] Fenetre 25 - applications Microsoft Power BI - page 3 traitee, total lu : 2274, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:14:44] [INFO] Fenetre 25 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:14:48] [INFO] Fenetre 25 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:14:54] [INFO] Fenetre 25 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:14:57] [INFO] Fenetre 25 - ressource Power BI Service - page 4 traitee, total lu : 3716, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:15:00] [INFO] Fenetre Entra 26/30 : du 21/08/2026 15:31:36 +02:00 au 22/08/2026 15:31:36 +02:00.
+[26/08/2026 17:15:08] [INFO] Fenetre 26 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5695 Mo.
+[26/08/2026 17:15:18] [INFO] Fenetre 26 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5695 Mo.
+[26/08/2026 17:15:21] [INFO] Fenetre 26 - AppId Power BI Service - page 3 traitee, total lu : 2186, memoire PowerShell : 5695 Mo.
+[26/08/2026 17:15:28] [INFO] Fenetre 26 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5696 Mo.
+[26/08/2026 17:15:34] [INFO] Fenetre 26 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5696 Mo.
+[26/08/2026 17:15:39] [INFO] Fenetre 26 - applications Power BI - page 3 traitee, total lu : 2642, memoire PowerShell : 5708 Mo.
+[26/08/2026 17:15:48] [INFO] Fenetre 26 - applications Microsoft Power BI - page 1 traitee, total lu : 949, memoire PowerShell : 5744 Mo.
+[26/08/2026 17:15:54] [INFO] Fenetre 26 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5779 Mo.
+[26/08/2026 17:15:59] [INFO] Fenetre 26 - ressource Power BI Service - page 2 traitee, total lu : 1652, memoire PowerShell : 5804 Mo.
+[26/08/2026 17:16:02] [INFO] Fenetre Entra 27/30 : du 22/08/2026 15:31:36 +02:00 au 23/08/2026 15:31:36 +02:00.
+[26/08/2026 17:16:10] [INFO] Fenetre 27 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5697 Mo.
+[26/08/2026 17:16:16] [INFO] Fenetre 27 - AppId Power BI Service - page 2 traitee, total lu : 1116, memoire PowerShell : 5697 Mo.
+[26/08/2026 17:16:21] [INFO] Fenetre 27 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5697 Mo.
+[26/08/2026 17:16:26] [INFO] Fenetre 27 - applications Power BI - page 2 traitee, total lu : 1511, memoire PowerShell : 5697 Mo.
+[26/08/2026 17:16:34] [INFO] Fenetre 27 - applications Microsoft Power BI - page 1 traitee, total lu : 743, memoire PowerShell : 5698 Mo.
+[26/08/2026 17:16:39] [INFO] Fenetre 27 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5698 Mo.
+[26/08/2026 17:16:42] [INFO] Fenetre 27 - ressource Power BI Service - page 2 traitee, total lu : 1261, memoire PowerShell : 5698 Mo.
+[26/08/2026 17:16:45] [INFO] Fenetre Entra 28/30 : du 23/08/2026 15:31:36 +02:00 au 24/08/2026 15:31:36 +02:00.
+[26/08/2026 17:16:56] [INFO] Fenetre 28 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5698 Mo.
+[26/08/2026 17:17:06] [INFO] Fenetre 28 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5698 Mo.
+[26/08/2026 17:17:14] [INFO] Fenetre 28 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5699 Mo.
+[26/08/2026 17:17:21] [INFO] Fenetre 28 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5699 Mo.
+[26/08/2026 17:17:28] [INFO] Fenetre 28 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5736 Mo.
+[26/08/2026 17:17:33] [INFO] Fenetre 28 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5773 Mo.
+[26/08/2026 17:17:41] [INFO] Fenetre 28 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5812 Mo.
+[26/08/2026 17:17:48] [INFO] Fenetre 28 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5856 Mo.
+[26/08/2026 17:17:51] [INFO] Fenetre 28 - AppId Power BI Service - page 9 traitee, total lu : 8256, memoire PowerShell : 5867 Mo.
+[26/08/2026 17:17:57] [INFO] Fenetre 28 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5909 Mo.
+[26/08/2026 17:18:02] [INFO] Fenetre 28 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5950 Mo.
+[26/08/2026 17:18:13] [INFO] Fenetre 28 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5991 Mo.
+[26/08/2026 17:18:21] [INFO] Fenetre 28 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 6033 Mo.
+[26/08/2026 17:18:29] [INFO] Fenetre 28 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5706 Mo.
+[26/08/2026 17:18:34] [INFO] Fenetre 28 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5706 Mo.
+[26/08/2026 17:18:39] [INFO] Fenetre 28 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5706 Mo.
+[26/08/2026 17:18:45] [INFO] Fenetre 28 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5706 Mo.
+[26/08/2026 17:18:52] [INFO] Fenetre 28 - applications Power BI - page 9 traitee, total lu : 8959, memoire PowerShell : 5720 Mo.
+[26/08/2026 17:18:59] [INFO] Fenetre 28 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5749 Mo.
+[26/08/2026 17:19:07] [INFO] Fenetre 28 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5788 Mo.
+[26/08/2026 17:19:13] [INFO] Fenetre 28 - applications Microsoft Power BI - page 3 traitee, total lu : 2450, memoire PowerShell : 5805 Mo.
+[26/08/2026 17:19:19] [INFO] Fenetre 28 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5845 Mo.
+[26/08/2026 17:19:26] [INFO] Fenetre 28 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5885 Mo.
+[26/08/2026 17:19:31] [INFO] Fenetre 28 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5922 Mo.
+[26/08/2026 17:19:33] [INFO] Fenetre 28 - ressource Power BI Service - page 4 traitee, total lu : 3272, memoire PowerShell : 5932 Mo.
+[26/08/2026 17:19:36] [INFO] Fenetre Entra 29/30 : du 24/08/2026 15:31:36 +02:00 au 25/08/2026 15:31:36 +02:00.
+[26/08/2026 17:19:43] [INFO] Fenetre 29 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5704 Mo.
+[26/08/2026 17:19:52] [INFO] Fenetre 29 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5704 Mo.
+[26/08/2026 17:19:59] [INFO] Fenetre 29 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5705 Mo.
+[26/08/2026 17:20:10] [INFO] Fenetre 29 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5705 Mo.
+[26/08/2026 17:20:18] [INFO] Fenetre 29 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5742 Mo.
+[26/08/2026 17:20:26] [INFO] Fenetre 29 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5779 Mo.
+[26/08/2026 17:20:34] [INFO] Fenetre 29 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5823 Mo.
+[26/08/2026 17:20:41] [INFO] Fenetre 29 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5866 Mo.
+[26/08/2026 17:20:52] [INFO] Fenetre 29 - AppId Power BI Service - page 9 traitee, total lu : 8991, memoire PowerShell : 5912 Mo.
+[26/08/2026 17:21:03] [INFO] Fenetre 29 - AppId Power BI Service - page 10 traitee, total lu : 9795, memoire PowerShell : 5946 Mo.
+[26/08/2026 17:21:10] [INFO] Fenetre 29 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5988 Mo.
+[26/08/2026 17:21:19] [INFO] Fenetre 29 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5768 Mo.
+[26/08/2026 17:21:28] [INFO] Fenetre 29 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:21:34] [INFO] Fenetre 29 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:21:40] [INFO] Fenetre 29 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5769 Mo.
+[26/08/2026 17:21:48] [INFO] Fenetre 29 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5773 Mo.
+[26/08/2026 17:21:55] [INFO] Fenetre 29 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5773 Mo.
+[26/08/2026 17:21:55] [INFO] Obtention ou renouvellement du jeton Microsoft Graph.
+[26/08/2026 17:21:55] [INFO] Jeton Graph valide jusqu'au 26/08/2026 18:16:54.
+[26/08/2026 17:22:01] [INFO] Fenetre 29 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5810 Mo.
+[26/08/2026 17:22:07] [INFO] Fenetre 29 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5846 Mo.
+[26/08/2026 17:22:16] [INFO] Fenetre 29 - applications Power BI - page 10 traitee, total lu : 9990, memoire PowerShell : 5887 Mo.
+[26/08/2026 17:22:24] [INFO] Fenetre 29 - applications Power BI - page 11 traitee, total lu : 10657, memoire PowerShell : 5913 Mo.
+[26/08/2026 17:22:34] [INFO] Fenetre 29 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5953 Mo.
+[26/08/2026 17:22:46] [INFO] Fenetre 29 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5998 Mo.
+[26/08/2026 17:22:53] [INFO] Fenetre 29 - applications Microsoft Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 6038 Mo.
+[26/08/2026 17:22:57] [INFO] Fenetre 29 - applications Microsoft Power BI - page 4 traitee, total lu : 3212, memoire PowerShell : 6046 Mo.
+[26/08/2026 17:23:03] [INFO] Fenetre 29 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5887 Mo.
+[26/08/2026 17:23:10] [INFO] Fenetre 29 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5887 Mo.
+[26/08/2026 17:23:15] [INFO] Fenetre 29 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5888 Mo.
+[26/08/2026 17:23:21] [INFO] Fenetre 29 - ressource Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5888 Mo.
+[26/08/2026 17:23:26] [INFO] Fenetre 29 - ressource Power BI Service - page 5 traitee, total lu : 4393, memoire PowerShell : 5888 Mo.
+[26/08/2026 17:23:28] [INFO] Fenetre Entra 30/30 : du 25/08/2026 15:31:36 +02:00 au 26/08/2026 15:31:36 +02:00.
+[26/08/2026 17:23:39] [INFO] Fenetre 30 - AppId Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5777 Mo.
+[26/08/2026 17:23:47] [INFO] Fenetre 30 - AppId Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5777 Mo.
+[26/08/2026 17:23:57] [INFO] Fenetre 30 - AppId Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:24:05] [INFO] Fenetre 30 - AppId Power BI Service - page 4 traitee, total lu : 3996, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:24:13] [INFO] Fenetre 30 - AppId Power BI Service - page 5 traitee, total lu : 4995, memoire PowerShell : 5778 Mo.
+[26/08/2026 17:24:24] [INFO] Fenetre 30 - AppId Power BI Service - page 6 traitee, total lu : 5994, memoire PowerShell : 5799 Mo.
+[26/08/2026 17:24:31] [INFO] Fenetre 30 - AppId Power BI Service - page 7 traitee, total lu : 6993, memoire PowerShell : 5835 Mo.
+[26/08/2026 17:24:39] [INFO] Fenetre 30 - AppId Power BI Service - page 8 traitee, total lu : 7992, memoire PowerShell : 5932 Mo.
+[26/08/2026 17:24:47] [INFO] Fenetre 30 - AppId Power BI Service - page 9 traitee, total lu : 8991, memoire PowerShell : 5977 Mo.
+[26/08/2026 17:24:53] [INFO] Fenetre 30 - AppId Power BI Service - page 10 traitee, total lu : 9488, memoire PowerShell : 6000 Mo.
+[26/08/2026 17:24:59] [INFO] Fenetre 30 - applications Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 6041 Mo.
+[26/08/2026 17:25:09] [INFO] Fenetre 30 - applications Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 6057 Mo.
+[26/08/2026 17:25:16] [INFO] Fenetre 30 - applications Power BI - page 3 traitee, total lu : 2997, memoire PowerShell : 5817 Mo.
+[26/08/2026 17:25:22] [INFO] Fenetre 30 - applications Power BI - page 4 traitee, total lu : 3996, memoire PowerShell : 5817 Mo.
+[26/08/2026 17:25:34] [INFO] Fenetre 30 - applications Power BI - page 5 traitee, total lu : 4995, memoire PowerShell : 5817 Mo.
+[26/08/2026 17:25:41] [INFO] Fenetre 30 - applications Power BI - page 6 traitee, total lu : 5994, memoire PowerShell : 5817 Mo.
+[26/08/2026 17:25:48] [INFO] Fenetre 30 - applications Power BI - page 7 traitee, total lu : 6993, memoire PowerShell : 5824 Mo.
+[26/08/2026 17:25:53] [INFO] Fenetre 30 - applications Power BI - page 8 traitee, total lu : 7992, memoire PowerShell : 5826 Mo.
+[26/08/2026 17:26:01] [INFO] Fenetre 30 - applications Power BI - page 9 traitee, total lu : 8991, memoire PowerShell : 5830 Mo.
+[26/08/2026 17:26:11] [INFO] Fenetre 30 - applications Power BI - page 10 traitee, total lu : 9990, memoire PowerShell : 5867 Mo.
+[26/08/2026 17:26:15] [INFO] Fenetre 30 - applications Power BI - page 11 traitee, total lu : 10404, memoire PowerShell : 5878 Mo.
+[26/08/2026 17:26:24] [INFO] Fenetre 30 - applications Microsoft Power BI - page 1 traitee, total lu : 999, memoire PowerShell : 5921 Mo.
+[26/08/2026 17:26:31] [INFO] Fenetre 30 - applications Microsoft Power BI - page 2 traitee, total lu : 1998, memoire PowerShell : 5960 Mo.
+[26/08/2026 17:26:47] [INFO] Fenetre 30 - applications Microsoft Power BI - page 3 traitee, total lu : 2930, memoire PowerShell : 5999 Mo.
+[26/08/2026 17:26:59] [INFO] Fenetre 30 - ressource Power BI Service - page 1 traitee, total lu : 999, memoire PowerShell : 5819 Mo.
+[26/08/2026 17:27:04] [INFO] Fenetre 30 - ressource Power BI Service - page 2 traitee, total lu : 1998, memoire PowerShell : 5819 Mo.
+[26/08/2026 17:27:14] [INFO] Fenetre 30 - ressource Power BI Service - page 3 traitee, total lu : 2997, memoire PowerShell : 5819 Mo.
+[26/08/2026 17:27:22] [INFO] Fenetre 30 - ressource Power BI Service - page 4 traitee, total lu : 3908, memoire PowerShell : 5819 Mo.
+[26/08/2026 17:27:25] [INFO] 524984 evenement(s) recus, dont 193450 connexion(s) Power BI uniques rapprochees, sans stockage de la periode complete en memoire.
+[26/08/2026 17:27:25] [INFO] Duree de la phase Connexions Entra globales : 01:11:45.1404008.
+[26/08/2026 17:27:25] [INFO] Recherche globale Entra complete : aucun controle individuel redondant ne sera execute.
+[26/08/2026 17:27:26] [INFO] 0 controle(s) individuel(s) de secours termine(s) en 00:00:00.0563727.
+[26/08/2026 17:27:28] [INFO] Ecriture du rapport consolide : C:\Users\ffaradji-op\Desktop\Mercury script powershell\Rapport-PowerBI-Consolide-90J10.csv
+[26/08/2026 17:27:28] [INFO] Rapport termine : 710 licence(s), 39 candidat(s) au retrait.
+[26/08/2026 17:27:28] [SECURITE] Les candidats exigent encore une validation humaine avant retrait de licence.
+[26/08/2026 17:27:28] [INFO] Duree totale : 01:55:51.8246274.

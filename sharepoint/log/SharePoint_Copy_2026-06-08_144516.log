@@ -1,0 +1,121 @@
+﻿[2026-06-08 14:45:16] [INFO] =========================================
+[2026-06-08 14:45:16] [SUCCESS] === COPIE SHAREPOINT - GESTION DES TOKENS ===
+[2026-06-08 14:45:16] [INFO] Version: 5.7
+[2026-06-08 14:45:16] [INFO] =========================================
+[2026-06-08 14:45:16] [INFO] Chargement traductions: E:\UKREiiF_FinalCopy_path.csv
+[2026-06-08 14:45:16] [SUCCESS] source:Source destination: Destination
+[2026-06-08 14:45:16] [SUCCESS] source:/ destination: /
+[2026-06-08 14:45:16] [SUCCESS] Traductions chargées: 2
+[2026-06-08 14:45:16] [INFO] Mappings: 2
+[2026-06-08 14:45:16] [SUCCESS] Mappages utilisateurs chargés: 3
+[2026-06-08 14:45:16] [INFO] === AUTHENTIFICATION ===
+[2026-06-08 14:45:16] [SUCCESS] Nouveau token pour 85a5a352-25d6-4894-a97d-221cd1712dd2|684f670e-6931-4120-b053-f8c9538744f6. Expire à 06/08/2026 15:45:15
+[2026-06-08 14:45:16] [SUCCESS] Nouveau token pour 2eea08b8-1972-447b-ad43-d044d042500a|821109a4-6e0e-48e8-b477-8f9b70aa32a4. Expire à 06/08/2026 15:45:15
+[2026-06-08 14:45:16] [INFO] === RESOLUTION DES SITES ===
+[2026-06-08 14:45:17] [SUCCESS] Source: https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX
+[2026-06-08 14:45:17] [SUCCESS] Drive source: Documents (ID: b!XnWYyX1Yt0OS_raijD1IJ3BoByys1aRJgLg7kzMz9vWsIxCHkG4qSbx5BSt1yNsv)
+[2026-06-08 14:45:17] [SUCCESS] Destination: https://infoprodigital365.sharepoint.com/sites/fethygate
+[2026-06-08 14:45:17] [SUCCESS] Drive destination: Documents (ID: b!k8jQXFKwk0KwtGsFvJmNhsH5xvG66_JEj-cEjgaHomnZSz8m37iZRJ3SeesLotEx)
+[2026-06-08 14:45:17] [INFO] Librairies source: Documents
+[2026-06-08 14:45:17] [INFO] Librairies dest:   Documents
+[2026-06-08 14:45:17] [INFO] === LECTURE DU FICHIER CSV ===
+[2026-06-08 14:45:17] [SUCCESS] Lignes de permissions chargées: 1938
+[2026-06-08 14:45:17] [SUCCESS] Chemins uniques à traiter: 333
+[2026-06-08 14:45:17] [INFO] Traitement: /Audit_user_gmail.xlsx (5 permission(s))
+[2026-06-08 14:45:17] [INFO] === COPIE REELLE: Audit_user_gmail.xlsx ===
+[2026-06-08 14:45:19] [SUCCESS] === FICHIER COPIE AVEC SUCCES: Audit_user_gmail.xlsx ===
+[2026-06-08 14:45:19] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 14:45:19] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 14:45:19] [SUCCESS] Résolution: 'User test 02' (User) -> 9545ef82-e8d3-44ae-9c1f-aebebbb474c9
+[2026-06-08 14:45:19] [WARN] Erreur permission Equipe INFRA [owner] sur Audit_user_gmail.xlsx: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:19] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:19] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:19] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Audit_user_gmail.xlsx
+[2026-06-08 14:45:19] [INFO] Traitement: /Capture d’écran 2026-01-27 172058.jpg (5 permission(s))
+[2026-06-08 14:45:19] [INFO] === COPIE REELLE: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-06-08 14:45:20] [SUCCESS] === FICHIER COPIE AVEC SUCCES: Capture d’écran 2026-01-27 172058.jpg ===
+[2026-06-08 14:45:21] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 14:45:21] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 14:45:21] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Capture d’écran 2026-01-27 172058.jpg
+[2026-06-08 14:45:21] [WARN] Erreur permission Equipe INFRA [owner] sur Capture d’écran 2026-01-27 172058.jpg: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:21] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:21] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:21] [INFO] Traitement: /Drive ECHOLINE/ (6 permission(s))
+[2026-06-08 14:45:21] [INFO] === COPIE REELLE: Drive ECHOLINE ===
+[2026-06-08 14:45:21] [SUCCESS] Dossier cree: Drive ECHOLINE
+[2026-06-08 14:45:21] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 14:45:21] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:21] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:22] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:22] [SUCCESS] Résolution: 'FARADJI, Fethi' (User) -> 517e236b-5425-4efb-b7fe-cea82021362a
+[2026-06-08 14:45:22] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE
+[2026-06-08 14:45:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 14:45:22] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE
+[2026-06-08 14:45:22] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/ (6 permission(s))
+[2026-06-08 14:45:22] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops ===
+[2026-06-08 14:45:23] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops
+[2026-06-08 14:45:23] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:23] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:23] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:23] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 14:45:23] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops
+[2026-06-08 14:45:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 14:45:23] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops
+[2026-06-08 14:45:23] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/ (6 permission(s))
+[2026-06-08 14:45:23] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement ===
+[2026-06-08 14:45:24] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 14:45:24] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:24] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:25] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:25] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 14:45:25] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 14:45:25] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 14:45:25] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement
+[2026-06-08 14:45:25] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/ (6 permission(s))
+[2026-06-08 14:45:25] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API ===
+[2026-06-08 14:45:26] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 14:45:26] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:26] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 14:45:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 14:45:26] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 14:45:26] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API
+[2026-06-08 14:45:27] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:27] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:27] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/ (6 permission(s))
+[2026-06-08 14:45:27] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne ===
+[2026-06-08 14:45:27] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 14:45:28] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:28] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:28] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:30] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 14:45:30] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 14:45:30] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 14:45:30] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne
+[2026-06-08 14:45:30] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/ (6 permission(s))
+[2026-06-08 14:45:30] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie ===
+[2026-06-08 14:45:31] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 14:45:31] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 14:45:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 14:45:31] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 14:45:31] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie
+[2026-06-08 14:45:31] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:31] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:32] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:32] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/ (6 permission(s))
+[2026-06-08 14:45:32] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique ===
+[2026-06-08 14:45:32] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 14:45:33] [WARN] Erreur résolution 'test': Le serveur distant a retourné une erreur : (403) Interdit.
+[2026-06-08 14:45:33] [WARN] Impossible de résoudre 'test' dans le tenant destination - permission ignorée
+[2026-06-08 14:45:33] [SUCCESS] Permission appliquée: User 01 [write] -> Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 14:45:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Membres () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 14:45:33] [WARN] Pas de mappage pour: SERVICES_GENERAUX - Visiteurs () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 14:45:33] [WARN] Pas de mappage pour: Propriétaires de SERVICES_GENERAUX () - permission ignorée sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique
+[2026-06-08 14:45:33] [WARN] Erreur permission Equipe INFRA [owner] sur Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique: Le serveur distant a retourné une erreur : (400) Demande incorrecte.
+[2026-06-08 14:45:33] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil/ (6 permission(s))
+[2026-06-08 14:45:33] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil ===
+[2026-06-08 14:45:34] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil
+[2026-06-08 14:45:34] [WARN] Impossible de récupérer l'item destination pour les droits: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Brésil - Le serveur distant a retourné une erreur : (404) Introuvable.
+[2026-06-08 14:45:34] [INFO] Traitement: /Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/ (6 permission(s))
+[2026-06-08 14:45:34] [INFO] === COPIE REELLE: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada ===
+[2026-06-08 14:45:35] [SUCCESS] Dossier cree: Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada
+[2026-06-08 14:45:36] [WARN] Erreurs consignées: 9 -> C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-06-08_144516.csv

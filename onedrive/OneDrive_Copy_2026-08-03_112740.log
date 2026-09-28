@@ -1,0 +1,63 @@
+﻿[2026-08-03 11:27:40] [INFO] ============================================
+[2026-08-03 11:27:40] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-03 11:27:40] [INFO] ============================================
+[2026-08-03 11:27:40] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-03 11:27:40] [INFO] --------------------------------------------
+[2026-08-03 11:27:40] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-03 11:27:40] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-03 11:27:40] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-03 11:27:40] [INFO] --------------------------------------------
+[2026-08-03 11:27:40] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-03 11:27:40] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-08-03 11:27:40] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-03 11:27:40] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-03 11:27:41] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 11:27:41] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-03 11:27:41] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 11:27:41] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-03 11:27:41] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-03 11:27:41] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-03 11:27:41] [DEBUG]    📂 Attachments
+[2026-08-03 11:27:41] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-03 11:27:42] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 11:27:42] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 11:27:42] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 11:27:42] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-03 11:27:42] [DEBUG]    📂 Meetings
+[2026-08-03 11:27:42] [DEBUG]    📂 Recordings
+[2026-08-03 11:27:42] [SUCCESS] Trouve : 5 dossier(s) / 3 fichier(s)
+[2026-08-03 11:27:42] [INFO] Taille totale : 0.05 MB
+[2026-08-03 11:27:42] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-03 11:27:43] [INFO] === COPIE DES FICHIERS ===
+[2026-08-03 11:27:43] [INFO] [1/3] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-03 11:27:43] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 11:27:44] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-03 11:27:44] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 6988 o)
+[2026-08-03 11:27:44] [DEBUG]       Horodatage v1 applique : 2026-07-29T08:18:13Z
+[2026-08-03 11:27:44] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 11:27:44] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - historique copie (1 version(s))
+[2026-08-03 11:27:44] [INFO] [2/3] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-03 11:27:45] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 11:27:45] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-03 11:27:45] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 15635 o)
+[2026-08-03 11:27:46] [DEBUG]       Horodatage v1 applique : 2026-07-29T08:20:51Z
+[2026-08-03 11:27:46] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 11:27:46] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - historique copie (1 version(s))
+[2026-08-03 11:27:46] [INFO] [3/3] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-03 11:27:46] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 11:27:46] [INFO]    ⬆  Rejeu de 1 version(s) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-03 11:27:47] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24770 o)
+[2026-08-03 11:27:47] [DEBUG]       Horodatage v1 applique : 2026-07-29T08:19:00Z
+[2026-08-03 11:27:47] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-03 11:27:47] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - historique copie (1 version(s))
+[2026-08-03 11:27:47] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-03 11:27:47] [INFO] Total   : 3 fichier(s)
+[2026-08-03 11:27:47] [INFO] Erreurs : 0
+[2026-08-03 11:27:47] [SUCCESS] ============================================
+[2026-08-03 11:27:47] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-03 11:27:47] [INFO] Total lignes  : 1
+[2026-08-03 11:27:47] [INFO] Succes        : 1
+[2026-08-03 11:27:47] [INFO] Echecs        : 0
+[2026-08-03 11:27:47] [SUCCESS] ============================================
+[2026-08-03 11:27:47] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-03_112740.csv
+[2026-08-03 11:27:47] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-03_112740.log

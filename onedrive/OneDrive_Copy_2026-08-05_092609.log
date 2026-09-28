@@ -1,0 +1,103 @@
+﻿[2026-08-05 09:26:09] [INFO] ============================================
+[2026-08-05 09:26:09] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-08-05 09:26:09] [INFO] ============================================
+[2026-08-05 09:26:09] [INFO] Mapping utilisateurs charge : 2 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-08-05 09:26:09] [INFO] CSV charge :  ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-08-05 09:26:09] [INFO] --------------------------------------------
+[2026-08-05 09:26:09] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-08-05 09:26:09] [INFO] Source UPN : UserMercury@ipd-lab.com
+[2026-08-05 09:26:09] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-08-05 09:26:09] [INFO] --------------------------------------------
+[2026-08-05 09:26:09] [SUCCESS] Token Graph obtenu pour tenant 85a5a352-25d6-4894-a97d-221cd1712dd2
+[2026-08-05 09:26:09] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-08-05 09:26:09] [INFO] === RESOLUTION DES DRIVES ===
+[2026-08-05 09:26:09] [INFO] SOURCE - UPN : UserMercury@ipd-lab.com
+[2026-08-05 09:26:09] [SUCCESS] SOURCE - Drive trouve via UPN : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-05 09:26:09] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-08-05 09:26:10] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-05 09:26:10] [SUCCESS] Drive source : b!GlptEWWNP0Ox_Ey762s1ECPliYk7zNBMuhROY7rJI50miKmOd9NCTJXABPCSTpvv
+[2026-08-05 09:26:10] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-08-05 09:26:10] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-08-05 09:26:10] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-08-05 09:26:10] [DEBUG] SP token roles : Sites.FullControl.All | aud : 00000003-0000-0ff1-ce00-000000000000
+[2026-08-05 09:26:10] [DEBUG] SP REST test GET /_api/web : HTTP 200 - {"Title":"User MERCURY"}
+[2026-08-05 09:26:10] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-08-05 09:26:11] [DEBUG]    📂 Attachments
+[2026-08-05 09:26:11] [DEBUG]    📂 Fichiers de conversation Microsoft Teams
+[2026-08-05 09:26:11] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-05 09:26:11] [DEBUG]    📂 Fichiers Microsoft Copilot Chat
+[2026-08-05 09:26:11] [DEBUG]    📂 Meetings
+[2026-08-05 09:26:11] [DEBUG]    📂 Recordings
+[2026-08-05 09:26:11] [DEBUG]    📄 how-to-eat-healthy.webp (2608802 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 salade-laitue.webp (102024 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-05 09:26:11] [DEBUG]    📄 shopping.jpg (24600 o)
+[2026-08-05 09:26:11] [SUCCESS] Trouve : 5 dossier(s) / 8 fichier(s)
+[2026-08-05 09:26:11] [INFO] Taille totale : 2.67 MB
+[2026-08-05 09:26:11] [INFO] === CREATION DES DOSSIERS ===
+[2026-08-05 09:26:12] [INFO] === COPIE DES FICHIERS ===
+[2026-08-05 09:26:12] [INFO] [1/8] Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg (6988 o)
+[2026-08-05 09:26:12] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-05 09:26:13] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg
+[2026-08-05 09:26:13] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/41G1ohnr8wL._SY300_QL70_.jpg - versions deja presentes
+[2026-08-05 09:26:13] [INFO] [2/8] Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip (15635 o)
+[2026-08-05 09:26:13] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-05 09:26:14] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip
+[2026-08-05 09:26:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/cross_tenant_split_scripts.zip - versions deja presentes
+[2026-08-05 09:26:14] [INFO] [3/8] Fichiers de conversation Microsoft Teams/darkcanard_.jpg (24770 o)
+[2026-08-05 09:26:14] [INFO]    ⬇  Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-05 09:26:14] [INFO]    ⏭  Versions deja copiees (1) : Fichiers de conversation Microsoft Teams/darkcanard_.jpg
+[2026-08-05 09:26:14] [SUCCESS] ✅ Fichiers de conversation Microsoft Teams/darkcanard_.jpg - versions deja presentes
+[2026-08-05 09:26:14] [INFO] [4/8] how-to-eat-healthy.webp (2608802 o)
+[2026-08-05 09:26:14] [INFO]    ⬇  how-to-eat-healthy.webp
+[2026-08-05 09:26:15] [INFO]    ⬆  Rejeu de 1 version(s) : how-to-eat-healthy.webp
+[2026-08-05 09:26:17] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2608802 o)
+[2026-08-05 09:26:18] [DEBUG]       v1 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:12:44Z)
+[2026-08-05 09:26:18] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-05 09:26:18] [SUCCESS] ✅ how-to-eat-healthy.webp - historique copie (1 version(s))
+[2026-08-05 09:26:18] [INFO] [5/8] salade-laitue.webp (102024 o)
+[2026-08-05 09:26:18] [INFO]    ⬇  salade-laitue.webp
+[2026-08-05 09:26:18] [INFO]    ⬆  Rejeu de 1 version(s) : salade-laitue.webp
+[2026-08-05 09:26:19] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 102024 o)
+[2026-08-05 09:26:20] [DEBUG]       v1 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:12:42Z)
+[2026-08-05 09:26:20] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-05 09:26:20] [SUCCESS] ✅ salade-laitue.webp - historique copie (1 version(s))
+[2026-08-05 09:26:20] [INFO] [6/8] SharePoint_Errors_Notisum_2026-04-10_154411.csv (2676 o)
+[2026-08-05 09:26:20] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-05 09:26:20] [INFO]    ⬆  Rejeu de 1 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.csv
+[2026-08-05 09:26:22] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 2676 o)
+[2026-08-05 09:26:23] [DEBUG]       v1 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:12:56Z)
+[2026-08-05 09:26:23] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-05 09:26:23] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.csv - historique copie (1 version(s))
+[2026-08-05 09:26:23] [INFO] [7/8] SharePoint_Errors_Notisum_2026-04-10_154411.xlsx (10946 o)
+[2026-08-05 09:26:23] [INFO]    ⬇  SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-05 09:26:23] [INFO]    ⬆  Rejeu de 3 version(s) : SharePoint_Errors_Notisum_2026-04-10_154411.xlsx
+[2026-08-05 09:26:24] [DEBUG]       Version 1/3 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 11145 o)
+[2026-08-05 09:26:25] [DEBUG]       v1 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:13:10Z)
+[2026-08-05 09:26:26] [DEBUG]       Version 2/3 rejouee (id=2.0, par=UserMercury@ipd-lab.com, 10947 o)
+[2026-08-05 09:26:26] [DEBUG]       v2 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:13:18Z)
+[2026-08-05 09:26:27] [DEBUG]       Version 3/3 rejouee (id=3.0, par=UserMercury@ipd-lab.com, 10946 o)
+[2026-08-05 09:26:28] [DEBUG]       v3 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:14:09Z)
+[2026-08-05 09:26:28] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-05 09:26:28] [SUCCESS] ✅ SharePoint_Errors_Notisum_2026-04-10_154411.xlsx - historique copie (3 version(s))
+[2026-08-05 09:26:28] [INFO] [8/8] shopping.jpg (24600 o)
+[2026-08-05 09:26:28] [INFO]    ⬇  shopping.jpg
+[2026-08-05 09:26:28] [INFO]    ⬆  Rejeu de 1 version(s) : shopping.jpg
+[2026-08-05 09:26:29] [DEBUG]       Version 1/1 rejouee (id=1.0, par=UserMercury@ipd-lab.com, 24600 o)
+[2026-08-05 09:26:29] [DEBUG]       v1 : auteur+date via VVI (UserMercury@ipd-lab.com -> UserMercury@infopro-digital.com / 2026-08-03T12:12:41Z)
+[2026-08-05 09:26:30] [WARN] Graph ne permet pas de forcer l'auteur des versions. Les versions cible seront attribuees au compte d'execution.
+[2026-08-05 09:26:30] [SUCCESS] ✅ shopping.jpg - historique copie (1 version(s))
+[2026-08-05 09:26:30] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-08-05 09:26:30] [INFO] Total   : 8 fichier(s)
+[2026-08-05 09:26:30] [INFO] Erreurs : 0
+[2026-08-05 09:26:30] [SUCCESS] ============================================
+[2026-08-05 09:26:30] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-08-05 09:26:30] [INFO] Total lignes  : 1
+[2026-08-05 09:26:30] [INFO] Succes        : 1
+[2026-08-05 09:26:30] [INFO] Echecs        : 0
+[2026-08-05 09:26:30] [SUCCESS] ============================================
+[2026-08-05 09:26:30] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-08-05_092609.csv
+[2026-08-05 09:26:30] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-08-05_092609.log

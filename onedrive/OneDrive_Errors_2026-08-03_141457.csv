@@ -1,0 +1,2 @@
+﻿"horodatage","fichier","phase","erreur"
+"03/08/2026 14:15:13","SharePoint_Errors_Notisum_2026-04-10_154411.xlsx","copy","Graph HTTP 409 : {""error"":{""code"":""resourceModified"",""message"":""The resource has changed since the caller last read it; usually an eTag mismatch"",""innerError"":{""date"":""2026-08-03T12:15:13"",""request-id"":""f4620391-8a02-4387-acd5-cb11c31e41bd"",""client-request-id"":""f4620391-8a02-4387-acd5-cb11c31e41bd""}}}"

@@ -1,0 +1,345 @@
+﻿[2026-09-03 16:05:52] [INFO] ============================================
+[2026-09-03 16:05:52] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-03 16:05:52] [INFO] ============================================
+[2026-09-03 16:05:52] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-03 16:05:52] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-03 16:05:52] [INFO] --------------------------------------------
+[2026-09-03 16:05:53] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-03 16:05:53] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 16:05:53] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-03 16:05:53] [INFO] --------------------------------------------
+[2026-09-03 16:05:53] [SUCCESS] Token Graph obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-03 16:05:54] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-03 16:05:54] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-03 16:05:54] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-03 16:05:55] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 16:05:55] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-03 16:05:55] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 16:05:55] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-03 16:05:55] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-03 16:05:56] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-03T14:05:56","request-id":"69eeac21-206a-4624-9897-896ad2df0f6f","client-request-id":"69eeac21-206a-4624-9897-896ad2df0f6f"}}}
+[2026-09-03 16:05:57] [INFO] Permissions racine OneDrive traitees
+[2026-09-03 16:05:57] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-03 16:05:58] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:05:59] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-03 16:05:59] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-03 16:14:30] [SUCCESS] Trouve : 3816 dossier(s) / 12905 fichier(s)
+[2026-09-03 16:14:30] [INFO] Taille totale : 20810.79 MB
+[2026-09-03 16:14:30] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-03 16:14:30] [SUCCESS] 📂 Dossier cree : Applications
+[2026-09-03 16:14:31] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:31] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:32] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:14:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:32] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:14:33] [WARN] Restauration auteur/createur dossier echouee 'Applications' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:14:35] [SUCCESS] 📂 Dossier cree : Attachments
+[2026-09-03 16:14:35] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:35] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:36] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:36] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:14:36] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:36] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:14:37] [WARN] Restauration auteur/createur dossier echouee 'Attachments' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:14:40] [SUCCESS] 📂 Dossier cree : Bureau
+[2026-09-03 16:14:40] [WARN] Restauration auteur/createur dossier echouee 'Bureau' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Bureau')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Bureau')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:14:42] [SUCCESS] 📂 Dossier cree : Contacts
+[2026-09-03 16:14:42] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:42] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:43] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:43] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:14:43] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:43] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:14:44] [WARN] Restauration auteur/createur dossier echouee 'Contacts' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:14:46] [SUCCESS] 📂 Dossier cree : corespondance FNS-FNSIMPLE
+[2026-09-03 16:14:46] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:46] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:47] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:47] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:14:47] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:47] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:14:47] [WARN] Restauration auteur/createur dossier echouee 'corespondance FNS-FNSIMPLE' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:14:49] [SUCCESS] 📂 Dossier cree : D
+[2026-09-03 16:14:50] [WARN] Restauration auteur/createur dossier echouee 'D' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/D')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/D')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:14:52] [SUCCESS] 📂 Dossier cree : Documents
+[2026-09-03 16:14:52] [WARN] Restauration auteur/createur dossier echouee 'Documents' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:14:54] [SUCCESS] 📂 Dossier cree : Enregistrements
+[2026-09-03 16:14:54] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:54] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:55] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:55] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:14:55] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:55] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:14:55] [WARN] Restauration auteur/createur dossier echouee 'Enregistrements' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:14:58] [SUCCESS] 📂 Dossier cree : Favorites
+[2026-09-03 16:14:58] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:59] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:14:59] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:14:59] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:00] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:00] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:00] [WARN] Restauration auteur/createur dossier echouee 'Favorites' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:02] [SUCCESS] 📂 Dossier cree : FETHI @ Infopro Digital
+[2026-09-03 16:15:02] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:02] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:03] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:03] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:03] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:03] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:03] [WARN] Restauration auteur/createur dossier echouee 'FETHI @ Infopro Digital' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:06] [SUCCESS] 📂 Dossier cree : Fethy @ Infopro Digital
+[2026-09-03 16:15:06] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:07] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:07] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:07] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:08] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:08] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:08] [WARN] Restauration auteur/createur dossier echouee 'Fethy @ Infopro Digital' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:10] [SUCCESS] 📂 Dossier cree : Fichiers de conversation Microsoft Teams
+[2026-09-03 16:15:11] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:11] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:11] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:12] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:12] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:12] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:13] [WARN] Restauration auteur/createur dossier echouee 'Fichiers de conversation Microsoft Teams' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:14] [SUCCESS] 📂 Dossier cree : Fichiers Microsoft Copilot Chat
+[2026-09-03 16:15:15] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:15] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:15] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:16] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:16] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:16] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:16] [WARN] Restauration auteur/createur dossier echouee 'Fichiers Microsoft Copilot Chat' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:18] [SUCCESS] 📂 Dossier cree : Images
+[2026-09-03 16:15:19] [WARN] Restauration auteur/createur dossier echouee 'Images' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Images')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Images')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:20] [SUCCESS] 📂 Dossier cree : Links
+[2026-09-03 16:15:21] [WARN] Restauration auteur/createur dossier echouee 'Links' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/Links')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/Links')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:22] [SUCCESS] 📂 Dossier cree : Microsoft Teams Chat Files
+[2026-09-03 16:15:23] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:23] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:24] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:24] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:24] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:24] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:25] [WARN] Restauration auteur/createur dossier echouee 'Microsoft Teams Chat Files' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:27] [SUCCESS] 📂 Dossier cree : MicrosoftEdgeBackups
+[2026-09-03 16:15:27] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:27] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:28] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:28] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:28] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:29] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:29] [WARN] Restauration auteur/createur dossier echouee 'MicrosoftEdgeBackups' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:31] [SUCCESS] 📂 Dossier cree : Nouveau dossier
+[2026-09-03 16:15:31] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:31] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:32] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:32] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:32] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:33] [WARN] Restauration auteur/createur dossier echouee 'Nouveau dossier' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:35] [SUCCESS] 📂 Dossier cree : repos
+[2026-09-03 16:15:35] [WARN] Restauration auteur/createur dossier echouee 'repos' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/repos')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/repos')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:38] [SUCCESS] 📂 Dossier cree : Réunions
+[2026-09-03 16:15:38] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:38] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:39] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:39] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:39] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:40] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:40] [WARN] Restauration auteur/createur dossier echouee 'Réunions' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:42] [SUCCESS] 📂 Dossier cree : Sauvegarde PC 1F1N42
+[2026-09-03 16:15:43] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:43] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:43] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:44] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:44] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:44] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:44] [WARN] Restauration auteur/createur dossier echouee 'Sauvegarde PC 1F1N42' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:15:46] [SUCCESS] 📂 Dossier cree : source
+[2026-09-03 16:15:47] [WARN] Restauration auteur/createur dossier echouee 'source' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/source')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/source')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:49] [SUCCESS] 📂 Dossier cree : VM XP
+[2026-09-03 16:15:50] [WARN] Restauration auteur/createur dossier echouee 'VM XP' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/VM XP')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/VM XP')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:52] [SUCCESS] 📂 Dossier cree : VMV2
+[2026-09-03 16:15:52] [WARN] Restauration auteur/createur dossier echouee 'VMV2' : SP REST 400 : {"odata.error":{"code":"-1, Microsoft.SharePoint.Client.InvalidClientQueryException","message":{"lang":"fr-FR","value":"L'expression \u00ab\u00a0web/GetFolderByServerRelativePath(decodedurl='/personal/usermercury_infopro-digital_com/Documents/VMV2')/ListItemAllFields https:/infoprodigital365-my.sharepoint.com/personal/usermercury_infopro-digital_com/_api/web/GetFolderByServerRelativeUrl('/personal/usermercury_infopro-digital_com/Documents/VMV2')/ListItemAllFields/ValidateUpdateListItem()\u00a0\u00bb n'est pas valide."}}}
+[2026-09-03 16:15:55] [SUCCESS] 📂 Dossier cree : Whiteboards
+[2026-09-03 16:15:57] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:57] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:15:58] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:58] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:15:58] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:15:58] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:15:59] [WARN] Restauration auteur/createur dossier echouee 'Whiteboards' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:01] [SUCCESS] 📂 Dossier cree : Applications/Microsoft Edge
+[2026-09-03 16:16:01] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:01] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:02] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:02] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:02] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:03] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:03] [WARN] Restauration auteur/createur dossier echouee 'Applications/Microsoft Edge' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:05] [SUCCESS] 📂 Dossier cree : Bureau/backup
+[2026-09-03 16:16:05] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:06] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:07] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:07] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:07] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:07] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:07] [WARN] Restauration auteur/createur dossier echouee 'Bureau/backup' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:09] [SUCCESS] 📂 Dossier cree : Bureau/bin
+[2026-09-03 16:16:10] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:10] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:11] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:11] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:11] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:11] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:12] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bin' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:14] [SUCCESS] 📂 Dossier cree : Bureau/bureau
+[2026-09-03 16:16:15] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:15] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:15] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:15] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:16] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:16] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:16] [WARN] Restauration auteur/createur dossier echouee 'Bureau/bureau' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:18] [SUCCESS] 📂 Dossier cree : Bureau/Debug
+[2026-09-03 16:16:18] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:18] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:19] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:19] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:19] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:20] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:20] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Debug' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:22] [SUCCESS] 📂 Dossier cree : Bureau/droit sharepoint
+[2026-09-03 16:16:22] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:22] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:23] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:23] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:23] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:23] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:24] [WARN] Restauration auteur/createur dossier echouee 'Bureau/droit sharepoint' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:26] [SUCCESS] 📂 Dossier cree : Bureau/DWS - applications Azure
+[2026-09-03 16:16:26] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:26] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:27] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:27] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:27] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:27] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:28] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - applications Azure' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:29] [SUCCESS] 📂 Dossier cree : Bureau/DWS - CREAMODIFAD - ENTRA
+[2026-09-03 16:16:30] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:30] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:31] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:31] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:31] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:31] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:31] [WARN] Restauration auteur/createur dossier echouee 'Bureau/DWS - CREAMODIFAD - ENTRA' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:33] [SUCCESS] 📂 Dossier cree : Bureau/export_synchro_sim_202410
+[2026-09-03 16:16:34] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:34] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:34] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:35] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:35] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:35] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:35] [WARN] Restauration auteur/createur dossier echouee 'Bureau/export_synchro_sim_202410' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:37] [SUCCESS] 📂 Dossier cree : Bureau/INFOPRO DIGITAL (Prod)_files
+[2026-09-03 16:16:38] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:38] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:38] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:38] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:39] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:39] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:39] [WARN] Restauration auteur/createur dossier echouee 'Bureau/INFOPRO DIGITAL (Prod)_files' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:41] [SUCCESS] 📂 Dossier cree : Bureau/jira 555
+[2026-09-03 16:16:41] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:41] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:42] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:42] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:42] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:42] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:43] [WARN] Restauration auteur/createur dossier echouee 'Bureau/jira 555' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:45] [SUCCESS] 📂 Dossier cree : Bureau/Les Contes de la decrypt
+[2026-09-03 16:16:45] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:45] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:46] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:46] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:46] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:46] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:47] [WARN] Restauration auteur/createur dossier echouee 'Bureau/Les Contes de la decrypt' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:48] [SUCCESS] 📂 Dossier cree : Bureau/livraisonKPI 20250428
+[2026-09-03 16:16:49] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:49] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:50] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:50] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:50] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:50] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:50] [WARN] Restauration auteur/createur dossier echouee 'Bureau/livraisonKPI 20250428' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:52] [SUCCESS] 📂 Dossier cree : Bureau/mep 20241014
+[2026-09-03 16:16:53] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:53] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:53] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:53] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:54] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:54] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:54] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20241014' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:56] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250113
+[2026-09-03 16:16:56] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:56] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:16:57] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:57] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:16:57] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:16:57] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:16:58] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250113' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:16:59] [SUCCESS] 📂 Dossier cree : Bureau/mep 20250129
+[2026-09-03 16:17:00] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:00] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:00] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:00] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:01] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:01] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:01] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep 20250129' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:03] [SUCCESS] 📂 Dossier cree : Bureau/mep DWS20250814
+[2026-09-03 16:17:04] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:04] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:04] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:04] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:05] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:05] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:05] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep DWS20250814' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:07] [SUCCESS] 📂 Dossier cree : Bureau/mep synchro 20241007
+[2026-09-03 16:17:08] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:08] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:08] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:08] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:09] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:09] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:09] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep synchro 20241007' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:11] [SUCCESS] 📂 Dossier cree : Bureau/mep_sim20250612
+[2026-09-03 16:17:11] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:12] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:12] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:12] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:13] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:13] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:13] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep_sim20250612' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:15] [SUCCESS] 📂 Dossier cree : Bureau/mep05022025
+[2026-09-03 16:17:15] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:15] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:16] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:16] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:16] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:16] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:16] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep05022025' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:18] [SUCCESS] 📂 Dossier cree : Bureau/mep20250225
+[2026-09-03 16:17:19] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:19] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 1.
+[2026-09-03 16:17:19] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:19] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 2.
+[2026-09-03 16:17:20] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:20] [WARN] Token SharePoint expire detecte. Nouveau token obtenu, retry 3.
+[2026-09-03 16:17:20] [WARN] Restauration auteur/createur dossier echouee 'Bureau/mep20250225' : SP REST 401 : The length of the URL for this request exceeds the configured maxUrlLength value.
+[2026-09-03 16:17:22] [SUCCESS] 📂 Dossier cree : Bureau/mep20250603
+[2026-09-03 16:17:23] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-03 16:17:23] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-03_160552.log

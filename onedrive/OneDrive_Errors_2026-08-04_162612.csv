@@ -1,0 +1,2 @@
+﻿"horodatage","fichier","phase","erreur"
+"04/08/2026 16:26:12","migration_ligne_1","migration","Échec lors de l’appel de la méthode, car [System.Security.Cryptography.X509Certificates.X509Certificate2] ne contient pas de méthode nommée « GetRSAPrivateKey »."

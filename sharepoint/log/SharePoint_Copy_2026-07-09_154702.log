@@ -1,0 +1,11 @@
+﻿[2026-07-09 15:47:02] [INFO] =========================================
+[2026-07-09 15:47:02] [SUCCESS] === COPIE SHAREPOINT + DROITS SP/ENTRA ===
+[2026-07-09 15:47:02] [INFO] Version: 8.0
+[2026-07-09 15:47:02] [INFO] =========================================
+[2026-07-09 15:47:02] [INFO] Log:    C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Copy_2026-07-09_154702.log
+[2026-07-09 15:47:02] [INFO] Errors: C:\Users\ffaradji-op\Desktop\Mercury script powershell\SharePoint_Errors_2026-07-09_154702.csv
+[2026-07-09 15:47:02] [SUCCESS] Traductions chargées: 2
+[2026-07-09 15:47:02] [SUCCESS] Mappages: par ID=3, par nom=3
+[2026-07-09 15:47:02] [INFO] === AUTHENTIFICATION ===
+[2026-07-09 15:47:02] [INFO] === RÉSOLUTION SITES/DRIVES ===
+[2026-07-09 15:47:02] [ERROR] Erreur fatale: Le serveur distant a retourné une erreur : (400) Demande incorrecte.

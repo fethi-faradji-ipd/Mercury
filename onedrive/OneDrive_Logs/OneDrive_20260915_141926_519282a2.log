@@ -1,0 +1,4 @@
+﻿2026-09-15 12:19:26Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 12:19:29Z [ERROR] ligne_1 [migration] Exception lors de l'appel de « Replace » avec « 3 » argument(s) : « Le chemin d'accès n'a pas une forme conforme. »
+2026-09-15 12:19:29Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0.04 min, 18 requetes, 0 retries.
+2026-09-15 12:19:29Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260915_141926_519282a2

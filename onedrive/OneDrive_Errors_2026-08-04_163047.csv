@@ -1,0 +1,3 @@
+﻿"horodatage","fichier","phase","erreur"
+"04/08/2026 16:30:47","migration_ligne_1","migration","Exception lors de l'appel de « SignData » avec « 2 » argument(s) : « Algorithme spécifié non valide.
+ »"

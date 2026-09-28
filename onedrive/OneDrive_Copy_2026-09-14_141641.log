@@ -1,0 +1,362 @@
+﻿[2026-09-14 14:16:41] [INFO] ============================================
+[2026-09-14 14:16:41] [SUCCESS] === COPIE ONEDRIVE CROSS-TENANT (GRAPH) ===
+[2026-09-14 14:16:41] [INFO] ============================================
+[2026-09-14 14:16:41] [INFO] === VALIDATION CONFIGURATION AUTHENTIFICATION ===
+[2026-09-14 14:16:41] [SUCCESS] Certificat cible OK : Subject='CN=MSGraphExchangeOnlineAuth20260717_2', Thumbprint=7DF9F9E37A879A4C043058E849F037173EFF3D54, expire=2028-08-04
+[2026-09-14 14:16:41] [SUCCESS] Configuration d'authentification validee localement.
+[2026-09-14 14:16:41] [INFO] Mapping utilisateurs charge : 3 entree(s) depuis C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\user_mapping.csv
+[2026-09-14 14:16:41] [INFO] CSV charge : 1 ligne(s) trouvee(s) dans C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\migrations.csv
+[2026-09-14 14:16:41] [INFO] --------------------------------------------
+[2026-09-14 14:16:41] [SUCCESS] === MIGRATION LIGNE 1 ===
+[2026-09-14 14:16:41] [INFO] Source UPN : fethy.faradji@infopro-digital.com
+[2026-09-14 14:16:41] [INFO] Cible  UPN : UserMercury@infopro-digital.com
+[2026-09-14 14:16:41] [INFO] --------------------------------------------
+[2026-09-14 14:16:41] [INFO] Mode de copie : full
+[2026-09-14 14:16:42] [SUCCESS] Token Graph source obtenu pour tenant 2eea08b8-1972-447b-ad43-d044d042500a
+[2026-09-14 14:16:42] [SUCCESS] Token obtenu (certificat) pour CIBLE Graph
+[2026-09-14 14:16:42] [INFO] === RESOLUTION DES DRIVES ===
+[2026-09-14 14:16:42] [INFO] SOURCE - UPN : fethy.faradji@infopro-digital.com
+[2026-09-14 14:16:42] [SUCCESS] SOURCE - Drive trouve via UPN : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-14 14:16:42] [INFO] CIBLE - UPN : UserMercury@infopro-digital.com
+[2026-09-14 14:16:42] [SUCCESS] CIBLE - Drive trouve via UPN : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-14 14:16:42] [SUCCESS] Drive source : b!lEPxXqH4y0ClgKTeKVvvlpQDhMduqR1IqTc8ic6mxvBKeErnzZLzQbbo1TPVKB0B
+[2026-09-14 14:16:42] [SUCCESS] Drive cible  : b!CJAN1LvsPE-C4yZRRZOsr8A0TdTypnxFnGn92OBcPXmo3U_oJFZQTqbMnxP8VVjY
+[2026-09-14 14:16:43] [WARN] Permission non appliquee : / (fethy.faradji@infopro-digital.com -> fethy.faradji@infopro-digital.com, role=read) : Graph HTTP 400 : {"error":{"code":"invalidRequest","message":"Le partage ou la mise à jour des autorisations de la bibliothèque de documents par défaut n’est pas pris en charge dans OneDrive.","innerError":{"date":"2026-09-14T12:16:43","request-id":"1494b7f1-9387-4e94-83d9-f0c94cec1503","client-request-id":"1494b7f1-9387-4e94-83d9-f0c94cec1503"}}}
+[2026-09-14 14:16:43] [INFO] Permissions racine OneDrive traitees
+[2026-09-14 14:16:44] [INFO] Metadonnees racine OneDrive ignorees (limitation Graph)
+[2026-09-14 14:16:44] [SUCCESS] Token obtenu (certificat) pour CIBLE SharePoint
+[2026-09-14 14:16:44] [SUCCESS] Token SharePoint REST obtenu pour https://infoprodigital365-my.sharepoint.com
+[2026-09-14 14:16:44] [INFO] === SCAN DU ONEDRIVE SOURCE ===
+[2026-09-14 14:25:05] [SUCCESS] Trouve : 3816 dossier(s) / 12908 fichier(s)
+[2026-09-14 14:25:05] [INFO] Taille totale : 20825.61 MB
+[2026-09-14 14:25:05] [WARN] Reprise active : dossiers=3816, fichiers=12847
+[2026-09-14 14:25:05] [INFO] === CREATION DES DOSSIERS ===
+[2026-09-14 14:25:05] [INFO] === COPIE DES FICHIERS ===
+[2026-09-14 14:25:05] [INFO] Mode parallele fichiers actif : 4 worker(s)
+[2026-09-14 14:25:05] [INFO] Conseil : si beaucoup de HTTP 429 apparaissent, reduire MaxParallelFiles (ex. 3 ou 4).
+[2026-09-14 14:25:06] [INFO] [12848/12908] EN FILE -> VMV2/Windows XP Mode D.zip (6352832280 o)
+[2026-09-14 14:25:06] [INFO] [12849/12908] EN FILE -> Whiteboards/Annotations/Annotations - FARADJI, Fethi 1.whiteboard (4185357 o)
+[2026-09-14 14:25:06] [INFO] [12850/12908] EN FILE -> Whiteboards/Annotations/Annotations - FARADJI, Fethi 2.whiteboard (12011 o)
+[2026-09-14 14:25:06] [INFO] [12851/12908] EN FILE -> Whiteboards/Annotations/Annotations - FARADJI, Fethi.whiteboard (20172 o)
+[2026-09-14 14:25:06] [SUCCESS] [T39] 📂 Dossier cree : VMV2
+[2026-09-14 14:25:06] [SUCCESS] [T16] 📂 Dossier cree : Whiteboards
+[2026-09-14 14:25:07] [SUCCESS] [T14] 📂 Dossier cree : Whiteboards
+[2026-09-14 14:25:07] [INFO] [T39]    ⬇  VMV2/Windows XP Mode D.zip
+[2026-09-14 14:25:07] [SUCCESS] [T16] 📂 Dossier cree : Whiteboards/Annotations
+[2026-09-14 14:25:07] [SUCCESS] [T14] 📂 Dossier cree : Whiteboards/Annotations
+[2026-09-14 14:25:08] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : VMV2/Windows XP Mode D.zip
+[2026-09-14 14:25:08] [SUCCESS] [T9] 📂 Dossier cree : Whiteboards/Annotations
+[2026-09-14 14:25:08] [INFO] [T14]    ⬇  Whiteboards/Annotations/Annotations - FARADJI, Fethi.whiteboard
+[2026-09-14 14:25:08] [INFO] [T16]    ⬇  Whiteboards/Annotations/Annotations - FARADJI, Fethi 1.whiteboard
+[2026-09-14 14:25:08] [INFO] [T9]    ⬇  Whiteboards/Annotations/Annotations - FARADJI, Fethi 2.whiteboard
+[2026-09-14 14:25:08] [INFO] [T16]    ⬆  Rejeu de 2 version(s) : Whiteboards/Annotations/Annotations - FARADJI, Fethi 1.whiteboard
+[2026-09-14 14:25:08] [INFO] [T14]    ⬆  Rejeu de 2 version(s) : Whiteboards/Annotations/Annotations - FARADJI, Fethi.whiteboard
+[2026-09-14 14:25:08] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Whiteboards/Annotations/Annotations - FARADJI, Fethi 2.whiteboard
+[2026-09-14 14:25:14] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:14] [SUCCESS] [T9] ✅ Whiteboards/Annotations/Annotations - FARADJI, Fethi 2.whiteboard - historique copie (1 version(s))
+[2026-09-14 14:25:14] [INFO] [12852/12908] EN FILE -> 1.docx (12411 o)
+[2026-09-14 14:25:15] [INFO] [T9]    ⬇  1.docx
+[2026-09-14 14:25:15] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : 1.docx
+[2026-09-14 14:25:15] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:15] [SUCCESS] [T14] ✅ Whiteboards/Annotations/Annotations - FARADJI, Fethi.whiteboard - historique copie (2 version(s))
+[2026-09-14 14:25:15] [INFO] [12853/12908] EN FILE -> am_ko_12072023.xlsx (14402 o)
+[2026-09-14 14:25:16] [INFO] [T14]    ⬇  am_ko_12072023.xlsx
+[2026-09-14 14:25:16] [INFO] [T14]    ⬆  Rejeu de 2 version(s) : am_ko_12072023.xlsx
+[2026-09-14 14:25:16] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:16] [SUCCESS] [T16] ✅ Whiteboards/Annotations/Annotations - FARADJI, Fethi 1.whiteboard - historique copie (2 version(s))
+[2026-09-14 14:25:16] [INFO] [12854/12908] EN FILE -> Analyse SIM vs SF - 20241107 2.xlsx (292269 o)
+[2026-09-14 14:25:16] [INFO] [T16]    ⬇  Analyse SIM vs SF - 20241107 2.xlsx
+[2026-09-14 14:25:17] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : Analyse SIM vs SF - 20241107 2.xlsx
+[2026-09-14 14:25:19] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:19] [SUCCESS] [T9] ✅ 1.docx - historique copie (1 version(s))
+[2026-09-14 14:25:19] [INFO] [12855/12908] EN FILE -> analyse siret SIM VS SF.xlsx (7330956 o)
+[2026-09-14 14:25:20] [INFO] [T9]    ⬇  analyse siret SIM VS SF.xlsx
+[2026-09-14 14:25:20] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : analyse siret SIM VS SF.xlsx
+[2026-09-14 14:25:21] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:21] [SUCCESS] [T16] ✅ Analyse SIM vs SF - 20241107 2.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:21] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:21] [SUCCESS] [T14] ✅ am_ko_12072023.xlsx - historique copie (2 version(s))
+[2026-09-14 14:25:21] [INFO] [12856/12908] EN FILE -> Analyses Factures Packs 2024-11-26 _retour.xlsx (3415449 o)
+[2026-09-14 14:25:21] [INFO] [12857/12908] EN FILE -> Analyses Factures Packs 2024-11-26 1.xlsx (3415398 o)
+[2026-09-14 14:25:21] [INFO] [T14]    ⬇  Analyses Factures Packs 2024-11-26 _retour.xlsx
+[2026-09-14 14:25:21] [INFO] [T16]    ⬇  Analyses Factures Packs 2024-11-26 1.xlsx
+[2026-09-14 14:25:21] [INFO] [T14]    ⬆  Rejeu de 2 version(s) : Analyses Factures Packs 2024-11-26 _retour.xlsx
+[2026-09-14 14:25:21] [INFO] [T16]    ⬆  Rejeu de 6 version(s) : Analyses Factures Packs 2024-11-26 1.xlsx
+[2026-09-14 14:25:24] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:24] [SUCCESS] [T9] ✅ analyse siret SIM VS SF.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:24] [INFO] [12858/12908] EN FILE -> Architecture_globale.pptx (236773 o)
+[2026-09-14 14:25:25] [INFO] [T9]    ⬇  Architecture_globale.pptx
+[2026-09-14 14:25:25] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Architecture_globale.pptx
+[2026-09-14 14:25:26] [ERROR] [T39] ❌ VMV2/Windows XP Mode D.zip : Reponse HTTP nulle lors du telechargement Graph
+[2026-09-14 14:25:26] [INFO] [12859/12908] EN FILE -> ATTESTATION SUR L HONNEUR TELETRAVAIL.docx (21227 o)
+[2026-09-14 14:25:26] [INFO] [T39]    ⬇  ATTESTATION SUR L HONNEUR TELETRAVAIL.docx
+[2026-09-14 14:25:27] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : ATTESTATION SUR L HONNEUR TELETRAVAIL.docx
+[2026-09-14 14:25:29] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:29] [SUCCESS] [T9] ✅ Architecture_globale.pptx - historique copie (1 version(s))
+[2026-09-14 14:25:29] [INFO] [12860/12908] EN FILE -> avis_from_bim.csv (5597 o)
+[2026-09-14 14:25:29] [INFO] [T9]    ⬇  avis_from_bim.csv
+[2026-09-14 14:25:29] [INFO] [T9]    ⬆  Rejeu de 2 version(s) : avis_from_bim.csv
+[2026-09-14 14:25:30] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:30] [SUCCESS] [T14] ✅ Analyses Factures Packs 2024-11-26 _retour.xlsx - historique copie (2 version(s))
+[2026-09-14 14:25:30] [INFO] [12861/12908] EN FILE -> bu_price.xlsx (10200 o)
+[2026-09-14 14:25:30] [INFO] [T14]    ⬇  bu_price.xlsx
+[2026-09-14 14:25:31] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : bu_price.xlsx
+[2026-09-14 14:25:31] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:31] [SUCCESS] [T39] ✅ ATTESTATION SUR L HONNEUR TELETRAVAIL.docx - historique copie (1 version(s))
+[2026-09-14 14:25:31] [INFO] [12862/12908] EN FILE -> champs_sf.xlsx (11590 o)
+[2026-09-14 14:25:31] [INFO] [T39]    ⬇  champs_sf.xlsx
+[2026-09-14 14:25:31] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : champs_sf.xlsx
+[2026-09-14 14:25:34] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:34] [SUCCESS] [T14] ✅ bu_price.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:34] [INFO] [12863/12908] EN FILE -> ChangementsSIRETs-v2 (1).xlsx (48909 o)
+[2026-09-14 14:25:34] [INFO] [T14]    ⬇  ChangementsSIRETs-v2 (1).xlsx
+[2026-09-14 14:25:35] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : ChangementsSIRETs-v2 (1).xlsx
+[2026-09-14 14:25:36] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:36] [SUCCESS] [T39] ✅ champs_sf.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:36] [INFO] [12864/12908] EN FILE -> Classeur2.xlsx (8899 o)
+[2026-09-14 14:25:36] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:36] [SUCCESS] [T9] ✅ avis_from_bim.csv - historique copie (2 version(s))
+[2026-09-14 14:25:36] [INFO] [12865/12908] EN FILE -> Classeur3.xlsx (10297 o)
+[2026-09-14 14:25:36] [INFO] [T39]    ⬇  Classeur2.xlsx
+[2026-09-14 14:25:36] [INFO] [T9]    ⬇  Classeur3.xlsx
+[2026-09-14 14:25:36] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : Classeur2.xlsx
+[2026-09-14 14:25:36] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Classeur3.xlsx
+[2026-09-14 14:25:37] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:37] [SUCCESS] [T16] ✅ Analyses Factures Packs 2024-11-26 1.xlsx - historique copie (6 version(s))
+[2026-09-14 14:25:37] [INFO] [12866/12908] EN FILE -> comparaison poc_prod.xlsx (23848 o)
+[2026-09-14 14:25:38] [INFO] [T16]    ⬇  comparaison poc_prod.xlsx
+[2026-09-14 14:25:38] [INFO] [T16]    ⬆  Rejeu de 2 version(s) : comparaison poc_prod.xlsx
+[2026-09-14 14:25:38] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:38] [SUCCESS] [T14] ✅ ChangementsSIRETs-v2 (1).xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:38] [INFO] [12867/12908] EN FILE -> Copie de Copie de Transcodif balises_textes.xlsx (32250 o)
+[2026-09-14 14:25:39] [INFO] [T14]    ⬇  Copie de Copie de Transcodif balises_textes.xlsx
+[2026-09-14 14:25:39] [INFO] [T14]    ⬆  Rejeu de 5 version(s) : Copie de Copie de Transcodif balises_textes.xlsx
+[2026-09-14 14:25:41] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:41] [SUCCESS] [T9] ✅ Classeur3.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:41] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:41] [SUCCESS] [T39] ✅ Classeur2.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:41] [INFO] [12868/12908] EN FILE -> D100124.doc (25600 o)
+[2026-09-14 14:25:41] [INFO] [12869/12908] EN FILE -> doc synchro chatpgpt.docx (40137 o)
+[2026-09-14 14:25:41] [INFO] [T39]    ⬇  D100124.doc
+[2026-09-14 14:25:41] [INFO] [T9]    ⬇  doc synchro chatpgpt.docx
+[2026-09-14 14:25:42] [INFO] [T9]    ⬆  Rejeu de 3 version(s) : doc synchro chatpgpt.docx
+[2026-09-14 14:25:42] [INFO] [T39]    ⬆  Rejeu de 2 version(s) : D100124.doc
+[2026-09-14 14:25:44] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:44] [SUCCESS] [T16] ✅ comparaison poc_prod.xlsx - historique copie (2 version(s))
+[2026-09-14 14:25:44] [INFO] [12870/12908] EN FILE -> EDB_monimail.docx (59418 o)
+[2026-09-14 14:25:44] [INFO] [T16]    ⬇  EDB_monimail.docx
+[2026-09-14 14:25:44] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : EDB_monimail.docx
+[2026-09-14 14:25:49] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:49] [SUCCESS] [T9] ✅ doc synchro chatpgpt.docx - historique copie (3 version(s))
+[2026-09-14 14:25:49] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:49] [SUCCESS] [T16] ✅ EDB_monimail.docx - historique copie (1 version(s))
+[2026-09-14 14:25:49] [INFO] [12871/12908] EN FILE -> errPub.csv (2556690 o)
+[2026-09-14 14:25:49] [INFO] [12872/12908] EN FILE -> export_licences.xlsx (17698 o)
+[2026-09-14 14:25:49] [INFO] [T16]    ⬇  errPub.csv
+[2026-09-14 14:25:49] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:49] [SUCCESS] [T14] ✅ Copie de Copie de Transcodif balises_textes.xlsx - historique copie (5 version(s))
+[2026-09-14 14:25:49] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:49] [SUCCESS] [T39] ✅ D100124.doc - historique copie (2 version(s))
+[2026-09-14 14:25:49] [INFO] [12873/12908] EN FILE -> FETHI @ Infopro Digital/Ouvrir le bloc-notes.onetoc2 (3197 o)
+[2026-09-14 14:25:49] [INFO] [12874/12908] EN FILE -> fethiGates -partie Sharepoint.docx (389443 o)
+[2026-09-14 14:25:49] [INFO] [T9]    ⬇  export_licences.xlsx
+[2026-09-14 14:25:49] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : errPub.csv
+[2026-09-14 14:25:49] [INFO] [T14]    ⬇  fethiGates -partie Sharepoint.docx
+[2026-09-14 14:25:50] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : export_licences.xlsx
+[2026-09-14 14:25:50] [SUCCESS] [T39] 📂 Dossier cree : FETHI @ Infopro Digital
+[2026-09-14 14:25:50] [INFO] [T39]    ⬇  FETHI @ Infopro Digital/Ouvrir le bloc-notes.onetoc2
+[2026-09-14 14:25:50] [INFO] [T14]    ⬆  Rejeu de 6 version(s) : fethiGates -partie Sharepoint.docx
+[2026-09-14 14:25:51] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : FETHI @ Infopro Digital/Ouvrir le bloc-notes.onetoc2
+[2026-09-14 14:25:54] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:54] [SUCCESS] [T9] ✅ export_licences.xlsx - historique copie (1 version(s))
+[2026-09-14 14:25:54] [INFO] [12875/12908] EN FILE -> Fethy @ Infopro Digital/Notes rapides 2.one (6016 o)
+[2026-09-14 14:25:54] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:54] [SUCCESS] [T16] ✅ errPub.csv - historique copie (1 version(s))
+[2026-09-14 14:25:54] [INFO] [12876/12908] EN FILE -> Fethy @ Infopro Digital/Notes rapides.one (113893 o)
+[2026-09-14 14:25:54] [SUCCESS] [T9] 📂 Dossier cree : Fethy @ Infopro Digital
+[2026-09-14 14:25:55] [INFO] [T9]    ⬇  Fethy @ Infopro Digital/Notes rapides 2.one
+[2026-09-14 14:25:55] [INFO] [T16]    ⬇  Fethy @ Infopro Digital/Notes rapides.one
+[2026-09-14 14:25:55] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:55] [SUCCESS] [T39] ✅ FETHI @ Infopro Digital/Ouvrir le bloc-notes.onetoc2 - historique copie (1 version(s))
+[2026-09-14 14:25:55] [INFO] [12877/12908] EN FILE -> Fethy @ Infopro Digital/Nouvelle section 1.one (26210 o)
+[2026-09-14 14:25:55] [INFO] [T16]    ⬆  Rejeu de 2 version(s) : Fethy @ Infopro Digital/Notes rapides.one
+[2026-09-14 14:25:55] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Fethy @ Infopro Digital/Notes rapides 2.one
+[2026-09-14 14:25:56] [INFO] [T39]    ⬇  Fethy @ Infopro Digital/Nouvelle section 1.one
+[2026-09-14 14:25:56] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : Fethy @ Infopro Digital/Nouvelle section 1.one
+[2026-09-14 14:25:59] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:25:59] [SUCCESS] [T9] ✅ Fethy @ Infopro Digital/Notes rapides 2.one - historique copie (1 version(s))
+[2026-09-14 14:25:59] [INFO] [12878/12908] EN FILE -> Fethy @ Infopro Digital/Open Notebook.onetoc2 (7025 o)
+[2026-09-14 14:26:00] [INFO] [T9]    ⬇  Fethy @ Infopro Digital/Open Notebook.onetoc2
+[2026-09-14 14:26:00] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Fethy @ Infopro Digital/Open Notebook.onetoc2
+[2026-09-14 14:26:01] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:01] [SUCCESS] [T39] ✅ Fethy @ Infopro Digital/Nouvelle section 1.one - historique copie (1 version(s))
+[2026-09-14 14:26:01] [INFO] [12879/12908] EN FILE -> Fethy @ Infopro Digital/Retrodoc- priorité avant le 15 juillet.one (44580 o)
+[2026-09-14 14:26:01] [INFO] [T39]    ⬇  Fethy @ Infopro Digital/Retrodoc- priorité avant le 15 juillet.one
+[2026-09-14 14:26:02] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : Fethy @ Infopro Digital/Retrodoc- priorité avant le 15 juillet.one
+[2026-09-14 14:26:02] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:02] [SUCCESS] [T16] ✅ Fethy @ Infopro Digital/Notes rapides.one - historique copie (2 version(s))
+[2026-09-14 14:26:02] [INFO] [12880/12908] EN FILE -> flux nouveau serveur monimail.xlsx (11911 o)
+[2026-09-14 14:26:03] [INFO] [T16]    ⬇  flux nouveau serveur monimail.xlsx
+[2026-09-14 14:26:03] [INFO] [T16]    ⬆  Rejeu de 2 version(s) : flux nouveau serveur monimail.xlsx
+[2026-09-14 14:26:03] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:03] [SUCCESS] [T14] ✅ fethiGates -partie Sharepoint.docx - historique copie (6 version(s))
+[2026-09-14 14:26:03] [INFO] [12881/12908] EN FILE -> id_facture.csv (1904749 o)
+[2026-09-14 14:26:03] [INFO] [T14]    ⬇  id_facture.csv
+[2026-09-14 14:26:03] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : id_facture.csv
+[2026-09-14 14:26:04] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:04] [SUCCESS] [T9] ✅ Fethy @ Infopro Digital/Open Notebook.onetoc2 - historique copie (1 version(s))
+[2026-09-14 14:26:04] [INFO] [12882/12908] EN FILE -> identité_a_rattrapé.csv (88244 o)
+[2026-09-14 14:26:05] [INFO] [T9]    ⬇  identité_a_rattrapé.csv
+[2026-09-14 14:26:05] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : identité_a_rattrapé.csv
+[2026-09-14 14:26:06] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:06] [SUCCESS] [T39] ✅ Fethy @ Infopro Digital/Retrodoc- priorité avant le 15 juillet.one - historique copie (1 version(s))
+[2026-09-14 14:26:06] [INFO] [12883/12908] EN FILE -> insert into sqlserver semaine.xlsx (21611 o)
+[2026-09-14 14:26:06] [INFO] [T39]    ⬇  insert into sqlserver semaine.xlsx
+[2026-09-14 14:26:07] [INFO] [T39]    ⬆  Rejeu de 2 version(s) : insert into sqlserver semaine.xlsx
+[2026-09-14 14:26:08] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:08] [SUCCESS] [T14] ✅ id_facture.csv - historique copie (1 version(s))
+[2026-09-14 14:26:08] [INFO] [12884/12908] EN FILE -> liste_ID_Stephane.csv (1979933 o)
+[2026-09-14 14:26:08] [INFO] [T14]    ⬇  liste_ID_Stephane.csv
+[2026-09-14 14:26:09] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : liste_ID_Stephane.csv
+[2026-09-14 14:26:09] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:09] [SUCCESS] [T16] ✅ flux nouveau serveur monimail.xlsx - historique copie (2 version(s))
+[2026-09-14 14:26:09] [INFO] [12885/12908] EN FILE -> LISTE_OBJETS_TMP.csv (2660559 o)
+[2026-09-14 14:26:09] [INFO] [T16]    ⬇  LISTE_OBJETS_TMP.csv
+[2026-09-14 14:26:09] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:09] [SUCCESS] [T9] ✅ identité_a_rattrapé.csv - historique copie (1 version(s))
+[2026-09-14 14:26:09] [INFO] [12886/12908] EN FILE -> LISTE_OBJETS_TMP.xlsx (1467735 o)
+[2026-09-14 14:26:10] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : LISTE_OBJETS_TMP.csv
+[2026-09-14 14:26:10] [INFO] [T9]    ⬇  LISTE_OBJETS_TMP.xlsx
+[2026-09-14 14:26:10] [INFO] [T9]    ⬆  Rejeu de 3 version(s) : LISTE_OBJETS_TMP.xlsx
+[2026-09-14 14:26:13] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:13] [SUCCESS] [T14] ✅ liste_ID_Stephane.csv - historique copie (1 version(s))
+[2026-09-14 14:26:13] [INFO] [12887/12908] EN FILE -> matrice de flux.xlsx (11387 o)
+[2026-09-14 14:26:13] [INFO] [T14]    ⬇  matrice de flux.xlsx
+[2026-09-14 14:26:14] [INFO] [T14]    ⬆  Rejeu de 2 version(s) : matrice de flux.xlsx
+[2026-09-14 14:26:14] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:14] [SUCCESS] [T39] ✅ insert into sqlserver semaine.xlsx - historique copie (2 version(s))
+[2026-09-14 14:26:14] [INFO] [12888/12908] EN FILE -> mep pouky.xlsx (10316 o)
+[2026-09-14 14:26:14] [INFO] [T39]    ⬇  mep pouky.xlsx
+[2026-09-14 14:26:14] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:14] [SUCCESS] [T16] ✅ LISTE_OBJETS_TMP.csv - historique copie (1 version(s))
+[2026-09-14 14:26:14] [INFO] [T39]    ⬆  Rejeu de 4 version(s) : mep pouky.xlsx
+[2026-09-14 14:26:14] [INFO] [12889/12908] EN FILE -> mise à jour du code rum.xlsx (11499 o)
+[2026-09-14 14:26:14] [INFO] [T16]    ⬇  mise à jour du code rum.xlsx
+[2026-09-14 14:26:15] [INFO] [T16]    ⬆  Rejeu de 4 version(s) : mise à jour du code rum.xlsx
+[2026-09-14 14:26:19] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:19] [SUCCESS] [T9] ✅ LISTE_OBJETS_TMP.xlsx - historique copie (3 version(s))
+[2026-09-14 14:26:19] [INFO] [12890/12908] EN FILE -> mise_a_jour_des_seuils.xlsx (7919865 o)
+[2026-09-14 14:26:19] [INFO] [T9]    ⬇  mise_a_jour_des_seuils.xlsx
+[2026-09-14 14:26:19] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : mise_a_jour_des_seuils.xlsx
+[2026-09-14 14:26:20] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:20] [SUCCESS] [T14] ✅ matrice de flux.xlsx - historique copie (2 version(s))
+[2026-09-14 14:26:20] [INFO] [12891/12908] EN FILE -> Modele_CRA_juillet_2021.xlsx (53340 o)
+[2026-09-14 14:26:20] [INFO] [T14]    ⬇  Modele_CRA_juillet_2021.xlsx
+[2026-09-14 14:26:21] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : Modele_CRA_juillet_2021.xlsx
+[2026-09-14 14:26:23] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:23] [SUCCESS] [T39] ✅ mep pouky.xlsx - historique copie (4 version(s))
+[2026-09-14 14:26:23] [INFO] [12892/12908] EN FILE -> Monimail new.docx (19516 o)
+[2026-09-14 14:26:23] [INFO] [T39]    ⬇  Monimail new.docx
+[2026-09-14 14:26:24] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : Monimail new.docx
+[2026-09-14 14:26:24] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:24] [SUCCESS] [T16] ✅ mise à jour du code rum.xlsx - historique copie (4 version(s))
+[2026-09-14 14:26:24] [INFO] [12893/12908] EN FILE -> netoyage order.xlsx (398901 o)
+[2026-09-14 14:26:24] [INFO] [T16]    ⬇  netoyage order.xlsx
+[2026-09-14 14:26:24] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : netoyage order.xlsx
+[2026-09-14 14:26:25] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:25] [SUCCESS] [T9] ✅ mise_a_jour_des_seuils.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:25] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:25] [SUCCESS] [T14] ✅ Modele_CRA_juillet_2021.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:25] [INFO] [12894/12908] EN FILE -> OneDrive - Infopro Digital - Raccourci.lnk (878 o)
+[2026-09-14 14:26:25] [INFO] [12895/12908] EN FILE -> Order MAJ 30-07.csv (197831 o)
+[2026-09-14 14:26:25] [INFO] [T14]    ⬇  OneDrive - Infopro Digital - Raccourci.lnk
+[2026-09-14 14:26:25] [INFO] [T9]    ⬇  Order MAJ 30-07.csv
+[2026-09-14 14:26:25] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : OneDrive - Infopro Digital - Raccourci.lnk
+[2026-09-14 14:26:25] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Order MAJ 30-07.csv
+[2026-09-14 14:26:28] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:28] [SUCCESS] [T39] ✅ Monimail new.docx - historique copie (1 version(s))
+[2026-09-14 14:26:28] [INFO] [12896/12908] EN FILE -> Pop up bloqué dans SIMNET.docx (171366 o)
+[2026-09-14 14:26:28] [INFO] [T39]    ⬇  Pop up bloqué dans SIMNET.docx
+[2026-09-14 14:26:29] [INFO] [T39]    ⬆  Rejeu de 2 version(s) : Pop up bloqué dans SIMNET.docx
+[2026-09-14 14:26:30] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:30] [SUCCESS] [T9] ✅ Order MAJ 30-07.csv - historique copie (1 version(s))
+[2026-09-14 14:26:30] [INFO] [12897/12908] EN FILE -> publications_brute.xlsx (8939320 o)
+[2026-09-14 14:26:30] [INFO] [T9]    ⬇  publications_brute.xlsx
+[2026-09-14 14:26:31] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : publications_brute.xlsx
+[2026-09-14 14:26:32] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:32] [SUCCESS] [T16] ✅ netoyage order.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:32] [INFO] [12898/12908] EN FILE -> Recette problème de support AO.docx (13905 o)
+[2026-09-14 14:26:33] [INFO] [T16]    ⬇  Recette problème de support AO.docx
+[2026-09-14 14:26:33] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:33] [SUCCESS] [T14] ✅ OneDrive - Infopro Digital - Raccourci.lnk - historique copie (1 version(s))
+[2026-09-14 14:26:33] [INFO] [T16]    ⬆  Rejeu de 3 version(s) : Recette problème de support AO.docx
+[2026-09-14 14:26:33] [INFO] [12899/12908] EN FILE -> régle de simx_AO_pub.docx (12637 o)
+[2026-09-14 14:26:33] [INFO] [T14]    ⬇  régle de simx_AO_pub.docx
+[2026-09-14 14:26:34] [INFO] [T14]    ⬆  Rejeu de 2 version(s) : régle de simx_AO_pub.docx
+[2026-09-14 14:26:35] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:35] [SUCCESS] [T39] ✅ Pop up bloqué dans SIMNET.docx - historique copie (2 version(s))
+[2026-09-14 14:26:35] [INFO] [12900/12908] EN FILE -> rejet avis 02-08-2024.xlsx (22408 o)
+[2026-09-14 14:26:35] [INFO] [T39]    ⬇  rejet avis 02-08-2024.xlsx
+[2026-09-14 14:26:35] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:35] [SUCCESS] [T9] ✅ publications_brute.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:35] [INFO] [12901/12908] EN FILE -> résultat facture.xlsx (118496 o)
+[2026-09-14 14:26:35] [INFO] [T39]    ⬆  Rejeu de 1 version(s) : rejet avis 02-08-2024.xlsx
+[2026-09-14 14:26:35] [INFO] [T9]    ⬇  résultat facture.xlsx
+[2026-09-14 14:26:36] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : résultat facture.xlsx
+[2026-09-14 14:26:40] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:40] [SUCCESS] [T9] ✅ résultat facture.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:40] [INFO] [12902/12908] EN FILE -> Retour_analyse_Facture.xlsx (22534 o)
+[2026-09-14 14:26:40] [INFO] [T9]    ⬇  Retour_analyse_Facture.xlsx
+[2026-09-14 14:26:40] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:40] [SUCCESS] [T16] ✅ Recette problème de support AO.docx - historique copie (3 version(s))
+[2026-09-14 14:26:40] [INFO] [12903/12908] EN FILE -> suivi_market_2023.xlsx (19022 o)
+[2026-09-14 14:26:40] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:40] [SUCCESS] [T39] ✅ rejet avis 02-08-2024.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:40] [INFO] [12904/12908] EN FILE -> suport_monimail.xlsx (9331 o)
+[2026-09-14 14:26:41] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : Retour_analyse_Facture.xlsx
+[2026-09-14 14:26:41] [INFO] [T39]    ⬇  suivi_market_2023.xlsx
+[2026-09-14 14:26:41] [INFO] [T16]    ⬇  suport_monimail.xlsx
+[2026-09-14 14:26:41] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:41] [SUCCESS] [T14] ✅ régle de simx_AO_pub.docx - historique copie (2 version(s))
+[2026-09-14 14:26:41] [INFO] [12905/12908] EN FILE -> Téléchargements - Raccourci.lnk (917 o)
+[2026-09-14 14:26:41] [INFO] [T39]    ⬆  Rejeu de 3 version(s) : suivi_market_2023.xlsx
+[2026-09-14 14:26:41] [INFO] [T14]    ⬇  Téléchargements - Raccourci.lnk
+[2026-09-14 14:26:41] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : suport_monimail.xlsx
+[2026-09-14 14:26:42] [INFO] [T14]    ⬆  Rejeu de 1 version(s) : Téléchargements - Raccourci.lnk
+[2026-09-14 14:26:45] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:45] [SUCCESS] [T9] ✅ Retour_analyse_Facture.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:45] [INFO] [12906/12908] EN FILE -> test.xlsx (55035 o)
+[2026-09-14 14:26:45] [INFO] [T9]    ⬇  test.xlsx
+[2026-09-14 14:26:45] [INFO] [T9]    ⬆  Rejeu de 1 version(s) : test.xlsx
+[2026-09-14 14:26:45] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:45] [SUCCESS] [T16] ✅ suport_monimail.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:45] [INFO] [12907/12908] EN FILE -> update_delete_order.xlsx (1925896 o)
+[2026-09-14 14:26:46] [INFO] [T16]    ⬇  update_delete_order.xlsx
+[2026-09-14 14:26:46] [INFO] [T16]    ⬆  Rejeu de 1 version(s) : update_delete_order.xlsx
+[2026-09-14 14:26:46] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:46] [SUCCESS] [T14] ✅ Téléchargements - Raccourci.lnk - historique copie (1 version(s))
+[2026-09-14 14:26:46] [INFO] [12908/12908] EN FILE -> vérifications de procédure de reporting.docx (110985 o)
+[2026-09-14 14:26:46] [INFO] [T14]    ⬇  vérifications de procédure de reporting.docx
+[2026-09-14 14:26:47] [INFO] [T14]    ⬆  Rejeu de 6 version(s) : vérifications de procédure de reporting.docx
+[2026-09-14 14:26:48] [INFO] [T39] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:48] [SUCCESS] [T39] ✅ suivi_market_2023.xlsx - historique copie (3 version(s))
+[2026-09-14 14:26:49] [INFO] [T9] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:49] [SUCCESS] [T9] ✅ test.xlsx - historique copie (1 version(s))
+[2026-09-14 14:26:50] [INFO] [T16] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:26:50] [SUCCESS] [T16] ✅ update_delete_order.xlsx - historique copie (1 version(s))
+[2026-09-14 14:27:00] [INFO] [T14] Restauration auteur version: tentative via SharePoint VVI terminee (voir logs vN pour le detail).
+[2026-09-14 14:27:00] [SUCCESS] [T14] ✅ vérifications de procédure de reporting.docx - historique copie (6 version(s))
+[2026-09-14 14:27:00] [INFO] Parallele termine : 61 fichier(s) termine(s), 1 echec(s).
+[2026-09-14 14:27:00] [WARN] Migration avec erreur(s) : l'etat de reprise est conserve.
+[2026-09-14 14:27:00] [SUCCESS] === MIGRATION LIGNE 1 TERMINEE ===
+[2026-09-14 14:27:00] [INFO] Total   : 12908 fichier(s)
+[2026-09-14 14:27:00] [INFO] Erreurs : 1
+[2026-09-14 14:27:00] [SUCCESS] ============================================
+[2026-09-14 14:27:01] [SUCCESS] === TOUTES LES MIGRATIONS TERMINEES ===
+[2026-09-14 14:27:01] [INFO] Total lignes  : 1
+[2026-09-14 14:27:01] [INFO] Succes        : 1
+[2026-09-14 14:27:01] [INFO] Echecs        : 0
+[2026-09-14 14:27:01] [SUCCESS] ============================================
+[2026-09-14 14:27:01] [INFO] Metadonnees versions exportees : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Versions_2026-09-14_141641.csv
+[2026-09-14 14:27:01] [WARN] 1 erreur(s) : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Errors_2026-09-14_141641.csv
+[2026-09-14 14:27:01] [INFO] Log : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Copy_2026-09-14_141641.log

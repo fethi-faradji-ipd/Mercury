@@ -1,0 +1,4 @@
+﻿2026-09-15 09:39:09Z [INFO] fethy.faradji@infopro-digital.com -> UserMercury@infopro-digital.com : initialisation (incremental).
+2026-09-15 09:39:11Z [ERROR] ligne_1 [migration] Champ metier non pris en charge automatiquement : A2ODRemoteItemListId (Guid). Mapping specifique requis avant migration.
+2026-09-15 09:39:11Z [INFO] PARTIEL/ECHEC : 0 fichiers examines, 0 transferts, 1 erreurs, 0.03 min, 10 requetes, 0 retries.
+2026-09-15 09:39:11Z [INFO] Rapports : C:\Users\ffaradji-op\Desktop\Mercury script powershell\onedrive\OneDrive_Logs\OneDrive_20260915_113909_cff74bc4

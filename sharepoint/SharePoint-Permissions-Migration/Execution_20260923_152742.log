@@ -1,0 +1,60 @@
+**********************
+PowerShell transcript start
+Start time: 20260923152742
+Username: INFO\ffaradji-op
+RunAs User: INFO\ffaradji-op
+Configuration Name: 
+Machine: VIT-V-DWSD (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -NonInteractive -ExecutionPolicy Bypass -File C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\droitscustome.ps1
+Process ID: 11820
+PSVersion: 7.5.0
+PSEdition: Core
+GitCommitId: 7.5.0
+OS: Microsoft Windows 10.0.17763
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    MIGRATION DES DROITS SHAREPOINT NON NATIFS (CROSS-TENANT)
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    PowerShell 7.5.0 - PnP.PowerShell 3.4.1 - hote : ConsoleHost
+15:27:42 [+00:00:00] INFO    Script    : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\droitscustome.ps1
+15:27:42 [+00:00:00] INFO    Rapports  : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration
+15:27:42 [+00:00:00] INFO    Suivi     : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\Suivi_20260923_152742.log
+15:27:42 [+00:00:00] INFO    Mode      : SIMULATION (aucune modification)
+15:27:42 [+00:00:00] INFO    Options   : ReplaceUniquePermissions=False, IncludeHiddenLists=False, SkipItemPermissions=False, InviteMissingUsers=False, IncludeAssociatedGroupAssignments=True, MigrateEveryoneClaims=False, LogLevel=Detail
+15:27:42 [+00:00:00] INFO    Domaines  : (aucune correspondance)
+15:27:42 [+00:00:00] STEP
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    ETAPE 1/5 : Verification de la configuration et connexion au site source
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    Source : https://infoprodigital365.sharepoint.com/sites/fethygate (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+15:27:42 [+00:00:00] INFO    Cible  : https://infoprodigital365.sharepoint.com/sites/fethiMercury (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+PS>TerminatingError(): "SourceClientId et TargetClientId doivent correspondre a deux applications distinctes."
+15:27:42 [+00:00:00] ERROR   [General][Error] Execution interrompue : SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] ERROR   ==================== ERREUR ====================
+15:27:42 [+00:00:00] ERROR   SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] ERROR   Ligne 1708 : throw 'SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.'
+15:27:42 [+00:00:00] ERROR   ================================================
+15:27:42 [+00:00:00] SUCCESS Fin de l'etape 'Verification de la configuration et connexion au site source' en 00:00:00
+15:27:42 [+00:00:00] STEP
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] STEP    RESUME - duree totale 00:00:00 - mode SIMULATION
+15:27:42 [+00:00:00] STEP    ======================================================================
+15:27:42 [+00:00:00] INFO    General, Error                                1
+15:27:42 [+00:00:00] ERROR   Erreurs : 1
+15:27:42 [+00:00:00] ERROR     - [General] Execution interrompue -  : SourceClientId et TargetClientId doivent correspondre a deux applications distinctes.
+15:27:42 [+00:00:00] SUCCESS Principaux non resolus : 0 (voir UnresolvedPrincipals.csv)
+
+Rapports (1 erreur(s), 0 principal(aux) non resolu(s)) :
+- C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\MigrationLog.csv
+- C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\UnresolvedPrincipals.csv
+- C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\Invitations.csv
+15:27:42 [+00:00:00] INFO    Journal de suivi : C:\Users\ffaradji-op\Desktop\Mercury script powershell\sharepoint\SharePoint-Permissions-Migration\Suivi_20260923_152742.log
+**********************
+PowerShell transcript end
+End time: 20260923152742
+**********************

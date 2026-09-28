@@ -1,0 +1,13 @@
+﻿[2026-07-08 17:09:27] [INFO] =========================================
+[2026-07-08 17:09:27] [SUCCESS] === COPIE SHAREPOINT + PERMISSIONS ===
+[2026-07-08 17:09:27] [INFO] Version: 9.0
+[2026-07-08 17:09:27] [SUCCESS] Traductions chargées: 1
+[2026-07-08 17:09:27] [SUCCESS] Mappages chargés: ID=3, Name=3
+[2026-07-08 17:09:27] [INFO] Authentification...
+[2026-07-08 17:09:28] [INFO] Résolution sites/drives...
+[2026-07-08 17:09:28] [SUCCESS] Sites/drives résolus
+[2026-07-08 17:09:28] [SUCCESS] Lignes CSV: 1938
+[2026-07-08 17:09:28] [SUCCESS] Chemins uniques: 333
+[2026-07-08 17:09:28] [INFO] Traitement: /Audit_user_gmail.xlsx
+[2026-07-08 17:09:28] [ERROR] Erreur fatale: Exception lors de l'appel de « Replace » avec « 2 » argument(s) : « La longueur de la chaîne ne peut pas être égale à zéro.
+Nom du paramètre : oldValue »
