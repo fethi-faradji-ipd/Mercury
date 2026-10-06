@@ -1,754 +1,754 @@
-﻿
-[2026-10-05 13:50:36][INFO] Demarrage scan SharePoint -> fichiers (C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Discovery)
-[2026-10-05 13:50:36][INFO] Connexion au site SharePoint
-[2026-10-05 13:50:36][INFO] Listes et bibliotheques trouvees: 4
-[2026-10-05 13:50:36][DEBUG] Liste ignoree: _catalogs/wte
-[2026-10-05 13:50:36][INFO] Traitement bibliotheque: test (template documentLibrary)
-[2026-10-05 13:50:37][DEBUG] Lecture enfants: parent=test/
-[2026-10-05 13:50:37][DEBUG] Permissions detectees: item=test/publish/, perms=5, roles=5
-[2026-10-05 13:50:37][DEBUG] Lecture enfants: parent=test/publish/
-[2026-10-05 13:50:38][DEBUG] Permissions detectees: item=test/publish/cs/, perms=5, roles=5
-[2026-10-05 13:50:38][DEBUG] Lecture enfants: parent=test/publish/cs/
-[2026-10-05 13:50:38][DEBUG] Permissions detectees: item=test/publish/cs/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:38][DEBUG] Permissions detectees: item=test/publish/de/, perms=5, roles=5
-[2026-10-05 13:50:38][DEBUG] Lecture enfants: parent=test/publish/de/
-[2026-10-05 13:50:39][DEBUG] Permissions detectees: item=test/publish/de/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:39][DEBUG] Permissions detectees: item=test/publish/es/, perms=5, roles=5
-[2026-10-05 13:50:39][DEBUG] Lecture enfants: parent=test/publish/es/
-[2026-10-05 13:50:39][DEBUG] Permissions detectees: item=test/publish/es/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:39][DEBUG] Permissions detectees: item=test/publish/fr/, perms=5, roles=5
-[2026-10-05 13:50:39][DEBUG] Lecture enfants: parent=test/publish/fr/
-[2026-10-05 13:50:40][DEBUG] Permissions detectees: item=test/publish/fr/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:40][DEBUG] Permissions detectees: item=test/publish/it/, perms=5, roles=5
-[2026-10-05 13:50:40][DEBUG] Lecture enfants: parent=test/publish/it/
-[2026-10-05 13:50:40][DEBUG] Permissions detectees: item=test/publish/it/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:40][DEBUG] Permissions detectees: item=test/publish/ja/, perms=5, roles=5
-[2026-10-05 13:50:40][DEBUG] Lecture enfants: parent=test/publish/ja/
-[2026-10-05 13:50:41][DEBUG] Permissions detectees: item=test/publish/ja/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:41][DEBUG] Permissions detectees: item=test/publish/ko/, perms=5, roles=5
-[2026-10-05 13:50:41][DEBUG] Lecture enfants: parent=test/publish/ko/
-[2026-10-05 13:50:41][DEBUG] Permissions detectees: item=test/publish/ko/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:41][DEBUG] Permissions detectees: item=test/publish/pl/, perms=5, roles=5
-[2026-10-05 13:50:41][DEBUG] Lecture enfants: parent=test/publish/pl/
-[2026-10-05 13:50:42][DEBUG] Permissions detectees: item=test/publish/pl/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:42][DEBUG] Permissions detectees: item=test/publish/pt-BR/, perms=5, roles=5
-[2026-10-05 13:50:42][DEBUG] Lecture enfants: parent=test/publish/pt-BR/
-[2026-10-05 13:50:42][DEBUG] Permissions detectees: item=test/publish/pt-BR/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:42][DEBUG] Permissions detectees: item=test/publish/ru/, perms=5, roles=5
-[2026-10-05 13:50:42][DEBUG] Lecture enfants: parent=test/publish/ru/
-[2026-10-05 13:50:43][DEBUG] Permissions detectees: item=test/publish/ru/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:43][DEBUG] Permissions detectees: item=test/publish/runtimes/, perms=5, roles=5
-[2026-10-05 13:50:43][DEBUG] Lecture enfants: parent=test/publish/runtimes/
-[2026-10-05 13:50:43][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/, perms=5, roles=5
-[2026-10-05 13:50:43][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/
-[2026-10-05 13:50:44][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/, perms=5, roles=5
-[2026-10-05 13:50:44][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/lib/
-[2026-10-05 13:50:44][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/, perms=5, roles=5
-[2026-10-05 13:50:44][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/lib/net8.0/
-[2026-10-05 13:50:44][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:44][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:45][DEBUG] Permissions detectees: item=test/publish/runtimes/win/, perms=5, roles=5
-[2026-10-05 13:50:45][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/
-[2026-10-05 13:50:45][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/, perms=5, roles=5
-[2026-10-05 13:50:45][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/lib/
-[2026-10-05 13:50:45][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/, perms=5, roles=5
-[2026-10-05 13:50:45][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/lib/net8.0/
-[2026-10-05 13:50:46][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:46][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:46][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll, perms=5, roles=5
-[2026-10-05 13:50:46][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll, perms=5, roles=5
-[2026-10-05 13:50:46][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/, perms=5, roles=5
-[2026-10-05 13:50:46][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-arm64/
-[2026-10-05 13:50:47][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/, perms=5, roles=5
-[2026-10-05 13:50:47][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-arm64/native/
-[2026-10-05 13:50:47][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
-[2026-10-05 13:50:47][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/sni.dll, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x64/
-[2026-10-05 13:50:48][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x64/native/
-[2026-10-05 13:50:48][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/sni.dll, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/, perms=5, roles=5
-[2026-10-05 13:50:48][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x86/
-[2026-10-05 13:50:49][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/, perms=5, roles=5
-[2026-10-05 13:50:49][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x86/native/
-[2026-10-05 13:50:49][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
-[2026-10-05 13:50:49][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/sni.dll, perms=5, roles=5
-[2026-10-05 13:50:49][DEBUG] Permissions detectees: item=test/publish/tr/, perms=5, roles=5
-[2026-10-05 13:50:49][DEBUG] Lecture enfants: parent=test/publish/tr/
-[2026-10-05 13:50:50][DEBUG] Permissions detectees: item=test/publish/tr/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:50][DEBUG] Permissions detectees: item=test/publish/zh-Hans/, perms=5, roles=5
-[2026-10-05 13:50:50][DEBUG] Lecture enfants: parent=test/publish/zh-Hans/
-[2026-10-05 13:50:50][DEBUG] Permissions detectees: item=test/publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:50][DEBUG] Permissions detectees: item=test/publish/zh-Hant/, perms=5, roles=5
-[2026-10-05 13:50:50][DEBUG] Lecture enfants: parent=test/publish/zh-Hant/
-[2026-10-05 13:50:51][DEBUG] Permissions detectees: item=test/publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
-[2026-10-05 13:50:51][DEBUG] Permissions detectees: item=test/publish/appsettings.Development.json, perms=5, roles=5
-[2026-10-05 13:50:51][DEBUG] Permissions detectees: item=test/publish/appsettings.json, perms=5, roles=5
-[2026-10-05 13:50:51][DEBUG] Permissions detectees: item=test/publish/Azure.Core.dll, perms=5, roles=5
-[2026-10-05 13:50:51][DEBUG] Permissions detectees: item=test/publish/Azure.Identity.dll, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.deps.json, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.dll, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.exe, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.pdb, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.runtimeconfig.json, perms=5, roles=5
-[2026-10-05 13:50:52][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.staticwebassets.endpoints.json, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Dapper.dll, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Microsoft.Bcl.AsyncInterfaces.dll, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Microsoft.Bcl.Cryptography.dll, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Microsoft.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Caching.Memory.dll, perms=5, roles=5
-[2026-10-05 13:50:53][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Logging.Abstractions.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Options.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.Identity.Client.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.Identity.Client.Extensions.Msal.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Abstractions.dll, perms=5, roles=5
-[2026-10-05 13:50:54][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.JsonWebTokens.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Logging.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Protocols.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Tokens.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.OpenApi.dll, perms=5, roles=5
-[2026-10-05 13:50:55][DEBUG] Permissions detectees: item=test/publish/Microsoft.SqlServer.Server.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.Swagger.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.SwaggerGen.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.SwaggerUI.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/System.ClientModel.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/System.Configuration.ConfigurationManager.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/System.Data.SqlClient.dll, perms=5, roles=5
-[2026-10-05 13:50:56][DEBUG] Permissions detectees: item=test/publish/System.Diagnostics.EventLog.dll, perms=5, roles=5
-[2026-10-05 13:50:57][DEBUG] Permissions detectees: item=test/publish/System.IdentityModel.Tokens.Jwt.dll, perms=5, roles=5
-[2026-10-05 13:50:57][DEBUG] Permissions detectees: item=test/publish/System.Memory.Data.dll, perms=5, roles=5
-[2026-10-05 13:50:57][DEBUG] Permissions detectees: item=test/publish/System.Security.Cryptography.Pkcs.dll, perms=5, roles=5
-[2026-10-05 13:50:57][DEBUG] Permissions detectees: item=test/publish/System.Security.Cryptography.ProtectedData.dll, perms=5, roles=5
-[2026-10-05 13:50:57][DEBUG] Permissions detectees: item=test/publish/web.config, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/exemple_extraction_Computers.csv, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/export_AVIS.xlsx, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/export_utilisateurs_licences.csv, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/fichiers_comparison.csv, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/id_avis_import.csv, perms=5, roles=5
-[2026-10-05 13:50:58][DEBUG] Permissions detectees: item=test/SharePoint_source_202508081126.csv, perms=5, roles=5
-[2026-10-05 13:50:59][DEBUG] Permissions detectees: item=test/v_computers_ad_202503241534.csv, perms=5, roles=5
-[2026-10-05 13:50:59][DEBUG] Permissions detectees: item=test/v_computers_ad_202503241534.xlsx, perms=5, roles=5
-[2026-10-05 13:50:59][INFO] Traitement bibliotheque: Documents partages (template documentLibrary)
-[2026-10-05 13:50:59][DEBUG] Lecture enfants: parent=Documents partages/
-[2026-10-05 13:51:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/, perms=6, roles=6
-[2026-10-05 13:51:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/
-[2026-10-05 13:51:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/, perms=6, roles=6
-[2026-10-05 13:51:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/
-[2026-10-05 13:51:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/, perms=6, roles=6
-[2026-10-05 13:51:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/
-[2026-10-05 13:51:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/, perms=6, roles=6
-[2026-10-05 13:51:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/
-[2026-10-05 13:51:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/, perms=6, roles=6
-[2026-10-05 13:51:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/
-[2026-10-05 13:51:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/, perms=6, roles=6
-[2026-10-05 13:51:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/
-[2026-10-05 13:51:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/, perms=6, roles=6
-[2026-10-05 13:51:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/
-[2026-10-05 13:51:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Br�sil/, perms=6, roles=6
-[2026-10-05 13:51:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Br�sil/
-[2026-10-05 13:51:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/, perms=6, roles=6
-[2026-10-05 13:51:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/
-[2026-10-05 13:51:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Cor�e du Sud/, perms=6, roles=6
-[2026-10-05 13:51:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Cor�e du Sud/
-[2026-10-05 13:51:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/, perms=6, roles=6
-[2026-10-05 13:51:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/
-[2026-10-05 13:51:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/, perms=6, roles=6
-[2026-10-05 13:51:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/
-[2026-10-05 13:51:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/, perms=6, roles=6
-[2026-10-05 13:51:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/
-[2026-10-05 13:51:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/, perms=6, roles=6
-[2026-10-05 13:51:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/
-[2026-10-05 13:51:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/, perms=6, roles=6
-[2026-10-05 13:51:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/
-[2026-10-05 13:51:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/, perms=6, roles=6
-[2026-10-05 13:51:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/
-[2026-10-05 13:51:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/, perms=6, roles=6
-[2026-10-05 13:51:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/
-[2026-10-05 13:51:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/, perms=6, roles=6
-[2026-10-05 13:51:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/
-[2026-10-05 13:51:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/, perms=6, roles=6
-[2026-10-05 13:51:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/
-[2026-10-05 13:51:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/, perms=6, roles=6
-[2026-10-05 13:51:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/
-[2026-10-05 13:51:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/, perms=6, roles=6
-[2026-10-05 13:51:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/
-[2026-10-05 13:51:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/, perms=6, roles=6
-[2026-10-05 13:51:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/
-[2026-10-05 13:51:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/, perms=6, roles=6
-[2026-10-05 13:51:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/
-[2026-10-05 13:51:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/, perms=6, roles=6
-[2026-10-05 13:51:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/
-[2026-10-05 13:51:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/, perms=6, roles=6
-[2026-10-05 13:51:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/
-[2026-10-05 13:51:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Su�de/, perms=6, roles=6
-[2026-10-05 13:51:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Su�de/
-[2026-10-05 13:51:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/, perms=6, roles=6
-[2026-10-05 13:51:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/
-[2026-10-05 13:51:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/, perms=6, roles=6
-[2026-10-05 13:51:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/
-[2026-10-05 13:51:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/, perms=6, roles=6
-[2026-10-05 13:51:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/
-[2026-10-05 13:51:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/, perms=6, roles=6
-[2026-10-05 13:51:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/
-[2026-10-05 13:51:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/, perms=6, roles=6
-[2026-10-05 13:51:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/
-[2026-10-05 13:51:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/, perms=6, roles=6
-[2026-10-05 13:51:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/
-[2026-10-05 13:51:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/
-[2026-10-05 13:51:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/, perms=6, roles=6
-[2026-10-05 13:51:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/
-[2026-10-05 13:51:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches th�matiques/, perms=6, roles=6
-[2026-10-05 13:51:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches th�matiques/
-[2026-10-05 13:51:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/, perms=6, roles=6
-[2026-10-05 13:51:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/
-[2026-10-05 13:51:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/, perms=6, roles=6
-[2026-10-05 13:51:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/
-[2026-10-05 13:51:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/, perms=6, roles=6
-[2026-10-05 13:51:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/
-[2026-10-05 13:51:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/, perms=6, roles=6
-[2026-10-05 13:51:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/
-[2026-10-05 13:51:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/, perms=6, roles=6
-[2026-10-05 13:51:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/
-[2026-10-05 13:51:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/S�curit� au travail/, perms=6, roles=6
-[2026-10-05 13:51:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/S�curit� au travail/
-[2026-10-05 13:51:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/
-[2026-10-05 13:51:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/, perms=6, roles=6
-[2026-10-05 13:51:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/
-[2026-10-05 13:51:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et proc�dures/, perms=6, roles=6
-[2026-10-05 13:51:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et proc�dures/
-[2026-10-05 13:51:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/, perms=6, roles=6
-[2026-10-05 13:51:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/
-[2026-10-05 13:51:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Th�matiques/, perms=6, roles=6
-[2026-10-05 13:51:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Th�matiques/
-[2026-10-05 13:51:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/, perms=6, roles=6
-[2026-10-05 13:51:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/
-[2026-10-05 13:51:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/A-Suivi prod/, perms=6, roles=6
-[2026-10-05 13:51:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/A-Suivi prod/
-[2026-10-05 13:51:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/B-Clients/, perms=6, roles=6
-[2026-10-05 13:51:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/B-Clients/
-[2026-10-05 13:51:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/C-Services/, perms=6, roles=6
-[2026-10-05 13:51:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/C-Services/
-[2026-10-05 13:51:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/D-Projets/, perms=6, roles=6
-[2026-10-05 13:51:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/D-Projets/
-[2026-10-05 13:51:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/ZZ-Archives/
-[2026-10-05 13:51:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/, perms=6, roles=6
-[2026-10-05 13:51:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/
-[2026-10-05 13:51:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/, perms=6, roles=6
-[2026-10-05 13:51:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/
-[2026-10-05 13:51:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/T�l�phone/, perms=6, roles=6
-[2026-10-05 13:51:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/T�l�phone/
-[2026-10-05 13:51:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/
-[2026-10-05 13:51:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/, perms=6, roles=6
-[2026-10-05 13:51:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/
-[2026-10-05 13:51:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/
-[2026-10-05 13:51:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/, perms=6, roles=6
-[2026-10-05 13:51:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/
-[2026-10-05 13:51:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/
-[2026-10-05 13:51:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/, perms=6, roles=6
-[2026-10-05 13:51:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/
-[2026-10-05 13:51:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/
-[2026-10-05 13:51:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/, perms=6, roles=6
-[2026-10-05 13:51:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/
-[2026-10-05 13:51:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/, perms=6, roles=6
-[2026-10-05 13:51:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/
-[2026-10-05 13:51:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/
-[2026-10-05 13:51:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/, perms=6, roles=6
-[2026-10-05 13:51:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/
-[2026-10-05 13:51:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/, perms=6, roles=6
-[2026-10-05 13:51:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/
-[2026-10-05 13:51:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/
-[2026-10-05 13:51:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/, perms=6, roles=6
-[2026-10-05 13:51:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/
-[2026-10-05 13:51:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/, perms=6, roles=6
-[2026-10-05 13:51:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/
-[2026-10-05 13:51:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/
-[2026-10-05 13:51:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/, perms=6, roles=6
-[2026-10-05 13:51:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/
-[2026-10-05 13:51:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/, perms=6, roles=6
-[2026-10-05 13:51:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/
-[2026-10-05 13:51:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/, perms=6, roles=6
-[2026-10-05 13:51:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/
-[2026-10-05 13:51:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Images g�n�r�es par Chat GPT/, perms=6, roles=6
-[2026-10-05 13:51:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Images g�n�r�es par Chat GPT/
-[2026-10-05 13:51:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/, perms=6, roles=6
-[2026-10-05 13:51:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/
-[2026-10-05 13:51:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/, perms=6, roles=6
-[2026-10-05 13:51:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/
-[2026-10-05 13:51:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Photos/, perms=6, roles=6
-[2026-10-05 13:51:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Photos/
-[2026-10-05 13:51:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/
-[2026-10-05 13:51:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/, perms=6, roles=6
-[2026-10-05 13:51:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/
-[2026-10-05 13:51:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel r�glementaires/, perms=6, roles=6
-[2026-10-05 13:51:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel r�glementaires/
-[2026-10-05 13:51:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/
-[2026-10-05 13:51:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/, perms=6, roles=6
-[2026-10-05 13:51:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/
-[2026-10-05 13:51:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/, perms=6, roles=6
-[2026-10-05 13:51:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/
-[2026-10-05 13:51:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/, perms=6, roles=6
-[2026-10-05 13:51:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/
-[2026-10-05 13:51:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/, perms=6, roles=6
-[2026-10-05 13:51:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/
-[2026-10-05 13:51:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/, perms=6, roles=6
-[2026-10-05 13:51:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/
-[2026-10-05 13:51:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/APAG/, perms=6, roles=6
-[2026-10-05 13:51:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/APAG/
-[2026-10-05 13:51:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/, perms=6, roles=6
-[2026-10-05 13:51:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/
-[2026-10-05 13:51:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/, perms=6, roles=6
-[2026-10-05 13:51:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/
-[2026-10-05 13:51:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/, perms=6, roles=6
-[2026-10-05 13:51:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/
-[2026-10-05 13:51:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/, perms=6, roles=6
-[2026-10-05 13:51:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/
-[2026-10-05 13:51:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/, perms=6, roles=6
-[2026-10-05 13:51:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/
-[2026-10-05 13:51:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/, perms=6, roles=6
-[2026-10-05 13:51:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/
-[2026-10-05 13:51:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/, perms=6, roles=6
-[2026-10-05 13:51:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/
-[2026-10-05 13:51:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/, perms=6, roles=6
-[2026-10-05 13:51:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/
-[2026-10-05 13:51:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CPCU/, perms=6, roles=6
-[2026-10-05 13:51:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CPCU/
-[2026-10-05 13:51:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/, perms=6, roles=6
-[2026-10-05 13:51:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/
-[2026-10-05 13:51:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/, perms=6, roles=6
-[2026-10-05 13:51:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/
-[2026-10-05 13:51:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIS/, perms=6, roles=6
-[2026-10-05 13:51:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIS/
-[2026-10-05 13:51:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/, perms=6, roles=6
-[2026-10-05 13:51:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/
-[2026-10-05 13:51:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/, perms=6, roles=6
-[2026-10-05 13:51:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/
-[2026-10-05 13:51:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/, perms=6, roles=6
-[2026-10-05 13:51:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/
-[2026-10-05 13:51:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/FOUR� LAGADEC/, perms=6, roles=6
-[2026-10-05 13:51:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/FOUR� LAGADEC/
-[2026-10-05 13:51:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/, perms=6, roles=6
-[2026-10-05 13:51:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/
-[2026-10-05 13:51:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/, perms=6, roles=6
-[2026-10-05 13:51:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/
-[2026-10-05 13:51:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/, perms=6, roles=6
-[2026-10-05 13:51:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/
-[2026-10-05 13:51:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/, perms=6, roles=6
-[2026-10-05 13:51:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/
-[2026-10-05 13:51:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/, perms=6, roles=6
-[2026-10-05 13:51:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/
-[2026-10-05 13:51:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/, perms=6, roles=6
-[2026-10-05 13:51:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/
-[2026-10-05 13:51:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/, perms=6, roles=6
-[2026-10-05 13:51:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/
-[2026-10-05 13:51:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/, perms=6, roles=6
-[2026-10-05 13:51:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/
-[2026-10-05 13:51:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LDMI/, perms=6, roles=6
-[2026-10-05 13:51:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LDMI/
-[2026-10-05 13:51:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/, perms=6, roles=6
-[2026-10-05 13:51:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/
-[2026-10-05 13:51:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/, perms=6, roles=6
-[2026-10-05 13:51:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/
-[2026-10-05 13:51:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/, perms=6, roles=6
-[2026-10-05 13:51:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/
-[2026-10-05 13:51:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/, perms=6, roles=6
-[2026-10-05 13:51:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/
-[2026-10-05 13:51:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/, perms=6, roles=6
-[2026-10-05 13:51:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/
-[2026-10-05 13:51:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/, perms=6, roles=6
-[2026-10-05 13:51:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/
-[2026-10-05 13:51:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NOCIB�/, perms=6, roles=6
-[2026-10-05 13:51:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NOCIB�/
-[2026-10-05 13:51:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/, perms=6, roles=6
-[2026-10-05 13:51:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/
-[2026-10-05 13:51:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/, perms=6, roles=6
-[2026-10-05 13:51:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/
-[2026-10-05 13:51:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/, perms=6, roles=6
-[2026-10-05 13:51:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/
-[2026-10-05 13:51:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/, perms=6, roles=6
-[2026-10-05 13:51:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/
-[2026-10-05 13:51:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/, perms=6, roles=6
-[2026-10-05 13:51:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/
-[2026-10-05 13:51:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/, perms=6, roles=6
-[2026-10-05 13:51:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/
-[2026-10-05 13:51:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/R�GIE DES EAUX 3M/, perms=6, roles=6
-[2026-10-05 13:51:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/R�GIE DES EAUX 3M/
-[2026-10-05 13:51:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTL�/, perms=6, roles=6
-[2026-10-05 13:51:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTL�/
-[2026-10-05 13:51:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SKF/, perms=6, roles=6
-[2026-10-05 13:51:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SKF/
-[2026-10-05 13:51:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/, perms=6, roles=6
-[2026-10-05 13:51:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/
-[2026-10-05 13:51:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/, perms=6, roles=6
-[2026-10-05 13:51:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/
-[2026-10-05 13:51:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/, perms=6, roles=6
-[2026-10-05 13:51:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/
-[2026-10-05 13:51:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/, perms=6, roles=6
-[2026-10-05 13:51:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/
-[2026-10-05 13:51:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/, perms=6, roles=6
-[2026-10-05 13:51:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/
-[2026-10-05 13:51:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/, perms=6, roles=6
-[2026-10-05 13:51:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/
-[2026-10-05 13:51:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/, perms=6, roles=6
-[2026-10-05 13:51:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/
-[2026-10-05 13:51:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/URBYN/, perms=6, roles=6
-[2026-10-05 13:51:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/URBYN/
-[2026-10-05 13:51:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/, perms=6, roles=6
-[2026-10-05 13:51:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/
-[2026-10-05 13:51:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/, perms=6, roles=6
-[2026-10-05 13:51:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/
-[2026-10-05 13:51:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/, perms=6, roles=6
-[2026-10-05 13:51:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/
-[2026-10-05 13:51:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/YZEE/, perms=6, roles=6
-[2026-10-05 13:51:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/YZEE/
-[2026-10-05 13:51:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/B-Templates/, perms=6, roles=6
-[2026-10-05 13:51:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/B-Templates/
-[2026-10-05 13:51:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/, perms=6, roles=6
-[2026-10-05 13:51:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/
-[2026-10-05 13:51:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/, perms=6, roles=6
-[2026-10-05 13:51:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/
-[2026-10-05 13:51:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/, perms=6, roles=6
-[2026-10-05 13:51:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/
-[2026-10-05 13:51:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/, perms=6, roles=6
-[2026-10-05 13:51:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/
-[2026-10-05 13:51:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CELIA/, perms=6, roles=6
-[2026-10-05 13:51:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CELIA/
-[2026-10-05 13:51:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/, perms=6, roles=6
-[2026-10-05 13:51:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/
-[2026-10-05 13:51:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/, perms=6, roles=6
-[2026-10-05 13:51:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/
-[2026-10-05 13:51:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/JEREMY/, perms=6, roles=6
-[2026-10-05 13:51:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/JEREMY/
-[2026-10-05 13:51:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/LAURA/, perms=6, roles=6
-[2026-10-05 13:51:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/LAURA/
-[2026-10-05 13:51:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/, perms=6, roles=6
-[2026-10-05 13:51:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/
-[2026-10-05 13:51:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/YANN/, perms=6, roles=6
-[2026-10-05 13:51:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/YANN/
-[2026-10-05 13:51:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/ZZ-Archives/
-[2026-10-05 13:51:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/, perms=6, roles=6
-[2026-10-05 13:51:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/
-[2026-10-05 13:51:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/ADRAR FORMATION/, perms=6, roles=6
-[2026-10-05 13:51:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/ADRAR FORMATION/
-[2026-10-05 13:51:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/, perms=6, roles=6
-[2026-10-05 13:51:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/
-[2026-10-05 13:51:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/, perms=6, roles=6
-[2026-10-05 13:51:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/
-[2026-10-05 13:51:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/, perms=6, roles=6
-[2026-10-05 13:51:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/
-[2026-10-05 13:51:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/FRANCE SI/, perms=6, roles=6
-[2026-10-05 13:51:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/FRANCE SI/
-[2026-10-05 13:51:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/GAMMA SOFTWARE/, perms=6, roles=6
-[2026-10-05 13:51:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/GAMMA SOFTWARE/
-[2026-10-05 13:51:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/, perms=6, roles=6
-[2026-10-05 13:51:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/
-[2026-10-05 13:51:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/, perms=6, roles=6
-[2026-10-05 13:51:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/
-[2026-10-05 13:51:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/LOOTIBOX/, perms=6, roles=6
-[2026-10-05 13:51:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/LOOTIBOX/
-[2026-10-05 13:51:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/, perms=6, roles=6
-[2026-10-05 13:51:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/
-[2026-10-05 13:51:51][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/Contrat/, perms=6, roles=6
-[2026-10-05 13:51:51][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/Contrat/
-[2026-10-05 13:51:51][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/, perms=6, roles=6
-[2026-10-05 13:51:51][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/
-[2026-10-05 13:51:51][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/Archive/, perms=6, roles=6
-[2026-10-05 13:51:51][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/Archive/
-[2026-10-05 13:51:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/Partenariat/, perms=6, roles=6
-[2026-10-05 13:51:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/Partenariat/
-[2026-10-05 13:51:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/, perms=6, roles=6
-[2026-10-05 13:51:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/
-[2026-10-05 13:51:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/, perms=6, roles=6
-[2026-10-05 13:51:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/
-[2026-10-05 13:51:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/
-[2026-10-05 13:51:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/, perms=6, roles=6
-[2026-10-05 13:51:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/
-[2026-10-05 13:51:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Alexandria/, perms=6, roles=6
-[2026-10-05 13:51:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Alexandria/
-[2026-10-05 13:51:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/, perms=6, roles=6
-[2026-10-05 13:51:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/
-[2026-10-05 13:51:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/BDD/, perms=6, roles=6
-[2026-10-05 13:51:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/BDD/
-[2026-10-05 13:51:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Infra/, perms=6, roles=6
-[2026-10-05 13:51:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Infra/
-[2026-10-05 13:51:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Maquettes/, perms=6, roles=6
-[2026-10-05 13:51:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Maquettes/
-[2026-10-05 13:51:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/, perms=6, roles=6
-[2026-10-05 13:51:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/
-[2026-10-05 13:51:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/QSE/, perms=6, roles=6
-[2026-10-05 13:51:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/QSE/
-[2026-10-05 13:51:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/RFP/, perms=6, roles=6
-[2026-10-05 13:51:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/RFP/
-[2026-10-05 13:51:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybers�curit�/, perms=6, roles=6
-[2026-10-05 13:51:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybers�curit�/
-[2026-10-05 13:51:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/, perms=6, roles=6
-[2026-10-05 13:51:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/
-[2026-10-05 13:51:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/, perms=6, roles=6
-[2026-10-05 13:51:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/
-[2026-10-05 13:51:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/OpenAI/, perms=6, roles=6
-[2026-10-05 13:51:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/OpenAI/
-[2026-10-05 13:51:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/
-[2026-10-05 13:51:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/, perms=6, roles=6
-[2026-10-05 13:51:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/
-[2026-10-05 13:51:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/, perms=6, roles=6
-[2026-10-05 13:51:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/
-[2026-10-05 13:51:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/App ECHOLINE/, perms=6, roles=6
-[2026-10-05 13:51:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/App ECHOLINE/
-[2026-10-05 13:51:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/ZZ-Archives/
-[2026-10-05 13:51:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/, perms=6, roles=6
-[2026-10-05 13:51:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/
-[2026-10-05 13:51:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/A-Analyse environnementale/, perms=6, roles=6
-[2026-10-05 13:51:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/A-Analyse environnementale/
-[2026-10-05 13:51:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/B-Bilan carbone/, perms=6, roles=6
-[2026-10-05 13:51:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/B-Bilan carbone/
-[2026-10-05 13:51:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/C-Document unique/, perms=6, roles=6
-[2026-10-05 13:51:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/C-Document unique/
-[2026-10-05 13:51:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:51:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/ZZ-Archives/
-[2026-10-05 13:52:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/10-Pilotage/, perms=6, roles=6
-[2026-10-05 13:52:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/10-Pilotage/
-[2026-10-05 13:52:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/10-Pilotage/ZZ-Archives/, perms=6, roles=6
-[2026-10-05 13:52:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/10-Pilotage/ZZ-Archives/
-[2026-10-05 13:52:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/, perms=6, roles=6
-[2026-10-05 13:52:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/
-[2026-10-05 13:52:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Assurance/, perms=6, roles=6
-[2026-10-05 13:52:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Assurance/
-[2026-10-05 13:52:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Banque/, perms=6, roles=6
-[2026-10-05 13:52:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Banque/
-[2026-10-05 13:52:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Comptabilit�/, perms=6, roles=6
-[2026-10-05 13:52:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Comptabilit�/
-[2026-10-05 13:52:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Domiciliation/, perms=6, roles=6
-[2026-10-05 13:52:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Domiciliation/
-[2026-10-05 13:52:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Kbis et statuts/, perms=6, roles=6
-[2026-10-05 13:52:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Kbis et statuts/
-[2026-10-05 13:52:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Marque/, perms=6, roles=6
-[2026-10-05 13:52:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Marque/
-[2026-10-05 13:52:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/RGPD/, perms=6, roles=6
-[2026-10-05 13:52:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/RGPD/
-[2026-10-05 13:52:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Taxe d_apprentissage/, perms=6, roles=6
-[2026-10-05 13:52:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Taxe d_apprentissage/
-[2026-10-05 13:52:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/, perms=6, roles=6
-[2026-10-05 13:52:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/
-[2026-10-05 13:52:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Cabinet de paie/, perms=6, roles=6
-[2026-10-05 13:52:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Cabinet de paie/
-[2026-10-05 13:52:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Cabinets de recrutement/, perms=6, roles=6
-[2026-10-05 13:52:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Cabinets de recrutement/
-[2026-10-05 13:52:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Gestion des cong�s/, perms=6, roles=6
-[2026-10-05 13:52:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Gestion des cong�s/
-[2026-10-05 13:52:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Mod�les/, perms=6, roles=6
-[2026-10-05 13:52:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Mod�les/
-[2026-10-05 13:52:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Mutuelle/, perms=6, roles=6
-[2026-10-05 13:52:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Mutuelle/
-[2026-10-05 13:52:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/OPCO/, perms=6, roles=6
-[2026-10-05 13:52:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/OPCO/
-[2026-10-05 13:52:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Salari�s/, perms=6, roles=6
-[2026-10-05 13:52:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Salari�s/
-[2026-10-05 13:52:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/�tats mensuels/, perms=6, roles=6
-[2026-10-05 13:52:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/�tats mensuels/
-[2026-10-05 13:52:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Test technique/, perms=6, roles=6
-[2026-10-05 13:52:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Test technique/
-[2026-10-05 13:52:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/URSSAF/, perms=6, roles=6
-[2026-10-05 13:52:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/URSSAF/
-[2026-10-05 13:52:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/13-Karnov Group/, perms=6, roles=6
-[2026-10-05 13:52:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/13-Karnov Group/
-[2026-10-05 13:52:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/, perms=6, roles=6
-[2026-10-05 13:52:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/
-[2026-10-05 13:52:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/14-Strategic Partners/, perms=6, roles=6
-[2026-10-05 13:52:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/14-Strategic Partners/
-[2026-10-05 13:52:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/, perms=6, roles=6
-[2026-10-05 13:52:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/
-[2026-10-05 13:52:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/, perms=6, roles=6
-[2026-10-05 13:52:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/
-[2026-10-05 13:52:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/00 - Archives/, perms=6, roles=6
-[2026-10-05 13:52:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/00 - Archives/
-[2026-10-05 13:52:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/01 - Contrats/, perms=6, roles=6
-[2026-10-05 13:52:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/01 - Contrats/
-[2026-10-05 13:52:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/01-Contrats & devis/, perms=6, roles=6
-[2026-10-05 13:52:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/01-Contrats & devis/
-[2026-10-05 13:52:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/02 - Proc�dures et mod�les/, perms=6, roles=6
-[2026-10-05 13:52:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/02 - Proc�dures et mod�les/
-[2026-10-05 13:52:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/03 - Doc. op�rationnelle - Veille/, perms=6, roles=6
-[2026-10-05 13:52:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/03 - Doc. op�rationnelle - Veille/
-[2026-10-05 13:52:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/04 - Administratif/, perms=6, roles=6
-[2026-10-05 13:52:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/04 - Administratif/
-[2026-10-05 13:52:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/06-Check-List contr�le/, perms=6, roles=6
-[2026-10-05 13:52:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/06-Check-List contr�le/
-[2026-10-05 13:52:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/1- Tableaux de veille/, perms=6, roles=6
-[2026-10-05 13:52:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/1- Tableaux de veille/
-[2026-10-05 13:52:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/, perms=6, roles=6
-[2026-10-05 13:52:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/
-[2026-10-05 13:52:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/4- Documentation juridique/, perms=6, roles=6
-[2026-10-05 13:52:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/4- Documentation juridique/
-[2026-10-05 13:52:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/5- Manuel utilisateurs/, perms=6, roles=6
-[2026-10-05 13:52:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/5- Manuel utilisateurs/
-[2026-10-05 13:52:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/6- Fiches th�matiques/, perms=6, roles=6
-[2026-10-05 13:52:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/6- Fiches th�matiques/
-[2026-10-05 13:52:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ARCHIVES/, perms=6, roles=6
-[2026-10-05 13:52:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ARCHIVES/
-[2026-10-05 13:52:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ARTE/, perms=6, roles=6
-[2026-10-05 13:52:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ARTE/
-[2026-10-05 13:52:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/, perms=6, roles=6
-[2026-10-05 13:52:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/
-[2026-10-05 13:52:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/BIOCOOP/, perms=6, roles=6
-[2026-10-05 13:52:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/BIOCOOP/
-[2026-10-05 13:52:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Bioline - Livron sur Dr�me/, perms=6, roles=6
-[2026-10-05 13:52:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Bioline - Livron sur Dr�me/
-[2026-10-05 13:52:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/, perms=6, roles=6
-[2026-10-05 13:52:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/
-[2026-10-05 13:52:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CARTIER/, perms=6, roles=6
-[2026-10-05 13:52:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CARTIER/
-[2026-10-05 13:52:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CL/, perms=6, roles=6
-[2026-10-05 13:52:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CL/
-[2026-10-05 13:52:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CLAIREFONTAINE/, perms=6, roles=6
-[2026-10-05 13:52:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CLAIREFONTAINE/
-[2026-10-05 13:52:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Contrats purement RH/, perms=6, roles=6
-[2026-10-05 13:52:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Contrats purement RH/
-[2026-10-05 13:52:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CR point initial/, perms=6, roles=6
-[2026-10-05 13:52:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CR point initial/
-[2026-10-05 13:52:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CR point initial (1)/, perms=6, roles=6
-[2026-10-05 13:52:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CR point initial (1)/
-[2026-10-05 13:52:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/, perms=6, roles=6
-[2026-10-05 13:52:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/
-[2026-10-05 13:52:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/DIOR/, perms=6, roles=6
-[2026-10-05 13:52:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/DIOR/
-[2026-10-05 13:52:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Doc veille internationale/, perms=6, roles=6
-[2026-10-05 13:52:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Doc veille internationale/
-[2026-10-05 13:52:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ENI FRANCE/, perms=6, roles=6
-[2026-10-05 13:52:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ENI FRANCE/
-[2026-10-05 13:52:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Exemples news ext�rieures/, perms=6, roles=6
-[2026-10-05 13:52:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Exemples news ext�rieures/
-[2026-10-05 13:52:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Export txts avant report SONATA/, perms=6, roles=6
-[2026-10-05 13:52:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Export txts avant report SONATA/
-[2026-10-05 13:52:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fertiline - Loud�ac/, perms=6, roles=6
-[2026-10-05 13:52:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fertiline - Loud�ac/
-[2026-10-05 13:52:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fiche ID/, perms=6, roles=6
-[2026-10-05 13:52:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fiche ID/
-[2026-10-05 13:52:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fiche ID (1)/, perms=6, roles=6
-[2026-10-05 13:52:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fiche ID (1)/
-[2026-10-05 13:52:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Formulaire utilisateurs/, perms=6, roles=6
-[2026-10-05 13:52:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Formulaire utilisateurs/
-[2026-10-05 13:52:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/LOUIS VUITTON/, perms=6, roles=6
-[2026-10-05 13:52:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/LOUIS VUITTON/
-[2026-10-05 13:52:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/mails - hotline directe/, perms=6, roles=6
-[2026-10-05 13:52:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/mails - hotline directe/
-[2026-10-05 13:52:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/MODELES lettre info/, perms=6, roles=6
-[2026-10-05 13:52:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/MODELES lettre info/
-[2026-10-05 13:52:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/NUTRITION ET SANTE/, perms=6, roles=6
-[2026-10-05 13:52:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/NUTRITION ET SANTE/
-[2026-10-05 13:52:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/PIVAUDRAN/, perms=6, roles=6
-[2026-10-05 13:52:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/PIVAUDRAN/
-[2026-10-05 13:52:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Projets/, perms=6, roles=6
-[2026-10-05 13:52:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Projets/
-[2026-10-05 13:52:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/, perms=6, roles=6
-[2026-10-05 13:52:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/
-[2026-10-05 13:52:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/SIGNAUX GIROD/, perms=6, roles=6
-[2026-10-05 13:52:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/SIGNAUX GIROD/
-[2026-10-05 13:52:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/STERIS/, perms=6, roles=6
-[2026-10-05 13:52:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/STERIS/
-[2026-10-05 13:52:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/THYSSENKRUPP/, perms=6, roles=6
-[2026-10-05 13:52:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/THYSSENKRUPP/
-[2026-10-05 13:52:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/, perms=6, roles=6
-[2026-10-05 13:52:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/
-[2026-10-05 13:52:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Nantes/, perms=6, roles=6
-[2026-10-05 13:52:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Nantes/
-[2026-10-05 13:52:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/, perms=6, roles=6
-[2026-10-05 13:52:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/
-[2026-10-05 13:52:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/, perms=6, roles=6
-[2026-10-05 13:52:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/
-[2026-10-05 13:52:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Metz/, perms=6, roles=6
-[2026-10-05 13:52:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Metz/
-[2026-10-05 13:52:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/VALOREM/, perms=6, roles=6
-[2026-10-05 13:52:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/VALOREM/
-[2026-10-05 13:52:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/VILLEROY ET BOCH/, perms=6, roles=6
-[2026-10-05 13:52:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/VILLEROY ET BOCH/
-[2026-10-05 13:52:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Visites/, perms=6, roles=6
-[2026-10-05 13:52:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Visites/
-[2026-10-05 13:52:23][DEBUG] Permissions detectees: item=Documents partages/General/, perms=5, roles=5
-[2026-10-05 13:52:23][DEBUG] Lecture enfants: parent=Documents partages/General/
-[2026-10-05 13:52:24][DEBUG] Permissions detectees: item=Documents partages/General/20acf43b-9697-494d-a60c-b6b7c4066082.png, perms=5, roles=5
-[2026-10-05 13:52:24][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/, perms=5, roles=5
-[2026-10-05 13:52:24][DEBUG] Lecture enfants: parent=Documents partages/SCRIPT/
-[2026-10-05 13:52:24][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/ajout_DKIM_PS.txt, perms=5, roles=5
-[2026-10-05 13:52:25][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/conf_POSTFIX_Domaine.txt, perms=5, roles=5
-[2026-10-05 13:52:25][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt, perms=5, roles=5
-[2026-10-05 13:52:25][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Extraction_AD_BAUNETZ.ps1, perms=5, roles=5
-[2026-10-05 13:52:25][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/import_onedrive.csv, perms=5, roles=5
-[2026-10-05 13:52:25][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/mail_secondaire.csv, perms=5, roles=5
-[2026-10-05 13:52:26][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/migrationwiz_import_email_email (1).csv, perms=5, roles=5
-[2026-10-05 13:52:26][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Murge_BAL_Important!!.txt, perms=5, roles=5
-[2026-10-05 13:52:26][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/nouveau 10.txt, perms=5, roles=5
-[2026-10-05 13:52:26][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/nouveau 12.txt, perms=5, roles=5
-[2026-10-05 13:52:26][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Nouveau Document texte.csv, perms=5, roles=5
-[2026-10-05 13:52:27][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Post_Fixe.txt, perms=5, roles=5
-[2026-10-05 13:52:27][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Postfix.txt, perms=5, roles=5
-[2026-10-05 13:52:27][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_activation_user_AD.txt, perms=5, roles=5
-[2026-10-05 13:52:27][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt, perms=5, roles=5
-[2026-10-05 13:52:27][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_champs_mail_en_masse.txt, perms=5, roles=5
-[2026-10-05 13:52:28][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt, perms=5, roles=5
-[2026-10-05 13:52:28][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_ajout_délegation_FullAcces_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:28][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt, perms=5, roles=5
-[2026-10-05 13:52:28][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt, perms=5, roles=5
-[2026-10-05 13:52:28][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:29][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_bp_mail.txt, perms=5, roles=5
-[2026-10-05 13:52:29][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_Fullaccess_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:29][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_delegation_SendAs_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:29][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_SendAs_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:29][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_désactivation_user.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_droit_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_extrac_SMTP_Principale.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Extract_adressemail_Exchange_Online.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Extract_délégation_BP.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_membre_groupe_AD.txt, perms=5, roles=5
-[2026-10-05 13:52:30][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_onedrive.txt, perms=5, roles=5
-[2026-10-05 13:52:31][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_proxyaddress.txt, perms=5, roles=5
-[2026-10-05 13:52:31][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_Proxyadress_format.txt, perms=5, roles=5
-[2026-10-05 13:52:31][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_UPN_AD.txt, perms=5, roles=5
-[2026-10-05 13:52:31][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt, perms=5, roles=5
-[2026-10-05 13:52:31][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_Inscription_SSO_Appli_Azure.txt, perms=5, roles=5
-[2026-10-05 13:52:32][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modif_champ_email_docu.ch, perms=5, roles=5
-[2026-10-05 13:52:32][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modif_proxyaddress_Group.txt, perms=5, roles=5
-[2026-10-05 13:52:32][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modif_proxyadress_docu.ch.txt, perms=5, roles=5
-[2026-10-05 13:52:32][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modification_UPN_AD_User.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modifier_le_champ_mail.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modifier_proxyadress.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_provisionning_OneDrive.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_remplacer_UPN_AD.txt, perms=5, roles=5
-[2026-10-05 13:52:33][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Restauration_SMTP_format.txt, perms=5, roles=5
-[2026-10-05 13:52:34][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Room_Mailbox.txt, perms=5, roles=5
-[2026-10-05 13:52:34][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_SGUM_ShareGate.txt, perms=5, roles=5
-[2026-10-05 13:52:34][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/SCRIPT8EXTR.txt, perms=5, roles=5
-[2026-10-05 13:52:34][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/SharedMailBox_FEBIS.csv, perms=5, roles=5
-[2026-10-05 13:52:34][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/suppression_champ_mail_UO.txt, perms=5, roles=5
-[2026-10-05 13:52:35][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/suppression_SMTP_UO.txt, perms=5, roles=5
-[2026-10-05 13:52:35][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/User_MailBox_docuat.txt, perms=5, roles=5
-[2026-10-05 13:52:35][DEBUG] Permissions detectees: item=Documents partages/Audit_user_gmail.xlsx, perms=5, roles=5
-[2026-10-05 13:52:35][DEBUG] Permissions detectees: item=Documents partages/Capture d’écran 2026-01-27 172058.jpg, perms=5, roles=5
-[2026-10-05 13:52:35][DEBUG] Permissions detectees: item=Documents partages/emailaddress.csv, perms=5, roles=5
-[2026-10-05 13:52:36][DEBUG] Permissions detectees: item=Documents partages/Members_.csv, perms=5, roles=5
-[2026-10-05 13:52:36][DEBUG] Permissions detectees: item=Documents partages/Members_support_CUSTOMRIGHTSTEST.csv, perms=5, roles=5
-[2026-10-05 13:52:36][INFO] Traitement liste: Lists/listetest (template genericList)
-[2026-10-05 13:52:36][INFO] Liste 'Lists/listetest': 1 element(s)
-[2026-10-05 13:52:36][SUCCESS] lists.json ecrit: 3 liste(s)/bibliotheque(s)
-[2026-10-05 13:52:36][SUCCESS] Export CSV permissions: E:\SharePoint_Permissions_Export_src9999.csv
-[2026-10-05 13:52:36][SUCCESS] Mapping CSV genere (a completer: DestinationDisplayName): E:\UserMapping.csv
-[2026-10-05 13:52:36][SUCCESS] Scan termine: 436 fichiers/dossiers, 2454 droits, 1 elements de liste, 0 erreur(s)
+
+[2026-10-06 11:00:09][INFO] Demarrage scan SharePoint -> fichiers (C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Discovery)
+[2026-10-06 11:00:09][INFO] Connexion au site SharePoint
+[2026-10-06 11:00:10][INFO] Listes et bibliotheques trouvees: 4
+[2026-10-06 11:00:10][DEBUG] Liste ignoree: _catalogs/wte
+[2026-10-06 11:00:10][INFO] Traitement bibliotheque: test (template documentLibrary)
+[2026-10-06 11:00:10][DEBUG] Lecture enfants: parent=test/
+[2026-10-06 11:00:11][DEBUG] Permissions detectees: item=test/publish/, perms=5, roles=5
+[2026-10-06 11:00:11][DEBUG] Lecture enfants: parent=test/publish/
+[2026-10-06 11:00:12][DEBUG] Permissions detectees: item=test/publish/cs/, perms=5, roles=5
+[2026-10-06 11:00:12][DEBUG] Lecture enfants: parent=test/publish/cs/
+[2026-10-06 11:00:13][DEBUG] Permissions detectees: item=test/publish/cs/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:13][DEBUG] Permissions detectees: item=test/publish/de/, perms=5, roles=5
+[2026-10-06 11:00:13][DEBUG] Lecture enfants: parent=test/publish/de/
+[2026-10-06 11:00:13][DEBUG] Permissions detectees: item=test/publish/de/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:13][DEBUG] Permissions detectees: item=test/publish/es/, perms=5, roles=5
+[2026-10-06 11:00:13][DEBUG] Lecture enfants: parent=test/publish/es/
+[2026-10-06 11:00:14][DEBUG] Permissions detectees: item=test/publish/es/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:14][DEBUG] Permissions detectees: item=test/publish/fr/, perms=5, roles=5
+[2026-10-06 11:00:14][DEBUG] Lecture enfants: parent=test/publish/fr/
+[2026-10-06 11:00:15][DEBUG] Permissions detectees: item=test/publish/fr/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:15][DEBUG] Permissions detectees: item=test/publish/it/, perms=5, roles=5
+[2026-10-06 11:00:15][DEBUG] Lecture enfants: parent=test/publish/it/
+[2026-10-06 11:00:15][DEBUG] Permissions detectees: item=test/publish/it/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:16][DEBUG] Permissions detectees: item=test/publish/ja/, perms=5, roles=5
+[2026-10-06 11:00:16][DEBUG] Lecture enfants: parent=test/publish/ja/
+[2026-10-06 11:00:16][DEBUG] Permissions detectees: item=test/publish/ja/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:16][DEBUG] Permissions detectees: item=test/publish/ko/, perms=5, roles=5
+[2026-10-06 11:00:17][DEBUG] Lecture enfants: parent=test/publish/ko/
+[2026-10-06 11:00:17][DEBUG] Permissions detectees: item=test/publish/ko/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:17][DEBUG] Permissions detectees: item=test/publish/pl/, perms=5, roles=5
+[2026-10-06 11:00:17][DEBUG] Lecture enfants: parent=test/publish/pl/
+[2026-10-06 11:00:18][DEBUG] Permissions detectees: item=test/publish/pl/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:18][DEBUG] Permissions detectees: item=test/publish/pt-BR/, perms=5, roles=5
+[2026-10-06 11:00:18][DEBUG] Lecture enfants: parent=test/publish/pt-BR/
+[2026-10-06 11:00:19][DEBUG] Permissions detectees: item=test/publish/pt-BR/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:19][DEBUG] Permissions detectees: item=test/publish/ru/, perms=5, roles=5
+[2026-10-06 11:00:19][DEBUG] Lecture enfants: parent=test/publish/ru/
+[2026-10-06 11:00:19][DEBUG] Permissions detectees: item=test/publish/ru/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:20][DEBUG] Permissions detectees: item=test/publish/runtimes/, perms=5, roles=5
+[2026-10-06 11:00:20][DEBUG] Lecture enfants: parent=test/publish/runtimes/
+[2026-10-06 11:00:20][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/, perms=5, roles=5
+[2026-10-06 11:00:20][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/
+[2026-10-06 11:00:21][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/, perms=5, roles=5
+[2026-10-06 11:00:21][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/lib/
+[2026-10-06 11:00:21][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/, perms=5, roles=5
+[2026-10-06 11:00:21][DEBUG] Lecture enfants: parent=test/publish/runtimes/unix/lib/net8.0/
+[2026-10-06 11:00:22][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:22][DEBUG] Permissions detectees: item=test/publish/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:22][DEBUG] Permissions detectees: item=test/publish/runtimes/win/, perms=5, roles=5
+[2026-10-06 11:00:22][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/
+[2026-10-06 11:00:22][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/, perms=5, roles=5
+[2026-10-06 11:00:22][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/lib/
+[2026-10-06 11:00:23][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/, perms=5, roles=5
+[2026-10-06 11:00:23][DEBUG] Lecture enfants: parent=test/publish/runtimes/win/lib/net8.0/
+[2026-10-06 11:00:23][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:24][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:24][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll, perms=5, roles=5
+[2026-10-06 11:00:24][DEBUG] Permissions detectees: item=test/publish/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll, perms=5, roles=5
+[2026-10-06 11:00:25][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/, perms=5, roles=5
+[2026-10-06 11:00:25][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-arm64/
+[2026-10-06 11:00:25][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/, perms=5, roles=5
+[2026-10-06 11:00:25][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-arm64/native/
+[2026-10-06 11:00:25][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
+[2026-10-06 11:00:26][DEBUG] Permissions detectees: item=test/publish/runtimes/win-arm64/native/sni.dll, perms=5, roles=5
+[2026-10-06 11:00:26][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/, perms=5, roles=5
+[2026-10-06 11:00:26][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x64/
+[2026-10-06 11:00:27][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/, perms=5, roles=5
+[2026-10-06 11:00:27][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x64/native/
+[2026-10-06 11:00:27][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
+[2026-10-06 11:00:27][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x64/native/sni.dll, perms=5, roles=5
+[2026-10-06 11:00:27][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/, perms=5, roles=5
+[2026-10-06 11:00:27][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x86/
+[2026-10-06 11:00:28][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/, perms=5, roles=5
+[2026-10-06 11:00:28][DEBUG] Lecture enfants: parent=test/publish/runtimes/win-x86/native/
+[2026-10-06 11:00:28][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll, perms=5, roles=5
+[2026-10-06 11:00:29][DEBUG] Permissions detectees: item=test/publish/runtimes/win-x86/native/sni.dll, perms=5, roles=5
+[2026-10-06 11:00:29][DEBUG] Permissions detectees: item=test/publish/tr/, perms=5, roles=5
+[2026-10-06 11:00:29][DEBUG] Lecture enfants: parent=test/publish/tr/
+[2026-10-06 11:00:29][DEBUG] Permissions detectees: item=test/publish/tr/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:30][DEBUG] Permissions detectees: item=test/publish/zh-Hans/, perms=5, roles=5
+[2026-10-06 11:00:30][DEBUG] Lecture enfants: parent=test/publish/zh-Hans/
+[2026-10-06 11:00:30][DEBUG] Permissions detectees: item=test/publish/zh-Hans/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:30][DEBUG] Permissions detectees: item=test/publish/zh-Hant/, perms=5, roles=5
+[2026-10-06 11:00:30][DEBUG] Lecture enfants: parent=test/publish/zh-Hant/
+[2026-10-06 11:00:31][DEBUG] Permissions detectees: item=test/publish/zh-Hant/Microsoft.Data.SqlClient.resources.dll, perms=5, roles=5
+[2026-10-06 11:00:31][DEBUG] Permissions detectees: item=test/publish/appsettings.Development.json, perms=5, roles=5
+[2026-10-06 11:00:31][DEBUG] Permissions detectees: item=test/publish/appsettings.json, perms=5, roles=5
+[2026-10-06 11:00:31][DEBUG] Permissions detectees: item=test/publish/Azure.Core.dll, perms=5, roles=5
+[2026-10-06 11:00:32][DEBUG] Permissions detectees: item=test/publish/Azure.Identity.dll, perms=5, roles=5
+[2026-10-06 11:00:32][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.deps.json, perms=5, roles=5
+[2026-10-06 11:00:32][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.dll, perms=5, roles=5
+[2026-10-06 11:00:33][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.exe, perms=5, roles=5
+[2026-10-06 11:00:33][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.pdb, perms=5, roles=5
+[2026-10-06 11:00:33][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.runtimeconfig.json, perms=5, roles=5
+[2026-10-06 11:00:33][DEBUG] Permissions detectees: item=test/publish/CreaModifAd-Connect.staticwebassets.endpoints.json, perms=5, roles=5
+[2026-10-06 11:00:33][DEBUG] Permissions detectees: item=test/publish/Dapper.dll, perms=5, roles=5
+[2026-10-06 11:00:34][DEBUG] Permissions detectees: item=test/publish/Microsoft.Bcl.AsyncInterfaces.dll, perms=5, roles=5
+[2026-10-06 11:00:34][DEBUG] Permissions detectees: item=test/publish/Microsoft.Bcl.Cryptography.dll, perms=5, roles=5
+[2026-10-06 11:00:34][DEBUG] Permissions detectees: item=test/publish/Microsoft.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:34][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Caching.Memory.dll, perms=5, roles=5
+[2026-10-06 11:00:35][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll, perms=5, roles=5
+[2026-10-06 11:00:35][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Logging.Abstractions.dll, perms=5, roles=5
+[2026-10-06 11:00:35][DEBUG] Permissions detectees: item=test/publish/Microsoft.Extensions.Options.dll, perms=5, roles=5
+[2026-10-06 11:00:35][DEBUG] Permissions detectees: item=test/publish/Microsoft.Identity.Client.dll, perms=5, roles=5
+[2026-10-06 11:00:36][DEBUG] Permissions detectees: item=test/publish/Microsoft.Identity.Client.Extensions.Msal.dll, perms=5, roles=5
+[2026-10-06 11:00:36][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Abstractions.dll, perms=5, roles=5
+[2026-10-06 11:00:36][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.JsonWebTokens.dll, perms=5, roles=5
+[2026-10-06 11:00:37][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Logging.dll, perms=5, roles=5
+[2026-10-06 11:00:37][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Protocols.dll, perms=5, roles=5
+[2026-10-06 11:00:37][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll, perms=5, roles=5
+[2026-10-06 11:00:37][DEBUG] Permissions detectees: item=test/publish/Microsoft.IdentityModel.Tokens.dll, perms=5, roles=5
+[2026-10-06 11:00:38][DEBUG] Permissions detectees: item=test/publish/Microsoft.OpenApi.dll, perms=5, roles=5
+[2026-10-06 11:00:38][DEBUG] Permissions detectees: item=test/publish/Microsoft.SqlServer.Server.dll, perms=5, roles=5
+[2026-10-06 11:00:38][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.Swagger.dll, perms=5, roles=5
+[2026-10-06 11:00:38][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.SwaggerGen.dll, perms=5, roles=5
+[2026-10-06 11:00:39][DEBUG] Permissions detectees: item=test/publish/Swashbuckle.AspNetCore.SwaggerUI.dll, perms=5, roles=5
+[2026-10-06 11:00:39][DEBUG] Permissions detectees: item=test/publish/System.ClientModel.dll, perms=5, roles=5
+[2026-10-06 11:00:39][DEBUG] Permissions detectees: item=test/publish/System.Configuration.ConfigurationManager.dll, perms=5, roles=5
+[2026-10-06 11:00:39][DEBUG] Permissions detectees: item=test/publish/System.Data.SqlClient.dll, perms=5, roles=5
+[2026-10-06 11:00:39][DEBUG] Permissions detectees: item=test/publish/System.Diagnostics.EventLog.dll, perms=5, roles=5
+[2026-10-06 11:00:40][DEBUG] Permissions detectees: item=test/publish/System.IdentityModel.Tokens.Jwt.dll, perms=5, roles=5
+[2026-10-06 11:00:40][DEBUG] Permissions detectees: item=test/publish/System.Memory.Data.dll, perms=5, roles=5
+[2026-10-06 11:00:40][DEBUG] Permissions detectees: item=test/publish/System.Security.Cryptography.Pkcs.dll, perms=5, roles=5
+[2026-10-06 11:00:40][DEBUG] Permissions detectees: item=test/publish/System.Security.Cryptography.ProtectedData.dll, perms=5, roles=5
+[2026-10-06 11:00:41][DEBUG] Permissions detectees: item=test/publish/web.config, perms=5, roles=5
+[2026-10-06 11:00:41][DEBUG] Permissions detectees: item=test/exemple_extraction_Computers.csv, perms=5, roles=5
+[2026-10-06 11:00:41][DEBUG] Permissions detectees: item=test/export_AVIS.xlsx, perms=5, roles=5
+[2026-10-06 11:00:41][DEBUG] Permissions detectees: item=test/export_utilisateurs_licences.csv, perms=5, roles=5
+[2026-10-06 11:00:41][DEBUG] Permissions detectees: item=test/fichiers_comparison.csv, perms=5, roles=5
+[2026-10-06 11:00:42][DEBUG] Permissions detectees: item=test/id_avis_import.csv, perms=5, roles=5
+[2026-10-06 11:00:42][DEBUG] Permissions detectees: item=test/SharePoint_source_202508081126.csv, perms=5, roles=5
+[2026-10-06 11:00:42][DEBUG] Permissions detectees: item=test/v_computers_ad_202503241534.csv, perms=5, roles=5
+[2026-10-06 11:00:42][DEBUG] Permissions detectees: item=test/v_computers_ad_202503241534.xlsx, perms=5, roles=5
+[2026-10-06 11:00:42][INFO] Traitement bibliotheque: Documents partages (template documentLibrary)
+[2026-10-06 11:00:43][DEBUG] Lecture enfants: parent=Documents partages/
+[2026-10-06 11:00:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/, perms=6, roles=6
+[2026-10-06 11:00:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/
+[2026-10-06 11:00:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/, perms=6, roles=6
+[2026-10-06 11:00:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/
+[2026-10-06 11:00:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/, perms=6, roles=6
+[2026-10-06 11:00:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/
+[2026-10-06 11:00:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/, perms=6, roles=6
+[2026-10-06 11:00:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/00 - A - Documents accessibles par l'API/
+[2026-10-06 11:00:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/, perms=6, roles=6
+[2026-10-06 11:00:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Allemagne/
+[2026-10-06 11:00:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/, perms=6, roles=6
+[2026-10-06 11:00:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Australie/
+[2026-10-06 11:00:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/, perms=6, roles=6
+[2026-10-06 11:00:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Belgique/
+[2026-10-06 11:00:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Br�sil/, perms=6, roles=6
+[2026-10-06 11:00:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Br�sil/
+[2026-10-06 11:00:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/, perms=6, roles=6
+[2026-10-06 11:00:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Canada/
+[2026-10-06 11:00:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Cor�e du Sud/, perms=6, roles=6
+[2026-10-06 11:00:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Cor�e du Sud/
+[2026-10-06 11:00:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/, perms=6, roles=6
+[2026-10-06 11:00:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Espagne/
+[2026-10-06 11:00:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/, perms=6, roles=6
+[2026-10-06 11:00:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Estonie/
+[2026-10-06 11:00:51][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/, perms=6, roles=6
+[2026-10-06 11:00:51][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Europe/
+[2026-10-06 11:00:51][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/, perms=6, roles=6
+[2026-10-06 11:00:51][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Finlande/
+[2026-10-06 11:00:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/, perms=6, roles=6
+[2026-10-06 11:00:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. France/
+[2026-10-06 11:00:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/, perms=6, roles=6
+[2026-10-06 11:00:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Inde/
+[2026-10-06 11:00:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/, perms=6, roles=6
+[2026-10-06 11:00:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Irlande/
+[2026-10-06 11:00:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/, perms=6, roles=6
+[2026-10-06 11:00:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Italie/
+[2026-10-06 11:00:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/, perms=6, roles=6
+[2026-10-06 11:00:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Luxembourg/
+[2026-10-06 11:00:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/, perms=6, roles=6
+[2026-10-06 11:00:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Malaysie/
+[2026-10-06 11:00:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/, perms=6, roles=6
+[2026-10-06 11:00:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Maroc/
+[2026-10-06 11:00:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/, perms=6, roles=6
+[2026-10-06 11:00:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Pologne/
+[2026-10-06 11:00:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/, perms=6, roles=6
+[2026-10-06 11:00:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Portugal/
+[2026-10-06 11:00:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/, perms=6, roles=6
+[2026-10-06 11:00:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Royaume-Uni/
+[2026-10-06 11:00:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/, perms=6, roles=6
+[2026-10-06 11:00:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Singapour/
+[2026-10-06 11:00:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Su�de/, perms=6, roles=6
+[2026-10-06 11:00:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Su�de/
+[2026-10-06 11:00:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/, perms=6, roles=6
+[2026-10-06 11:00:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Suisse/
+[2026-10-06 11:00:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/, perms=6, roles=6
+[2026-10-06 11:00:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. Tunisie/
+[2026-10-06 11:00:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/, perms=6, roles=6
+[2026-10-06 11:00:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/A-Veilles et traitement/Veille reg. USA/
+[2026-10-06 11:00:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/, perms=6, roles=6
+[2026-10-06 11:00:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/
+[2026-10-06 11:00:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/, perms=6, roles=6
+[2026-10-06 11:00:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Nimonik/
+[2026-10-06 11:00:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/, perms=6, roles=6
+[2026-10-06 11:00:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/Notisum/
+[2026-10-06 11:01:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/B-Partenaires veille int._/ZZ-Archives/
+[2026-10-06 11:01:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/, perms=6, roles=6
+[2026-10-06 11:01:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/
+[2026-10-06 11:01:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches th�matiques/, perms=6, roles=6
+[2026-10-06 11:01:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Fiches th�matiques/
+[2026-10-06 11:01:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/, perms=6, roles=6
+[2026-10-06 11:01:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Normes/
+[2026-10-06 11:01:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/, perms=6, roles=6
+[2026-10-06 11:01:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/C-Projets/Projet QSE Veille/
+[2026-10-06 11:01:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/, perms=6, roles=6
+[2026-10-06 11:01:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/D-OKRs-KPIs/
+[2026-10-06 11:01:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/, perms=6, roles=6
+[2026-10-06 11:01:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/
+[2026-10-06 11:01:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/, perms=6, roles=6
+[2026-10-06 11:01:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/Environnement/
+[2026-10-06 11:01:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/S�curit� au travail/, perms=6, roles=6
+[2026-10-06 11:01:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/E-Ressources juridiques/S�curit� au travail/
+[2026-10-06 11:01:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/
+[2026-10-06 11:01:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/, perms=6, roles=6
+[2026-10-06 11:01:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Check List - Traitement/
+[2026-10-06 11:01:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et proc�dures/, perms=6, roles=6
+[2026-10-06 11:01:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Process et proc�dures/
+[2026-10-06 11:01:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/, perms=6, roles=6
+[2026-10-06 11:01:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Questionnaires/
+[2026-10-06 11:01:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Th�matiques/, perms=6, roles=6
+[2026-10-06 11:01:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/01-Internal Ops/ZZ-Archives/Th�matiques/
+[2026-10-06 11:01:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/, perms=6, roles=6
+[2026-10-06 11:01:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/
+[2026-10-06 11:01:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/A-Suivi prod/, perms=6, roles=6
+[2026-10-06 11:01:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/A-Suivi prod/
+[2026-10-06 11:01:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/B-Clients/, perms=6, roles=6
+[2026-10-06 11:01:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/B-Clients/
+[2026-10-06 11:01:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/C-Services/, perms=6, roles=6
+[2026-10-06 11:01:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/C-Services/
+[2026-10-06 11:01:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/D-Projets/, perms=6, roles=6
+[2026-10-06 11:01:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/D-Projets/
+[2026-10-06 11:01:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/02-External Ops/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/02-External Ops/ZZ-Archives/
+[2026-10-06 11:01:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/, perms=6, roles=6
+[2026-10-06 11:01:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/
+[2026-10-06 11:01:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/, perms=6, roles=6
+[2026-10-06 11:01:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/
+[2026-10-06 11:01:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/T�l�phone/, perms=6, roles=6
+[2026-10-06 11:01:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/T�l�phone/
+[2026-10-06 11:01:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/A-Hotline/ZZ-Archives/
+[2026-10-06 11:01:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/, perms=6, roles=6
+[2026-10-06 11:01:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/
+[2026-10-06 11:01:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/B-NPS/ZZ-Archives/
+[2026-10-06 11:01:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/, perms=6, roles=6
+[2026-10-06 11:01:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/
+[2026-10-06 11:01:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/C-Satisfaction score/ZZ-Archives/
+[2026-10-06 11:01:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/, perms=6, roles=6
+[2026-10-06 11:01:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/
+[2026-10-06 11:01:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/03-Customer Care/D-Reporting/ZZ-Archives/
+[2026-10-06 11:01:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/, perms=6, roles=6
+[2026-10-06 11:01:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/
+[2026-10-06 11:01:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/, perms=6, roles=6
+[2026-10-06 11:01:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/
+[2026-10-06 11:01:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/A-Newsletter/ZZ-Archives/
+[2026-10-06 11:01:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/, perms=6, roles=6
+[2026-10-06 11:01:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/
+[2026-10-06 11:01:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/, perms=6, roles=6
+[2026-10-06 11:01:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/Webinar ECHOLINExBLUMEI/
+[2026-10-06 11:01:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/B-Webinar/ZZ-Archives/
+[2026-10-06 11:01:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/, perms=6, roles=6
+[2026-10-06 11:01:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/
+[2026-10-06 11:01:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/, perms=6, roles=6
+[2026-10-06 11:01:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/Maquettes/
+[2026-10-06 11:01:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/C-Siteweb/ZZ-Archives/
+[2026-10-06 11:01:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/, perms=6, roles=6
+[2026-10-06 11:01:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/
+[2026-10-06 11:01:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/, perms=6, roles=6
+[2026-10-06 11:01:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Flyers/
+[2026-10-06 11:01:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/, perms=6, roles=6
+[2026-10-06 11:01:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Illustrations/
+[2026-10-06 11:01:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Images g�n�r�es par Chat GPT/, perms=6, roles=6
+[2026-10-06 11:01:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Images g�n�r�es par Chat GPT/
+[2026-10-06 11:01:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/, perms=6, roles=6
+[2026-10-06 11:01:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos clients/
+[2026-10-06 11:01:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/, perms=6, roles=6
+[2026-10-06 11:01:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Logos ECHOLINE/
+[2026-10-06 11:01:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Photos/, perms=6, roles=6
+[2026-10-06 11:01:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/Photos/
+[2026-10-06 11:01:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/D-Kit communication/ZZ-Archives/
+[2026-10-06 11:01:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/, perms=6, roles=6
+[2026-10-06 11:01:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/
+[2026-10-06 11:01:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel r�glementaires/, perms=6, roles=6
+[2026-10-06 11:01:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/E- Linkedin/Carrousel r�glementaires/
+[2026-10-06 11:01:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/
+[2026-10-06 11:01:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/, perms=6, roles=6
+[2026-10-06 11:01:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/04-Community management/ZZ-Archives/Matinales/
+[2026-10-06 11:01:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/, perms=6, roles=6
+[2026-10-06 11:01:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/
+[2026-10-06 11:01:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/, perms=6, roles=6
+[2026-10-06 11:01:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/
+[2026-10-06 11:01:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/, perms=6, roles=6
+[2026-10-06 11:01:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/AES SARL/
+[2026-10-06 11:01:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/, perms=6, roles=6
+[2026-10-06 11:01:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ALCHIMIES/
+[2026-10-06 11:01:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/APAG/, perms=6, roles=6
+[2026-10-06 11:01:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/APAG/
+[2026-10-06 11:01:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/, perms=6, roles=6
+[2026-10-06 11:01:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BIOTOPE/
+[2026-10-06 11:01:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/, perms=6, roles=6
+[2026-10-06 11:01:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/BOBITECH/
+[2026-10-06 11:01:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/, perms=6, roles=6
+[2026-10-06 11:01:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAMO GROUPE/
+[2026-10-06 11:01:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/, perms=6, roles=6
+[2026-10-06 11:01:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CAPSUM/
+[2026-10-06 11:01:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/, perms=6, roles=6
+[2026-10-06 11:01:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CATTIER PARIS/
+[2026-10-06 11:01:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/, perms=6, roles=6
+[2026-10-06 11:01:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CERTINERGY/
+[2026-10-06 11:01:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/, perms=6, roles=6
+[2026-10-06 11:01:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CHARGEURS PCC/
+[2026-10-06 11:01:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/, perms=6, roles=6
+[2026-10-06 11:01:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/COLOREY/
+[2026-10-06 11:01:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CPCU/, perms=6, roles=6
+[2026-10-06 11:01:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CPCU/
+[2026-10-06 11:01:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/, perms=6, roles=6
+[2026-10-06 11:01:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/CTIBIOTECH/
+[2026-10-06 11:01:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/, perms=6, roles=6
+[2026-10-06 11:01:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIOR SERVICES/
+[2026-10-06 11:01:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIS/, perms=6, roles=6
+[2026-10-06 11:01:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ELIS/
+[2026-10-06 11:01:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/, perms=6, roles=6
+[2026-10-06 11:01:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENTSIA/
+[2026-10-06 11:01:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/, perms=6, roles=6
+[2026-10-06 11:01:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ENVIRIS/
+[2026-10-06 11:01:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/, perms=6, roles=6
+[2026-10-06 11:01:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/EUROSOURCING/
+[2026-10-06 11:01:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/FOUR� LAGADEC/, perms=6, roles=6
+[2026-10-06 11:01:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/FOUR� LAGADEC/
+[2026-10-06 11:01:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/, perms=6, roles=6
+[2026-10-06 11:01:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GETRAC/
+[2026-10-06 11:01:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/, perms=6, roles=6
+[2026-10-06 11:01:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GMP GROUP/
+[2026-10-06 11:01:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/, perms=6, roles=6
+[2026-10-06 11:01:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/GROUPE BOISSEAU/
+[2026-10-06 11:01:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/, perms=6, roles=6
+[2026-10-06 11:01:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IDI COMPOSITES/
+[2026-10-06 11:01:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/, perms=6, roles=6
+[2026-10-06 11:01:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/IPAC FRANCE/
+[2026-10-06 11:01:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/, perms=6, roles=6
+[2026-10-06 11:01:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/ISOVER/
+[2026-10-06 11:01:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/, perms=6, roles=6
+[2026-10-06 11:01:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KARINE JEFF/
+[2026-10-06 11:01:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/, perms=6, roles=6
+[2026-10-06 11:01:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/KEM ONE/
+[2026-10-06 11:01:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LDMI/, perms=6, roles=6
+[2026-10-06 11:01:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LDMI/
+[2026-10-06 11:01:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/, perms=6, roles=6
+[2026-10-06 11:01:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/LEZSAISONS/
+[2026-10-06 11:01:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/, perms=6, roles=6
+[2026-10-06 11:01:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MADIC GROUP/
+[2026-10-06 11:01:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/, perms=6, roles=6
+[2026-10-06 11:01:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MARSEILLE TOURISME/
+[2026-10-06 11:01:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/, perms=6, roles=6
+[2026-10-06 11:01:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MATMOND/
+[2026-10-06 11:01:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/, perms=6, roles=6
+[2026-10-06 11:01:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MEDINCELL/
+[2026-10-06 11:01:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/, perms=6, roles=6
+[2026-10-06 11:01:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/MOY PARK BEEF/
+[2026-10-06 11:01:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NOCIB�/, perms=6, roles=6
+[2026-10-06 11:01:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NOCIB�/
+[2026-10-06 11:01:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/, perms=6, roles=6
+[2026-10-06 11:01:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NORSKE SKOG/
+[2026-10-06 11:01:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/, perms=6, roles=6
+[2026-10-06 11:01:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/NUMTECH/
+[2026-10-06 11:01:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/, perms=6, roles=6
+[2026-10-06 11:01:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OMNOVA SOLUTIONS/
+[2026-10-06 11:01:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/, perms=6, roles=6
+[2026-10-06 11:01:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/OPTIQUE RICHARD/
+[2026-10-06 11:01:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/, perms=6, roles=6
+[2026-10-06 11:01:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PETROINEOS/
+[2026-10-06 11:01:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/, perms=6, roles=6
+[2026-10-06 11:01:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/PROVEPHARM/
+[2026-10-06 11:01:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/R�GIE DES EAUX 3M/, perms=6, roles=6
+[2026-10-06 11:01:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/R�GIE DES EAUX 3M/
+[2026-10-06 11:01:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTL�/, perms=6, roles=6
+[2026-10-06 11:01:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SITPA NESTL�/
+[2026-10-06 11:01:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SKF/, perms=6, roles=6
+[2026-10-06 11:01:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SKF/
+[2026-10-06 11:01:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/, perms=6, roles=6
+[2026-10-06 11:01:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SOLARHONA/
+[2026-10-06 11:01:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/, perms=6, roles=6
+[2026-10-06 11:01:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SPIRIT AEROSYSTEMS/
+[2026-10-06 11:01:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/, perms=6, roles=6
+[2026-10-06 11:01:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUEZ/
+[2026-10-06 11:01:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/, perms=6, roles=6
+[2026-10-06 11:01:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/SUPERGROUP/
+[2026-10-06 11:01:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/, perms=6, roles=6
+[2026-10-06 11:01:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/THIEVIN/
+[2026-10-06 11:01:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/, perms=6, roles=6
+[2026-10-06 11:01:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TMP CONVERT/
+[2026-10-06 11:01:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/, perms=6, roles=6
+[2026-10-06 11:01:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/TOPIVO/
+[2026-10-06 11:01:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/URBYN/, perms=6, roles=6
+[2026-10-06 11:01:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/URBYN/
+[2026-10-06 11:01:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/, perms=6, roles=6
+[2026-10-06 11:01:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VETERNITY/
+[2026-10-06 11:01:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/, perms=6, roles=6
+[2026-10-06 11:01:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VIATRIS MEDA MANUFACTURING/
+[2026-10-06 11:01:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/, perms=6, roles=6
+[2026-10-06 11:01:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/VINCI FACILITIES/
+[2026-10-06 11:01:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/YZEE/, perms=6, roles=6
+[2026-10-06 11:01:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/A-Prospects/YZEE/
+[2026-10-06 11:01:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/B-Templates/, perms=6, roles=6
+[2026-10-06 11:01:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/B-Templates/
+[2026-10-06 11:01:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/, perms=6, roles=6
+[2026-10-06 11:01:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/C-Automated_Quotes_Generation/
+[2026-10-06 11:01:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/, perms=6, roles=6
+[2026-10-06 11:01:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/
+[2026-10-06 11:01:49][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/, perms=6, roles=6
+[2026-10-06 11:01:49][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/ARTHUR/
+[2026-10-06 11:01:50][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/, perms=6, roles=6
+[2026-10-06 11:01:50][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/AURELIEN/
+[2026-10-06 11:01:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CELIA/, perms=6, roles=6
+[2026-10-06 11:01:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CELIA/
+[2026-10-06 11:01:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/, perms=6, roles=6
+[2026-10-06 11:01:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/CLOTHILDE/
+[2026-10-06 11:01:52][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/, perms=6, roles=6
+[2026-10-06 11:01:52][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/GAYLORD/
+[2026-10-06 11:01:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/JEREMY/, perms=6, roles=6
+[2026-10-06 11:01:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/JEREMY/
+[2026-10-06 11:01:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/LAURA/, perms=6, roles=6
+[2026-10-06 11:01:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/LAURA/
+[2026-10-06 11:01:53][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/, perms=6, roles=6
+[2026-10-06 11:01:53][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/SOPHIE/
+[2026-10-06 11:01:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/YANN/, perms=6, roles=6
+[2026-10-06 11:01:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/Communication Package/YANN/
+[2026-10-06 11:01:54][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/05-Sales/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:01:54][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/05-Sales/ZZ-Archives/
+[2026-10-06 11:01:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/, perms=6, roles=6
+[2026-10-06 11:01:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/
+[2026-10-06 11:01:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/ADRAR FORMATION/, perms=6, roles=6
+[2026-10-06 11:01:55][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/ADRAR FORMATION/
+[2026-10-06 11:01:55][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/, perms=6, roles=6
+[2026-10-06 11:01:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/
+[2026-10-06 11:01:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/, perms=6, roles=6
+[2026-10-06 11:01:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Devis/
+[2026-10-06 11:01:56][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/, perms=6, roles=6
+[2026-10-06 11:01:56][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/CAE CONSEILS/Partenariat/
+[2026-10-06 11:01:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/FRANCE SI/, perms=6, roles=6
+[2026-10-06 11:01:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/FRANCE SI/
+[2026-10-06 11:01:57][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/GAMMA SOFTWARE/, perms=6, roles=6
+[2026-10-06 11:01:57][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/GAMMA SOFTWARE/
+[2026-10-06 11:01:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/, perms=6, roles=6
+[2026-10-06 11:01:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/
+[2026-10-06 11:01:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/, perms=6, roles=6
+[2026-10-06 11:01:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/KNOWLLENCE/Contrat/
+[2026-10-06 11:01:58][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/LOOTIBOX/, perms=6, roles=6
+[2026-10-06 11:01:58][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/LOOTIBOX/
+[2026-10-06 11:01:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/, perms=6, roles=6
+[2026-10-06 11:01:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/
+[2026-10-06 11:01:59][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/Contrat/, perms=6, roles=6
+[2026-10-06 11:01:59][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/QUALIPRO/Contrat/
+[2026-10-06 11:02:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/, perms=6, roles=6
+[2026-10-06 11:02:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/
+[2026-10-06 11:02:00][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/Archive/, perms=6, roles=6
+[2026-10-06 11:02:00][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/Archive/
+[2026-10-06 11:02:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/06-Community/TEEO/Partenariat/, perms=6, roles=6
+[2026-10-06 11:02:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/06-Community/TEEO/Partenariat/
+[2026-10-06 11:02:01][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/, perms=6, roles=6
+[2026-10-06 11:02:01][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/
+[2026-10-06 11:02:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/, perms=6, roles=6
+[2026-10-06 11:02:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/
+[2026-10-06 11:02:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:02:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/A-Product management/ZZ-Archives/
+[2026-10-06 11:02:02][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/, perms=6, roles=6
+[2026-10-06 11:02:02][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/
+[2026-10-06 11:02:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Alexandria/, perms=6, roles=6
+[2026-10-06 11:02:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Alexandria/
+[2026-10-06 11:02:03][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/, perms=6, roles=6
+[2026-10-06 11:02:03][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Archives Gitlab/
+[2026-10-06 11:02:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/BDD/, perms=6, roles=6
+[2026-10-06 11:02:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/BDD/
+[2026-10-06 11:02:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Infra/, perms=6, roles=6
+[2026-10-06 11:02:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Infra/
+[2026-10-06 11:02:04][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Maquettes/, perms=6, roles=6
+[2026-10-06 11:02:04][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Maquettes/
+[2026-10-06 11:02:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/, perms=6, roles=6
+[2026-10-06 11:02:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/Pentest Q4 2022/
+[2026-10-06 11:02:05][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/QSE/, perms=6, roles=6
+[2026-10-06 11:02:05][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/QSE/
+[2026-10-06 11:02:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/RFP/, perms=6, roles=6
+[2026-10-06 11:02:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/B-Backup/RFP/
+[2026-10-06 11:02:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybers�curit�/, perms=6, roles=6
+[2026-10-06 11:02:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybers�curit�/
+[2026-10-06 11:02:06][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/, perms=6, roles=6
+[2026-10-06 11:02:06][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/
+[2026-10-06 11:02:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/, perms=6, roles=6
+[2026-10-06 11:02:07][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/C-Cybersécurité/2022/
+[2026-10-06 11:02:07][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/OpenAI/, perms=6, roles=6
+[2026-10-06 11:02:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/OpenAI/
+[2026-10-06 11:02:08][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:02:08][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/
+[2026-10-06 11:02:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/, perms=6, roles=6
+[2026-10-06 11:02:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/07-Tech/ZZ-Archives/Archives fonds LEGI - DILA/
+[2026-10-06 11:02:09][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/, perms=6, roles=6
+[2026-10-06 11:02:09][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/
+[2026-10-06 11:02:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/App ECHOLINE/, perms=6, roles=6
+[2026-10-06 11:02:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/App ECHOLINE/
+[2026-10-06 11:02:10][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/08-Design/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:02:10][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/08-Design/ZZ-Archives/
+[2026-10-06 11:02:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/, perms=6, roles=6
+[2026-10-06 11:02:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/
+[2026-10-06 11:02:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/A-Analyse environnementale/, perms=6, roles=6
+[2026-10-06 11:02:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/A-Analyse environnementale/
+[2026-10-06 11:02:11][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/B-Bilan carbone/, perms=6, roles=6
+[2026-10-06 11:02:11][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/B-Bilan carbone/
+[2026-10-06 11:02:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/C-Document unique/, perms=6, roles=6
+[2026-10-06 11:02:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/C-Document unique/
+[2026-10-06 11:02:12][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/09-QSE/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:02:12][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/09-QSE/ZZ-Archives/
+[2026-10-06 11:02:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/10-Pilotage/, perms=6, roles=6
+[2026-10-06 11:02:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/10-Pilotage/
+[2026-10-06 11:02:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/10-Pilotage/ZZ-Archives/, perms=6, roles=6
+[2026-10-06 11:02:13][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/10-Pilotage/ZZ-Archives/
+[2026-10-06 11:02:13][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/, perms=6, roles=6
+[2026-10-06 11:02:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/
+[2026-10-06 11:02:14][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Assurance/, perms=6, roles=6
+[2026-10-06 11:02:14][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Assurance/
+[2026-10-06 11:02:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Banque/, perms=6, roles=6
+[2026-10-06 11:02:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Banque/
+[2026-10-06 11:02:15][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Comptabilit�/, perms=6, roles=6
+[2026-10-06 11:02:15][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Comptabilit�/
+[2026-10-06 11:02:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Domiciliation/, perms=6, roles=6
+[2026-10-06 11:02:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Domiciliation/
+[2026-10-06 11:02:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Kbis et statuts/, perms=6, roles=6
+[2026-10-06 11:02:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Kbis et statuts/
+[2026-10-06 11:02:16][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Marque/, perms=6, roles=6
+[2026-10-06 11:02:16][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Marque/
+[2026-10-06 11:02:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/RGPD/, perms=6, roles=6
+[2026-10-06 11:02:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/RGPD/
+[2026-10-06 11:02:17][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/11-Admin/Taxe d_apprentissage/, perms=6, roles=6
+[2026-10-06 11:02:17][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/11-Admin/Taxe d_apprentissage/
+[2026-10-06 11:02:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/, perms=6, roles=6
+[2026-10-06 11:02:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/
+[2026-10-06 11:02:18][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Cabinet de paie/, perms=6, roles=6
+[2026-10-06 11:02:18][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Cabinet de paie/
+[2026-10-06 11:02:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Cabinets de recrutement/, perms=6, roles=6
+[2026-10-06 11:02:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Cabinets de recrutement/
+[2026-10-06 11:02:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Gestion des cong�s/, perms=6, roles=6
+[2026-10-06 11:02:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Gestion des cong�s/
+[2026-10-06 11:02:19][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Mod�les/, perms=6, roles=6
+[2026-10-06 11:02:19][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Mod�les/
+[2026-10-06 11:02:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Mutuelle/, perms=6, roles=6
+[2026-10-06 11:02:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Mutuelle/
+[2026-10-06 11:02:20][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/OPCO/, perms=6, roles=6
+[2026-10-06 11:02:20][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/OPCO/
+[2026-10-06 11:02:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Salari�s/, perms=6, roles=6
+[2026-10-06 11:02:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Salari�s/
+[2026-10-06 11:02:21][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/�tats mensuels/, perms=6, roles=6
+[2026-10-06 11:02:21][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/�tats mensuels/
+[2026-10-06 11:02:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/Test technique/, perms=6, roles=6
+[2026-10-06 11:02:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/Test technique/
+[2026-10-06 11:02:22][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/12-HR/URSSAF/, perms=6, roles=6
+[2026-10-06 11:02:22][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/12-HR/URSSAF/
+[2026-10-06 11:02:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/13-Karnov Group/, perms=6, roles=6
+[2026-10-06 11:02:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/13-Karnov Group/
+[2026-10-06 11:02:23][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/, perms=6, roles=6
+[2026-10-06 11:02:23][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/13-Karnov Group/ComplyLaw-Evidencia/
+[2026-10-06 11:02:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/14-Strategic Partners/, perms=6, roles=6
+[2026-10-06 11:02:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/14-Strategic Partners/
+[2026-10-06 11:02:24][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/, perms=6, roles=6
+[2026-10-06 11:02:24][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/14-Strategic Partners/HSE Works (Polish partners)/
+[2026-10-06 11:02:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/, perms=6, roles=6
+[2026-10-06 11:02:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/
+[2026-10-06 11:02:25][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/00 - Archives/, perms=6, roles=6
+[2026-10-06 11:02:25][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/00 - Archives/
+[2026-10-06 11:02:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/01 - Contrats/, perms=6, roles=6
+[2026-10-06 11:02:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/01 - Contrats/
+[2026-10-06 11:02:26][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/01-Contrats & devis/, perms=6, roles=6
+[2026-10-06 11:02:26][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/01-Contrats & devis/
+[2026-10-06 11:02:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/02 - Proc�dures et mod�les/, perms=6, roles=6
+[2026-10-06 11:02:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/02 - Proc�dures et mod�les/
+[2026-10-06 11:02:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/03 - Doc. op�rationnelle - Veille/, perms=6, roles=6
+[2026-10-06 11:02:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/03 - Doc. op�rationnelle - Veille/
+[2026-10-06 11:02:27][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/04 - Administratif/, perms=6, roles=6
+[2026-10-06 11:02:27][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/04 - Administratif/
+[2026-10-06 11:02:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/06-Check-List contr�le/, perms=6, roles=6
+[2026-10-06 11:02:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/06-Check-List contr�le/
+[2026-10-06 11:02:28][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/1- Tableaux de veille/, perms=6, roles=6
+[2026-10-06 11:02:28][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/1- Tableaux de veille/
+[2026-10-06 11:02:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/, perms=6, roles=6
+[2026-10-06 11:02:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/3 - Archives Lettre d'information/
+[2026-10-06 11:02:29][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/4- Documentation juridique/, perms=6, roles=6
+[2026-10-06 11:02:29][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/4- Documentation juridique/
+[2026-10-06 11:02:30][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/5- Manuel utilisateurs/, perms=6, roles=6
+[2026-10-06 11:02:30][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/5- Manuel utilisateurs/
+[2026-10-06 11:02:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/6- Fiches th�matiques/, perms=6, roles=6
+[2026-10-06 11:02:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/6- Fiches th�matiques/
+[2026-10-06 11:02:31][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ARCHIVES/, perms=6, roles=6
+[2026-10-06 11:02:31][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ARCHIVES/
+[2026-10-06 11:02:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ARTE/, perms=6, roles=6
+[2026-10-06 11:02:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ARTE/
+[2026-10-06 11:02:32][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/, perms=6, roles=6
+[2026-10-06 11:02:32][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/BATISANTE SUD (AZURTECH)/
+[2026-10-06 11:02:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/BIOCOOP/, perms=6, roles=6
+[2026-10-06 11:02:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/BIOCOOP/
+[2026-10-06 11:02:33][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Bioline - Livron sur Dr�me/, perms=6, roles=6
+[2026-10-06 11:02:33][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Bioline - Livron sur Dr�me/
+[2026-10-06 11:02:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/, perms=6, roles=6
+[2026-10-06 11:02:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CAE CONSEILS - SOFIDEL/
+[2026-10-06 11:02:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CARTIER/, perms=6, roles=6
+[2026-10-06 11:02:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CARTIER/
+[2026-10-06 11:02:34][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CL/, perms=6, roles=6
+[2026-10-06 11:02:34][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CL/
+[2026-10-06 11:02:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CLAIREFONTAINE/, perms=6, roles=6
+[2026-10-06 11:02:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CLAIREFONTAINE/
+[2026-10-06 11:02:35][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Contrats purement RH/, perms=6, roles=6
+[2026-10-06 11:02:35][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Contrats purement RH/
+[2026-10-06 11:02:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CR point initial/, perms=6, roles=6
+[2026-10-06 11:02:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CR point initial/
+[2026-10-06 11:02:36][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/CR point initial (1)/, perms=6, roles=6
+[2026-10-06 11:02:36][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/CR point initial (1)/
+[2026-10-06 11:02:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/, perms=6, roles=6
+[2026-10-06 11:02:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/DERICHEBOURG ATIS/
+[2026-10-06 11:02:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/DIOR/, perms=6, roles=6
+[2026-10-06 11:02:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/DIOR/
+[2026-10-06 11:02:37][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Doc veille internationale/, perms=6, roles=6
+[2026-10-06 11:02:37][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Doc veille internationale/
+[2026-10-06 11:02:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/ENI FRANCE/, perms=6, roles=6
+[2026-10-06 11:02:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/ENI FRANCE/
+[2026-10-06 11:02:38][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Exemples news ext�rieures/, perms=6, roles=6
+[2026-10-06 11:02:38][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Exemples news ext�rieures/
+[2026-10-06 11:02:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Export txts avant report SONATA/, perms=6, roles=6
+[2026-10-06 11:02:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Export txts avant report SONATA/
+[2026-10-06 11:02:39][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fertiline - Loud�ac/, perms=6, roles=6
+[2026-10-06 11:02:39][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fertiline - Loud�ac/
+[2026-10-06 11:02:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fiche ID/, perms=6, roles=6
+[2026-10-06 11:02:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fiche ID/
+[2026-10-06 11:02:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Fiche ID (1)/, perms=6, roles=6
+[2026-10-06 11:02:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Fiche ID (1)/
+[2026-10-06 11:02:40][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Formulaire utilisateurs/, perms=6, roles=6
+[2026-10-06 11:02:40][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Formulaire utilisateurs/
+[2026-10-06 11:02:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/LOUIS VUITTON/, perms=6, roles=6
+[2026-10-06 11:02:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/LOUIS VUITTON/
+[2026-10-06 11:02:41][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/mails - hotline directe/, perms=6, roles=6
+[2026-10-06 11:02:41][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/mails - hotline directe/
+[2026-10-06 11:02:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/MODELES lettre info/, perms=6, roles=6
+[2026-10-06 11:02:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/MODELES lettre info/
+[2026-10-06 11:02:42][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/NUTRITION ET SANTE/, perms=6, roles=6
+[2026-10-06 11:02:42][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/NUTRITION ET SANTE/
+[2026-10-06 11:02:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/PIVAUDRAN/, perms=6, roles=6
+[2026-10-06 11:02:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/PIVAUDRAN/
+[2026-10-06 11:02:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Projets/, perms=6, roles=6
+[2026-10-06 11:02:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Projets/
+[2026-10-06 11:02:43][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/, perms=6, roles=6
+[2026-10-06 11:02:43][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/RIEN AJOUTER Dossiers clients/
+[2026-10-06 11:02:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/SIGNAUX GIROD/, perms=6, roles=6
+[2026-10-06 11:02:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/SIGNAUX GIROD/
+[2026-10-06 11:02:44][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/STERIS/, perms=6, roles=6
+[2026-10-06 11:02:44][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/STERIS/
+[2026-10-06 11:02:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/THYSSENKRUPP/, perms=6, roles=6
+[2026-10-06 11:02:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/THYSSENKRUPP/
+[2026-10-06 11:02:45][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/, perms=6, roles=6
+[2026-10-06 11:02:45][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Montoir de Bretagne/
+[2026-10-06 11:02:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Nantes/, perms=6, roles=6
+[2026-10-06 11:02:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Nantes/
+[2026-10-06 11:02:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/, perms=6, roles=6
+[2026-10-06 11:02:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo - Saint-usage/
+[2026-10-06 11:02:46][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/, perms=6, roles=6
+[2026-10-06 11:02:46][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Chalon en Champagne/
+[2026-10-06 11:02:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Metz/, perms=6, roles=6
+[2026-10-06 11:02:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Union Invivo Metz/
+[2026-10-06 11:02:47][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/VALOREM/, perms=6, roles=6
+[2026-10-06 11:02:47][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/VALOREM/
+[2026-10-06 11:02:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/VILLEROY ET BOCH/, perms=6, roles=6
+[2026-10-06 11:02:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/VILLEROY ET BOCH/
+[2026-10-06 11:02:48][DEBUG] Permissions detectees: item=Documents partages/Drive ECHOLINE/PB drive/Visites/, perms=6, roles=6
+[2026-10-06 11:02:48][DEBUG] Lecture enfants: parent=Documents partages/Drive ECHOLINE/PB drive/Visites/
+[2026-10-06 11:02:49][DEBUG] Permissions detectees: item=Documents partages/General/, perms=5, roles=5
+[2026-10-06 11:02:49][DEBUG] Lecture enfants: parent=Documents partages/General/
+[2026-10-06 11:02:49][DEBUG] Permissions detectees: item=Documents partages/General/20acf43b-9697-494d-a60c-b6b7c4066082.png, perms=5, roles=5
+[2026-10-06 11:02:49][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/, perms=5, roles=5
+[2026-10-06 11:02:50][DEBUG] Lecture enfants: parent=Documents partages/SCRIPT/
+[2026-10-06 11:02:50][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/ajout_DKIM_PS.txt, perms=5, roles=5
+[2026-10-06 11:02:51][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/conf_POSTFIX_Domaine.txt, perms=5, roles=5
+[2026-10-06 11:02:51][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/EOm8Q~EPBhXvVx5eeRrXdYK5wljgxyS6bGm.txt, perms=5, roles=5
+[2026-10-06 11:02:51][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Extraction_AD_BAUNETZ.ps1, perms=5, roles=5
+[2026-10-06 11:02:51][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/import_onedrive.csv, perms=5, roles=5
+[2026-10-06 11:02:52][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/mail_secondaire.csv, perms=5, roles=5
+[2026-10-06 11:02:52][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/migrationwiz_import_email_email (1).csv, perms=5, roles=5
+[2026-10-06 11:02:52][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Murge_BAL_Important!!.txt, perms=5, roles=5
+[2026-10-06 11:02:52][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/nouveau 10.txt, perms=5, roles=5
+[2026-10-06 11:02:53][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/nouveau 12.txt, perms=5, roles=5
+[2026-10-06 11:02:53][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Nouveau Document texte.csv, perms=5, roles=5
+[2026-10-06 11:02:53][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Post_Fixe.txt, perms=5, roles=5
+[2026-10-06 11:02:54][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Postfix.txt, perms=5, roles=5
+[2026-10-06 11:02:54][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_activation_user_AD.txt, perms=5, roles=5
+[2026-10-06 11:02:54][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_adressemail_secondaire_proxyadress.txt, perms=5, roles=5
+[2026-10-06 11:02:54][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_champs_mail_en_masse.txt, perms=5, roles=5
+[2026-10-06 11:02:55][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_ajout_compte_admin_dans_les_sites_sharepoint.txt, perms=5, roles=5
+[2026-10-06 11:02:55][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_ajout_délegation_FullAcces_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:55][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_mailsecondaire_proxyadress_plusieursdomaine.txt, perms=5, roles=5
+[2026-10-06 11:02:55][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_ajout_SMTP_proxyadress_en_masse.txt, perms=5, roles=5
+[2026-10-06 11:02:56][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:56][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_bp_mail.txt, perms=5, roles=5
+[2026-10-06 11:02:56][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_Fullaccess_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:56][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_delegation_SendAs_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:57][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_délégation_SendAs_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:59][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_désactivation_user.txt, perms=5, roles=5
+[2026-10-06 11:02:59][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_droit_BP.txt, perms=5, roles=5
+[2026-10-06 11:02:59][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_extrac_SMTP_Principale.txt, perms=5, roles=5
+[2026-10-06 11:02:59][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Extract_adressemail_Exchange_Online.txt, perms=5, roles=5
+[2026-10-06 11:03:00][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Extract_délégation_BP.txt, perms=5, roles=5
+[2026-10-06 11:03:00][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_membre_groupe_AD.txt, perms=5, roles=5
+[2026-10-06 11:03:00][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_onedrive.txt, perms=5, roles=5
+[2026-10-06 11:03:01][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_proxyaddress.txt, perms=5, roles=5
+[2026-10-06 11:03:01][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_Proxyadress_format.txt, perms=5, roles=5
+[2026-10-06 11:03:01][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extract_UPN_AD.txt, perms=5, roles=5
+[2026-10-06 11:03:01][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_extraction_de_la_liste_des_sites_sharepoint.txt, perms=5, roles=5
+[2026-10-06 11:03:02][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_Inscription_SSO_Appli_Azure.txt, perms=5, roles=5
+[2026-10-06 11:03:02][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modif_champ_email_docu.ch, perms=5, roles=5
+[2026-10-06 11:03:02][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modif_proxyaddress_Group.txt, perms=5, roles=5
+[2026-10-06 11:03:02][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modif_proxyadress_docu.ch.txt, perms=5, roles=5
+[2026-10-06 11:03:02][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modification_UPN_AD_User.txt, perms=5, roles=5
+[2026-10-06 11:03:03][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modifier_le_champ_mail.txt, perms=5, roles=5
+[2026-10-06 11:03:03][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_modifier_lechampmail_proxyadresseSMTP.txt, perms=5, roles=5
+[2026-10-06 11:03:03][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_modifier_proxyadress.txt, perms=5, roles=5
+[2026-10-06 11:03:03][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_provisionning_OneDrive.txt, perms=5, roles=5
+[2026-10-06 11:03:04][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/script_remplacer_UPN_AD.txt, perms=5, roles=5
+[2026-10-06 11:03:04][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Restauration_SMTP_format.txt, perms=5, roles=5
+[2026-10-06 11:03:04][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_Room_Mailbox.txt, perms=5, roles=5
+[2026-10-06 11:03:04][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/Script_SGUM_ShareGate.txt, perms=5, roles=5
+[2026-10-06 11:03:05][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/SCRIPT8EXTR.txt, perms=5, roles=5
+[2026-10-06 11:03:05][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/SharedMailBox_FEBIS.csv, perms=5, roles=5
+[2026-10-06 11:03:05][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/suppression_champ_mail_UO.txt, perms=5, roles=5
+[2026-10-06 11:03:05][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/suppression_SMTP_UO.txt, perms=5, roles=5
+[2026-10-06 11:03:05][DEBUG] Permissions detectees: item=Documents partages/SCRIPT/User_MailBox_docuat.txt, perms=5, roles=5
+[2026-10-06 11:03:06][DEBUG] Permissions detectees: item=Documents partages/Audit_user_gmail.xlsx, perms=5, roles=5
+[2026-10-06 11:03:06][DEBUG] Permissions detectees: item=Documents partages/Capture d’écran 2026-01-27 172058.jpg, perms=5, roles=5
+[2026-10-06 11:03:06][DEBUG] Permissions detectees: item=Documents partages/emailaddress.csv, perms=5, roles=5
+[2026-10-06 11:03:06][DEBUG] Permissions detectees: item=Documents partages/Members_.csv, perms=5, roles=5
+[2026-10-06 11:03:07][DEBUG] Permissions detectees: item=Documents partages/Members_support_CUSTOMRIGHTSTEST.csv, perms=5, roles=5
+[2026-10-06 11:03:07][INFO] Traitement liste: Lists/listetest (template genericList)
+[2026-10-06 11:03:07][INFO] Liste 'Lists/listetest': 1 element(s)
+[2026-10-06 11:03:07][SUCCESS] lists.json ecrit: 3 liste(s)/bibliotheque(s)
+[2026-10-06 11:03:07][SUCCESS] Export CSV permissions: E:\SharePoint_Permissions_Export_src9999.csv
+[2026-10-06 11:03:07][SUCCESS] Mapping CSV genere (a completer: DestinationDisplayName): E:\UserMapping.csv
+[2026-10-06 11:03:07][SUCCESS] Scan termine: 436 fichiers/dossiers, 2454 droits, 1 elements de liste, 0 erreur(s)

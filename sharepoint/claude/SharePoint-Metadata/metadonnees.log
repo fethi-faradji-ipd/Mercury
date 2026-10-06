@@ -1,0 +1,14 @@
+
+[2026-10-06 11:15:05][INFO] Mode: APPLICATION
+[2026-10-06 11:15:07][INFO] Fichiers/dossiers copies a traiter : 409
+[2026-10-06 11:16:00][INFO] ... 50/409
+[2026-10-06 11:16:51][INFO] ... 100/409
+[2026-10-06 11:17:31][INFO] ... 150/409
+[2026-10-06 11:18:09][INFO] ... 200/409
+[2026-10-06 11:18:48][INFO] ... 250/409
+[2026-10-06 11:19:27][INFO] ... 300/409
+[2026-10-06 11:20:07][INFO] ... 350/409
+[2026-10-06 11:20:42][INFO] ... 400/409
+[2026-10-06 11:20:50][INFO] Elements de listes copies a traiter : 1
+[2026-10-06 11:20:51][SUCCESS] Metadonnees : appliquees 410, dates seules 0, ignorees 0, erreurs 0
+[2026-10-06 11:20:51][INFO] Rapport: C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Metadata\metadonnees_resultats.csv

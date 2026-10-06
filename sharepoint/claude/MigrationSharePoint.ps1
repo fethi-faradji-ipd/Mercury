@@ -8,10 +8,10 @@
     Regroupe six phases, lancees dans cet ordre (choix via $Phases) :
       Decouverte   inventaire des listes, bibliotheques, fichiers, colonnes et droits (Graph) -> fichiers
       Copie        creation des listes/bibliotheques, copie des fichiers, elements, metadonnees et droits (Graph)
-      Metadonnees  dates Cree/Modifie et auteurs Cree par/Modifie par d'origine (PnP)
       Applications apps SharePoint installees sur le site (PnP)
       Navigation   menu de gauche : listes/bibliotheques et liens (PnP)
       Droits       niveaux d'autorisation, groupes SharePoint, droits uniques personnalises (PnP)
+      Metadonnees  dates Cree/Modifie et auteurs Cree par/Modifie par d'origine (PnP), toujours en dernier
 
     Tous les parametres sont dans la section CONFIGURATION ci-dessous (aucun argument en ligne de commande).
     Les phases PnP simulent par defaut ($Apply = $false) ; mettre $Apply = $true pour appliquer.
@@ -27,14 +27,14 @@
 # ============================================================================
 
 # Tous les parametres sont ici : modifiez ce bloc puis lancez simplement .\MigrationSharePoint.ps1
-# --- Phases a executer. Ordre d'execution fixe : Decouverte, Copie, Applications, Navigation, Droits.
+# --- Phases a executer. Ordre d'execution fixe : Decouverte, Copie, Applications, Navigation, Droits, Metadonnees.
 #   Decouverte   : inventaire des listes/bibliotheques/fichiers/droits Graph -> fichiers (SharePoint-Discovery)
 #   Copie        : creation des listes, copie des fichiers/elements/metadonnees + droits Graph (ecrit toujours)
 #   Metadonnees  : remet Cree/Modifie (dates) et Cree par/Modifie par d'origine           (PnP, PowerShell 7)
 #   Applications : apps SharePoint (SPFx) installees sur le site source -> cible       (PnP, PowerShell 7)
 #   Navigation   : menu de gauche (listes/bibliotheques + liens)                        (PnP, PowerShell 7)
 #   Droits       : niveaux d'autorisation, groupes, droits uniques personnalises        (PnP, PowerShell 7)
-$Phases = @('Decouverte', 'Copie', 'Metadonnees', 'Applications', 'Navigation', 'Droits')
+$Phases = @('Decouverte', 'Copie', 'Applications', 'Navigation', 'Droits', 'Metadonnees')
 
 # $false = les phases PnP (Applications, Navigation, Droits) SIMULENT sans rien modifier sur la cible.
 # La phase Copie n'a pas de simulation : elle ecrit toujours sur la cible.
@@ -128,6 +128,8 @@ $Locations = @('QuickLaunch')
 # avec cette version. Les adresses e-mail sont transposees avec $DomainMapping (section Droits ci-dessous).
 $MetadataSetDates = $true
 $MetadataSetAuthors = $true
+# $true = relit chaque element apres ecriture et signale (log + rapport) les valeurs que SharePoint n'a pas retenues.
+$MetadataVerify = $true
 
 # --- Phase Droits (autorisations non natives) ------------------------------------------
 # $true = remplace les droits uniques des listes, dossiers, fichiers et elements.
@@ -225,7 +227,7 @@ if ([string]::IsNullOrWhiteSpace($TargetClientSecret)) { $TargetClientSecret = $
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePath)) { $TargetCertificatePath = $SourceCertificatePath }
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePassword)) { $TargetCertificatePassword = $SourceCertificatePassword }
 
-$AllPhases = @('Decouverte', 'Copie', 'Metadonnees', 'Applications', 'Navigation', 'Droits')
+$AllPhases = @('Decouverte', 'Copie', 'Applications', 'Navigation', 'Droits', 'Metadonnees')
 foreach ($p in $Phases) {
     if ($AllPhases -notcontains $p) { throw "Phase inconnue '$p'. Valeurs possibles : $($AllPhases -join ', ')" }
 }
@@ -4149,7 +4151,8 @@ function Invoke-PhaseMetadonnees {
     $ErrorActionPreference = 'Stop'
     $script:LogFile = $null
     $results = New-Object System.Collections.Generic.List[object]
-    $stats = @{ ok = 0; datesOnly = 0; failed = 0; skipped = 0 }
+    $stats = @{ ok = 0; datesOnly = 0; failed = 0; skipped = 0; mismatch = 0 }
+    $userIdCache = @{}
 
     function Write-Log {
         param([string]$Message, [string]$Level = 'INFO')
@@ -4186,48 +4189,114 @@ function Invoke-PhaseMetadonnees {
         return $Email.Trim().ToLowerInvariant()
     }
 
-    function Get-MetaValues($Meta, [bool]$WithUsers) {
-        $values = @{}
-        if (-not $Meta) { return $values }
-        if ($MetadataSetDates) {
-            if ($Meta.created)  { $values['Created']  = [datetime]::Parse([string]$Meta.created,  [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind) }
-            if ($Meta.modified) { $values['Modified'] = [datetime]::Parse([string]$Meta.modified, [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind) }
-        }
-        if ($MetadataSetAuthors -and $WithUsers) {
-            $author = if ($Meta.createdBy)  { Convert-Email ([string]$Meta.createdBy.email) }
-            $editor = if ($Meta.modifiedBy) { Convert-Email ([string]$Meta.modifiedBy.email) }
-            if ($author) { $values['Author'] = $author }
-            if ($editor) { $values['Editor'] = $editor }
-        }
-        return $values
+    function ConvertTo-UtcDate($Value) {
+        if ($null -eq $Value -or [string]::IsNullOrWhiteSpace([string]$Value)) { return $null }
+        return [datetime]::Parse([string]$Value, [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind).ToUniversalTime()
     }
 
-    # Applique les valeurs ; si l'utilisateur est inconnu de la cible, on retente avec les dates seules.
+    # Adresse -> id de l'utilisateur dans la liste d'information utilisateurs du site cible
+    # (l'adresse e-mail est d'abord convertie en UPN via Graph, comme dans la phase Droits).
+    function Resolve-TargetUserId {
+        param([string]$Email, $Conn)
+
+        $mail = Convert-Email $Email
+        if (-not $mail) { return $null }
+        if ($userIdCache.ContainsKey($mail)) { return $userIdCache[$mail] }
+
+        $id = $null
+        $upn = $mail
+        try {
+            $filter = [Uri]::EscapeDataString("mail eq '$mail' or userPrincipalName eq '$mail'")
+            $resp = Invoke-PnPGraphMethod -Method Get -Url "users?`$select=userPrincipalName&`$filter=$filter" -Connection $Conn
+            $u = @($resp.value) | Select-Object -First 1
+            if ($u -and $u.userPrincipalName) { $upn = ([string]$u.userPrincipalName).ToLowerInvariant() }
+        } catch {
+            Write-Log ("Recherche Graph impossible pour {0} : {1}" -f $mail, $_.Exception.Message) 'WARN'
+        }
+        try {
+            $siteUser = New-PnPUser -LoginName ('i:0#.f|membership|' + $upn) -Connection $Conn
+            $id = [int]$siteUser.Id
+        } catch {
+            Write-Log ("Utilisateur introuvable sur la cible : {0} ({1})" -f $upn, $_.Exception.Message) 'WARN'
+        }
+        $userIdCache[$mail] = $id
+        return $id
+    }
+
+    function New-UserValue([int]$Id) {
+        $v = New-Object Microsoft.SharePoint.Client.FieldUserValue
+        $v.LookupId = $Id
+        return $v
+    }
+
+    # Ecrit Cree/Modifie/Cree par/Modifie par (SystemUpdate : ne change ni la date ni l'auteur de modification),
+    # puis relit l'element pour verifier ce que SharePoint a reellement enregistre.
     function Set-Metadata {
         param($List, [int]$ItemId, $Meta, $Conn, [string]$Label)
 
-        $full = Get-MetaValues -Meta $Meta -WithUsers $true
-        if ($full.Count -eq 0) { $stats.skipped++; return 'ignore' }
+        $created  = if ($MetadataSetDates -and $Meta.created)  { ConvertTo-UtcDate $Meta.created }  else { $null }
+        $modified = if ($MetadataSetDates -and $Meta.modified) { ConvertTo-UtcDate $Meta.modified } else { $null }
+        $authorMail = if ($MetadataSetAuthors -and $Meta.createdBy)  { [string]$Meta.createdBy.email }  else { '' }
+        $editorMail = if ($MetadataSetAuthors -and $Meta.modifiedBy) { [string]$Meta.modifiedBy.email } else { '' }
+        if (-not $created -and -not $modified -and -not $authorMail -and -not $editorMail) { $stats.skipped++; return 'ignore' }
         if (-not $Apply) { $stats.ok++; return 'prevu' }
+
         try {
-            Set-PnPListItem -List $List -Identity $ItemId -Values $full -UpdateType SystemUpdate -Connection $Conn | Out-Null
-            $stats.ok++
-            return 'ok'
+            $authorId = if ($authorMail) { Resolve-TargetUserId -Email $authorMail -Conn $Conn } else { $null }
+            $editorId = if ($editorMail) { Resolve-TargetUserId -Email $editorMail -Conn $Conn } else { $null }
+
+            $item = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
+            if ($created)  { $item['Created']  = $created }
+            if ($modified) { $item['Modified'] = $modified }
+            if ($authorId) { $item['Author'] = New-UserValue $authorId }
+            if ($editorId) { $item['Editor'] = New-UserValue $editorId }
+            $item.SystemUpdate()
+            Invoke-PnPQuery -Connection $Conn
         } catch {
-            $firstError = $_.Exception.Message
-            $datesOnly = Get-MetaValues -Meta $Meta -WithUsers $false
-            if ($datesOnly.Count -gt 0 -and ($full.ContainsKey('Author') -or $full.ContainsKey('Editor'))) {
-                try {
-                    Set-PnPListItem -List $List -Identity $ItemId -Values $datesOnly -UpdateType SystemUpdate -Connection $Conn | Out-Null
-                    $stats.datesOnly++
-                    Write-Log ("{0} : auteur non applique ({1}), dates restaurees" -f $Label, $firstError) 'WARN'
-                    return 'dates seules'
-                } catch { $firstError = $_.Exception.Message }
-            }
             $stats.failed++
-            Write-Log ("{0} : {1}" -f $Label, $firstError) 'ERROR'
-            return ('erreur: ' + $firstError)
+            Write-Log ("{0} : ecriture impossible : {1}" -f $Label, $_.Exception.Message) 'ERROR'
+            return ('erreur: ' + $_.Exception.Message)
         }
+
+        $notes = New-Object System.Collections.Generic.List[string]
+        if ($authorMail -and -not $authorId) { $notes.Add("auteur '$authorMail' introuvable sur la cible") }
+        if ($editorMail -and -not $editorId) { $notes.Add("modificateur '$editorMail' introuvable sur la cible") }
+
+        if ($MetadataVerify) {
+            try {
+                $check = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
+                $diffs = New-Object System.Collections.Generic.List[string]
+                foreach ($pair in @(@('Created', $created), @('Modified', $modified))) {
+                    if ($null -eq $pair[1]) { continue }
+                    $actual = [datetime]$check[$pair[0]]
+                    if ([Math]::Abs(($actual.ToUniversalTime() - $pair[1]).TotalSeconds) -gt 2) {
+                        $diffs.Add(("{0} attendu {1:u} / obtenu {2:u}" -f $pair[0], $pair[1], $actual.ToUniversalTime()))
+                    }
+                }
+                foreach ($pair in @(@('Author', $authorId), @('Editor', $editorId))) {
+                    if (-not $pair[1]) { continue }
+                    $actualId = [int]$check[$pair[0]].LookupId
+                    if ($actualId -ne [int]$pair[1]) {
+                        $diffs.Add(("{0} attendu id {1} / obtenu '{2}' (id {3})" -f $pair[0], $pair[1], $check[$pair[0]].LookupValue, $actualId))
+                    }
+                }
+                if ($diffs.Count -gt 0) {
+                    $stats.mismatch++
+                    Write-Log ("{0} : valeurs non retenues : {1}" -f $Label, ($diffs -join ' ; ')) 'WARN'
+                    return ('ecart: ' + ($diffs -join ' ; '))
+                }
+            } catch {
+                Write-Log ("{0} : verification impossible : {1}" -f $Label, $_.Exception.Message) 'WARN'
+            }
+        }
+
+        if ($notes.Count -gt 0) {
+            $stats.datesOnly++
+            Write-Log ("{0} : {1}" -f $Label, ($notes -join ' ; ')) 'WARN'
+            return ('partiel: ' + ($notes -join ' ; '))
+        }
+        $stats.ok++
+        return 'ok'
     }
 
     New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
@@ -4337,8 +4406,8 @@ function Invoke-PhaseMetadonnees {
             }
         }
 
-        Write-Log ("Metadonnees : {0} {1}, dates seules {2}, ignorees {3}, erreurs {4}" -f $(if ($Apply) { 'appliquees' } else { 'a appliquer (simulation)' }), $stats.ok, $stats.datesOnly, $stats.skipped, $stats.failed) 'SUCCESS'
-        if ($stats.failed -gt 0) { $script:PhaseFailed = $true }
+        Write-Log ("Metadonnees : {0} {1}, partielles (utilisateur introuvable) {2}, ecarts apres verification {3}, ignorees {4}, erreurs {5}" -f $(if ($Apply) { 'appliquees' } else { 'a appliquer (simulation)' }), $stats.ok, $stats.datesOnly, $stats.mismatch, $stats.skipped, $stats.failed) 'SUCCESS'
+        if ($stats.failed -gt 0 -or $stats.mismatch -gt 0) { $script:PhaseFailed = $true }
     }
     catch {
         Write-Log ("Erreur fatale: {0}" -f $_.Exception.Message) 'ERROR'
@@ -4359,10 +4428,10 @@ function Invoke-PhaseMetadonnees {
 $phaseFunctions = [ordered]@{
     Decouverte   = 'Invoke-PhaseDecouverte'
     Copie        = 'Invoke-PhaseCopie'
-    Metadonnees  = 'Invoke-PhaseMetadonnees'
     Applications = 'Invoke-PhaseApplications'
     Navigation   = 'Invoke-PhaseNavigation'
     Droits       = 'Invoke-PhaseDroits'
+    Metadonnees  = 'Invoke-PhaseMetadonnees'   # en dernier : les autres phases ne doivent plus modifier les elements apres elle
 }
 
 function Write-Banner([string]$Text, [string]$Color = 'Magenta') {
