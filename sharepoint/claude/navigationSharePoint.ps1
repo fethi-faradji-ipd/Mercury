@@ -42,6 +42,16 @@ if ([string]::IsNullOrWhiteSpace($TargetClientId)) { $TargetClientId = $SourceCl
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePath)) { $TargetCertificatePath = $SourceCertificatePath }
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePassword)) { $TargetCertificatePassword = $SourceCertificatePassword }
 
+# PnP.PowerShell 2.x/3.x exige PowerShell 7 : relance automatique si pwsh.exe est installe.
+if ($PSVersionTable.PSVersion.Major -lt 7) {
+    $pwshCommand = Get-Command -Name pwsh.exe -ErrorAction SilentlyContinue
+    if ($pwshCommand -and $PSCommandPath) {
+        Write-Host "Windows PowerShell $($PSVersionTable.PSVersion) detecte : relance dans PowerShell 7 ($($pwshCommand.Source))..." -ForegroundColor Cyan
+        & $pwshCommand.Source -NoProfile -ExecutionPolicy Bypass -File $PSCommandPath
+        exit $LASTEXITCODE
+    }
+}
+
 $ErrorActionPreference = 'Stop'
 
 function Write-Log {
@@ -100,7 +110,7 @@ function Add-MissingNodes {
 
 try {
     Write-Log ("Mode: {0}" -f $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION (aucune modification)' }))
-    if (-not (Get-Module -ListAvailable -Name PnP.PowerShell)) { throw 'Module PnP.PowerShell absent : Install-Module PnP.PowerShell -Scope CurrentUser' }
+    if (-not (Get-Module -ListAvailable -Name PnP.PowerShell)) { throw 'Module PnP.PowerShell absent. Installez PowerShell 7 puis, dans pwsh : Install-Module PnP.PowerShell -Scope CurrentUser' }
     Import-Module PnP.PowerShell -DisableNameChecking
 
     $src = Connect-Site -Url $SourceSiteUrl -Tenant $SourceTenantId -ClientId $SourceClientId -CertPath $SourceCertificatePath -CertPassword $SourceCertificatePassword
