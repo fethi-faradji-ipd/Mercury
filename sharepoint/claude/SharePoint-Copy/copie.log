@@ -1,0 +1,10 @@
+﻿
+[2026-10-05 13:53:01][INFO] Demarrage copie (decouverte: C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Discovery, sortie: C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Copy)
+[2026-10-05 13:53:01][INFO] Listes et bibliotheques a traiter: 3
+[2026-10-05 13:53:01][SUCCESS] Traductions chargees: 1
+[2026-10-05 13:53:01][SUCCESS] Mappages charges: ID=3, Name=6
+[2026-10-05 13:53:03][SUCCESS] Liste/bibliotheque creee sur la cible: test
+[2026-10-05 13:53:04][SUCCESS] Liste/bibliotheque creee sur la cible: Lists/listetest
+[2026-10-05 13:53:06][INFO] Chemins avec droits charges: 436
+[2026-10-05 13:53:06][ERROR] Erreur fatale: Les types des arguments ne correspondent pas.
+[2026-10-05 13:53:06][INFO] Resultats ecrits dans C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Copy (fichiers=0, droits=0, listes=2, elements=0, erreurs=1)

@@ -29,6 +29,9 @@ $site_url_cible = 'https://infoprodigital365.sharepoint.com/sites/fethiMercury/'
 #$site_url_source = "https://ipdlab.sharepoint.com/sites/SERVICES_GENERAUX/"
 #$site_url_cible  = "https://infoprodigital365.sharepoint.com/sites/WH_GPA-test/"
 
+# $false (defaut) = aucune traduction de chemin, les chemins sont copies a l'identique.
+# $true = applique les traductions de $translation_csv (colonnes Source, Destination).
+$ApplyPathTranslations = $false
 $translation_csv = "E:\UKREiiF_FinalCopy_path.csv"
 $mapping_csv     = "E:\UserMapping.csv"
 $CsvLibraryPrefixToStrip = ""
@@ -91,7 +94,7 @@ function Write-Log {
     $line = "[{0}][{1}] {2}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $Level, $Message
     Write-Host $line
     if ($script:LogFile) {
-        try { Add-Content -LiteralPath $script:LogFile -Value $line -Encoding UTF8 } catch {}
+        try { Add-Content -LiteralPath $script:LogFile -Value $line -Encoding UTF8 -ErrorAction Stop } catch {}
     }
 }
 
@@ -463,6 +466,10 @@ function Upload-File {
 }
 
 function Load-UrlTranslations {
+    if (-not $ApplyPathTranslations) {
+        Write-Log "Traduction de chemins desactivee (ApplyPathTranslations = false)"
+        return
+    }
     if (-not (Test-Path $translation_csv)) {
         Write-Log "Fichier de traduction introuvable: $translation_csv" "WARN"
         return
@@ -471,7 +478,13 @@ function Load-UrlTranslations {
     $csv = Import-Csv -Path $translation_csv -Encoding UTF8
     foreach ($r in $csv) {
         if ($r.Source -and $r.Destination) {
-            $script:UrlTranslations[(Normalize-RelPath $r.Source)] = (Normalize-RelPath $r.Destination)
+            $src = Normalize-RelPath $r.Source
+            if ([string]::IsNullOrEmpty($src)) {
+                # Une source vide (ex. "/") remplacerait n'importe quel chemin : ignoree.
+                Write-Log ("Traduction ignoree (source vide apres normalisation): '{0}' -> '{1}'" -f $r.Source, $r.Destination) "WARN"
+                continue
+            }
+            $script:UrlTranslations[$src] = (Normalize-RelPath $r.Destination)
         }
     }
     Write-Log ("Traductions chargees: {0}" -f $script:UrlTranslations.Count) "SUCCESS"
@@ -481,8 +494,9 @@ function Apply-UrlTranslations {
     param([string]$Path)
 
     $p = Normalize-RelPath $Path
+    if (-not $ApplyPathTranslations) { return $p }
     foreach ($k in $script:UrlTranslations.Keys) {
-        if ($p.Contains($k)) {
+        if (-not [string]::IsNullOrEmpty($k) -and $p.Contains($k)) {
             $p = $p.Replace($k, $script:UrlTranslations[$k])
         }
     }
@@ -942,7 +956,8 @@ try {
         $count++
         $path = [string]$row.path
         $itemType = [string]$row.itemType
-        $permRows = if ($permsByPath.ContainsKey($path)) { @($permsByPath[$path]) } else { @() }
+        [object[]]$permRows = @()
+        if ($permsByPath.ContainsKey($path)) { $permRows = $permsByPath[$path].ToArray() }
 
         Write-Log ("Traitement [{0}]: {1}" -f $count, $path)
 

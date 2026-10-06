@@ -69,7 +69,7 @@ function Write-Log {
     $line = "[{0}][{1}] {2}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $level, $message
     Write-Host $line
     if ($script:LogFile) {
-        try { Add-Content -LiteralPath $script:LogFile -Value $line -Encoding UTF8 } catch {}
+        try { Add-Content -LiteralPath $script:LogFile -Value $line -Encoding UTF8 -ErrorAction Stop } catch {}
     }
 }
 
@@ -441,7 +441,7 @@ try {
                 $itemCount = [int]@(Scan-GenericList -list $list -key $key)[-1]
             }
 
-            $listsOut.Add([ordered]@{
+            $listsOut.Add([pscustomobject][ordered]@{
                 listId      = [string]$list.id
                 displayName = [string]$list.displayName
                 relativeUrl = $key
@@ -459,7 +459,11 @@ try {
         }
     }
 
-    ConvertTo-Json -InputObject @($listsOut) -Depth 12 | Set-Content -LiteralPath (Join-Path $OutputDirectory 'lists.json') -Encoding UTF8
+    # Serialisation element par element puis assemblage du tableau (evite les erreurs de ConvertTo-Json sur de gros tableaux).
+    $listJsonParts = New-Object System.Collections.Generic.List[string]
+    foreach ($l in $listsOut) { $listJsonParts.Add((ConvertTo-Json -InputObject $l -Depth 12 -Compress)) }
+    $listsJson = '[' + ($listJsonParts -join ',') + ']'
+    [System.IO.File]::WriteAllText((Join-Path $OutputDirectory 'lists.json'), $listsJson, (New-Object System.Text.UTF8Encoding($false)))
     Write-Log ("lists.json ecrit: {0} liste(s)/bibliotheque(s)" -f $listsOut.Count) "SUCCESS"
 
     if ($enableCsvExport) {
