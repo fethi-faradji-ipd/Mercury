@@ -1,0 +1,828 @@
+{
+  "SchemaVersion": 2,
+  "ExportedAtUtc": "2026-10-05T12:52:43.6377706Z",
+  "SourceSiteUrl": "https://infoprodigital365.sharepoint.com/sites/fethygate",
+  "SourceWebRelativeUrl": "/sites/fethygate",
+  "CustomRoles": [],
+  "SharePointGroups": [
+    {
+      "Title": "CustomFethiRights",
+      "Description": "",
+      "Owner": {
+        "Key": "USER:wheuang-op@infopro-digital.com",
+        "Title": "William HEUANG (OP)",
+        "Email": "wheuang-op@infopro-digital.com",
+        "LoginName": "i:0#.f|membership|wheuang-op2@infopro-digital.com",
+        "PrincipalType": "User",
+        "Category": "User",
+        "Association": "None",
+        "IsExternal": false
+      },
+      "AllowMembersEditMembership": false,
+      "OnlyAllowMembersViewMembership": true,
+      "AllowRequestToJoinLeave": false,
+      "AutoAcceptRequestToJoinLeave": false,
+      "RequestToJoinLeaveEmailSetting": "",
+      "Members": [
+        {
+          "Key": "USER:wheuang-op@infopro-digital.com",
+          "Title": "William HEUANG (OP)",
+          "Email": "wheuang-op@infopro-digital.com",
+          "LoginName": "i:0#.f|membership|wheuang-op2@infopro-digital.com",
+          "PrincipalType": "User",
+          "Category": "User",
+          "Association": "None",
+          "IsExternal": false
+        }
+      ]
+    },
+    {
+      "Title": "grp_test",
+      "Description": "",
+      "Owner": {
+        "Key": "USER:fethy.faradji@infopro-digital.com",
+        "Title": "FARADJI, Fethi",
+        "Email": "fethy.faradji@infopro-digital.com",
+        "LoginName": "i:0#.f|membership|fethy.faradji@infopro-digital.com",
+        "PrincipalType": "User",
+        "Category": "User",
+        "Association": "None",
+        "IsExternal": false
+      },
+      "AllowMembersEditMembership": false,
+      "OnlyAllowMembersViewMembership": true,
+      "AllowRequestToJoinLeave": false,
+      "AutoAcceptRequestToJoinLeave": false,
+      "RequestToJoinLeaveEmailSetting": "",
+      "Members": [
+        {
+          "Key": "USER:fethy.faradji@infopro-digital.com",
+          "Title": "FARADJI, Fethi",
+          "Email": "fethy.faradji@infopro-digital.com",
+          "LoginName": "i:0#.f|membership|fethy.faradji@infopro-digital.com",
+          "PrincipalType": "User",
+          "Category": "User",
+          "Association": "None",
+          "IsExternal": false
+        }
+      ]
+    },
+    {
+      "Title": "test",
+      "Description": "",
+      "Owner": {
+        "Key": "USER:fethy.faradji@infopro-digital.com",
+        "Title": "FARADJI, Fethi",
+        "Email": "fethy.faradji@infopro-digital.com",
+        "LoginName": "i:0#.f|membership|fethy.faradji@infopro-digital.com",
+        "PrincipalType": "User",
+        "Category": "User",
+        "Association": "None",
+        "IsExternal": false
+      },
+      "AllowMembersEditMembership": false,
+      "OnlyAllowMembersViewMembership": true,
+      "AllowRequestToJoinLeave": false,
+      "AutoAcceptRequestToJoinLeave": false,
+      "RequestToJoinLeaveEmailSetting": "",
+      "Members": [
+        {
+          "Key": "USER:fethy.faradji@infopro-digital.com",
+          "Title": "FARADJI, Fethi",
+          "Email": "fethy.faradji@infopro-digital.com",
+          "LoginName": "i:0#.f|membership|fethy.faradji@infopro-digital.com",
+          "PrincipalType": "User",
+          "Category": "User",
+          "Association": "None",
+          "IsExternal": false
+        }
+      ]
+    }
+  ],
+  "SecurableObjects": [
+    {
+      "ObjectType": "Web",
+      "RelativePath": "",
+      "ListRelativeUrl": null,
+      "IsLibrary": false,
+      "ItemId": null,
+      "FileRef": null,
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:CustomFethiRights",
+            "Title": "CustomFethiRights",
+            "Email": "",
+            "LoginName": "CustomFethiRights",
+            "PrincipalType": "SharePointGroup",
+            "Category": "CustomGroup",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Affichage restreint",
+              "RoleTypeKind": "RestrictedReader",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/Drive ECHOLINE",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 5,
+      "FileRef": "/sites/fethygate/Documents partages/Drive ECHOLINE",
+      "IsFolder": true,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:fethy.faradji@infopro-digital.com",
+            "Title": "FARADJI, Fethi",
+            "Email": "fethy.faradji@infopro-digital.com",
+            "LoginName": "i:0#.f|membership|fethy.faradji@infopro-digital.com",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/SCRIPT",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 266,
+      "FileRef": "/sites/fethygate/Documents partages/SCRIPT",
+      "IsFolder": true,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/Audit_user_gmail.xlsx",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 3,
+      "FileRef": "/sites/fethygate/Documents partages/Audit_user_gmail.xlsx",
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/Capture d’écran 2026-01-27 172058.jpg",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 4,
+      "FileRef": "/sites/fethygate/Documents partages/Capture d’écran 2026-01-27 172058.jpg",
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/emailaddress.csv",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 263,
+      "FileRef": "/sites/fethygate/Documents partages/emailaddress.csv",
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/Members_.csv",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 264,
+      "FileRef": "/sites/fethygate/Documents partages/Members_.csv",
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Visiteurs",
+            "Title": "FethiGate - Visiteurs",
+            "Email": "",
+            "LoginName": "FethiGate - Visiteurs",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Visitors",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Lecture",
+              "RoleTypeKind": "Reader",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:FethiGate - Membres",
+            "Title": "FethiGate - Membres",
+            "Email": "",
+            "LoginName": "FethiGate - Membres",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Members",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    },
+    {
+      "ObjectType": "Item",
+      "RelativePath": "Documents partages/Members_support_CUSTOMRIGHTSTEST.csv",
+      "ListRelativeUrl": "Documents partages",
+      "IsLibrary": true,
+      "ItemId": 265,
+      "FileRef": "/sites/fethygate/Documents partages/Members_support_CUSTOMRIGHTSTEST.csv",
+      "IsFolder": false,
+      "Assignments": [
+        {
+          "Principal": {
+            "Key": "SPGROUP:Propriétaires de FethiGate",
+            "Title": "Propriétaires de FethiGate",
+            "Email": "",
+            "LoginName": "Propriétaires de FethiGate",
+            "PrincipalType": "SharePointGroup",
+            "Category": "AssociatedGroup",
+            "Association": "Owners",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Contrôle total",
+              "RoleTypeKind": "Administrator",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:usertest2.ipdlab@infopro-digital.fr",
+            "Title": "User test 02",
+            "Email": "usertest2.ipdlab@infopro-digital.fr",
+            "LoginName": "i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Collaboration",
+              "RoleTypeKind": "Contributor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "SPGROUP:CustomFethiRights",
+            "Title": "CustomFethiRights",
+            "Email": "",
+            "LoginName": "CustomFethiRights",
+            "PrincipalType": "SharePointGroup",
+            "Category": "CustomGroup",
+            "Association": "None",
+            "IsExternal": false
+          },
+          "Roles": [
+            {
+              "Name": "Modification",
+              "RoleTypeKind": "Editor",
+              "IsCustom": false
+            }
+          ]
+        },
+        {
+          "Principal": {
+            "Key": "USER:fethi.faradji@gmail.com",
+            "Title": "fethi.faradji",
+            "Email": "fethi.faradji@gmail.com",
+            "LoginName": "i:0#.f|membership|fethi.faradji_gmail.com#ext#@infoprodigital365.onmicrosoft.com",
+            "PrincipalType": "User",
+            "Category": "User",
+            "Association": "None",
+            "IsExternal": true
+          },
+          "Roles": [
+            {
+              "Name": "Affichage restreint",
+              "RoleTypeKind": "RestrictedReader",
+              "IsCustom": false
+            }
+          ]
+        }
+      ],
+      "SharingGrants": []
+    }
+  ],
+  "SharingLinkGroups": []
+}

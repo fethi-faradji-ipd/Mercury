@@ -83,7 +83,10 @@ function Add-MissingNodes {
     foreach ($node in @($Nodes)) {
         $title = [string]$node.Title
         $url = Convert-NodeUrl -Url ([string]$node.Url) -SourceWebUrl $SrcWeb -TargetWebUrl $DstWeb
-        if ([string]::IsNullOrWhiteSpace($title) -or [string]::IsNullOrWhiteSpace($url)) { continue }
+        if ([string]::IsNullOrWhiteSpace($title) -or [string]::IsNullOrWhiteSpace($url)) {
+            Write-Log ("noeud ignore (titre ou URL vide): '{0}' / '{1}'" -f $title, $node.Url) 'WARN'
+            continue
+        }
 
         $key = "$ParentId|$title".ToLowerInvariant()
         $newId = $null
@@ -108,6 +111,38 @@ function Add-MissingNodes {
     }
 }
 
+# Les bibliotheques/listes apparaissent dans le menu de gauche grace a leur propriete OnQuickLaunch
+# ("Afficher dans la navigation"), pas via des noeuds de navigation : on recopie cette propriete.
+function Sync-ListNavigation {
+    param($Src, $Dst, [string]$SrcWeb, [string]$DstWeb)
+
+    $props = 'Title', 'Hidden', 'IsSystemList', 'OnQuickLaunch', 'RootFolder'
+    $srcLists = @(Get-PnPList -Includes $props -Connection $Src)
+    $dstMap = @{}
+    foreach ($l in @(Get-PnPList -Includes $props -Connection $Dst)) {
+        $rel = ([string]$l.RootFolder.ServerRelativeUrl).Substring($DstWeb.Length).TrimStart('/').ToLowerInvariant()
+        $dstMap[$rel] = $l
+    }
+
+    foreach ($l in $srcLists) {
+        if ($l.Hidden -or $l.IsSystemList -or -not $l.OnQuickLaunch) { continue }
+        $rel = ([string]$l.RootFolder.ServerRelativeUrl).Substring($SrcWeb.Length).TrimStart('/')
+        $target = $dstMap[$rel.ToLowerInvariant()]
+        if (-not $target) {
+            Write-Log ("liste absente de la cible: {0}" -f $rel) 'WARN'
+            continue
+        }
+        if ($target.OnQuickLaunch) {
+            Write-Log ("deja dans la navigation: {0}" -f $rel)
+        } elseif (-not $Apply) {
+            Write-Log ("[Simulation] affichage dans la navigation: {0}" -f $rel)
+        } else {
+            Set-PnPList -Identity $target -OnQuickLaunch $true -Connection $Dst
+            Write-Log ("ajoutee a la navigation: {0}" -f $rel) 'SUCCESS'
+        }
+    }
+}
+
 try {
     Write-Log ("Mode: {0}" -f $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION (aucune modification)' }))
     if (-not (Get-Module -ListAvailable -Name PnP.PowerShell)) { throw 'Module PnP.PowerShell absent. Installez PowerShell 7 puis, dans pwsh : Install-Module PnP.PowerShell -Scope CurrentUser' }
@@ -118,6 +153,9 @@ try {
 
     $srcWeb = (Get-PnPWeb -Connection $src).ServerRelativeUrl
     $dstWeb = (Get-PnPWeb -Connection $dst).ServerRelativeUrl
+
+    Write-Log 'Listes et bibliotheques affichees dans la navigation'
+    Sync-ListNavigation -Src $src -Dst $dst -SrcWeb $srcWeb -DstWeb $dstWeb
 
     foreach ($location in $Locations) {
         Write-Log ("Navigation {0}" -f $location)

@@ -1,0 +1,287 @@
+14:52:28 [+00:00:00] STEP    ======================================================================
+14:52:28 [+00:00:00] STEP    MIGRATION DES DROITS SHAREPOINT NON NATIFS (meme tenant ou cross-tenant)
+14:52:28 [+00:00:00] STEP    ======================================================================
+14:52:28 [+00:00:00] INFO    PowerShell 7.5.0 - PnP.PowerShell 3.4.1 - hote : ConsoleHost
+14:52:28 [+00:00:00] INFO    Script    : C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\droitscustome_2.ps1
+14:52:28 [+00:00:00] INFO    Rapports  : C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Permissions-Migration
+14:52:28 [+00:00:00] INFO    Suivi     : C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Permissions-Migration\Suivi_20261005_145228.log
+14:52:28 [+00:00:00] INFO    Mode      : APPLICATION (modifications reelles)
+14:52:28 [+00:00:00] INFO    Options   : MirrorSourcePermissions=True, ReplaceUniquePermissions=False, IncludeHiddenLists=False, SkipItemPermissions=False, InviteMissingUsers=False, IncludeAssociatedGroupAssignments=True, MigrateEveryoneClaims=False, SharingLinkRecipients=External, InviteExternalRecipients=True, LogLevel=Detail
+14:52:28 [+00:00:00] INFO    Domaines  : (aucune correspondance)
+14:52:28 [+00:00:00] WARN    MEME TENANT detecte (source et cible identiques) : copie intra-tenant, les comptes et groupes Entra sont reutilises tels quels.
+14:52:28 [+00:00:00] WARN    La meme application / le meme certificat peuvent servir aux deux connexions (droits FullControl requis sur les deux sites).
+14:52:28 [+00:00:00] STEP    
+14:52:28 [+00:00:00] STEP    ======================================================================
+14:52:28 [+00:00:00] STEP    ETAPE 1/5 : Verification de la configuration et connexion au site source
+14:52:28 [+00:00:00] STEP    ======================================================================
+14:52:28 [+00:00:00] INFO    Source : https://infoprodigital365.sharepoint.com/sites/fethygate (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+14:52:28 [+00:00:00] INFO    Cible  : https://infoprodigital365.sharepoint.com/sites/fethiMercury (tenant 2eea08b8-1972-447b-ad43-d044d042500a, application 821109a4-6e0e-48e8-b477-8f9b70aa32a4)
+14:52:28 [+00:00:00] SUCCESS Configuration valide (URL, identifiants, certificats).
+14:52:28 [+00:00:00] INFO    Connexion applicative au site source avec le certificat source...
+14:52:29 [+00:00:01] SUCCESS Connecte au site source.
+14:52:29 [+00:00:01] SUCCESS Fin de l'etape 'Verification de la configuration et connexion au site source' en 00:00:00
+14:52:29 [+00:00:01] STEP    
+14:52:29 [+00:00:01] STEP    ======================================================================
+14:52:29 [+00:00:01] STEP    ETAPE 2/5 : Export des droits non natifs du site source
+14:52:29 [+00:00:01] STEP    ======================================================================
+14:52:29 [+00:00:01] INFO    Lecture du site source : https://infoprodigital365.sharepoint.com/sites/fethygate
+14:52:30 [+00:00:01] INFO    Lecture des partages via Microsoft Graph active (site infoprodigital365.sharepoint.com,5cd0c893-b052-4293-b0b4-6b05bc998d86,f1c6f9c1-ebba-44f2-8fe7-048e0687a269).
+14:52:30 [+00:00:01] INFO    Groupe Microsoft 365 du site source : 5e4321bb-79e1-42a8-8c46-615c24df0c68
+14:52:30 [+00:00:01] SUCCESS [Export][Success] Site source lu - FethiGate : /sites/fethygate
+14:52:30 [+00:00:01] INFO    Lecture des niveaux d'autorisation...
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Contrôle total' (RoleTypeKind=Administrator, Hidden=False)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Conception' (RoleTypeKind=WebDesigner, Hidden=False)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Modification' (RoleTypeKind=Editor, Hidden=False)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Collaboration' (RoleTypeKind=Contributor, Hidden=False)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Lecture' (RoleTypeKind=Reader, Hidden=False)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Affichage restreint' (RoleTypeKind=RestrictedReader, Hidden=True)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'Accès limité' (RoleTypeKind=Guest, Hidden=True)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'System.LimitedView' (RoleTypeKind=System, Hidden=True)
+14:52:30 [+00:00:01] DETAIL    Niveau natif ignore : 'System.LimitedEdit' (RoleTypeKind=System, Hidden=True)
+14:52:30 [+00:00:01] SUCCESS 0 niveau(x) personnalise(s) a migrer.
+14:52:30 [+00:00:01] INFO    Lecture des groupes natifs du site (Proprietaires/Membres/Visiteurs)...
+14:52:31 [+00:00:02] DETAIL    Visitors = 'FethiGate - Visiteurs' (ID 4)
+14:52:31 [+00:00:02] DETAIL    Members = 'FethiGate - Membres' (ID 5)
+14:52:31 [+00:00:02] DETAIL    Owners = 'Propriétaires de FethiGate' (ID 3)
+14:52:31 [+00:00:02] INFO    Lecture des groupes SharePoint...
+14:52:31 [+00:00:02] DETAIL    6 groupe(s) trouve(s) sur le site source.
+14:52:31 [+00:00:02] INFO      Groupe PERSONNALISE : 'CustomFethiRights' - 1 membre(s), proprietaire 'William HEUANG (OP)'
+14:52:31 [+00:00:02] DETAIL      membre : William HEUANG (OP) [User] wheuang-op@infopro-digital.com
+14:52:31 [+00:00:02] WARN    [Export][Skipped] Groupe natif du site non recree - FethiGate - Membres
+14:52:31 [+00:00:02] WARN    [Export][Skipped] Groupe natif du site non recree - FethiGate - Visiteurs
+14:52:31 [+00:00:03] INFO      Groupe PERSONNALISE : 'grp_test' - 1 membre(s), proprietaire 'FARADJI, Fethi'
+14:52:31 [+00:00:03] DETAIL      membre : FARADJI, Fethi [User] fethy.faradji@infopro-digital.com
+14:52:31 [+00:00:03] WARN    [Export][Skipped] Groupe natif du site non recree - Propriétaires de FethiGate
+14:52:32 [+00:00:03] INFO      Groupe PERSONNALISE : 'test' - 1 membre(s), proprietaire 'FARADJI, Fethi'
+14:52:32 [+00:00:03] DETAIL      membre : FARADJI, Fethi [User] fethy.faradji@infopro-digital.com
+14:52:32 [+00:00:03] SUCCESS 3 groupe(s) personnalise(s) a migrer.
+14:52:32 [+00:00:03] INFO    Lecture des autorisations du site racine...
+14:52:32 [+00:00:03] DETAIL    4 attribution(s) au niveau du site.
+14:52:32 [+00:00:03] INFO    Lecture des listes et bibliotheques...
+14:52:33 [+00:00:04] INFO      20 liste(s) trouvee(s) (y compris cachees/systeme).
+14:52:33 [+00:00:04] DETAIL    [1/20] Liste cachee/systeme ignoree : appdata
+14:52:33 [+00:00:04] DETAIL    [2/20] Liste cachee/systeme ignoree : appfiles
+14:52:33 [+00:00:04] DETAIL    [3/20] Liste cachee/systeme ignoree : Bibliothèque de styles
+14:52:33 [+00:00:04] DETAIL    [4/20] Liste cachee/systeme ignoree : Bibliothèque des journaux de maintenance
+14:52:33 [+00:00:04] INFO      [5/20] Analyse de 'Documents' (Documents partages) - 336 element(s), droits uniques : False
+14:52:34 [+00:00:05] DETAIL        Objet : Documents partages/Drive ECHOLINE
+14:52:35 [+00:00:06] DETAIL          Graph : 6 permission(s) lue(s) sur cet objet
+14:52:35 [+00:00:06] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:35 [+00:00:06] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:35 [+00:00:06] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:35 [+00:00:06] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:35 [+00:00:06] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=fethy.faradji@infopro-digital.com, siteUser=fethy.faradji@infopro-digital.com
+14:52:35 [+00:00:06] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:35 [+00:00:07] DETAIL        Droits uniques : Documents partages/Drive ECHOLINE (5 attribution(s), 0 partage(s))
+14:52:36 [+00:00:07] DETAIL        Objet : Documents partages/SCRIPT
+14:52:36 [+00:00:07] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:36 [+00:00:07] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:36 [+00:00:07] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:36 [+00:00:07] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:36 [+00:00:07] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:36 [+00:00:07] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:37 [+00:00:08] DETAIL        Droits uniques : Documents partages/SCRIPT (4 attribution(s), 0 partage(s))
+14:52:37 [+00:00:08] DETAIL        Objet : Documents partages/Audit_user_gmail.xlsx
+14:52:37 [+00:00:08] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:37 [+00:00:08] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:37 [+00:00:08] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:37 [+00:00:08] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:37 [+00:00:08] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:37 [+00:00:08] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:38 [+00:00:09] DETAIL        Droits uniques : Documents partages/Audit_user_gmail.xlsx (4 attribution(s), 0 partage(s))
+14:52:38 [+00:00:10] DETAIL        Objet : Documents partages/Capture d’écran 2026-01-27 172058.jpg
+14:52:38 [+00:00:10] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:38 [+00:00:10] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:39 [+00:00:10] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:39 [+00:00:10] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:39 [+00:00:10] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:39 [+00:00:10] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:39 [+00:00:11] DETAIL        Droits uniques : Documents partages/Capture d’écran 2026-01-27 172058.jpg (4 attribution(s), 0 partage(s))
+14:52:40 [+00:00:11] DETAIL        Objet : Documents partages/emailaddress.csv
+14:52:40 [+00:00:11] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:40 [+00:00:11] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:40 [+00:00:11] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:40 [+00:00:11] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:40 [+00:00:11] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:40 [+00:00:11] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:41 [+00:00:12] DETAIL        Droits uniques : Documents partages/emailaddress.csv (4 attribution(s), 0 partage(s))
+14:52:41 [+00:00:12] DETAIL        Objet : Documents partages/Members_.csv
+14:52:41 [+00:00:12] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:41 [+00:00:12] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:41 [+00:00:12] DETAIL            - roles=read lien=non invitation=non herite=non pour=siteGroup=FethiGate - Visiteurs
+14:52:41 [+00:00:12] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=FethiGate - Membres
+14:52:41 [+00:00:12] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:41 [+00:00:12] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:42 [+00:00:13] DETAIL        Droits uniques : Documents partages/Members_.csv (4 attribution(s), 0 partage(s))
+14:52:42 [+00:00:13] DETAIL        Objet : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv
+14:52:42 [+00:00:13] DETAIL          Graph : 5 permission(s) lue(s) sur cet objet
+14:52:42 [+00:00:13] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteGroup=Propriétaires de FethiGate
+14:52:42 [+00:00:13] DETAIL            - roles=write lien=non invitation=non herite=non pour=user=usertest2.ipdlab@infopro-digital.fr, siteUser=usertest2.ipdlab@infopro-digital.fr
+14:52:42 [+00:00:13] DETAIL            - roles=write lien=non invitation=non herite=non pour=siteGroup=CustomFethiRights
+14:52:42 [+00:00:13] DETAIL            - roles=restrictedView lien=non invitation=non herite=non pour=user=fethi.faradji@gmail.com, siteUser=fethi.faradji@gmail.com
+14:52:42 [+00:00:13] DETAIL            - roles=owner lien=non invitation=non herite=non pour=siteUser=fethygate@infoprodigital365.onmicrosoft.com, group=fethygate@infoprodigital365.onmicrosoft.com
+14:52:43 [+00:00:14] DETAIL        Droits uniques : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv (4 attribution(s), 0 partage(s))
+14:52:43 [+00:00:14] DETAIL        -> 7 objet(s) a droits uniques dans cette liste, en 9,9 s
+14:52:43 [+00:00:14] DETAIL    [6/20] Liste cachee/systeme ignoree : Extensions de modèle web
+14:52:43 [+00:00:14] DETAIL    [7/20] Liste cachee/systeme ignoree : Formulaires convertis
+14:52:43 [+00:00:14] DETAIL    [8/20] Liste cachee/systeme ignoree : Galerie de composants WebPart
+14:52:43 [+00:00:14] DETAIL    [9/20] Liste cachee/systeme ignoree : Galerie Modèles de listes
+14:52:43 [+00:00:14] DETAIL    [10/20] Liste cachee/systeme ignoree : Galerie Pages maîtres
+14:52:43 [+00:00:14] DETAIL    [11/20] Liste cachee/systeme ignoree : Galerie Solutions
+14:52:43 [+00:00:14] DETAIL    [12/20] Liste cachee/systeme ignoree : Galerie Thèmes
+14:52:43 [+00:00:14] DETAIL    [13/20] Liste cachee/systeme ignoree : Liste d'informations utilisateur
+14:52:43 [+00:00:14] INFO      [14/20] Analyse de 'listetest' (Lists/listetest) - 1 element(s), droits uniques : False
+14:52:43 [+00:00:14] DETAIL        -> 0 objet(s) a droits uniques dans cette liste, en 0,1 s
+14:52:43 [+00:00:14] DETAIL    [15/20] Liste cachee/systeme ignoree : Modèles de formulaire
+14:52:43 [+00:00:14] DETAIL    [16/20] Liste cachee/systeme ignoree : Pages du site
+14:52:43 [+00:00:14] DETAIL    [17/20] Liste cachee/systeme ignoree : Pièces jointes
+14:52:43 [+00:00:14] DETAIL    [18/20] Liste cachee/systeme ignoree : Présentations composées
+14:52:43 [+00:00:14] DETAIL    [19/20] Liste cachee/systeme ignoree : TaxonomyHiddenList
+14:52:43 [+00:00:14] INFO      [20/20] Analyse de 'test' (test) - 100 element(s), droits uniques : False
+14:52:43 [+00:00:14] DETAIL        -> 0 objet(s) a droits uniques dans cette liste, en 0,4 s
+14:52:43 [+00:00:14] SUCCESS [Export][Success] Export JSON termine - C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Permissions-Migration\SharePointPermissions.json : 0 niveaux, 3 groupes, 8 objets securises
+14:52:43 [+00:00:14] INFO    Connexion applicative au site cible avec le certificat cible...
+14:52:43 [+00:00:15] SUCCESS Connecte au site cible.
+14:52:43 [+00:00:15] WARN    MODE APPLICATION (miroir) : les droits des objets a droits uniques seront remplaces par ceux de la source.
+14:52:43 [+00:00:15] DETAIL  0 correspondance(s) chargee(s) depuis le CSV.
+14:52:43 [+00:00:15] INFO    Site cible : 'fethiMercury' (/sites/fethiMercury)
+14:52:43 [+00:00:15] INFO    Groupe Microsoft 365 du site cible : dbfaec4b-8431-4af6-8d7c-941cc6cbe281
+14:52:44 [+00:00:15] DETAIL    Groupe natif cible Visitors = 'fethiMercury - Visiteurs'
+14:52:44 [+00:00:15] DETAIL    Groupe natif cible Members = 'fethiMercury - Membres'
+14:52:44 [+00:00:15] DETAIL    Groupe natif cible Owners = 'Propriétaires de fethiMercury'
+14:52:44 [+00:00:15] SUCCESS Fin de l'etape 'Export des droits non natifs du site source' en 00:00:14
+14:52:44 [+00:00:15] STEP    
+14:52:44 [+00:00:15] STEP    ======================================================================
+14:52:44 [+00:00:15] STEP    ETAPE 3/5 : Niveaux d'autorisation personnalises (0)
+14:52:44 [+00:00:15] STEP    ======================================================================
+14:52:44 [+00:00:15] SUCCESS Fin de l'etape 'Niveaux d'autorisation personnalises (0)' en 00:00:00
+14:52:44 [+00:00:15] STEP    
+14:52:44 [+00:00:15] STEP    ======================================================================
+14:52:44 [+00:00:15] STEP    ETAPE 4/5 : Groupes SharePoint personnalises et membres (3)
+14:52:44 [+00:00:15] STEP    ======================================================================
+14:52:44 [+00:00:15] SUCCESS [Groups][Success] Groupe existant reutilise - CustomFethiRights
+14:52:44 [+00:00:15] SUCCESS [Groups][Success] Groupe existant reutilise - grp_test
+14:52:44 [+00:00:15] SUCCESS [Groups][Success] Groupe existant reutilise - test
+14:52:44 [+00:00:16] DETAIL    Utilisateur (meme tenant) : 'William HEUANG (OP)' -> i:0#.f|membership|wheuang-op2@infopro-digital.com
+14:52:45 [+00:00:16] SUCCESS [Groups][Success] Membre ajoute - CustomFethiRights : i:0#.f|membership|wheuang-op2@infopro-digital.com
+14:52:45 [+00:00:17] DETAIL    Utilisateur (meme tenant) : 'FARADJI, Fethi' -> i:0#.f|membership|fethy.faradji@infopro-digital.com
+14:52:46 [+00:00:17] SUCCESS [Groups][Success] Membre ajoute - grp_test : i:0#.f|membership|fethy.faradji@infopro-digital.com
+14:52:46 [+00:00:17] SUCCESS [Groups][Success] Membre ajoute - test : i:0#.f|membership|fethy.faradji@infopro-digital.com
+14:52:46 [+00:00:17] SUCCESS Fin de l'etape 'Groupes SharePoint personnalises et membres (3)' en 00:00:02
+14:52:46 [+00:00:17] STEP    
+14:52:46 [+00:00:17] STEP    ======================================================================
+14:52:46 [+00:00:17] STEP    ETAPE 5/5 : Autorisations sur le site, les listes et les elements (8 objet(s))
+14:52:46 [+00:00:17] STEP    ======================================================================
+14:52:47 [+00:00:18] DETAIL  19 liste(s) trouvee(s) sur le site cible.
+14:52:47 [+00:00:18] INFO    Partages : 0 lien(s) de partage source, destinataires reportes : External (droits directs, sans e-mail).
+14:52:47 [+00:00:18] INFO    [1/8] Site racine - 4 attribution(s) source
+14:52:47 [+00:00:18] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:52:47 [+00:00:18] DETAIL      ignore : groupe natif avec niveaux natifs au niveau du site.
+14:52:47 [+00:00:18] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:52:47 [+00:00:18] DETAIL      ignore : groupe natif avec niveaux natifs au niveau du site.
+14:52:47 [+00:00:18] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:52:47 [+00:00:18] DETAIL      ignore : groupe natif avec niveaux natifs au niveau du site.
+14:52:47 [+00:00:18] DETAIL    Source : CustomFethiRights [CustomGroup] -> Affichage restreint
+14:52:47 [+00:00:18] DETAIL    1 attribution(s) a appliquer sur la cible.
+14:52:47 [+00:00:18] SUCCESS [Permissions][Success] Autorisation ajoutee - Site racine : CustomFethiRights -> Affichage restreint
+14:52:47 [+00:00:18] INFO    [2/8] Element : Documents partages/Drive ECHOLINE - 5 attribution(s) source
+14:52:48 [+00:00:19] DETAIL    Element cible trouve : ID 3 (source ID 5)
+14:52:48 [+00:00:19] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:52:48 [+00:00:19] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:52:48 [+00:00:19] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:52:48 [+00:00:19] DETAIL    Source : User test 02 [User] -> Collaboration
+14:52:48 [+00:00:19] DETAIL    Utilisateur (meme tenant) : 'User test 02' -> i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr
+14:52:48 [+00:00:19] DETAIL    Source : FARADJI, Fethi [User] -> Collaboration
+14:52:48 [+00:00:19] DETAIL    5 attribution(s) a appliquer sur la cible.
+14:52:49 [+00:00:20] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/Drive ECHOLINE
+14:52:49 [+00:00:21] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Drive ECHOLINE : Propriétaires de fethiMercury -> Contrôle total
+14:52:50 [+00:00:22] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Drive ECHOLINE : fethiMercury - Visiteurs -> Lecture
+14:52:51 [+00:00:22] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Drive ECHOLINE : fethiMercury - Membres -> Modification
+14:52:52 [+00:00:23] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Drive ECHOLINE : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:52:53 [+00:00:24] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Drive ECHOLINE : i:0#.f|membership|fethy.faradji@infopro-digital.com -> Collaboration
+14:52:53 [+00:00:24] INFO    [3/8] Element : Documents partages/SCRIPT - 4 attribution(s) source
+14:52:54 [+00:00:25] DETAIL    Element cible trouve : ID 255 (source ID 266)
+14:52:54 [+00:00:25] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:52:54 [+00:00:25] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:52:54 [+00:00:25] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:52:54 [+00:00:25] DETAIL    Source : User test 02 [User] -> Collaboration
+14:52:54 [+00:00:25] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:52:54 [+00:00:25] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/SCRIPT
+14:52:55 [+00:00:26] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/SCRIPT : Propriétaires de fethiMercury -> Contrôle total
+14:52:55 [+00:00:27] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/SCRIPT : fethiMercury - Visiteurs -> Lecture
+14:52:56 [+00:00:28] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/SCRIPT : fethiMercury - Membres -> Modification
+14:52:57 [+00:00:28] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/SCRIPT : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:52:57 [+00:00:28] INFO    [4/8] Element : Documents partages/Audit_user_gmail.xlsx - 4 attribution(s) source
+14:52:57 [+00:00:29] DETAIL    Element cible trouve : ID 1 (source ID 3)
+14:52:57 [+00:00:29] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:52:58 [+00:00:29] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:52:58 [+00:00:29] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:52:58 [+00:00:29] DETAIL    Source : User test 02 [User] -> Collaboration
+14:52:58 [+00:00:29] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:52:58 [+00:00:29] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/Audit_user_gmail.xlsx
+14:52:59 [+00:00:30] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Audit_user_gmail.xlsx : Propriétaires de fethiMercury -> Contrôle total
+14:53:00 [+00:00:31] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Audit_user_gmail.xlsx : fethiMercury - Visiteurs -> Lecture
+14:53:00 [+00:00:32] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Audit_user_gmail.xlsx : fethiMercury - Membres -> Modification
+14:53:01 [+00:00:33] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Audit_user_gmail.xlsx : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:53:02 [+00:00:33] INFO    [5/8] Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg - 4 attribution(s) source
+14:53:02 [+00:00:33] DETAIL    Element cible trouve : ID 2 (source ID 4)
+14:53:02 [+00:00:33] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:53:02 [+00:00:33] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:53:02 [+00:00:33] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:53:02 [+00:00:33] DETAIL    Source : User test 02 [User] -> Collaboration
+14:53:02 [+00:00:33] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:53:03 [+00:00:34] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg
+14:53:04 [+00:00:35] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg : Propriétaires de fethiMercury -> Contrôle total
+14:53:05 [+00:00:36] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg : fethiMercury - Visiteurs -> Lecture
+14:53:06 [+00:00:37] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg : fethiMercury - Membres -> Modification
+14:53:07 [+00:00:39] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Capture d’écran 2026-01-27 172058.jpg : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:53:08 [+00:00:39] INFO    [6/8] Element : Documents partages/emailaddress.csv - 4 attribution(s) source
+14:53:08 [+00:00:39] DETAIL    Element cible trouve : ID 250 (source ID 263)
+14:53:08 [+00:00:39] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:53:08 [+00:00:39] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:53:08 [+00:00:39] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:53:08 [+00:00:39] DETAIL    Source : User test 02 [User] -> Collaboration
+14:53:08 [+00:00:39] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:53:08 [+00:00:40] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/emailaddress.csv
+14:53:09 [+00:00:40] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/emailaddress.csv : Propriétaires de fethiMercury -> Contrôle total
+14:53:10 [+00:00:41] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/emailaddress.csv : fethiMercury - Visiteurs -> Lecture
+14:53:10 [+00:00:42] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/emailaddress.csv : fethiMercury - Membres -> Modification
+14:53:11 [+00:00:42] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/emailaddress.csv : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:53:11 [+00:00:42] INFO    [7/8] Element : Documents partages/Members_.csv - 4 attribution(s) source
+14:53:12 [+00:00:43] DETAIL    Element cible trouve : ID 253 (source ID 264)
+14:53:12 [+00:00:43] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:53:12 [+00:00:43] DETAIL    Source : FethiGate - Visiteurs [AssociatedGroup] -> Lecture
+14:53:12 [+00:00:43] DETAIL    Source : FethiGate - Membres [AssociatedGroup] -> Modification
+14:53:12 [+00:00:43] DETAIL    Source : User test 02 [User] -> Collaboration
+14:53:12 [+00:00:43] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:53:12 [+00:00:43] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/Members_.csv
+14:53:13 [+00:00:44] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_.csv : Propriétaires de fethiMercury -> Contrôle total
+14:53:13 [+00:00:45] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_.csv : fethiMercury - Visiteurs -> Lecture
+14:53:14 [+00:00:45] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_.csv : fethiMercury - Membres -> Modification
+14:53:15 [+00:00:46] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_.csv : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:53:15 [+00:00:46] INFO    [8/8] Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv - 4 attribution(s) source
+14:53:15 [+00:00:47] DETAIL    Element cible trouve : ID 254 (source ID 265)
+14:53:15 [+00:00:47] DETAIL    Source : Propriétaires de FethiGate [AssociatedGroup] -> Contrôle total
+14:53:15 [+00:00:47] DETAIL    Source : User test 02 [User] -> Collaboration
+14:53:15 [+00:00:47] DETAIL    Source : CustomFethiRights [CustomGroup] -> Modification
+14:53:15 [+00:00:47] DETAIL    Source : fethi.faradji [User] -> Affichage restreint
+14:53:16 [+00:00:47] DETAIL    Utilisateur (meme tenant) : 'fethi.faradji' -> i:0#.f|membership|fethi.faradji_gmail.com#ext#@infoprodigital365.onmicrosoft.com
+14:53:16 [+00:00:47] DETAIL    4 attribution(s) a appliquer sur la cible.
+14:53:16 [+00:00:47] SUCCESS [Permissions][Success] Droits cibles existants remplaces par ceux de la source - Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv
+14:53:17 [+00:00:48] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv : Propriétaires de fethiMercury -> Contrôle total
+14:53:18 [+00:00:49] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv : i:0#.f|membership|usertest2.ipdlab@infopro-digital.fr -> Collaboration
+14:53:18 [+00:00:49] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv : CustomFethiRights -> Modification
+14:53:19 [+00:00:50] SUCCESS [Permissions][Success] Autorisation ajoutee - Element : Documents partages/Members_support_CUSTOMRIGHTSTEST.csv : i:0#.f|membership|fethi.faradji_gmail.com#ext#@infoprodigital365.onmicrosoft.com -> Affichage restreint
+14:53:19 [+00:00:50] SUCCESS Fin de l'etape 'Autorisations sur le site, les listes et les elements (8 objet(s))' en 00:00:32
+14:53:19 [+00:00:50] STEP    
+14:53:19 [+00:00:50] STEP    ======================================================================
+14:53:19 [+00:00:50] STEP    RESUME - duree totale 00:00:50 - mode APPLICATION
+14:53:19 [+00:00:50] STEP    ======================================================================
+14:53:19 [+00:00:50] INFO    Export, Skipped                               3
+14:53:19 [+00:00:50] INFO    Export, Success                               2
+14:53:19 [+00:00:50] INFO    Groups, Success                               6
+14:53:19 [+00:00:50] INFO    Permissions, Success                         37
+14:53:19 [+00:00:50] SUCCESS Erreurs : 0
+14:53:19 [+00:00:50] SUCCESS Principaux non resolus : 0 (voir UnresolvedPrincipals.csv)
+14:53:19 [+00:00:50] INFO    Autorisations appliquees : 30 - prevues (simulation) : 0 - objets cibles introuvables : 0
+14:53:19 [+00:00:50] INFO    Journal de suivi : C:\Users\ffaradji-op\source\repos\Mercury\sharepoint\claude\SharePoint-Permissions-Migration\Suivi_20261005_145228.log
