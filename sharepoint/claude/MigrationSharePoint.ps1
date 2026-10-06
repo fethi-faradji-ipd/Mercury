@@ -5,9 +5,10 @@
     Migration SharePoint complete (source -> cible) en un seul script.
 
 .DESCRIPTION
-    Regroupe cinq phases, lancees dans cet ordre (choix via $Phases) :
+    Regroupe six phases, lancees dans cet ordre (choix via $Phases) :
       Decouverte   inventaire des listes, bibliotheques, fichiers, colonnes et droits (Graph) -> fichiers
       Copie        creation des listes/bibliotheques, copie des fichiers, elements, metadonnees et droits (Graph)
+      Metadonnees  dates Cree/Modifie et auteurs Cree par/Modifie par d'origine (PnP)
       Applications apps SharePoint installees sur le site (PnP)
       Navigation   menu de gauche : listes/bibliotheques et liens (PnP)
       Droits       niveaux d'autorisation, groupes SharePoint, droits uniques personnalises (PnP)
@@ -29,10 +30,11 @@
 # --- Phases a executer. Ordre d'execution fixe : Decouverte, Copie, Applications, Navigation, Droits.
 #   Decouverte   : inventaire des listes/bibliotheques/fichiers/droits Graph -> fichiers (SharePoint-Discovery)
 #   Copie        : creation des listes, copie des fichiers/elements/metadonnees + droits Graph (ecrit toujours)
+#   Metadonnees  : remet Cree/Modifie (dates) et Cree par/Modifie par d'origine           (PnP, PowerShell 7)
 #   Applications : apps SharePoint (SPFx) installees sur le site source -> cible       (PnP, PowerShell 7)
 #   Navigation   : menu de gauche (listes/bibliotheques + liens)                        (PnP, PowerShell 7)
 #   Droits       : niveaux d'autorisation, groupes, droits uniques personnalises        (PnP, PowerShell 7)
-$Phases = @('Decouverte', 'Copie', 'Applications', 'Navigation', 'Droits')
+$Phases = @('Decouverte', 'Copie', 'Metadonnees', 'Applications', 'Navigation', 'Droits')
 
 # $false = les phases PnP (Applications, Navigation, Droits) SIMULENT sans rien modifier sur la cible.
 # La phase Copie n'a pas de simulation : elle ecrit toujours sur la cible.
@@ -119,6 +121,13 @@ $SppkgFolder = ''
 # --- Phase Navigation ----------------------------------------------------------------
 # Emplacement a copier : QuickLaunch (menu de gauche) ou TopNavigationBar (barre du haut).
 $Locations = @('QuickLaunch')
+
+# --- Phase Metadonnees ------------------------------------------------------------------
+# Remet sur la cible les valeurs d'origine que la copie ne peut pas ecrire (Graph) :
+# Cree / Modifie (dates) et Cree par / Modifie par. Necessite d'avoir relance Decouverte + Copie
+# avec cette version. Les adresses e-mail sont transposees avec $DomainMapping (section Droits ci-dessous).
+$MetadataSetDates = $true
+$MetadataSetAuthors = $true
 
 # --- Phase Droits (autorisations non natives) ------------------------------------------
 # $true = remplace les droits uniques des listes, dossiers, fichiers et elements.
@@ -216,11 +225,11 @@ if ([string]::IsNullOrWhiteSpace($TargetClientSecret)) { $TargetClientSecret = $
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePath)) { $TargetCertificatePath = $SourceCertificatePath }
 if ([string]::IsNullOrWhiteSpace($TargetCertificatePassword)) { $TargetCertificatePassword = $SourceCertificatePassword }
 
-$AllPhases = @('Decouverte', 'Copie', 'Applications', 'Navigation', 'Droits')
+$AllPhases = @('Decouverte', 'Copie', 'Metadonnees', 'Applications', 'Navigation', 'Droits')
 foreach ($p in $Phases) {
     if ($AllPhases -notcontains $p) { throw "Phase inconnue '$p'. Valeurs possibles : $($AllPhases -join ', ')" }
 }
-$PnpPhases = @('Applications', 'Navigation', 'Droits')
+$PnpPhases = @('Metadonnees', 'Applications', 'Navigation', 'Droits')
 $needsPnp = @($Phases | Where-Object { $PnpPhases -contains $_ }).Count -gt 0
 
 # PnP.PowerShell 2.x/3.x exige PowerShell 7 : relance automatique dans pwsh.exe.
@@ -483,6 +492,28 @@ function Invoke-PhaseDecouverte {
         Write-Log ("Permissions detectees: item={0}, perms={1}, roles={2}" -f $path, $permCount, $roleCount) "DEBUG"
     }
 
+    # Auteur/date de creation et de derniere modification d'un element Graph (relus par la phase Metadonnees).
+    function Convert-IsoDate($value) {
+        if ($null -eq $value -or [string]::IsNullOrWhiteSpace([string]$value)) { return $null }
+        try { return ([datetime]$value).ToUniversalTime().ToString('o') } catch { return [string]$value }
+    }
+    function Get-Identity($identitySet, $fallbackSet) {
+        $u = $null
+        if ($identitySet -and $identitySet.user) { $u = $identitySet.user }
+        if ((-not $u -or -not $u.email) -and $fallbackSet -and $fallbackSet.user) { $u = $fallbackSet.user }
+        if (-not $u) { return $null }
+        return [ordered]@{ email = [string]$u.email; name = [string]$u.displayName; id = [string]$u.id }
+    }
+    function Get-ItemMetadata($item) {
+        $li = $item.listItem
+        return [ordered]@{
+            created    = Convert-IsoDate $item.createdDateTime
+            modified   = Convert-IsoDate $item.lastModifiedDateTime
+            createdBy  = Get-Identity $item.createdBy $(if ($li) { $li.createdBy })
+            modifiedBy = Get-Identity $item.lastModifiedBy $(if ($li) { $li.lastModifiedBy })
+        }
+    }
+
     function Save-Item {
         param($item, [string]$driveId, [string]$path, [string]$type, [bool]$isFolder, [long]$size)
 
@@ -496,6 +527,7 @@ function Invoke-PhaseDecouverte {
         Write-Jsonl $script:Writers['items.jsonl'] ([ordered]@{
             library = $script:CurrentLibrary; path = $path; itemType = $type; isFolder = $isFolder; size = $size
             driveId = $driveId; itemId = $item.id; listItemId = $listItemId; fields = $fields
+            meta = (Get-ItemMetadata $item)
         })
     }
 
@@ -569,7 +601,7 @@ function Invoke-PhaseDecouverte {
                 $resp = Invoke-With-Retry -Uri $url
                 if (-not $resp) { break }
                 foreach ($it in $resp.value) {
-                    Write-Jsonl $writer ([ordered]@{ id = [int]$it.id; fields = $it.fields })
+                    Write-Jsonl $writer ([ordered]@{ id = [int]$it.id; fields = $it.fields; meta = (Get-ItemMetadata $it) })
                     $count++
                 }
                 $url = $resp.'@odata.nextLink'
@@ -4111,12 +4143,223 @@ function Invoke-PhaseDroits {
     }
 }
 
+function Invoke-PhaseMetadonnees {
+    # Phase Metadonnees : remet Cree/Modifie (dates) et Cree par/Modifie par d'origine sur la cible (PnP, SystemUpdate)
+    $OutputDirectory = Join-Path $WorkDirectory 'SharePoint-Metadata'
+    $ErrorActionPreference = 'Stop'
+    $script:LogFile = $null
+    $results = New-Object System.Collections.Generic.List[object]
+    $stats = @{ ok = 0; datesOnly = 0; failed = 0; skipped = 0 }
+
+    function Write-Log {
+        param([string]$Message, [string]$Level = 'INFO')
+        $line = "[{0}][{1}] {2}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $Level, $Message
+        $color = switch ($Level) { 'ERROR' { 'Red' } 'WARN' { 'Yellow' } 'SUCCESS' { 'Green' } default { 'White' } }
+        Write-Host $line -ForegroundColor $color
+        if ($script:LogFile) { try { Add-Content -LiteralPath $script:LogFile -Value $line -Encoding UTF8 -ErrorAction Stop } catch {} }
+    }
+
+    function Read-Jsonl {
+        param([string]$Path)
+        if (-not (Test-Path -LiteralPath $Path)) { return }
+        foreach ($line in [System.IO.File]::ReadLines($Path, [System.Text.Encoding]::UTF8)) {
+            if ([string]::IsNullOrWhiteSpace($line)) { continue }
+            $line | ConvertFrom-Json
+        }
+    }
+
+    function Connect-Site {
+        param([string]$Url, [string]$Tenant, [string]$ClientId, [string]$CertPath, [string]$CertPassword)
+        if (-not (Test-Path -LiteralPath $CertPath -PathType Leaf)) { throw "Certificat introuvable: $CertPath" }
+        if ([string]::IsNullOrWhiteSpace($CertPassword)) { throw "Mot de passe du certificat vide pour $CertPath" }
+        return Connect-PnPOnline -Url $Url -Tenant $Tenant -ClientId $ClientId -CertificatePath $CertPath `
+            -CertificatePassword (ConvertTo-SecureString -String $CertPassword -AsPlainText -Force) -ReturnConnection
+    }
+
+    # Adresse e-mail source -> adresse cible (correspondance de domaines de $DomainMapping, comme la phase Droits).
+    function Convert-Email([string]$Email) {
+        if ([string]::IsNullOrWhiteSpace($Email)) { return $null }
+        $parts = $Email.Trim().Split('@')
+        if ($parts.Count -eq 2 -and $DomainMapping.ContainsKey($parts[1])) {
+            return ($parts[0] + '@' + [string]$DomainMapping[$parts[1]]).ToLowerInvariant()
+        }
+        return $Email.Trim().ToLowerInvariant()
+    }
+
+    function Get-MetaValues($Meta, [bool]$WithUsers) {
+        $values = @{}
+        if (-not $Meta) { return $values }
+        if ($MetadataSetDates) {
+            if ($Meta.created)  { $values['Created']  = [datetime]::Parse([string]$Meta.created,  [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind) }
+            if ($Meta.modified) { $values['Modified'] = [datetime]::Parse([string]$Meta.modified, [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind) }
+        }
+        if ($MetadataSetAuthors -and $WithUsers) {
+            $author = if ($Meta.createdBy)  { Convert-Email ([string]$Meta.createdBy.email) }
+            $editor = if ($Meta.modifiedBy) { Convert-Email ([string]$Meta.modifiedBy.email) }
+            if ($author) { $values['Author'] = $author }
+            if ($editor) { $values['Editor'] = $editor }
+        }
+        return $values
+    }
+
+    # Applique les valeurs ; si l'utilisateur est inconnu de la cible, on retente avec les dates seules.
+    function Set-Metadata {
+        param($List, [int]$ItemId, $Meta, $Conn, [string]$Label)
+
+        $full = Get-MetaValues -Meta $Meta -WithUsers $true
+        if ($full.Count -eq 0) { $stats.skipped++; return 'ignore' }
+        if (-not $Apply) { $stats.ok++; return 'prevu' }
+        try {
+            Set-PnPListItem -List $List -Identity $ItemId -Values $full -UpdateType SystemUpdate -Connection $Conn | Out-Null
+            $stats.ok++
+            return 'ok'
+        } catch {
+            $firstError = $_.Exception.Message
+            $datesOnly = Get-MetaValues -Meta $Meta -WithUsers $false
+            if ($datesOnly.Count -gt 0 -and ($full.ContainsKey('Author') -or $full.ContainsKey('Editor'))) {
+                try {
+                    Set-PnPListItem -List $List -Identity $ItemId -Values $datesOnly -UpdateType SystemUpdate -Connection $Conn | Out-Null
+                    $stats.datesOnly++
+                    Write-Log ("{0} : auteur non applique ({1}), dates restaurees" -f $Label, $firstError) 'WARN'
+                    return 'dates seules'
+                } catch { $firstError = $_.Exception.Message }
+            }
+            $stats.failed++
+            Write-Log ("{0} : {1}" -f $Label, $firstError) 'ERROR'
+            return ('erreur: ' + $firstError)
+        }
+    }
+
+    New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
+    $script:LogFile = Join-Path $OutputDirectory 'metadonnees.log'
+    Set-Content -LiteralPath $script:LogFile -Value '' -Encoding UTF8
+    Write-Log ("Mode: {0}" -f $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION (aucune modification)' }))
+
+    try {
+        $dstConn = $null
+        $dstWeb = $null
+        $listByRel = @{}
+        if ($Apply) {
+            $dstConn = Connect-Site -Url $TargetSiteUrl -Tenant $TargetTenantId -ClientId $TargetClientId -CertPath $TargetCertificatePath -CertPassword $TargetCertificatePassword
+            $dstWeb = (Get-PnPWeb -Connection $dstConn).ServerRelativeUrl.TrimEnd('/')
+            foreach ($l in @(Get-PnPList -Includes RootFolder -Connection $dstConn)) {
+                $rel = ([string]$l.RootFolder.ServerRelativeUrl).Substring($dstWeb.Length).TrimStart('/').ToLowerInvariant()
+                $listByRel[$rel] = $l
+            }
+        }
+
+        # ---- Fichiers et dossiers des bibliotheques ----
+        $copyResults = Join-Path $WorkDirectory 'SharePoint-Copy\resultats_fichiers.csv'
+        $itemsFile = Join-Path $DiscoveryDirectory 'items.jsonl'
+        if (-not (Test-Path -LiteralPath $copyResults)) { throw "Resultats de copie introuvables : $copyResults (lancez d'abord la phase Copie)" }
+        if (-not (Test-Path -LiteralPath $itemsFile)) { throw "items.jsonl introuvable dans $DiscoveryDirectory (lancez la phase Decouverte)" }
+
+        $metaByPath = @{}
+        $withMeta = 0
+        foreach ($row in (Read-Jsonl -Path $itemsFile)) {
+            if ($row.PSObject.Properties['meta'] -and $row.meta) { $metaByPath[[string]$row.path] = $row.meta; $withMeta++ }
+        }
+        if ($withMeta -eq 0) {
+            Write-Log 'Aucune metadonnee dans items.jsonl : relancez la phase Decouverte (version recente) puis la Copie.' 'WARN'
+        }
+
+        $copied = @(Import-Csv -LiteralPath $copyResults -Encoding UTF8 | Where-Object { $_.Status -eq 'copied' -and $_.PathTranslated })
+        Write-Log ("Fichiers/dossiers copies a traiter : {0}" -f $copied.Count)
+        $i = 0
+        foreach ($r in $copied) {
+            $i++
+            $meta = $metaByPath[[string]$r.PathOriginal]
+            if (-not $meta) { $stats.skipped++; continue }
+            $translated = ([string]$r.PathTranslated).Trim('/')
+            $libKey = ($translated -split '/')[0]
+            $label = $translated
+            if (-not $Apply) { $null = Set-Metadata -List $null -ItemId 0 -Meta $meta -Conn $null -Label $label; continue }
+
+            try {
+                $list = $listByRel[$libKey.ToLowerInvariant()]
+                if (-not $list) { throw "bibliotheque cible introuvable : $libKey" }
+                $serverRel = $dstWeb + '/' + $translated
+                if ([string]$r.ItemType -eq 'Folder') {
+                    $folder = Get-PnPFolder -Url $serverRel -Connection $dstConn
+                    Get-PnPProperty -ClientObject $folder -Property ListItemAllFields -Connection $dstConn | Out-Null
+                    $id = [int]$folder.ListItemAllFields.Id
+                } else {
+                    $id = [int](Get-PnPFile -Url $serverRel -AsListItem -Connection $dstConn).Id
+                }
+                $res = Set-Metadata -List $list -ItemId $id -Meta $meta -Conn $dstConn -Label $label
+                $results.Add([pscustomobject]@{ Type = 'Fichier'; Chemin = $translated; Resultat = $res }) | Out-Null
+            } catch {
+                $stats.failed++
+                Write-Log ("{0} : {1}" -f $label, $_.Exception.Message) 'ERROR'
+                $results.Add([pscustomobject]@{ Type = 'Fichier'; Chemin = $translated; Resultat = ('erreur: ' + $_.Exception.Message) }) | Out-Null
+            }
+            if ($i % 50 -eq 0) { Write-Log ("... {0}/{1}" -f $i, $copied.Count) }
+        }
+
+        # ---- Elements des listes classiques ----
+        $listResults = Join-Path $WorkDirectory 'SharePoint-Copy\resultats_elements_listes.csv'
+        $listsFile = Join-Path $DiscoveryDirectory 'lists.json'
+        if ((Test-Path -LiteralPath $listResults) -and (Test-Path -LiteralPath $listsFile)) {
+            $discoveredLists = @((Get-Content -LiteralPath $listsFile -Raw -Encoding UTF8 | ConvertFrom-Json) | ForEach-Object { $_ })
+            $listIdByKey = @{}
+            foreach ($dl in $discoveredLists) { $listIdByKey[[string]$dl.relativeUrl] = [string]$dl.listId }
+
+            $itemRows = @(Import-Csv -LiteralPath $listResults -Encoding UTF8 | Where-Object { $_.Status -eq 'copied' -and $_.TargetItemId })
+            Write-Log ("Elements de listes copies a traiter : {0}" -f $itemRows.Count)
+            $metaCache = @{}
+            foreach ($r in $itemRows) {
+                $key = [string]$r.ListKey
+                if (-not $metaCache.ContainsKey($key)) {
+                    $map = @{}
+                    if ($listIdByKey.ContainsKey($key)) {
+                        foreach ($row in (Read-Jsonl -Path (Join-Path $DiscoveryDirectory ("listitems\{0}.jsonl" -f $listIdByKey[$key])))) {
+                            if ($row.PSObject.Properties['meta'] -and $row.meta) { $map[[int]$row.id] = $row.meta }
+                        }
+                    }
+                    $metaCache[$key] = $map
+                }
+                $meta = $metaCache[$key][[int]$r.SourceItemId]
+                if (-not $meta) { $stats.skipped++; continue }
+                $label = "{0}/ID:{1}" -f $key, $r.TargetItemId
+                if (-not $Apply) { $null = Set-Metadata -List $null -ItemId 0 -Meta $meta -Conn $null -Label $label; continue }
+
+                try {
+                    $targetKey = if ($LibraryNameMapping.ContainsKey($key)) { [string]$LibraryNameMapping[$key] } else { $key }
+                    $list = $listByRel[$targetKey.ToLowerInvariant()]
+                    if (-not $list) { throw "liste cible introuvable : $targetKey" }
+                    $res = Set-Metadata -List $list -ItemId ([int]$r.TargetItemId) -Meta $meta -Conn $dstConn -Label $label
+                    $results.Add([pscustomobject]@{ Type = 'Element'; Chemin = $label; Resultat = $res }) | Out-Null
+                } catch {
+                    $stats.failed++
+                    Write-Log ("{0} : {1}" -f $label, $_.Exception.Message) 'ERROR'
+                    $results.Add([pscustomobject]@{ Type = 'Element'; Chemin = $label; Resultat = ('erreur: ' + $_.Exception.Message) }) | Out-Null
+                }
+            }
+        }
+
+        Write-Log ("Metadonnees : {0} {1}, dates seules {2}, ignorees {3}, erreurs {4}" -f $(if ($Apply) { 'appliquees' } else { 'a appliquer (simulation)' }), $stats.ok, $stats.datesOnly, $stats.skipped, $stats.failed) 'SUCCESS'
+        if ($stats.failed -gt 0) { $script:PhaseFailed = $true }
+    }
+    catch {
+        Write-Log ("Erreur fatale: {0}" -f $_.Exception.Message) 'ERROR'
+        $script:PhaseFailed = $true
+    }
+    finally {
+        if ($results.Count -gt 0) {
+            $csv = Join-Path $OutputDirectory 'metadonnees_resultats.csv'
+            $results | Export-Csv -LiteralPath $csv -NoTypeInformation -Encoding UTF8
+            Write-Log ("Rapport: {0}" -f $csv)
+        }
+    }
+}
+
 # ============================================================================
 # ORCHESTRATION
 # ============================================================================
 $phaseFunctions = [ordered]@{
     Decouverte   = 'Invoke-PhaseDecouverte'
     Copie        = 'Invoke-PhaseCopie'
+    Metadonnees  = 'Invoke-PhaseMetadonnees'
     Applications = 'Invoke-PhaseApplications'
     Navigation   = 'Invoke-PhaseNavigation'
     Droits       = 'Invoke-PhaseDroits'
