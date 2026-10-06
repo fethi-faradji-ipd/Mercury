@@ -137,7 +137,10 @@ function Sync-ListNavigation {
         } elseif (-not $Apply) {
             Write-Log ("[Simulation] affichage dans la navigation: {0}" -f $rel)
         } else {
-            Set-PnPList -Identity $target -OnQuickLaunch $true -Connection $Dst
+            # Set-PnPList n'expose pas ce parametre : on passe par l'objet CSOM.
+            $target.OnQuickLaunch = $true
+            $target.Update()
+            Invoke-PnPQuery -Connection $Dst
             Write-Log ("ajoutee a la navigation: {0}" -f $rel) 'SUCCESS'
         }
     }
