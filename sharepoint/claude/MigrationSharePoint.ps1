@@ -26,6 +26,9 @@
 # CONFIGURATION A MODIFIER
 # ============================================================================
 
+# Version du script (affichee au demarrage : permet de verifier que la bonne copie tourne sur le serveur).
+$ScriptVersion = '2026-11-17.1'
+
 # Tous les parametres sont ici : modifiez ce bloc puis lancez simplement .\MigrationSharePoint.ps1
 # --- Phases a executer. Ordre d'execution fixe : Decouverte, Copie, Applications, Navigation, Droits, Metadonnees.
 #   Decouverte   : inventaire des listes/bibliotheques/fichiers/droits Graph -> fichiers (SharePoint-Discovery)
@@ -107,10 +110,28 @@ $LibraryNameMapping = @{}
 # Colonnes jamais copiees (systeme / calculees par SharePoint).
 $FieldSkipNames = @('ID', 'Id', 'ContentType', 'ContentTypeId', 'Attachments', 'FileLeafRef', 'FileRef', 'FileDirRef', 'LinkFilename', 'LinkFilenameNoMenu',
     'Created', 'Modified', 'Author', 'Editor', 'AppAuthor', 'AppEditor', '_UIVersionString', 'Edit', 'DocIcon', 'FolderChildCount', 'ItemChildCount',
-    'LinkTitle', 'LinkTitleNoMenu', 'ComplianceAssetId', '_ColorTag', 'ParentLeafName', 'ParentVersionString')
+    'LinkTitle', 'LinkTitleNoMenu', 'ComplianceAssetId', '_ColorTag', 'ParentLeafName', 'ParentVersionString', 'FileSizeDisplay')
 # Groupes de colonnes natifs (deja presents dans la liste creee depuis le meme modele).
 $NativeColumnGroups = @('_Hidden', 'Core Document Columns', 'Core Contact and Calendar Columns', 'Core Task and Issue Columns', 'Base Columns',
     'Document and Record Management Columns', 'Extended Columns', 'Display Template Columns', 'Enterprise Keywords Group', 'Publishing Columns')
+
+# --- Historique des versions (fichiers + elements de listes) ----------------------------
+# Choisissez le niveau de reprise de l'historique ($VersionHistoryMode) :
+#   'None'    : version courante uniquement. Aucun appel supplementaire a l'inventaire (le plus rapide).
+#   'Report'  : version courante copiee ; l'inventaire (Decouverte) liste toutes les versions de la source dans
+#               versions_rapport.csv (element, version, date, auteur, taille). Rien n'est rejoue. (par defaut)
+#   'Content' : en plus, la Copie REJOUE l'historique : chaque version d'un fichier est televersee a la suite
+#               (du plus ancien au plus recent), chaque version d'un element de liste est appliquee a la suite.
+#               La cible obtient le meme nombre de versions, avec le bon contenu / les bonnes valeurs.
+# Limites du mode Content : la date et l'auteur de chaque ANCIENNE version sont ceux de la migration (SharePoint ne
+# permet pas de les imposer version par version) ; seule la version courante recoit les valeurs d'origine (phase
+# Metadonnees). Le versioning doit etre actif sur la bibliotheque/liste cible (c'est le cas par defaut).
+$VersionHistoryMode = 'Report'
+# 0 = toutes les versions ; N = seulement les N versions les plus recentes (limite le volume et la duree).
+$MaxVersionsPerItem = 0
+# Mode Content : rejouer l'historique des fichiers / des elements de listes (desactivables separement).
+$VersionReplayFiles = $true
+$VersionReplayLists = $true
 
 # --- Phase Applications ------------------------------------------------------------
 # Catalogues a examiner : 'Tenant' et/ou 'Site' (catalogue de la collection de sites).
@@ -231,6 +252,9 @@ $AllPhases = @('Decouverte', 'Copie', 'Applications', 'Navigation', 'Droits', 'M
 foreach ($p in $Phases) {
     if ($AllPhases -notcontains $p) { throw "Phase inconnue '$p'. Valeurs possibles : $($AllPhases -join ', ')" }
 }
+if (@('None', 'Report', 'Content') -notcontains $VersionHistoryMode) {
+    throw "VersionHistoryMode '$VersionHistoryMode' invalide. Valeurs possibles : None, Report, Content"
+}
 $PnpPhases = @('Metadonnees', 'Applications', 'Navigation', 'Droits')
 $needsPnp = @($Phases | Where-Object { $PnpPhases -contains $_ }).Count -gt 0
 
@@ -253,7 +277,14 @@ if ($needsPnp) {
     if ($PSVersionTable.PSVersion.Major -lt 7 -and $pnpModule.Version.Major -ge 2) {
         throw 'PnP.PowerShell 2.x/3.x exige PowerShell 7 : installez PowerShell 7 (winget install --id Microsoft.PowerShell) ou PnP.PowerShell 1.12.0.'
     }
+    $alreadyLoaded = Get-Module -Name PnP.PowerShell | Where-Object { $_.Version -eq $pnpModule.Version }
+if (-not $alreadyLoaded) {
+    $otherLoaded = Get-Module -Name PnP.PowerShell | Where-Object { $_.Version -ne $pnpModule.Version }
+    if ($otherLoaded) {
+        throw "PnP.PowerShell $($otherLoaded.Version) est deja charge dans cette session (le script veut $($pnpModule.Version)). Fermez cette fenetre PowerShell et relancez le script dans une session neuve."
+    }
     Import-Module -Name PnP.PowerShell -RequiredVersion $pnpModule.Version -DisableNameChecking
+}
 }
 
 # ============================================================================
@@ -286,6 +317,7 @@ function Invoke-PhaseDecouverte {
     $script:mappingRows = @{}
     $script:Writers = @{}
     $script:Counts = @{ items = 0; permissions = 0; listItems = 0; errors = 0 }
+    $script:VersionRows = New-Object System.Collections.Generic.List[object]
     $script:LogFile = $null
 
     # =========================
@@ -516,6 +548,64 @@ function Invoke-PhaseDecouverte {
         }
     }
 
+    # ---- Historique des versions (mode $VersionHistoryMode : None / Report / Content) ----
+    # Versions d'un fichier (Graph renvoie la plus recente en premier). Retourne $null en cas d'echec.
+    function Get-DriveItemVersions {
+        param([string]$driveId, [string]$itemId)
+        try {
+            $vs = @(Get-AllPages -Uri "https://graph.microsoft.com/v1.0/drives/$driveId/items/$itemId/versions")
+            $out = @($vs | ForEach-Object {
+                [ordered]@{
+                    id         = [string]$_.id
+                    modified   = (Convert-IsoDate $_.lastModifiedDateTime)
+                    modifiedBy = (Get-Identity $_.lastModifiedBy $null)
+                    size       = $(if ($null -ne $_.size) { [long]$_.size } else { $null })
+                }
+            })
+            return , $out
+        } catch {
+            Write-Log ("Versions illisibles pour l'element {0} : {1}" -f $itemId, $_.Exception.Message) "WARN"
+            return $null
+        }
+    }
+
+    # Versions d'un element de liste classique : valeurs de colonnes de chaque version.
+    function Get-ListItemVersions {
+        param([string]$listId, [string]$itemId)
+        try {
+            $vs = @(Get-AllPages -Uri "https://graph.microsoft.com/v1.0/sites/$($script:SiteId)/lists/$listId/items/$itemId/versions")
+            $out = @($vs | ForEach-Object {
+                [ordered]@{
+                    id         = [string]$_.id
+                    modified   = (Convert-IsoDate $_.lastModifiedDateTime)
+                    modifiedBy = (Get-Identity $_.lastModifiedBy $null)
+                    fields     = $_.fields
+                }
+            })
+            return , $out
+        } catch {
+            Write-Log ("Versions illisibles pour l'element de liste {0}/{1} : {2}" -f $listId, $itemId, $_.Exception.Message) "WARN"
+            return $null
+        }
+    }
+
+    # Lignes du rapport versions_rapport.csv.
+    function Add-VersionRows {
+        param([string]$type, [string]$path, $versions)
+        if (-not $versions) { return }
+        foreach ($v in $versions) {
+            $script:VersionRows.Add([pscustomobject]@{
+                Type   = $type
+                Chemin = $path
+                Version = [string]$v.id
+                Date   = [string]$v.modified
+                Auteur = $(if ($v.modifiedBy) { [string]$v.modifiedBy.name } else { '' })
+                Email  = $(if ($v.modifiedBy) { [string]$v.modifiedBy.email } else { '' })
+                Taille = $(if ($null -ne $v.size) { [string]$v.size } else { '' })
+            }) | Out-Null
+        }
+    }
+
     function Save-Item {
         param($item, [string]$driveId, [string]$path, [string]$type, [bool]$isFolder, [long]$size)
 
@@ -525,11 +615,17 @@ function Invoke-PhaseDecouverte {
             $fields = $item.listItem.fields
             $listItemId = $item.listItem.id
         }
+        $versions = $null
+        if ($VersionHistoryMode -ne 'None' -and -not $isFolder) {
+            $versions = Get-DriveItemVersions -driveId $driveId -itemId ([string]$item.id)
+            Add-VersionRows -type 'Fichier' -path $path -versions $versions
+        }
         $script:Counts.items++
         Write-Jsonl $script:Writers['items.jsonl'] ([ordered]@{
             library = $script:CurrentLibrary; path = $path; itemType = $type; isFolder = $isFolder; size = $size
             driveId = $driveId; itemId = $item.id; listItemId = $listItemId; fields = $fields
             meta = (Get-ItemMetadata $item)
+            versions = $versions
         })
     }
 
@@ -603,7 +699,12 @@ function Invoke-PhaseDecouverte {
                 $resp = Invoke-With-Retry -Uri $url
                 if (-not $resp) { break }
                 foreach ($it in $resp.value) {
-                    Write-Jsonl $writer ([ordered]@{ id = [int]$it.id; fields = $it.fields; meta = (Get-ItemMetadata $it) })
+                    $itemVersions = $null
+                    if ($VersionHistoryMode -ne 'None') {
+                        $itemVersions = Get-ListItemVersions -listId ([string]$list.id) -itemId ([string]$it.id)
+                        Add-VersionRows -type 'Element' -path ("{0}/ID:{1}" -f $key, $it.id) -versions $itemVersions
+                    }
+                    Write-Jsonl $writer ([ordered]@{ id = [int]$it.id; fields = $it.fields; meta = (Get-ItemMetadata $it); versions = $itemVersions })
                     $count++
                 }
                 $url = $resp.'@odata.nextLink'
@@ -713,6 +814,13 @@ function Invoke-PhaseDecouverte {
         $listsJson = '[' + ($listJsonParts -join ',') + ']'
         [System.IO.File]::WriteAllText((Join-Path $OutputDirectory 'lists.json'), $listsJson, (New-Object System.Text.UTF8Encoding($false)))
         Write-Log ("lists.json ecrit: {0} liste(s)/bibliotheque(s)" -f $listsOut.Count) "SUCCESS"
+
+        if ($VersionHistoryMode -ne 'None') {
+            $versionReport = Join-Path $OutputDirectory 'versions_rapport.csv'
+            $script:VersionRows | Export-Csv -LiteralPath $versionReport -NoTypeInformation -Encoding UTF8
+            $multi = @($script:VersionRows | Group-Object Type, Chemin | Where-Object { $_.Count -gt 1 }).Count
+            Write-Log ("Rapport des versions: {0} ({1} version(s), {2} element(s) avec historique)" -f $versionReport, $script:VersionRows.Count, $multi) "SUCCESS"
+        }
 
         if ($enableCsvExport) {
             $script:permRowsForCsv | Export-Csv -Path $exportPath -NoTypeInformation -Encoding UTF8
@@ -1273,8 +1381,57 @@ function Invoke-PhaseCopie {
         Write-Log ("Permissions {0}: applied={1}, skipped={2}, failed={3}" -f $PathOriginal, $applied, $skipped, $failed)
     }
 
+    # ---- Historique des versions (mode $VersionHistoryMode = 'Content') ----
+    # Versions a rejouer, du plus ancien au plus recent ; tableau vide si pas de rejeu (mode, option ou < 2 versions).
+    function Get-VersionsToReplay {
+        param($Versions, [ValidateSet('File', 'List')][string]$Kind)
+
+        if ($VersionHistoryMode -ne 'Content') { return @() }
+        if ($Kind -eq 'File' -and -not $VersionReplayFiles) { return @() }
+        if ($Kind -eq 'List' -and -not $VersionReplayLists) { return @() }
+        if (-not $Versions) { return @() }
+
+        $list = @($Versions | ForEach-Object { $_ })
+        if ($list.Count -lt 2) { return @() }
+
+        # Graph renvoie la plus recente en premier : ordre chronologique (par date, sinon inversion du tableau).
+        if (@($list | Where-Object { -not $_.modified }).Count -eq 0) {
+            # [datetime] : PowerShell 7 relit deja les dates ISO du JSON comme des DateTime (un tri sur texte serait faux).
+            $list = @($list | Sort-Object { [datetime]$_.modified })
+        } else {
+            [array]::Reverse($list)
+        }
+        if ($MaxVersionsPerItem -gt 0 -and $list.Count -gt $MaxVersionsPerItem) {
+            $list = @($list | Select-Object -Last $MaxVersionsPerItem)
+        }
+        return $list
+    }
+
+    function Get-VersionCount {
+        param([string]$DriveId, [string]$ItemId, [hashtable]$Connexion)
+        try {
+            return @(Get-GraphAllPages -Uri "https://graph.microsoft.com/v1.0/drives/$DriveId/items/$ItemId/versions" -Connexion $Connexion).Count
+        } catch { return 0 }
+    }
+
+    function Download-VersionContent {
+        param([string]$DriveId, [string]$ItemId, [string]$VersionId, [hashtable]$Connexion)
+
+        $tok = Get-AccessToken -Conn $Connexion
+        $uri = "https://graph.microsoft.com/v1.0/drives/$DriveId/items/$ItemId/versions/$([System.Uri]::EscapeDataString($VersionId))/content"
+
+        $req = [System.Net.Http.HttpRequestMessage]::new([System.Net.Http.HttpMethod]::Get, $uri)
+        $req.Headers.Authorization = [System.Net.Http.Headers.AuthenticationHeaderValue]::new("Bearer", $tok)
+
+        $resp = $script:HttpClient.SendAsync($req).Result
+        if (-not $resp.IsSuccessStatusCode) {
+            throw "Download version $VersionId HTTP $([int]$resp.StatusCode)"
+        }
+        return $resp.Content.ReadAsByteArrayAsync().Result
+    }
+
     function Copy-One {
-        param([string]$Rel, [string]$ItemType, [string]$SrcDriveId, [string]$DstDriveId, [string]$SrcToken, [string]$DstToken)
+        param([string]$Rel, [string]$ItemType, [string]$SrcDriveId, [string]$DstDriveId, [string]$SrcToken, [string]$DstToken, $Versions = $null)
 
         $originalRel = Normalize-RelPath (Strip-LibraryPrefix (Normalize-RelPath $Rel))
         $translatedRel = Normalize-RelPath (Apply-UrlTranslations $originalRel)
@@ -1299,6 +1456,50 @@ function Invoke-PhaseCopie {
         if ($srcExisting.IsFolder -or $ItemType -eq "Folder") {
             $folderId = Ensure-FolderPath -DriveId $DstDriveId -FolderRel $translatedRel -AccessToken $DstToken
             return @{ Ok = $true; ItemId = $folderId; TranslatedRel = $translatedRel; IsFolder = $true; ItemType = "Folder" }
+        }
+
+        # Rejeu de l'historique : chaque version est televersee a la suite (du plus ancien au plus recent),
+        # ce qui recree autant de versions sur la cible (si le versioning de la bibliotheque cible est actif).
+        $replay = @(Get-VersionsToReplay -Versions $Versions -Kind 'File')
+        if ($replay.Count -gt 1) {
+            $dstCount = 0
+            if ($dstExisting.Exists -and $dstExisting.Id) {
+                $dstCount = Get-VersionCount -DriveId $DstDriveId -ItemId $dstExisting.Id -Connexion $connexion_cible
+            }
+            if ($dstCount -ge $replay.Count) {
+                Write-Log ("Historique deja present sur la cible ({0} versions) : {1}" -f $dstCount, $translatedRel)
+                return @{ Ok = $true; ItemId = $dstExisting.Id; TranslatedRel = $translatedRel; IsFolder = $false; ItemType = "File" }
+            }
+
+            $lastId = $null
+            $done = 0
+            for ($i = 0; $i -lt $replay.Count; $i++) {
+                $v = $replay[$i]
+                $isLast = ($i -eq $replay.Count - 1)
+                try {
+                    $vBytes = if ($isLast) {
+                        Download-FileContent -DriveId $SrcDriveId -RelativePath $originalRel -Connexion $connexion_source
+                    } else {
+                        Download-VersionContent -DriveId $SrcDriveId -ItemId $srcExisting.Id -VersionId ([string]$v.id) -Connexion $connexion_source
+                    }
+                    $lastId = Upload-File -DriveId $DstDriveId -RelativePath $translatedRel -Bytes $vBytes -Connexion $connexion_cible
+                    $done++
+                } catch {
+                    Write-Log ("Version {0} non copiee pour {1} : {2}" -f $v.id, $translatedRel, $_.Exception.Message) "WARN"
+                    if ($isLast) { throw }
+                }
+            }
+            if (-not $lastId) {
+                Add-ErrorRow -Path $originalRel -Phase "copy" -Message "Rejeu des versions termine sans item id"
+                return @{ Ok = $false; ItemId = $null; TranslatedRel = $translatedRel; IsFolder = $false; ItemType = "File" }
+            }
+            $after = Get-VersionCount -DriveId $DstDriveId -ItemId $lastId -Connexion $connexion_cible
+            if ($after -lt $done) {
+                Write-Log ("Versions de {0} : {1} televersee(s) mais {2} presente(s) sur la cible (versioning de la bibliotheque cible desactive ?)" -f $translatedRel, $done, $after) "WARN"
+            } else {
+                Write-Log ("Historique recree : {0} ({1} version(s))" -f $translatedRel, $after)
+            }
+            return @{ Ok = $true; ItemId = $lastId; TranslatedRel = $translatedRel; IsFolder = $false; ItemType = "File" }
         }
 
         $bytes = Download-FileContent -DriveId $SrcDriveId -RelativePath $originalRel -Connexion $connexion_source
@@ -1458,6 +1659,14 @@ function Invoke-PhaseCopie {
             if ($FieldSkipNames -contains $name) { continue }
             if ($writable -and -not $writable.Contains($name)) { continue }
             if ($null -eq $prop.Value) { continue }
+            # Valeur vide ("") : inutile a copier, et provoque une erreur 400 sur les colonnes date/nombre.
+            if ($prop.Value -is [string] -and $prop.Value -eq '') { continue }
+            # Colonnes systeme (_ComplianceTag, _CommentCount, _LikeCount, _DisplayName, ...) : jamais copiees.
+            if ($name.StartsWith('_')) { continue }
+            # Liste vide ([]) : ignoree (ex. MediaServiceImageTags) ; Graph repond 400 sur une collection vide.
+            if ($prop.Value -is [System.Array] -and $prop.Value.Count -eq 0) { continue }
+            # Colonnes "Media Service" (etiquettes automatiques des images/videos) : generees par SharePoint.
+            if ($name -like 'MediaService*') { continue }
             $payload[$name] = $prop.Value
             if ($prop.Value -is [System.Array] -and $prop.Value.Count -gt 0 -and $prop.Value[0] -is [string]) {
                 $payload["$name@odata.type"] = "Collection(Edm.String)"
@@ -1510,9 +1719,32 @@ function Invoke-PhaseCopie {
                     $placeholderBudget--
                 }
 
-                $newItem = Invoke-GraphJson -Method "POST" -Uri $itemsUri -Connexion $connexion_cible -Body @{ fields = $payload }
+                # Historique des versions (mode Content) : on cree l'element avec ses valeurs les plus anciennes,
+                # puis chaque version suivante est appliquee a la suite (une version par modification).
+                $replayV = @()
+                if ($CopyItemFields) { $replayV = @(Get-VersionsToReplay -Versions $row.versions -Kind 'List') }
+                if ($replayV.Count -gt 1) {
+                    $firstPayload = ConvertTo-WritableFields -Fields $replayV[0].fields -TargetListId $TargetListId
+                    $newItem = Invoke-GraphJson -Method "POST" -Uri $itemsUri -Connexion $connexion_cible -Body @{ fields = $firstPayload }
+                } else {
+                    $newItem = Invoke-GraphJson -Method "POST" -Uri $itemsUri -Connexion $connexion_cible -Body @{ fields = $payload }
+                }
                 $newId = [int]$newItem.id
                 $next = $newId + 1
+                if ($replayV.Count -gt 1) {
+                    $applied = 1
+                    for ($vi = 1; $vi -lt $replayV.Count; $vi++) {
+                        $vPayload = ConvertTo-WritableFields -Fields $replayV[$vi].fields -TargetListId $TargetListId
+                        if ($vPayload.Count -eq 0) { continue }
+                        try {
+                            $null = Invoke-GraphJson -Method "PATCH" -Uri "$itemsUri/$newId/fields" -Connexion $connexion_cible -Body $vPayload
+                            $applied++
+                        } catch {
+                            Write-Log ("Version {0} non rejouee pour {1}/ID:{2} : {3}" -f $replayV[$vi].id, $SrcList.relativeUrl, $srcId, $_.Exception.Message) "WARN"
+                        }
+                    }
+                    Write-Log ("Historique recree : {0}/ID:{1} ({2} version(s) rejouee(s))" -f $SrcList.relativeUrl, $newId, $applied)
+                }
                 if ($newId -ne $srcId -and -not $idWarned) {
                     $idWarned = $true
                     Write-Log ("ID non preserves sur '{0}' (source {1} -> cible {2}) : droitscustome_2.ps1 ne retrouvera pas ces elements" -f $SrcList.relativeUrl, $srcId, $newId) "WARN"
@@ -1544,7 +1776,9 @@ function Invoke-PhaseCopie {
         try {
             $null = Invoke-GraphJson -Method "PATCH" -Uri "https://graph.microsoft.com/v1.0/drives/$DstDriveId/items/$DstItemId/listItem/fields" -Connexion $connexion_cible -Body $payload
         } catch {
-            Write-Log ("Colonnes non copiees pour {0}: {1}" -f $OriginalPath, $_.Exception.Message) "WARN"
+            $detail = ''
+            try { if ($_.ErrorDetails -and $_.ErrorDetails.Message) { $detail = ' | ' + $_.ErrorDetails.Message } } catch {}
+            Write-Log ("Colonnes non copiees pour {0}: {1}{2} | colonnes envoyees: {3}" -f $OriginalPath, $_.Exception.Message, $detail, (($payload.Keys | Select-Object -First 12) -join ', ')) "WARN"
         }
     }
 
@@ -1651,7 +1885,7 @@ function Invoke-PhaseCopie {
                 $srcToken = Get-AccessToken -Conn $connexion_source
                 $dstToken = Get-AccessToken -Conn $connexion_cible
 
-                $copy = Copy-One -Rel $split.Rel -ItemType $itemType -SrcDriveId $lib.SrcDriveId -DstDriveId $lib.DstDriveId -SrcToken $srcToken -DstToken $dstToken
+                $copy = Copy-One -Rel $split.Rel -ItemType $itemType -SrcDriveId $lib.SrcDriveId -DstDriveId $lib.DstDriveId -SrcToken $srcToken -DstToken $dstToken -Versions $row.versions
                 $translated = if ($copy.TranslatedRel) { "$($lib.DstKey)/$($copy.TranslatedRel)" } else { "$($lib.DstKey)/" }
 
                 if ($copy.Ok) {
@@ -1758,11 +1992,7 @@ function Invoke-PhaseApplications {
         Set-Content -LiteralPath $script:LogFile -Value '' -Encoding UTF8
         Write-Log ("Mode: {0}" -f $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION (aucune modification)' }))
 
-        if (-not (Get-Module -ListAvailable -Name PnP.PowerShell)) {
-            throw 'Module PnP.PowerShell absent. Installez PowerShell 7 puis, dans pwsh : Install-Module PnP.PowerShell -Scope CurrentUser'
-        }
-        Import-Module PnP.PowerShell -DisableNameChecking
-
+        # Le module PnP.PowerShell est deja charge (une seule fois) au demarrage du script.
         Write-Log "Connexion au site source: $SourceSiteUrl"
         $src = Connect-Site -Url $SourceSiteUrl -Tenant $SourceTenantId -ClientId $SourceClientId -CertPath $SourceCertificatePath -CertPassword $SourceCertificatePassword
         Write-Log "Connexion au site cible: $TargetSiteUrl"
@@ -1950,9 +2180,7 @@ function Invoke-PhaseNavigation {
 
     try {
         Write-Log ("Mode: {0}" -f $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION (aucune modification)' }))
-        if (-not (Get-Module -ListAvailable -Name PnP.PowerShell)) { throw 'Module PnP.PowerShell absent. Installez PowerShell 7 puis, dans pwsh : Install-Module PnP.PowerShell -Scope CurrentUser' }
-        Import-Module PnP.PowerShell -DisableNameChecking
-
+        # Le module PnP.PowerShell est deja charge (une seule fois) au demarrage du script.
         $src = Connect-Site -Url $SourceSiteUrl -Tenant $SourceTenantId -ClientId $SourceClientId -CertPath $SourceCertificatePath -CertPassword $SourceCertificatePassword
         $dst = Connect-Site -Url $TargetSiteUrl -Tenant $TargetTenantId -ClientId $TargetClientId -CertPath $TargetCertificatePath -CertPassword $TargetCertificatePassword
 
@@ -4146,13 +4374,14 @@ function Invoke-PhaseDroits {
 }
 
 function Invoke-PhaseMetadonnees {
-    # Phase Metadonnees : remet Cree/Modifie (dates) et Cree par/Modifie par d'origine sur la cible (PnP, SystemUpdate)
+    # Phase Metadonnees : remet Cree/Modifie (dates) et Cree par/Modifie par d'origine sur la cible (PnP, UpdateOverwriteVersion)
     $OutputDirectory = Join-Path $WorkDirectory 'SharePoint-Metadata'
     $ErrorActionPreference = 'Stop'
     $script:LogFile = $null
     $results = New-Object System.Collections.Generic.List[object]
     $stats = @{ ok = 0; datesOnly = 0; failed = 0; skipped = 0; mismatch = 0 }
     $userIdCache = @{}
+    $methodCount = @{}
 
     function Write-Log {
         param([string]$Message, [string]$Level = 'INFO')
@@ -4194,16 +4423,15 @@ function Invoke-PhaseMetadonnees {
         return [datetime]::Parse([string]$Value, [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::RoundtripKind).ToUniversalTime()
     }
 
-    # Adresse -> id de l'utilisateur dans la liste d'information utilisateurs du site cible
+    # Adresse -> utilisateur du site cible : id (liste d'information utilisateurs) + identifiant de connexion.
     # (l'adresse e-mail est d'abord convertie en UPN via Graph, comme dans la phase Droits).
-    function Resolve-TargetUserId {
+    function Resolve-TargetUser {
         param([string]$Email, $Conn)
 
         $mail = Convert-Email $Email
         if (-not $mail) { return $null }
         if ($userIdCache.ContainsKey($mail)) { return $userIdCache[$mail] }
 
-        $id = $null
         $upn = $mail
         try {
             $filter = [Uri]::EscapeDataString("mail eq '$mail' or userPrincipalName eq '$mail'")
@@ -4213,14 +4441,17 @@ function Invoke-PhaseMetadonnees {
         } catch {
             Write-Log ("Recherche Graph impossible pour {0} : {1}" -f $mail, $_.Exception.Message) 'WARN'
         }
+
+        $login = 'i:0#.f|membership|' + $upn
+        $entry = $null
         try {
-            $siteUser = New-PnPUser -LoginName ('i:0#.f|membership|' + $upn) -Connection $Conn
-            $id = [int]$siteUser.Id
+            $siteUser = New-PnPUser -LoginName $login -Connection $Conn
+            $entry = [pscustomobject]@{ Id = [int]$siteUser.Id; Login = $login; Email = $upn }
         } catch {
             Write-Log ("Utilisateur introuvable sur la cible : {0} ({1})" -f $upn, $_.Exception.Message) 'WARN'
         }
-        $userIdCache[$mail] = $id
-        return $id
+        $userIdCache[$mail] = $entry
+        return $entry
     }
 
     function New-UserValue([int]$Id) {
@@ -4229,8 +4460,10 @@ function Invoke-PhaseMetadonnees {
         return $v
     }
 
-    # Ecrit Cree/Modifie/Cree par/Modifie par (SystemUpdate : ne change ni la date ni l'auteur de modification),
+    # Ecrit Cree/Modifie/Cree par/Modifie par (UpdateOverwriteVersion : sans nouvelle version, valeurs imposees),
     # puis relit l'element pour verifier ce que SharePoint a reellement enregistre.
+    # Etape 1 : les dates seules (toujours acceptees). Etape 2 : dates + auteurs, avec plusieurs methodes d'ecriture
+    # de l'utilisateur (la premiere qui fonctionne est retenue ; les erreurs de chaque methode sont journalisees).
     function Set-Metadata {
         param($List, [int]$ItemId, $Meta, $Conn, [string]$Label)
 
@@ -4241,26 +4474,75 @@ function Invoke-PhaseMetadonnees {
         if (-not $created -and -not $modified -and -not $authorMail -and -not $editorMail) { $stats.skipped++; return 'ignore' }
         if (-not $Apply) { $stats.ok++; return 'prevu' }
 
-        try {
-            $authorId = if ($authorMail) { Resolve-TargetUserId -Email $authorMail -Conn $Conn } else { $null }
-            $editorId = if ($editorMail) { Resolve-TargetUserId -Email $editorMail -Conn $Conn } else { $null }
+        $dateValues = @{}
+        if ($created)  { $dateValues['Created']  = $created }
+        if ($modified) { $dateValues['Modified'] = $modified }
 
-            $item = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
-            if ($created)  { $item['Created']  = $created }
-            if ($modified) { $item['Modified'] = $modified }
-            if ($authorId) { $item['Author'] = New-UserValue $authorId }
-            if ($editorId) { $item['Editor'] = New-UserValue $editorId }
-            $item.SystemUpdate()
-            Invoke-PnPQuery -Connection $Conn
+        $authorU = $null
+        $editorU = $null
+        try {
+            $authorU = if ($authorMail) { Resolve-TargetUser -Email $authorMail -Conn $Conn } else { $null }
+            $editorU = if ($editorMail) { Resolve-TargetUser -Email $editorMail -Conn $Conn } else { $null }
+
+            # Etape 1 : dates seules.
+            if ($dateValues.Count -gt 0) {
+                $item = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
+                foreach ($k in $dateValues.Keys) { $item[$k] = $dateValues[$k] }
+                $item.UpdateOverwriteVersion()
+                Invoke-PnPQuery -Connection $Conn
+            }
         } catch {
             $stats.failed++
-            Write-Log ("{0} : ecriture impossible : {1}" -f $Label, $_.Exception.Message) 'ERROR'
+            Write-Log ("{0} : ecriture des dates impossible : {1}" -f $Label, $_.Exception.Message) 'ERROR'
             return ('erreur: ' + $_.Exception.Message)
         }
 
         $notes = New-Object System.Collections.Generic.List[string]
-        if ($authorMail -and -not $authorId) { $notes.Add("auteur '$authorMail' introuvable sur la cible") }
-        if ($editorMail -and -not $editorId) { $notes.Add("modificateur '$editorMail' introuvable sur la cible") }
+        if ($authorMail -and -not $authorU) { $notes.Add("auteur '$authorMail' introuvable sur la cible") }
+        if ($editorMail -and -not $editorU) { $notes.Add("modificateur '$editorMail' introuvable sur la cible") }
+
+        # Etape 2 : auteurs (sans dates ; elles sont reecrites a l'etape 3).
+        $usedMethod = $null
+        if ($authorU -or $editorU) {
+            $errors = New-Object System.Collections.Generic.List[string]
+            foreach ($method in @('PnPLogin', 'PnPEmail', 'CsomFromUser', 'CsomLookupId')) {
+                try {
+                    if ($method -like 'PnP*') {
+                        $vals = @{}
+                        if ($authorU) { $vals['Author'] = $(if ($method -eq 'PnPLogin') { $authorU.Login } else { $authorU.Email }) }
+                        if ($editorU) { $vals['Editor'] = $(if ($method -eq 'PnPLogin') { $editorU.Login } else { $editorU.Email }) }
+                        Set-PnPListItem -List $List -Identity $ItemId -Values $vals -UpdateType UpdateOverwriteVersion -Connection $Conn | Out-Null
+                    } else {
+                        $item = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
+                        if ($authorU) { $item['Author'] = $(if ($method -eq 'CsomFromUser') { [Microsoft.SharePoint.Client.FieldUserValue]::FromUser($authorU.Login) } else { New-UserValue $authorU.Id }) }
+                        if ($editorU) { $item['Editor'] = $(if ($method -eq 'CsomFromUser') { [Microsoft.SharePoint.Client.FieldUserValue]::FromUser($editorU.Login) } else { New-UserValue $editorU.Id }) }
+                        $item.UpdateOverwriteVersion()
+                        Invoke-PnPQuery -Connection $Conn
+                    }
+                    $usedMethod = $method
+                    break
+                } catch {
+                    $errors.Add(("[{0}] {1}" -f $method, $_.Exception.Message))
+                }
+            }
+            if (-not $usedMethod) { $notes.Add('auteur/modificateur non appliques : ' + ($errors -join ' | ')) }
+            else { $methodCount[$usedMethod] = 1 + [int]$methodCount[$usedMethod] }
+
+            # Etape 3 : l'ecriture des auteurs peut remettre Modifie a l'instant -> on reecrit les dates,
+            # TOUJOURS par CSOM (voie verifiee : UTC exact, sans conversion de fuseau horaire).
+            if ($usedMethod -and $dateValues.Count -gt 0) {
+                try {
+                    $item = Get-PnPListItem -List $List -Id $ItemId -Connection $Conn
+                    foreach ($k in $dateValues.Keys) { $item[$k] = $dateValues[$k] }
+                    $item.UpdateOverwriteVersion()
+                    Invoke-PnPQuery -Connection $Conn
+                } catch {
+                    $stats.failed++
+                    Write-Log ("{0} : reecriture des dates impossible : {1}" -f $Label, $_.Exception.Message) 'ERROR'
+                    return ('erreur: ' + $_.Exception.Message)
+                }
+            }
+        }
 
         if ($MetadataVerify) {
             try {
@@ -4273,11 +4555,13 @@ function Invoke-PhaseMetadonnees {
                         $diffs.Add(("{0} attendu {1:u} / obtenu {2:u}" -f $pair[0], $pair[1], $actual.ToUniversalTime()))
                     }
                 }
-                foreach ($pair in @(@('Author', $authorId), @('Editor', $editorId))) {
-                    if (-not $pair[1]) { continue }
-                    $actualId = [int]$check[$pair[0]].LookupId
-                    if ($actualId -ne [int]$pair[1]) {
-                        $diffs.Add(("{0} attendu id {1} / obtenu '{2}' (id {3})" -f $pair[0], $pair[1], $check[$pair[0]].LookupValue, $actualId))
+                if ($usedMethod) {
+                    foreach ($pair in @(@('Author', $authorU), @('Editor', $editorU))) {
+                        if (-not $pair[1]) { continue }
+                        $actualId = [int]$check[$pair[0]].LookupId
+                        if ($actualId -ne [int]$pair[1].Id) {
+                            $diffs.Add(("{0} attendu id {1} / obtenu '{2}' (id {3})" -f $pair[0], $pair[1].Id, $check[$pair[0]].LookupValue, $actualId))
+                        }
                     }
                 }
                 if ($diffs.Count -gt 0) {
@@ -4292,10 +4576,11 @@ function Invoke-PhaseMetadonnees {
 
         if ($notes.Count -gt 0) {
             $stats.datesOnly++
-            Write-Log ("{0} : {1}" -f $Label, ($notes -join ' ; ')) 'WARN'
+            Write-Log ("{0} : dates restaurees ; {1}" -f $Label, ($notes -join ' ; ')) 'WARN'
             return ('partiel: ' + ($notes -join ' ; '))
         }
         $stats.ok++
+        if ($usedMethod) { return ('ok (auteurs via ' + $usedMethod + ')') }
         return 'ok'
     }
 
@@ -4407,6 +4692,9 @@ function Invoke-PhaseMetadonnees {
         }
 
         Write-Log ("Metadonnees : {0} {1}, partielles (utilisateur introuvable) {2}, ecarts apres verification {3}, ignorees {4}, erreurs {5}" -f $(if ($Apply) { 'appliquees' } else { 'a appliquer (simulation)' }), $stats.ok, $stats.datesOnly, $stats.mismatch, $stats.skipped, $stats.failed) 'SUCCESS'
+        if ($methodCount.Count -gt 0) {
+            Write-Log ("Methodes d'ecriture des auteurs retenues : {0}" -f (($methodCount.GetEnumerator() | ForEach-Object { '{0} x{1}' -f $_.Key, $_.Value }) -join ', '))
+        }
         if ($stats.failed -gt 0 -or $stats.mismatch -gt 0) { $script:PhaseFailed = $true }
     }
     catch {
@@ -4446,6 +4734,7 @@ $phaseSummary = New-Object System.Collections.Generic.List[object]
 $script:PhaseFailed = $false
 
 Write-Banner ("MIGRATION SHAREPOINT - phases : {0} - mode PnP : {1}" -f ($Phases -join ', '), $(if ($Apply) { 'APPLICATION' } else { 'SIMULATION' }))
+Write-Host "Script : version $ScriptVersion ($PSCommandPath)"
 Write-Host "Source : $SourceSiteUrl"
 Write-Host "Cible  : $TargetSiteUrl"
 
